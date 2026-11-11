@@ -1,0 +1,45 @@
+{
+  "analysis-urls-all": {
+    "captured": "2026-11-11T04:30:04.395Z",
+    "totalUrls": 10,
+    "totalDocuments": 0,
+    "method": "user-provided-list",
+    "robotsTxtFound": false,
+    "robotsTxtRulesApplied": false,
+    "limitations": "Pages imported from a stardust auto-migration run; no site discovery was performed.",
+    "confidence": "100%",
+    "urls": [
+      {
+        "url": "https://www.axa.co.jp/about-axa"
+      },
+      {
+        "url": "https://www.axa.co.jp/about-insurance"
+      },
+      {
+        "url": "https://www.axa.co.jp/company"
+      },
+      {
+        "url": "https://www.axa.co.jp/customer"
+      },
+      {
+        "url": "https://www.axa.co.jp/customer-feedback"
+      },
+      {
+        "url": "https://www.axa.co.jp/dataprivacy"
+      },
+      {
+        "url": "https://www.axa.co.jp/"
+      },
+      {
+        "url": "https://www.axa.co.jp/product"
+      },
+      {
+        "url": "https://www.axa.co.jp/prospect"
+      },
+      {
+        "url": "https://www.axa.co.jp/recruitment"
+      }
+    ],
+    "documents": []
+  }
+}

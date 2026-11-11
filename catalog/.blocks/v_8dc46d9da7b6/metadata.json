@@ -1,0 +1,31 @@
+{
+  "id": "v_8dc46d9da7b6",
+  "type": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-11T04:30:04.395Z",
+  "sourceContext": {
+    "originUrl": "https://www.axa.co.jp/customer",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "noimg",
+    "purpose": "Banner slider",
+    "structure": "Banner slider block"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.axa.co.jp/customer",
+        "instanceId": "b02-banner-slider",
+        "instanceIds": [
+          "b02-banner-slider"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_customer--e91fded9/blocks/b02-banner-slider.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

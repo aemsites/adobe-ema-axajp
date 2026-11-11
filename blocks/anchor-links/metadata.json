@@ -1,0 +1,32 @@
+{
+  "variantName": "anchor-links",
+  "baseBlock": "custom",
+  "canonicalModel": "anchor-links",
+  "visualCharacteristics": "A row of bordered jump buttons with arrows that link to sections on the same page. Variants render numbered tabs, two-up grids, or icon cards with a chevron.",
+  "contentPattern": "One row per link: a single cell with a link paragraph (usually to #anchor); with icons, two cells per row: [icon picture][link paragraph].",
+  "options": [
+    {
+      "class": "jump",
+      "label": "Jump tabs"
+    },
+    {
+      "class": "icons",
+      "label": "Icons"
+    },
+    {
+      "class": "two-up",
+      "label": "Two up"
+    },
+    {
+      "class": "arrow-right",
+      "label": "Arrow right"
+    },
+    {
+      "class": "rule-before",
+      "label": "Rule before"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use it for in-page navigation buttons that jump to sections further down the page.",
+  "reuseGuidance": "Reuse it for any list of anchor or related-page buttons; pick columns or cards when items carry body text."
+}

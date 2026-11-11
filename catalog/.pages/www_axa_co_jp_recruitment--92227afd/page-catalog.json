@@ -1,0 +1,110 @@
+{
+  "url": "https://www.axa.co.jp/recruitment",
+  "title": "採用情報｜アクサ生命保険",
+  "timestamp": "2026-11-11T04:30:04.395Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [
+    {
+      "id": "b01-recruit-hero",
+      "type": "hero",
+      "name": "recruit-hero",
+      "variantId": "v_d2214be36908",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it as the opening key visual of a recruitment page with a full-screen background video. Used on 1 page (recruitment template).",
+      "visualChars": {
+        "purpose": "Recruit hero",
+        "structure": "Recruit hero block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b02-recruit-statement",
+      "type": "custom",
+      "name": "recruit-statement",
+      "variantId": "v_6dc20ce064c5",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it to present a centred corporate purpose or message statement between recruitment page sections. Used on 1 page (recruitment template).",
+      "visualChars": {
+        "purpose": "Recruit statement",
+        "structure": "Recruit statement block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b03-recruit-about",
+      "type": "custom",
+      "name": "recruit-about",
+      "variantId": "v_2ada5a51866a",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it for the \"about the group\" section of a recruitment page with overview figures and business information. Used on 1 page (recruitment template).",
+      "visualChars": {
+        "purpose": "Recruit about",
+        "structure": "Recruit about block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b04-recruit-channels",
+      "type": "custom",
+      "name": "recruit-channels",
+      "variantId": "v_af6119345541",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it to describe a company's business, sales channels and service features on a recruitment page. Used on 1 page (recruitment template).",
+      "visualChars": {
+        "purpose": "Recruit channels",
+        "structure": "Recruit channels block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b05-recruit-entry",
+      "type": "custom",
+      "name": "recruit-entry",
+      "variantId": "v_9718f449babf",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it to link to the job categories and the external recruitment site at the end of a recruitment page. Used on 1 page (recruitment template).",
+      "visualChars": {
+        "purpose": "Recruit entry",
+        "structure": "Recruit entry block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    }
+  ],
+  "replicaAdapter": {
+    "stardustSlug": "recruitment",
+    "path": "/recruitment",
+    "templateId": "recruitment",
+    "liveUrl": "https://main--80b77690--aemcoder.aem.page/recruitment",
+    "fullPageScreenshot": null
+  }
+}

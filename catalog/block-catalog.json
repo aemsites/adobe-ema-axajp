@@ -1,0 +1,465 @@
+{
+  "block-catalog": {
+    "schemaVersion": 2,
+    "captured": "2026-11-11T04:30:04.395Z",
+    "totalBlockVariants": 28,
+    "totalBlocksProcessed": 67,
+    "newVariantsCreated": 0,
+    "variantsReused": 0,
+    "layoutKeyThreshold": 0.85,
+    "completionStatus": {
+      "analyzed": 10,
+      "failed": 0
+    },
+    "blockVariants": {
+      "v_78fe251f17d1": {
+        "id": "v_78fe251f17d1",
+        "name": "art-image",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 6,
+        "description": "Use it to place one standalone image or illustration, with an optional mobile version, in a content page. Used on 6 pages (content, insurance-guide and homepage templates).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "art-image",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_063537b88519": {
+        "id": "v_063537b88519",
+        "name": "anchor-links",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 6,
+        "description": "Use it for in-page navigation buttons that jump to sections further down the page. Used on 6 pages (content, product-listing and prospect-hub templates).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "anchor-links",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_92122bf75f57": {
+        "id": "v_92122bf75f57",
+        "name": "columns",
+        "type": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 4,
+        "description": "Use it to lay out text and images side by side in two or more columns. Used on 4 pages (content template).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "columns",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_6dc79497b530": {
+        "id": "v_6dc79497b530",
+        "name": "breadcrumbs",
+        "type": "breadcrumbs",
+        "canonicalModel": "standalone",
+        "pagesFound": 8,
+        "description": "Use it to show the page location trail on content pages. Used on 8 pages (content, insurance-guide, customer-hub, product-listing and prospect-hub templates).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "breadcrumbs",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_52ec292f4f10": {
+        "id": "v_52ec292f4f10",
+        "name": "section-title",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 4,
+        "description": "Use it to introduce a page section with a styled heading. Used on 4 pages (insurance-guide, homepage, product-listing and prospect-hub templates).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "section-title",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_2d853f25d39c": {
+        "id": "v_2d853f25d39c",
+        "name": "bubble-guide",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Use it to present a set of life-event triggers as clickable bubbles that each open a detail modal. Used on 1 page (insurance-guide template).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "bubble-guide",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_83119b67b9f4": {
+        "id": "v_83119b67b9f4",
+        "name": "accordion",
+        "type": "accordion",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "Use it for FAQ-style or grouped content that readers expand panel by panel. Used on 2 pages (insurance-guide and product-listing templates).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "accordion",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_41522ace0c3a": {
+        "id": "v_41522ace0c3a",
+        "name": "link-list",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "Use for a stacked list of related links or documents, optionally with a short description per link. Used on 2 pages (insurance-guide and prospect-hub templates).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "link-list",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_79e458b8d4aa": {
+        "id": "v_79e458b8d4aa",
+        "name": "testimonial-cards",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Use to showcase customer testimonials or stories as linked image cards with overlaid titles. Used on 1 page (insurance-guide template).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "testimonial-cards",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_0a3b0a6bdefd": {
+        "id": "v_0a3b0a6bdefd",
+        "name": "entry-links",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "Use for a small group of prominent entry points into key sections of the site. Used on 2 pages (insurance-guide and homepage templates).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "entry-links",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_8bb4056f3448": {
+        "id": "v_8bb4056f3448",
+        "name": "contact-links",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 3,
+        "description": "Use to present phone contact points with hours and a contact CTA, plus related banners or links. Used on 3 pages (insurance-guide, customer-hub and product-listing templates).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "contact-links",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_249f06b7fbbd": {
+        "id": "v_249f06b7fbbd",
+        "name": "page-banner",
+        "type": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 3,
+        "description": "Use at the top of a page to show the page title, optionally with a background image and a side login or CTA box. Used on 3 pages (customer-hub, product-listing and prospect-hub templates).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "page-banner",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_8dc46d9da7b6": {
+        "id": "v_8dc46d9da7b6",
+        "name": "banner-slider",
+        "type": "carousel",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Use to rotate a set of linked promotional image banners. Used on 1 page (customer-hub template).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "banner-slider",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_f8ad3a933cdb": {
+        "id": "v_f8ad3a933cdb",
+        "name": "link-panels",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Use to group task-oriented links (e.g. claims or inquiries) into icon panels with button links. Used on 1 page (customer-hub template).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "link-panels",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_6471c57b1e08": {
+        "id": "v_6471c57b1e08",
+        "name": "link-buttons",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "Use it for a set of navigation links shown as arrow buttons, such as contractor procedures or product category links. Used on 2 pages (customer-hub and product-listing templates).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "link-buttons",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_56f0f4136a9c": {
+        "id": "v_56f0f4136a9c",
+        "name": "feature-grid",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 3,
+        "description": "Use it to present a set of services or features as icons with short labels. Used on 3 pages (customer-hub, homepage and prospect-hub templates).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "feature-grid",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_a1ba52551b99": {
+        "id": "v_a1ba52551b99",
+        "name": "news-list",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "Use it for dated news, announcements or important notices. Used on 2 pages (customer-hub and homepage templates).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "news-list",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_c6235e0bd887": {
+        "id": "v_c6235e0bd887",
+        "name": "hero-carousel",
+        "type": "carousel",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Use it for the homepage hero with rotating promotional banners. Used on 1 page (homepage template).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "hero-carousel",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_fcbdcd01eda7": {
+        "id": "v_fcbdcd01eda7",
+        "name": "product-cards",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "Use it to showcase insurance products as clickable tiles linking to their pages. Used on 2 pages (homepage and prospect-hub templates).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "product-cards",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_f5daa9b672fd": {
+        "id": "v_f5daa9b672fd",
+        "name": "simulation-quiz",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 3,
+        "description": "Use it to let visitors answer a few questions and get a recommended insurance product. Used on 3 pages (homepage, product-listing and prospect-hub templates).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "simulation-quiz",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_04249a673bae": {
+        "id": "v_04249a673bae",
+        "name": "cta-consult",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "Use it at the end of a page to invite visitors to book a consultation, request a brochure or call. Used on 2 pages (homepage and product-listing templates).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "cta-consult",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_3248d26a3579": {
+        "id": "v_3248d26a3579",
+        "name": "strengths",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "Use it to present a company's key strengths or statistics as a grid of highlighted cards with links. Used on 2 pages (homepage and prospect-hub templates).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "strengths",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_a70ad3af770a": {
+        "id": "v_a70ad3af770a",
+        "name": "banner-links",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Use it to list partner or external site banners as a row of image links. Used on 1 page (homepage template).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "banner-links",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_d2214be36908": {
+        "id": "v_d2214be36908",
+        "name": "recruit-hero",
+        "type": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Use it as the opening key visual of a recruitment page with a full-screen background video. Used on 1 page (recruitment template).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "recruit-hero",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_6dc20ce064c5": {
+        "id": "v_6dc20ce064c5",
+        "name": "recruit-statement",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Use it to present a centred corporate purpose or message statement between recruitment page sections. Used on 1 page (recruitment template).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "recruit-statement",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_2ada5a51866a": {
+        "id": "v_2ada5a51866a",
+        "name": "recruit-about",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Use it for the \"about the group\" section of a recruitment page with overview figures and business information. Used on 1 page (recruitment template).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "recruit-about",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_af6119345541": {
+        "id": "v_af6119345541",
+        "name": "recruit-channels",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Use it to describe a company's business, sales channels and service features on a recruitment page. Used on 1 page (recruitment template).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "recruit-channels",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_9718f449babf": {
+        "id": "v_9718f449babf",
+        "name": "recruit-entry",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Use it to link to the job categories and the external recruitment site at the end of a recruitment page. Used on 1 page (recruitment template).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "recruit-entry",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      }
+    }
+  }
+}

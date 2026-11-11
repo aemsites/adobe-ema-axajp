@@ -1,0 +1,225 @@
+{
+  "url": "https://www.axa.co.jp/about-insurance",
+  "title": "保険の選び方｜アクサ生命保険株式会社",
+  "timestamp": "2026-11-11T04:30:04.395Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [
+    {
+      "id": "b01-breadcrumbs",
+      "type": "breadcrumbs",
+      "name": "breadcrumbs",
+      "variantId": "v_6dc79497b530",
+      "selector": null,
+      "screenshot": null,
+      "bounds": {
+        "x": 208,
+        "y": 127,
+        "width": 1024,
+        "height": 26
+      },
+      "description": "Use it to show the page location trail on content pages. Used on 8 pages (content, insurance-guide, customer-hub, product-listing and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Breadcrumbs",
+        "structure": "Breadcrumbs block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b02-section-title",
+      "type": "custom",
+      "name": "section-title",
+      "variantId": "v_52ec292f4f10",
+      "selector": null,
+      "screenshot": null,
+      "bounds": {
+        "x": 208,
+        "y": 521,
+        "width": 1024,
+        "height": 34
+      },
+      "description": "Use it to introduce a page section with a styled heading. Used on 4 pages (insurance-guide, homepage, product-listing and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Section title",
+        "structure": "Section title block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b03-bubble-guide",
+      "type": "custom",
+      "name": "bubble-guide",
+      "variantId": "v_2d853f25d39c",
+      "selector": null,
+      "screenshot": "blocks/b03-bubble-guide.jpg",
+      "bounds": {
+        "x": 208,
+        "y": 681,
+        "width": 1024,
+        "height": 394
+      },
+      "description": "Use it to present a set of life-event triggers as clickable bubbles that each open a detail modal. Used on 1 page (insurance-guide template).",
+      "visualChars": {
+        "purpose": "Bubble guide",
+        "structure": "Bubble guide block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b04-accordion",
+      "type": "accordion",
+      "name": "accordion",
+      "variantId": "v_83119b67b9f4",
+      "selector": null,
+      "screenshot": "blocks/b04-accordion.jpg",
+      "bounds": {
+        "x": 208,
+        "y": 1123,
+        "width": 1024,
+        "height": 166
+      },
+      "description": "Use it for FAQ-style or grouped content that readers expand panel by panel. Used on 2 pages (insurance-guide and product-listing templates).",
+      "visualChars": {
+        "purpose": "Accordion",
+        "structure": "Accordion block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b05-art-image",
+      "type": "custom",
+      "name": "art-image",
+      "variantId": "v_78fe251f17d1",
+      "selector": null,
+      "screenshot": null,
+      "bounds": {
+        "x": 208,
+        "y": 1545,
+        "width": 1024,
+        "height": 268
+      },
+      "description": "Use it to place one standalone image or illustration, with an optional mobile version, in a content page. Used on 6 pages (content, insurance-guide and homepage templates).",
+      "visualChars": {
+        "purpose": "Art image",
+        "structure": "Art image block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b06-link-list",
+      "type": "custom",
+      "name": "link-list",
+      "variantId": "v_41522ace0c3a",
+      "selector": null,
+      "screenshot": "blocks/b06-link-list.jpg",
+      "bounds": {
+        "x": 208,
+        "y": 3300,
+        "width": 1024,
+        "height": 173
+      },
+      "description": "Use for a stacked list of related links or documents, optionally with a short description per link. Used on 2 pages (insurance-guide and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Link list",
+        "structure": "Link list block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b07-testimonial-cards",
+      "type": "cards",
+      "name": "testimonial-cards",
+      "variantId": "v_79e458b8d4aa",
+      "selector": null,
+      "screenshot": "blocks/b07-testimonial-cards.jpg",
+      "bounds": {
+        "x": 208,
+        "y": 3611,
+        "width": 1024,
+        "height": 594
+      },
+      "description": "Use to showcase customer testimonials or stories as linked image cards with overlaid titles. Used on 1 page (insurance-guide template).",
+      "visualChars": {
+        "purpose": "Testimonial cards",
+        "structure": "Testimonial cards block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b08-entry-links",
+      "type": "custom",
+      "name": "entry-links",
+      "variantId": "v_0a3b0a6bdefd",
+      "selector": null,
+      "screenshot": null,
+      "bounds": {
+        "x": 208,
+        "y": 4205,
+        "width": 1024,
+        "height": 67
+      },
+      "description": "Use for a small group of prominent entry points into key sections of the site. Used on 2 pages (insurance-guide and homepage templates).",
+      "visualChars": {
+        "purpose": "Entry links",
+        "structure": "Entry links block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b09-contact-links",
+      "type": "custom",
+      "name": "contact-links",
+      "variantId": "v_8bb4056f3448",
+      "selector": null,
+      "screenshot": "blocks/b09-contact-links.jpg",
+      "bounds": {
+        "x": 208,
+        "y": 4377,
+        "width": 1024,
+        "height": 115
+      },
+      "description": "Use to present phone contact points with hours and a contact CTA, plus related banners or links. Used on 3 pages (insurance-guide, customer-hub and product-listing templates).",
+      "visualChars": {
+        "purpose": "Contact links",
+        "structure": "Contact links block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    }
+  ],
+  "replicaAdapter": {
+    "stardustSlug": "about-insurance",
+    "path": "/about-insurance",
+    "templateId": "about-insurance",
+    "liveUrl": "https://main--80b77690--aemcoder.aem.page/about-insurance",
+    "fullPageScreenshot": "full-page.jpg",
+    "screenshotSource": "https://move-to-aemsites--adobe-ema-axajp--aemsites.aem.page/about-insurance",
+    "screenshotCapturedAt": "2026-11-11T04:30:38.185Z"
+  }
+}

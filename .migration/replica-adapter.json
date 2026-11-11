@@ -1,0 +1,48 @@
+{
+  "producer": "excat-replica-adapter",
+  "source": {
+    "tool": "stardust",
+    "version": "0.37.1",
+    "flow": "replica",
+    "mode": "rollout"
+  },
+  "originUrl": "https://www.axa.co.jp/",
+  "previewBase": "https://main--80b77690--aemcoder.aem.page/about-axa",
+  "convertedAt": "2026-11-11T04:30:04.395Z",
+  "counts": {
+    "pages": 10,
+    "templates": 7,
+    "blockVariants": 28
+  },
+  "templateNames": {
+    "company": {
+      "name": "content",
+      "description": "Corporate and policy content pages with an art image, anchor links and column text sections"
+    },
+    "about-insurance": {
+      "name": "insurance-guide",
+      "description": "Guide to choosing insurance, with a speech-bubble guide, FAQs, testimonials and entry links"
+    },
+    "customer": {
+      "name": "customer-hub",
+      "description": "Policyholder hub with a banner, slider, service link panels, news and contact links"
+    },
+    "index": {
+      "name": "homepage",
+      "description": "Site homepage with a hero carousel, news, product cards, a simulation quiz and strengths"
+    },
+    "product": {
+      "name": "product-listing",
+      "description": "Product lineup page with anchor navigation, category buttons, accordions and a consultation CTA"
+    },
+    "prospect": {
+      "name": "prospect-hub",
+      "description": "Hub for prospective customers with a simulation quiz, product cards, features and strengths"
+    },
+    "recruitment": {
+      "name": "recruitment",
+      "description": "Recruitment landing page with a hero, statement, about section, hiring channels and entry"
+    }
+  },
+  "screenshots": null
+}

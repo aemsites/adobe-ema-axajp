@@ -1,0 +1,47 @@
+{
+  "id": "v_249f06b7fbbd",
+  "type": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-11T04:30:04.395Z",
+  "sourceContext": {
+    "originUrl": "https://www.axa.co.jp/customer",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "noimg",
+    "purpose": "Page banner",
+    "structure": "Page banner block"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.axa.co.jp/customer",
+        "instanceId": "b01-page-banner",
+        "instanceIds": [
+          "b01-page-banner"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_customer--e91fded9/blocks/b01-page-banner.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/product",
+        "instanceId": "b02-page-banner",
+        "instanceIds": [
+          "b02-page-banner"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_product--dcee6c67/blocks/b02-page-banner.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/prospect",
+        "instanceId": "b01-page-banner",
+        "instanceIds": [
+          "b01-page-banner"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_prospect--c59f070b/blocks/b01-page-banner.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

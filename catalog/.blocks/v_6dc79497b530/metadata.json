@@ -1,0 +1,87 @@
+{
+  "id": "v_6dc79497b530",
+  "type": "breadcrumbs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-11T04:30:04.395Z",
+  "sourceContext": {
+    "originUrl": "https://www.axa.co.jp/about-axa",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "noimg",
+    "purpose": "Breadcrumbs",
+    "structure": "Breadcrumbs block"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.axa.co.jp/about-axa",
+        "instanceId": "b04-breadcrumbs",
+        "instanceIds": [
+          "b04-breadcrumbs"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_about-axa--05362c6c/blocks/b04-breadcrumbs.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/about-insurance",
+        "instanceId": "b01-breadcrumbs",
+        "instanceIds": [
+          "b01-breadcrumbs"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_about-insurance--36fa5423/blocks/b01-breadcrumbs.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/company",
+        "instanceId": "b04-breadcrumbs",
+        "instanceIds": [
+          "b04-breadcrumbs"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_company--63249741/blocks/b04-breadcrumbs.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/customer",
+        "instanceId": "b08-breadcrumbs",
+        "instanceIds": [
+          "b08-breadcrumbs"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_customer--e91fded9/blocks/b08-breadcrumbs.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/customer-feedback",
+        "instanceId": "b04-breadcrumbs",
+        "instanceIds": [
+          "b04-breadcrumbs"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_customer-feedback--3c90b7e2/blocks/b04-breadcrumbs.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/dataprivacy",
+        "instanceId": "b04-breadcrumbs",
+        "instanceIds": [
+          "b04-breadcrumbs"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_dataprivacy--ac691862/blocks/b04-breadcrumbs.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/product",
+        "instanceId": "b01-breadcrumbs",
+        "instanceIds": [
+          "b01-breadcrumbs"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_product--dcee6c67/blocks/b01-breadcrumbs.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/prospect",
+        "instanceId": "b09-breadcrumbs",
+        "instanceIds": [
+          "b09-breadcrumbs"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_prospect--c59f070b/blocks/b09-breadcrumbs.jpg"
+      }
+    ],
+    "reuseCount": 8
+  }
+}

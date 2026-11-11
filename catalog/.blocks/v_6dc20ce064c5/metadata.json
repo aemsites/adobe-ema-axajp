@@ -1,0 +1,31 @@
+{
+  "id": "v_6dc20ce064c5",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-11T04:30:04.395Z",
+  "sourceContext": {
+    "originUrl": "https://www.axa.co.jp/recruitment",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "noimg",
+    "purpose": "Recruit statement",
+    "structure": "Recruit statement block"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.axa.co.jp/recruitment",
+        "instanceId": "b02-recruit-statement",
+        "instanceIds": [
+          "b02-recruit-statement"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_recruitment--92227afd/blocks/b02-recruit-statement.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

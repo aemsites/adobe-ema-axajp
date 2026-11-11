@@ -1,0 +1,55 @@
+{
+  "id": "v_52ec292f4f10",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-11T04:30:04.395Z",
+  "sourceContext": {
+    "originUrl": "https://www.axa.co.jp/about-insurance",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "noimg",
+    "purpose": "Section title",
+    "structure": "Section title block"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.axa.co.jp/about-insurance",
+        "instanceId": "b02-section-title",
+        "instanceIds": [
+          "b02-section-title"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_about-insurance--36fa5423/blocks/b02-section-title.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/",
+        "instanceId": "b04-section-title",
+        "instanceIds": [
+          "b04-section-title"
+        ],
+        "screenshot": ".pages/www_axa_co_jp--bd91ef97/blocks/b04-section-title.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/product",
+        "instanceId": "b03-section-title",
+        "instanceIds": [
+          "b03-section-title"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_product--dcee6c67/blocks/b03-section-title.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/prospect",
+        "instanceId": "b02-section-title",
+        "instanceIds": [
+          "b02-section-title"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_prospect--c59f070b/blocks/b02-section-title.jpg"
+      }
+    ],
+    "reuseCount": 4
+  }
+}

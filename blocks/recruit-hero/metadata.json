@@ -1,0 +1,11 @@
+{
+  "variantName": "recruit-hero",
+  "baseBlock": "hero",
+  "canonicalModel": "hero",
+  "visualCharacteristics": "A full-viewport hero with a fixed looping background video and a white serif title and subtitle at the bottom left that fade in once.",
+  "contentPattern": "Row 1: an h1 whose em holds the title line and the following text the subtitle line. Row 2: two cells with links to the landscape video and the portrait video files.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use it as the opening key visual of a recruitment page with a full-screen background video.",
+  "reuseGuidance": "Reuse it for video-backed full-screen page openers; use the standard hero for image-based heroes."
+}

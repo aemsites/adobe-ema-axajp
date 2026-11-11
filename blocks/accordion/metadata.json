@@ -1,0 +1,20 @@
+{
+  "variantName": "accordion",
+  "baseBlock": "accordion",
+  "canonicalModel": "accordion",
+  "visualCharacteristics": "A stack of collapsible panels, each with a clickable title bar and chevron that expands to show its content. Variants render product listing cards inside panels or stay open on desktop and collapse only on mobile.",
+  "contentPattern": "One row per panel: [title heading or paragraph][body default content][optional flag cell: open to start expanded; with products also a #id anchor].",
+  "options": [
+    {
+      "class": "sp-collapse",
+      "label": "Collapse on mobile only"
+    },
+    {
+      "class": "products",
+      "label": "Products"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use it for FAQ-style or grouped content that readers expand panel by panel.",
+  "reuseGuidance": "Reuse it for any expandable panel list; pick tabs or columns when content should be visible at once."
+}

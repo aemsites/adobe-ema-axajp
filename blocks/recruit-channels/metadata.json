@@ -1,0 +1,11 @@
+{
+  "variantName": "recruit-channels",
+  "baseBlock": "custom",
+  "canonicalModel": "recruit-channels",
+  "visualCharacteristics": "A deep-blue section with a full-bleed key visual, a white heading and lead, a grid of sales-channel items with images, and a list of image-and-text service features.",
+  "contentPattern": "Rows classified by content: key visual [picture only]; head [h2][lead paragraphs]; channel rows (repeat) [group title h2, may be empty][picture][h6 + paragraphs]; service rows (repeat) [picture][h3 + paragraphs].",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use it to describe a company's business, sales channels and service features on a recruitment page.",
+  "reuseGuidance": "Reuse it for the same key-visual plus channel-grid structure; use cards or columns for generic feature lists."
+}

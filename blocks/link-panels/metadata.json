@@ -1,0 +1,11 @@
+{
+  "variantName": "link-panels",
+  "baseBlock": "cards",
+  "canonicalModel": "cards",
+  "visualCharacteristics": "A grey band of white panels, each with an icon, a title and arrow buttons; the first panel is wide with its buttons in two columns and the rest sit side by side as cards.",
+  "contentPattern": "One row per panel: an icon picture, an h2-h4 title, one or more link paragraphs (buttons) and an optional note paragraph.",
+  "options": [],
+  "usage": "Use to group task-oriented links (e.g. claims or inquiries) into icon panels with button links.",
+  "reuseGuidance": "Reuse for icon-headed panels of button links; pick cards for image cards with body text or link-list for plain link lists.",
+  "memberVariantIds": []
+}

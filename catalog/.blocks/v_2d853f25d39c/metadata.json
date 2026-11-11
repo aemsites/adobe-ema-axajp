@@ -1,0 +1,31 @@
+{
+  "id": "v_2d853f25d39c",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-11T04:30:04.395Z",
+  "sourceContext": {
+    "originUrl": "https://www.axa.co.jp/about-insurance",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "noimg",
+    "purpose": "Bubble guide",
+    "structure": "Bubble guide block"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.axa.co.jp/about-insurance",
+        "instanceId": "b03-bubble-guide",
+        "instanceIds": [
+          "b03-bubble-guide"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_about-insurance--36fa5423/blocks/b03-bubble-guide.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

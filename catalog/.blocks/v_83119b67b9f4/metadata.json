@@ -1,0 +1,39 @@
+{
+  "id": "v_83119b67b9f4",
+  "type": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-11T04:30:04.395Z",
+  "sourceContext": {
+    "originUrl": "https://www.axa.co.jp/about-insurance",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "noimg",
+    "purpose": "Accordion",
+    "structure": "Accordion block"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.axa.co.jp/about-insurance",
+        "instanceId": "b04-accordion",
+        "instanceIds": [
+          "b04-accordion"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_about-insurance--36fa5423/blocks/b04-accordion.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/product",
+        "instanceId": "b06-accordion",
+        "instanceIds": [
+          "b06-accordion"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_product--dcee6c67/blocks/b06-accordion.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "sites": {
+    "adobe-ema-axajp": {
+      "previewOrg": "aemsites",
+      "previewSite": "adobe-ema-axajp",
+      "contentHostUrl": "https://content.da.live/aemsites/adobe-ema-axajp/"
+    }
+  },
+  "type": "da"
+}

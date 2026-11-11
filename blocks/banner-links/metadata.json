@@ -1,0 +1,11 @@
+{
+  "variantName": "banner-links",
+  "baseBlock": "cards",
+  "canonicalModel": "cards",
+  "visualCharacteristics": "A wrapping horizontal row of linked partner or external banner images, optionally under a heading.",
+  "contentPattern": "Optional first row: a heading. Then one row per banner: a link paragraph wrapping a picture, whose alt text names the link.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use it to list partner or external site banners as a row of image links.",
+  "reuseGuidance": "Reuse it for any row of linked logo or banner images; use cards when each item needs text as well."
+}

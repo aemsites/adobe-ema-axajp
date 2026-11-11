@@ -1,0 +1,11 @@
+{
+  "variantName": "bubble-guide",
+  "baseBlock": "custom",
+  "canonicalModel": "bubble-guide",
+  "visualCharacteristics": "A blue box with a heading and a grid of coloured speech bubbles; clicking a bubble opens a modal with its explanation.",
+  "contentPattern": "Row 1: one cell with a heading and intro paragraph. Rows 2..n: one per bubble with [label paragraph][modal content: heading + paragraphs][colour keyword: red, ltblue or dkblue].",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use it to present a set of life-event triggers as clickable bubbles that each open a detail modal.",
+  "reuseGuidance": "Reuse it only for this bubble-and-modal guide; pick accordion or cards for ordinary expandable or listed content."
+}

@@ -1,0 +1,47 @@
+{
+  "id": "v_8bb4056f3448",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-11T04:30:04.395Z",
+  "sourceContext": {
+    "originUrl": "https://www.axa.co.jp/about-insurance",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "noimg",
+    "purpose": "Contact links",
+    "structure": "Contact links block"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.axa.co.jp/about-insurance",
+        "instanceId": "b09-contact-links",
+        "instanceIds": [
+          "b09-contact-links"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_about-insurance--36fa5423/blocks/b09-contact-links.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/customer",
+        "instanceId": "b07-contact-links",
+        "instanceIds": [
+          "b07-contact-links"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_customer--e91fded9/blocks/b07-contact-links.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/product",
+        "instanceId": "b09-contact-links",
+        "instanceIds": [
+          "b09-contact-links"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_product--dcee6c67/blocks/b09-contact-links.jpg"
+      }
+    ],
+    "reuseCount": 3
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "url": "https://www.axa.co.jp/company",
+  "title": "法人のお客さま｜アクサ生命株式会社",
+  "timestamp": "2026-11-11T04:30:04.395Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [
+    {
+      "id": "b01-art-image",
+      "type": "custom",
+      "name": "art-image",
+      "variantId": "v_78fe251f17d1",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it to place one standalone image or illustration, with an optional mobile version, in a content page. Used on 6 pages (content, insurance-guide and homepage templates).",
+      "visualChars": {
+        "purpose": "Art image",
+        "structure": "Art image block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b02-anchor-links",
+      "type": "custom",
+      "name": "anchor-links",
+      "variantId": "v_063537b88519",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it for in-page navigation buttons that jump to sections further down the page. Used on 6 pages (content, product-listing and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Anchor links",
+        "structure": "Anchor links block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b03-columns",
+      "type": "columns",
+      "name": "columns",
+      "variantId": "v_92122bf75f57",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it to lay out text and images side by side in two or more columns. Used on 4 pages (content template).",
+      "visualChars": {
+        "purpose": "Columns",
+        "structure": "Columns block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b04-breadcrumbs",
+      "type": "breadcrumbs",
+      "name": "breadcrumbs",
+      "variantId": "v_6dc79497b530",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it to show the page location trail on content pages. Used on 8 pages (content, insurance-guide, customer-hub, product-listing and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Breadcrumbs",
+        "structure": "Breadcrumbs block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    }
+  ],
+  "replicaAdapter": {
+    "stardustSlug": "company",
+    "path": "/company",
+    "templateId": "company",
+    "liveUrl": "https://main--80b77690--aemcoder.aem.page/company",
+    "fullPageScreenshot": null
+  }
+}
