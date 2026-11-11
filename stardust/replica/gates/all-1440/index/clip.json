@@ -1,0 +1,47 @@
+{
+ "url": "https://main--80b77690--aemcoder.aem.page/",
+ "at": "2026-11-09T12:48:06.763Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 2,
+  "offPage": 4,
+  "textNodes": 208,
+  "controls": 141,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.hero-carousel-list",
+   "path": "div.hero-carousel-track > div.hero-carousel-slide > p > a",
+   "text": "",
+   "cutMin": null,
+   "cutMax": null
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 6,
+   "textNodes": 208,
+   "controls": 137,
+   "total": 0
+  }
+ }
+}

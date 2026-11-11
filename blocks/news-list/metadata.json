@@ -1,0 +1,16 @@
+{
+  "variantName": "news-list",
+  "baseBlock": "custom",
+  "canonicalModel": "news-list",
+  "visualCharacteristics": "A list of news items, each with a date and a linked title with an arrow, under a heading and followed by more-links buttons. Variants show a notice box with an alert icon or a grid of recommended image cards.",
+  "contentPattern": "Row 1: [heading]. One row per item: [date paragraph] [title link paragraph]. Last row: [more link paragraphs]. Notice variant: [title paragraph] then one [link paragraph] per notice. Recommended variant: [heading] then one row per card: [picture] [caption link paragraph].",
+  "options": [
+    { "class": "dated", "label": "Dated" },
+    { "class": "home", "label": "Home" },
+    { "class": "notice", "label": "Notice" },
+    { "class": "recommended", "label": "Recommended" }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use it for dated news, announcements or important notices.",
+  "reuseGuidance": "Reuse it for any dated list of announcement links; pick cards for image-led content without dates."
+}

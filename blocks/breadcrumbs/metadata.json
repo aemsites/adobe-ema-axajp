@@ -1,0 +1,16 @@
+{
+  "variantName": "breadcrumbs",
+  "baseBlock": "breadcrumbs",
+  "canonicalModel": "breadcrumbs",
+  "visualCharacteristics": "A small trail of links back to parent pages, separated by > and ending with the current page as plain text. The slash variant shows an inline trail with orange / separators.",
+  "contentPattern": "One row, one cell holding a list: each item is a link to an ancestor page, and the last item is the current page title as plain text.",
+  "options": [
+    {
+      "class": "slash",
+      "label": "Slash separators"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use it to show the page location trail on content pages.",
+  "reuseGuidance": "Reuse it on every page that needs a breadcrumb trail; there is no other block for this."
+}

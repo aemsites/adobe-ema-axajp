@@ -1,0 +1,269 @@
+/* anchor-links — content.css .anchor-buttons / .anchor-btn */
+.anchor-links {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1.0938rem 0;
+  background-color: #fff;
+  box-shadow: #e5e5e5 0 1px 3px;
+}
+
+/* a Prismic rule (0.875rem hr) above the buttons */
+.anchor-links.rule-before {
+  margin-top: calc(2.1875rem + 1px);
+}
+
+.anchor-links .anchor-links-item {
+  display: flex;
+  flex: 0 1 auto;
+  width: 33.3333%;
+}
+
+.anchor-links .anchor-links-item p {
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+
+.anchor-links .anchor-links-item a:any-link {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 40px;
+  padding: calc(0.4375rem + 12px) 55px calc(0.4375rem + 12px) 20px;
+  border: 1px solid #f5f5f5;
+  background-color: #fff;
+  color: var(--blue, #00008f);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 18px;
+  text-align: left;
+  transition: 0.25s;
+}
+
+.anchor-links .anchor-links-item a:any-link::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  width: 0;
+  height: 120%;
+  transform: translate(-50%, -50%) skewX(-37.7deg);
+  transition: 0.3s ease-in-out;
+}
+
+.anchor-links .anchor-links-item a:any-link::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  width: 15px;
+  height: 15px;
+  margin-top: -7.5px;
+  background: currentcolor;
+  transform: rotate(90deg);
+  mask: url('arrow-thin.svg') center / contain no-repeat;
+  transition: 0.25s;
+}
+
+.anchor-links .anchor-links-item a:any-link:hover {
+  color: #fff;
+}
+
+.anchor-links .anchor-links-item a:any-link:hover::before {
+  width: 120%;
+  background-color: #000072;
+}
+
+@media (width <= 767px) {
+  .anchor-links .anchor-links-item {
+    width: 100%;
+  }
+}
+
+/* ---------- jump — prospect jump tabs (prospect.css `.jump`, `.jump__tab`, `.badge`) */
+.anchor-links.jump {
+  flex-flow: column nowrap;
+  width: 100%;
+  margin: 0;
+  background: none;
+  box-shadow: none;
+  border-left: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.anchor-links.jump .anchor-links-item {
+  width: auto;
+  border-top: 1px solid #d9d9d9;
+  border-right: 1px solid #d9d9d9;
+}
+
+.anchor-links.jump .anchor-links-item a:any-link {
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  min-height: 0;
+  padding: 16px;
+  border: 0;
+  background: none;
+  color: var(--blue);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 16px;
+  transition: none;
+}
+
+.anchor-links.jump .anchor-links-item a:any-link::before { content: none; }
+
+.anchor-links.jump .anchor-links-item a:any-link::after {
+  position: static;
+  flex: none;
+  width: 16px;
+  height: 16px;
+  margin: 0 0 0 auto;
+  transition: none;
+  mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">\
+<path d="M14.7 18.6007L13.4175 17.3407L17.5575 13.2007H3V11.4007H17.5575L13.44 7.26073L\
+14.7 6.00073L21 12.3007L14.7 18.6007Z"/></svg>') center / contain no-repeat;
+}
+
+.anchor-links.jump .anchor-links-item em {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+  color: var(--white);
+  background: var(--blue);
+  border-radius: 32px;
+  user-select: none;
+}
+
+.anchor-links.jump .anchor-links-item a:any-link:hover { color: var(--blue-hover); }
+.anchor-links.jump .anchor-links-item a:any-link:hover em { background: var(--blue-hover); }
+
+@media (width >= 768px) {
+  .anchor-links.jump { flex-direction: row; }
+  .anchor-links.jump .anchor-links-item { flex: 1 1 0; }
+
+  .anchor-links.jump .anchor-links-item a:any-link {
+    display: block;
+    text-align: center;
+  }
+
+  .anchor-links.jump .anchor-links-item em {
+    display: flex;
+    margin: 0 auto 15px;
+  }
+
+  .anchor-links.jump .anchor-links-item a:any-link::after {
+    display: block;
+    margin: 12px auto 0;
+  }
+}
+
+@media (width <= 767px) {
+  .anchor-links.jump .anchor-links-item { width: auto; }
+}
+
+/* icons — product `.anchor-button-wrapper`: six bordered icon boxes (15% / 2% gap on PC,
+   a 3-up grid with shared 2px borders on SP) */
+/* stylelint-disable no-descending-specificity -- variant rules follow the base rules */
+.anchor-links.icons {
+  display: flex;
+  flex-flow: wrap;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  box-shadow: none;
+}
+
+.anchor-links.icons .anchor-links-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15%;
+  height: 150px;
+  padding: 1.25rem;
+  border: 2px solid var(--blue);
+  color: var(--blue);
+  font-size: 0.9975rem;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.anchor-links.icons .anchor-links-button:hover { color: #00006d; }
+
+.anchor-links.icons .anchor-links-icon :is(p, picture) { display: contents; }
+
+.anchor-links.icons .anchor-links-icon img {
+  width: 100%;
+  height: auto;
+  max-width: 100px;
+  max-height: 70px;
+}
+
+.anchor-links.icons .anchor-links-text {
+  width: 100%;
+  margin-top: auto;
+}
+
+.anchor-links.icons .anchor-links-arrow {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  margin-top: auto;
+}
+
+.anchor-links.icons .anchor-links-arrow svg {
+  width: 1rem;
+  height: 1rem;
+  fill: var(--blue);
+}
+
+@media (width >= 768px) {
+  .anchor-links.icons .anchor-links-button + .anchor-links-button { margin-left: 2%; }
+}
+
+@media (width <= 767px) {
+  .anchor-links.icons .anchor-links-button {
+    width: 33.3333%;
+    height: 100px;
+    padding: 0.5rem;
+  }
+
+  .anchor-links.icons .anchor-links-button:has(+ .anchor-links-button) {
+    margin: 0 -2px -2px 0;
+  }
+
+  .anchor-links.icons .anchor-links-icon { height: 45px; }
+  .anchor-links.icons .anchor-links-icon img { height: 45px; }
+  .anchor-links.icons .anchor-links-text { font-size: 0.8rem; }
+}
+
+/* ---------- sibling variants (cluster-content: customer-feedback LinkButtons to pages) ----------
+   two-up: two buttons per row from 768px (live `[class^="DirectButton"] { width: 50% }`);
+   arrow-right: page links point right (live svg rotate(0deg)), not down to an anchor */
+@media (width >= 768px) {
+  .anchor-links.two-up .anchor-links-item {
+    width: 50%;
+  }
+}
+
+.anchor-links.arrow-right .anchor-links-item a:any-link::after {
+  transform: none;
+}

@@ -1,0 +1,182 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:dynamics",
+    "writtenAt": "2026-11-09T13:30:00Z"
+  },
+  "method": "rebuild-native blocks/widgets for chrome, modals, carousels, quiz and tabs; interim GET hand-offs to the source for out-of-scope result pages; tags carried disabled through scripts/martech.js",
+  "features": [
+    {
+      "id": "chrome-menu",
+      "feature": "header mega-menus + mobile drawer",
+      "class": "M",
+      "pages": 9,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "chrome-compare 1440 exit 0 / 390 one owner exception (header-decisions.json)",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "header nav a",
+          "min": 20
+        }
+      ]
+    },
+    {
+      "id": "m-modal-trigger-newcustomermodal",
+      "feature": "callback-request modal",
+      "class": "M",
+      "pages": 9,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "pending E-full-site",
+      "verifiedBy": "not yet rebuilt: the live NewCustomerModal (お電話でのご相談 white block + コールバックの予約 → /request/callback) is a body-level portal; its trigger is not identified yet — the header has no dialog trigger on the delivered pages",
+      "checks": []
+    },
+    {
+      "id": "home-hero-carousel",
+      "feature": "hero carousel (autoplay)",
+      "class": "M",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "slides rendered; autoplay restored at delivery",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".hero-carousel-slide",
+          "min": 7
+        }
+      ]
+    },
+    {
+      "id": "f-form-prospectform",
+      "feature": "find-your-insurance quiz",
+      "class": "F",
+      "pages": 2,
+      "disposition": "rebuild-native",
+      "reproducibility": "needs-backend",
+      "status": "interim",
+      "verifiedBy": "quiz renders both tabs; submit hands off to the source results page",
+      "owner": "build an EDS results page or keep the source hand-off",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".simulation-quiz fieldset",
+          "min": 3
+        },
+        {
+          "type": "dom-count",
+          "path": "/prospect",
+          "selector": ".simulation-quiz fieldset",
+          "min": 3
+        }
+      ]
+    },
+    {
+      "id": "f-form-select-js-wired",
+      "feature": "product quiz (4 selects)",
+      "class": "F",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "needs-backend",
+      "status": "interim",
+      "verifiedBy": "quiz renders in panel 1",
+      "owner": "same as f-form-prospectform",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/product",
+          "selector": ".simulation-quiz",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "s-site-search-form",
+      "feature": "site search",
+      "class": "S",
+      "pages": 9,
+      "disposition": "index-backed",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "search field in the header; submits to the source /search-result/",
+      "owner": "decide EDS search vs source hand-off",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "header .gnav-search form",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "about-insurance-bubble-popups",
+      "feature": "bubble pop-ups",
+      "class": "M",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "dialog 845px, heading 結婚した, Escape closes (aem.page)",
+      "checks": [
+        {
+          "type": "click-dialog",
+          "path": "/about-insurance",
+          "trigger": ".bubble-guide-btn"
+        }
+      ]
+    },
+    {
+      "id": "customer-slider",
+      "feature": "customer banner slider (autoplay)",
+      "class": "M",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "slides rendered",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/customer",
+          "selector": ".banner-slider-slide",
+          "min": 3
+        }
+      ]
+    },
+    {
+      "id": "no-errors",
+      "feature": "no uncaught errors on every delivered page",
+      "class": "X",
+      "pages": 10,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "10 paths",
+      "checks": [
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/",
+            "/prospect",
+            "/product",
+            "/about-insurance",
+            "/company",
+            "/customer",
+            "/customer-feedback",
+            "/recruitment",
+            "/about-axa",
+            "/dataprivacy"
+          ]
+        }
+      ]
+    }
+  ],
+  "environmentNote": "Replayed 2026-11-09 on main--80b77690--aemcoder.aem.page: 10/10 checks PASS (stardust/qa/page/dynamics-report.md). The aem.live replay passes the same set except bubble Escape: the .live CDN still serves the pre-fix bubble-guide.js to CORS (Origin-header) module requests until its 2h max-age lapses; re-run at E."
+}

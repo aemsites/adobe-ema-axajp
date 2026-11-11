@@ -1,0 +1,1077 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-09T04:42:35.946Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "recruitment",
+  "url": "https://www.axa.co.jp/recruitment/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-09T04:42:35.946Z",
+  "finalUrl": "https://www.axa.co.jp/recruitment/career",
+  "title": "採用情報｜アクサ生命保険",
+  "description": "アクサ生命の新卒採用・中途採用の情報を掲載しているページです。",
+  "og": {
+    "title": "採用情報｜アクサ生命保険",
+    "description": "アクサ生命の新卒採用・中途採用の情報を掲載しているページです。",
+    "image": null,
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "AXA LIFE INSURANCERecruiting Information"
+    },
+    {
+      "tag": "h2",
+      "text": "Our Purpose私たちのパーパス -存在意義-"
+    },
+    {
+      "tag": "h3",
+      "text": "Act for human progress by protecting what matters."
+    },
+    {
+      "tag": "h2",
+      "text": "もし「未来」がリスクではないと考えられたら。"
+    },
+    {
+      "tag": "h2",
+      "text": "アクサグループについて"
+    },
+    {
+      "tag": "h3",
+      "text": "アクサグループの概要"
+    },
+    {
+      "tag": "h4",
+      "text": "顧客"
+    },
+    {
+      "tag": "h5",
+      "text": "約9千200万人のお客さま"
+    },
+    {
+      "tag": "h4",
+      "text": "従業員"
+    },
+    {
+      "tag": "h5",
+      "text": "約15万6千人の従業員"
+    },
+    {
+      "tag": "h3",
+      "text": "バランスの取れたポジション"
+    },
+    {
+      "tag": "h4",
+      "text": "生命保険・医療保険"
+    },
+    {
+      "tag": "h5",
+      "text": "お客さまの健康・医療を守り、プロジェクトに資金を提供します"
+    },
+    {
+      "tag": "h4",
+      "text": "損害保険"
+    },
+    {
+      "tag": "h5",
+      "text": "個人・企業の有形・無形資産を守ります"
+    },
+    {
+      "tag": "h4",
+      "text": "資産運用"
+    },
+    {
+      "tag": "h5",
+      "text": "実体経済と大きな変革のための資金調達を行います"
+    },
+    {
+      "tag": "h3",
+      "text": "アクサグループの日本における事業展開"
+    },
+    {
+      "tag": "h2",
+      "text": "アクサ生命保険について"
+    },
+    {
+      "tag": "h2",
+      "text": "専属営業社員による営業チャネル"
+    },
+    {
+      "tag": "h6",
+      "text": "アクサ CCIチャネル"
+    },
+    {
+      "tag": "h6",
+      "text": "アクサ FAチャネル"
+    },
+    {
+      "tag": "h2",
+      "text": "保険代理店・金融機関代理店を通じた営業チャネル"
+    },
+    {
+      "tag": "h6",
+      "text": "アクサ パートナービジネスチャネル"
+    },
+    {
+      "tag": "h2",
+      "text": "既存チャネルの枠を超えた新たな価値を創造する営業チャネル"
+    },
+    {
+      "tag": "h6",
+      "text": "アクサ MCVPチャネル"
+    },
+    {
+      "tag": "h3",
+      "text": "人生100年時代を歩むお客さま企業とその従業員をサポートする 「健康経営アクサ式」"
+    },
+    {
+      "tag": "h3",
+      "text": "幅広い世代への「ライフマネジメント®」浸透を目指した取組み"
+    },
+    {
+      "tag": "h2",
+      "text": "採用情報"
+    },
+    {
+      "tag": "h3",
+      "text": "Students and Graduates新卒採用 募集要項"
+    },
+    {
+      "tag": "h3",
+      "text": "Experienced professionals中途採用 募集要項"
+    },
+    {
+      "tag": "h3",
+      "text": "Persons with Disabilities障害者採用 募集要項"
+    },
+    {
+      "tag": "h3",
+      "text": "当社の就職活動におけるハラスメント防止の取り組みについて"
+    },
+    {
+      "tag": "h2",
+      "text": "Realize your potential to drive progressより良い未来のために、あなたの可能性をアクサで形に。"
+    }
+  ],
+  "body": [
+    "新卒採用",
+    "中途採用",
+    "障害者採用",
+    "アクサジャパン採用サイト",
+    "すべての人々のより良い未来のために。私たちはみなさんの大切なものを守ります。",
+    "人生には、リスクがつきものです。",
+    "しかし私は、「未来」がリスクであってはならないと固く信じています。誰もが「未来」に希望を抱く権利を持っています。",
+    "世界は常に変化し、新たなリスクが出現します。個人・経済・社会の一員である私たちは、より多くのことを行う責任があります。私たちは、もっと積極的にならなければなりません。その道のりは長いかもしれませんが、私たちはすでに取組みを始めています。",
+    "いち早くリスクを特定し、予測すること。それにより、より多くの人々が社会から排除されず、安全で平等に生きられるよう、新たな解決策を見出し続けています。",
+    "気候面では、パラメトリック保険を通じて必要に応じてカスタマイズされた解決策を開発し、 透明性の高い迅速な保険金給付によって、予期せぬ気象現象による経済的・人的影響を補償しています。",
+    "健康面では、タバコ産業からの投資撤退や、心身の健康に役立つユーザーフレンドリーなテクノロジーへの投資などを通じて、リスクを未然に防ぐ取組みを拡大しています。",
+    "世界50カ国15万4千人の従業員、代理店・パートナーの力を結集したグローバル企業として、私たちは個人・経済・社会を進歩させる役割を担うための手段と強い意志を持っています。",
+    "Know You Can.そう、あなたなら、できる。",
+    "アクサは1817年にフランスで生まれ、世界52の国と地域、約9,200万人のお客さまにサービスを提供する保険および資産運用分野の世界的なリーディングカンパニーです。",
+    "法人、個人のお客さまにご利用いただいています。",
+    "アクサの従業員は、多様な経歴と職種を有しているため、効果的かつ革新的なサービスを提供することができます。また、代理店、ブローカー、銀行などの販売代理店とも密接に連携しています。",
+    "日本においては、保険事業を中心にビジネスを展開しています。保険事業では2019年4月に持株会社であるアクサ・ホールディングス・ジャパン株式会社を設立し、アクサ生命およびアクサ損害保険を子会社としています。保険2社が相互に連携を深めるとともに、その他のアクサグループの日本におけるメンバーカンパニーと密接に連携しながら、 お客さまをリスクからお守りするための商品・サービスをご提供しています。",
+    "＊アクサ・ホールディングス・ジャパン株式会社が所有する議決権の割合（2025年3月31日時点）",
+    "アクサ生命はアクサのメンバーカンパニーとして 1994 年に設立されました。アクサが世界で培ってきた知識と経験を活かし、315 万人のお客さまから 571 万件のご契約をお引き受けしています。1934年の日本団体生命創業以来築いてきた全国 511 の商工会議所、民間企業、官公庁とのパートナーシップを通じて、死亡保障や医療・がん保障、年金、資産形成などの幅広い商品、企業福利の増進やライフマネジメント🄬（人生を経営する）※に関するアドバイスをお届けしています。※ライフマネジメント®はアクサ生命保険株式会社の登録商標です。",
+    "全国各地の商工会議所や商工会の共済制度や福祉制度の引受保険会社として、専任営業社員が経営者のリスク対策、事業承継、従業員福利厚生の提案、健康経営の実践支援などを行っています。",
+    "ファイナンシャル・プランニングの知識を持つ専門担当者が、ライフマネジメント（人生を経営する）をテーマに、お客さまのニーズに合わせた高付加価値のコンサルティングサービスを提供しています。",
+    "全国約3,000の代理店、銀行・信用金庫・信用組合などの金融機関を通じて、個人・法人の多様なニーズに対応したリスクマネジメントとコンサルティングサービスを提供しています。",
+    "MCVP（Multi Channel Value-up Program）ビジネスモデル、 健康経営ビジネスモデル、事業継承、ライフマネジメントの推進により、企業や団体の持続的な成長と地域社会の発展に貢献し、経営者や従業員とそのご家族のライフマネジメント（人生を経営する）をサポートしています。",
+    "「健康経営アクサ式」は、従来の健康管理・健康増進に加えて、夢や生きがい、ライフプランなどの「社会的な健康」まで含めた「トータルな健康」を実現する企業経営者向けサービスです。従業員のワーク・エンゲイジメントを高め、企業の永続的発展をサポートします。特徴は、従業員の人生目標や夢に基づくライフマネジメント®支援です。健康を人生目標実現のツールと位置づけて内発的動機づけを促し、将来の経済的不安への対処や生きがい・働きがいの具現化機会を提供しています。",
+    "アクサ生命では、学生から教職員、企業・団体の従業員、子育て世代まで幅広い世代を対象に、人生の夢や目的実現に向けた「ライフマネジメント®コンサルティング」を提供しています。「ライフマネジメント®」とは、人生の目的・ビジョンに基づき将来のあるべき姿を考え、実現に向けて現実と向き合い進んでいくことです。価値観や生活スタイルが多様化する社会において、“一人ひとりが「人生を経営する」”社会の実現を提唱し、リスクをおそれず未来に向けて前向きに歩むための支援として、アクサは社会啓発に取り組んでいます。",
+    "Students and Graduates新卒採用 募集要項READ MORE",
+    "Experienced professionals中途採用 募集要項READ MORE",
+    "Persons with Disabilities障害者採用 募集要項READ MORE",
+    "商工会議所 / 商工会 共済・福祉制度推進スタッフ READ MORE",
+    "フィナンシャルプラン アドバイザー（FA）採用 READ MORE",
+    "グループの概要や主な仕事内容、インタビュー、福利厚生などの主要な情報は、アクサ採用サイトに掲載されています。アクサに興味をお持ちの方は、まずアクサ採用サイトをご覧ください。",
+    "アクサ生命保険株式会社は、すべての応募者の皆さまがご自身らしさを大切にし、安心して就職活動に臨める環境の整備に努めております。当社では、選考や面談に関わる社員に対し、就職活動に伴うハラスメントを含むあらゆるハラスメントの防止に向けた啓発や研修を実施し、公平で適正な採用活動の推進に取り組んでいます。",
+    "facebook",
+    "linkedin",
+    "youtube",
+    "note",
+    "新卒採用 募集要項",
+    "中途採用 募集要項",
+    "障害者採用 募集要項",
+    "採用ポリシー",
+    "商工会議所共済・福祉制度推進スタッフ採用",
+    "フィナンシャルプランアドバイザー（FA）採用",
+    "アクサジャパン採用サイト",
+    "アクサグローバルキャリアサイト",
+    "企業サイト",
+    "プライバシーポリシー",
+    "労働施策総合推進法に基づく中途採用比率の公表（PDF）",
+    "男女賃金格差の公表（PDF）",
+    "就活ハラスメント防止対応（PDF）"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "アクサ生命採用サイト",
+      "href": "/recruitment/career"
+    },
+    {
+      "label": "新卒採用",
+      "href": "/recruitment/career/students"
+    },
+    {
+      "label": "中途採用",
+      "href": "/recruitment/career/experienced"
+    },
+    {
+      "label": "障害者採用",
+      "href": "/recruitment/career/pwd"
+    },
+    {
+      "label": "アクサジャパン採用サイト",
+      "href": "https://www.axa-holdings.co.jp/recruitment/"
+    },
+    {
+      "label": "ENTRY",
+      "href": null
+    },
+    {
+      "label": "こちら",
+      "href": "https://www.axa.co.jp/about-axa/group-info/global"
+    },
+    {
+      "label": "Students and Graduates新卒採用 募集要項READ MORE",
+      "href": "/recruitment/career/students"
+    },
+    {
+      "label": "Experienced professionals中途採用 募集要項READ MORE",
+      "href": "/recruitment/career/experienced"
+    },
+    {
+      "label": "Persons with Disabilities障害者採用 募集要項READ MORE",
+      "href": "/recruitment/career/pwd"
+    },
+    {
+      "label": "商工会議所 / 商工会 共済・福祉制度推進スタッフ READ MORE",
+      "href": "https://www.axa.co.jp/recruitment/cci/"
+    },
+    {
+      "label": "フィナンシャルプラン アドバイザー（FA）採用 READ MORE",
+      "href": "https://www.axa.co.jp/recruitment/fa/"
+    },
+    {
+      "label": "就活ハラスメント防止対応 (PDF)",
+      "href": "https://www2.axa.co.jp/recruitment/career/pdf/harassment-policy_alj.pdf"
+    },
+    {
+      "label": "Realize your potential to drive progressより良い未来のために、あなたの可能性をアクサで形に。AXA HOLDINGS JAPAN RECRUIT SITE",
+      "href": "https://www.axa-holdings.co.jp/recruitment/"
+    },
+    {
+      "label": "facebook",
+      "href": "https://www.facebook.com/axajapan/"
+    },
+    {
+      "label": "linkedin",
+      "href": "https://www.linkedin.com/company/axa/"
+    },
+    {
+      "label": "youtube",
+      "href": "https://www.youtube.com/c/AXAJP"
+    },
+    {
+      "label": "note",
+      "href": "https://note.com/axajapan"
+    },
+    {
+      "label": "新卒採用 募集要項",
+      "href": "/recruitment/career/students"
+    },
+    {
+      "label": "中途採用 募集要項",
+      "href": "/recruitment/career/experienced"
+    },
+    {
+      "label": "障害者採用 募集要項",
+      "href": "/recruitment/career/pwd"
+    },
+    {
+      "label": "採用ポリシー",
+      "href": "/recruitment/career/policy"
+    },
+    {
+      "label": "商工会議所共済・福祉制度推進スタッフ採用",
+      "href": "https://www.axa.co.jp/recruitment/cci/"
+    },
+    {
+      "label": "フィナンシャルプランアドバイザー（FA）採用",
+      "href": "https://www.axa.co.jp/recruitment/fa/"
+    },
+    {
+      "label": "アクサジャパン採用サイト",
+      "href": "https://www.axa-holdings.co.jp/recruitment/"
+    },
+    {
+      "label": "アクサグローバルキャリアサイト",
+      "href": "https://careers.axa.com/careers-home"
+    },
+    {
+      "label": "企業サイト",
+      "href": "/"
+    },
+    {
+      "label": "プライバシーポリシー",
+      "href": "/other/personal/"
+    },
+    {
+      "label": "労働施策総合推進法に基づく中途採用比率の公表（PDF）",
+      "href": "https://www2.axa.co.jp/recruitment/career/pdf/mid-career_recruitment_ratio_alj.pdf"
+    },
+    {
+      "label": "男女賃金格差の公表（PDF）",
+      "href": "https://www2.axa.co.jp/recruitment/career/pdf/gender_pay_gap_2026_alj.pdf"
+    },
+    {
+      "label": "就活ハラスメント防止対応（PDF）",
+      "href": "https://www2.axa.co.jp/recruitment/career/pdf/harassment-policy_alj.pdf"
+    }
+  ],
+  "links": [
+    "https://www.axa.co.jp/recruitment/career",
+    "https://www.axa.co.jp/recruitment/career/students",
+    "https://www.axa.co.jp/recruitment/career/experienced",
+    "https://www.axa.co.jp/recruitment/career/pwd",
+    "https://www.axa-holdings.co.jp/recruitment/",
+    "https://axol.jp/zw/s/axa_28/entry/",
+    "https://careers-ja-axa.icims.com/",
+    "https://careers-ja-axa.icims.com/jobs/search?ss=1&searchKeyword=%E9%9A%9C%E5%AE%B3%E8%80%85%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2&searchRelation=keyword_all",
+    "https://www.axa.co.jp/recruitment/cci",
+    "https://www.axa.co.jp/recruitment/fa",
+    "https://www.axa.co.jp/about-axa/group-info/global",
+    "https://www.axa.co.jp/recruitment/cci/",
+    "https://www.axa.co.jp/recruitment/fa/",
+    "https://www2.axa.co.jp/recruitment/career/pdf/harassment-policy_alj.pdf",
+    "https://www.facebook.com/axajapan/",
+    "https://www.linkedin.com/company/axa/",
+    "https://www.youtube.com/c/AXAJP",
+    "https://note.com/axajapan",
+    "https://www.axa.co.jp/recruitment/career/policy",
+    "https://careers.axa.com/careers-home",
+    "https://www.axa.co.jp/",
+    "https://www.axa.co.jp/other/personal/",
+    "https://www2.axa.co.jp/recruitment/career/pdf/mid-career_recruitment_ratio_alj.pdf",
+    "https://www2.axa.co.jp/recruitment/career/pdf/gender_pay_gap_2026_alj.pdf"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.axa.co.jp/images/header/axa_logo_no_text.png",
+        "alt": "アクサ",
+        "w": 109,
+        "h": 110
+      },
+      {
+        "src": "https://www.axa.co.jp/images/recruitment/career/home-kv.jpg",
+        "alt": "",
+        "w": 2732,
+        "h": 840
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aR-xP2GnmrmGqGRI_home-about-overview-img01.jpg?auto=format,compress",
+        "alt": "",
+        "w": 400,
+        "h": 300
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aR-xQGGnmrmGqGRJ_home-about-overview-img02.jpg?auto=format,compress",
+        "alt": "",
+        "w": 400,
+        "h": 300
+      },
+      {
+        "src": "https://www.axa.co.jp/images/recruitment/career/home-about-position-pc.svg",
+        "alt": "",
+        "w": 894,
+        "h": 290
+      },
+      {
+        "src": "https://www.axa.co.jp/images/recruitment/career/home-about-business-pc.svg",
+        "alt": "",
+        "w": 710,
+        "h": 444
+      },
+      {
+        "src": "https://www.axa.co.jp/images/recruitment/career/home-service-kv.jpeg",
+        "alt": "",
+        "w": 1366,
+        "h": 420
+      },
+      {
+        "src": "https://www.axa.co.jp/images/recruitment/career/axa-cci-channel.png",
+        "alt": "",
+        "w": 140,
+        "h": 140
+      },
+      {
+        "src": "https://www.axa.co.jp/images/recruitment/career/axa-fa-channel.png",
+        "alt": "",
+        "w": 140,
+        "h": 140
+      },
+      {
+        "src": "https://www.axa.co.jp/images/recruitment/career/axa-business-partner-channel.png",
+        "alt": "",
+        "w": 140,
+        "h": 140
+      },
+      {
+        "src": "https://www.axa.co.jp/images/recruitment/career/axa-mcvp-channel.png",
+        "alt": "",
+        "w": 140,
+        "h": 140
+      },
+      {
+        "src": "https://www.axa.co.jp/images/recruitment/career/home-service-img01.jpg",
+        "alt": "",
+        "w": 800,
+        "h": 728
+      },
+      {
+        "src": "https://www.axa.co.jp/images/recruitment/career/home-service-img02.jpeg",
+        "alt": "",
+        "w": 380,
+        "h": 346
+      }
+    ],
+    "allImgCount": 16,
+    "cssBackgrounds": [
+      "https://www.axa.co.jp/images/recruitment/career/bnr-axa-recruit-site-lg-pc.jpg"
+    ],
+    "modals": [],
+    "videos": [
+      {
+        "src": "https://www.axa.co.jp/images/recruitment/career/video/main-wide.mp4",
+        "poster": null,
+        "autoplay": true,
+        "loop": true,
+        "muted": true
+      }
+    ],
+    "iframes": []
+  },
+  "customProps": {
+    "--font-sans": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "--font-mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+    "--spacing": ".25rem",
+    "--font-weight-normal": "400",
+    "--font-weight-medium": "500",
+    "--font-weight-semibold": "600",
+    "--font-weight-bold": "700",
+    "--tracking-normal": "0em",
+    "--leading-tight": "1.25",
+    "--leading-snug": "1.375",
+    "--leading-normal": "1.5",
+    "--leading-relaxed": "1.625",
+    "--radius-xs": ".125rem",
+    "--radius-sm": ".25rem",
+    "--radius-md": ".375rem",
+    "--radius-lg": ".5rem",
+    "--shadow-md": "0 4px 6px -1px #0000001a, 0 2px 4px -2px #0000001a",
+    "--ease-out": "cubic-bezier(0, 0, .2, 1)",
+    "--ease-in-out": "cubic-bezier(.4, 0, .2, 1)",
+    "--animate-spin": "spin 1s linear infinite",
+    "--default-transition-duration": ".15s",
+    "--default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+    "--default-font-family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "--default-mono-font-family": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+    "--text-color-primary": "#00008f",
+    "--text-color-primary-hover-inverse": "#f7f7f7",
+    "--text-color-muted": "#999",
+    "--background-color-background": "#fff",
+    "--background-color-background-subtle": "#f7f7f7",
+    "--background-color-background-hover": "#f7f7f7",
+    "--background-color-background-inverse": "#343c3d",
+    "--background-color-information": "#3e66a3",
+    "--background-color-primary": "#00008f",
+    "--border-color-stroke-subtle": "#ccc",
+    "--border-color-primary": "#00008f",
+    "--border-color-muted": "#999",
+    "--stroke-primary": "#00008f",
+    "--fill-primary": "#00008f",
+    "--outline-color-primary": "#00008f",
+    "--white": "#fff",
+    "--grey-100": "#f7f7f7",
+    "--grey-200": "#f0f0f0",
+    "--grey-300": "#e5e5e5",
+    "--grey-400": "#ccc",
+    "--grey-500": "#999",
+    "--grey-600": "#757575",
+    "--grey-700": "#5f5f5f",
+    "--grey-800": "#343c3d",
+    "--grey-900": "#111b1d",
+    "--axa-blue-100": "#5c5cb7",
+    "--axa-blue-200": "#3d3daa",
+    "--axa-blue-300": "#1f1f9c",
+    "--axa-blue-400": "#00008f",
+    "--axa-blue-500": "#00006d",
+    "--axa-blue-600": "#010143",
+    "--red-50": "#fae7ea",
+    "--red-100": "#efb8c1",
+    "--red-200": "#dc667a",
+    "--red-300": "#c91432",
+    "--red-400": "#b10723",
+    "--red-500": "#8b0118",
+    "--green-50": "#e2f2ea",
+    "--green-100": "#99dfbe",
+    "--green-200": "#25b670",
+    "--green-300": "#008646",
+    "--green-400": "#006031",
+    "--green-500": "#004323",
+    "--yellow-50": "#fff2cf",
+    "--yellow-100": "#ffda7a",
+    "--yellow-200": "#ffbc11",
+    "--yellow-300": "#b28000",
+    "--yellow-400": "#996e00",
+    "--yellow-500": "#735300",
+    "--sienna-50": "#faede9",
+    "--sienna-100": "#e28972",
+    "--sienna-200": "#dd7358",
+    "--sienna-300": "#d75d3d",
+    "--sienna-400": "#d24723",
+    "--sienna-500": "#b03c1d",
+    "--sienna-600": "#8a290e",
+    "--ocean-50": "#e7effc",
+    "--ocean-100": "#7698cb",
+    "--ocean-200": "#4976ba",
+    "--ocean-300": "#3e66a3",
+    "--ocean-400": "#274168",
+    "--ocean-500": "#17273e",
+    "--color-primary": "#FFFFFF",
+    "--color-primary-hover": "#00006d",
+    "--color-primary-inverse": "#fff",
+    "--spacing-0": "0px",
+    "--spacing-px": "1px",
+    "--spacing-0-5": ".124rem",
+    "--spacing-1": ".25rem",
+    "--spacing-1-5": ".375rem",
+    "--spacing-2": "0.5rem",
+    "--spacing-3": "0.75rem",
+    "--spacing-3-5": "0.875rem",
+    "--spacing-4": "1rem",
+    "--spacing-5": "1.25rem",
+    "--spacing-6": "1.5rem",
+    "--spacing-7": "1.75rem",
+    "--spacing-8": "2rem",
+    "--spacing-9": "2.25rem",
+    "--spacing-10": "2.5rem",
+    "--spacing-11": "2.75rem",
+    "--spacing-12": "3rem",
+    "--spacing-14": "3.5rem",
+    "--spacing-16": "4rem",
+    "--spacing-20": "5rem",
+    "--spacing-24": "6rem",
+    "--spacing-2px": "2px",
+    "--spacing-4px": "4px",
+    "--spacing-6px": "6px",
+    "--spacing-8px": "8px",
+    "--spacing-16px": "16px",
+    "--spacing-32px": "32px",
+    "--spacing-64px": "64px",
+    "--font-size-14": "14px",
+    "--font-size-16": "16px",
+    "--font-size-20": "20px",
+    "--font-size-24": "24px",
+    "--font-size-28": "28px",
+    "--font-size-32": "32px",
+    "--font-weight-regular": "400",
+    "--line-height-115": "115%",
+    "--line-height-150": "150%",
+    "--line-height-160": "160%",
+    "--active-primary": "#00008F",
+    "--hover-primary": "#00006D",
+    "--active-secondary": "#FFFFFF",
+    "--hover-secondary": "rgba(0, 0, 143, 0.10)",
+    "--color-secondary": "#00008F",
+    "--active-disabled": "#F0F0F0",
+    "--hover-disabled": "#F0F0F0",
+    "--color-disabled": "#999999",
+    "--color-axa-blue-100": "#5C5CB7",
+    "--color-axa-blue-200": "#3D3DAA",
+    "--color-axa-blue-300": "#1F1F9C",
+    "--color-axa-blue-400": "#00008F",
+    "--color-axa-blue-500": "#0000CD",
+    "--color-axa-blue-600": "#010143",
+    "--color-black": "#000",
+    "--color-white": "#FFFFFF",
+    "--color-red": "#D24723",
+    "--color-gray-100": "#F7F7F7",
+    "--color-gray-200": "#F0F0F0",
+    "--color-gray-400": "#CCCCCC",
+    "--color-gray-500": "#999999",
+    "--color-gray-600": "#757575",
+    "--color-gray-700": "#5F5F5F",
+    "--color-gray-800": "#343C3D",
+    "--radius-0": "0px",
+    "--radius-0-5": "0.125rem",
+    "--radius-1": "0.25rem",
+    "--radius-1-5": "0.375rem",
+    "--radius-2": "0.5rem",
+    "--radius-4": "1rem",
+    "--radius-8": "2rem"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 34,
+    "mainTextLen": 3730,
+    "realImageCount": 13,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 3,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn-au.onetrust.com",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn-au.onetrust.com/consent/81279554-1fe3-415e-bf51-66316df2e0bb/81279554-1fe3-415e-bf51-66316df2e0bb.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn-au.onetrust.com",
+        "path": "/consent/{uuid}/{uuid}/ja.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn-au.onetrust.com/consent/81279554-1fe3-415e-bf51-66316df2e0bb/0192ad5b-1ec1-7752-91ee-f3ac7e2d2638/ja.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn-au.onetrust.com",
+        "path": "/scripttemplates/202608.1.0/assets/otFlat.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 4023,
+        "hits": 1,
+        "example": "https://cdn-au.onetrust.com/scripttemplates/202608.1.0/assets/otFlat.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn-au.onetrust.com",
+        "path": "/scripttemplates/202608.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn-au.onetrust.com/scripttemplates/202608.1.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn-au.onetrust.com",
+        "path": "/scripttemplates/202608.1.0/assets/v2/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 14496,
+        "hits": 1,
+        "example": "https://cdn-au.onetrust.com/scripttemplates/202608.1.0/assets/v2/otPcCenter.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn-au.onetrust.com",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn-au.onetrust.com/logos/static/ot_guard_logo.svg",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "dma",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.google.com/rmkt/collect/466258847/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bs.nakanohito.jp",
+        "path": "/b3/",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://bs.nakanohito.jp/b3/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "w2-c9dea2a81a9e4d3c963d5887958afeb5.ecs.eu-west-1.on.aws",
+        "path": "/events",
+        "query": [
+          "cee"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://w2-c9dea2a81a9e4d3c963d5887958afeb5.ecs.eu-west-1.on.aws/events",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "insight.adsrvr.org",
+        "path": "/track/realtimeconversion",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://insight.adsrvr.org/track/realtimeconversion",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.axa.co.jp",
+        "path": "/cookie/extend",
+        "query": [
+          "c1",
+          "c2"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 43,
+        "hits": 1,
+        "example": "https://www.axa.co.jp/cookie/extend",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dp",
+          "dt",
+          "en",
+          "ep.check",
+          "ep.content_group",
+          "ep.insurance_category",
+          "ep.insurance_name",
+          "frm",
+          "gaf",
+          "gcd",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://analytics.google.com/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google-analytics.com/g/collect",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "www.googletagmanager.com",
+        "count": 6
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 4
+      },
+      {
+        "host": "js.adsrvr.org",
+        "count": 2
+      },
+      {
+        "host": "cdn-au.onetrust.com",
+        "count": 2
+      },
+      {
+        "host": "bat.bing.com",
+        "count": 2
+      },
+      {
+        "host": "www.youtube.com",
+        "count": 2
+      },
+      {
+        "host": "s.yimg.jp",
+        "count": 2
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "count": 2
+      },
+      {
+        "host": "d.line-scdn.net",
+        "count": 1
+      },
+      {
+        "host": "tag.flvcdn.net",
+        "count": 1
+      },
+      {
+        "host": "cs.nakanohito.jp",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 1,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 1,
+      "thirdPartyEndpoints": 13,
+      "thirdPartyScriptHosts": 11,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/recruitment.png",
+  "renderedHtml": "pages/recruitment.html",
+  "slots": {
+    "pageType": "recruitment",
+    "headline": "AXA LIFE INSURANCERecruiting Information",
+    "sections": [
+      "Our Purpose私たちのパーパス -存在意義-",
+      "もし「未来」がリスクではないと考えられたら。",
+      "アクサグループについて",
+      "アクサ生命保険について",
+      "専属営業社員による営業チャネル",
+      "保険代理店・金融機関代理店を通じた営業チャネル",
+      "既存チャネルの枠を超えた新たな価値を創造する営業チャネル",
+      "採用情報",
+      "Realize your potential to drive progressより良い未来のために、あなたの可能性をアクサで形に。"
+    ],
+    "ctas": [
+      {
+        "label": "アクサ生命採用サイト",
+        "href": "/recruitment/career"
+      },
+      {
+        "label": "新卒採用",
+        "href": "/recruitment/career/students"
+      },
+      {
+        "label": "中途採用",
+        "href": "/recruitment/career/experienced"
+      },
+      {
+        "label": "障害者採用",
+        "href": "/recruitment/career/pwd"
+      },
+      {
+        "label": "アクサジャパン採用サイト",
+        "href": "https://www.axa-holdings.co.jp/recruitment/"
+      },
+      {
+        "label": "こちら",
+        "href": "https://www.axa.co.jp/about-axa/group-info/global"
+      },
+      {
+        "label": "Students and Graduates新卒採用 募集要項READ MORE",
+        "href": "/recruitment/career/students"
+      },
+      {
+        "label": "Experienced professionals中途採用 募集要項READ MORE",
+        "href": "/recruitment/career/experienced"
+      },
+      {
+        "label": "Persons with Disabilities障害者採用 募集要項READ MORE",
+        "href": "/recruitment/career/pwd"
+      },
+      {
+        "label": "商工会議所 / 商工会 共済・福祉制度推進スタッフ READ MORE",
+        "href": "https://www.axa.co.jp/recruitment/cci/"
+      },
+      {
+        "label": "フィナンシャルプラン アドバイザー（FA）採用 READ MORE",
+        "href": "https://www.axa.co.jp/recruitment/fa/"
+      },
+      {
+        "label": "就活ハラスメント防止対応 (PDF)",
+        "href": "https://www2.axa.co.jp/recruitment/career/pdf/harassment-policy_alj.pdf"
+      }
+    ]
+  }
+}

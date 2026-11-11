@@ -1,0 +1,11 @@
+{
+  "variantName": "recruit-about",
+  "baseBlock": "custom",
+  "canonicalModel": "recruit-about",
+  "visualCharacteristics": "A light-grey section introducing the corporate group, with a heading and lead, overview boxes of illustrated items, a position figure with labelled items, notes and a business figure with lead text.",
+  "contentPattern": "One row per part, classified by content: head [h2][lead p]; overview [h3, then per item h4, picture, h5, paragraphs]; position [h3, PC picture, SP picture, then per item h4, h5]; note [paragraphs with links]; business [h3, lead p, PC picture, SP picture, note p].",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use it for the \"about the group\" section of a recruitment page with overview figures and business information.",
+  "reuseGuidance": "Reuse it only for the same company-overview structure; use columns or cards for simpler about sections."
+}

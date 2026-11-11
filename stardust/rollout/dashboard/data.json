@@ -1,0 +1,209 @@
+{
+  "generatedAt": "2026-11-09T13:35:40.770Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.axa.co.jp/",
+    "liveHost": "main--80b77690--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 10,
+    "prototyped": 10,
+    "deployed": 10,
+    "optimised": 10
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 0,
+    "optimised": 10
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "optimised",
+      "templateId": "index",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "about-axa",
+      "path": "/about-axa",
+      "stage": "optimised",
+      "templateId": "company",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "about-insurance",
+      "path": "/about-insurance",
+      "stage": "optimised",
+      "templateId": "about-insurance",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "company",
+      "path": "/company",
+      "stage": "optimised",
+      "templateId": "company",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer",
+      "path": "/customer",
+      "stage": "optimised",
+      "templateId": "customer",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "customer-feedback",
+      "path": "/customer-feedback",
+      "stage": "optimised",
+      "templateId": "company",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "dataprivacy",
+      "path": "/dataprivacy",
+      "stage": "optimised",
+      "templateId": "company",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "product",
+      "path": "/product",
+      "stage": "optimised",
+      "templateId": "product",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "prospect",
+      "path": "/prospect",
+      "stage": "optimised",
+      "templateId": "prospect",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "recruitment",
+      "path": "/recruitment",
+      "stage": "optimised",
+      "templateId": "recruitment",
+      "isTemplate": true,
+      "openFindings": 0
+    }
+  ],
+  "templates": [
+    {
+      "id": "about-insurance",
+      "archetype": "about-insurance",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "company",
+      "archetype": "company",
+      "pageCount": 4,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 4
+      }
+    },
+    {
+      "id": "customer",
+      "archetype": "customer",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "index",
+      "archetype": "index",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "product",
+      "archetype": "product",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "prospect",
+      "archetype": "prospect",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "recruitment",
+      "archetype": "recruitment",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    }
+  ],
+  "blocks": {
+    "total": 28,
+    "converted": 28
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": null,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": null
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      100
+    ]
+  },
+  "findings": {
+    "byFixability": {},
+    "byAutofix": {}
+  }
+}

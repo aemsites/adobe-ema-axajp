@@ -1,0 +1,112 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-09T10:41:51.377Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.axa.co.jp",
+    "eds": "https://main--80b77690--aemcoder.aem.page",
+    "edsHostOverride": "https://main--80b77690--aemcoder.aem.page",
+    "only": [
+      "prospect"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 1,
+    "overridePass": 1,
+    "fail": 1,
+    "error": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 1,
+    "failUnits": 1,
+    "fontsNotLoaded": 1,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 1
+  },
+  "rows": [
+    {
+      "slug": "prospect",
+      "path": "/prospect",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 0.9,
+      "textPct": 2.73,
+      "heightDelta": 0,
+      "originH": 6971,
+      "edsH": 6971,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [
+        "noto-sans-jp-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "content MISSING 3 / HIDDEN 0",
+        "units off 141 hidden 0 missing 25",
+        "font-not-loaded:noto-sans-jp-fallback"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 3,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 2,
+        "hiddenButtons": 0,
+        "findings": 10,
+        "variable": []
+      },
+      "units": {
+        "units": 28,
+        "within": 3,
+        "off": 141,
+        "hidden": 0,
+        "missing": 25,
+        "errors": 0,
+        "requiredOff": 166
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "PASS",
+        "reason": "content-presence MISSING 3 = the CTA rail links (保険の無料相談 /form/consultation, 資料請求 /form/brochure, 電話相談 /request/): live renders the rail inside <main>; the foundation renders the same 3 links (same text, href, visible, fixed) as the last /footer section on prospect-hub, which content-presence counts as chrome — same cause as the index override, queued as a foundation request (C-final). First published run: pixel 7.59%, Δh -26 (0.4%), clipped 0.",
+        "by": "hands-off",
+        "at": "2026-11-09"
+      },
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [],
+      "error": null
+    }
+  ]
+}

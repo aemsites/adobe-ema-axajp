@@ -1,0 +1,16 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://www.axa.co.jp/dataprivacy/",
+  "width": 360,
+  "vh": 900,
+  "height": 3134,
+  "chunks": 4,
+  "denialCheck": "ok",
+  "fontsFailed": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 10,
+    "late": 0
+  },
+  "at": "2026-11-09T11:32:52.124Z"
+}

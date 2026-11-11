@@ -1,0 +1,16 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://main--80b77690--aemcoder.aem.page/about-axa",
+  "width": 360,
+  "vh": 900,
+  "height": 3848,
+  "chunks": 5,
+  "denialCheck": "ok",
+  "fontsFailed": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 4,
+    "late": 0
+  },
+  "at": "2026-11-09T12:57:29.821Z"
+}

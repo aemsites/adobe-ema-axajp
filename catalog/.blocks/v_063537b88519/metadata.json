@@ -1,0 +1,71 @@
+{
+  "id": "v_063537b88519",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-11T04:30:04.395Z",
+  "sourceContext": {
+    "originUrl": "https://www.axa.co.jp/about-axa",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "noimg",
+    "purpose": "Anchor links",
+    "structure": "Anchor links block"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.axa.co.jp/about-axa",
+        "instanceId": "b02-anchor-links",
+        "instanceIds": [
+          "b02-anchor-links"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_about-axa--05362c6c/blocks/b02-anchor-links.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/company",
+        "instanceId": "b02-anchor-links",
+        "instanceIds": [
+          "b02-anchor-links"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_company--63249741/blocks/b02-anchor-links.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/customer-feedback",
+        "instanceId": "b02-anchor-links",
+        "instanceIds": [
+          "b02-anchor-links"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_customer-feedback--3c90b7e2/blocks/b02-anchor-links.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/dataprivacy",
+        "instanceId": "b02-anchor-links",
+        "instanceIds": [
+          "b02-anchor-links"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_dataprivacy--ac691862/blocks/b02-anchor-links.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/product",
+        "instanceId": "b04-anchor-links",
+        "instanceIds": [
+          "b04-anchor-links"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_product--dcee6c67/blocks/b04-anchor-links.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/prospect",
+        "instanceId": "b04-anchor-links",
+        "instanceIds": [
+          "b04-anchor-links"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_prospect--c59f070b/blocks/b04-anchor-links.jpg"
+      }
+    ],
+    "reuseCount": 6
+  }
+}

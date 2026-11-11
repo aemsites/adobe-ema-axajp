@@ -1,0 +1,4 @@
+{
+  "product": { "max": 39, "reason": "live parity: clip-probe on https://www.axa.co.jp/product/ at 360 reports the same 39 two-line select-button labels clipped inside 48px buttons" },
+  "customer": { "max": 5, "reason": "live parity: the five slider dots are hidden on live at 360 too (clip-probe on https://www.axa.co.jp/customer/)" }
+}

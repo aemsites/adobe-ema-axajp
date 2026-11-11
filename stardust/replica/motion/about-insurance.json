@@ -1,0 +1,478 @@
+{
+  "url": "https://www.axa.co.jp/about-insurance/",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4800,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3769,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2269,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": "[class*=BubbleWrapper]",
+      "frames": [
+        {
+          "t": 17996.60000000056,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 18200.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 18403.800000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 18607.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": "[class*=BubbleContent]",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 23, 33)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 23, 33)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "[class*=CollapsableItem]",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 143)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 143)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "[class*=TestimonialWrapper]",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.Testimonial-styles__TestimonialImage-sc-6f1d34dc-2.gzkoFw",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.Testimonial-styles__TestimonialImage-sc-6f1d34dc-2.gzkoFw",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "opacity",
+        "el": "html > body > div > main > div.BackToTop-styles__BackToTopWrapper-sc-1f5495b9-0.jMiNFJ",
+        "y": 400,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > div > main > div.BackToTop-styles__BackToTopWrapper-sc-1f5495b9-0.foqcIw",
+        "y": 90,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > div > main > div.BackToTop-styles__BackToTopWrapper-sc-1f5495b9-0.jMiNFJ",
+        "y": 350,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "visibility",
+        "el": "body > div > main > div.sc-kLEbxe.ejIsij > div.sc-bYgEKt.dRdvET",
+        "y": 350,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div > main > div.sc-kLEbxe.ejIsij > div.sc-bYgEKt.dRdvET > button.sc-ikBzZv.dLeIty",
+        "y": 350,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > div > main > div.sc-jJwPsw.bSweyG",
+        "y": 350,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "visibility",
+        "el": "html > body > div > main > div.sc-kLEbxe.ejIsij",
+        "y": 350,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > div > main > div.sc-kLEbxe.ejIsij",
+        "y": 350,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "html > body > div > main > div.sc-kLEbxe.ejIsij",
+        "y": 350,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "visibility",
+        "el": "main > div.sc-kLEbxe.ejIsij > div.sc-bYgEKt.dRdvET > button.sc-ikBzZv.dLeIty > svg",
+        "y": 350,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "visibility",
+        "el": "main > div.sc-kLEbxe.ejIsij > div.sc-bYgEKt.dRdvET > div > p.sc-hhXYTC.AboutInsuranceTopPage-styles__CustomText-sc-acc4b772-1.kMKJTF",
+        "y": 350,
+        "dur": "0.25s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "jMiNFJ"
+        ],
+        "el": "html > body > div > main > div.BackToTop-styles__BackToTopWrapper-sc-1f5495b9-0.jMiNFJ",
+        "y": 400
+      },
+      {
+        "added": [
+          "foqcIw"
+        ],
+        "el": "html > body > div > main > div.BackToTop-styles__BackToTopWrapper-sc-1f5495b9-0.foqcIw",
+        "y": 90
+      },
+      {
+        "added": [
+          "jMiNFJ"
+        ],
+        "el": "html > body > div > main > div.BackToTop-styles__BackToTopWrapper-sc-1f5495b9-0.jMiNFJ",
+        "y": 350
+      },
+      {
+        "added": [
+          "bSweyG"
+        ],
+        "el": "html > body > div > main > div.sc-jJwPsw.bSweyG",
+        "y": 350
+      },
+      {
+        "added": [
+          "ejIsij"
+        ],
+        "el": "html > body > div > main > div.sc-kLEbxe.ejIsij",
+        "y": 350
+      }
+    ]
+  }
+}

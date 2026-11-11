@@ -1,0 +1,56 @@
+{
+  "templates": [
+    {
+      "name": "content",
+      "description": "Corporate and policy content pages with an art image, anchor links and column text sections",
+      "urls": [
+        "https://www.axa.co.jp/about-axa",
+        "https://www.axa.co.jp/company",
+        "https://www.axa.co.jp/customer-feedback",
+        "https://www.axa.co.jp/dataprivacy"
+      ]
+    },
+    {
+      "name": "insurance-guide",
+      "description": "Guide to choosing insurance, with a speech-bubble guide, FAQs, testimonials and entry links",
+      "urls": [
+        "https://www.axa.co.jp/about-insurance"
+      ]
+    },
+    {
+      "name": "customer-hub",
+      "description": "Policyholder hub with a banner, slider, service link panels, news and contact links",
+      "urls": [
+        "https://www.axa.co.jp/customer"
+      ]
+    },
+    {
+      "name": "homepage",
+      "description": "Site homepage with a hero carousel, news, product cards, a simulation quiz and strengths",
+      "urls": [
+        "https://www.axa.co.jp/"
+      ]
+    },
+    {
+      "name": "product-listing",
+      "description": "Product lineup page with anchor navigation, category buttons, accordions and a consultation CTA",
+      "urls": [
+        "https://www.axa.co.jp/product"
+      ]
+    },
+    {
+      "name": "prospect-hub",
+      "description": "Hub for prospective customers with a simulation quiz, product cards, features and strengths",
+      "urls": [
+        "https://www.axa.co.jp/prospect"
+      ]
+    },
+    {
+      "name": "recruitment",
+      "description": "Recruitment landing page with a hero, statement, about section, hiring channels and entry",
+      "urls": [
+        "https://www.axa.co.jp/recruitment"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "v_41522ace0c3a",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-11T04:30:04.395Z",
+  "sourceContext": {
+    "originUrl": "https://www.axa.co.jp/about-insurance",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "noimg",
+    "purpose": "Link list",
+    "structure": "Link list block"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.axa.co.jp/about-insurance",
+        "instanceId": "b06-link-list",
+        "instanceIds": [
+          "b06-link-list"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_about-insurance--36fa5423/blocks/b06-link-list.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/prospect",
+        "instanceId": "b08-link-list",
+        "instanceIds": [
+          "b08-link-list"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_prospect--c59f070b/blocks/b08-link-list.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

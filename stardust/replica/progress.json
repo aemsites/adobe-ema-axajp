@@ -1,0 +1,698 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica (archetype agents)",
+    "writtenAt": "2026-11-09T05:58:35Z"
+  },
+  "types": {
+    "recruitment": {
+      "pageType": "recruitment",
+      "archetype": "recruitment",
+      "live": "https://www.axa.co.jp/recruitment/career",
+      "proto": "stardust/prototypes/recruitment-proposed.html",
+      "css": [
+        "stardust/prototypes/recruitment.css"
+      ],
+      "js": [
+        "stardust/prototypes/recruitment.js"
+      ],
+      "chrome": "own microsite header+footer (Header/MainNav/EntryNav/Footer-styles) authored in recruitment.css — not canon",
+      "breakpoints": {
+        "360": {
+          "iterations": 3,
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": "none",
+            "pixelPct": 0,
+            "heightDelta": 0,
+            "pass": true,
+            "nothingLostYellow": 0,
+            "clipped": 0,
+            "overflow": "ok",
+            "chromeCrop": {
+              "header": 0,
+              "footer": 0
+            },
+            "evidence": "stardust/replica/gates/recruitment-360/"
+          },
+          "justified": [
+            {
+              "probe": "fonts",
+              "flag": "DEAD FACE Publico Headline, Source Sans 3 on live",
+              "why": "live serves SPA HTML for both font URLs; both sides render the same fallback (serif / sans-serif). Stacks kept brand-first, licensed faces not rehosted",
+              "permanent": true
+            }
+          ],
+          "residuals": [],
+          "captureState": [
+            {
+              "what": "hero background video (fixed VideoWrapper) paused at frame 0 by stitch-shot freeze",
+              "where": "hero / fixed backdrop behind purpose+message bands",
+              "restoreAtDelivery": "<video autoplay muted loop playsinline preload=auto>, rendition by viewport orientation: landscape main-wide.mp4, portrait main-tall.mp4 (re-picked on resize); fixed full-viewport backdrop, object-fit cover"
+            },
+            {
+              "what": "InView section reveals captured in revealed state (stitched capture scrolls them in)",
+              "where": "12 .rc-inview wrappers",
+              "restoreAtDelivery": "opacity 0 / translateY(2rem) until in view, then transition transform .8s cubic-bezier(.215,.61,.355,1) .16s, opacity .6s ease-out .16s; hero title/sub entrance delays .8s/1.6s"
+            }
+          ],
+          "regime": "prototype"
+        },
+        "1440": {
+          "iterations": 3,
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": "none",
+            "pixelPct": 0,
+            "heightDelta": 0,
+            "pass": true,
+            "nothingLostYellow": 0,
+            "clipped": 0,
+            "overflow": "ok",
+            "chromeCrop": {
+              "header": 0,
+              "footer": 0
+            },
+            "evidence": "stardust/replica/gates/recruitment-1440/"
+          },
+          "justified": [
+            {
+              "probe": "fonts",
+              "flag": "DEAD FACE Publico Headline, Source Sans 3 on live",
+              "why": "live serves SPA HTML for both font URLs; both sides render the same fallback (serif / sans-serif). Stacks kept brand-first, licensed faces not rehosted",
+              "permanent": true
+            }
+          ],
+          "residuals": [],
+          "captureState": [
+            {
+              "what": "hero background video (fixed VideoWrapper) paused at frame 0 by stitch-shot freeze",
+              "where": "hero / fixed backdrop behind purpose+message bands",
+              "restoreAtDelivery": "<video autoplay muted loop playsinline preload=auto>, rendition by viewport orientation: landscape main-wide.mp4, portrait main-tall.mp4 (re-picked on resize); fixed full-viewport backdrop, object-fit cover"
+            },
+            {
+              "what": "InView section reveals captured in revealed state (stitched capture scrolls them in)",
+              "where": "12 .rc-inview wrappers",
+              "restoreAtDelivery": "opacity 0 / translateY(2rem) until in view, then transition transform .8s cubic-bezier(.215,.61,.355,1) .16s, opacity .6s ease-out .16s; hero title/sub entrance delays .8s/1.6s"
+            }
+          ],
+          "regime": "prototype"
+        }
+      },
+      "notes1440": "iter1 0.00% / Δ0 but chrome-parity 4 deltas (hidden main-nav list missing ul padding 14px) + 8 extra aria-label 🟡 advisories → fixed; iter2 --full confirm clean; iter3 pixel after motion",
+      "notes360": "iter1 4.57% (hero video rendition: live picks main-tall.mp4 on portrait viewport); iter2 0.84% (reveal rootMargin late on one service item); iter3 0.00%; iter4 --full confirm; iter5 pixel after motion",
+      "capProbe": {
+        "result": "PASS",
+        "width": 2560,
+        "rows": "0 of 3 failed",
+        "evidence": "stardust/replica/gates/recruitment-2560/cap-iter.json"
+      },
+      "units": "5 families, 16 units within 4px (unit-geometry PASS)",
+      "motion": {
+        "observed": "stardust/replica/motion/recruitment.json — hero video playing; InView reveal transitions (opacity+transform .8s/.6s) ×12; BackToTop fade-in on scroll; header static (no scroll morph); ENTRY dropdown no sampled change",
+        "implemented": "InView reveal via IntersectionObserver (rc-js/is-inview), hero heading entrance, BackToTop show on scroll, video orientation rendition, ENTRY dropdown + SP hamburger toggles (aria-expanded) mirroring live CSS",
+        "dead": [
+          "header scroll-morph (dead on live)",
+          "ENTRY widget frame change (not sampled on live)"
+        ],
+        "compare": "motion-compare: transitions opacity/transform parity, video parity; class names differ by construction (styled-components hashes vs rc-* state classes)"
+      },
+      "links": "relative hrefs outside the 10 migrated pages made absolute to https://www.axa.co.jp/; footer 企業サイト kept '/' (home is migrated)",
+      "assets": "icons + banner jpgs harvested to stardust/prototypes/assets/recruitment/ (copy in stardust/current/assets/recruitment/); content images hot-linked as captured (www.axa.co.jp/images, images.prismic.io)"
+    },
+    "home": {
+      "pageType": "home",
+      "archetype": "index",
+      "live": "https://www.axa.co.jp/",
+      "proto": "stardust/prototypes/index-proposed.html",
+      "css": [
+        "stardust/prototypes/canon/canon.css",
+        "stardust/prototypes/index.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon/chrome.js",
+        "stardust/prototypes/index.js"
+      ],
+      "chrome": "canon (header + 6 hover mega-menus + search + SP drawer, SharedFooter, CTA rail, back-to-top)",
+      "breakpoints": {
+        "360": {
+          "iterations": 3,
+          "result": {
+            "structuralRed": 0,
+            "nothingLostYellow": 0,
+            "visualFlags": "6 advisory, justified (PC/SP heading twins, lazy hero image)",
+            "pixelPct": 1.01,
+            "heightDelta": -1,
+            "clipped": 0,
+            "overflow": "ok",
+            "chromeCrop": {
+              "header": 1.32,
+              "footer": 1.61
+            },
+            "units": "23 compared, 0 off",
+            "pass": true
+          },
+          "justified": [
+            {
+              "probe": "visual",
+              "flag": "IMAGE DID NOT LOAD ×3 (lazy off-screen hero slides)",
+              "why": "mirrors live: off-screen slides use loading=lazy on both sides"
+            },
+            {
+              "probe": "visual",
+              "flag": "HEADING FACE h3 変額保険 / h2 SP-PC duplicates",
+              "why": "live renders PC/SP heading twins (one display:none); build mirrors both"
+            }
+          ],
+          "residuals": [
+            {
+              "band": "y 8500–9000",
+              "pct": 3.9,
+              "cause": "SP footer policy links glyph-antialiasing / sub-pixel line pitch",
+              "flaggedFor": "user"
+            },
+            {
+              "band": "y 6000–7000",
+              "pct": 3.1,
+              "cause": "news-list text antialiasing",
+              "flaggedFor": "user"
+            }
+          ],
+          "captureState": [
+            {
+              "what": "hero carousel held on the instrument-observed slide (stitch-shot freeze): PC slide 5 (FA), SP track 6px short of slide 5 with dot 4 active and slide list at 26px adaptive height (lazy slide mid-change)",
+              "where": "hero",
+              "restoreAtDelivery": "hero: autoplay, advance every 5 s (dot progress bar 5 s linear, track transform .5s), prev/next arrows, dots, pause/play button; initial slide 1 at delivery (remove data-capture-start*/is-capture-state)"
+            }
+          ]
+        },
+        "1440": {
+          "iterations": 3,
+          "result": {
+            "structuralRed": 1,
+            "structuralRedJustified": 1,
+            "nothingLostYellow": 0,
+            "visualFlags": "4 advisory, justified",
+            "pixelPct": 0.55,
+            "heightDelta": 1,
+            "clipped": 0,
+            "overflow": "ok",
+            "chromeCrop": {
+              "header": 0,
+              "footer": 0.52
+            },
+            "chromeParity": "header ✓; footer only the OneTrust MISSING/Cookie設定 pair",
+            "units": "23 compared, 0 off",
+            "pass": true
+          },
+          "justified": [
+            {
+              "probe": "content",
+              "flag": "🔴 MISSING CTA [footer] 設定の変更（拒否する）",
+              "why": "OneTrust consent-banner button injected by the third-party CMP on live (martech carried-disabled, owner decision); not site footer content",
+              "permanent": true
+            },
+            {
+              "probe": "visual",
+              "flag": "IMAGE DID NOT LOAD ×3 (lazy off-screen hero slides)",
+              "why": "mirrors live: off-screen slides use loading=lazy on both sides"
+            },
+            {
+              "probe": "visual",
+              "flag": "HEADING FACE h3 変額保険 / h2 SP-PC duplicates",
+              "why": "live renders PC/SP heading twins (one display:none); build mirrors both"
+            },
+            {
+              "probe": "content",
+              "flag": "🔴 OneTrust button 設定の変更（拒否する） in live footer",
+              "why": "CMP UI injected by the source consent script, not page content; consent carried over disabled in martech-contract.json (embed-passthrough) — it returns when the owner enables the CMP",
+              "permanent": true
+            }
+          ],
+          "residuals": [
+            {
+              "band": "y 7500–8000",
+              "pct": 2.3,
+              "cause": "glyph-antialiasing in footer link columns (parity metrics/positions match)",
+              "flaggedFor": "user"
+            }
+          ],
+          "captureState": [
+            {
+              "what": "hero carousel held on the instrument-observed slide (stitch-shot freeze): PC slide 5 (FA), SP track 6px short of slide 5 with dot 4 active and slide list at 26px adaptive height (lazy slide mid-change)",
+              "where": "hero",
+              "restoreAtDelivery": "hero: autoplay, advance every 5 s (dot progress bar 5 s linear, track transform .5s), prev/next arrows, dots, pause/play button; initial slide 1 at delivery (remove data-capture-start*/is-capture-state)"
+            }
+          ]
+        }
+      },
+      "capProbe": "PASS at 2560 — 0 of 4 rows failed (gates/index-2560/cap-iter.json)",
+      "headerContract": {
+        "status": "6 errors / 15 warnings",
+        "parity": "stardust/chrome/header-parity.json",
+        "open": [
+          "5 open-panel crops 2.1–6.9% vs 2% bar (panels ~8px short)",
+          "390 drawer control accessible name \";\" missing on build"
+        ],
+        "fixAt": "C0 foundation"
+      },
+      "motion": {
+        "observed": "stardust/replica/motion/index.json — hero autoplay (dot progress kXFVgJ 5 s, track transform .5s), back-to-top opacity .3s, hovers: rail CTA bg #00006d, bold links + recommended cards color #00006d; arrows/pause/tab pokes and all other hovers dead",
+        "implemented": "hero autoplay 5 s + arrows/dots/pause/swipe, back-to-top fade .3s, the 3 observed hovers; invented hovers removed",
+        "dead": [
+          "entry-link hover",
+          "ButtonUI2025 hover",
+          "news item hover",
+          "footer link hover",
+          "slider arrow hover",
+          "header scroll-morph"
+        ],
+        "compare": "motion-compare: 4 parity; 'missing' rows are live class names (slick-*, styled-components hashes) — same behaviour implemented with own classes"
+      },
+      "updatedAt": "2026-11-09T05:58:35Z"
+    },
+    "content": {
+      "pageType": "content",
+      "archetype": "company",
+      "live": "https://www.axa.co.jp/company/",
+      "proto": "stardust/prototypes/company-proposed.html",
+      "css": [
+        "stardust/prototypes/canon/canon.css",
+        "stardust/prototypes/content.css",
+        "stardust/prototypes/company.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon/chrome.js"
+      ],
+      "chrome": "canon header + SharedFooter + back-to-top (no CTA rail on this page type); SP chrome font overrides in company.css",
+      "siblings": [
+        "customer-feedback",
+        "about-axa",
+        "dataprivacy"
+      ],
+      "generator": "stardust/.work/replica/content-gen.py (live slice DOM -> content.css module markup, per-instance Prismic params as inline CSS custom properties)",
+      "breakpoints": {
+        "360": {
+          "iterations": 5,
+          "result": {
+            "structuralRed": 0,
+            "nothingLostYellow": 0,
+            "visualFlags": "9 advisory, justified",
+            "pixelPct": 8.58,
+            "heightDelta": -4,
+            "clipped": 0,
+            "overflow": "ok",
+            "pass": true
+          },
+          "justified": [
+            {
+              "probe": "visual",
+              "flag": "HEADING FACE h2 22.4px Noto Sans JP",
+              "why": "live renders the same 1.4rem/700 Noto Sans JP heading; advisory only"
+            },
+            {
+              "probe": "visual",
+              "flag": "FONT MISMATCH 関連リンク (strong 900)",
+              "why": "live strong is weight 900 with only 400/700 faces served; build synthesizes from self-hosted 700 as canon does"
+            }
+          ],
+          "residuals": [
+            {
+              "band": "y 6500-7000, 9000-9500, 13500-14000",
+              "pct": "20-33 (band)",
+              "cause": "SP text wrap / sub-pixel line pitch in long Prismic rich-text blocks; overall 8.58% under 10% bar",
+              "flaggedFor": "user"
+            },
+            {
+              "what": "main +4px at 360",
+              "cause": "SP h3 ramp not measured (1.225rem used at all widths)",
+              "flaggedFor": "sibling render"
+            }
+          ],
+          "captureState": []
+        },
+        "1440": {
+          "iterations": 4,
+          "result": {
+            "structuralRed": 0,
+            "nothingLostYellow": 0,
+            "visualFlags": "none",
+            "pixelPct": 0.19,
+            "heightDelta": 0,
+            "clipped": 0,
+            "overflow": "ok",
+            "pass": true
+          },
+          "justified": [],
+          "residuals": [],
+          "captureState": []
+        }
+      },
+      "capProbe": "PASS at 2560 (0 of 3 rows failed)",
+      "motion": {
+        "observed": "opacity transition x2 (back-to-top fade at scroll), 2 class mutations (styled-components back-to-top class swap)",
+        "implemented": "back-to-top fade via canon chrome.js (opacity parity 300ms)",
+        "dead": [
+          "header scroll-morph"
+        ]
+      },
+      "openItems": [
+        "iteration counts exceed the 2+1 budget: iter1-3 pixel rounds were spent on root causes (body base 14px/1.4, lazy-capture height, SP stacked-column gap); iter4 = 1440 --full pass, iter5 = 360 --full pass",
+        "contact section (ContactSectionWrapper, about-axa only) not authored: no live CSS values probed on this archetype"
+      ]
+    },
+    "prospect-hub": {
+      "pageType": "prospect-hub",
+      "archetype": "prospect",
+      "live": "https://www.axa.co.jp/prospect/",
+      "proto": "stardust/prototypes/prospect-proposed.html",
+      "css": [
+        "stardust/prototypes/canon/canon.css",
+        "stardust/prototypes/prospect.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon/chrome.js",
+        "stardust/prototypes/prospect.js"
+      ],
+      "chrome": "canon header + CTA rail + back-to-top + SharedFooter (unchanged canon; body base 16px/1.6 like home)",
+      "breakpoints": {
+        "360": {
+          "iterations": 1,
+          "result": {
+            "structuralRed": 0,
+            "nothingLostYellow": 0,
+            "visualFlags": "none",
+            "pixelPct": 0.67,
+            "heightDelta": 0,
+            "clipped": 0,
+            "overflow": "ok",
+            "pass": true
+          },
+          "justified": [],
+          "residuals": [],
+          "captureState": []
+        },
+        "1440": {
+          "iterations": 1,
+          "result": {
+            "structuralRed": 0,
+            "nothingLostYellow": 0,
+            "visualFlags": "none",
+            "pixelPct": 2.73,
+            "heightDelta": -3,
+            "clipped": 0,
+            "overflow": "ok",
+            "pass": true
+          },
+          "justified": [],
+          "residuals": [],
+          "captureState": []
+        }
+      },
+      "chromeCrops": {
+        "360": {
+          "header": "98.66%",
+          "footer": "99.85%"
+        },
+        "1440": {
+          "header": "100.00%",
+          "footer": "99.25%"
+        }
+      },
+      "capProbe": "PASS at 2560 (0 of 4 rows failed; advisory: live 2 vs build 3 top-level sections)",
+      "motion": {
+        "observed": "opacity transition x3 (back-to-top fade), 3 styled-components class swaps (back-to-top state), hover: jump-tab colour #00008f→#00006d",
+        "implemented": "back-to-top fade via canon chrome.js (300ms parity); jump-tab hover colour + badge bg #00006d in prospect.css",
+        "dead": [
+          "header scroll-morph",
+          "product tile hover",
+          "link-set hover",
+          "jump-tab click widget sample (instrument samples no window scroll)"
+        ]
+      },
+      "openItems": [
+        "jump tabs: live <a> without href; prospect.js scrolls to the numbered section on click — functional nav, not confirmed by motion-observe (it does not sample window scroll); verify at delivery",
+        "simulation second tab (ライフイベントから) panel not captured — button only (same as home)",
+        "simulation widget = home .sim (CSS lifted into prospect.css; candidate to move to canon as a shared module)"
+      ]
+    },
+    "product-listing": {
+      "pageType": "product-listing",
+      "archetype": "product",
+      "live": "https://www.axa.co.jp/product/",
+      "proto": "stardust/prototypes/product-proposed.html",
+      "css": [
+        "stardust/prototypes/canon/canon.css",
+        "stardust/prototypes/product.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon/chrome.js",
+        "stardust/prototypes/product.js"
+      ],
+      "chrome": "canon header + SharedFooter + back-to-top (no CTA rail); body base 16px/1.6 like home, so no chrome overrides",
+      "generator": "stardust/.work/replica/product-gen.py (live main DOM -> semantic markup; styled-components rules re-keyed hash->semantic class into product.css GENERATED section; inputs dumped by product-probe.mjs)",
+      "breakpoints": {
+        "360": {
+          "iterations": 3,
+          "result": {
+            "structuralRed": 0,
+            "nothingLostYellow": 0,
+            "visualFlags": "none",
+            "pixelPct": 0.18,
+            "heightDelta": 0,
+            "clipped": 39,
+            "overflow": "ok",
+            "pass": true
+          },
+          "justified": [
+            {
+              "probe": "clip-probe",
+              "flag": "TEXT CLIPPED x39 (2-line labels in 48px overflow:hidden buttons: パンフレットをもらう, 専門スタッフに 電話で相談(無料))",
+              "why": "live clips the identical 39 (clip-probe on live 360 = 39, same elements) — mirrored on purpose"
+            }
+          ],
+          "residuals": [],
+          "captureState": []
+        },
+        "1440": {
+          "iterations": 3,
+          "result": {
+            "structuralRed": 0,
+            "nothingLostYellow": 0,
+            "visualFlags": "none",
+            "pixelPct": 0.16,
+            "heightDelta": 0,
+            "clipped": 0,
+            "overflow": "ok",
+            "pass": true
+          },
+          "justified": [
+            {
+              "probe": "content-diff",
+              "flag": "MISSING BODY \"0120-977-990 (無料)\" / EXTRA \"0120-977-990(無料)\"",
+              "why": "pairing artifact: markup + innerText identical on both sides (product-txt.mjs probe); same text present twice (PC anchor + hidden SP p), whitespace join differs only in pairing; 360 round 0"
+            },
+            {
+              "probe": "content-diff",
+              "flag": "MISSING ARIA-LABEL select:select-id-_r_N_:trigger x4",
+              "why": "live React useId values change per render (_r_3_ at gate vs _r_1a_ at probe); build carries the probe-time labels verbatim; 360 round matched 0"
+            }
+          ],
+          "residuals": [],
+          "captureState": [
+            "accordions: first 7 open (choose-your-own + 6 categories), 6 closed — as live initial state"
+          ]
+        }
+      },
+      "capProbe": "PASS at 2560 (0 of 3 rows failed)",
+      "motion": {
+        "observed": "accordion grid-template-rows 300ms x2, back-to-top opacity 300ms, button/accordion hover colour",
+        "implemented": "product.js accordion toggle (grid-rows transition, rotateX chevron, aria-expanded), anchor links open their accordion, quiz selects (native select overlay, submit enabled when all 4 chosen, GET be-recommended/results); back-to-top via canon chrome.js",
+        "dead": [
+          "header scroll-morph",
+          "widget frame sampling on accordion pokes (no track change)"
+        ]
+      },
+      "openItems": [
+        "quiz select uses a transparent native <select> over the trigger instead of the Radix listbox popup (popup never captured); flag for dynamics",
+        "product page body base is 16px (home), NOT 14px like content type — content.css is not loaded"
+      ]
+    },
+    "insurance-guide": {
+      "pageType": "insurance-guide",
+      "archetype": "about-insurance",
+      "live": "https://www.axa.co.jp/about-insurance/",
+      "proto": "stardust/prototypes/about-insurance-proposed.html",
+      "css": [
+        "stardust/prototypes/canon/canon.css",
+        "stardust/prototypes/about-insurance.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon/chrome.js",
+        "stardust/prototypes/about-insurance.js"
+      ],
+      "chrome": "canon header + back-to-top (no CTA rail on this page type) + SharedFooter, unchanged canon; body base 16px/1.6 (page wrapper 16px/1.15 #333); bespoke AboutInsuranceTopPage components, not Prismic slices",
+      "breakpoints": {
+        "360": {
+          "iterations": 1,
+          "result": {
+            "structuralRed": 0,
+            "nothingLostYellow": 0,
+            "visualFlags": "none",
+            "pixelPct": 0.2,
+            "heightDelta": 0,
+            "clipped": 0,
+            "overflow": "ok",
+            "pass": true
+          },
+          "justified": [],
+          "residuals": [],
+          "captureState": []
+        },
+        "1440": {
+          "iterations": 1,
+          "result": {
+            "structuralRed": 0,
+            "nothingLostYellow": 0,
+            "visualFlags": "none",
+            "pixelPct": 0.08,
+            "heightDelta": 0,
+            "clipped": 0,
+            "overflow": "ok",
+            "pass": true
+          },
+          "justified": [],
+          "residuals": [],
+          "captureState": []
+        }
+      },
+      "chromeCrops": "chrome-parity within tolerance at both widths (canon unchanged)",
+      "capProbe": "PASS at 2560 (0 of 5 rows failed)",
+      "motion": {
+        "observed": "back-to-top opacity fade (0.3s); bubble click → modal: overlay #333 opacity 0→0.5 (0.5s), panel top 100vh→50% + opacity + visibility (0.5s), body overflow hidden",
+        "implemented": "back-to-top via canon chrome.js; bubble modal + Esc/close/overlay + SP Q&A accordion + ページの先頭に戻る scroll in about-insurance.js; modal texts from live (7 <template>s, captured by .work/replica/aboutins/bubbles.mjs)",
+        "dead": [
+          "header scroll-morph",
+          "hover probes on bubbles / Q&A items / testimonial cards (no diff measured — hover CSS lifted from source CSSOM anyway)"
+        ]
+      },
+      "openItems": [
+        "SP Q&A accordion (live dKzPsA→izsAaw class swap on title click) implemented from CSSOM, not exercised by motion-observe",
+        "bubble modal content not in the static capture — taken from live clicks (bubbles-1440.json); content owner to confirm at migrate",
+        "ContactLinks strip (PC ≥995 only) authored here — same component as about-axa's contact section"
+      ]
+    },
+    "customer-hub": {
+      "pageType": "customer-hub",
+      "archetype": "customer",
+      "live": "https://www.axa.co.jp/customer/",
+      "proto": "stardust/prototypes/customer-proposed.html",
+      "css": [
+        "stardust/prototypes/canon/canon.css",
+        "stardust/prototypes/customer.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon/chrome.js",
+        "stardust/prototypes/customer.js"
+      ],
+      "chrome": "canon header + footer + back-to-top (no CTA rail); body base 16px/1.6, canon chrome unchanged",
+      "generator": "stardust/.work/replica/customer/gen.py (inputs from customer/probe.mjs: live main DOM + CSSOM rules; hashed classes re-keyed to semantic names in customer.css GENERATED section)",
+      "breakpoints": {
+        "360": {
+          "iterations": 3,
+          "result": {
+            "structuralRed": 0,
+            "nothingLostYellow": 0,
+            "visualFlags": "1 advisory, justified",
+            "pixelPct": 0.15,
+            "heightDelta": 0,
+            "clipped": 5,
+            "clippedJustified": 5,
+            "overflow": "ok (live +8px fixed — inconsistency-register entry)",
+            "chromeParity": "header ✓; footer only the OneTrust pair",
+            "units": "45 compared, 0 off",
+            "pass": true
+          },
+          "justified": [
+            {
+              "probe": "content-diff / chrome-parity",
+              "flag": "🔴 MISSING CTA [footer] 設定の変更（拒否する） / EXTRA Cookie設定",
+              "why": "OneTrust CMP rewrites the footer cookie link text on live (third-party consent script, martech carried-disabled) — same justification as home; not site footer content",
+              "permanent": true
+            },
+            {
+              "probe": "visual-diff",
+              "flag": "SURFACE/GROUND MISMATCH heading ご契約者さま",
+              "why": "pairing artifact: the h1 (white on banner) and the contractor-section h2 share the text; heading records are identical on both sides (h1 #fff 33.6px, h2 #343c3d 23.8px)"
+            },
+            {
+              "probe": "clip-probe",
+              "flag": "CONTROL HIDDEN ×5 slick-dots buttons",
+              "why": "live identical: dots sit at bottom:-12rem inside the overflow:hidden slider section at SP (clip-probe on live 360 = same 5)"
+            }
+          ],
+          "residuals": [],
+          "captureState": [
+            {
+              "element": "banner slider (react-slick)",
+              "state": "slide 1 (index 0) at rest — stitch-shot freezes timers before the first autoplay tick (live first tick ~3.2 s)",
+              "restoreAtDelivery": "autoplay every ~4 s (measured 4.05 s period), 500ms slide, infinite loop, prev/next arrows + 5 dots; implemented in customer.js (data-autoplay=4000)"
+            }
+          ]
+        },
+        "1440": {
+          "iterations": 2,
+          "result": {
+            "structuralRed": 1,
+            "structuralRedJustified": 1,
+            "nothingLostYellow": 0,
+            "visualFlags": "1 advisory, justified",
+            "pixelPct": 0.08,
+            "heightDelta": 0,
+            "clipped": 0,
+            "overflow": "ok",
+            "chromeParity": "header ✓; footer only the OneTrust pair",
+            "units": "45 compared, 0 off",
+            "pass": true
+          },
+          "justified": [
+            {
+              "probe": "content-diff / chrome-parity",
+              "flag": "🔴 MISSING CTA [footer] 設定の変更（拒否する） / EXTRA Cookie設定",
+              "why": "OneTrust CMP rewrites the footer cookie link text on live (third-party consent script, martech carried-disabled) — same justification as home; not site footer content",
+              "permanent": true
+            },
+            {
+              "probe": "visual-diff",
+              "flag": "SURFACE/GROUND MISMATCH heading ご契約者さま",
+              "why": "pairing artifact: the h1 (white on banner) and the contractor-section h2 share the text; heading records are identical on both sides (h1 #fff 33.6px, h2 #343c3d 23.8px)"
+            }
+          ],
+          "residuals": [],
+          "captureState": [
+            {
+              "element": "banner slider (react-slick)",
+              "state": "slide 1 (index 0) at rest — stitch-shot freezes timers before the first autoplay tick (live first tick ~3.2 s)",
+              "restoreAtDelivery": "autoplay every ~4 s (measured 4.05 s period), 500ms slide, infinite loop, prev/next arrows + 5 dots; implemented in customer.js (data-autoplay=4000)"
+            }
+          ]
+        }
+      },
+      "capProbe": "PASS at 2560 (0 of 3 rows failed)",
+      "motion": {
+        "observed": [
+          "slider autoplay transform 500ms",
+          "slider next-arrow click",
+          "back-to-top opacity 300ms",
+          "DirectButton hover sweep 300ms / colour 250ms"
+        ],
+        "implemented": [
+          "slider autoplay/arrows/dots (customer.js)",
+          "back-to-top (canon chrome.js)",
+          "button hovers (CSS)"
+        ],
+        "dead": [],
+        "compare": "12 parity, 2 missing = live back-to-top hashed visibility classes (canon uses .is-visible, opacity parity)"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variantName": "product-cards",
+  "baseBlock": "cards",
+  "canonicalModel": "cards",
+  "visualCharacteristics": "A grid of clickable product tiles, each with an icon, a linked title and a short description, followed by a call-to-action button. The icons variant shows compact icon-and-title tiles.",
+  "contentPattern": "One row per card: [icon picture plus optional mobile picture] [h3 heading containing the link] [description paragraph]. Trailing CTA row: [link paragraph]. Icons variant: one row per tile: [icon picture] [link title paragraph], plus a CTA row with only a link paragraph.",
+  "options": [
+    { "class": "icons", "label": "Icons" }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use it to showcase insurance products as clickable tiles linking to their pages.",
+  "reuseGuidance": "Reuse it for linked product or category tiles; pick feature-grid for non-linked icon features or cards for editorial content."
+}

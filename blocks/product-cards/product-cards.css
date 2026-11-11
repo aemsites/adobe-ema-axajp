@@ -1,0 +1,261 @@
+/* product-cards — index.css `.products` (home product tiles) */
+
+/* the home separator (`hr.home-sep`) above the products section */
+main > .section.product-cards-container {
+  padding-top: 80px;
+  border-top: 1px solid var(--line);
+}
+
+.product-cards { margin: 0 0 80px; }
+.product-cards .product-cards-single { display: none; }
+
+.product-cards .product-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 0 0 32px;
+}
+
+.product-cards .product-cards-extra { display: none; }
+
+.product-cards .product-cards-card {
+  display: block;
+  font-weight: 600;
+}
+
+.product-cards .product-cards-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  margin: 0 0 16px;
+  border: 1px solid var(--line);
+}
+
+.product-cards .product-cards-icon {
+  display: flex;
+  align-items: center;
+}
+
+.product-cards .product-cards-sp { display: none; }
+
+.product-cards .product-cards-icon img {
+  width: 112px;
+  height: 112px;
+}
+
+.product-cards .product-cards-body {
+  display: flex;
+  flex-direction: column;
+  margin: 0 16px;
+}
+
+.product-cards .product-cards-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--blue);
+}
+
+.product-cards .product-cards-head :is(h2, h3, h4) {
+  margin: 0 0 8px;
+  font-weight: 700;
+  line-height: 20.8px;
+}
+
+.product-cards .product-cards-head svg {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  fill: currentcolor;
+}
+
+.product-cards .product-cards-text p {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22.5px;
+}
+
+.product-cards .product-cards-single-item .product-cards-head :is(h2, h3, h4) { font-size: 20px; }
+
+.product-cards .product-cards-cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+@media (width <= 767px) {
+  main > .section.product-cards-container { padding-top: 49px; }
+  .product-cards { margin-bottom: 48px; }
+
+  .product-cards .product-cards-single {
+    display: block;
+    margin: 0 0 32px;
+  }
+
+  .product-cards .product-cards-first { display: none; }
+  .product-cards .product-cards-extra { display: block; }
+
+  .product-cards .product-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+
+  .product-cards .product-cards-frame {
+    height: 76px;
+    margin-bottom: 8px;
+  }
+
+  .product-cards .product-cards-pc { display: none; }
+  .product-cards .product-cards-sp { display: flex; }
+
+  .product-cards .product-cards-icon img {
+    width: 56px;
+    height: 56px;
+  }
+
+  .product-cards .product-cards-body { margin: 0; }
+
+  .product-cards .product-cards-text p {
+    font-size: 14px;
+    line-height: 19.6px;
+  }
+
+  .product-cards .product-cards-single-item .product-cards-frame {
+    height: 162px;
+    margin-bottom: 8px;
+  }
+
+  .product-cards .product-cards-single-item .product-cards-pc { display: flex; }
+  .product-cards .product-cards-single-item .product-cards-sp { display: none; }
+
+  .product-cards .product-cards-single-item .product-cards-icon img {
+    width: 134px;
+    height: 134px;
+  }
+
+  .product-cards .product-cards-single-item .product-cards-text p { line-height: 21px; }
+
+  .product-cards .product-cards-single-item .product-cards-head :is(h2, h3, h4) { font-size: 16px; }
+  .product-cards .product-cards-cta { flex-direction: column; gap: 8px; }
+}
+
+/* canon .btn sizing: the button paragraph takes the row (max 560px, shared in a row) */
+.product-cards .product-cards-cta p {
+  flex: 0 1 100%;
+  width: 100%;
+  max-width: 560px;
+}
+
+/* ---------- icons — prospect product tiles (prospect.css `.tiles`, `.p-btn`) */
+main > .section.product-cards-container:has(.product-cards.icons) {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.product-cards.icons { margin: 0; }
+
+.product-cards.icons .product-cards-tiles {
+  display: grid;
+  gap: 1px;
+  margin: 0 0 24px;
+}
+
+.product-cards.icons .product-cards-tile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  padding: 8px;
+  outline: 1px solid var(--line);
+  color: var(--blue);
+}
+
+.product-cards.icons .product-cards-tile-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.product-cards.icons .product-cards-tile-icon :is(picture, img) {
+  width: 100%;
+  height: 100%;
+}
+
+.product-cards.icons .product-cards-tile-text p {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.6;
+  transform: translateX(-20px);
+}
+
+.product-cards.icons .product-cards-tile-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-cards.icons .product-cards-tile-arrow svg {
+  width: 16px;
+  height: 16px;
+  fill: currentcolor;
+}
+
+.product-cards.icons .product-cards-cta {
+  width: 100%;
+  max-width: 560px;
+  margin: 16px auto 0;
+}
+
+.product-cards.icons .product-cards-cta a.button:any-link {
+  max-width: none;
+  height: 48px;
+  margin: 0;
+  padding: 12px 20px;
+  font-size: 16px;
+  line-height: 1.6;
+  border: 2px solid var(--blue);
+}
+
+.product-cards.icons .product-cards-cta a.button:any-link:hover {
+  background: var(--blue-hover);
+  border-color: var(--blue-hover);
+}
+
+.product-cards.icons .product-cards-cta a.button:any-link::after {
+  right: 8px;
+  width: 16px;
+  height: 16px;
+  margin-top: -8px;
+}
+
+@media (width >= 768px) {
+  .product-cards.icons .product-cards-tiles { grid-template-columns: repeat(3, 1fr); }
+
+  .product-cards.icons .product-cards-tile {
+    flex-direction: column;
+    gap: 8px;
+    height: auto;
+    padding: 16px;
+  }
+
+  .product-cards.icons .product-cards-tile-icon {
+    width: 110px;
+    height: 110px;
+  }
+
+  .product-cards.icons .product-cards-tile-text p {
+    font-size: 16px;
+    transform: none;
+  }
+
+  .product-cards.icons .product-cards-tile-arrow {
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .product-cards.icons .product-cards-cta { margin-top: 2px; }
+  .product-cards.icons .product-cards-cta a.button:any-link { height: 70px; }
+  .product-cards.icons .product-cards-cta a.button:any-link::after { right: 18px; }
+}

@@ -1,0 +1,12 @@
+{
+  "decisions": [
+    {
+      "finding": "control-missing@390 ;",
+      "decision": "live-parity exception: mirror the live markup, no improvement",
+      "reason": "Live SP menu button (#root>header>nav:nth-of-type(2)>div>div:nth-of-type(3)>button) has no aria-label; its only text is a ';' text node inside an aria-hidden svg, so its accessible name normalises to '' (contract widths.390.controls[3]: name ';', key ''). chrome-compare pairs controls by non-empty key only and 'menu' is not a pairing family, so no build can pair it. The build mirrors live: blocks/header/header.js emits button.sp-header-menu with the canon svg (';' text node), aria-controls=drawer; the build record (stardust/chrome/header-build.json widths.390.controls) shows the same name ';' / key '' toggle opening the drawer on click with 6 accordion children, as on the source.",
+      "evidence": ["stardust/chrome/header-contract.json", "stardust/chrome/header-build.json", "stardust/chrome/header-parity.json"],
+      "by": "stardust-c0-foundation (measurement policy per coordinator; needs site-owner countersign to take effect)",
+      "at": "2026-11-09"
+    }
+  ]
+}

@@ -1,0 +1,1957 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-09T04:42:18.822Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "product",
+  "url": "https://www.axa.co.jp/product/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-09T04:42:18.822Z",
+  "finalUrl": "https://www.axa.co.jp/product/",
+  "title": "生命保険商品一覧｜アクサ生命保険株式会社",
+  "description": "アクサ生命保険株式会社の生命保険商品一覧です。医療保険、終身保険、がん保険、定期保険など、死亡・入院・手術・病気を保障する保険を幅広く取り揃えています。アクサ生命保険は世界最大級の金融・資産運用グループAXAのメンバーカンパニー です。お客さまの安心でよりよい人生の実現に貢献するための保険商品・サービスを提供します。",
+  "og": {
+    "title": "生命保険商品一覧｜アクサ生命保険株式会社",
+    "description": "アクサ生命保険株式会社の生命保険商品一覧です。医療保険、終身保険、がん保険、定期保険など、死亡・入院・手術・病気を保障する保険を幅広く取り揃えています。アクサ生命保険は世界最大級の金融・資産運用グループAXAのメンバーカンパニー です。お客さまの安心でよりよい人生の実現に貢献するための保険商品・サービスを提供します。",
+    "image": null,
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "生命保険商品一覧"
+    },
+    {
+      "tag": "h2",
+      "text": "保険の種類から選ぶ"
+    },
+    {
+      "tag": "h2",
+      "text": "簡単な質問に答えるだけで、"
+    },
+    {
+      "tag": "h2",
+      "text": "あなたにぴったりな保険がわかります。"
+    },
+    {
+      "tag": "h2",
+      "text": "保険に関するご相談"
+    },
+    {
+      "tag": "h4",
+      "text": "お電話でのご相談"
+    },
+    {
+      "tag": "h4",
+      "text": "対面でのご相談"
+    },
+    {
+      "tag": "h2",
+      "text": "その他の保険商品"
+    }
+  ],
+  "body": [
+    "Home",
+    "商品一覧",
+    "生命保険商品一覧",
+    "※無理にご契約をお勧めすることはありません。",
+    "一定期間の死亡・高度障害保障。解約の時、払いもどし金が無いので割安な保険料。",
+    "一生涯の死亡・高度障害保障。 解約時払いもどし金があるので、将来の資金準備としても利用可能。※一定の期間、払いもどし金を低く抑え保険料を割安にする「低払いもどし金」特則付",
+    "98歳まで死亡・高度障害を長期保障。解約時払いもどし金があるので、将来の資金準備としても利用可能。",
+    "保障期間を定めることで、保険料を抑えて死亡・高度障害を準備可能。解約時払いもどし金があるので、将来の資金準備としても利用可能です。",
+    "割安な保険料*で死亡保障を準備。医師の診査は不要です。払いもどし金を将来、活用することもできます。*ご契約から一定期間は災害以外を原因とする死亡保険金を抑えるため、その分保険料が割安です。",
+    "日帰り入院から一時金・給付金で保障する一生涯の医療保険。通院の費用もサポートします。",
+    "女性特有の病気を手厚く保障。女性に優しい一生涯の医療保険です。",
+    "健康に不安がある方のための医療保険。入院・手術を一生保障します。充実の特約でさらに安心。",
+    "所定の認知症も保障する一生涯の医療保険です。",
+    "患者申出療養を保障する保険。医療保険やがん保険にプラスすると、医療保障の幅がひろがります。※所定の商品とセットでご加入いただけます。",
+    "死亡・高度障害保障を準備できる変額保険。特約を付加することで、重篤な病気になった場合、その後の保険料払込みは免除されます。",
+    "資産形成しながら、一生涯の介護・死亡保障が確保できる変額保険。特約を付加することで、重篤な病気になった場合、その後の保険料払込みは免除されます。",
+    "積立金額、死亡給付金額および年金額などが特別勘定資産の運用実績に応じて変動（増減）するしくみの変額個人年金保険です。",
+    "保険期間を選ぶことで、必要な期間の死亡保障を合理的に準備できる変額保険。",
+    "長期入院による収入減少に備えられる変額保険。死亡保障も準備できます。",
+    "保障額、保険料が自在に変更可能でき、保障と資産形成をバランス良く準備。ご契約期間中でも積立金の一部を引出すことが可能。",
+    "大切な資産を守りながら、外貨建で積極運用ができる変額終身保険です。",
+    "手術・放射線治療・化学療法（抗がん剤治療）を入院しなくても保障。また、ガンによる痛みの緩和を目的とした「緩和ケア」も保障。",
+    "女性特有の病気を手厚く保障。女性に優しい一生涯の医療保険です。",
+    "健康に不安がある方のための医療保険。入院・手術を一生保障します。充実の特約でさらに安心。",
+    "持病のある方や、過去に入院・手術をされた方もOK。98歳まで死亡を長期保障。 契約後に、一生涯の保障への変更も可能です。",
+    "脳卒中や急性心筋梗塞で働けなくなった場合の生活費を準備。不慮の事故で働けなくなった後の生活費を確保。",
+    "資産形成しながら、一生涯の介護・死亡保障が確保できる変額保険。特約を付加することで、重篤な病気になった場合、その後の保険料払込みは免除されます。",
+    "所定の認知症も保障する一生涯の医療保険です。",
+    "法人向け保険商品のご案内企業のさらなる発展をサポートする、さまざまな商品を用意しております。",
+    "募集代理店：北洋銀行 北日本銀行 北都銀行 荘内銀行 東邦銀行 栃木銀行 足利小山信用金庫 高崎信用金庫 イオン銀行 東京スター銀行 第四北越銀行 福井銀行 長野信用金庫 諏訪信用金庫 十六銀行 静清信用金庫 姫路信用金庫 鳥取銀行 鳥取信用金庫 中国銀行 玉島信用金庫 もみじ銀行 呉信用金庫 広島信用金庫 山口銀行 北九州銀行 福岡ひびき信用金庫 福岡銀行 佐賀信用金庫 伊万里信用金庫 長崎銀行 十八親和銀行 熊本銀行 大分銀行 豊和銀行 兵庫信用金庫 おかやま信用金庫 大光銀行 西日本シティ銀行 きらぼしライフデザイン証券",
+    "募集代理店：きらやか銀行 福島銀行 栃木銀行 高崎信用金庫 しののめ信用金庫 PGフレンドリー・パートナーズ 神奈川銀行 高岡信用金庫 のと共栄信用金庫 遠州信用金庫 大垣西濃信用金庫 東濃信用金庫 半田信用金庫 桑名三重信用金庫 北伊勢上野信用金庫 京都北都信用金庫 津山信用金庫 中国銀行 吉備信用金庫 呉信用金庫 広島信用金庫 福岡信用金庫 遠賀信用金庫 筑邦銀行 唐津信用金庫 たちばな信用金庫 宮崎銀行",
+    "​死亡・高度障害保障を準備しながら特別勘定の運用実績によって満期保険金額・積立金額などが変動（増減）する変額保険。",
+    "この保険の引受保険会社は、アクサ生命保険株式会社です。日本生命保険相互会社は、アクサ生命保険株式会社の募集代理店です。​AXA-A1-2503-0110/9LJ",
+    "入院や手術を一生涯にわたってサポート。「持病があっても安心して暮らしたい」そんな気持ちにお応えできる医療保険。",
+    "この保険の引受保険会社は、アクサ生命保険株式会社です。日本生命保険相互会社は、アクサ生命保険株式会社の募集代理店です。",
+    "保険に詳しいオペレーターがあなたの疑問に丁寧にお答えします。",
+    "平日 9:00～18:00 ／土 9:00～17:00",
+    "（日・祝日、年末年始の休業日を除く）",
+    "※ご契約者さまは",
+    "0120-568-093",
+    "平日 9:00～18:00 ／土 9:00～17:00",
+    "（日・祝日、12月30日〜1月4日を除く）",
+    "お客さまの状況や希望を伺い、一人ひとりに最適な保険のご提案をいたします。無理な勧誘や営業は一切ありません。",
+    "保険をご検討の方",
+    "平日9:00〜18:00／土9:00〜17:00（日・祝日、年末年始の休業日を除く）",
+    "ご契約者さま",
+    "平日9:00〜18:00／土9:00〜17:00（日・祝日、12月30日〜1月4日を除く）"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "よくあるご質問",
+      "href": "https://help.axa.co.jp/s/"
+    },
+    {
+      "label": "お問い合わせ",
+      "href": "/request/"
+    },
+    {
+      "label": "ログイン",
+      "href": "https://myweb.axa.co.jp/"
+    },
+    {
+      "label": "保険をご検討のお客さま",
+      "href": null
+    },
+    {
+      "label": "ご契約者さま",
+      "href": null
+    },
+    {
+      "label": "法人のお客さま",
+      "href": null
+    },
+    {
+      "label": "パートナーさま",
+      "href": null
+    },
+    {
+      "label": "企業情報",
+      "href": null
+    },
+    {
+      "label": "採用情報",
+      "href": null
+    },
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "専門スタッフに相談 (無料)",
+      "href": "/form/consultation"
+    },
+    {
+      "label": "死亡保険",
+      "href": "#life-insurance"
+    },
+    {
+      "label": "医療保険",
+      "href": "#medical"
+    },
+    {
+      "label": "変額保険",
+      "href": "#saving"
+    },
+    {
+      "label": "がん保険",
+      "href": "#cancer"
+    },
+    {
+      "label": "女性向けの保険",
+      "href": "#ladies"
+    },
+    {
+      "label": "持病がある方",
+      "href": "#chronic"
+    },
+    {
+      "label": "就業不能に備える",
+      "href": "#disability"
+    },
+    {
+      "label": "介護に備える",
+      "href": "#nursing-care"
+    },
+    {
+      "label": "企業経営者さま",
+      "href": "#corporate"
+    },
+    {
+      "label": "日本生命取扱商品",
+      "href": "#nissay"
+    },
+    {
+      "label": "金融機関窓口販売商品",
+      "href": "#financial-institutions"
+    },
+    {
+      "label": "金融機関窓口販売（新規販売停止商品）",
+      "href": "#archive"
+    },
+    {
+      "label": "自分にぴったりな保険を選ぶ",
+      "href": null
+    },
+    {
+      "label": "---;",
+      "href": null
+    },
+    {
+      "label": "---;",
+      "href": null
+    },
+    {
+      "label": "---;",
+      "href": null
+    },
+    {
+      "label": "---;",
+      "href": null
+    },
+    {
+      "label": "おすすめの保険を見る",
+      "href": null
+    },
+    {
+      "label": "死亡保険",
+      "href": null
+    },
+    {
+      "label": "詳しく見る",
+      "href": "/product/life_insurance/purelife"
+    },
+    {
+      "label": "パンフレットをもらう",
+      "href": "/form/brochure/personalInfo/?check=art_30"
+    },
+    {
+      "label": "デジタル約款を見る",
+      "href": "/digitalprovision/product-results?salesCode=TF1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true"
+    },
+    {
+      "label": "「低払いもどし金」特則付",
+      "href": "http://www2.axa.co.jp/products/p_shushin/popup01.html"
+    },
+    {
+      "label": "詳しく見る",
+      "href": "/product/life_insurance/wl_lcv"
+    },
+    {
+      "label": "パンフレットをもらう",
+      "href": "/form/brochure/personalInfo/?check=art_16"
+    },
+    {
+      "label": "デジタル約款を見る",
+      "href": "/digitalprovision/product-results?salesCode=WL2b&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true"
+    },
+    {
+      "label": "詳しく見る",
+      "href": "/product/life_insurance/lttp_fairwind"
+    },
+    {
+      "label": "パンフレットをもらう",
+      "href": "/form/brochure/personalInfo/?check=art_14"
+    },
+    {
+      "label": "デジタル約款を見る",
+      "href": "/digitalprovision/product-results?salesCode=LT1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true"
+    },
+    {
+      "label": "詳しく見る",
+      "href": "/product/life_insurance/term"
+    },
+    {
+      "label": "パンフレットをもらう",
+      "href": "/form/brochure/personalInfo/?check=art_10"
+    },
+    {
+      "label": "デジタル約款を見る",
+      "href": "/digitalprovision/product-results?salesCode=TE1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true"
+    },
+    {
+      "label": "詳しく見る",
+      "href": "/product/life_insurance/followup-life"
+    },
+    {
+      "label": "パンフレットをもらう",
+      "href": "/form/brochure/personalInfo/?check=art_36"
+    },
+    {
+      "label": "デジタル約款を見る",
+      "href": "/digitalprovision/product-results?salesCode=TG1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true"
+    },
+    {
+      "label": "医療保険",
+      "href": null
+    },
+    {
+      "label": "詳しく見る",
+      "href": "/product/medical/smart-care"
+    },
+    {
+      "label": "パンフレットをもらう",
+      "href": "/form/brochure/personalInfo/?check=art_34"
+    },
+    {
+      "label": "デジタル約款を見る",
+      "href": "/digitalprovision/product-results?salesCode=WX1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true"
+    },
+    {
+      "label": "詳しく見る",
+      "href": "/product/ladies/smart-care-ladies"
+    },
+    {
+      "label": "パンフレットをもらう",
+      "href": "/form/brochure/personalInfo/?check=art_35"
+    },
+    {
+      "label": "デジタル約款を見る",
+      "href": "/digitalprovision/product-results?salesCode=WX1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true"
+    },
+    {
+      "label": "詳しく見る",
+      "href": "/product/chronic/smart-care-with-you"
+    },
+    {
+      "label": "パンフレットをもらう",
+      "href": "/form/brochure/personalInfo/?check=art_37"
+    },
+    {
+      "label": "デジタル約款を見る",
+      "href": "/digitalprovision/product-results?salesCode=WQ1b&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true"
+    },
+    {
+      "label": "詳しく見る",
+      "href": "/product/nursing_care/smart-care-dementia"
+    },
+    {
+      "label": "デジタル約款を見る",
+      "href": "/digitalprovision/product-results?salesCode=WX1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true"
+    },
+    {
+      "label": "詳しく見る",
+      "href": "/product/medical/super-advanced"
+    },
+    {
+      "label": "デジタル約款を見る",
+      "href": "/digitalprovision/product-results?salesCode=IC1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true"
+    },
+    {
+      "label": "変額保険",
+      "href": null
+    },
+    {
+      "label": "詳しく見る",
+      "href": "/product/saving/unit-link"
+    },
+    {
+      "label": "パンフレットをもらう",
+      "href": "/form/brochure/personalInfo/?check=art_15"
+    },
+    {
+      "label": "デジタル約款を見る",
+      "href": "/digitalprovision/product-results?salesCode=UL1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true"
+    },
+    {
+      "label": "特別勘定のしおりを見る",
+      "href": "https://www2.axa.co.jp/products/p_ul/files/T_ul.pdf"
+    },
+    {
+      "label": "詳しく見る",
+      "href": "/product/nursing_care/ltc-ul"
+    },
+    {
+      "label": "パンフレットをもらう",
+      "href": "/form/brochure/personalInfo/?check=art_40"
+    },
+    {
+      "label": "デジタル約款を見る",
+      "href": "/digitalprovision/product-results?salesCode=UM1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true"
+    },
+    {
+      "label": "特別勘定のしおりを見る",
+      "href": "https://www2.axa.co.jp/products/p_ul/files/T_ul.pdf"
+    },
+    {
+      "label": "詳しく見る",
+      "href": "/product/saving/ul-annuity"
+    },
+    {
+      "label": "パンフレットをもらう",
+      "href": "/form/brochure/personalInfo/?check=art_44"
+    },
+    {
+      "label": "デジタル約款を見る",
+      "href": "/digitalprovision/product-results?salesCode=UA1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true"
+    },
+    {
+      "label": "特別勘定のしおりを見る",
+      "href": "https://www2.axa.co.jp/products/p_ul/files/T_ul.pdf"
+    },
+    {
+      "label": "詳しく見る",
+      "href": "/product/saving/ul-term"
+    },
+    {
+      "label": "パンフレットをもらう",
+      "href": "/form/brochure/personalInfo/?check=art_42"
+    },
+    {
+      "label": "デジタル約款を見る",
+      "href": "/digitalprovision/product-results?salesCode=UT1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true"
+    },
+    {
+      "label": "特別勘定のしおりを見る",
+      "href": "https://www2.axa.co.jp/products/p_ul/files/T_ul.pdf"
+    },
+    {
+      "label": "詳しく見る",
+      "href": "/product/saving/ul-income"
+    },
+    {
+      "label": "デジタル約款を見る",
+      "href": "/digitalprovision/product-results?salesCode=UI1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true"
+    },
+    {
+      "label": "特別勘定のしおりを見る",
+      "href": "https://www2.axa.co.jp/products/p_ul/files/T_ul.pdf"
+    },
+    {
+      "label": "詳しく見る",
+      "href": "/product/life_insurance/life_produce"
+    },
+    {
+      "label": "パンフレットをもらう",
+      "href": "/form/brochure/personalInfo/?check=art_07"
+    },
+    {
+      "label": "デジタル約款を見る",
+      "href": "/digitalprovision/product-results?salesCode=LS1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true"
+    },
+    {
+      "label": "特別勘定のしおりを見る",
+      "href": "https://www2.axa.co.jp/products/p_lp/files/T_lp.pdf"
+    },
+    {
+      "label": "詳しく見る",
+      "href": "/product/saving/spw"
+    },
+    {
+      "label": "デジタル約款を見る",
+      "href": "/digitalprovision/product-results?salesCode=SPW1&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true"
+    },
+    {
+      "label": "特別勘定のしおりを見る",
+      "href": "https://www2.axa.co.jp/products/p_spw/files/T_spw.pdf"
+    },
+    {
+      "label": "がん保険",
+      "href": null
+    },
+    {
+      "label": "詳しく見る",
+      "href": "/product/cancer/my-therapy"
+    },
+    {
+      "label": "パンフレットをもらう",
+      "href": "/form/brochure/personalInfo/?check=art_39"
+    },
+    {
+      "label": "デジタル約款を見る",
+      "href": "/digitalprovision/product-results?salesCode=CS1b&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true"
+    },
+    {
+      "label": "女性向け",
+      "href": null
+    },
+    {
+      "label": "詳しく見る",
+      "href": "/product/ladies/smart-care-ladies"
+    },
+    {
+      "label": "パンフレットをもらう",
+      "href": "/form/brochure/personalInfo/?check=art_35"
+    },
+    {
+      "label": "デジタル約款を見る",
+      "href": "/digitalprovision/product-results?salesCode=WX1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true"
+    },
+    {
+      "label": "持病がある方",
+      "href": null
+    },
+    {
+      "label": "詳しく見る",
+      "href": "/product/chronic/smart-care-with-you"
+    },
+    {
+      "label": "パンフレットをもらう",
+      "href": "/form/brochure/personalInfo/?check=art_37"
+    },
+    {
+      "label": "デジタル約款を見る",
+      "href": "/digitalprovision/product-results?salesCode=WQ1b&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true"
+    },
+    {
+      "label": "詳しく見る",
+      "href": "/product/chronic/ok_life"
+    }
+  ],
+  "links": [
+    "https://help.axa.co.jp/s/",
+    "https://www.axa.co.jp/request/",
+    "https://myweb.axa.co.jp/",
+    "https://www.axa.co.jp/",
+    "https://www.axa.co.jp/prospect",
+    "https://www.axa.co.jp/product/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/product/medical/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/product/cancer/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/product/life_insurance/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/product/chronic/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/product/disability/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/product/ladies/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/product/nursing_care?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/product/saving/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/product/corporate/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/product/financial-institutions/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/product/#nissay?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/prospect/be-recommended/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/prospect/consultation-flow?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/form/brochure?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-insurance?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-insurance/testimonials?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-insurance/column?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-insurance/glossary?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://axa-wealth-management.co.jp/",
+    "https://www.axa.co.jp/prospect/life-management?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/prospect/life-management#03?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/prospect/life-management#01?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/prospect/life-management#02?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/variable?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/report/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/unit/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/variable/guidebook?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/digitalprovision?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/digitalprovision/group?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/why-axa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/why-axa/axa-brand?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/why-axa/cx?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/why-axa/product?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/why-axa/consulting?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/why-axa/fa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/mdrt?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/claim-top?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/claim/life?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/claim/medical?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/claim/group?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/covid-19-claim?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/guide?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/family-registration?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/guide/change-address?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/guide/change-name?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/guide/policy-loan-individual?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/guide/policy-loan-company?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/report?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/unit?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/variable/special-account?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/digitalprovision/rider-renewal?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/policy-reference?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/service?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/service/#service1?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/service/#service5?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/service/#service3?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/service/#service6?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/deduction-certificate?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/myaxa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/line?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/phone-number/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa-direct-life.co.jp/customer/index.html?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/company?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/company/hpm?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/service/hpm?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/company/hpm/platform?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/service/management?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/branch#channel?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/channel/cci?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/channel/ag?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/recruitment/ag/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/axa-life?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/overview/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/branch?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/history?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/voc?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/cr/employee?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/ceo-message?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/notice?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/info?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/news?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.youtube.com/playlist?list=PLHJn49QUj7pjey9RYEbanomhL7FTUQXXy",
+    "https://www.axa.co.jp/ir/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/ir/public-notice/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/ir/performance-report?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa-holdings.co.jp/esg/",
+    "https://www.axa.co.jp/about-axa/seminar?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/warning-fc?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/group-info?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.com/",
+    "https://www.axa-holdings.co.jp/",
+    "https://www.axa-direct.co.jp/axa-life/",
+    "https://www.axa.co.jp/recruitment/career?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/recruitment/career/students?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/recruitment/career/experienced?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/recruitment/cci/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/recruitment/fa/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/recruitment/career/pwd?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://myweb.axa.co.jp/login",
+    "https://www.axa.co.jp/customer/claim/medical",
+    "https://www.axa.co.jp/sfdc-chatbot",
+    "tel:0120-977-990",
+    "https://www.axa.co.jp/request/callback",
+    "https://www.axa.co.jp/form/consultation",
+    "https://www.axa.co.jp/product/#life-insurance",
+    "https://www.axa.co.jp/product/#medical",
+    "https://www.axa.co.jp/product/#saving",
+    "https://www.axa.co.jp/product/#cancer",
+    "https://www.axa.co.jp/product/#ladies",
+    "https://www.axa.co.jp/product/#chronic",
+    "https://www.axa.co.jp/product/#disability",
+    "https://www.axa.co.jp/product/#nursing-care",
+    "https://www.axa.co.jp/product/#corporate",
+    "https://www.axa.co.jp/product/#nissay",
+    "https://www.axa.co.jp/product/#financial-institutions",
+    "https://www.axa.co.jp/product/#archive",
+    "https://www.axa.co.jp/product/life_insurance/purelife",
+    "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_30",
+    "https://www.axa.co.jp/digitalprovision/product-results?salesCode=TF1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+    "http://www2.axa.co.jp/products/p_shushin/popup01.html",
+    "https://www.axa.co.jp/product/life_insurance/wl_lcv",
+    "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_16",
+    "https://www.axa.co.jp/digitalprovision/product-results?salesCode=WL2b&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+    "https://www.axa.co.jp/product/life_insurance/lttp_fairwind",
+    "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_14",
+    "https://www.axa.co.jp/digitalprovision/product-results?salesCode=LT1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+    "https://www.axa.co.jp/product/life_insurance/term",
+    "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_10",
+    "https://www.axa.co.jp/digitalprovision/product-results?salesCode=TE1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+    "https://www.axa.co.jp/product/life_insurance/followup-life",
+    "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_36",
+    "https://www.axa.co.jp/digitalprovision/product-results?salesCode=TG1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+    "https://www.axa.co.jp/product/medical/smart-care",
+    "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_34",
+    "https://www.axa.co.jp/digitalprovision/product-results?salesCode=WX1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+    "https://www.axa.co.jp/product/ladies/smart-care-ladies",
+    "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_35",
+    "https://www.axa.co.jp/product/chronic/smart-care-with-you",
+    "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_37",
+    "https://www.axa.co.jp/digitalprovision/product-results?salesCode=WQ1b&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+    "https://www.axa.co.jp/product/nursing_care/smart-care-dementia",
+    "https://www.axa.co.jp/product/medical/super-advanced",
+    "https://www.axa.co.jp/digitalprovision/product-results?salesCode=IC1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+    "https://www.axa.co.jp/product/saving/unit-link",
+    "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_15",
+    "https://www.axa.co.jp/digitalprovision/product-results?salesCode=UL1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+    "https://www2.axa.co.jp/products/p_ul/files/T_ul.pdf",
+    "https://www.axa.co.jp/product/nursing_care/ltc-ul",
+    "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_40",
+    "https://www.axa.co.jp/digitalprovision/product-results?salesCode=UM1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+    "https://www.axa.co.jp/product/saving/ul-annuity",
+    "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_44",
+    "https://www.axa.co.jp/digitalprovision/product-results?salesCode=UA1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+    "https://www.axa.co.jp/product/saving/ul-term",
+    "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_42",
+    "https://www.axa.co.jp/digitalprovision/product-results?salesCode=UT1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+    "https://www.axa.co.jp/product/saving/ul-income",
+    "https://www.axa.co.jp/digitalprovision/product-results?salesCode=UI1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+    "https://www.axa.co.jp/product/life_insurance/life_produce",
+    "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_07",
+    "https://www.axa.co.jp/digitalprovision/product-results?salesCode=LS1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+    "https://www2.axa.co.jp/products/p_lp/files/T_lp.pdf",
+    "https://www.axa.co.jp/product/saving/spw",
+    "https://www.axa.co.jp/digitalprovision/product-results?salesCode=SPW1&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+    "https://www2.axa.co.jp/products/p_spw/files/T_spw.pdf",
+    "https://www.axa.co.jp/product/cancer/my-therapy",
+    "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_39",
+    "https://www.axa.co.jp/digitalprovision/product-results?salesCode=CS1b&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+    "https://www.axa.co.jp/product/chronic/ok_life",
+    "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_29_a",
+    "https://www.axa.co.jp/digitalprovision/product-results?salesCode=LU1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+    "https://www.axa.co.jp/product/disability/disability_income",
+    "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_25",
+    "https://www.axa.co.jp/digitalprovision/product-results?salesCode=DI1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+    "https://www.axa.co.jp/product/corporate/",
+    "http://www.hokuyobank.co.jp/",
+    "http://www.kitagin.co.jp/index.html",
+    "https://www.hokutobank.co.jp/",
+    "https://www.shonai.co.jp/index.htm",
+    "http://www.tohobank.co.jp/",
+    "http://www.tochigibank.co.jp/",
+    "https://www.ashikagaoyamashinkin.co.jp/",
+    "http://www.takashin-net.co.jp/",
+    "https://www.aeonbank.co.jp/",
+    "http://www.tokyostarbank.co.jp/index.html",
+    "https://www.dhbk.co.jp/",
+    "https://www.fukuibank.co.jp/",
+    "http://www.nagano-shinkin.jp/",
+    "http://www.suwashinkin.co.jp/",
+    "https://www.juroku.co.jp/",
+    "http://www.seishin-shinkin.co.jp/",
+    "http://www.shinkin.co.jp/himeshin/",
+    "http://www.tottoribank.co.jp/",
+    "https://www.shinkin.co.jp/torishin/",
+    "https://www.chugin.co.jp/",
+    "https://www.tamashin.co.jp/",
+    "http://www.momijibank.co.jp/",
+    "http://www.kure-shinkin.jp/index.shtml",
+    "http://www.hiroshin.co.jp/",
+    "http://www.yamaguchibank.co.jp/",
+    "http://www.kitakyushubank.co.jp/",
+    "https://www.fukuokahibiki.co.jp/",
+    "http://www.fukuokabank.co.jp/",
+    "http://www.sagashin.co.jp/",
+    "http://www.imarishinkin.co.jp/",
+    "http://www.nagasakibank.co.jp/",
+    "https://www.18shinwabank.co.jp/",
+    "http://www.kumamotobank.co.jp/",
+    "http://www.oitabank.co.jp/",
+    "http://www.howabank.co.jp/",
+    "https://www.shinkin.co.jp/hyoshin/index.html",
+    "http://www.shinkin.co.jp/okayama/index.php",
+    "https://www.taikobank.jp/",
+    "https://www.ncbank.co.jp/",
+    "https://www.kiraboshi-ld-sec.co.jp/",
+    "https://www.axa.co.jp/product/financial-institutions/unit-link",
+    "https://www.kirayaka.co.jp/",
+    "http://www.fukushimabank.co.jp/",
+    "https://www.tochigibank.co.jp/",
+    "http://www.shinonome-shinkin.jp/",
+    "https://www.pgfp.co.jp/",
+    "http://www.kanagawabank.co.jp/",
+    "https://www.shinkin.co.jp/takaoka/",
+    "https://www.shinkin.co.jp/notoshin/",
+    "https://www.enshu-shinkin.jp/",
+    "https://www.ogakiseino-shinkin.co.jp/index.html",
+    "https://www.shinkin.co.jp/tono/index.html",
+    "https://www.hanshin-ca.co.jp/",
+    "http://www.shinkin.co.jp/kuwanamie/",
+    "http://www.kitaiseueno-shinkin.jp/",
+    "http://www.hokuto-shinkin.co.jp/index.shtml",
+    "http://www.shinkin.co.jp/tsuyama/",
+    "https://www.shinkin.co.jp/kibi/",
+    "https://www.fukuoka-shinkin.co.jp/",
+    "https://www.shinkin.co.jp/onga/index.html",
+    "https://www.chikugin.co.jp/",
+    "https://www.karashin.co.jp/",
+    "https://www.tachibana-shinkin.jp/",
+    "http://www.miyagin.co.jp/",
+    "https://www.axa.co.jp/product/financial-institutions/ltc-ul",
+    "https://www.axa.co.jp/product/archive/best_twins",
+    "https://www.axa.co.jp/product/archive/ensuite-plus",
+    "https://www.axa.co.jp/product/archive/new-life",
+    "https://www.axa.co.jp/product/archive/golden-3",
+    "https://www.axa.co.jp/product/archive/dream-3",
+    "https://www.axa.co.jp/product/archive/minori-next",
+    "https://www.axa.co.jp/product/archive/forever-2",
+    "https://www.axa.co.jp/product/archive/ensuite-g-2",
+    "https://www.axa.co.jp/product/archive/smiled-3_mb",
+    "https://www.axa.co.jp/product/archive/smiled-3_mtb",
+    "https://www.axa.co.jp/product/archive/lifedo-80",
+    "https://www.axa.co.jp/product/archive/seed",
+    "https://www.axa.co.jp/product/archive/golden-alpha",
+    "https://www.axa.co.jp/product/archive/individual_annuity_sp",
+    "https://www.axa.co.jp/product/archive/power_accumulator",
+    "https://www.axa.co.jp/product/archive/triplet_plus",
+    "https://www.axa.co.jp/product/archive/golden-2",
+    "https://www.axa.co.jp/product/archive/star_accumulator",
+    "https://www.axa.co.jp/product/archive/global_win",
+    "https://www.axa.co.jp/product/archive/axa_neo",
+    "https://www.axa.co.jp/product/archive/smiled",
+    "https://www.axa.co.jp/product/archive/avantage",
+    "https://www.axa.co.jp/product/archive/upside10",
+    "https://www.axa.co.jp/product/archive/golden",
+    "https://www.axa.co.jp/product/archive/axa_investiment_annuity_dollar",
+    "https://www.axa.co.jp/product/archive/axa_lifelong",
+    "https://www.axa.co.jp/product/archive/lifedo",
+    "https://www.axa.co.jp/product/archive/golden-cb",
+    "https://www.axa.co.jp/product/archive/power_direct",
+    "https://www.axa.co.jp/product/archive/golden-new",
+    "https://www.axa.co.jp/product/archive/halftime_plus",
+    "https://www.axa.co.jp/product/archive/smiled-2_mt",
+    "https://www.axa.co.jp/product/archive/five_years",
+    "https://www.axa.co.jp/product/archive/axa_cancer_income_support",
+    "https://www.axa.co.jp/product/archive/upside",
+    "https://www.axa.co.jp/product/archive/axa_love-2",
+    "https://www.axa.co.jp/product/archive/dream-2",
+    "https://www.axa.co.jp/product/archive/qs-pallet-alpha",
+    "https://www.axa.co.jp/product/archive/ensuite-g",
+    "https://www.axa.co.jp/product/archive/axa_investiment_annuity_yen-tr",
+    "https://www.axa.co.jp/product/archive/halftime",
+    "https://www.axa.co.jp/product/archive/suisse",
+    "https://www.axa.co.jp/product/archive/minori",
+    "https://www.axa.co.jp/product/archive/reasonable",
+    "https://www.axa.co.jp/product/archive/forever_story",
+    "https://www.axa.co.jp/product/archive/smiled-2",
+    "https://www.axa.co.jp/product/archive/individual_annuity_rp",
+    "https://www.axa.co.jp/product/archive/chronograph",
+    "https://www.axa.co.jp/product/archive/active-generation",
+    "https://www.axa.co.jp/product/archive/qs-pallet",
+    "https://www.axa.co.jp/product/archive/ensuite",
+    "https://www.axa.co.jp/product/archive/dream",
+    "https://www.axa.co.jp/product/archive/axa_neo_plus",
+    "https://www.axa.co.jp/product/archive/axa_gmab",
+    "https://www.axa.co.jp/product/archive/axa_love",
+    "https://www.axa.co.jp/product/archive/axa_investiment_annuity_yen-wl",
+    "https://www.axa.co.jp/product/archive/e-va",
+    "https://www.axa.co.jp/product/archive/zutto-medical",
+    "https://www.axa.co.jp/product/archive/ok-medical",
+    "https://www.axa.co.jp/product/archive/ok-medical_mb",
+    "https://www.axa.co.jp/product/archive/daiwa-zutto-medical",
+    "https://www.axa.co.jp/product/archive/daiwa-ok-medical",
+    "https://www.axa.co.jp/product/archive/therapy",
+    "https://www.axa.co.jp/product/archive/spw",
+    "https://www.axa.co.jp/product/financial-institutions/",
+    "https://www.axa.co.jp/product/nissay/unit-link",
+    "https://www.axa.co.jp/product/nissay/medi-an",
+    "https://www.axa.co.jp/product/medical",
+    "https://www.axa.co.jp/product/life_insurance",
+    "https://www.axa.co.jp/product/cancer",
+    "https://www.axa.co.jp/product/saving",
+    "https://www.axa.co.jp/product/ladies",
+    "https://www.axa.co.jp/product/chronic",
+    "https://www.axa.co.jp/product/disability",
+    "https://www.axa.co.jp/product/corporate",
+    "https://www.axa.co.jp/product/nursing_care",
+    "https://www.axa.co.jp/product/financial-institutions",
+    "https://www.axa.co.jp/product",
+    "https://www.axa.co.jp/customer",
+    "https://www.axa.co.jp/channel/ag",
+    "https://www.axa.co.jp/channel/cci",
+    "https://www.axa.co.jp/recruitment",
+    "https://www.facebook.com/axajapan/",
+    "https://www.linkedin.com/company/axa/",
+    "https://www.youtube.com/c/AXAJP/",
+    "https://www.axa.co.jp/prospect?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/product?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/prospect/be-recommended/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/prospect/consultation-flow?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/form/brochure?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-insurance?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/prospect/life-management?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/variable?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/digitalprovision/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/why-axa/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/claim-top?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/guide/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/policy-reference?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/service?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/deduction-certificate?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/myaxa?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/line?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa-direct-life.co.jp/customer/index.html?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/company?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/company/hpm/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/service/hpm/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/company/hpm/platform?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/service/management?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/axa-life?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/ceo-message?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/notice?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/ir/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/seminar?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/warning-fc?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/group-info?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/recruitment/career?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/recruitment/career/students?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/recruitment/career/experienced?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/recruitment/cci/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/recruitment/fa/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/recruitment/career/pwd?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://help.axa.co.jp/s/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/request/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/policy/invitation?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/policy/identification?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/other/personal/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/policy/conflicts-interest?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/policy/antisocial?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/policy/human-rights?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/voc/fd?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/policy/asset-owner-principle?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/policy/stewardshipcode?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/dataprivacy/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/request#04?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/policy/info-protection?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/rule/using-website?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/#",
+    "https://www.axa-holdings.co.jp/policy/site-policy.html",
+    "https://www.onetrust.com/solutions/consent-and-preferences/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo3LpReVYa3-f__bv5k33d8kd.png?auto=format,compress",
+        "alt": "アクサの保障重視の定期保険「ピュアライフ」",
+        "w": 156,
+        "h": 107
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo3bpReVYa3-gA_axa_taisetu_2l_cmyk.png?auto=format,compress",
+        "alt": "",
+        "w": 323,
+        "h": 204
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo37pReVYa3-gB_6suxt18g9i.png?auto=format,compress",
+        "alt": "アクサの一生保障の終身保険「保険料長期割安型」",
+        "w": 156,
+        "h": 96
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo4LpReVYa3-gC_axa_taisetu_2l_cmyk.png?auto=format,compress",
+        "alt": "",
+        "w": 323,
+        "h": 204
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo4bpReVYa3-gD_lttp_fin_0722_ol-color.png?auto=format,compress",
+        "alt": "アクサの「長期保障」の定期保険 LTTPフェアウインド",
+        "w": 252,
+        "h": 159
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo4rpReVYa3-gE_axa_taisetu_2l_cmyk.png?auto=format,compress",
+        "alt": "",
+        "w": 323,
+        "h": 204
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo47pReVYa3-gF_tset.png?auto=format,compress",
+        "alt": "アクサの大型保障の定期保険",
+        "w": 156,
+        "h": 90
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo5LpReVYa3-gG_axa_ful_logo_4c_t.png?auto=format,compress",
+        "alt": "アクサの長期保証の定期保険　フォローアップライフ",
+        "w": 909,
+        "h": 426
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo57pReVYa3-gI_smartcare.png?auto=format,compress",
+        "alt": "アクサの「一生保障」の医療保険 スマート・ケア",
+        "w": 260,
+        "h": 130
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo6LpReVYa3-gJ_ameasa_blue_2.png?auto=format,compress",
+        "alt": "",
+        "w": 705,
+        "h": 177
+      },
+      {
+        "src": "https://www.axa.co.jp/images/products/special-icon.png",
+        "alt": "",
+        "w": 218,
+        "h": 218
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo6rpReVYa3-gK_smartcare_forladies.png?auto=format,compress",
+        "alt": "アクサの「一生保障」の医療保険 スマート・ケア レディース",
+        "w": 260,
+        "h": 174
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo67pReVYa3-gL_ameasa_blue_2.png?auto=format,compress",
+        "alt": "",
+        "w": 705,
+        "h": 177
+      },
+      {
+        "src": "https://www.axa.co.jp/images/products/special-icon.png",
+        "alt": "",
+        "w": 218,
+        "h": 218
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo7LpReVYa3-gM_axa_sc_logo_4c_t_0626.png?auto=format,compress",
+        "alt": "アクサの「一生保障」の医療保険 スマート・ケア　ウィズユー",
+        "w": 235,
+        "h": 160
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo67pReVYa3-gL_ameasa_blue_2.png?auto=format,compress",
+        "alt": "",
+        "w": 705,
+        "h": 177
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo7bpReVYa3-gN_temp_dementia.jpg?auto=format,compress",
+        "alt": "",
+        "w": 212,
+        "h": 171
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo67pReVYa3-gL_ameasa_blue_2.png?auto=format,compress",
+        "alt": "",
+        "w": 705,
+        "h": 177
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo7rpReVYa3-gO_soiecifyjo.png?auto=format,compress",
+        "alt": "患者申出療養サポート",
+        "w": 156,
+        "h": 100
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo6LpReVYa3-gJ_ameasa_blue_2.png?auto=format,compress",
+        "alt": "",
+        "w": 705,
+        "h": 177
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlovbpReVYa3-fr_logo_ul_widecara.png?auto=format,compress",
+        "alt": "",
+        "w": 264,
+        "h": 220
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlovrpReVYa3-fs_logo_ltcul_widecara.png?auto=format%2Ccompress&rect=0%2C0%2C573%2C478&w=573&h=478",
+        "alt": "",
+        "w": 573,
+        "h": 478
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo8bpReVYa3-gQ_ul_nenkin_widcear_logp.png?auto=format,compress",
+        "alt": "ユニット・リンク年金",
+        "w": 504,
+        "h": 287
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo8rpReVYa3-gR_axa_logo_png_0426_ui_teiki_4c_t_fuchi.png?auto=format,compress",
+        "alt": "",
+        "w": 730,
+        "h": 313
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo87pReVYa3-gS_axa_ul_ichijikin_logo_4c_t_0328.png?auto=format,compress",
+        "alt": "ユニット・リンク長期入院一時金プラス",
+        "w": 264,
+        "h": 133
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo9LpReVYa3-gT_logo.png?auto=format,compress",
+        "alt": "ライフ プロデュース（06）",
+        "w": 156,
+        "h": 100
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo9rpReVYa3-gU_6cbaz1h4m8.png?auto=format,compress",
+        "alt": "アクサの外貨建て変額終身「アップサイドプラス」",
+        "w": 156,
+        "h": 100
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo-LpReVYa3-gW_ct_logo.png?auto=format,compress",
+        "alt": "アクサの「治療保障」のがん保険\nマイ・セラピー",
+        "w": 667,
+        "h": 347
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo6LpReVYa3-gJ_ameasa_blue_2.png?auto=format,compress",
+        "alt": "",
+        "w": 705,
+        "h": 177
+      },
+      {
+        "src": "https://www.axa.co.jp/images/products/special-icon.png",
+        "alt": "",
+        "w": 218,
+        "h": 218
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo6rpReVYa3-gK_smartcare_forladies.png?auto=format,compress",
+        "alt": "アクサの「一生保障」の医療保険 スマート・ケア レディース",
+        "w": 260,
+        "h": 174
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo6LpReVYa3-gJ_ameasa_blue_2.png?auto=format,compress",
+        "alt": "",
+        "w": 705,
+        "h": 177
+      },
+      {
+        "src": "https://www.axa.co.jp/images/products/special-icon.png",
+        "alt": "",
+        "w": 218,
+        "h": 218
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo7LpReVYa3-gM_axa_sc_logo_4c_t_0626.png?auto=format,compress",
+        "alt": "アクサの「一生保障」の医療保険 スマート・ケア　ウィズユー",
+        "w": 235,
+        "h": 160
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo6LpReVYa3-gJ_ameasa_blue_2.png?auto=format,compress",
+        "alt": "",
+        "w": 705,
+        "h": 177
+      },
+      {
+        "src": "https://www.axa.co.jp/images/products/special-icon.png",
+        "alt": "",
+        "w": 218,
+        "h": 218
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo-7pReVYa3-gY_oklife_fin_0130_ol-color.png?auto=format,compress",
+        "alt": "アクサの「長期保障」の定期保険 OKライフ",
+        "w": 263,
+        "h": 181
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo_bpReVYa3-ga_s1i150f44d.png?auto=format,compress",
+        "alt": "「就業不能」保障プラン",
+        "w": 156,
+        "h": 62
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo6LpReVYa3-gJ_ameasa_blue_2.png?auto=format,compress",
+        "alt": "",
+        "w": 705,
+        "h": 177
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlovrpReVYa3-fs_logo_ltcul_widecara.png?auto=format%2Ccompress&rect=0%2C0%2C573%2C478&w=573&h=478",
+        "alt": "",
+        "w": 573,
+        "h": 478
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo_7pReVYa3-gc_temp_dementia.jpg?auto=format,compress",
+        "alt": "",
+        "w": 212,
+        "h": 171
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlo67pReVYa3-gL_ameasa_blue_2.png?auto=format,compress",
+        "alt": "",
+        "w": 705,
+        "h": 177
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlovbpReVYa3-fr_logo_ul_widecara.png?auto=format,compress",
+        "alt": "",
+        "w": 264,
+        "h": 220
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlovrpReVYa3-fs_logo_ltcul_widecara.png?auto=format%2Ccompress&rect=0%2C0%2C573%2C478&w=573&h=478",
+        "alt": "",
+        "w": 573,
+        "h": 478
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlovbpReVYa3-fr_logo_ul_widecara.png?auto=format,compress",
+        "alt": "",
+        "w": 264,
+        "h": 220
+      },
+      {
+        "src": "https://images.prismic.io/prod-japan/aQlpA7pReVYa3-gf_AXA_Medi-A%C3%97N_logo_nouhin_0403_test.png?auto=format,compress",
+        "alt": "",
+        "w": 540,
+        "h": 432
+      },
+      {
+        "src": "https://www.axa.co.jp/images/slices/cta-btn-group/img1_2019.png",
+        "alt": "保険に詳しいオペレーターがあなたの疑問に丁寧にお答えします。",
+        "w": 654,
+        "h": 436
+      },
+      {
+        "src": "https://www.axa.co.jp/images/slices/cta-btn-group/img2_2019.png",
+        "alt": "お客さまの状況や希望を伺い、一人ひとりに最適な保険のご提案をいたします。",
+        "w": 654,
+        "h": 436
+      },
+      {
+        "src": "https://www.axa.co.jp/images/footer/ln_logo.png",
+        "alt": "Linkedin アイコン",
+        "w": 318,
+        "h": 270
+      },
+      {
+        "src": "https://cdn-au.onetrust.com/logos/static/ot_company_logo.png",
+        "alt": "企業ロゴ",
+        "w": 2042,
+        "h": 280
+      },
+      {
+        "src": "https://cdn-au.onetrust.com/logos/static/powered_by_logo.svg",
+        "alt": "Powered by Onetrust",
+        "w": 568,
+        "h": 53
+      }
+    ],
+    "allImgCount": 69,
+    "cssBackgrounds": [],
+    "modals": [
+      "このウェブサイトでは、Cookieを使用しお客さまのサイト体験を向上させています。このサイトの閲覧を続けることで、Cookieの使用にご同意いただいたものとして取り扱わせていただきます。設定の変更（拒否する） 閉じる",
+      "Cookie設定一般的にウェブサイトは、Cookieにより利用者のブラウザに情報を保管したり、情報を取得したりします。多くの場合、Cookieはウェブサイトの動作を最適化するために使用されます。取得される情報は、通常、お客さまを特定するものではありませんが、ウェブ上でのコンテンツをパーソナライズするのに使用されます。 当社のウェブサイトでは以下の目的でCookieを使用しておりますが、お客さまのプライバシーを尊重し、一部のCookieは許可しないよう選択いただけます。 ・ウェブサイトの使用状況の測定 ・ウェブサイトでのパーソナライズ ・マーケティングやソーシャルメディア広告 Cookieのカテゴリ名を押すと詳細が確認でき、設定を変更いただけます。 ただし、一部のCookieをブロックすると、サイトの使い勝手や当社が提供できるサービス内容に影響が出る場合がありますので、ご注意ください。 Cookieの詳細について全てのCookieを受け入れるCookie設定を管理する必要不可欠な Cookie常にアクティブ一部のCookieは、当社のウェブサイトの機能を提供するために必要不可欠です。このカテゴリのCookieは、お客さまがウェブサイト内を移動し、サイトの機能を最適に使用するために必要なさまざまな動作に使用されます。Cookie 詳細使いやすさ向上のためのCookie 使いやすさ向上のためのCookie このカテゴリのCookieは、お客さまによるウェブサイトの閲覧状況を計測し、当社でウェブサイトの改善をするために使用されています。例えば、このカテゴリのCookieは、アクセス数を記録したり、お客さまがどのようにサイト内を移動されたのかを確認する機能を持っています。これにより、ウェブサイトの使用状況を当社で分析し、使い勝手を向上するために役立てられています。Cookie 詳細機能性強化のためのCookie 機能性強化のためのCookie このカテゴリのCookieは、ウェブサイトの機能の強化に使用されています。例えば、このカテゴリのCookieは、お客さまの閲覧状況に応じ当社のウェブサイトのコンテンツをパーソナライズするため利用されています。このCookieをブロックすると、ウェブサイトの一部の表示に影響する可能性があります。Cookie 詳細ターゲティング Cookie ターゲティング Cookie このカテゴリのCookieは、お客さまにとってより関連性の高い広告を配信するために使用されています。このカテゴリのCookieにより、当社の広告パートナーはお客さまの興味を分析し、他のウェブサイトで配信される広告を、お客さまにとってより関連性の高いものにしています。Cookie 詳細Back ButtonCookieリスト Search IconFilter IconClear checkbox label labelApply CancelConsent Leg.Interest checkbox label label checkbox label label checkbox label label 設定を保存するあなたのプライバシー [ダイアログを終了しました]"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--font-sans": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "--font-mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+    "--spacing": ".25rem",
+    "--font-weight-normal": "400",
+    "--font-weight-medium": "500",
+    "--font-weight-semibold": "600",
+    "--font-weight-bold": "700",
+    "--tracking-normal": "0em",
+    "--leading-tight": "1.25",
+    "--leading-snug": "1.375",
+    "--leading-normal": "1.5",
+    "--leading-relaxed": "1.625",
+    "--radius-xs": ".125rem",
+    "--radius-sm": ".25rem",
+    "--radius-md": ".375rem",
+    "--radius-lg": ".5rem",
+    "--shadow-md": "0 4px 6px -1px #0000001a, 0 2px 4px -2px #0000001a",
+    "--ease-out": "cubic-bezier(0, 0, .2, 1)",
+    "--ease-in-out": "cubic-bezier(.4, 0, .2, 1)",
+    "--animate-spin": "spin 1s linear infinite",
+    "--default-transition-duration": ".15s",
+    "--default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+    "--default-font-family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "--default-mono-font-family": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+    "--text-color-primary": "#00008f",
+    "--text-color-primary-hover-inverse": "#f7f7f7",
+    "--text-color-muted": "#999",
+    "--background-color-background": "#fff",
+    "--background-color-background-subtle": "#f7f7f7",
+    "--background-color-background-hover": "#f7f7f7",
+    "--background-color-background-inverse": "#343c3d",
+    "--background-color-information": "#3e66a3",
+    "--background-color-primary": "#00008f",
+    "--border-color-stroke-subtle": "#ccc",
+    "--border-color-primary": "#00008f",
+    "--border-color-muted": "#999",
+    "--stroke-primary": "#00008f",
+    "--fill-primary": "#00008f",
+    "--outline-color-primary": "#00008f",
+    "--white": "#fff",
+    "--grey-100": "#f7f7f7",
+    "--grey-200": "#f0f0f0",
+    "--grey-300": "#e5e5e5",
+    "--grey-400": "#ccc",
+    "--grey-500": "#999",
+    "--grey-600": "#757575",
+    "--grey-700": "#5f5f5f",
+    "--grey-800": "#343c3d",
+    "--grey-900": "#111b1d",
+    "--axa-blue-100": "#5c5cb7",
+    "--axa-blue-200": "#3d3daa",
+    "--axa-blue-300": "#1f1f9c",
+    "--axa-blue-400": "#00008f",
+    "--axa-blue-500": "#00006d",
+    "--axa-blue-600": "#010143",
+    "--red-50": "#fae7ea",
+    "--red-100": "#efb8c1",
+    "--red-200": "#dc667a",
+    "--red-300": "#c91432",
+    "--red-400": "#b10723",
+    "--red-500": "#8b0118",
+    "--green-50": "#e2f2ea",
+    "--green-100": "#99dfbe",
+    "--green-200": "#25b670",
+    "--green-300": "#008646",
+    "--green-400": "#006031",
+    "--green-500": "#004323",
+    "--yellow-50": "#fff2cf",
+    "--yellow-100": "#ffda7a",
+    "--yellow-200": "#ffbc11",
+    "--yellow-300": "#b28000",
+    "--yellow-400": "#996e00",
+    "--yellow-500": "#735300",
+    "--sienna-50": "#faede9",
+    "--sienna-100": "#e28972",
+    "--sienna-200": "#dd7358",
+    "--sienna-300": "#d75d3d",
+    "--sienna-400": "#d24723",
+    "--sienna-500": "#b03c1d",
+    "--sienna-600": "#8a290e",
+    "--ocean-50": "#e7effc",
+    "--ocean-100": "#7698cb",
+    "--ocean-200": "#4976ba",
+    "--ocean-300": "#3e66a3",
+    "--ocean-400": "#274168",
+    "--ocean-500": "#17273e",
+    "--color-primary": "#FFFFFF",
+    "--color-primary-hover": "#00006d",
+    "--color-primary-inverse": "#fff",
+    "--spacing-0": "0px",
+    "--spacing-px": "1px",
+    "--spacing-0-5": ".124rem",
+    "--spacing-1": ".25rem",
+    "--spacing-1-5": ".375rem",
+    "--spacing-2": "0.5rem",
+    "--spacing-3": "0.75rem",
+    "--spacing-3-5": "0.875rem",
+    "--spacing-4": "1rem",
+    "--spacing-5": "1.25rem",
+    "--spacing-6": "1.5rem",
+    "--spacing-7": "1.75rem",
+    "--spacing-8": "2rem",
+    "--spacing-9": "2.25rem",
+    "--spacing-10": "2.5rem",
+    "--spacing-11": "2.75rem",
+    "--spacing-12": "3rem",
+    "--spacing-14": "3.5rem",
+    "--spacing-16": "4rem",
+    "--spacing-20": "5rem",
+    "--spacing-24": "6rem",
+    "--spacing-2px": "2px",
+    "--spacing-4px": "4px",
+    "--spacing-6px": "6px",
+    "--spacing-8px": "8px",
+    "--spacing-16px": "16px",
+    "--spacing-32px": "32px",
+    "--spacing-64px": "64px",
+    "--font-size-14": "14px",
+    "--font-size-16": "16px",
+    "--font-size-20": "20px",
+    "--font-size-24": "24px",
+    "--font-size-28": "28px",
+    "--font-size-32": "32px",
+    "--font-weight-regular": "400",
+    "--line-height-115": "115%",
+    "--line-height-150": "150%",
+    "--line-height-160": "160%",
+    "--active-primary": "#00008F",
+    "--hover-primary": "#00006D",
+    "--active-secondary": "#FFFFFF",
+    "--hover-secondary": "rgba(0, 0, 143, 0.10)",
+    "--color-secondary": "#00008F",
+    "--active-disabled": "#F0F0F0",
+    "--hover-disabled": "#F0F0F0",
+    "--color-disabled": "#999999",
+    "--color-axa-blue-100": "#5C5CB7",
+    "--color-axa-blue-200": "#3D3DAA",
+    "--color-axa-blue-300": "#1F1F9C",
+    "--color-axa-blue-400": "#00008F",
+    "--color-axa-blue-500": "#0000CD",
+    "--color-axa-blue-600": "#010143",
+    "--color-black": "#000",
+    "--color-white": "#FFFFFF",
+    "--color-red": "#D24723",
+    "--color-gray-100": "#F7F7F7",
+    "--color-gray-200": "#F0F0F0",
+    "--color-gray-400": "#CCCCCC",
+    "--color-gray-500": "#999999",
+    "--color-gray-600": "#757575",
+    "--color-gray-700": "#5F5F5F",
+    "--color-gray-800": "#343C3D",
+    "--radius-0": "0px",
+    "--radius-0-5": "0.125rem",
+    "--radius-1": "0.25rem",
+    "--radius-1-5": "0.375rem",
+    "--radius-2": "0.5rem",
+    "--radius-4": "1rem",
+    "--radius-8": "2rem"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 8,
+    "mainTextLen": 4400,
+    "realImageCount": 51,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "_ng",
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 3,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn-au.onetrust.com",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn-au.onetrust.com/consent/81279554-1fe3-415e-bf51-66316df2e0bb/81279554-1fe3-415e-bf51-66316df2e0bb.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn-au.onetrust.com",
+        "path": "/consent/{uuid}/{uuid}/ja.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn-au.onetrust.com/consent/81279554-1fe3-415e-bf51-66316df2e0bb/0192ad5b-1ec1-7752-91ee-f3ac7e2d2638/ja.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn-au.onetrust.com",
+        "path": "/scripttemplates/202608.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn-au.onetrust.com/scripttemplates/202608.1.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn-au.onetrust.com",
+        "path": "/scripttemplates/202608.1.0/assets/v2/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 14496,
+        "hits": 1,
+        "example": "https://cdn-au.onetrust.com/scripttemplates/202608.1.0/assets/v2/otPcCenter.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn-au.onetrust.com",
+        "path": "/scripttemplates/202608.1.0/assets/otFlat.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 4023,
+        "hits": 1,
+        "example": "https://cdn-au.onetrust.com/scripttemplates/202608.1.0/assets/otFlat.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn-au.onetrust.com",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn-au.onetrust.com/logos/static/ot_guard_logo.svg",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "dma",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.google.com/rmkt/collect/466258847/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "w2-c9dea2a81a9e4d3c963d5887958afeb5.ecs.eu-west-1.on.aws",
+        "path": "/events",
+        "query": [
+          "cee"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://w2-c9dea2a81a9e4d3c963d5887958afeb5.ecs.eu-west-1.on.aws/events",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bs.nakanohito.jp",
+        "path": "/b3/",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://bs.nakanohito.jp/b3/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_ng",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dp",
+          "dt",
+          "en",
+          "ep.check",
+          "ep.content_group",
+          "ep.insurance_category",
+          "ep.insurance_name",
+          "frm",
+          "gcd",
+          "gtm",
+          "ibt",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 3,
+        "example": "https://analytics.google.com/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.axa.co.jp",
+        "path": "/cookie/extend",
+        "query": [
+          "c1",
+          "c2"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 43,
+        "hits": 1,
+        "example": "https://www.axa.co.jp/cookie/extend",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "api-cdn.mypurecloud.jp",
+        "path": "/webdeployments/v1/deployments/{uuid}/domains.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 44,
+        "hits": 1,
+        "example": "https://api-cdn.mypurecloud.jp/webdeployments/v1/deployments/f00477eb-65d8-4e01-aa25-e60d9cb8fdc4/domains.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "api-cdn.mypurecloud.jp",
+        "path": "/webdeployments/v1/deployments/{uuid}/config.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://api-cdn.mypurecloud.jp/webdeployments/v1/deployments/f00477eb-65d8-4e01-aa25-e60d9cb8fdc4/config.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "insight.adsrvr.org",
+        "path": "/track/realtimeconversion",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://insight.adsrvr.org/track/realtimeconversion",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "privacyportal-au.onetrust.com",
+        "path": "/request/v1/consentreceipts/anonymous",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://privacyportal-au.onetrust.com/request/v1/consentreceipts/anonymous",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "apps.mypurecloud.jp",
+        "path": "/messenger/i18n/ja.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://apps.mypurecloud.jp/messenger/i18n/ja.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "api-cdn.mypurecloud.jp",
+        "path": "/webdeployments/v1/deployments/{uuid}/ja.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 282,
+        "hits": 2,
+        "example": "https://api-cdn.mypurecloud.jp/webdeployments/v1/deployments/f00477eb-65d8-4e01-aa25-e60d9cb8fdc4/ja.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/{n}/NRJS-6e33eb5146818c42ffd",
+        "query": [
+          "a",
+          "af",
+          "be",
+          "ck",
+          "dc",
+          "fe",
+          "perf",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 199,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/1/NRJS-6e33eb5146818c42ffd",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/events/{n}/NRJS-6e33eb5146818c42ffd",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 2,
+        "example": "https://bam.nr-data.net/events/1/NRJS-6e33eb5146818c42ffd",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/jserrors/{n}/NRJS-6e33eb5146818c42ffd",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/jserrors/1/NRJS-6e33eb5146818c42ffd",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "apps.mypurecloud.jp",
+        "count": 21
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 6
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 4
+      },
+      {
+        "host": "cdn-au.onetrust.com",
+        "count": 2
+      },
+      {
+        "host": "js.adsrvr.org",
+        "count": 2
+      },
+      {
+        "host": "bat.bing.com",
+        "count": 2
+      },
+      {
+        "host": "www.youtube.com",
+        "count": 2
+      },
+      {
+        "host": "s.yimg.jp",
+        "count": 2
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "count": 2
+      },
+      {
+        "host": "d.line-scdn.net",
+        "count": 1
+      },
+      {
+        "host": "tag.flvcdn.net",
+        "count": 1
+      },
+      {
+        "host": "cs.nakanohito.jp",
+        "count": 1
+      },
+      {
+        "host": "js-agent.newrelic.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [
+      {
+        "action": "https://www.axa.co.jp/product/",
+        "hasAction": false,
+        "method": "get",
+        "sameOrigin": true,
+        "fieldCount": 4,
+        "fieldNames": [],
+        "search": false
+      }
+    ],
+    "ariaLiveRegions": 2,
+    "triggers": [
+      {
+        "marker": "NewCustomerModal-styles__CallBackText-sc-94c556d6-3",
+        "href": "/request/callback"
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 1,
+      "thirdPartyEndpoints": 20,
+      "thirdPartyScriptHosts": 13,
+      "inlineDataBlobs": 0,
+      "forms": 1,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/product.png",
+  "renderedHtml": "pages/product.html",
+  "slots": {
+    "pageType": "product-listing",
+    "headline": "生命保険商品一覧",
+    "sections": [
+      "保険の種類から選ぶ",
+      "簡単な質問に答えるだけで、",
+      "あなたにぴったりな保険がわかります。",
+      "保険に関するご相談",
+      "その他の保険商品"
+    ],
+    "ctas": [
+      {
+        "label": "よくあるご質問",
+        "href": "https://help.axa.co.jp/s/"
+      },
+      {
+        "label": "お問い合わせ",
+        "href": "/request/"
+      },
+      {
+        "label": "ログイン",
+        "href": "https://myweb.axa.co.jp/"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "専門スタッフに相談 (無料)",
+        "href": "/form/consultation"
+      },
+      {
+        "label": "死亡保険",
+        "href": "#life-insurance"
+      },
+      {
+        "label": "医療保険",
+        "href": "#medical"
+      },
+      {
+        "label": "変額保険",
+        "href": "#saving"
+      },
+      {
+        "label": "がん保険",
+        "href": "#cancer"
+      },
+      {
+        "label": "女性向けの保険",
+        "href": "#ladies"
+      },
+      {
+        "label": "持病がある方",
+        "href": "#chronic"
+      },
+      {
+        "label": "就業不能に備える",
+        "href": "#disability"
+      }
+    ]
+  }
+}

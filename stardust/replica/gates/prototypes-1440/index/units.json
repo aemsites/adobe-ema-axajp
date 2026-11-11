@@ -1,0 +1,3166 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-09T07:22:13.961Z",
+  "tol": 4,
+  "n": 8,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.axa.co.jp/",
+  "at": "2026-11-09T07:00:50.623Z",
+  "docH": 8757
+ },
+ "eds": {
+  "url": "http://localhost:8791/index-proposed.html",
+  "at": "2026-11-09T07:22:13.874Z",
+  "docH": 8756
+ },
+ "results": [
+  {
+   "sel": "li.LinkSetTopPage-styles__Item-sc-b3348a61-1=.entry-links__item",
+   "family": null,
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.PageLayout-sc-7e908b62-0.Home-styles__MainLayout-sc-c7fa5876-8 > ul.LinkSetTopPage-styles__ListContainer-sc-b3348a61-0.kOrpyD > li.LinkSetTopPage-styles__Item-sc-b3348a61-1.jWZOQm"
+     },
+     "eds": {
+      "path": "div.page-layout > ul.entry-links > li.entry-links__item"
+     },
+     "rows": [
+      {
+       "key": "link:ご契約者さま 各種お手続き、死亡保険金・入院給付金等のご請求はこちらから",
+       "role": "link",
+       "text": "ご契約者さま 各種お手続き、死亡保険金・入院給付金等のご請求はこちらから",
+       "edsText": "ご契約者さま 各種お手続き、死亡保険金・入院給付金等のご請求はこちらから",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 529,
+        "h": 87
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 529,
+        "h": 87,
+        "sel": "a.entry-links__link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/29/600",
+        "eds": "18/29/600"
+       }
+      },
+      {
+       "key": "text:ご契約者さま",
+       "role": "text",
+       "text": "ご契約者さま",
+       "edsText": "ご契約者さま",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 20,
+        "w": 405,
+        "h": 49
+       },
+       "eds": {
+        "x": 32,
+        "y": 20,
+        "w": 405,
+        "h": 49,
+        "sel": "div.entry-links__text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/25/600",
+        "eds": "18/25/600"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 497,
+        "y": 36,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 497,
+        "y": 36,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/29/600",
+        "eds": "18/29/600"
+       }
+      },
+      {
+       "key": "text:各種お手続き、死亡保険金・入院給付金等のご請求はこちらから",
+       "role": "text",
+       "text": "各種お手続き、死亡保険金・入院給付金等のご請求はこちらから",
+       "edsText": "各種お手続き、死亡保険金・入院給付金等のご請求はこちらから",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 49,
+        "w": 405,
+        "h": 20
+       },
+       "eds": {
+        "x": 32,
+        "y": 49,
+        "w": 405,
+        "h": 20,
+        "sel": "div.entry-links__sub",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/600",
+        "eds": "14/20/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 696,
+       "w": 531,
+       "h": 89
+      },
+      "eds": {
+       "x": 181,
+       "y": 696,
+       "w": 531,
+       "h": 89
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.PageLayout-sc-7e908b62-0.Home-styles__MainLayout-sc-c7fa5876-8 > ul.LinkSetTopPage-styles__ListContainer-sc-b3348a61-0.kOrpyD > li.LinkSetTopPage-styles__Item-sc-b3348a61-1.jWZOQm"
+     },
+     "eds": {
+      "path": "div.page-layout > ul.entry-links > li.entry-links__item"
+     },
+     "rows": [
+      {
+       "key": "link:保険をご検討のお客さま 保険シミュレーションなど役立つ情報はこちらから",
+       "role": "link",
+       "text": "保険をご検討のお客さま 保険シミュレーションなど役立つ情報はこちらから",
+       "edsText": "保険をご検討のお客さま 保険シミュレーションなど役立つ情報はこちらから",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 529,
+        "h": 87
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 529,
+        "h": 87,
+        "sel": "a.entry-links__link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/29/600",
+        "eds": "18/29/600"
+       }
+      },
+      {
+       "key": "text:保険をご検討のお客さま",
+       "role": "text",
+       "text": "保険をご検討のお客さま",
+       "edsText": "保険をご検討のお客さま",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 20,
+        "w": 321,
+        "h": 49
+       },
+       "eds": {
+        "x": 32,
+        "y": 20,
+        "w": 321,
+        "h": 49,
+        "sel": "div.entry-links__text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/25/600",
+        "eds": "18/25/600"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 497,
+        "y": 36,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 497,
+        "y": 36,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/29/600",
+        "eds": "18/29/600"
+       }
+      },
+      {
+       "key": "text:保険シミュレーションなど役立つ情報はこちらから",
+       "role": "text",
+       "text": "保険シミュレーションなど役立つ情報はこちらから",
+       "edsText": "保険シミュレーションなど役立つ情報はこちらから",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 49,
+        "w": 321,
+        "h": 20
+       },
+       "eds": {
+        "x": 32,
+        "y": 49,
+        "w": 321,
+        "h": 20,
+        "sel": "div.entry-links__sub",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/600",
+        "eds": "14/20/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 728,
+       "y": 696,
+       "w": 531,
+       "h": 89
+      },
+      "eds": {
+       "x": 728,
+       "y": 696,
+       "w": 531,
+       "h": 89
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "div.StrengthsFrame-styles__Frame-sc-c353a12a-0=.strength",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div > div.AxaStrengthsFrames-styles__StrengthsWrap-sc-5972ea27-0.cIOJPe > div.StrengthsFrame-styles__Frame-sc-c353a12a-0.ghRqHb"
+     },
+     "eds": {
+      "path": "div.strengths-block > div.strengths > div.strength"
+     },
+     "rows": [
+      {
+       "key": "box:div.StrengthsFrame-styles__TitleWrap-sc-c353a12a-1.fOFMvG#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 343,
+        "h": 230
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 343,
+        "h": 230,
+        "sel": "div.strength__tile",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "text:200",
+       "role": "text",
+       "text": "200",
+       "edsText": "200",
+       "byPosition": false,
+       "origin": {
+        "x": 159,
+        "y": 78,
+        "w": 50,
+        "h": 40
+       },
+       "eds": {
+        "x": 159,
+        "y": 78,
+        "w": 50,
+        "h": 40,
+        "sel": "span.strength__big",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "28/29/700",
+        "eds": "28/29/700"
+       }
+      },
+      {
+       "key": "text:年",
+       "role": "text",
+       "text": "年",
+       "edsText": "年",
+       "byPosition": false,
+       "origin": {
+        "x": 208,
+        "y": 82,
+        "w": 24,
+        "h": 35
+       },
+       "eds": {
+        "x": 208,
+        "y": 82,
+        "w": 24,
+        "h": 35,
+        "sel": "span.strength__blue",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/700",
+        "eds": "24/29/700"
+       }
+      },
+      {
+       "key": "heading:欧州で 200 年 、 日本で 90 年 の歴史と実績",
+       "role": "heading",
+       "text": "欧州で 200 年 、 日本で 90 年 の歴史と実績",
+       "edsText": "欧州で 200 年 、 日本で 90 年 の歴史と実績",
+       "byPosition": false,
+       "origin": {
+        "x": 35,
+        "y": 84,
+        "w": 273,
+        "h": 62
+       },
+       "eds": {
+        "x": 35,
+        "y": 84,
+        "w": 273,
+        "h": 62,
+        "sel": "h3.strength__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/700",
+        "eds": "24/29/700"
+       }
+      },
+      {
+       "key": "text:90",
+       "role": "text",
+       "text": "90",
+       "edsText": "90",
+       "byPosition": false,
+       "origin": {
+        "x": 107,
+        "y": 109,
+        "w": 33,
+        "h": 40
+       },
+       "eds": {
+        "x": 107,
+        "y": 109,
+        "w": 33,
+        "h": 40,
+        "sel": "span.strength__big",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "28/29/700",
+        "eds": "28/29/700"
+       }
+      },
+      {
+       "key": "text:私たちは保険および資産運用分野の世界的なリーディングカンパニーです。 信頼を裏付",
+       "role": "text",
+       "text": "私たちは保険および資産運用分野の世界的なリーディングカンパニーです。 信頼を裏付ける健全な財務基盤がお客さまの豊かな未来",
+       "edsText": "私たちは保険および資産運用分野の世界的なリーディングカンパニーです。 信頼を裏付ける健全な財務基盤がお客さまの豊かな未来",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 246,
+        "w": 311,
+        "h": 90
+       },
+       "eds": {
+        "x": 16,
+        "y": 246,
+        "w": 311,
+        "h": 90,
+        "sel": "p.strength__text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/23/700",
+        "eds": "15/23/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 3337,
+       "w": 343,
+       "h": 336
+      },
+      "eds": {
+       "x": 181,
+       "y": 3337,
+       "w": 343,
+       "h": 336
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div > div.AxaStrengthsFrames-styles__StrengthsWrap-sc-5972ea27-0.cIOJPe > div.StrengthsFrame-styles__Frame-sc-c353a12a-0.ghRqHb"
+     },
+     "eds": {
+      "path": "div.strengths-block > div.strengths > div.strength"
+     },
+     "rows": [
+      {
+       "key": "box:div.StrengthsFrame-styles__TitleWrap-sc-c353a12a-1.fOFMvG#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 343,
+        "h": 230
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 343,
+        "h": 230,
+        "sel": "div.strength__tile",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "heading:世界基準の資産運用と 多様な変額保険",
+       "role": "heading",
+       "text": "世界基準の資産運用と 多様な変額保険",
+       "edsText": "世界基準の資産運用と 多様な変額保険",
+       "byPosition": false,
+       "origin": {
+        "x": 52,
+        "y": 86,
+        "w": 240,
+        "h": 58
+       },
+       "eds": {
+        "x": 52,
+        "y": 86,
+        "w": 240,
+        "h": 58,
+        "sel": "h3.strength__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/700",
+        "eds": "24/29/700"
+       }
+      },
+      {
+       "key": "text:多様な変額保険",
+       "role": "text",
+       "text": "多様な変額保険",
+       "edsText": "多様な変額保険",
+       "byPosition": false,
+       "origin": {
+        "x": 88,
+        "y": 111,
+        "w": 168,
+        "h": 35
+       },
+       "eds": {
+        "x": 88,
+        "y": 111,
+        "w": 168,
+        "h": 35,
+        "sel": "span.strength__blue",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/700",
+        "eds": "24/29/700"
+       }
+      },
+      {
+       "key": "text:お客さまのニーズにあわせたユニット・リンクシリーズの多様な保障で、さまざまなリス",
+       "role": "text",
+       "text": "お客さまのニーズにあわせたユニット・リンクシリーズの多様な保障で、さまざまなリスクからお客さまの生活を守り、長期分散投資",
+       "edsText": "お客さまのニーズにあわせたユニット・リンクシリーズの多様な保障で、さまざまなリスクからお客さまの生活を守り、長期分散投資",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 246,
+        "w": 311,
+        "h": 113
+       },
+       "eds": {
+        "x": 16,
+        "y": 246,
+        "w": 311,
+        "h": 113,
+        "sel": "p.strength__text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/23/700",
+        "eds": "15/23/700"
+       }
+      },
+      {
+       "key": "link:アクサ生命の変額保険",
+       "role": "link",
+       "text": "アクサ生命の変額保険",
+       "edsText": "アクサ生命の変額保険",
+       "byPosition": false,
+       "origin": {
+        "x": 164,
+        "y": 375,
+        "w": 179,
+        "h": 24
+       },
+       "eds": {
+        "x": 164,
+        "y": 375,
+        "w": 179,
+        "h": 24,
+        "sel": "a.bold-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/700",
+        "eds": "16/24/700"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 327,
+        "y": 379,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 327,
+        "y": 379,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/700",
+        "eds": "16/24/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 548,
+       "y": 3337,
+       "w": 343,
+       "h": 400
+      },
+      "eds": {
+       "x": 548,
+       "y": 3337,
+       "w": 343,
+       "h": 400
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div > div.AxaStrengthsFrames-styles__StrengthsWrap-sc-5972ea27-0.cIOJPe > div.StrengthsFrame-styles__Frame-sc-c353a12a-0.ghRqHb"
+     },
+     "eds": {
+      "path": "div.strengths-block > div.strengths > div.strength"
+     },
+     "rows": [
+      {
+       "key": "box:div.StrengthsFrame-styles__TitleWrap-sc-c353a12a-1.fOFMvG#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 343,
+        "h": 230
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 343,
+        "h": 230,
+        "sel": "div.strength__tile",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "heading:専門家が寄り添う ライフマネジメント®",
+       "role": "heading",
+       "text": "専門家が寄り添う ライフマネジメント®",
+       "edsText": "専門家が寄り添う ライフマネジメント®",
+       "byPosition": false,
+       "origin": {
+        "x": 58,
+        "y": 86,
+        "w": 228,
+        "h": 58
+       },
+       "eds": {
+        "x": 58,
+        "y": 86,
+        "w": 228,
+        "h": 58,
+        "sel": "h3.strength__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/700",
+        "eds": "24/29/700"
+       }
+      },
+      {
+       "key": "text:ライフマネジメント®",
+       "role": "text",
+       "text": "ライフマネジメント®",
+       "edsText": "ライフマネジメント®",
+       "byPosition": false,
+       "origin": {
+        "x": 58,
+        "y": 111,
+        "w": 228,
+        "h": 35
+       },
+       "eds": {
+        "x": 58,
+        "y": 111,
+        "w": 228,
+        "h": 35,
+        "sel": "span.strength__blue",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/29/700",
+        "eds": "24/29/700"
+       }
+      },
+      {
+       "key": "text:全国に在籍する経験豊富な営業社員やフィナンシャルプランアドバイザーが、お客さま一",
+       "role": "text",
+       "text": "全国に在籍する経験豊富な営業社員やフィナンシャルプランアドバイザーが、お客さま一人ひとりのライフプランに合わせた最適な保",
+       "edsText": "全国に在籍する経験豊富な営業社員やフィナンシャルプランアドバイザーが、お客さま一人ひとりのライフプランに合わせた最適な保",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 246,
+        "w": 311,
+        "h": 90
+       },
+       "eds": {
+        "x": 16,
+        "y": 246,
+        "w": 311,
+        "h": 90,
+        "sel": "p.strength__text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/23/700",
+        "eds": "15/23/700"
+       }
+      },
+      {
+       "key": "link:ライフマネジメント®とは？",
+       "role": "link",
+       "text": "ライフマネジメント®とは？",
+       "edsText": "ライフマネジメント®とは？",
+       "byPosition": false,
+       "origin": {
+        "x": 123,
+        "y": 352,
+        "w": 220,
+        "h": 24
+       },
+       "eds": {
+        "x": 123,
+        "y": 352,
+        "w": 220,
+        "h": 24,
+        "sel": "a.bold-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/700",
+        "eds": "16/24/700"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 327,
+        "y": 356,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 327,
+        "y": 356,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/700",
+        "eds": "16/24/700"
+       }
+      },
+      {
+       "key": "link:営業社員（都道府県別mdrt会員）紹介",
+       "role": "link",
+       "text": "営業社員（都道府県別mdrt会員）紹介",
+       "edsText": "営業社員（都道府県別mdrt会員）紹介",
+       "byPosition": false,
+       "origin": {
+        "x": 38,
+        "y": 394,
+        "w": 306,
+        "h": 24
+       },
+       "eds": {
+        "x": 38,
+        "y": 394,
+        "w": 306,
+        "h": 24,
+        "sel": "a.bold-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/700",
+        "eds": "16/24/700"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 327,
+        "y": 398,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 327,
+        "y": 398,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/700",
+        "eds": "16/24/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 916,
+       "y": 3337,
+       "w": 343,
+       "h": 420
+      },
+      "eds": {
+       "x": 916,
+       "y": 3337,
+       "w": 343,
+       "h": 419
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": -1
+     },
+     "summary": {
+      "elements": 8,
+      "within": 8,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "div.ConsultationServices-styles__ItemWrap-sc-d21d6ca7-2=.consult__item",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.PageLayout-sc-7e908b62-0.kHUlbd > div.ConsultationServices-styles__ItemsWrap-sc-d21d6ca7-1.bMuSLf > div.ConsultationServices-styles__ItemWrap-sc-d21d6ca7-2.kamNPs"
+     },
+     "eds": {
+      "path": "div.page-layout > div.consult > div.consult__item"
+     },
+     "rows": [
+      {
+       "key": "box:div.ConsultationServices-styles__IconWrap-sc-d21d6ca7-0.jTcAx#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 163,
+        "h": 163
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 163,
+        "h": 163,
+        "sel": "div.consult__icon.consult__icon--first",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "相談 アイコン",
+       "byPosition": false,
+       "origin": {
+        "x": 48,
+        "y": 42,
+        "w": 89,
+        "h": 78
+       },
+       "eds": {
+        "x": 48,
+        "y": 43,
+        "w": 89,
+        "h": 78,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "text:相談は何度でも",
+       "role": "text",
+       "text": "相談は何度でも",
+       "edsText": "相談は何度でも",
+       "byPosition": false,
+       "origin": {
+        "x": 29,
+        "y": 173,
+        "w": 105,
+        "h": 20
+       },
+       "eds": {
+        "x": 29,
+        "y": 173,
+        "w": 105,
+        "h": 20,
+        "sel": "p.consult__text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/20/700",
+        "eds": "15/20/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 4315,
+       "w": 163,
+       "h": 212
+      },
+      "eds": {
+       "x": 181,
+       "y": 4315,
+       "w": 163,
+       "h": 212
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.PageLayout-sc-7e908b62-0.kHUlbd > div.ConsultationServices-styles__ItemsWrap-sc-d21d6ca7-1.bMuSLf > div.ConsultationServices-styles__ItemWrap-sc-d21d6ca7-2.kamNPs"
+     },
+     "eds": {
+      "path": "div.page-layout > div.consult > div.consult__item"
+     },
+     "rows": [
+      {
+       "key": "box:div.ConsultationServices-styles__IconWrap-sc-d21d6ca7-0.jTcAx#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 163,
+        "h": 163
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 163,
+        "h": 163,
+        "sel": "div.consult__icon.consult__icon--pc",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "パソコン アイコン",
+       "byPosition": false,
+       "origin": {
+        "x": 31,
+        "y": 31,
+        "w": 100,
+        "h": 100
+       },
+       "eds": {
+        "x": 32,
+        "y": 32,
+        "w": 100,
+        "h": 100,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 1,
+       "dy": 1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "text:オンラインも可能",
+       "role": "text",
+       "text": "オンラインも可能",
+       "edsText": "オンラインも可能",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 173,
+        "w": 120,
+        "h": 20
+       },
+       "eds": {
+        "x": 21,
+        "y": 173,
+        "w": 120,
+        "h": 20,
+        "sel": "p.consult__text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/20/700",
+        "eds": "15/20/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 364,
+       "y": 4315,
+       "w": 163,
+       "h": 212
+      },
+      "eds": {
+       "x": 364,
+       "y": 4315,
+       "w": 163,
+       "h": 212
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.PageLayout-sc-7e908b62-0.kHUlbd > div.ConsultationServices-styles__ItemsWrap-sc-d21d6ca7-1.bMuSLf > div.ConsultationServices-styles__ItemWrap-sc-d21d6ca7-2.kamNPs"
+     },
+     "eds": {
+      "path": "div.page-layout > div.consult > div.consult__item"
+     },
+     "rows": [
+      {
+       "key": "box:div.ConsultationServices-styles__IconWrap-sc-d21d6ca7-0.jTcAx#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 163,
+        "h": 163
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 163,
+        "h": 163,
+        "sel": "div.consult__icon",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "親子 アイコン",
+       "byPosition": false,
+       "origin": {
+        "x": 36,
+        "y": 34,
+        "w": 91,
+        "h": 95
+       },
+       "eds": {
+        "x": 36,
+        "y": 34,
+        "w": 91,
+        "h": 95,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "text:お子様連れでも 安心",
+       "role": "text",
+       "text": "お子様連れでも 安心",
+       "edsText": "お子様連れでも 安心",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 173,
+        "w": 135,
+        "h": 20
+       },
+       "eds": {
+        "x": 14,
+        "y": 173,
+        "w": 135,
+        "h": 20,
+        "sel": "p.consult__text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/20/700",
+        "eds": "15/20/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 547,
+       "y": 4315,
+       "w": 163,
+       "h": 212
+      },
+      "eds": {
+       "x": 547,
+       "y": 4315,
+       "w": 163,
+       "h": 212
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.PageLayout-sc-7e908b62-0.kHUlbd > div.ConsultationServices-styles__ItemsWrap-sc-d21d6ca7-1.bMuSLf > div.ConsultationServices-styles__ItemWrap-sc-d21d6ca7-2.kamNPs"
+     },
+     "eds": {
+      "path": "div.page-layout > div.consult > div.consult__item"
+     },
+     "rows": [
+      {
+       "key": "box:div.ConsultationServices-styles__IconWrap-sc-d21d6ca7-0.jTcAx#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 163,
+        "h": 163
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 163,
+        "h": 163,
+        "sel": "div.consult__icon",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "握手 アイコン",
+       "byPosition": false,
+       "origin": {
+        "x": 35,
+        "y": 46,
+        "w": 93,
+        "h": 71
+       },
+       "eds": {
+        "x": 35,
+        "y": 46,
+        "w": 93,
+        "h": 71,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "text:経営者・個人事業主 のご相談も",
+       "role": "text",
+       "text": "経営者・個人事業主 のご相談も",
+       "edsText": "経営者・個人事業主 のご相談も",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 173,
+        "w": 135,
+        "h": 39
+       },
+       "eds": {
+        "x": 14,
+        "y": 173,
+        "w": 135,
+        "h": 39,
+        "sel": "p.consult__text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/20/700",
+        "eds": "15/20/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 730,
+       "y": 4315,
+       "w": 163,
+       "h": 212
+      },
+      "eds": {
+       "x": 730,
+       "y": 4315,
+       "w": 163,
+       "h": 212
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.PageLayout-sc-7e908b62-0.kHUlbd > div.ConsultationServices-styles__ItemsWrap-sc-d21d6ca7-1.bMuSLf > div.ConsultationServices-styles__ItemWrap-sc-d21d6ca7-2.kamNPs"
+     },
+     "eds": {
+      "path": "div.page-layout > div.consult > div.consult__item"
+     },
+     "rows": [
+      {
+       "key": "box:div.ConsultationServices-styles__IconWrap-sc-d21d6ca7-0.jTcAx#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 163,
+        "h": 163
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 163,
+        "h": 163,
+        "sel": "div.consult__icon",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "時計 アイコン",
+       "byPosition": false,
+       "origin": {
+        "x": 41,
+        "y": 42,
+        "w": 80,
+        "h": 79
+       },
+       "eds": {
+        "x": 42,
+        "y": 42,
+        "w": 80,
+        "h": 79,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 1,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "text:いつでも webで申込可能",
+       "role": "text",
+       "text": "いつでも webで申込可能",
+       "edsText": "いつでも webで申込可能",
+       "byPosition": false,
+       "origin": {
+        "x": 27,
+        "y": 173,
+        "w": 108,
+        "h": 39
+       },
+       "eds": {
+        "x": 27,
+        "y": 173,
+        "w": 108,
+        "h": 39,
+        "sel": "p.consult__text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/20/700",
+        "eds": "15/20/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 913,
+       "y": 4315,
+       "w": 163,
+       "h": 212
+      },
+      "eds": {
+       "x": 913,
+       "y": 4315,
+       "w": 163,
+       "h": 212
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.PageLayout-sc-7e908b62-0.kHUlbd > div.ConsultationServices-styles__ItemsWrap-sc-d21d6ca7-1.bMuSLf > div.ConsultationServices-styles__ItemWrap-sc-d21d6ca7-2.kamNPs"
+     },
+     "eds": {
+      "path": "div.page-layout > div.consult > div.consult__item"
+     },
+     "rows": [
+      {
+       "key": "box:div.ConsultationServices-styles__IconWrap-sc-d21d6ca7-0.jTcAx#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 163,
+        "h": 163
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 163,
+        "h": 163,
+        "sel": "div.consult__icon",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "電話 アイコン",
+       "byPosition": false,
+       "origin": {
+        "x": 47,
+        "y": 47,
+        "w": 68,
+        "h": 68
+       },
+       "eds": {
+        "x": 48,
+        "y": 48,
+        "w": 68,
+        "h": 68,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 1,
+       "dy": 1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "text:電話で 予約も質問も",
+       "role": "text",
+       "text": "電話で 予約も質問も",
+       "edsText": "電話で 予約も質問も",
+       "byPosition": false,
+       "origin": {
+        "x": 36,
+        "y": 173,
+        "w": 90,
+        "h": 39
+       },
+       "eds": {
+        "x": 36,
+        "y": 173,
+        "w": 90,
+        "h": 39,
+        "sel": "p.consult__text",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/20/700",
+        "eds": "15/20/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1096,
+       "y": 4315,
+       "w": 163,
+       "h": 212
+      },
+      "eds": {
+       "x": 1096,
+       "y": 4315,
+       "w": 163,
+       "h": 212
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "div.ItemsList-styles__ListItem-sc-809b56aa-1=.items-list__item",
+   "family": null,
+   "required": true,
+   "originMatches": 8,
+   "edsMatches": 8,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div > div.ItemsList-styles__ListWrapper-sc-809b56aa-0.hHLxbb > div.ItemsList-styles__ListItem-sc-809b56aa-1.NIKmG"
+     },
+     "eds": {
+      "path": "div.list-block > div.items-list > div.items-list__item"
+     },
+     "rows": [
+      {
+       "key": "text:2026/10/30",
+       "role": "text",
+       "text": "2026/10/30",
+       "edsText": "2026/10/30",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 16,
+        "w": 1078,
+        "h": 21
+       },
+       "eds": {
+        "x": 0,
+        "y": 16,
+        "w": 1078,
+        "h": 21,
+        "sel": "div.items-list__date",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/700",
+        "eds": "15/21/700"
+       }
+      },
+      {
+       "key": "link:アクサ生命の役員人事について",
+       "role": "link",
+       "text": "アクサ生命の役員人事について",
+       "edsText": "アクサ生命の役員人事について",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 43,
+        "w": 1078,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 43,
+        "w": 1078,
+        "h": 24,
+        "sel": "a.items-list__link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/600",
+        "eds": "16/24/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 5627,
+       "w": 1078,
+       "h": 84
+      },
+      "eds": {
+       "x": 181,
+       "y": 5627,
+       "w": 1078,
+       "h": 84
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div > div.ItemsList-styles__ListWrapper-sc-809b56aa-0.hHLxbb > div.ItemsList-styles__ListItem-sc-809b56aa-1.NIKmG"
+     },
+     "eds": {
+      "path": "div.list-block > div.items-list > div.items-list__item"
+     },
+     "rows": [
+      {
+       "key": "text:2026/09/30",
+       "role": "text",
+       "text": "2026/09/30",
+       "edsText": "2026/09/30",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 16,
+        "w": 1078,
+        "h": 21
+       },
+       "eds": {
+        "x": 0,
+        "y": 16,
+        "w": 1078,
+        "h": 21,
+        "sel": "div.items-list__date",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/700",
+        "eds": "15/21/700"
+       }
+      },
+      {
+       "key": "link:アクサ生命の部長人事について",
+       "role": "link",
+       "text": "アクサ生命の部長人事について",
+       "edsText": "アクサ生命の部長人事について",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 43,
+        "w": 1078,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 43,
+        "w": 1078,
+        "h": 24,
+        "sel": "a.items-list__link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/600",
+        "eds": "16/24/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 5711,
+       "w": 1078,
+       "h": 84
+      },
+      "eds": {
+       "x": 181,
+       "y": 5711,
+       "w": 1078,
+       "h": 84
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div > div.ItemsList-styles__ListWrapper-sc-809b56aa-0.hHLxbb > div.ItemsList-styles__ListItem-sc-809b56aa-1.NIKmG"
+     },
+     "eds": {
+      "path": "div.list-block > div.items-list > div.items-list__item"
+     },
+     "rows": [
+      {
+       "key": "text:2026/09/15",
+       "role": "text",
+       "text": "2026/09/15",
+       "edsText": "2026/09/15",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 16,
+        "w": 1078,
+        "h": 21
+       },
+       "eds": {
+        "x": 0,
+        "y": 16,
+        "w": 1078,
+        "h": 21,
+        "sel": "div.items-list__date",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/700",
+        "eds": "15/21/700"
+       }
+      },
+      {
+       "key": "link:奈良教育大学esd・sdgsセンター、日本ユネスコ協会連盟、アクサ生命が協働し、",
+       "role": "link",
+       "text": "奈良教育大学esd・sdgsセンター、日本ユネスコ協会連盟、アクサ生命が協働し、 書籍『災害を乗り越えるための新たな減災",
+       "edsText": "奈良教育大学esd・sdgsセンター、日本ユネスコ協会連盟、アクサ生命が協働し、 書籍『災害を乗り越えるための新たな減災",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 43,
+        "w": 1078,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 43,
+        "w": 1078,
+        "h": 48,
+        "sel": "a.items-list__link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/600",
+        "eds": "16/24/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 5795,
+       "w": 1078,
+       "h": 108
+      },
+      "eds": {
+       "x": 181,
+       "y": 5795,
+       "w": 1078,
+       "h": 108
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div > div.ItemsList-styles__ListWrapper-sc-809b56aa-0.hHLxbb > div.ItemsList-styles__ListItem-sc-809b56aa-1.NIKmG"
+     },
+     "eds": {
+      "path": "div.list-block > div.items-list > div.items-list__item"
+     },
+     "rows": [
+      {
+       "key": "text:2026/09/07",
+       "role": "text",
+       "text": "2026/09/07",
+       "edsText": "2026/09/07",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 16,
+        "w": 1078,
+        "h": 21
+       },
+       "eds": {
+        "x": 0,
+        "y": 16,
+        "w": 1078,
+        "h": 21,
+        "sel": "div.items-list__date",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/700",
+        "eds": "15/21/700"
+       }
+      },
+      {
+       "key": "link:アクサ生命、全国の中小企業経営者18,644人のリアルな声をまとめた「社長さん白",
+       "role": "link",
+       "text": "アクサ生命、全国の中小企業経営者18,644人のリアルな声をまとめた「社長さん白書2026」を発表",
+       "edsText": "アクサ生命、全国の中小企業経営者18,644人のリアルな声をまとめた「社長さん白書2026」を発表",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 43,
+        "w": 1078,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 43,
+        "w": 1078,
+        "h": 24,
+        "sel": "a.items-list__link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/600",
+        "eds": "16/24/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 5903,
+       "w": 1078,
+       "h": 84
+      },
+      "eds": {
+       "x": 181,
+       "y": 5903,
+       "w": 1078,
+       "h": 84
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div > div.ItemsList-styles__ListWrapper-sc-809b56aa-0.hHLxbb > div.ItemsList-styles__ListItem-sc-809b56aa-1.NIKmG"
+     },
+     "eds": {
+      "path": "div.list-block > div.items-list > div.items-list__item"
+     },
+     "rows": [
+      {
+       "key": "text:2026/10/30",
+       "role": "text",
+       "text": "2026/10/30",
+       "edsText": "2026/10/30",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 16,
+        "w": 1078,
+        "h": 21
+       },
+       "eds": {
+        "x": 0,
+        "y": 16,
+        "w": 1078,
+        "h": 21,
+        "sel": "div.items-list__date",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/700",
+        "eds": "15/21/700"
+       }
+      },
+      {
+       "key": "link:システムメンテナンスのお知らせ（2026年11月度）",
+       "role": "link",
+       "text": "システムメンテナンスのお知らせ（2026年11月度）",
+       "edsText": "システムメンテナンスのお知らせ（2026年11月度）",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 43,
+        "w": 1078,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 43,
+        "w": 1078,
+        "h": 24,
+        "sel": "a.items-list__link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/600",
+        "eds": "16/24/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 6205,
+       "w": 1078,
+       "h": 84
+      },
+      "eds": {
+       "x": 181,
+       "y": 6205,
+       "w": 1078,
+       "h": 84
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div > div.ItemsList-styles__ListWrapper-sc-809b56aa-0.hHLxbb > div.ItemsList-styles__ListItem-sc-809b56aa-1.NIKmG"
+     },
+     "eds": {
+      "path": "div.list-block > div.items-list > div.items-list__item"
+     },
+     "rows": [
+      {
+       "key": "text:2026/09/30",
+       "role": "text",
+       "text": "2026/09/30",
+       "edsText": "2026/09/30",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 16,
+        "w": 1078,
+        "h": 21
+       },
+       "eds": {
+        "x": 0,
+        "y": 16,
+        "w": 1078,
+        "h": 21,
+        "sel": "div.items-list__date",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/700",
+        "eds": "15/21/700"
+       }
+      },
+      {
+       "key": "link:令和8年台風第18号に伴う災害により被災されたみなさまへ",
+       "role": "link",
+       "text": "令和8年台風第18号に伴う災害により被災されたみなさまへ",
+       "edsText": "令和8年台風第18号に伴う災害により被災されたみなさまへ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 43,
+        "w": 1078,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 43,
+        "w": 1078,
+        "h": 24,
+        "sel": "a.items-list__link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/600",
+        "eds": "16/24/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 6289,
+       "w": 1078,
+       "h": 84
+      },
+      "eds": {
+       "x": 181,
+       "y": 6289,
+       "w": 1078,
+       "h": 84
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div > div.ItemsList-styles__ListWrapper-sc-809b56aa-0.hHLxbb > div.ItemsList-styles__ListItem-sc-809b56aa-1.NIKmG"
+     },
+     "eds": {
+      "path": "div.list-block > div.items-list > div.items-list__item"
+     },
+     "rows": [
+      {
+       "key": "text:2026/09/30",
+       "role": "text",
+       "text": "2026/09/30",
+       "edsText": "2026/09/30",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 16,
+        "w": 1078,
+        "h": 21
+       },
+       "eds": {
+        "x": 0,
+        "y": 16,
+        "w": 1078,
+        "h": 21,
+        "sel": "div.items-list__date",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/700",
+        "eds": "15/21/700"
+       }
+      },
+      {
+       "key": "link:システムメンテナンスのお知らせ（2026年10月度）",
+       "role": "link",
+       "text": "システムメンテナンスのお知らせ（2026年10月度）",
+       "edsText": "システムメンテナンスのお知らせ（2026年10月度）",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 43,
+        "w": 1078,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 43,
+        "w": 1078,
+        "h": 24,
+        "sel": "a.items-list__link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/600",
+        "eds": "16/24/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 6373,
+       "w": 1078,
+       "h": 84
+      },
+      "eds": {
+       "x": 181,
+       "y": 6373,
+       "w": 1078,
+       "h": 84
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "div > div.ItemsList-styles__ListWrapper-sc-809b56aa-0.hHLxbb > div.ItemsList-styles__ListItem-sc-809b56aa-1.NIKmG"
+     },
+     "eds": {
+      "path": "div.list-block > div.items-list > div.items-list__item"
+     },
+     "rows": [
+      {
+       "key": "text:2026/09/24",
+       "role": "text",
+       "text": "2026/09/24",
+       "edsText": "2026/09/24",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 16,
+        "w": 1078,
+        "h": 21
+       },
+       "eds": {
+        "x": 0,
+        "y": 16,
+        "w": 1078,
+        "h": 21,
+        "sel": "div.items-list__date",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/21/700",
+        "eds": "15/21/700"
+       }
+      },
+      {
+       "key": "link:令和8年台風第25号に伴う災害により被災されたみなさまへ",
+       "role": "link",
+       "text": "令和8年台風第25号に伴う災害により被災されたみなさまへ",
+       "edsText": "令和8年台風第25号に伴う災害により被災されたみなさまへ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 43,
+        "w": 1078,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 43,
+        "w": 1078,
+        "h": 24,
+        "sel": "a.items-list__link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/600",
+        "eds": "16/24/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 6457,
+       "w": 1078,
+       "h": 84
+      },
+      "eds": {
+       "x": 181,
+       "y": 6457,
+       "w": 1078,
+       "h": 84
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "figure.ImageLink__Container-sc-2583b0ee-0=.rec",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div > div.RecomendedContents-styles__MainWrap-sc-3b281e98-0.swXLy > figure.ImageLink__Container-sc-2583b0ee-0.gyouEX"
+     },
+     "eds": {
+      "path": "div.list-block > div.recommended > figure.rec"
+     },
+     "rows": [
+      {
+       "key": "link:アクサ生命のライフマネジメント®",
+       "role": "link",
+       "text": "アクサ生命のライフマネジメント®",
+       "edsText": "アクサ生命のライフマネジメント®",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 347,
+        "h": 216
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 347,
+        "h": 216,
+        "sel": "a.rec__link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/600"
+       }
+      },
+      {
+       "key": "image:img.ImageLink__Image-sc-2583b0ee-1.fCqWPB#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 347,
+        "h": 179
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 347,
+        "h": 179,
+        "sel": "img.rec__img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 6759,
+       "w": 347,
+       "h": 216
+      },
+      "eds": {
+       "x": 181,
+       "y": 6759,
+       "w": 347,
+       "h": 216
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div > div.RecomendedContents-styles__MainWrap-sc-3b281e98-0.swXLy > figure.ImageLink__Container-sc-2583b0ee-0.gyouEX"
+     },
+     "eds": {
+      "path": "div.list-block > div.recommended > figure.rec"
+     },
+     "rows": [
+      {
+       "key": "link:健康経営アクサ式",
+       "role": "link",
+       "text": "健康経営アクサ式",
+       "edsText": "健康経営アクサ式",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 347,
+        "h": 216
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 347,
+        "h": 216,
+        "sel": "a.rec__link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/600"
+       }
+      },
+      {
+       "key": "image:会社と働く人の数だけ、健やかな未来がある。 アクサの健康経営",
+       "role": "image",
+       "text": "会社と働く人の数だけ、健やかな未来がある。 アクサの健康経営",
+       "edsText": "会社と働く人の数だけ、健やかな未来がある。 アクサの健康経営",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 347,
+        "h": 179
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 347,
+        "h": 179,
+        "sel": "img.rec__img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 547,
+       "y": 6759,
+       "w": 347,
+       "h": 216
+      },
+      "eds": {
+       "x": 547,
+       "y": 6759,
+       "w": 347,
+       "h": 216
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div > div.RecomendedContents-styles__MainWrap-sc-3b281e98-0.swXLy > figure.ImageLink__Container-sc-2583b0ee-0.gyouEX"
+     },
+     "eds": {
+      "path": "div.list-block > div.recommended > figure.rec"
+     },
+     "rows": [
+      {
+       "key": "link:アクサメディカルアシスタンスサービス",
+       "role": "link",
+       "text": "アクサメディカルアシスタンスサービス",
+       "edsText": "アクサメディカルアシスタンスサービス",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 347,
+        "h": 216
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 347,
+        "h": 216,
+        "sel": "a.rec__link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/600"
+       }
+      },
+      {
+       "key": "image:img.ImageLink__Image-sc-2583b0ee-1.fCqWPB#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 347,
+        "h": 179
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 347,
+        "h": 179,
+        "sel": "img.rec__img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 912,
+       "y": 6759,
+       "w": 347,
+       "h": 216
+      },
+      "eds": {
+       "x": 912,
+       "y": 6759,
+       "w": 347,
+       "h": 216
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div > div.RecomendedContents-styles__MainWrap-sc-3b281e98-0.swXLy > figure.ImageLink__Container-sc-2583b0ee-0.gyouEX"
+     },
+     "eds": {
+      "path": "div.list-block > div.recommended > figure.rec"
+     },
+     "rows": [
+      {
+       "key": "link:人生100年の歩き方",
+       "role": "link",
+       "text": "人生100年の歩き方",
+       "edsText": "人生100年の歩き方",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 347,
+        "h": 217
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 347,
+        "h": 216,
+        "sel": "a.rec__link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": -1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/600"
+       }
+      },
+      {
+       "key": "image:img.ImageLink__Image-sc-2583b0ee-1.fCqWPB#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 347,
+        "h": 179
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 347,
+        "h": 179,
+        "sel": "img.rec__img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 6994,
+       "w": 347,
+       "h": 217
+      },
+      "eds": {
+       "x": 181,
+       "y": 6994,
+       "w": 347,
+       "h": 216
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": -1
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 23,
+  "within": 70,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

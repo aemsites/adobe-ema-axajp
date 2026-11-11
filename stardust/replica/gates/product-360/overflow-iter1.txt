@@ -1,0 +1,8 @@
+measure  http://localhost:8791/product-proposed.html
+  widths 360 · 1 selector(s) · 1 props · first match
+
+@ 360px
+  root  scrollWidth   360  viewport 360  scrollHeight  11907
+  html
+       x     0  y      0  w   360  h 11907  vis  "ログイン サポート Home 商品一覧 生命保険商品一覧 専門スタッフに 電話…"
+      display: block

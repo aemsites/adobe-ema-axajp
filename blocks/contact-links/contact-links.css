@@ -1,0 +1,391 @@
+/* contact-links — default: boxes in a wrapping row */
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.contact-links .contact-links-cell-wide {
+  flex: 1 1 280px;
+}
+
+.contact-links .contact-links-box {
+  display: block;
+  height: 100%;
+  padding: 0.6375rem 1.75rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.contact-links .contact-links-tel p {
+  font-size: 1.05rem;
+}
+
+.contact-links .contact-links-more p {
+  font-size: 0.7875rem;
+  color: var(--blue);
+}
+
+.contact-links .contact-links-list ul {
+  list-style: none;
+}
+
+/* pc-only — the about-insurance strip shows on PC only (hidden ≤994, as live) */
+@media (width <= 994px) {
+  .contact-links.pc-only { display: none; }
+}
+
+/* tel-boxes — about-insurance `.ai-contact` (floated strip: 2 tel boxes + 3 gif banners) */
+.contact-links.tel-boxes {
+  display: block;
+  max-width: 1024px;
+  margin: 0.875rem auto 0;
+  overflow: hidden;
+  line-height: 1.15;
+}
+
+.contact-links.tel-boxes .contact-links-cell {
+  float: left;
+  display: block;
+  padding-left: 0.875rem;
+  min-width: 13%;
+  max-width: 13%;
+}
+
+.contact-links.tel-boxes .contact-links-cell-wide {
+  min-width: 30.5%;
+  max-width: 30.5%;
+}
+
+.contact-links.tel-boxes .contact-links-first { padding-left: 0; }
+.contact-links.tel-boxes .contact-links-last { float: right; }
+.contact-links.tel-boxes .contact-links-cell:hover { opacity: 0.8; }
+
+.contact-links.tel-boxes .contact-links-box {
+  width: 100%;
+  height: 115px;
+  padding: 0.6375rem 1.75rem;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 600;
+  line-height: 1.15;
+  background-color: #1cc54e;
+}
+
+.contact-links.tel-boxes .contact-links-box-2 { background-color: #f90; }
+
+.contact-links.tel-boxes .contact-links-head p {
+  font-size: 1.3125rem;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.contact-links.tel-boxes .contact-links-tel p {
+  font-size: 1.05rem;
+  line-height: 1.4;
+  font-weight: lighter;
+  color: #fff;
+}
+
+.contact-links.tel-boxes .contact-links-time p {
+  font-size: 0.7rem;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.contact-links.tel-boxes .contact-links-more p {
+  font-size: 0.7875rem;
+  line-height: 1.4;
+  color: var(--blue);
+}
+
+.contact-links.tel-boxes .contact-links-more p::before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+  background: url('https://www.axa.co.jp/images/components/links/ico_arrow_blue01.png') no-repeat 0 0 / 100% auto;
+}
+
+.contact-links.tel-boxes .contact-links-banner img {
+  width: 113px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* stylelint-disable no-descending-specificity -- card rules follow the tel-boxes block */
+
+/* card — customer `.ccontact-component-wrapper`: bordered title + one white DirectButton (lg) */
+main > .section > .contact-links-wrapper:has(> .contact-links.card) {
+  max-width: 1078px;
+  padding: 0;
+}
+
+.contact-links.card {
+  display: block;
+  margin: 3.5rem 0;
+}
+
+.contact-links.card .contact-links-title :is(h2, h3) {
+  margin-bottom: 1.3125rem;
+  padding-left: 1.3125rem;
+  font-size: 1.4875rem;
+  font-weight: 700;
+  border-left: 4px solid #e5e5e5;
+}
+
+.contact-links.card .contact-links-cell {
+  width: 50%;
+  margin: 0 0.4375rem 0 0;
+}
+
+@media (width >= 768px) {
+  /* the source's button wrapper margin sits inside a flex row: it never collapses */
+  .contact-links.card { padding-bottom: 0.875rem; }
+}
+
+.contact-links.card .contact-links-box {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--white);
+  border: 0;
+  border-radius: 0;
+}
+
+.contact-links.card .contact-links-box::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  display: block;
+  width: 0;
+  height: 120%;
+  transform: translate(-50%, -50%) skewX(-37.7deg);
+  transition: 0.3s ease-in-out;
+}
+
+.contact-links.card .contact-links-box:hover::before {
+  width: 120%;
+  background-color: #000072;
+}
+
+.contact-links.card .contact-links-more {
+  display: flex;
+  flex: 1 0 100%;
+}
+
+.contact-links.card .contact-links-more p {
+  display: flex;
+  flex: 1 0 100%;
+  font-size: 16px;
+}
+
+.contact-links.card .contact-links-more a:any-link {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex: 1 0 100%;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  padding: 12px 86px 12px 68px;
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: var(--blue);
+  border: 2px solid var(--blue);
+  transition: 0.25s;
+}
+
+.contact-links.card .contact-links-box:hover a:any-link {
+  color: var(--white);
+  border-color: #000072;
+}
+
+.contact-links.card .contact-links-more a:any-link::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  width: 18px;
+  height: 15px;
+  margin-top: -7.5px;
+  background-color: currentcolor;
+  mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 0 14 7"><g fill="none" stroke="black" stroke-linecap="round" stroke-width="2"><path d="M.5 3.5H11M9 7l2.798-3.5L9 0"/></g></svg>') center / contain no-repeat;
+}
+
+@media (width <= 767px) {
+  main > .section > .contact-links-wrapper:has(> .contact-links.card) { padding: 0 0.875rem; }
+  .contact-links.card { margin: 2.625rem 0 0; }
+
+  .contact-links.card .contact-links-title :is(h2, h3) {
+    margin-bottom: 0.875rem;
+    padding-left: 0.875rem;
+    font-size: 1.3125rem;
+  }
+
+  .contact-links.card .contact-links-cell {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+/* strip — product `.contact-content-wrapper`: two tel blocks with a rule between, three
+   outline link buttons on the right (PC only) */
+.contact-links.strip {
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  margin: 1rem 0 3rem;
+}
+
+.contact-links.strip .contact-links-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.contact-links.strip .contact-links-cell-wide { flex: 0 1 auto; }
+
+.contact-links.strip .contact-links-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  height: auto;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.contact-links.strip .contact-links-separator { border-right: 2px solid #ccc; }
+
+.contact-links.strip .contact-links-head p {
+  font-size: 0.9975rem;
+  font-weight: 700;
+}
+
+.contact-links.strip .contact-links-tel p {
+  display: inline-flex;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.contact-links.strip .contact-links-tel em {
+  font-size: 0.9975rem;
+  font-style: normal;
+}
+
+.contact-links.strip .contact-links-time p {
+  width: 100%;
+  max-width: 252px;
+  margin: 0;
+  font-size: 0.7rem;
+  font-weight: 100;
+}
+
+.contact-links.strip .contact-links-more p {
+  font-size: 0.9975rem;
+  color: var(--blue);
+}
+
+.contact-links.strip .contact-links-more a:any-link {
+  display: inline-flex;
+  align-items: baseline;
+  padding: 0.875rem 0;
+  color: var(--blue);
+  font-size: 0.9975rem;
+  font-weight: 600;
+  line-height: 1.15;
+  text-decoration: none;
+}
+
+.contact-links.strip .contact-links-more svg {
+  flex-shrink: 0;
+  width: 15px;
+  margin-left: 10px;
+}
+
+.contact-links.strip .contact-links-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.6rem;
+  width: 33%;
+}
+
+.contact-links.strip .contact-links-list :is(ul, li) { display: contents; }
+
+.contact-links.strip .contact-links-list a:any-link {
+  display: inline-flex;
+  min-height: 40px;
+  align-items: center;
+  padding: 0 28px;
+  overflow: hidden;
+  border: 2px solid var(--blue);
+  background-color: #fff;
+  color: var(--blue);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.contact-links.strip .contact-links-label {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  white-space: nowrap;
+  margin: auto 0 auto 20px;
+  padding: 12px 0 12px 20px;
+  line-height: 18px;
+}
+
+.contact-links.strip .contact-links-list a:any-link:hover {
+  background-color: #000072;
+  border-color: #000072;
+  color: #fff;
+}
+
+.contact-links.strip .contact-links-list svg {
+  flex-shrink: 0;
+  width: 15px;
+  max-width: 15px;
+  margin: auto 20px;
+}
+
+@media (width >= 768px) {
+  .contact-links.strip {
+    gap: 6.5rem;
+    margin: 3rem 0;
+  }
+
+  .contact-links.strip .contact-links-boxes {
+    width: 60%;
+    gap: 4.5rem;
+  }
+}
+
+@media (width <= 767px) {
+  .contact-links.strip .contact-links-tel p { font-size: 1.1375rem; }
+  .contact-links.strip .contact-links-tel em { display: none; }
+  .contact-links.strip .contact-links-more svg { margin-left: 18px; }
+  .contact-links.strip .contact-links-list { display: none; }
+}

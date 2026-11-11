@@ -1,0 +1,3320 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-09T13:20:36.856Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.axa.co.jp/about-axa/",
+  "at": "2026-11-09T13:20:19.039Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3750,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "header.Header-styles__HeaderContainer-sc-2631d3c6-0.fJIMen > nav.HeaderSp-styles__HeaderSpNav-sc-c2c9c952-0.iQqoYg > a.HeaderSp-styles__LogoLink-sc-c2c9c952-1.TrbyO",
+    "x": 20,
+    "y": 15,
+    "w": 134,
+    "h": 42,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.HeaderSp-styles__HeaderSpNav-sc-c2c9c952-0.iQqoYg > div.HeaderSp-styles__HeaderSpList-sc-c2c9c952-2.gXrEEr > a.HeaderSp-styles__HeaderSpItem-sc-c2c9c952-4.ktLIag",
+    "x": 182,
+    "y": 14,
+    "w": 40,
+    "h": 45,
+    "text": "ログイン",
+    "href": "/login"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.HeaderSp-styles__HeaderSpNav-sc-c2c9c952-0.iQqoYg > div.HeaderSp-styles__HeaderSpList-sc-c2c9c952-2.gXrEEr > a.HeaderSp-styles__HeaderSpItem-sc-c2c9c952-4.ktLIag",
+    "x": 245,
+    "y": 14,
+    "w": 40,
+    "h": 45,
+    "text": "サポート",
+    "href": "/s/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.HeaderSp-styles__HeaderSpList-sc-c2c9c952-2.gXrEEr > div.HeaderSp-styles__MenuIconWrapper-sc-c2c9c952-6.loopSL > button.relative.box-border",
+    "x": 308,
+    "y": 20,
+    "w": 32,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Background__BackgroundWrapper-sc-eb4edbb-0.bDTkao > div.Layout-sc-f22cece7-3.SliceContainer__SliceLayout-sc-c4778fe-0 > h2.Heading__SliceHeading-sc-fc73c69e-0.hpqKAo",
+    "x": 14,
+    "y": 416,
+    "w": 332,
+    "h": 47,
+    "level": 2,
+    "text": "トップメッセージ"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.BorderedTitleSlice-sc-89b33437-0.icbJnS > span > p",
+    "x": 31,
+    "y": 426,
+    "w": 156,
+    "h": 27,
+    "text": "トップメッセージ"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Layout-sc-f22cece7-3.SliceContainer__SliceLayout-sc-c4778fe-0 > div.Media__MediaLayout-sc-fccf1985-0.fsIKi > img.Media__ImageLayout-sc-fccf1985-1.Media__SpImageLayout-sc-fccf1985-2",
+    "x": 40,
+    "y": 615,
+    "w": 41,
+    "h": 53,
+    "text": "",
+    "file": "aQmua7pReVYa4AOY_building"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Layout-sc-f22cece7-3.SliceContainer__SliceLayout-sc-c4778fe-0 > div.CustomLink__CustomLinkWrapper-sc-df8d4c0f-0.boxDsO > a.CustomLink__Link-sc-df8d4c0f-1.jSCVLA",
+    "x": 109,
+    "y": 601,
+    "w": 199,
+    "h": 25,
+    "text": "アクサ生命について →",
+    "href": "/about-axa/axa-life"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.after-anchor > span > p",
+    "x": 109,
+    "y": 644,
+    "w": 221,
+    "h": 59,
+    "text": "当社の会社概要や支社・営業所一覧をご紹介しています。"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Layout-sc-f22cece7-3.SliceContainer__SliceLayout-sc-c4778fe-0 > div.Media__MediaLayout-sc-fccf1985-0.fsIKi > img.Media__ImageLayout-sc-fccf1985-1.Media__SpImageLayout-sc-fccf1985-2",
+    "x": 37,
+    "y": 781,
+    "w": 47,
+    "h": 52,
+    "text": "",
+    "file": "aQmubLpReVYa4AOZ_release"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Layout-sc-f22cece7-3.SliceContainer__SliceLayout-sc-c4778fe-0 > div.CustomLink__CustomLinkWrapper-sc-df8d4c0f-0.boxDsO > a.CustomLink__Link-sc-df8d4c0f-1.jSCVLA",
+    "x": 109,
+    "y": 767,
+    "w": 221,
+    "h": 51,
+    "text": "お知らせ・ニュースリリース →",
+    "href": "/about-axa/notice"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.after-anchor > span > p",
+    "x": 109,
+    "y": 835,
+    "w": 221,
+    "h": 59,
+    "text": "ニュースリリースやメディア掲載情報など、当社にまつわる最新情報をお届けします。"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Layout-sc-f22cece7-3.SliceContainer__SliceLayout-sc-c4778fe-0 > div.Media__MediaLayout-sc-fccf1985-0.fsIKi > img.Media__ImageLayout-sc-fccf1985-1.Media__SpImageLayout-sc-fccf1985-2",
+    "x": 35,
+    "y": 976,
+    "w": 52,
+    "h": 55,
+    "text": "",
+    "file": "aQmubbpReVYa4AOa_graph"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Layout-sc-f22cece7-3.SliceContainer__SliceLayout-sc-c4778fe-0 > div.CustomLink__CustomLinkWrapper-sc-df8d4c0f-0.boxDsO > a.CustomLink__Link-sc-df8d4c0f-1.jSCVLA",
+    "x": 109,
+    "y": 962,
+    "w": 91,
+    "h": 25,
+    "text": "​ir情報 →",
+    "href": "/ir/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.after-anchor > span > p",
+    "x": 109,
+    "y": 1005,
+    "w": 221,
+    "h": 59,
+    "text": "​ や についてご案内しています。"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span > p > a",
+    "x": 109,
+    "y": 1004,
+    "w": 28,
+    "h": 20,
+    "text": "業績",
+    "href": "/ir/performance-report/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span > p > a",
+    "x": 151,
+    "y": 1004,
+    "w": 56,
+    "h": 20,
+    "text": "株式事務",
+    "href": "/ir/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Layout-sc-f22cece7-3.SliceContainer__SliceLayout-sc-c4778fe-0 > div.Media__MediaLayout-sc-fccf1985-0.fsIKi > img.Media__ImageLayout-sc-fccf1985-1.Media__SpImageLayout-sc-fccf1985-2",
+    "x": 38,
+    "y": 1141,
+    "w": 46,
+    "h": 56,
+    "text": "",
+    "file": "aQmubrpReVYa4AOb_medal"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Layout-sc-f22cece7-3.SliceContainer__SliceLayout-sc-c4778fe-0 > div.CustomLink__CustomLinkWrapper-sc-df8d4c0f-0.dpQPzF > a.CustomLink__Link-sc-df8d4c0f-1.jSCVLA",
+    "x": 109,
+    "y": 1127,
+    "w": 221,
+    "h": 45,
+    "text": "サステナビリティの取り組み →",
+    "href": "/cr/activity"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.after-anchor > span > p",
+    "x": 109,
+    "y": 1189,
+    "w": 221,
+    "h": 78,
+    "text": "地球環境を守り、社会的課題を解決するため、ステークホルダーのみなさまとともに持続可能な価値の共創に取り組んでいます。"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Layout-sc-f22cece7-3.SliceContainer__SliceLayout-sc-c4778fe-0 > div.Media__MediaLayout-sc-fccf1985-0.fsIKi > img.Media__ImageLayout-sc-fccf1985-1.Media__SpImageLayout-sc-fccf1985-2",
+    "x": 38,
+    "y": 1349,
+    "w": 46,
+    "h": 56,
+    "text": "",
+    "file": "aQmubrpReVYa4AOb_medal"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Layout-sc-f22cece7-3.SliceContainer__SliceLayout-sc-c4778fe-0 > div.CustomLink__CustomLinkWrapper-sc-df8d4c0f-0.boxDsO > a.CustomLink__Link-sc-df8d4c0f-1.jSCVLA",
+    "x": 109,
+    "y": 1335,
+    "w": 221,
+    "h": 51,
+    "text": "​アクサ生命が選ばれる理由 →",
+    "href": "/about-axa/why-axa/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.after-anchor > span > p",
+    "x": 109,
+    "y": 1404,
+    "w": 221,
+    "h": 59,
+    "text": "今の時代に本当の意味で役に立つ生命保険やサービスをご提供するため、日々努力を重ねています。"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Layout-sc-f22cece7-3.SliceContainer__SliceLayout-sc-c4778fe-0 > div.Media__MediaLayout-sc-fccf1985-0.fsIKi > img.Media__ImageLayout-sc-fccf1985-1.Media__SpImageLayout-sc-fccf1985-2",
+    "x": 38,
+    "y": 1541,
+    "w": 46,
+    "h": 52,
+    "text": "",
+    "file": "aQmub7pReVYa4AOc_icon_town_hall_blue"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Layout-sc-f22cece7-3.SliceContainer__SliceLayout-sc-c4778fe-0 > div.CustomLink__CustomLinkWrapper-sc-df8d4c0f-0.boxDsO > a.CustomLink__Link-sc-df8d4c0f-1.jSCVLA",
+    "x": 109,
+    "y": 1527,
+    "w": 221,
+    "h": 51,
+    "text": "our purpose, values and vision →",
+    "href": "/about-axa/our-purposenotice"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.after-anchor > span > p",
+    "x": 109,
+    "y": 1595,
+    "w": 221,
+    "h": 59,
+    "text": "アクサの存在意義や価値基準、行動指針、ビジョンをご紹介しています。"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ContactSectionWrapper__ContactInfoWrapper-sc-e3908ed7-10.cczkZV > div.ContactSectionWrapper__ContactBlock-sc-e3908ed7-11.hIyyeI > h2.ContactSectionWrapper__ContactBlockTitle-sc-e3908ed7-8.caWiPM",
+    "x": 42,
+    "y": 1752,
+    "w": 276,
+    "h": 67,
+    "level": 2,
+    "text": "アクサ生命にてご加入のお客さま"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.breakpoints__PcHide-sc-1c000647-2.gBPHfY > div.ContactSectionWrapper__SpPhoneNumberWrapper-sc-e3908ed7-5.ZSfgn > a.sc-eCQgVK.sc-qdQOe",
+    "x": 42,
+    "y": 1832,
+    "w": 276,
+    "h": 54,
+    "text": "0120-568-093 無料",
+    "href": "0120-568-093"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ContactSectionWrapper__ContactInfoWrapper-sc-e3908ed7-10.cczkZV > div.ContactSectionWrapper__ContactBlock-sc-e3908ed7-11.hIyyeI > p.ContactSectionWrapper__OperationHours-sc-e3908ed7-6.bsyVul",
+    "x": 42,
+    "y": 1900,
+    "w": 276,
+    "h": 31,
+    "text": "月～金 9:00～18:00 土 9:00～17:00（日・祝日、12月30日～1月4日を除く）"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ContactSectionWrapper__ContactInfoWrapper-sc-e3908ed7-10.cczkZV > div.ContactSectionWrapper__ContactBlock-sc-e3908ed7-11.hIyyeI > a.sc-cBEgGa.sc-caHARj",
+    "x": 42,
+    "y": 1932,
+    "w": 223,
+    "h": 46,
+    "text": "自動音声ガイダンスの一覧",
+    "href": "/customer/request/csc-guidance/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ContactSectionWrapper__ContactInfoWrapper-sc-e3908ed7-10.cczkZV > div.ContactSectionWrapper__ContactBlock-sc-e3908ed7-11.hIyyeI > p.ContactSectionWrapper__Footnote-sc-e3908ed7-9.inmBHQ",
+    "x": 54,
+    "y": 1978,
+    "w": 264,
+    "h": 49,
+    "text": "※耳や言葉の不自由なお客さまは、 を利用いただけます。"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ContactSectionWrapper__ContactBlock-sc-e3908ed7-11.hIyyeI > p.ContactSectionWrapper__Footnote-sc-e3908ed7-9.inmBHQ > a",
+    "x": 54,
+    "y": 1977,
+    "w": 258,
+    "h": 37,
+    "text": "「アクサ生命手話・筆談サービス」",
+    "href": "/request/sign-language"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ContactSectionWrapper__ContactInfoWrapper-sc-e3908ed7-10.cczkZV > div.ContactSectionWrapper__ContactBlock-sc-e3908ed7-11.hIyyeI > h2.ContactSectionWrapper__ContactBlockTitle-sc-e3908ed7-8.caWiPM",
+    "x": 42,
+    "y": 2056,
+    "w": 276,
+    "h": 100,
+    "level": 2,
+    "text": "旧アクサフィナンシャル生命にてご加入のお客さま"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.breakpoints__PcHide-sc-1c000647-2.gBPHfY > div.ContactSectionWrapper__SpPhoneNumberWrapper-sc-e3908ed7-5.ZSfgn > a.sc-eCQgVK.sc-qdQOe",
+    "x": 42,
+    "y": 2170,
+    "w": 276,
+    "h": 54,
+    "text": "0120-911-999 無料",
+    "href": "0120-911-999"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ContactSectionWrapper__ContactInfoWrapper-sc-e3908ed7-10.cczkZV > div.ContactSectionWrapper__ContactBlock-sc-e3908ed7-11.hIyyeI > p.ContactSectionWrapper__OperationHours-sc-e3908ed7-6.bsyVul",
+    "x": 42,
+    "y": 2238,
+    "w": 276,
+    "h": 31,
+    "text": "月～金 9:00～18:00 土 9:00～17:00（日・祝日、12月30日～1月4日を除く）"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ContactSectionWrapper__ContactInfoWrapper-sc-e3908ed7-10.cczkZV > div.ContactSectionWrapper__ContactBlock-sc-e3908ed7-11.hIyyeI > a.sc-cBEgGa.sc-caHARj",
+    "x": 42,
+    "y": 2270,
+    "w": 223,
+    "h": 46,
+    "text": "自動音声ガイダンスの一覧",
+    "href": "/customer/request/csc-guidance/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ContactSectionWrapper__ContactInfoWrapper-sc-e3908ed7-10.cczkZV > div.ContactSectionWrapper__ContactBlock-sc-e3908ed7-11.hIyyeI > p.ContactSectionWrapper__Footnote-sc-e3908ed7-9.inmBHQ",
+    "x": 54,
+    "y": 2316,
+    "w": 264,
+    "h": 49,
+    "text": "※耳や言葉の不自由なお客さまは、 を利用いただけます。"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ContactSectionWrapper__ContactBlock-sc-e3908ed7-11.hIyyeI > p.ContactSectionWrapper__Footnote-sc-e3908ed7-9.inmBHQ > a",
+    "x": 54,
+    "y": 2315,
+    "w": 258,
+    "h": 37,
+    "text": "「アクサ生命手話・筆談サービス」",
+    "href": "/request/sign-language"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.Breadcrumbs__BreadcrumbList-sc-c94aaaaa-1.dQIByG > li.Breadcrumbs__Breadcrumb-sc-c94aaaaa-2.bNTrkx > a.Breadcrumbs__BreadcrumbLink-sc-c94aaaaa-3.jmqwhj",
+    "x": 14,
+    "y": 2467,
+    "w": 30,
+    "h": 15,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Layout-sc-f22cece7-3.Breadcrumbs__BreadcrumbWrapper-sc-c94aaaaa-0 > ul.Breadcrumbs__BreadcrumbList-sc-c94aaaaa-1.dQIByG > li.Breadcrumbs__Breadcrumb-sc-c94aaaaa-2.bNTrkx",
+    "x": 71,
+    "y": 2467,
+    "w": 42,
+    "h": 16,
+    "text": "企業情報"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.SnsSection-style__Container-sc-bd05f3a7-0.EgvLw > div.SnsSection-style__SnsLogoContainer-sc-bd05f3a7-2.cfhhWQ > a.SnsLogo-styles__LogoLink-sc-8992c2c2-0.fPrTvL",
+    "x": 112,
+    "y": 2525,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "href": "/axajapan/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.SnsSection-style__Container-sc-bd05f3a7-0.EgvLw > div.SnsSection-style__SnsLogoContainer-sc-bd05f3a7-2.cfhhWQ > a.SnsLogo-styles__LogoLink-sc-8992c2c2-0.fPrTvL",
+    "x": 168,
+    "y": 2526,
+    "w": 24,
+    "h": 20,
+    "text": "linkedin アイコン",
+    "href": "/company/axa/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.SnsSection-style__SnsLogoContainer-sc-bd05f3a7-2.cfhhWQ > a.SnsLogo-styles__LogoLink-sc-8992c2c2-0.fPrTvL > img",
+    "x": 168,
+    "y": 2526,
+    "w": 24,
+    "h": 20,
+    "text": "linkedin アイコン",
+    "file": "ln_logo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.SnsSection-style__Container-sc-bd05f3a7-0.EgvLw > div.SnsSection-style__SnsLogoContainer-sc-bd05f3a7-2.cfhhWQ > a.SnsLogo-styles__LogoLink-sc-8992c2c2-0.fPrTvL",
+    "x": 224,
+    "y": 2525,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "href": "/c/AXAJP/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.SharedFooter-styles__ListItem-sc-61baf678-9.okgts > div.AccordionMainNav-styles__AccordionWrapper-sc-421d9ad5-1.dqQZag > button.AccordionMainNav-styles__AccordionButton-sc-421d9ad5-2.gJlDSm",
+    "x": 0,
+    "y": 2578,
+    "w": 360,
+    "h": 72,
+    "text": "保険をご検討中のお客さま"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.SharedFooter-styles__ListItem-sc-61baf678-9.okgts > div.AccordionMainNav-styles__AccordionWrapper-sc-421d9ad5-1.dqQZag > button.AccordionMainNav-styles__AccordionButton-sc-421d9ad5-2.gJlDSm",
+    "x": 0,
+    "y": 2578,
+    "w": 360,
+    "h": 72,
+    "label": "trigger",
+    "value": "保険をご検討中のお客さま",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.SharedFooter-styles__ListItem-sc-61baf678-9.okgts > div.AccordionMainNav-styles__AccordionWrapper-sc-421d9ad5-1.dqQZag > button.AccordionMainNav-styles__AccordionButton-sc-421d9ad5-2.gJlDSm",
+    "x": 0,
+    "y": 2651,
+    "w": 360,
+    "h": 72,
+    "text": "ご契約者さま"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.SharedFooter-styles__ListItem-sc-61baf678-9.okgts > div.AccordionMainNav-styles__AccordionWrapper-sc-421d9ad5-1.dqQZag > button.AccordionMainNav-styles__AccordionButton-sc-421d9ad5-2.gJlDSm",
+    "x": 0,
+    "y": 2651,
+    "w": 360,
+    "h": 72,
+    "label": "trigger",
+    "value": "ご契約者さま",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.SharedFooter-styles__ListItem-sc-61baf678-9.okgts > div.AccordionMainNav-styles__AccordionWrapper-sc-421d9ad5-1.dqQZag > button.AccordionMainNav-styles__AccordionButton-sc-421d9ad5-2.gJlDSm",
+    "x": 0,
+    "y": 2724,
+    "w": 360,
+    "h": 72,
+    "text": "法人のお客さま"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.SharedFooter-styles__ListItem-sc-61baf678-9.okgts > div.AccordionMainNav-styles__AccordionWrapper-sc-421d9ad5-1.dqQZag > button.AccordionMainNav-styles__AccordionButton-sc-421d9ad5-2.gJlDSm",
+    "x": 0,
+    "y": 2724,
+    "w": 360,
+    "h": 72,
+    "label": "trigger",
+    "value": "法人のお客さま",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.SharedFooter-styles__ListItem-sc-61baf678-9.okgts > div.AccordionMainNav-styles__AccordionWrapper-sc-421d9ad5-1.dqQZag > button.AccordionMainNav-styles__AccordionButton-sc-421d9ad5-2.gJlDSm",
+    "x": 0,
+    "y": 2797,
+    "w": 360,
+    "h": 72,
+    "text": "企業情報"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.SharedFooter-styles__ListItem-sc-61baf678-9.okgts > div.AccordionMainNav-styles__AccordionWrapper-sc-421d9ad5-1.dqQZag > button.AccordionMainNav-styles__AccordionButton-sc-421d9ad5-2.gJlDSm",
+    "x": 0,
+    "y": 2797,
+    "w": 360,
+    "h": 72,
+    "label": "trigger",
+    "value": "企業情報",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.SharedFooter-styles__ListItem-sc-61baf678-9.okgts > div.AccordionMainNav-styles__AccordionWrapper-sc-421d9ad5-1.dqQZag > button.AccordionMainNav-styles__AccordionButton-sc-421d9ad5-2.gJlDSm",
+    "x": 0,
+    "y": 2870,
+    "w": 360,
+    "h": 72,
+    "text": "採用情報"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.SharedFooter-styles__ListItem-sc-61baf678-9.okgts > div.AccordionMainNav-styles__AccordionWrapper-sc-421d9ad5-1.dqQZag > button.AccordionMainNav-styles__AccordionButton-sc-421d9ad5-2.gJlDSm",
+    "x": 0,
+    "y": 2870,
+    "w": 360,
+    "h": 72,
+    "label": "trigger",
+    "value": "採用情報",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.SharedFooter-styles__UnStyledList-sc-61baf678-6.StaticMenu-styles__StaticList-sc-988f104b-0 > li > a.SharedFooter-styles__FooterLink-sc-61baf678-10.kOfeuz",
+    "x": 0,
+    "y": 2957,
+    "w": 162,
+    "h": 20,
+    "text": "よくあるご質問",
+    "href": "/s/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.SharedFooter-styles__UnStyledList-sc-61baf678-6.StaticMenu-styles__StaticList-sc-988f104b-0 > li > a.SharedFooter-styles__FooterLink-sc-61baf678-10.kOfeuz",
+    "x": 0,
+    "y": 3008,
+    "w": 148,
+    "h": 20,
+    "text": "お問い合わせ",
+    "href": "/request/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.SharedFooter-styles__UnStyledList-sc-61baf678-6.StaticMenu-styles__StaticList-sc-988f104b-0 > li.SharedFooter-styles__FooterItemList-sc-61baf678-7.bYAlcM > a.SharedFooter-styles__FooterLink-sc-61baf678-10.SharedFooter-styles__StaticFooterLink-sc-61baf678-11",
+    "x": 0,
+    "y": 3062,
+    "w": 112,
+    "h": 17,
+    "text": "勧誘方針",
+    "href": "/policy/invitation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.SharedFooter-styles__UnStyledList-sc-61baf678-6.StaticMenu-styles__StaticList-sc-988f104b-0 > li.SharedFooter-styles__FooterItemList-sc-61baf678-7.bYAlcM > a.SharedFooter-styles__FooterLink-sc-61baf678-10.SharedFooter-styles__StaticFooterLink-sc-61baf678-11",
+    "x": 0,
+    "y": 3089,
+    "w": 172,
+    "h": 17,
+    "text": "取引時確認について",
+    "href": "/policy/identification"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.SharedFooter-styles__UnStyledList-sc-61baf678-6.StaticMenu-styles__StaticList-sc-988f104b-0 > li.SharedFooter-styles__FooterItemList-sc-61baf678-7.bYAlcM > a.SharedFooter-styles__FooterLink-sc-61baf678-10.SharedFooter-styles__StaticFooterLink-sc-61baf678-11",
+    "x": 0,
+    "y": 3117,
+    "w": 172,
+    "h": 17,
+    "text": "個人情報の取り扱い",
+    "href": "/other/personal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.SharedFooter-styles__UnStyledList-sc-61baf678-6.StaticMenu-styles__StaticList-sc-988f104b-0 > li.SharedFooter-styles__FooterItemList-sc-61baf678-7.bYAlcM > a.SharedFooter-styles__FooterLink-sc-61baf678-10.SharedFooter-styles__StaticFooterLink-sc-61baf678-11",
+    "x": 0,
+    "y": 3144,
+    "w": 196,
+    "h": 17,
+    "text": "利益相反管理方針の概要",
+    "href": "/policy/conflicts-interest"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.SharedFooter-styles__UnStyledList-sc-61baf678-6.StaticMenu-styles__StaticList-sc-988f104b-0 > li.SharedFooter-styles__FooterItemList-sc-61baf678-7.bYAlcM > a.SharedFooter-styles__FooterLink-sc-61baf678-10.SharedFooter-styles__StaticFooterLink-sc-61baf678-11",
+    "x": 0,
+    "y": 3172,
+    "w": 220,
+    "h": 17,
+    "text": "反社会的勢力対応の基本方針",
+    "href": "/policy/antisocial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.SharedFooter-styles__UnStyledList-sc-61baf678-6.StaticMenu-styles__StaticList-sc-988f104b-0 > li.SharedFooter-styles__FooterItemList-sc-61baf678-7.bYAlcM > a.SharedFooter-styles__FooterLink-sc-61baf678-10.SharedFooter-styles__StaticFooterLink-sc-61baf678-11",
+    "x": 0,
+    "y": 3200,
+    "w": 184,
+    "h": 17,
+    "text": "人権に関する基本方針",
+    "href": "/policy/human-rights"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.SharedFooter-styles__UnStyledList-sc-61baf678-6.StaticMenu-styles__StaticList-sc-988f104b-0 > li.SharedFooter-styles__FooterItemList-sc-61baf678-7.bYAlcM > a.SharedFooter-styles__FooterLink-sc-61baf678-10.SharedFooter-styles__StaticFooterLink-sc-61baf678-11",
+    "x": 0,
+    "y": 3251,
+    "w": 340,
+    "h": 17,
+    "text": "お客さま本位の業務運営を実現するための基本方針",
+    "href": "/about-axa/voc/fd"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.SharedFooter-styles__UnStyledList-sc-61baf678-6.StaticMenu-styles__StaticList-sc-988f104b-0 > li.SharedFooter-styles__FooterItemList-sc-61baf678-7.bYAlcM > a.SharedFooter-styles__FooterLink-sc-61baf678-10.SharedFooter-styles__StaticFooterLink-sc-61baf678-11",
+    "x": 0,
+    "y": 3279,
+    "w": 304,
+    "h": 17,
+    "text": "アセットオーナー・プリンシプルの受け入れ",
+    "href": "/policy/asset-owner-principle"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.SharedFooter-styles__UnStyledList-sc-61baf678-6.StaticMenu-styles__StaticList-sc-988f104b-0 > li.SharedFooter-styles__FooterItemList-sc-61baf678-7.bYAlcM > a.SharedFooter-styles__FooterLink-sc-61baf678-10.SharedFooter-styles__StaticFooterLink-sc-61baf678-11",
+    "x": 0,
+    "y": 3306,
+    "w": 316,
+    "h": 17,
+    "text": "日本版スチュワードシップ・コードの受け入れ",
+    "href": "/policy/stewardshipcode"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.SharedFooter-styles__UnStyledList-sc-61baf678-6.StaticMenu-styles__StaticList-sc-988f104b-0 > li.SharedFooter-styles__FooterItemList-sc-61baf678-7.bYAlcM > a.SharedFooter-styles__FooterLink-sc-61baf678-10.SharedFooter-styles__StaticFooterLink-sc-61baf678-11",
+    "x": 0,
+    "y": 3334,
+    "w": 278,
+    "h": 17,
+    "text": "アクサグループデータプライバシー宣言",
+    "href": "/dataprivacy/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.SharedFooter-styles__UnStyledList-sc-61baf678-6.StaticMenu-styles__StaticList-sc-988f104b-0 > li.SharedFooter-styles__FooterItemList-sc-61baf678-7.bYAlcM > a.SharedFooter-styles__FooterLink-sc-61baf678-10.SharedFooter-styles__StaticFooterLink-sc-61baf678-11",
+    "x": 0,
+    "y": 3362,
+    "w": 264,
+    "h": 17,
+    "text": "生命保険相談所(裁定審査会)について",
+    "href": "/request"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.SharedFooter-styles__UnStyledList-sc-61baf678-6.StaticMenu-styles__StaticList-sc-988f104b-0 > li.SharedFooter-styles__FooterItemList-sc-61baf678-7.bYAlcM > a.SharedFooter-styles__FooterLink-sc-61baf678-10.SharedFooter-styles__StaticFooterLink-sc-61baf678-11",
+    "x": 0,
+    "y": 3389,
+    "w": 244,
+    "h": 17,
+    "text": "生命保険契約者保護機構について",
+    "href": "/policy/info-protection"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.SharedFooter-styles__UnStyledList-sc-61baf678-6.StaticMenu-styles__StaticList-sc-988f104b-0 > li.SharedFooter-styles__FooterItemList-sc-61baf678-7.bYAlcM > a.SharedFooter-styles__FooterLink-sc-61baf678-10.SharedFooter-styles__StaticFooterLink-sc-61baf678-11",
+    "x": 0,
+    "y": 3417,
+    "w": 148,
+    "h": 17,
+    "text": "サイトポリシー",
+    "href": "/rule/using-website"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.SharedFooter-styles__UnStyledList-sc-61baf678-6.StaticMenu-styles__StaticList-sc-988f104b-0 > li.SharedFooter-styles__FooterItemList-sc-61baf678-7.bYAlcM > a.SharedFooter-styles__FooterLink-sc-61baf678-10.SharedFooter-styles__StaticFooterLink-sc-61baf678-11",
+    "x": 0,
+    "y": 3444,
+    "w": 127,
+    "h": 17,
+    "text": "cookie設定",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.SharedFooter-styles__UnStyledList-sc-61baf678-6.StaticMenu-styles__StaticList-sc-988f104b-0 > li.SharedFooter-styles__FooterItemList-sc-61baf678-7.bYAlcM > a.StaticMenu-styles__ExternalFooterLink-sc-988f104b-2.xKKOB",
+    "x": 0,
+    "y": 3495,
+    "w": 360,
+    "h": 18,
+    "text": "アクサ・ホールディングス・ジャパン",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.SharedFooter-styles__UnStyledList-sc-61baf678-6.StaticMenu-styles__StaticList-sc-988f104b-0 > li.SharedFooter-styles__FooterItemList-sc-61baf678-7.bYAlcM > a.StaticMenu-styles__ExternalFooterLink-sc-988f104b-2.xKKOB",
+    "x": 0,
+    "y": 3545,
+    "w": 360,
+    "h": 18,
+    "text": "アクサ損害保険株式会社",
+    "href": "/axa-life/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.SharedFooter-styles__UnStyledList-sc-61baf678-6.StaticMenu-styles__StaticList-sc-988f104b-0 > li.SharedFooter-styles__FooterItemList-sc-61baf678-7.bYAlcM > a.StaticMenu-styles__ExternalFooterLink-sc-988f104b-2.xKKOB",
+    "x": 0,
+    "y": 3595,
+    "w": 360,
+    "h": 18,
+    "text": "axa.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "footer > div.SharedFooter-styles__ContentSeparator-sc-61baf678-0.SharedFooter-styles__Container-sc-61baf678-1 > div.SharedFooter-styles__ContentSeparator-sc-61baf678-0.SharedFooter-styles__CopyRightContainer-sc-61baf678-3",
+    "x": 0,
+    "y": 3646,
+    "w": 360,
+    "h": 48,
+    "text": "Policy Privacy © 2024 AXA All Rights Reserved"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 63,
+    "controls": 46,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--80b77690--aemcoder.aem.page/about-axa",
+  "at": "2026-11-09T13:20:36.748Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3848,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div#site-header > nav.sp-header > a.sp-header-logo",
+    "x": 20,
+    "y": 15,
+    "w": 134,
+    "h": 42,
+    "text": "アクサ生命保険株式会社 ホーム",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.sp-header-logo > span.icon.icon-axa-logo > img",
+    "x": 20,
+    "y": 15,
+    "w": 134,
+    "h": 42,
+    "text": "",
+    "file": "axa-logo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.sp-header > div.sp-header-list > a.sp-header-item",
+    "x": 182,
+    "y": 14,
+    "w": 40,
+    "h": 45,
+    "text": "ログイン",
+    "href": "/login"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.sp-header > div.sp-header-list > a.sp-header-item",
+    "x": 245,
+    "y": 14,
+    "w": 40,
+    "h": 45,
+    "text": "サポート",
+    "href": "/s/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.sp-header > div.sp-header-list > button.sp-header-menu",
+    "x": 308,
+    "y": 20,
+    "w": 32,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.sp-header > div.sp-header-list > button.sp-header-menu",
+    "x": 308,
+    "y": 20,
+    "w": 32,
+    "h": 32,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.band.bordered-title > div.default-content-wrapper > h2#トップメッセージ",
+    "x": 14,
+    "y": 416,
+    "w": 332,
+    "h": 51,
+    "level": 2,
+    "text": "トップメッセージ"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-one > picture > img",
+    "x": 40,
+    "y": 585,
+    "w": 41,
+    "h": 53,
+    "text": "",
+    "file": "media_1c330017098c12789db0d9ce1a58b19eb7"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-slice.columns-link > p > a",
+    "x": 109,
+    "y": 584,
+    "w": 199,
+    "h": 26,
+    "text": "アクサ生命について →",
+    "href": "/about-axa/axa-life"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-cell > div.columns-slice.columns-text > p",
+    "x": 109,
+    "y": 625,
+    "w": 221,
+    "h": 39,
+    "text": "当社の会社概要や支社・営業所一覧をご紹介しています。"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-one > picture > img",
+    "x": 37,
+    "y": 756,
+    "w": 47,
+    "h": 52,
+    "text": "",
+    "file": "media_1b65e8d863acedd31a42b0040f9278e5cc"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-slice.columns-link > p > a",
+    "x": 109,
+    "y": 755,
+    "w": 217,
+    "h": 51,
+    "text": "お知らせ・ニュースリリース →",
+    "href": "/about-axa/notice"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-cell > div.columns-slice.columns-text > p",
+    "x": 109,
+    "y": 821,
+    "w": 221,
+    "h": 59,
+    "text": "ニュースリリースやメディア掲載情報など、当社にまつわる最新情報をお届けします。"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-one > picture > img",
+    "x": 35,
+    "y": 975,
+    "w": 52,
+    "h": 55,
+    "text": "",
+    "file": "media_187555c43f4b74bb8e6a73e9d5abc17800"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-slice.columns-link > p > a",
+    "x": 109,
+    "y": 974,
+    "w": 92,
+    "h": 26,
+    "text": "​ir情報 →",
+    "href": "/ir/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-cell > div.columns-slice.columns-text > p",
+    "x": 109,
+    "y": 1015,
+    "w": 221,
+    "h": 39,
+    "text": "​ や についてご案内しています。"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-slice.columns-text > p > a",
+    "x": 109,
+    "y": 1014,
+    "w": 28,
+    "h": 20,
+    "text": "業績",
+    "href": "/ir/performance-report/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-slice.columns-text > p > a",
+    "x": 151,
+    "y": 1014,
+    "w": 56,
+    "h": 20,
+    "text": "株式事務",
+    "href": "/ir/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-one > picture > img",
+    "x": 38,
+    "y": 1146,
+    "w": 46,
+    "h": 56,
+    "text": "",
+    "file": "media_1aa504f46f0d432838f14470ab4663b479"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-slice.columns-link > p > a",
+    "x": 109,
+    "y": 1145,
+    "w": 217,
+    "h": 51,
+    "text": "サステナビリティの取り組み →",
+    "href": "/cr/activity"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-cell > div.columns-slice.columns-text > p",
+    "x": 109,
+    "y": 1211,
+    "w": 221,
+    "h": 78,
+    "text": "地球環境を守り、社会的課題を解決するため、ステークホルダーのみなさまとともに持続可能な価値の共創に取り組んでいます。"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-one > picture > img",
+    "x": 38,
+    "y": 1385,
+    "w": 46,
+    "h": 56,
+    "text": "",
+    "file": "media_1aa504f46f0d432838f14470ab4663b479"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-slice.columns-link > p > a",
+    "x": 109,
+    "y": 1384,
+    "w": 236,
+    "h": 51,
+    "text": "​アクサ生命が選ばれる理由 →",
+    "href": "/about-axa/why-axa/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-cell > div.columns-slice.columns-text > p",
+    "x": 109,
+    "y": 1450,
+    "w": 221,
+    "h": 59,
+    "text": "今の時代に本当の意味で役に立つ生命保険やサービスをご提供するため、日々努力を重ねています。"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-one > picture > img",
+    "x": 38,
+    "y": 1601,
+    "w": 46,
+    "h": 52,
+    "text": "",
+    "file": "media_1cd4a36353b6b9c371c13f9fb6ea3d767c"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-slice.columns-link > p > a",
+    "x": 109,
+    "y": 1600,
+    "w": 218,
+    "h": 51,
+    "text": "our purpose, values and vision →",
+    "href": "/about-axa/our-purposenotice"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-cell > div.columns-slice.columns-text > p",
+    "x": 109,
+    "y": 1666,
+    "w": 221,
+    "h": 59,
+    "text": "アクサの存在意義や価値基準、行動指針、ビジョンをご紹介しています。"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-cell > div.columns-slice.columns-text > h2#アクサ生命にてご加入のお客さま",
+    "x": 42,
+    "y": 1850,
+    "w": 276,
+    "h": 67,
+    "level": 2,
+    "text": "アクサ生命にてご加入のお客さま"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-cell > div.columns-slice.columns-text > h2#568-093無料",
+    "x": 42,
+    "y": 1931,
+    "w": 276,
+    "h": 54,
+    "level": 2,
+    "text": "0120-568-093 無料"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-slice.columns-text > h2#568-093無料 > a",
+    "x": 100,
+    "y": 1945,
+    "w": 160,
+    "h": 26,
+    "text": "0120-568-093 無料",
+    "href": "0120-568-093"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-cell > div.columns-slice.columns-text > p",
+    "x": 42,
+    "y": 1999,
+    "w": 276,
+    "h": 31,
+    "text": "月～金 9:00～18:00 土 9:00～17:00（日・祝日、12月30日～1月4日を除く）"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-slice.columns-link > p > a",
+    "x": 42,
+    "y": 2030,
+    "w": 215,
+    "h": 46,
+    "text": "自動音声ガイダンスの一覧",
+    "href": "/customer/request/csc-guidance/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-cell > div.columns-slice.columns-note > p",
+    "x": 54,
+    "y": 2077,
+    "w": 264,
+    "h": 35,
+    "text": "※耳や言葉の不自由なお客さまは、 を利用いただけます。"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-slice.columns-note > p > a",
+    "x": 54,
+    "y": 2076,
+    "w": 258,
+    "h": 37,
+    "text": "「アクサ生命手話・筆談サービス」",
+    "href": "/request/sign-language"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-cell > div.columns-slice.columns-text > h2#旧アクサフィナンシャル生命にてご加入のお客さま",
+    "x": 42,
+    "y": 2155,
+    "w": 276,
+    "h": 100,
+    "level": 2,
+    "text": "旧アクサフィナンシャル生命にてご加入のお客さま"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-cell > div.columns-slice.columns-text > h2#911-999無料",
+    "x": 42,
+    "y": 2269,
+    "w": 276,
+    "h": 54,
+    "level": 2,
+    "text": "0120-911-999 無料"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-slice.columns-text > h2#911-999無料 > a",
+    "x": 100,
+    "y": 2283,
+    "w": 160,
+    "h": 26,
+    "text": "0120-911-999 無料",
+    "href": "0120-911-999"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-cell > div.columns-slice.columns-text > p",
+    "x": 42,
+    "y": 2337,
+    "w": 276,
+    "h": 31,
+    "text": "月～金 9:00～18:00 土 9:00～17:00（日・祝日、12月30日～1月4日を除く）"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-slice.columns-link > p > a",
+    "x": 42,
+    "y": 2368,
+    "w": 215,
+    "h": 46,
+    "text": "自動音声ガイダンスの一覧",
+    "href": "/customer/request/csc-guidance/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-cell > div.columns-slice.columns-note > p",
+    "x": 54,
+    "y": 2414,
+    "w": 264,
+    "h": 35,
+    "text": "※耳や言葉の不自由なお客さまは、 を利用いただけます。"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-slice.columns-note > p > a",
+    "x": 54,
+    "y": 2413,
+    "w": 258,
+    "h": 37,
+    "text": "「アクサ生命手話・筆談サービス」",
+    "href": "/request/sign-language"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 14,
+    "y": 2565,
+    "w": 30,
+    "h": 15,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav > ul > li",
+    "x": 47,
+    "y": 2565,
+    "w": 69,
+    "h": 16,
+    "label": "current",
+    "value": "企業情報",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav > ul > li",
+    "x": 47,
+    "y": 2565,
+    "w": 69,
+    "h": 16,
+    "text": "企業情報"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.sns-logos > li > a.sns-link",
+    "x": 112,
+    "y": 2623,
+    "w": 24,
+    "h": 24,
+    "text": "facebook",
+    "href": "/axajapan/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.sns-logos > li > a.sns-link",
+    "x": 168,
+    "y": 2625,
+    "w": 24,
+    "h": 20,
+    "text": "linkedin アイコン",
+    "href": "/company/axa/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > a.sns-link > img",
+    "x": 168,
+    "y": 2625,
+    "w": 24,
+    "h": 20,
+    "text": "",
+    "file": "linkedin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.sns-logos > li > a.sns-link",
+    "x": 224,
+    "y": 2623,
+    "w": 24,
+    "h": 24,
+    "text": "youtube",
+    "href": "/c/AXAJP/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-list.fnav-list-cats > li.fnav-cat > button.fnav-acc",
+    "x": 0,
+    "y": 2676,
+    "w": 360,
+    "h": 72,
+    "text": "保険をご検討中のお客さま"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-list.fnav-list-cats > li.fnav-cat > button.fnav-acc",
+    "x": 0,
+    "y": 2676,
+    "w": 360,
+    "h": 72,
+    "label": "trigger",
+    "value": "保険をご検討中のお客さま",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-list.fnav-list-cats > li.fnav-cat > button.fnav-acc",
+    "x": 0,
+    "y": 2749,
+    "w": 360,
+    "h": 72,
+    "text": "ご契約者さま"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-list.fnav-list-cats > li.fnav-cat > button.fnav-acc",
+    "x": 0,
+    "y": 2749,
+    "w": 360,
+    "h": 72,
+    "label": "trigger",
+    "value": "ご契約者さま",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-list.fnav-list-cats > li.fnav-cat > button.fnav-acc",
+    "x": 0,
+    "y": 2822,
+    "w": 360,
+    "h": 72,
+    "text": "法人のお客さま"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-list.fnav-list-cats > li.fnav-cat > button.fnav-acc",
+    "x": 0,
+    "y": 2822,
+    "w": 360,
+    "h": 72,
+    "label": "trigger",
+    "value": "法人のお客さま",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-list.fnav-list-cats > li.fnav-cat > button.fnav-acc",
+    "x": 0,
+    "y": 2895,
+    "w": 360,
+    "h": 72,
+    "text": "企業情報"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-list.fnav-list-cats > li.fnav-cat > button.fnav-acc",
+    "x": 0,
+    "y": 2895,
+    "w": 360,
+    "h": 72,
+    "label": "trigger",
+    "value": "企業情報",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-list.fnav-list-cats > li.fnav-cat > button.fnav-acc",
+    "x": 0,
+    "y": 2968,
+    "w": 360,
+    "h": 72,
+    "text": "採用情報"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-list.fnav-list-cats > li.fnav-cat > button.fnav-acc",
+    "x": 0,
+    "y": 2968,
+    "w": 360,
+    "h": 72,
+    "label": "trigger",
+    "value": "採用情報",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-statics > li > a.fnav-strong",
+    "x": 0,
+    "y": 3056,
+    "w": 162,
+    "h": 20,
+    "text": "よくあるご質問",
+    "href": "/s/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-statics > li > a.fnav-strong",
+    "x": 0,
+    "y": 3108,
+    "w": 148,
+    "h": 20,
+    "text": "お問い合わせ",
+    "href": "/request/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-statics > li > a.fnav-policy",
+    "x": 0,
+    "y": 3161,
+    "w": 112,
+    "h": 17,
+    "text": "勧誘方針",
+    "href": "/policy/invitation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-statics > li > a.fnav-policy",
+    "x": 0,
+    "y": 3189,
+    "w": 172,
+    "h": 17,
+    "text": "取引時確認について",
+    "href": "/policy/identification"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-statics > li > a.fnav-policy",
+    "x": 0,
+    "y": 3216,
+    "w": 172,
+    "h": 17,
+    "text": "個人情報の取り扱い",
+    "href": "/other/personal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-statics > li > a.fnav-policy",
+    "x": 0,
+    "y": 3244,
+    "w": 196,
+    "h": 17,
+    "text": "利益相反管理方針の概要",
+    "href": "/policy/conflicts-interest"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-statics > li > a.fnav-policy",
+    "x": 0,
+    "y": 3272,
+    "w": 220,
+    "h": 17,
+    "text": "反社会的勢力対応の基本方針",
+    "href": "/policy/antisocial"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-statics > li > a.fnav-policy",
+    "x": 0,
+    "y": 3299,
+    "w": 184,
+    "h": 17,
+    "text": "人権に関する基本方針",
+    "href": "/policy/human-rights"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-statics > li > a.fnav-policy",
+    "x": 0,
+    "y": 3351,
+    "w": 340,
+    "h": 17,
+    "text": "お客さま本位の業務運営を実現するための基本方針",
+    "href": "/about-axa/voc/fd"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-statics > li > a.fnav-policy",
+    "x": 0,
+    "y": 3378,
+    "w": 304,
+    "h": 17,
+    "text": "アセットオーナー・プリンシプルの受け入れ",
+    "href": "/policy/asset-owner-principle"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-statics > li > a.fnav-policy",
+    "x": 0,
+    "y": 3406,
+    "w": 316,
+    "h": 17,
+    "text": "日本版スチュワードシップ・コードの受け入れ",
+    "href": "/policy/stewardshipcode"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-statics > li > a.fnav-policy",
+    "x": 0,
+    "y": 3434,
+    "w": 278,
+    "h": 17,
+    "text": "アクサグループデータプライバシー宣言",
+    "href": "/dataprivacy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-statics > li > a.fnav-policy",
+    "x": 0,
+    "y": 3461,
+    "w": 264,
+    "h": 17,
+    "text": "生命保険相談所(裁定審査会)について",
+    "href": "/request"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-statics > li > a.fnav-policy",
+    "x": 0,
+    "y": 3489,
+    "w": 244,
+    "h": 17,
+    "text": "生命保険契約者保護機構について",
+    "href": "/policy/info-protection"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-statics > li > a.fnav-policy",
+    "x": 0,
+    "y": 3516,
+    "w": 148,
+    "h": 17,
+    "text": "サイトポリシー",
+    "href": "/rule/using-website"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-statics > li > a.fnav-policy",
+    "x": 0,
+    "y": 3544,
+    "w": 127,
+    "h": 17,
+    "text": "cookie設定",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-statics > li > a.fnav-ext",
+    "x": 0,
+    "y": 3593,
+    "w": 360,
+    "h": 18,
+    "text": "アクサ・ホールディングス・ジャパン",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-statics > li > a.fnav-ext",
+    "x": 0,
+    "y": 3644,
+    "w": 360,
+    "h": 18,
+    "text": "アクサ損害保険株式会社",
+    "href": "/axa-life/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.fnav-statics > li > a.fnav-ext",
+    "x": 0,
+    "y": 3694,
+    "w": 360,
+    "h": 18,
+    "text": "axa.com",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer > div.site-footer-copy > p",
+    "x": 32,
+    "y": 3760,
+    "w": 296,
+    "h": 16,
+    "text": "Policy Privacy © 2024 AXA All Rights Reserved"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 62,
+    "controls": 46,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "トップメッセージ",
+   "variable": false,
+   "origin": {
+    "link": 8,
+    "button": 0,
+    "text": 7,
+    "image": 6
+   },
+   "eds": {
+    "link": 8,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 6,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "アクサ生命にてご加入のお客さま",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "旧アクサフィナンシャル生命にてご加入のお客さま",
+   "variable": false,
+   "origin": {
+    "link": 4,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 4,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"0120-568-093 無料\" (y 1931) has no origin heading",
+   "text": "0120-568-093 無料"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"0120-911-999 無料\" (y 2269) has no origin heading",
+   "text": "0120-911-999 無料"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 2,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 2,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 182,
+    "y": 45,
+    "w": 40,
+    "h": 15
+   },
+   {
+    "x": 245,
+    "y": 45,
+    "w": 40,
+    "h": 15
+   },
+   {
+    "x": 31,
+    "y": 425,
+    "w": 156,
+    "h": 29
+   },
+   {
+    "x": 109,
+    "y": 600,
+    "w": 199,
+    "h": 26
+   },
+   {
+    "x": 109,
+    "y": 643,
+    "w": 210,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 663,
+    "w": 152,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 766,
+    "w": 217,
+    "h": 26
+   },
+   {
+    "x": 109,
+    "y": 791,
+    "w": 55,
+    "h": 26
+   },
+   {
+    "x": 109,
+    "y": 834,
+    "w": 208,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 854,
+    "w": 209,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 873,
+    "w": 125,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 961,
+    "w": 91,
+    "h": 26
+   },
+   {
+    "x": 109,
+    "y": 1004,
+    "w": 28,
+    "h": 20
+   },
+   {
+    "x": 137,
+    "y": 1004,
+    "w": 14,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 1004,
+    "w": 56,
+    "h": 20
+   },
+   {
+    "x": 207,
+    "y": 1004,
+    "w": 112,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 1023,
+    "w": 69,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 1126,
+    "w": 206,
+    "h": 24
+   },
+   {
+    "x": 316,
+    "y": 1126,
+    "w": 16,
+    "h": 24
+   },
+   {
+    "x": 109,
+    "y": 1149,
+    "w": 16,
+    "h": 24
+   },
+   {
+    "x": 109,
+    "y": 1188,
+    "w": 209,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 1208,
+    "w": 210,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 1228,
+    "w": 210,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 1247,
+    "w": 180,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 1334,
+    "w": 217,
+    "h": 26
+   },
+   {
+    "x": 327,
+    "y": 1334,
+    "w": 18,
+    "h": 26
+   },
+   {
+    "x": 109,
+    "y": 1360,
+    "w": 18,
+    "h": 26
+   },
+   {
+    "x": 109,
+    "y": 1403,
+    "w": 210,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 1422,
+    "w": 210,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 1442,
+    "w": 209,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 1526,
+    "w": 218,
+    "h": 26
+   },
+   {
+    "x": 109,
+    "y": 1551,
+    "w": 90,
+    "h": 26
+   },
+   {
+    "x": 109,
+    "y": 1594,
+    "w": 209,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 1614,
+    "w": 210,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 1633,
+    "w": 41,
+    "h": 20
+   },
+   {
+    "x": 42,
+    "y": 1751,
+    "w": 261,
+    "h": 35
+   },
+   {
+    "x": 42,
+    "y": 1784,
+    "w": 95,
+    "h": 35
+   },
+   {
+    "x": 86,
+    "y": 1845,
+    "w": 118,
+    "h": 24
+   },
+   {
+    "x": 216,
+    "y": 1851,
+    "w": 24,
+    "h": 16
+   },
+   {
+    "x": 42,
+    "y": 1899,
+    "w": 273,
+    "h": 16
+   },
+   {
+    "x": 42,
+    "y": 1915,
+    "w": 116,
+    "h": 16
+   },
+   {
+    "x": 42,
+    "y": 1943,
+    "w": 190,
+    "h": 24
+   },
+   {
+    "x": 42,
+    "y": 1977,
+    "w": 202,
+    "h": 19
+   },
+   {
+    "x": 244,
+    "y": 1977,
+    "w": 69,
+    "h": 19
+   },
+   {
+    "x": 54,
+    "y": 1995,
+    "w": 126,
+    "h": 19
+   },
+   {
+    "x": 180,
+    "y": 1995,
+    "w": 125,
+    "h": 19
+   },
+   {
+    "x": 42,
+    "y": 2055,
+    "w": 260,
+    "h": 35
+   },
+   {
+    "x": 42,
+    "y": 2089,
+    "w": 262,
+    "h": 35
+   },
+   {
+    "x": 42,
+    "y": 2122,
+    "w": 24,
+    "h": 35
+   },
+   {
+    "x": 86,
+    "y": 2183,
+    "w": 118,
+    "h": 24
+   },
+   {
+    "x": 216,
+    "y": 2189,
+    "w": 24,
+    "h": 16
+   },
+   {
+    "x": 42,
+    "y": 2237,
+    "w": 273,
+    "h": 16
+   },
+   {
+    "x": 42,
+    "y": 2253,
+    "w": 116,
+    "h": 16
+   },
+   {
+    "x": 42,
+    "y": 2281,
+    "w": 190,
+    "h": 24
+   },
+   {
+    "x": 42,
+    "y": 2315,
+    "w": 202,
+    "h": 19
+   },
+   {
+    "x": 244,
+    "y": 2315,
+    "w": 69,
+    "h": 19
+   },
+   {
+    "x": 54,
+    "y": 2333,
+    "w": 126,
+    "h": 19
+   },
+   {
+    "x": 180,
+    "y": 2333,
+    "w": 125,
+    "h": 19
+   },
+   {
+    "x": 14,
+    "y": 2467,
+    "w": 30,
+    "h": 15
+   },
+   {
+    "x": 55,
+    "y": 2467,
+    "w": 6,
+    "h": 15
+   },
+   {
+    "x": 71,
+    "y": 2467,
+    "w": 42,
+    "h": 15
+   },
+   {
+    "x": 32,
+    "y": 2603,
+    "w": 168,
+    "h": 20
+   },
+   {
+    "x": 32,
+    "y": 2676,
+    "w": 84,
+    "h": 20
+   },
+   {
+    "x": 32,
+    "y": 2749,
+    "w": 98,
+    "h": 20
+   },
+   {
+    "x": 32,
+    "y": 2822,
+    "w": 56,
+    "h": 20
+   },
+   {
+    "x": 32,
+    "y": 2895,
+    "w": 56,
+    "h": 20
+   },
+   {
+    "x": 32,
+    "y": 2957,
+    "w": 98,
+    "h": 20
+   },
+   {
+    "x": 32,
+    "y": 3008,
+    "w": 84,
+    "h": 20
+   },
+   {
+    "x": 32,
+    "y": 3062,
+    "w": 48,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3089,
+    "w": 108,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3117,
+    "w": 108,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3144,
+    "w": 132,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3172,
+    "w": 156,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3200,
+    "w": 120,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3251,
+    "w": 276,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3279,
+    "w": 240,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3306,
+    "w": 252,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3334,
+    "w": 214,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3362,
+    "w": 200,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3389,
+    "w": 180,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3417,
+    "w": 84,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3444,
+    "w": 63,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3494,
+    "w": 219,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 3544,
+    "w": 142,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 3594,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 3661,
+    "w": 252,
+    "h": 17
+   }
+  ],
+  "eds": [
+   {
+    "x": 182,
+    "y": 44,
+    "w": 40,
+    "h": 15
+   },
+   {
+    "x": 245,
+    "y": 44,
+    "w": 40,
+    "h": 15
+   },
+   {
+    "x": 31,
+    "y": 425,
+    "w": 179,
+    "h": 32
+   },
+   {
+    "x": 109,
+    "y": 584,
+    "w": 199,
+    "h": 26
+   },
+   {
+    "x": 109,
+    "y": 624,
+    "w": 210,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 643,
+    "w": 152,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 755,
+    "w": 217,
+    "h": 26
+   },
+   {
+    "x": 109,
+    "y": 781,
+    "w": 55,
+    "h": 26
+   },
+   {
+    "x": 109,
+    "y": 820,
+    "w": 208,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 840,
+    "w": 209,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 859,
+    "w": 125,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 974,
+    "w": 92,
+    "h": 26
+   },
+   {
+    "x": 109,
+    "y": 1014,
+    "w": 28,
+    "h": 20
+   },
+   {
+    "x": 137,
+    "y": 1014,
+    "w": 14,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 1014,
+    "w": 56,
+    "h": 20
+   },
+   {
+    "x": 207,
+    "y": 1014,
+    "w": 112,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 1033,
+    "w": 69,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 1145,
+    "w": 217,
+    "h": 26
+   },
+   {
+    "x": 109,
+    "y": 1170,
+    "w": 18,
+    "h": 26
+   },
+   {
+    "x": 128,
+    "y": 1170,
+    "w": 37,
+    "h": 26
+   },
+   {
+    "x": 109,
+    "y": 1210,
+    "w": 209,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 1230,
+    "w": 210,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 1249,
+    "w": 210,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 1269,
+    "w": 180,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 1384,
+    "w": 217,
+    "h": 26
+   },
+   {
+    "x": 327,
+    "y": 1384,
+    "w": 18,
+    "h": 26
+   },
+   {
+    "x": 109,
+    "y": 1409,
+    "w": 19,
+    "h": 26
+   },
+   {
+    "x": 109,
+    "y": 1449,
+    "w": 210,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 1468,
+    "w": 210,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 1488,
+    "w": 209,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 1600,
+    "w": 218,
+    "h": 26
+   },
+   {
+    "x": 109,
+    "y": 1625,
+    "w": 91,
+    "h": 26
+   },
+   {
+    "x": 109,
+    "y": 1665,
+    "w": 209,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 1684,
+    "w": 210,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 1704,
+    "w": 41,
+    "h": 20
+   },
+   {
+    "x": 42,
+    "y": 1849,
+    "w": 261,
+    "h": 35
+   },
+   {
+    "x": 42,
+    "y": 1883,
+    "w": 95,
+    "h": 35
+   },
+   {
+    "x": 100,
+    "y": 1944,
+    "w": 118,
+    "h": 24
+   },
+   {
+    "x": 230,
+    "y": 1950,
+    "w": 24,
+    "h": 16
+   },
+   {
+    "x": 42,
+    "y": 1998,
+    "w": 273,
+    "h": 16
+   },
+   {
+    "x": 42,
+    "y": 2014,
+    "w": 116,
+    "h": 16
+   },
+   {
+    "x": 42,
+    "y": 2041,
+    "w": 190,
+    "h": 24
+   },
+   {
+    "x": 42,
+    "y": 2076,
+    "w": 202,
+    "h": 19
+   },
+   {
+    "x": 244,
+    "y": 2076,
+    "w": 69,
+    "h": 19
+   },
+   {
+    "x": 54,
+    "y": 2093,
+    "w": 126,
+    "h": 19
+   },
+   {
+    "x": 180,
+    "y": 2093,
+    "w": 125,
+    "h": 19
+   },
+   {
+    "x": 42,
+    "y": 2154,
+    "w": 260,
+    "h": 35
+   },
+   {
+    "x": 42,
+    "y": 2187,
+    "w": 262,
+    "h": 35
+   },
+   {
+    "x": 42,
+    "y": 2220,
+    "w": 24,
+    "h": 35
+   },
+   {
+    "x": 100,
+    "y": 2282,
+    "w": 118,
+    "h": 24
+   },
+   {
+    "x": 230,
+    "y": 2288,
+    "w": 24,
+    "h": 16
+   },
+   {
+    "x": 42,
+    "y": 2336,
+    "w": 273,
+    "h": 16
+   },
+   {
+    "x": 42,
+    "y": 2351,
+    "w": 116,
+    "h": 16
+   },
+   {
+    "x": 42,
+    "y": 2379,
+    "w": 190,
+    "h": 24
+   },
+   {
+    "x": 42,
+    "y": 2413,
+    "w": 202,
+    "h": 19
+   },
+   {
+    "x": 244,
+    "y": 2413,
+    "w": 69,
+    "h": 19
+   },
+   {
+    "x": 54,
+    "y": 2431,
+    "w": 126,
+    "h": 19
+   },
+   {
+    "x": 180,
+    "y": 2431,
+    "w": 125,
+    "h": 19
+   },
+   {
+    "x": 14,
+    "y": 2565,
+    "w": 30,
+    "h": 15
+   },
+   {
+    "x": 73,
+    "y": 2565,
+    "w": 42,
+    "h": 15
+   },
+   {
+    "x": 32,
+    "y": 2701,
+    "w": 168,
+    "h": 20
+   },
+   {
+    "x": 32,
+    "y": 2774,
+    "w": 84,
+    "h": 20
+   },
+   {
+    "x": 32,
+    "y": 2847,
+    "w": 98,
+    "h": 20
+   },
+   {
+    "x": 32,
+    "y": 2920,
+    "w": 56,
+    "h": 20
+   },
+   {
+    "x": 32,
+    "y": 2993,
+    "w": 56,
+    "h": 20
+   },
+   {
+    "x": 32,
+    "y": 3056,
+    "w": 98,
+    "h": 20
+   },
+   {
+    "x": 32,
+    "y": 3108,
+    "w": 84,
+    "h": 20
+   },
+   {
+    "x": 32,
+    "y": 3161,
+    "w": 48,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3189,
+    "w": 108,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3216,
+    "w": 108,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3244,
+    "w": 132,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3272,
+    "w": 156,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3299,
+    "w": 120,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3351,
+    "w": 276,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3378,
+    "w": 240,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3406,
+    "w": 252,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3434,
+    "w": 214,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3461,
+    "w": 200,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3489,
+    "w": 180,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3516,
+    "w": 84,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3544,
+    "w": 63,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 3592,
+    "w": 219,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 3643,
+    "w": 142,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 3693,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 3759,
+    "w": 252,
+    "h": 17
+   }
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+[live-session] waiting to pace live navigations to www.axa.co.jp (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 952 ms
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.axa.co.jp/prospect/
+  build: http://localhost:8791/prospect-proposed.html
+
+■ header: ✓ parity — 9 paired of 9/9 texts, 3/3 icons
+
+■ footer: ✓ parity — 63 paired of 63/63 texts, 6/6 icons
+  OFFSET       the region and its 63 paired text(s) sit Δy +3px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+
+✓ chrome parity within tolerance — run crop-compare (pass bar item 5) to confirm in pixels.

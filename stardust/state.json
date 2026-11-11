@@ -1,0 +1,471 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-11-09T10:58:01Z",
+    "stardustVersion": "0.37.1"
+  },
+  "site": {
+    "originUrl": "https://www.axa.co.jp/",
+    "deployUrl": null,
+    "extractedAt": "2026-11-09T04:43:34.447Z",
+    "pageCap": null,
+    "totalDiscovered": 10,
+    "crawled": 10,
+    "captureGaps": []
+  },
+  "direction": {
+    "resolvedAt": "2026-11-09T05:04:49.205Z",
+    "phrase": "replica --hands-off (same-design migration)",
+    "directionFile": "stardust/direction.md",
+    "iaFidelity": "verbatim",
+    "mode": "preserve"
+  },
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-11-09T04:43:34.447Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://www.axa.co.jp/",
+      "title": "アクサ生命保険株式会社",
+      "type": "home",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-09T04:42:17.033Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-09T05:04:49Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-09T06:01:01Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-09T06:01:01Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "prospect",
+      "url": "https://www.axa.co.jp/prospect/",
+      "title": "保険をご検討のお客さま｜アクサ生命保険",
+      "type": "prospect-hub",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-09T04:42:17.753Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-09T05:04:49Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-09T06:35:50Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/prospect.json",
+      "prototypePath": "stardust/prototypes/prospect-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "product",
+      "url": "https://www.axa.co.jp/product/",
+      "title": "生命保険商品一覧｜アクサ生命保険株式会社",
+      "type": "product-listing",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-09T04:42:18.822Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-09T05:04:49Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-09T06:40:22Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/product.json",
+      "prototypePath": "stardust/prototypes/product-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "about-insurance",
+      "url": "https://www.axa.co.jp/about-insurance/",
+      "title": "保険の選び方｜アクサ生命保険株式会社",
+      "type": "insurance-guide",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-09T04:42:25.332Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-09T05:04:49Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-09T06:48:49Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about-insurance.json",
+      "prototypePath": "stardust/prototypes/about-insurance-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "company",
+      "url": "https://www.axa.co.jp/company/",
+      "title": "法人のお客さま｜アクサ生命株式会社",
+      "type": "content",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-09T04:42:26.806Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-09T05:04:49Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-09T06:21:53Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-09T06:21:53Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/company.json",
+      "prototypePath": "stardust/prototypes/company-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "customer",
+      "url": "https://www.axa.co.jp/customer/",
+      "title": "ご契約者さま｜アクサ生命保険株式会社",
+      "type": "customer-hub",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-09T04:42:27.658Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-09T05:04:49Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-09T06:53:11Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer.json",
+      "prototypePath": "stardust/prototypes/customer-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "customer-feedback",
+      "url": "https://www.axa.co.jp/customer-feedback/",
+      "title": "お客さまからの評価｜アクサ生命保険株式会社",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-09T04:42:34.055Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-09T05:04:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-09T10:58:01Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/customer-feedback.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "recruitment",
+      "url": "https://www.axa.co.jp/recruitment/",
+      "title": "採用情報｜アクサ生命保険",
+      "type": "recruitment",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-09T04:42:35.946Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-09T05:04:49Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-09T05:25:42Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-09T05:25:42Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/recruitment.json",
+      "prototypePath": "stardust/prototypes/recruitment-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "about-axa",
+      "url": "https://www.axa.co.jp/about-axa/",
+      "title": "企業情報｜アクサ生命保険株式会社",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-09T04:42:36.324Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-09T05:04:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-09T10:58:01Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about-axa.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "dataprivacy",
+      "url": "https://www.axa.co.jp/dataprivacy/",
+      "title": "アクサグループデータプライバシー宣言｜アクサ生命保険株式会社",
+      "type": "content",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-09T04:42:41.830Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-09T05:04:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-09T10:58:01Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/dataprivacy.json",
+      "prototypePath": null,
+      "migratedPath": null
+    }
+  ],
+  "migrate": {
+    "at": "2026-11-09T11:12:05Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/prospect/",
+        "outputPath": "prospect/index.html",
+        "slug": "prospect",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/product/",
+        "outputPath": "product/index.html",
+        "slug": "product",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/about-insurance/",
+        "outputPath": "about-insurance/index.html",
+        "slug": "about-insurance",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/company/",
+        "outputPath": "company/index.html",
+        "slug": "company",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer/",
+        "outputPath": "customer/index.html",
+        "slug": "customer",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/customer-feedback/",
+        "outputPath": "customer-feedback/index.html",
+        "slug": "customer-feedback",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/recruitment/",
+        "outputPath": "recruitment/index.html",
+        "slug": "recruitment",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/about-axa/",
+        "outputPath": "about-axa/index.html",
+        "slug": "about-axa",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/dataprivacy/",
+        "outputPath": "dataprivacy/index.html",
+        "slug": "dataprivacy",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 28,
+    "bundledAssets": [
+      "about-insurance.css",
+      "about-insurance.js",
+      "canon/canon.css",
+      "canon/chrome.js",
+      "company.css",
+      "content.css",
+      "customer.css",
+      "customer.js",
+      "fonts/noto-sans-jp-700.woff2",
+      "fonts/noto-sans-jp-regular.woff2",
+      "index.css",
+      "index.js",
+      "product.css",
+      "product.js",
+      "prospect.css",
+      "prospect.js",
+      "recruitment.css",
+      "recruitment.js",
+      "recruitment/bnr-axa-recruit-site-lg-pc.jpg",
+      "recruitment/bnr-axa-recruit-site-sp.jpg",
+      "recruitment/favicon.png",
+      "recruitment/icon-arrow-blank-w.svg",
+      "recruitment/icon-arrow-blank.svg",
+      "recruitment/icon-arrow-entry-w.svg",
+      "recruitment/icon-arrow-entry.svg",
+      "recruitment/icon-arrow-link-w.svg",
+      "recruitment/icon-arrow-link.svg",
+      "recruitment/icon-note.svg"
+    ],
+    "pages": [
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "prospect",
+        "file": "stardust/migrated/prospect/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "about-insurance",
+        "file": "stardust/migrated/about-insurance/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "company",
+        "file": "stardust/migrated/company/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "customer",
+        "file": "stardust/migrated/customer/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "recruitment",
+        "file": "stardust/migrated/recruitment/index.html",
+        "assetsBundled": 15
+      },
+      {
+        "slug": "product",
+        "file": "stardust/migrated/product/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "customer-feedback",
+        "file": "stardust/migrated/customer-feedback/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "about-axa",
+        "file": "stardust/migrated/about-axa/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "dataprivacy",
+        "file": "stardust/migrated/dataprivacy/index.html",
+        "assetsBundled": 6
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-11-09T11:12:05Z",
+      "rendered": [
+        "customer-feedback",
+        "about-axa",
+        "dataprivacy"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

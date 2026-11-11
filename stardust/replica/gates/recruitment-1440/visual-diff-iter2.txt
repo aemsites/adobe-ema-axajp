@@ -1,0 +1,756 @@
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/recruitment-1440/vdiff-iter2/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 9814,
+  "textLen": 3784,
+  "images": [
+   {
+    "src": "axa_logo_no_text.png",
+    "natural": "109x110",
+    "rendered": "48x48",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-kv.jpg",
+    "natural": "2732x840",
+    "rendered": "1440x384",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aR-xP2GnmrmGqGRI_home-about-overview-img01.jpg?auto=format,compress",
+    "natural": "400x300",
+    "rendered": "192x144",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aR-xQGGnmrmGqGRJ_home-about-overview-img02.jpg?auto=format,compress",
+    "natural": "400x300",
+    "rendered": "192x144",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-about-position-sp.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-about-position-pc.svg",
+    "natural": "894x290",
+    "rendered": "960x311",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-about-business-sp.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-about-business-pc.svg",
+    "natural": "710x444",
+    "rendered": "720x450",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-service-kv.jpeg",
+    "natural": "1366x420",
+    "rendered": "1440x448",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "axa-cci-channel.png",
+    "natural": "140x140",
+    "rendered": "96x96",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "axa-fa-channel.png",
+    "natural": "140x140",
+    "rendered": "96x96",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "axa-business-partner-channel.png",
+    "natural": "140x140",
+    "rendered": "96x96",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "axa-mcvp-channel.png",
+    "natural": "140x140",
+    "rendered": "96x96",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-service-img01.jpg",
+    "natural": "800x728",
+    "rendered": "384x349",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-service-img02.jpeg",
+    "natural": "380x346",
+    "rendered": "384x350",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=97045623&Ver=2&mid=589270c9-6368-4431-990e-85d29a7022af&bo=1&sid=38980240dbfb11f1acc1311e4dda32ec&vid=38985140dbfb11f1adebe395bb3d1d69&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&tl=%E3%82%A2%E3%82%AF%E3%82%B5%E7%94%9F%E5%91%BD%E4%BF%9D%E9%99%BA%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE&p=https%3A%2F%2Fwww.axa.co.jp%2Frecruitment%2Fcareer&r=&lt=1303&evt=pageLoad&sv=2&cdb=AQAQ&rn=989507",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "ot_company_logo.png",
+    "natural": "2042x280",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "AXA LIFE INSURANCERecruiting Inf",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Publico Headline",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Our Purpose私たちのパーパス -存在意義-",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Act for human progress by protec",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "40px",
+    "family": "Publico Headline",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "もし「未来」がリスクではないと考えられたら。",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "アクサグループについて",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "アクサグループの概要",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "バランスの取れたポジション",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "アクサグループの日本における事業展開",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "20px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "アクサ生命保険について",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "専属営業社員による営業チャネル",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "保険代理店・金融機関代理店を通じた営業チャネル",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "既存チャネルの枠を超えた新たな価値を創造する営業チャネル",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "人生100年時代を歩むお客さま企業とその従業員をサポートする 「",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "20px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "幅広い世代への「ライフマネジメント®」浸透を目指した取組み",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "20px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "採用情報",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Students and Graduates新卒採用 募集要項",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "19.6px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Experienced professionals中途採用 募集",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "19.6px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Persons with Disabilities障害者採用 募",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "19.6px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "当社の就職活動におけるハラスメント防止の取り組みについて",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "20px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Realize your potential to drive ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "Top-styles__MainContainer-sc-a5169ea-5",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "InView-styles__InViewWrapper-sc-731cdce1-0",
+    "width": 1184,
+    "left": 128
+   },
+   {
+    "sel": "Top-styles__HomeMessageRead-sc-a5169ea-19",
+    "width": 1184,
+    "left": 128
+   },
+   {
+    "sel": "Top-styles__HeadingWrapper-sc-a5169ea-22",
+    "width": 1184,
+    "left": 128
+   },
+   {
+    "sel": "AboutSection-styles__AboutAXAGroupLeadWrapper-sc-c346682-1",
+    "width": 1184,
+    "left": 128
+   },
+   {
+    "sel": "AboutSection-styles__OverviewGroup-sc-c346682-5",
+    "width": 1104,
+    "left": 168
+   },
+   {
+    "sel": "InView-styles__InViewWrapper-sc-731cdce1-0",
+    "width": 1104,
+    "left": 168
+   },
+   {
+    "sel": "AboutSection-styles__BusinessLeadWrapper-sc-c346682-23",
+    "width": 1088,
+    "left": 176
+   },
+   {
+    "sel": "AboutSection-styles__BusinessNoteWrapper-sc-c346682-26",
+    "width": 1088,
+    "left": 176
+   },
+   {
+    "sel": "Top-styles__HeadingWrapper-sc-a5169ea-22",
+    "width": 1184,
+    "left": 128
+   },
+   {
+    "sel": "ServiceSection-styles__ServiceLead-sc-2340b3b1-3",
+    "width": 1184,
+    "left": 128
+   },
+   {
+    "sel": "ServiceSection-styles__SalesChannelWrapper-sc-2340b3b1-9",
+    "width": 1184,
+    "left": 128
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 9814,
+  "textLen": 3784,
+  "images": [
+   {
+    "src": "axa_logo_no_text.png",
+    "natural": "109x110",
+    "rendered": "48x48",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-kv.jpg",
+    "natural": "2732x840",
+    "rendered": "1440x384",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aR-xP2GnmrmGqGRI_home-about-overview-img01.jpg?auto=format,compress",
+    "natural": "400x300",
+    "rendered": "192x144",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aR-xQGGnmrmGqGRJ_home-about-overview-img02.jpg?auto=format,compress",
+    "natural": "400x300",
+    "rendered": "192x144",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-about-position-sp.svg",
+    "natural": "303x600",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-about-position-pc.svg",
+    "natural": "894x290",
+    "rendered": "960x311",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-about-business-sp.svg",
+    "natural": "303x328",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-about-business-pc.svg",
+    "natural": "710x444",
+    "rendered": "720x450",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-service-kv.jpeg",
+    "natural": "1366x420",
+    "rendered": "1440x448",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "axa-cci-channel.png",
+    "natural": "140x140",
+    "rendered": "96x96",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "axa-fa-channel.png",
+    "natural": "140x140",
+    "rendered": "96x96",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "axa-business-partner-channel.png",
+    "natural": "140x140",
+    "rendered": "96x96",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "axa-mcvp-channel.png",
+    "natural": "140x140",
+    "rendered": "96x96",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-service-img01.jpg",
+    "natural": "800x728",
+    "rendered": "384x349",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-service-img02.jpeg",
+    "natural": "380x346",
+    "rendered": "384x350",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "AXA LIFE INSURANCERecruiting Inf",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Publico Headline",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Our Purpose私たちのパーパス -存在意義-",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Act for human progress by protec",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "40px",
+    "family": "Publico Headline",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "もし「未来」がリスクではないと考えられたら。",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "アクサグループについて",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "アクサグループの概要",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "バランスの取れたポジション",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "アクサグループの日本における事業展開",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "20px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "アクサ生命保険について",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "専属営業社員による営業チャネル",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "保険代理店・金融機関代理店を通じた営業チャネル",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "既存チャネルの枠を超えた新たな価値を創造する営業チャネル",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "人生100年時代を歩むお客さま企業とその従業員をサポートする 「",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "20px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "幅広い世代への「ライフマネジメント®」浸透を目指した取組み",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "20px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "採用情報",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Students and Graduates新卒採用 募集要項",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "19.6px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Experienced professionals中途採用 募集",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "19.6px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Persons with Disabilities障害者採用 募",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "19.6px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "当社の就職活動におけるハラスメント防止の取り組みについて",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "20px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Realize your potential to drive ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "rc-hero__container",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "rc-inview",
+    "width": 1184,
+    "left": 128
+   },
+   {
+    "sel": "rc-message__read",
+    "width": 1184,
+    "left": 128
+   },
+   {
+    "sel": "rc-heading",
+    "width": 1184,
+    "left": 128
+   },
+   {
+    "sel": "rc-about__lead-wrap",
+    "width": 1184,
+    "left": 128
+   },
+   {
+    "sel": "rc-about__overview-group",
+    "width": 1104,
+    "left": 168
+   },
+   {
+    "sel": "rc-inview",
+    "width": 1104,
+    "left": 168
+   },
+   {
+    "sel": "rc-about__business-lead",
+    "width": 1088,
+    "left": 176
+   },
+   {
+    "sel": "rc-about__business-note",
+    "width": 1088,
+    "left": 176
+   },
+   {
+    "sel": "rc-heading",
+    "width": 1184,
+    "left": 128
+   },
+   {
+    "sel": "rc-service__lead",
+    "width": 1184,
+    "left": 128
+   },
+   {
+    "sel": "rc-channels",
+    "width": 1184,
+    "left": 128
+   }
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+  "variantName": "hero-carousel",
+  "baseBlock": "carousel",
+  "canonicalModel": "carousel",
+  "visualCharacteristics": "A full-width key-visual banner carousel with linked image slides, prev/next arrows, progress dots and a pause button. It autoplays every five seconds and supports swipe.",
+  "contentPattern": "One row per slide: [link paragraph wrapping the desktop picture] [mobile picture]. The mobile picture is moved into the same link so one link serves both renditions.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use it for the homepage hero with rotating promotional banners.",
+  "reuseGuidance": "Reuse it for image-only linked banner rotations; pick hero for a single static banner or carousel when slides carry text content."
+}

@@ -1,0 +1,39 @@
+{
+  "id": "v_6471c57b1e08",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-11T04:30:04.395Z",
+  "sourceContext": {
+    "originUrl": "https://www.axa.co.jp/customer",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "noimg",
+    "purpose": "Link buttons",
+    "structure": "Link buttons block"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.axa.co.jp/customer",
+        "instanceId": "b04-link-buttons",
+        "instanceIds": [
+          "b04-link-buttons"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_customer--e91fded9/blocks/b04-link-buttons.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/product",
+        "instanceId": "b05-link-buttons",
+        "instanceIds": [
+          "b05-link-buttons"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_product--dcee6c67/blocks/b05-link-buttons.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

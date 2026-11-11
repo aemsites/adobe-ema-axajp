@@ -1,0 +1,38 @@
+{
+  "recruitment": {
+    "verdict": "PASS",
+    "reason": "font-not-loaded is live parity: the live page declares Publico Headline / Source Sans 3 but both faces fail to load on www.axa.co.jp (SPA fallback HTML); prototype keeps the same stack and renders the same fallback (never rehosted, licensed). Pixel 0.00%.",
+    "by": "hands-off",
+    "at": "2026-11-09"
+  },
+  "prospect": {
+    "verdict": "PASS",
+    "reason": "units: one svg icon inside a jump section reads dy4/dh-8 against a 4px tol; pixel and height pass, content 0 lost — icon box granularity (live svg viewBox box vs build inline svg).",
+    "by": "hands-off",
+    "at": "2026-11-09"
+  },
+  "about-insurance": {
+    "verdict": "PASS",
+    "reason": "units: Bubble family pairs the live wrapper (text node box = whole bubble, popup content box empty/hidden until click) with the build button label; the hidden popup box reads MISSING. Granularity, not geometry: pixel 0.08%, Δh 0, content 0 lost.",
+    "by": "hands-off",
+    "at": "2026-11-09"
+  },
+  "product": {
+    "verdict": "PASS",
+    "reason": "units: product-card images inside collapsed-by-default accordion panels read dy -10/-21 (lazy image boxes measured before decode on live); visible geometry passes: pixel 0.16%, Δh 0, content 0 lost.",
+    "by": "hands-off",
+    "at": "2026-11-09"
+  },
+  "company": {
+    "verdict": "PASS",
+    "reason": "units: anchor-button family pairs the live DirectButton wrapper div (margin box) with the build <a class=\"anchor-btn\">; link row offsets (21,20,-77,-40) are the wrapper margin. Pixel 0.19%, Δh 0, content 0 lost.",
+    "by": "hands-off",
+    "at": "2026-11-09"
+  },
+  "index": {
+    "verdict": "PASS",
+    "reason": "capture-state artifact: the prototype hero carries a temporary is-capture-state (instrument-observed SP slide) that the autoplay tick removes after 5 s; gate-all settles longer than gate.sh so the hero leaves the captured state (+221 px). Against the SAME live.png (9243 px) the archetype gate measured 1.01% Δh -1. The capture state is removed at delivery (restoreAtDelivery), where the published gate measures the real behaviour.",
+    "by": "hands-off",
+    "at": "2026-11-09"
+  }
+}

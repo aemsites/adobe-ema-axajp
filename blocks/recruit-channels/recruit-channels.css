@@ -1,0 +1,234 @@
+/* recruit-channels — recruitment.css .rc-service (live ServiceSection-styles) */
+.recruit-channels {
+  --recruit-blue: rgb(0 0 143);
+  --recruit-red: rgb(210 71 35);
+
+  position: relative;
+  padding: 0 0 8rem;
+  background-color: var(--recruit-blue);
+}
+
+.recruit-channels :is(h2, h3, h6, p) {
+  margin: 0;
+  font-style: normal;
+  font-weight: inherit;
+  text-rendering: optimizelegibility;
+}
+
+.recruit-channels p + p { margin-top: 0.4375rem; }
+
+.recruit-channels .recruit-channels-kv {
+  height: 28rem;
+  margin-bottom: 4rem;
+}
+
+.recruit-channels .recruit-channels-kv :is(p, picture),
+.recruit-channels .recruit-service-img :is(p, picture) {
+  display: block;
+  height: 100%;
+}
+
+.recruit-channels .recruit-channels-kv img,
+.recruit-channels .recruit-service-img img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  object-fit: cover;
+}
+
+.recruit-channels .recruit-container {
+  position: relative;
+  max-width: 80rem;
+  margin: auto;
+  padding: 0 3rem;
+}
+
+.recruit-channels .recruit-inview {
+  opacity: 1;
+  transform: translateY(0);
+  transition: transform 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0.16s, opacity 0.6s ease-out 0.16s;
+}
+
+.recruit-channels.is-reveal .recruit-inview:not(.is-inview) {
+  opacity: 0;
+  transform: translateY(2rem);
+}
+
+/* section heading with rule (live HeadingWrapper), inverse */
+.recruit-channels .recruit-heading {
+  position: relative;
+  padding-bottom: 2.25rem;
+}
+
+.recruit-channels .recruit-heading::before,
+.recruit-channels .recruit-heading::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(240 240 240);
+}
+
+.recruit-channels .recruit-heading::after {
+  width: 3rem;
+  background-color: var(--recruit-red);
+}
+
+.recruit-channels .recruit-heading h2,
+.recruit-channels .recruit-channel-title h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.recruit-channels .recruit-channels-lead {
+  margin-top: 2.5rem;
+  color: #fff;
+}
+
+.recruit-channels .recruit-channels-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.recruit-channels .recruit-channel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.875rem;
+}
+
+.recruit-channels .recruit-channel-title {
+  width: 100%;
+  min-height: 3.5rem;
+}
+
+.recruit-channels .recruit-channel-title.is-empty {
+  width: auto;
+}
+
+.recruit-channels .recruit-channel-title h2 {
+  font-size: 1.375rem;
+  overflow-wrap: break-word;
+}
+
+.recruit-channels .recruit-channel-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  min-height: 11rem;
+  padding: 1rem;
+  background: #fff;
+}
+
+.recruit-channels .recruit-channel-img {
+  flex-shrink: 0;
+  align-self: flex-start;
+  width: 6rem;
+  height: 6rem;
+}
+
+.recruit-channels .recruit-channel-img img {
+  display: block;
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+}
+
+.recruit-channels .recruit-channel-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.recruit-channels .recruit-channel-text h6 {
+  font-size: 1rem;
+  color: var(--recruit-blue);
+}
+
+.recruit-channels .recruit-channel-text p,
+.recruit-channels .recruit-channel-text h6 + p {
+  margin: 1rem 0 0;
+}
+
+.recruit-channels .recruit-channels-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.recruit-channels .recruit-service-item {
+  display: flex;
+  min-height: 16rem;
+  background-color: #fff;
+}
+
+.recruit-channels .recruit-service-img { flex-basis: 24rem; }
+
+.recruit-channels .recruit-service-detail {
+  flex: 1 1 0%;
+  align-self: center;
+  padding: 2rem 2.5rem;
+  line-height: 1.75;
+}
+
+.recruit-channels .recruit-service-detail h3 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--recruit-blue);
+}
+
+@media (width <= 994px) {
+  .recruit-channels .recruit-channel-title h2 { font-size: 1.25rem; }
+  .recruit-channels .recruit-channel-row { min-height: 16rem; }
+}
+
+@media (width <= 767px) {
+  .recruit-channels { padding: 0 0 4rem; }
+
+  .recruit-channels .recruit-container {
+    max-width: initial;
+    padding: 0 1.25rem;
+  }
+
+  .recruit-channels .recruit-heading { padding-bottom: 2rem; }
+  .recruit-channels .recruit-heading::after { width: 2rem; }
+
+  .recruit-channels .recruit-channels-kv {
+    height: 16rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .recruit-channels .recruit-channels-lead { margin-top: 2rem; }
+  .recruit-channels .recruit-channels-grid { grid-template-columns: 1fr; }
+  .recruit-channels .recruit-channel-title.is-empty { display: none; }
+
+  /* channel titles: the source breaks are PC-only (br-pc), authored as plain <br> */
+  .recruit-channels .recruit-channel-title br { display: none; }
+  .recruit-channels .recruit-channel-row { flex-direction: column; }
+  .recruit-channels .recruit-channel-img { align-self: center; }
+  .recruit-channels .recruit-channel-text h6 { text-align: center; }
+
+  .recruit-channels .recruit-channels-group {
+    gap: 1.25rem;
+    margin-top: 2.25rem;
+  }
+
+  .recruit-channels .recruit-service-item { display: block; }
+  .recruit-channels .recruit-service-img { height: 12rem; }
+  .recruit-channels .recruit-service-detail { padding: 1.25rem 1rem 1.5rem; }
+
+  .recruit-channels .recruit-service-detail h3 {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+}

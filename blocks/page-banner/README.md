@@ -1,0 +1,21 @@
+# page-banner
+
+Custom **hero** block. 
+
+## Authoring (Document Authoring)
+
+Model: `hero`
+
+Single block table. Content: one row, one cell of content.
+
+## Supported variations
+
+| Variation | Option class |
+| --- | --- |
+| Login | `login` |
+| Image | `image` |
+| Consult | `consult` |
+
+## Universal Editor fields
+
+N/A (Document Authoring project)

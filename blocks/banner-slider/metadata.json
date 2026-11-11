@@ -1,0 +1,11 @@
+{
+  "variantName": "banner-slider",
+  "baseBlock": "carousel",
+  "canonicalModel": "carousel",
+  "visualCharacteristics": "An infinitely looping carousel of linked image banners, showing two slides at a time with prev/next arrows, dots and 4-second autoplay.",
+  "contentPattern": "One row per slide: a paragraph with a link wrapping a picture.",
+  "options": [],
+  "usage": "Use to rotate a set of linked promotional image banners.",
+  "reuseGuidance": "Reuse for image-only linked banner carousels; pick carousel when slides need text content.",
+  "memberVariantIds": []
+}

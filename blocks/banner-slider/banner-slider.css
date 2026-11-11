@@ -1,0 +1,215 @@
+/* banner-slider — customer.css .ct-slider-section / .ct-slider-wrapper + react-slick base */
+main > .section > .banner-slider-wrapper {
+  max-width: 1082px;
+  padding: 0;
+}
+
+.banner-slider {
+  width: 100%;
+  padding: 2rem 0 4.275rem;
+  overflow: hidden;
+}
+
+.banner-slider .banner-slider-inner {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.banner-slider .banner-slider-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  user-select: none;
+  touch-action: pan-y;
+}
+
+.banner-slider .banner-slider-list {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.banner-slider .banner-slider-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(0);
+}
+
+/* no clearfix (the source hides slick's): on SP the visible-overflow list has no height */
+.banner-slider .banner-slider-slide {
+  display: block;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+.banner-slider .banner-slider-slide a {
+  display: block;
+  padding: 0 0.4375rem;
+}
+
+/* react-slick's inline-block slide inner: keeps its line-box descender gap below the image */
+.banner-slider .banner-slider-slide > :is(p, a) {
+  display: inline-block;
+  width: 100%;
+}
+
+.banner-slider .banner-slider-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* arrows (.ct-slick-arrow) */
+.banner-slider .banner-slider-arrow {
+  position: absolute;
+  z-index: 9;
+  display: block;
+  padding: 1.3125rem;
+  font: inherit;
+  background-color: rgb(255 255 255 / 75%);
+  border: 1px solid transparent;
+  border-radius: 3.5rem;
+  box-shadow: #7f7f7f 0 0 5px;
+  cursor: pointer;
+}
+
+.banner-slider .banner-slider-arrow svg {
+  position: absolute;
+  top: 34%;
+  width: 0.875rem;
+  height: 0.875rem;
+  fill: var(--blue);
+}
+
+.banner-slider .banner-slider-prev {
+  bottom: 100%;
+  left: -50px;
+  transform: translate(0, -50%);
+}
+
+.banner-slider .banner-slider-prev svg { transform: rotate(90deg); }
+
+.banner-slider .banner-slider-next {
+  right: -50px;
+  bottom: 50%;
+  transform: translate(0, -50%);
+}
+
+.banner-slider .banner-slider-next svg { transform: rotate(-90deg); }
+
+/* dots (.slick-dots) */
+.banner-slider .banner-slider-dots {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+
+.banner-slider .banner-slider-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 1px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.banner-slider .banner-slider-dots button {
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  font-family: inherit;
+  font-size: 0;
+  line-height: 0;
+  color: transparent;
+  background: 0 0;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.banner-slider .banner-slider-dots button::before {
+  content: '•';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  font-family: slick; /* stylelint-disable-line font-family-no-missing-generic-family-keyword */
+  font-size: 0.7rem;
+  line-height: 20px;
+  text-align: center;
+  color: #7f7f7f;
+  opacity: 1;
+}
+
+.banner-slider .banner-slider-dot-active button::before { color: var(--blue); }
+
+@media (width >= 768px) {
+  .banner-slider .banner-slider-arrow { top: 50%; }
+  .banner-slider .banner-slider-prev svg { left: 15px; }
+  .banner-slider .banner-slider-next svg { right: 15px; }
+}
+
+@media (width <= 767px) {
+  .banner-slider { padding: 1rem 0.875rem 5rem; }
+  .banner-slider .banner-slider-list { overflow: visible; }
+  .banner-slider .banner-slider-dots { bottom: -12rem; }
+  .banner-slider .banner-slider-arrow { top: 20vw; }
+  .banner-slider .banner-slider-prev svg { left: 20px; }
+  .banner-slider .banner-slider-next svg { right: 20px; }
+}
+
+/* the section's default-content arrow link (.ct-arrow-link-wrapper + .spacer) */
+main > .section.banner-slider-container > .default-content-wrapper {
+  max-width: 1078px;
+  margin-bottom: 0.875rem;
+  padding: 0;
+  text-align: right;
+}
+
+main > .section.banner-slider-container > .default-content-wrapper a:any-link {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--blue);
+  transition: 0.25s;
+}
+
+main > .section.banner-slider-container > .default-content-wrapper a:any-link:hover {
+  color: #000072;
+}
+
+main > .section.banner-slider-container > .default-content-wrapper a:any-link::after {
+  content: '';
+  flex-shrink: 0;
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  background-color: currentcolor;
+  mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 0 14 7"><g fill="none" stroke="black" stroke-linecap="round" stroke-width="2"><path d="M.5 3.5H11M9 7l2.798-3.5L9 0"/></g></svg>') center / contain no-repeat;
+}
+
+@media (width <= 767px) {
+  main > .section.banner-slider-container > .default-content-wrapper { padding: 0 0.875rem; }
+
+  main > .section.banner-slider-container > .default-content-wrapper a:any-link::after {
+    margin-left: 18px;
+  }
+}

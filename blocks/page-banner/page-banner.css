@@ -1,0 +1,408 @@
+/* page-banner — customer.css .banner-background / .banner-layout / .mylogin-* (customer `login`) */
+main > .section > .page-banner-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.page-banner {
+  position: relative;
+  min-height: 16vw;
+  margin-bottom: 2.625rem;
+}
+
+.page-banner .page-banner-bg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.page-banner .page-banner-bg :is(p, picture) {
+  height: 100%;
+}
+
+.page-banner .page-banner-bg img {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.page-banner .page-banner-layout {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1078px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 1.3125rem 0.875rem;
+}
+
+.page-banner .page-banner-title {
+  padding: 1.3125rem 0;
+  color: var(--white);
+}
+
+.page-banner .page-banner-title :is(h1, h2) {
+  margin-bottom: 1.3125rem;
+  font-size: 2.1rem;
+  font-weight: 700;
+}
+
+.page-banner .page-banner-title p {
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+@media (width >= 768px) {
+  .page-banner .page-banner-title {
+    flex: 1 0 54%;
+    padding-right: 4.375rem;
+  }
+}
+
+@media (width <= 767px) {
+  .page-banner .page-banner-layout { flex-direction: column; }
+
+  .page-banner .page-banner-title {
+    flex: 1 0 auto;
+    width: 100%;
+  }
+}
+
+/* login: banner 390 / 200 px; the MyAXA card sits below the banner on SP */
+.page-banner.login { height: 390px; }
+
+.page-banner .page-banner-aside {
+  width: 100%;
+  padding: 1.3125rem;
+  background-color: var(--white);
+}
+
+.page-banner .page-banner-aside-head p {
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  color: var(--text);
+}
+
+.page-banner .page-banner-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.page-banner .page-banner-logo img {
+  width: auto;
+  max-width: none;
+  height: 30px;
+  transform: translateX(68px);
+}
+
+.page-banner .page-banner-ctas {
+  display: flex;
+  margin-top: 0.875rem;
+  text-align: center;
+}
+
+.page-banner .page-banner-cta {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin: 0.4375rem;
+  overflow: hidden;
+  background-color: #f07662;
+}
+
+.page-banner .page-banner-cta-blue { background-color: var(--blue); }
+
+.page-banner .page-banner-cta::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  display: block;
+  width: 0;
+  height: 120%;
+  transform: translate(-50%, -50%) skewX(-37.7deg);
+  transition: 0.3s ease-in-out;
+}
+
+.page-banner .page-banner-cta:hover::before {
+  width: 120%;
+  background-color: #c05e4e;
+}
+
+.page-banner .page-banner-cta-blue:hover::before { background-color: #000072; }
+
+.page-banner .page-banner-cta p {
+  display: flex;
+  flex: 1 0 100%;
+}
+
+.page-banner .page-banner-cta a:any-link {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex: 1 0 100%;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 12px 83px 12px 68px;
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-align: center;
+  white-space: nowrap;
+  color: var(--white);
+  border: 2px solid #f07662;
+  transition: 0.25s;
+}
+
+.page-banner .page-banner-cta-blue a:any-link { border-color: var(--blue); }
+
+.page-banner .page-banner-cta a:any-link::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  width: 15px;
+  height: 15px;
+  margin-top: -7.5px;
+  background-color: currentcolor;
+  mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 0 14 7"><g fill="none" stroke="black" stroke-linecap="round" stroke-width="2"><path d="M.5 3.5H11M9 7l2.798-3.5L9 0"/></g></svg>') center / contain no-repeat;
+}
+
+.page-banner .page-banner-link {
+  margin-top: 1.3125rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.page-banner .page-banner-link a:any-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--blue);
+  text-underline-offset: 4px;
+}
+
+.page-banner .page-banner-link a:any-link:hover {
+  color: var(--blue-hover);
+  text-decoration: underline solid;
+}
+
+.page-banner .page-banner-link a:any-link::after {
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin-left: 4px;
+  background-color: currentcolor;
+  mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.7 18.6007L13.4175 17.3407L17.5575 13.2007H3V11.4007H17.5575L13.44 7.26073L14.7 6.00073L21 12.3007L14.7 18.6007Z"/></svg>') center / contain no-repeat;
+}
+
+@media (width <= 994px) {
+  .page-banner .page-banner-ctas { flex-direction: column; }
+}
+
+@media (width >= 768px) {
+  .page-banner .page-banner-cta { flex: 0 1 50%; }
+}
+
+@media (width <= 767px) {
+  /* inconsistency register: live overflows +8px at 360 (logo translateX) — clipped, not mirrored */
+  .page-banner.login {
+    height: 200px;
+    margin-bottom: 22.75rem;
+    overflow-x: clip;
+  }
+
+  .page-banner.login .page-banner-aside {
+    position: absolute;
+    top: 5.25rem;
+    left: 4%;
+    width: 92%;
+    margin-top: 8.75rem;
+    box-shadow: #ccc 0 1px 12px;
+  }
+
+  .page-banner .page-banner-cta {
+    flex: 0 1 100%;
+    margin: 0.4375rem 0;
+  }
+}
+
+/* ---------- image — prospect hero (prospect.css `.p-hero`) ---------- */
+.page-banner.image {
+  height: 280px;
+  min-height: 0;
+  margin-bottom: 56px;
+}
+
+.page-banner.image .page-banner-bg :is(.page-banner-pc, .page-banner-sp) { height: 100%; }
+.page-banner.image .page-banner-bg img { object-position: center; }
+.page-banner.image .page-banner-sp { display: none; }
+
+.page-banner.image .page-banner-layout {
+  justify-content: flex-start;
+  max-width: var(--container);
+  padding: 0 var(--gutter);
+}
+
+.page-banner.image .page-banner-title {
+  flex: none;
+  padding: 0;
+  color: inherit;
+}
+
+.page-banner.image .page-banner-title :is(h1, h2) {
+  margin: 0;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: left;
+}
+
+@media (width <= 767px) {
+  .page-banner.image {
+    height: auto;
+    margin-bottom: 32px;
+  }
+
+  .page-banner.image .page-banner-bg {
+    position: static;
+    height: 120px;
+    margin-bottom: 16px;
+  }
+
+  .page-banner.image .page-banner-pc { display: none; }
+  .page-banner.image .page-banner-sp { display: block; }
+
+  .page-banner.image .page-banner-layout { padding: 0; }
+
+  .page-banner.image .page-banner-title :is(h1, h2) {
+    margin-bottom: 8px;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+  }
+}
+
+/* consult — product `.pl-banner-inner`: blue title left, grey CTA box right (PC CTA + note;
+   the second CTA is the SP wording, shown ≤767 in a 177px box) */
+/* stylelint-disable no-descending-specificity -- template-scoped rules follow the base */
+.page-banner.consult {
+  min-height: 0;
+  margin: 0;
+}
+
+.page-banner.consult .page-banner-layout {
+  align-items: flex-start;
+  justify-content: normal;
+  max-width: none;
+  height: auto;
+  margin: 2rem 0 0;
+  padding: 0;
+}
+
+.page-banner.consult .page-banner-title {
+  flex: 0 1 auto;
+  width: auto;
+  padding: 0;
+  color: var(--blue);
+}
+
+.page-banner.consult .page-banner-title :is(h1, h2) {
+  margin: 0 0 1.5rem;
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.page-banner.consult .page-banner-aside {
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: auto;
+  margin: 0 0 1rem auto;
+  padding: 1.25rem;
+  background-color: #f7f7f7;
+}
+
+.page-banner.consult .page-banner-ctas { display: contents; }
+
+.page-banner.consult .page-banner-cta {
+  display: block;
+  flex: none;
+  width: auto;
+  margin: 0;
+  overflow: visible;
+  background: none;
+}
+
+.page-banner.consult .page-banner-cta::before { content: none; }
+.page-banner.consult .page-banner-cta p { display: block; }
+
+.page-banner.consult .page-banner-cta a:any-link {
+  display: inline-flex;
+  height: 48px;
+  min-height: 0;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  overflow: hidden;
+  border: 2px solid var(--blue);
+  border-radius: 4px;
+  background-color: var(--blue);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: normal;
+  white-space: normal;
+  transition: none;
+}
+
+.page-banner.consult .page-banner-cta a:any-link::after { content: none; }
+
+.page-banner.consult .page-banner-cta a:any-link:hover {
+  background-color: #00006d;
+  border-color: #00006d;
+}
+
+.page-banner.consult .page-banner-cta + .page-banner-cta { display: none; }
+.page-banner.consult .page-banner-note p { font-size: 0.7rem; }
+
+@media (width <= 767px) {
+  .page-banner.consult .page-banner-layout {
+    flex-flow: row wrap;
+  }
+
+  .page-banner.consult .page-banner-title :is(h1, h2) { font-size: 1.4875rem; }
+
+  .page-banner.consult .page-banner-aside {
+    gap: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .page-banner.consult .page-banner-cta:has(+ .page-banner-cta),
+  .page-banner.consult .page-banner-note { display: none; }
+
+  .page-banner.consult .page-banner-cta + .page-banner-cta {
+    display: block;
+    width: 11.0625rem;
+  }
+}

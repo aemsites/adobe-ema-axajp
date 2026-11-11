@@ -1,0 +1,683 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-09T05:21:11.041Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.axa.co.jp/recruitment/career",
+      "http://localhost:8791/recruitment-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.axa.co.jp/recruitment/career",
+    "http://localhost:8791/recruitment-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#root > main",
+      "isBody": false,
+      "leaves": 104,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 860,
+        "via": "fixed",
+        "selector": "div.dpVyZk > section.kRbYKd > div.fAeFsb > div.hDFCBK",
+        "tier": 5,
+        "share": 0.02,
+        "section": 1,
+        "w1": 860,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "div.flexbox > div.dpVyZk > section.graovq > div.ghnloi",
+        "tier": 4,
+        "share": 0.04,
+        "section": 1,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "div.flexbox > div.dpVyZk > section.jeleS > div.ghnloi",
+        "tier": 4,
+        "share": 0.1,
+        "section": 1,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 256,
+        "via": "fixed",
+        "selector": "div.dxxyHY > div.hDseTE > p.CMAGC > em.fZQmMG",
+        "tier": 8,
+        "share": 0.01,
+        "section": 1,
+        "w1": 256,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "div.flexbox > div.dpVyZk > section.caYvUJ > div.ghnloi",
+        "tier": 4,
+        "share": 0.2,
+        "section": 1,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 532,
+        "via": "fixed",
+        "selector": "div.iOaWwv > div.dxxyHY > div.kqYmxi > div.fUnUNe",
+        "tier": 8,
+        "share": 0.03,
+        "section": 1,
+        "w1": 532,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 532,
+        "via": "fixed",
+        "selector": "div.iOaWwv > div.dxxyHY > div.kqYmxi > div.fUnUNe",
+        "tier": 8,
+        "share": 0.03,
+        "section": 1,
+        "w1": 532,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 960,
+        "via": "max-width",
+        "selector": "div.ghnloi > div.jXyBvm > div.dxxyHY > div.esnkop",
+        "tier": 7,
+        "share": 0,
+        "section": 1,
+        "w1": 960,
+        "maxWidth": "960px"
+      },
+      {
+        "kind": "module",
+        "px": 344,
+        "via": "fixed",
+        "selector": "div.jXyBvm > div.dxxyHY > div.mMYth > div.qnDvh",
+        "tier": 8,
+        "share": 0.02,
+        "section": 1,
+        "w1": 344,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 344,
+        "via": "fixed",
+        "selector": "div.jXyBvm > div.dxxyHY > div.mMYth > div.qnDvh",
+        "tier": 8,
+        "share": 0.02,
+        "section": 1,
+        "w1": 344,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 344,
+        "via": "fixed",
+        "selector": "div.jXyBvm > div.dxxyHY > div.mMYth > div.qnDvh",
+        "tier": 8,
+        "share": 0.02,
+        "section": 1,
+        "w1": 344,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 720,
+        "via": "max-width",
+        "selector": "section.caYvUJ > div.ghnloi > div.fZhiXz > div.gpBuCg",
+        "tier": 6,
+        "share": 0,
+        "section": 1,
+        "w1": 720,
+        "maxWidth": "720px"
+      },
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "div.flexbox > div.dpVyZk > section.eeueke > div.ghnloi",
+        "tier": 4,
+        "share": 0.16,
+        "section": 1,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 580,
+        "via": "fixed",
+        "selector": "div.ghnloi > div.dxxyHY > div.dyJZns > div.dIsjuT",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 580,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 440,
+        "via": "fixed",
+        "selector": "div.dyJZns > div.dIsjuT > div.hZEGNj > div.feQLUs",
+        "tier": 9,
+        "share": 0.02,
+        "section": 1,
+        "w1": 440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 580,
+        "via": "fixed",
+        "selector": "div.ghnloi > div.dxxyHY > div.dyJZns > div.dIsjuT",
+        "tier": 7,
+        "share": 0.02,
+        "section": 1,
+        "w1": 580,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 440,
+        "via": "fixed",
+        "selector": "div.dyJZns > div.dIsjuT > div.hZEGNj > div.feQLUs",
+        "tier": 9,
+        "share": 0.02,
+        "section": 1,
+        "w1": 440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 580,
+        "via": "fixed",
+        "selector": "div.ghnloi > div.dxxyHY > div.dyJZns > div.dIsjuT",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 580,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 440,
+        "via": "fixed",
+        "selector": "div.dyJZns > div.dIsjuT > div.hZEGNj > div.feQLUs",
+        "tier": 9,
+        "share": 0.02,
+        "section": 1,
+        "w1": 440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 580,
+        "via": "fixed",
+        "selector": "div.ghnloi > div.dxxyHY > div.dyJZns > div.dIsjuT",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 580,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 440,
+        "via": "fixed",
+        "selector": "div.dyJZns > div.dIsjuT > div.hZEGNj > div.feQLUs",
+        "tier": 9,
+        "share": 0.02,
+        "section": 1,
+        "w1": 440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "div.ffSxHE > div.dxxyHY > div.hPRkcP > div.ftfLcN",
+        "tier": 8,
+        "share": 0,
+        "section": 1,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 800,
+        "via": "fixed",
+        "selector": "div.ffSxHE > div.dxxyHY > div.hPRkcP > div.fguvVn",
+        "tier": 8,
+        "share": 0.02,
+        "section": 1,
+        "w1": 800,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "div.ffSxHE > div.dxxyHY > div.hPRkcP > div.ftfLcN",
+        "tier": 8,
+        "share": 0,
+        "section": 1,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 800,
+        "via": "fixed",
+        "selector": "div.ffSxHE > div.dxxyHY > div.hPRkcP > div.fguvVn",
+        "tier": 8,
+        "share": 0.02,
+        "section": 1,
+        "w1": 800,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "div.flexbox > div.dpVyZk > section.eMQiGR > div.ghnloi",
+        "tier": 4,
+        "share": 0.2,
+        "section": 1,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#root > main > div.foqcIw",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#root > main > div.flexbox",
+        "px": 1280,
+        "capSelector": "div.flexbox > div.dpVyZk > section.graovq > div.ghnloi"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1280,
+    "contentFrom": "module",
+    "maxCap": 1280,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 178
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "body > main.rc-page",
+      "isBody": false,
+      "leaves": 104,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 860,
+        "via": "fixed",
+        "selector": "div.rc-top > section.rc-hero > div.rc-hero__container > div.rc-hero__content",
+        "tier": 5,
+        "share": 0.02,
+        "section": 1,
+        "w1": 860,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "div.rc-flexbox > div.rc-top > section.rc-purpose > div.rc-container",
+        "tier": 4,
+        "share": 0.04,
+        "section": 1,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "div.rc-flexbox > div.rc-top > section.rc-message > div.rc-container",
+        "tier": 4,
+        "share": 0.1,
+        "section": 1,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 256,
+        "via": "fixed",
+        "selector": "div.rc-inview > div.rc-message__read > p.rc-message__p > em.rc-message__hint",
+        "tier": 8,
+        "share": 0.01,
+        "section": 1,
+        "w1": 256,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "div.rc-flexbox > div.rc-top > section.rc-about > div.rc-container",
+        "tier": 4,
+        "share": 0.2,
+        "section": 1,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 532,
+        "via": "fixed",
+        "selector": "div.rc-about__overview > div.rc-inview > div.rc-about__overview-group > div.rc-about__overview-item",
+        "tier": 8,
+        "share": 0.03,
+        "section": 1,
+        "w1": 532,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 532,
+        "via": "fixed",
+        "selector": "div.rc-about__overview > div.rc-inview > div.rc-about__overview-group > div.rc-about__overview-item",
+        "tier": 8,
+        "share": 0.03,
+        "section": 1,
+        "w1": 532,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 960,
+        "via": "max-width",
+        "selector": "div.rc-container > div.rc-about__position > div.rc-inview > div.rc-about__position-figure",
+        "tier": 7,
+        "share": 0,
+        "section": 1,
+        "w1": 960,
+        "maxWidth": "960px"
+      },
+      {
+        "kind": "module",
+        "px": 344,
+        "via": "fixed",
+        "selector": "div.rc-about__position > div.rc-inview > div.rc-about__position-group > div.rc-about__position-item",
+        "tier": 8,
+        "share": 0.02,
+        "section": 1,
+        "w1": 344,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 344,
+        "via": "fixed",
+        "selector": "div.rc-about__position > div.rc-inview > div.rc-about__position-group > div.rc-about__position-item",
+        "tier": 8,
+        "share": 0.02,
+        "section": 1,
+        "w1": 344,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 344,
+        "via": "fixed",
+        "selector": "div.rc-about__position > div.rc-inview > div.rc-about__position-group > div.rc-about__position-item",
+        "tier": 8,
+        "share": 0.02,
+        "section": 1,
+        "w1": 344,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 720,
+        "via": "max-width",
+        "selector": "section.rc-about > div.rc-container > div.rc-about__business > div.rc-about__business-figure",
+        "tier": 6,
+        "share": 0,
+        "section": 1,
+        "w1": 720,
+        "maxWidth": "720px"
+      },
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "div.rc-flexbox > div.rc-top > section.rc-service > div.rc-container",
+        "tier": 4,
+        "share": 0.16,
+        "section": 1,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      },
+      {
+        "kind": "module",
+        "px": 580,
+        "via": "fixed",
+        "selector": "div.rc-container > div.rc-inview > div.rc-channels > div.rc-channel",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 580,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 440,
+        "via": "fixed",
+        "selector": "div.rc-channels > div.rc-channel > div.rc-channel__row > div.rc-channel__text",
+        "tier": 9,
+        "share": 0.02,
+        "section": 1,
+        "w1": 440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 580,
+        "via": "fixed",
+        "selector": "div.rc-container > div.rc-inview > div.rc-channels > div.rc-channel",
+        "tier": 7,
+        "share": 0.02,
+        "section": 1,
+        "w1": 580,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 440,
+        "via": "fixed",
+        "selector": "div.rc-channels > div.rc-channel > div.rc-channel__row > div.rc-channel__text",
+        "tier": 9,
+        "share": 0.02,
+        "section": 1,
+        "w1": 440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 580,
+        "via": "fixed",
+        "selector": "div.rc-container > div.rc-inview > div.rc-channels > div.rc-channel",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 580,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 440,
+        "via": "fixed",
+        "selector": "div.rc-channels > div.rc-channel > div.rc-channel__row > div.rc-channel__text",
+        "tier": 9,
+        "share": 0.02,
+        "section": 1,
+        "w1": 440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 580,
+        "via": "fixed",
+        "selector": "div.rc-container > div.rc-inview > div.rc-channels > div.rc-channel",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 580,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 440,
+        "via": "fixed",
+        "selector": "div.rc-channels > div.rc-channel > div.rc-channel__row > div.rc-channel__text",
+        "tier": 9,
+        "share": 0.02,
+        "section": 1,
+        "w1": 440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "div.rc-service__group > div.rc-inview > div.rc-service__item > div.rc-service__img",
+        "tier": 8,
+        "share": 0,
+        "section": 1,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 800,
+        "via": "fixed",
+        "selector": "div.rc-service__group > div.rc-inview > div.rc-service__item > div.rc-service__detail",
+        "tier": 8,
+        "share": 0.02,
+        "section": 1,
+        "w1": 800,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 384,
+        "via": "fixed",
+        "selector": "div.rc-service__group > div.rc-inview > div.rc-service__item > div.rc-service__img",
+        "tier": 8,
+        "share": 0,
+        "section": 1,
+        "w1": 384,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 800,
+        "via": "fixed",
+        "selector": "div.rc-service__group > div.rc-inview > div.rc-service__item > div.rc-service__detail",
+        "tier": 8,
+        "share": 0.02,
+        "section": 1,
+        "w1": 800,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1280,
+        "via": "max-width",
+        "selector": "div.rc-flexbox > div.rc-top > section.rc-recruit > div.rc-container",
+        "tier": 4,
+        "share": 0.2,
+        "section": 1,
+        "w1": 1280,
+        "maxWidth": "1280px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "body > main.rc-page > div.rc-totop",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "body > main.rc-page > div.rc-flexbox",
+        "px": 1280,
+        "capSelector": "div.rc-flexbox > div.rc-top > section.rc-purpose > div.rc-container"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1280,
+    "contentFrom": "module",
+    "maxCap": 1280,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 177
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 1280px = build 1280px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/2",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/2",
+        "detail": "1280px = 1280px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/recruitment-2560/cap-iter.json"
+}

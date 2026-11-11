@@ -1,0 +1,20 @@
+{
+  "variantName": "entry-links",
+  "baseBlock": "custom",
+  "canonicalModel": "entry-links",
+  "visualCharacteristics": "A set of bordered link boxes, each with a bold title, a sub line and a chevron. The buttons variant shows a caption above a blue or coral button.",
+  "contentPattern": "One row per item: a paragraph with the link (title) and a plain paragraph with the sub line or caption; in buttons, <strong> links render as blue primary and <em> links as coral secondary buttons.",
+  "options": [
+    {
+      "class": "buttons",
+      "label": "Buttons"
+    },
+    {
+      "class": "arrow",
+      "label": "Arrow"
+    }
+  ],
+  "usage": "Use for a small group of prominent entry points into key sections of the site.",
+  "reuseGuidance": "Reuse for boxed or button-style entry links with a single sub line; pick link-list for long link lists or cards when items have images.",
+  "memberVariantIds": []
+}

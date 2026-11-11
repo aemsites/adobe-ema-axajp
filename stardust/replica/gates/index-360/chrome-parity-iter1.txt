@@ -1,0 +1,42 @@
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.axa.co.jp/
+  build: http://localhost:8791/index-proposed.html
+
+■ header: 1 delta(s) — 2 paired of 3/2 texts, 4/4 icons
+  MISSING      ";"  live <svg> ";" has no build element with the same text
+
+■ footer: 32 delta(s) — 25 paired of 30/25 texts, 11/11 icons
+  REGION BOX   Δy -155px (8184→8029), Δh -49px (1279→1230)
+  REGION STYLE backgroundColor rgba(0, 0, 0, 0) → rgb(255, 255, 255)
+  PAIR         "保険をご検討中のお客さま"  backgroundColor rgba(0, 0, 0, 0) → rgb(255, 255, 255); Δy -156px (8265→8109)
+  PAIR         "ご契約者さま"  backgroundColor rgba(0, 0, 0, 0) → rgb(255, 255, 255); Δy -156px (8338→8182)
+  PAIR         "法人のお客さま"  backgroundColor rgba(0, 0, 0, 0) → rgb(255, 255, 255); Δy -156px (8411→8255)
+  PAIR         "企業情報"  backgroundColor rgba(0, 0, 0, 0) → rgb(255, 255, 255); Δy -156px (8484→8328)
+  PAIR         "採用情報"  backgroundColor rgba(0, 0, 0, 0) → rgb(255, 255, 255); Δy -156px (8557→8401)
+  PAIR         "よくあるご質問"  lineHeight 25.6px → 24px; Δy -155px (8645→8490)
+  PAIR         "お問い合わせ"  lineHeight 25.6px → 24px; Δy -155px (8703→8548)
+  PAIR         "勧誘方針"  fontWeight 400 → 700; lineHeight 19.6px → 17px; Δy -154px (8762→8608)
+  PAIR         "取引時確認について"  fontWeight 400 → 700; lineHeight 19.6px → 17px; Δy -154px (8791→8637)
+  PAIR         "個人情報の取り扱い"  fontWeight 400 → 700; lineHeight 19.6px → 17px; Δy -154px (8820→8666)
+  PAIR         "利益相反管理方針の概要"  fontWeight 400 → 700; lineHeight 19.6px → 17px; Δy -153px (8848→8695)
+  PAIR         "反社会的勢力対応の基本方針"  fontWeight 400 → 700; lineHeight 19.6px → 17px; Δy -153px (8877→8724)
+  PAIR         "人権に関する基本方針"  fontWeight 400 → 700; lineHeight 19.6px → 17px; Δy -152px (8905→8753)
+  PAIR         "お客さま本位の業務運営を実現するための基本方針"  fontWeight 400 → 700; lineHeight 19.6px → 17px; Δy -152px (8958→8806)
+  PAIR         "アセットオーナー・プリンシプルの受け入れ"  fontWeight 400 → 700; lineHeight 19.6px → 17px; Δy -152px (8987→8835)
+  PAIR         "日本版スチュワードシップ・コードの受け入れ"  fontWeight 400 → 700; lineHeight 19.6px → 17px; Δy -151px (9015→8864)
+  PAIR         "アクサグループデータプライバシー宣言"  fontWeight 400 → 700; lineHeight 19.6px → 17px; Δy -151px (9044→8893)
+  PAIR         "生命保険相談所(裁定審査会)について"  fontWeight 400 → 700; lineHeight 19.6px → 17px; Δy -150px (9072→8922)
+  PAIR         "生命保険契約者保護機構について"  fontWeight 400 → 700; lineHeight 19.6px → 17px; Δy -150px (9101→8951)
+  PAIR         "サイトポリシー"  fontWeight 400 → 700; lineHeight 19.6px → 17px; Δy -150px (9130→8980)
+  PAIR         "Cookie設定"  fontWeight 400 → 700; lineHeight 19.6px → 17px; Δy -149px (9158→9009); Δw +2px (127→129)
+  PAIR         "アクサ・ホールディングス・ジャパン"  Δy -149px (9209→9060)
+  PAIR         "アクサ損害保険株式会社"  Δy -149px (9259→9110)
+  PAIR         "AXA.com"  Δy -149px (9309→9160)
+  PAIR         "Policy Privacy © 2024 AXA All Rights Res"  Δy -149px (9359→9210)
+  MISSING      ";"  live <svg> ";" has no build element with the same text
+  MISSING      ";"  live <svg> ";" has no build element with the same text
+  MISSING      ";"  live <svg> ";" has no build element with the same text
+  MISSING      ";"  live <svg> ";" has no build element with the same text
+  MISSING      ";"  live <svg> ";" has no build element with the same text
+
+✗ 33 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

@@ -1,0 +1,11 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.axa.co.jp/customer/
+  build: http://localhost:8791/customer-proposed.html
+
+■ header: ✓ parity — 9 paired of 9/9 texts, 3/3 icons
+
+■ footer: 2 delta(s) — 62 paired of 63/63 texts, 6/6 icons
+  MISSING      "設定の変更（拒否する）"  live <a> "設定の変更（拒否する）" has no build element with the same text
+  EXTRA        "Cookie設定"  build <a> "Cookie設定" has no live source
+
+✗ 2 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

@@ -1,0 +1,15 @@
+{
+  "variantName": "feature-grid",
+  "baseBlock": "cards",
+  "canonicalModel": "cards",
+  "visualCharacteristics": "A grid of round icons with short captions, introduced by a heading and lead text and closed by a button. The bullets variant instead shows a panel with a heading, check-mark bullet points and a side image.",
+  "contentPattern": "Optional intro row: [h2/h3 heading] [picture?] [text paragraphs]. One row per item: [icon picture] [caption text]. Optional closing row: [link paragraph] [note paragraph?]. In the icons variant a leading text-only row is the lead; in the bullets variant text rows before the heading row are the lead, the heading row holds the panel heading plus PC/SP pictures, and text rows after it become check bullets.",
+  "options": [
+    { "class": "services", "label": "Services" },
+    { "class": "icons", "label": "Icons" },
+    { "class": "bullets", "label": "Bullets" }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use it to present a set of services or features as icons with short labels.",
+  "reuseGuidance": "Reuse it for icon-plus-caption feature sets; pick cards or product-cards when items need titles, descriptions and individual links."
+}

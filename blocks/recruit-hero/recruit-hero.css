@@ -1,0 +1,107 @@
+/* recruit-hero — recruitment.css .rc-top / .rc-video / .rc-hero (live Top-styles) */
+.recruit-hero {
+  --recruit-serif: 'Publico Headline', serif;
+
+  position: relative;
+  min-height: 100dvh;
+  color: #fff;
+}
+
+.recruit-hero .recruit-hero-video {
+  position: fixed;
+  z-index: 0;
+  inset: 0;
+}
+
+.recruit-hero .recruit-hero-video video {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 1s;
+}
+
+.recruit-hero .recruit-hero-container {
+  position: absolute;
+  inset: 0;
+}
+
+.recruit-hero .recruit-hero-container::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 70%;
+  background-image: linear-gradient(0deg, rgb(0 0 0 / 65%) 0%, rgb(0 0 0 / 0%) 100%);
+}
+
+.recruit-hero .recruit-hero-content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 8rem 6rem;
+}
+
+.recruit-hero .recruit-hero-content :is(h1, h2) {
+  margin: 0;
+  font-family: var(--recruit-serif);
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.4;
+  text-rendering: optimizelegibility;
+}
+
+.recruit-hero .recruit-hero-content :is(h1, h2) em {
+  display: block;
+  font-family: inherit;
+  font-style: normal;
+  font-size: 4rem;
+  line-height: 1.23;
+  transition: transform 1s cubic-bezier(0.33, 1, 0.68, 1) 0.8s, opacity 1s 0.8s;
+}
+
+.recruit-hero .recruit-hero-sub {
+  display: block;
+  font-size: 2rem;
+  transition: transform 1s cubic-bezier(0.33, 1, 0.68, 1) 1.6s, opacity 1s 1.6s;
+}
+
+.recruit-hero.is-pending .recruit-hero-content em,
+.recruit-hero.is-pending .recruit-hero-sub {
+  transform: translateY(1.25rem);
+  opacity: 0;
+}
+
+.recruit-hero .recruit-hero-sources {
+  display: none;
+}
+
+@media (width <= 994px) {
+  .recruit-hero .recruit-hero-content { padding: 9rem 3rem; }
+}
+
+@media (width <= 767px) {
+  .recruit-hero .recruit-hero-content {
+    left: 1.25rem;
+    bottom: 10rem;
+    padding: 0;
+  }
+
+  .recruit-hero .recruit-hero-content :is(h1, h2) {
+    margin: 0.4375rem 0;
+  }
+
+  .recruit-hero .recruit-hero-content :is(h1, h2) em {
+    font-size: 2.5rem;
+    line-height: 1.32;
+  }
+
+  .recruit-hero .recruit-hero-sub {
+    margin-top: 0.75rem;
+    font-size: 1.25rem;
+  }
+}

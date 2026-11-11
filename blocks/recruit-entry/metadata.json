@@ -1,0 +1,11 @@
+{
+  "variantName": "recruit-entry",
+  "baseBlock": "custom",
+  "canonicalModel": "recruit-entry",
+  "visualCharacteristics": "A recruitment information section with a heading, navigation lists of linked cards with READ MORE labels, a recruitment site description with a policy link, and a large linked image banner.",
+  "contentPattern": "Rows classified by content: heading [h2]; card rows (repeat) [h3 with en label and em title, or title paragraphs][p > a READ MORE] (cards with a heading form the first nav, cards without one the second); site row [paragraphs, h3, paragraphs, p > a policy PDF]; banner row [PC picture, SP picture][h2 with em sub-copy, p > a link label].",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use it to link to the job categories and the external recruitment site at the end of a recruitment page.",
+  "reuseGuidance": "Reuse it for recruitment entry link lists with a site banner; use cards for generic link card grids."
+}

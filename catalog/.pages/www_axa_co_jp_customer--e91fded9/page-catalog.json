@@ -1,0 +1,161 @@
+{
+  "url": "https://www.axa.co.jp/customer",
+  "title": "ご契約者さま｜アクサ生命保険株式会社",
+  "timestamp": "2026-11-11T04:30:04.395Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [
+    {
+      "id": "b01-page-banner",
+      "type": "hero",
+      "name": "page-banner",
+      "variantId": "v_249f06b7fbbd",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use at the top of a page to show the page title, optionally with a background image and a side login or CTA box. Used on 3 pages (customer-hub, product-listing and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Page banner",
+        "structure": "Page banner block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b02-banner-slider",
+      "type": "carousel",
+      "name": "banner-slider",
+      "variantId": "v_8dc46d9da7b6",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use to rotate a set of linked promotional image banners. Used on 1 page (customer-hub template).",
+      "visualChars": {
+        "purpose": "Banner slider",
+        "structure": "Banner slider block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b03-link-panels",
+      "type": "cards",
+      "name": "link-panels",
+      "variantId": "v_f8ad3a933cdb",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use to group task-oriented links (e.g. claims or inquiries) into icon panels with button links. Used on 1 page (customer-hub template).",
+      "visualChars": {
+        "purpose": "Link panels",
+        "structure": "Link panels block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b04-link-buttons",
+      "type": "custom",
+      "name": "link-buttons",
+      "variantId": "v_6471c57b1e08",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it for a set of navigation links shown as arrow buttons, such as contractor procedures or product category links. Used on 2 pages (customer-hub and product-listing templates).",
+      "visualChars": {
+        "purpose": "Link buttons",
+        "structure": "Link buttons block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b05-feature-grid",
+      "type": "cards",
+      "name": "feature-grid",
+      "variantId": "v_56f0f4136a9c",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it to present a set of services or features as icons with short labels. Used on 3 pages (customer-hub, homepage and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Feature grid",
+        "structure": "Feature grid block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b06-news-list",
+      "type": "custom",
+      "name": "news-list",
+      "variantId": "v_a1ba52551b99",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it for dated news, announcements or important notices. Used on 2 pages (customer-hub and homepage templates).",
+      "visualChars": {
+        "purpose": "News list",
+        "structure": "News list block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b07-contact-links",
+      "type": "custom",
+      "name": "contact-links",
+      "variantId": "v_8bb4056f3448",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use to present phone contact points with hours and a contact CTA, plus related banners or links. Used on 3 pages (insurance-guide, customer-hub and product-listing templates).",
+      "visualChars": {
+        "purpose": "Contact links",
+        "structure": "Contact links block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b08-breadcrumbs",
+      "type": "breadcrumbs",
+      "name": "breadcrumbs",
+      "variantId": "v_6dc79497b530",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it to show the page location trail on content pages. Used on 8 pages (content, insurance-guide, customer-hub, product-listing and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Breadcrumbs",
+        "structure": "Breadcrumbs block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    }
+  ],
+  "replicaAdapter": {
+    "stardustSlug": "customer",
+    "path": "/customer",
+    "templateId": "customer",
+    "liveUrl": "https://main--80b77690--aemcoder.aem.page/customer",
+    "fullPageScreenshot": null
+  }
+}

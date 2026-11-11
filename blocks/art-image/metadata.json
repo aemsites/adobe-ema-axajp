@@ -1,0 +1,48 @@
+{
+  "variantName": "art-image",
+  "baseBlock": "custom",
+  "canonicalModel": "art-image",
+  "visualCharacteristics": "A single artwork image, left-aligned by default, that can show a separate mobile rendition and optionally link as a whole. Variants change alignment, inset, or make it a full-width 280px cover banner.",
+  "contentPattern": "One row: cell 1 holds the desktop (PC) picture, optional cell 2 holds the mobile (SP) picture; a link authored around a picture makes the whole image clickable.",
+  "options": [
+    {
+      "class": "center",
+      "label": "Center"
+    },
+    {
+      "class": "right",
+      "label": "Right"
+    },
+    {
+      "class": "sp-left",
+      "label": "Mobile left"
+    },
+    {
+      "class": "sp-center",
+      "label": "Mobile center"
+    },
+    {
+      "class": "sp-right",
+      "label": "Mobile right"
+    },
+    {
+      "class": "indent",
+      "label": "Indent"
+    },
+    {
+      "class": "indent-s",
+      "label": "Small indent"
+    },
+    {
+      "class": "banner",
+      "label": "Banner"
+    },
+    {
+      "class": "collapsed",
+      "label": "Collapsed"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use it to place one standalone image or illustration, with an optional mobile version, in a content page.",
+  "reuseGuidance": "Reuse it for any lone image with PC/SP renditions; pick columns when the image sits beside text."
+}

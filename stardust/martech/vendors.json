@@ -1,0 +1,21 @@
+{
+ "pages": 7,
+ "vendors": [
+  {
+   "host": "www.axa.co.jp",
+   "pages": 7,
+   "firstParty": true,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  }
+ ],
+ "inline": {
+  "dataLayer": 7
+ },
+ "cspHosts": [
+  "webmessaging.mypurecloud.jp",
+  "prod-japan.cdn.prismic.io",
+  "new-axa-prod.s3.amazonaws.com"
+ ]
+}

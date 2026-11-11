@@ -1,0 +1,19 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://www.axa.co.jp/recruitment/",
+  "width": 360,
+  "vh": 900,
+  "height": 12561,
+  "chunks": 14,
+  "denialCheck": "ok",
+  "fontsFailed": [
+    "Publico Headline",
+    "Source Sans 3"
+  ],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 5,
+    "late": 0
+  },
+  "at": "2026-11-09T09:32:59.836Z"
+}

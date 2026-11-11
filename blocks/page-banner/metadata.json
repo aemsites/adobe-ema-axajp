@@ -1,0 +1,24 @@
+{
+  "variantName": "page-banner",
+  "baseBlock": "hero",
+  "canonicalModel": "hero",
+  "visualCharacteristics": "A page title banner with an optional background image, a heading and an optional lead line. Variants add a login card, a picture hero or a grey CTA box beside the title.",
+  "contentPattern": "Row 1: optional picture(s), an h1/h2 heading and an optional lead paragraph. Optional row 2 (aside): heading paragraph, logo picture, note, CTA paragraphs (<strong> = orange, <em> = blue) and plain text links.",
+  "options": [
+    {
+      "class": "login",
+      "label": "Login"
+    },
+    {
+      "class": "image",
+      "label": "Image"
+    },
+    {
+      "class": "consult",
+      "label": "Consult"
+    }
+  ],
+  "usage": "Use at the top of a page to show the page title, optionally with a background image and a side login or CTA box.",
+  "reuseGuidance": "Reuse for page-top title banners; pick banner-slider for rotating promotional images or hero for full marketing heroes.",
+  "memberVariantIds": []
+}

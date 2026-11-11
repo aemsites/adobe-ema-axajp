@@ -1,0 +1,6955 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-09T12:50:44.706Z",
+  "tol": 4,
+  "n": 25,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.axa.co.jp/customer/",
+  "at": "2026-11-09T07:02:53.006Z",
+  "docH": 5903
+ },
+ "eds": {
+  "url": "https://main--80b77690--aemcoder.aem.page/customer",
+  "at": "2026-11-09T12:50:44.605Z",
+  "docH": 5903
+ },
+ "results": [
+  {
+   "sel": "div.DirectButton__StyledDirectButton-sc-ee2905d0-0=.db, .page-banner-cta, .link-panels-btn, .link-buttons.grouped .link-buttons-btn, .feature-grid-btn, .news-list-btn, .contact-links.card .contact-links-box, .link-buttons.white .link-buttons-btn",
+   "family": null,
+   "required": true,
+   "originMatches": 25,
+   "edsMatches": 25,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.BannerRight__MyAxaLoginWrapper-sc-83b4d0a-0.dVotRZ > div.BannerRight__MyAxaBtnWrapper-sc-83b4d0a-2.hVFRzA > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.kpyixH"
+     },
+     "eds": {
+      "path": "div.page-banner-aside > div.page-banner-ctas > div.page-banner-cta.page-banner-cta-orange"
+     },
+     "rows": [
+      {
+       "key": "link:ログイン",
+       "role": "link",
+       "text": "ログイン",
+       "edsText": "ログイン",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 215,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 215,
+        "h": 46,
+        "sel": "a.primary",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/600",
+        "eds": "14/18/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 150,
+       "y": 16,
+       "w": 15,
+       "h": 15,
+       "absY": 329,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 782,
+       "y": 314,
+       "w": 215,
+       "h": 46
+      },
+      "eds": {
+       "x": 782,
+       "y": 314,
+       "w": 215,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.BannerRight__MyAxaLoginWrapper-sc-83b4d0a-0.dVotRZ > div.BannerRight__MyAxaBtnWrapper-sc-83b4d0a-2.hVFRzA > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.exiQzg"
+     },
+     "eds": {
+      "path": "div.page-banner-aside > div.page-banner-ctas > div.page-banner-cta.page-banner-cta-blue"
+     },
+     "rows": [
+      {
+       "key": "link:新規登録",
+       "role": "link",
+       "text": "新規登録",
+       "edsText": "新規登録",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 215,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 215,
+        "h": 46,
+        "sel": "a.secondary",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/600",
+        "eds": "14/18/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 150,
+       "y": 16,
+       "w": 15,
+       "h": 15,
+       "absY": 329,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1011,
+       "y": 314,
+       "w": 215,
+       "h": 46
+      },
+      "eds": {
+       "x": 1011,
+       "y": 314,
+       "w": 215,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.IndividualClaim-styles__StyledRow-sc-7115390a-0.jMzOEe > div.IndividualClaim-styles__StyledHalfCol-sc-7115390a-1.dEHzXh > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.link-panels-cols > div.link-panels-col > div.link-panels-btn"
+     },
+     "rows": [
+      {
+       "key": "link:死亡保険金等のご請求",
+       "role": "link",
+       "text": "死亡保険金等のご請求",
+       "edsText": "死亡保険金等のご請求",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 503,
+        "h": 50
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 503,
+        "h": 50,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/18/600",
+        "eds": "16/20/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 435,
+       "y": 18,
+       "w": 18,
+       "h": 15,
+       "absY": 1150,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 210,
+       "y": 1132,
+       "w": 503,
+       "h": 50
+      },
+      "eds": {
+       "x": 210,
+       "y": 1132,
+       "w": 503,
+       "h": 50
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.IndividualClaim-styles__StyledRow-sc-7115390a-0.jMzOEe > div.IndividualClaim-styles__StyledHalfCol-sc-7115390a-1.dEHzXh > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.link-panels-cols > div.link-panels-col > div.link-panels-btn"
+     },
+     "rows": [
+      {
+       "key": "link:新型コロナウイルス感染症のご請求",
+       "role": "link",
+       "text": "新型コロナウイルス感染症のご請求",
+       "edsText": "新型コロナウイルス感染症のご請求",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 503,
+        "h": 50
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 503,
+        "h": 50,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/18/600",
+        "eds": "16/20/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 435,
+       "y": 18,
+       "w": 18,
+       "h": 15,
+       "absY": 1214,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 210,
+       "y": 1196,
+       "w": 503,
+       "h": 50
+      },
+      "eds": {
+       "x": 210,
+       "y": 1196,
+       "w": 503,
+       "h": 50
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.IndividualClaim-styles__StyledRow-sc-7115390a-0.jMzOEe > div.IndividualClaim-styles__StyledHalfCol-sc-7115390a-1.dEHzXh > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.link-panels-cols > div.link-panels-col > div.link-panels-btn"
+     },
+     "rows": [
+      {
+       "key": "link:入院給付金等のご請求",
+       "role": "link",
+       "text": "入院給付金等のご請求",
+       "edsText": "入院給付金等のご請求",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 503,
+        "h": 50
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 503,
+        "h": 50,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/18/600",
+        "eds": "16/20/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 435,
+       "y": 18,
+       "w": 18,
+       "h": 15,
+       "absY": 1150,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 727,
+       "y": 1132,
+       "w": 503,
+       "h": 50
+      },
+      "eds": {
+       "x": 727,
+       "y": 1132,
+       "w": 503,
+       "h": 50
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.IndividualClaim-styles__StyledRow-sc-7115390a-0.jMzOEe > div.IndividualClaim-styles__StyledHalfCol-sc-7115390a-1.dEHzXh > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.link-panels-cols > div.link-panels-col > div.link-panels-btn"
+     },
+     "rows": [
+      {
+       "key": "link:団体保険のご請求",
+       "role": "link",
+       "text": "団体保険のご請求",
+       "edsText": "団体保険のご請求",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 503,
+        "h": 50
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 503,
+        "h": 50,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/18/600",
+        "eds": "16/20/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 435,
+       "y": 18,
+       "w": 18,
+       "h": 15,
+       "absY": 1214,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 727,
+       "y": 1196,
+       "w": 503,
+       "h": 50
+      },
+      "eds": {
+       "x": 727,
+       "y": 1196,
+       "w": 503,
+       "h": 50
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div.CustomerTop-styles__Card-sc-a3278f34-0 > div.ContactInquiry-styles__DirectButtonWrapper-sc-391e6575-1.jtbqN > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.link-panels-panel.link-panels-card > div.link-panels-btn-wrap > div.link-panels-btn"
+     },
+     "rows": [
+      {
+       "key": "link:ご契約内容の確認方法",
+       "role": "link",
+       "text": "ご契約内容の確認方法",
+       "edsText": "ご契約内容の確認方法",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 473,
+        "h": 50
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 473,
+        "h": 50,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/18/600",
+        "eds": "16/20/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 405,
+       "y": 18,
+       "w": 18,
+       "h": 15,
+       "absY": 1530,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 210,
+       "y": 1513,
+       "w": 473,
+       "h": 50
+      },
+      "eds": {
+       "x": 210,
+       "y": 1513,
+       "w": 473,
+       "h": 50
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "div.CustomerTop-styles__Card-sc-a3278f34-0 > div.ContactInquiry-styles__DirectButtonWrapper-sc-391e6575-1.jtbqN > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.link-panels-panel.link-panels-card > div.link-panels-btn-wrap > div.link-panels-btn"
+     },
+     "rows": [
+      {
+       "key": "link:デジタル約款",
+       "role": "link",
+       "text": "デジタル約款",
+       "edsText": "デジタル約款",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 473,
+        "h": 50
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 473,
+        "h": 50,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/18/600",
+        "eds": "16/20/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 405,
+       "y": 18,
+       "w": 18,
+       "h": 15,
+       "absY": 1594,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 210,
+       "y": 1577,
+       "w": 473,
+       "h": 50
+      },
+      "eds": {
+       "x": 210,
+       "y": 1577,
+       "w": 473,
+       "h": 50
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 8,
+     "origin": {
+      "path": "div.CustomerTop-styles__Card-sc-a3278f34-0 > div.Guide-styles__DirectButtonWrapper-sc-7b490063-2.iHvfqD > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.link-panels-panel.link-panels-card > div.link-panels-btn-wrap > div.link-panels-btn"
+     },
+     "rows": [
+      {
+       "key": "link:お手続き一覧",
+       "role": "link",
+       "text": "お手続き一覧",
+       "edsText": "お手続き一覧",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 473,
+        "h": 50
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 473,
+        "h": 50,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/18/600",
+        "eds": "16/20/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 405,
+       "y": 18,
+       "w": 18,
+       "h": 15,
+       "absY": 1530,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 757,
+       "y": 1513,
+       "w": 473,
+       "h": 50
+      },
+      "eds": {
+       "x": 757,
+       "y": 1513,
+       "w": 473,
+       "h": 50
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 9,
+     "origin": {
+      "path": "div.Report-styles__BtnWrapper-sc-88a71347-3.elfXcg > div.Report-styles__DirectButtonWrapper-sc-88a71347-1.fMDPjm > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.link-buttons-group-list > div.link-buttons-item > div.link-buttons-btn"
+     },
+     "rows": [
+      {
+       "key": "link:アクサ生命にてご加入のお客さま",
+       "role": "link",
+       "text": "アクサ生命にてご加入のお客さま",
+       "edsText": "アクサ生命にてご加入のお客さま",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 495,
+        "h": 50
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 495,
+        "h": 50,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/18/600",
+        "eds": "16/20/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 427,
+       "y": 18,
+       "w": 18,
+       "h": 15,
+       "absY": 2060,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 196,
+       "y": 2043,
+       "w": 495,
+       "h": 50
+      },
+      "eds": {
+       "x": 196,
+       "y": 2043,
+       "w": 495,
+       "h": 50
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 10,
+     "origin": {
+      "path": "div.Report-styles__BtnWrapper-sc-88a71347-3.elfXcg > div.Report-styles__DirectButtonWrapper-sc-88a71347-1.fMDPjm > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.link-buttons-group-list > div.link-buttons-item > div.link-buttons-btn"
+     },
+     "rows": [
+      {
+       "key": "link:旧アクサフィナンシャル生命 にてご加入のお客さま",
+       "role": "link",
+       "text": "旧アクサフィナンシャル生命 にてご加入のお客さま",
+       "edsText": "旧アクサフィナンシャル生命 にてご加入のお客さま",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 495,
+        "h": 68
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 495,
+        "h": 68,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/18/600",
+        "eds": "16/20/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 427,
+       "y": 27,
+       "w": 18,
+       "h": 15,
+       "absY": 2133,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 196,
+       "y": 2107,
+       "w": 495,
+       "h": 68
+      },
+      "eds": {
+       "x": 196,
+       "y": 2107,
+       "w": 495,
+       "h": 68
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 11,
+     "origin": {
+      "path": "div.Report-styles__BtnWrapper-sc-88a71347-3.elfXcg > div.Report-styles__DirectButtonWrapper-sc-88a71347-1.fMDPjm > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.link-buttons-group-list > div.link-buttons-item > div.link-buttons-btn"
+     },
+     "rows": [
+      {
+       "key": "link:アクサ生命にてご加入のお客さま",
+       "role": "link",
+       "text": "アクサ生命にてご加入のお客さま",
+       "edsText": "アクサ生命にてご加入のお客さま",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 495,
+        "h": 50
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 495,
+        "h": 50,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/18/600",
+        "eds": "16/20/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 427,
+       "y": 18,
+       "w": 18,
+       "h": 15,
+       "absY": 2060,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 749,
+       "y": 2043,
+       "w": 495,
+       "h": 50
+      },
+      "eds": {
+       "x": 749,
+       "y": 2043,
+       "w": 495,
+       "h": 50
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 12,
+     "origin": {
+      "path": "div.Report-styles__BtnWrapper-sc-88a71347-3.elfXcg > div.Report-styles__DirectButtonWrapper-sc-88a71347-1.fMDPjm > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.link-buttons-group-list > div.link-buttons-item > div.link-buttons-btn"
+     },
+     "rows": [
+      {
+       "key": "link:旧アクサフィナンシャル生命 にてご加入のお客さま",
+       "role": "link",
+       "text": "旧アクサフィナンシャル生命 にてご加入のお客さま",
+       "edsText": "旧アクサフィナンシャル生命 にてご加入のお客さま",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 495,
+        "h": 68
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 495,
+        "h": 68,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/18/600",
+        "eds": "16/20/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 427,
+       "y": 27,
+       "w": 18,
+       "h": 15,
+       "absY": 2133,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 749,
+       "y": 2107,
+       "w": 495,
+       "h": 68
+      },
+      "eds": {
+       "x": 749,
+       "y": 2107,
+       "w": 495,
+       "h": 68
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 13,
+     "origin": {
+      "path": "div.Ameasa__ComponentWrapper-sc-8eceaa13-0.bWKYrZ > div.Ameasa__DetailedBtnWrapper-sc-8eceaa13-9.jqOXcq > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.feature-grid-outro > div.feature-grid-more > div.feature-grid-btn"
+     },
+     "rows": [
+      {
+       "key": "link:詳しく見る",
+       "role": "link",
+       "text": "詳しく見る",
+       "edsText": "詳しく見る",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 539,
+        "h": 50
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 539,
+        "h": 50,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/18/600",
+        "eds": "16/20/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 471,
+       "y": 18,
+       "w": 18,
+       "h": 15,
+       "absY": 3074,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 451,
+       "y": 3057,
+       "w": 539,
+       "h": 50
+      },
+      "eds": {
+       "x": 451,
+       "y": 3057,
+       "w": 539,
+       "h": 50
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 14,
+     "origin": {
+      "path": "div.CustomerInfo-styles__StyledHalfCol-sc-df45de50-1.cIDOaX > div > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.news-list-more > div.news-list-more-item > div.news-list-btn"
+     },
+     "rows": [
+      {
+       "key": "link:保険金のお支払い状況",
+       "role": "link",
+       "text": "保険金のお支払い状況",
+       "edsText": "保険金のお支払い状況",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 531,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 531,
+        "h": 46,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/600",
+        "eds": "14/18/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 466,
+       "y": 16,
+       "w": 15,
+       "h": 15,
+       "absY": 3668,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 3652,
+       "w": 531,
+       "h": 46
+      },
+      "eds": {
+       "x": 181,
+       "y": 3652,
+       "w": 531,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 15,
+     "origin": {
+      "path": "div.CustomerInfo-styles__StyledHalfCol-sc-df45de50-1.cIDOaX > div > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.news-list-more > div.news-list-more-item > div.news-list-btn"
+     },
+     "rows": [
+      {
+       "key": "link:お客さまからの評価",
+       "role": "link",
+       "text": "お客さまからの評価",
+       "edsText": "お客さまからの評価",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 531,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 531,
+        "h": 46,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/600",
+        "eds": "14/18/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 466,
+       "y": 16,
+       "w": 15,
+       "h": 15,
+       "absY": 3668,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 728,
+       "y": 3652,
+       "w": 531,
+       "h": 46
+      },
+      "eds": {
+       "x": 728,
+       "y": 3652,
+       "w": 531,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 16,
+     "origin": {
+      "path": "div.CustomerInfo-styles__StyledHalfCol-sc-df45de50-1.cIDOaX > div > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.news-list-more > div.news-list-more-item > div.news-list-btn"
+     },
+     "rows": [
+      {
+       "key": "link:業績のお知らせ",
+       "role": "link",
+       "text": "業績のお知らせ",
+       "edsText": "業績のお知らせ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 531,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 531,
+        "h": 46,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/600",
+        "eds": "14/18/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 466,
+       "y": 16,
+       "w": 15,
+       "h": 15,
+       "absY": 3730,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 3714,
+       "w": 531,
+       "h": 46
+      },
+      "eds": {
+       "x": 181,
+       "y": 3714,
+       "w": 531,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 17,
+     "origin": {
+      "path": "div.CustomerInfo-styles__StyledHalfCol-sc-df45de50-1.cIDOaX > div > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.news-list-more > div.news-list-more-item > div.news-list-btn"
+     },
+     "rows": [
+      {
+       "key": "link:cr経営",
+       "role": "link",
+       "text": "cr経営",
+       "edsText": "cr経営",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 531,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 531,
+        "h": 46,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/600",
+        "eds": "14/18/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 466,
+       "y": 16,
+       "w": 15,
+       "h": 15,
+       "absY": 3730,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 728,
+       "y": 3714,
+       "w": 531,
+       "h": 46
+      },
+      "eds": {
+       "x": 728,
+       "y": 3714,
+       "w": 531,
+       "h": 46
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 18,
+     "origin": {
+      "path": "div.CustomerContact-styles__StyledHalfCol-sc-891b735b-1.iuafyP > div.CustomerContact-styles__DirectButtonWrapper-sc-891b735b-3.kIRKEP > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.contact-links.card > div.contact-links-cell.contact-links-cell-wide > div.contact-links-box.contact-links-box-1"
+     },
+     "rows": [
+      {
+       "key": "link:カスタマーサービスセンターに連絡",
+       "role": "link",
+       "text": "カスタマーサービスセンターに連絡",
+       "edsText": "カスタマーサービスセンターに連絡",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 539,
+        "h": 50
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 539,
+        "h": 50,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/18/600",
+        "eds": "16/20/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 471,
+       "y": 18,
+       "w": 18,
+       "h": 15,
+       "absY": 4121,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 4103,
+       "w": 539,
+       "h": 50
+      },
+      "eds": {
+       "x": 181,
+       "y": 4103,
+       "w": 539,
+       "h": 50
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 19,
+     "origin": {
+      "path": "div.Layout-sc-f22cece7-3.haZlyz > div.LinkButtons__LinkButtonsLayout-sc-92871218-0.iUsQSc > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.link-buttons-list > div.link-buttons-item > div.link-buttons-btn"
+     },
+     "rows": [
+      {
+       "key": "link:ご契約者さまtop",
+       "role": "link",
+       "text": "ご契約者さまtop",
+       "edsText": "ご契約者さまtop",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 539,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 539,
+        "h": 58,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/600",
+        "eds": "14/18/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 503,
+       "y": 22,
+       "w": 15,
+       "h": 15,
+       "absY": 4346,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 4324,
+       "w": 539,
+       "h": 58
+      },
+      "eds": {
+       "x": 181,
+       "y": 4324,
+       "w": 539,
+       "h": 58
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 20,
+     "origin": {
+      "path": "div.Layout-sc-f22cece7-3.haZlyz > div.LinkButtons__LinkButtonsLayout-sc-92871218-0.iUsQSc > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.link-buttons-list > div.link-buttons-item > div.link-buttons-btn"
+     },
+     "rows": [
+      {
+       "key": "link:保険金・給付金のご請求",
+       "role": "link",
+       "text": "保険金・給付金のご請求",
+       "edsText": "保険金・給付金のご請求",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 539,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 539,
+        "h": 58,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/600",
+        "eds": "14/18/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 503,
+       "y": 22,
+       "w": 15,
+       "h": 15,
+       "absY": 4346,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 720,
+       "y": 4324,
+       "w": 539,
+       "h": 58
+      },
+      "eds": {
+       "x": 720,
+       "y": 4324,
+       "w": 539,
+       "h": 58
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 21,
+     "origin": {
+      "path": "div.Layout-sc-f22cece7-3.haZlyz > div.LinkButtons__LinkButtonsLayout-sc-92871218-0.iUsQSc > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.link-buttons-list > div.link-buttons-item > div.link-buttons-btn"
+     },
+     "rows": [
+      {
+       "key": "link:各種お手続き",
+       "role": "link",
+       "text": "各種お手続き",
+       "edsText": "各種お手続き",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 539,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 539,
+        "h": 58,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/600",
+        "eds": "14/18/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 503,
+       "y": 22,
+       "w": 15,
+       "h": 15,
+       "absY": 4404,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 4382,
+       "w": 539,
+       "h": 58
+      },
+      "eds": {
+       "x": 181,
+       "y": 4382,
+       "w": 539,
+       "h": 58
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 22,
+     "origin": {
+      "path": "div.Layout-sc-f22cece7-3.haZlyz > div.LinkButtons__LinkButtonsLayout-sc-92871218-0.iUsQSc > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.link-buttons-list > div.link-buttons-item > div.link-buttons-btn"
+     },
+     "rows": [
+      {
+       "key": "link:ご契約内容の確認方法",
+       "role": "link",
+       "text": "ご契約内容の確認方法",
+       "edsText": "ご契約内容の確認方法",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 539,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 539,
+        "h": 58,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/600",
+        "eds": "14/18/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 503,
+       "y": 22,
+       "w": 15,
+       "h": 15,
+       "absY": 4404,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 720,
+       "y": 4382,
+       "w": 539,
+       "h": 58
+      },
+      "eds": {
+       "x": 720,
+       "y": 4382,
+       "w": 539,
+       "h": 58
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 23,
+     "origin": {
+      "path": "div.Layout-sc-f22cece7-3.haZlyz > div.LinkButtons__LinkButtonsLayout-sc-92871218-0.iUsQSc > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.link-buttons-list > div.link-buttons-item > div.link-buttons-btn"
+     },
+     "rows": [
+      {
+       "key": "link:デジタル約款",
+       "role": "link",
+       "text": "デジタル約款",
+       "edsText": "デジタル約款",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 539,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 539,
+        "h": 58,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/600",
+        "eds": "14/18/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 503,
+       "y": 22,
+       "w": 15,
+       "h": 15,
+       "absY": 4462,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 4440,
+       "w": 539,
+       "h": 58
+      },
+      "eds": {
+       "x": 181,
+       "y": 4440,
+       "w": 539,
+       "h": 58
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 24,
+     "origin": {
+      "path": "div.Layout-sc-f22cece7-3.haZlyz > div.LinkButtons__LinkButtonsLayout-sc-92871218-0.iUsQSc > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.link-buttons-list > div.link-buttons-item > div.link-buttons-btn"
+     },
+     "rows": [
+      {
+       "key": "link:令和6年分の生命保険料控除証明書",
+       "role": "link",
+       "text": "令和6年分の生命保険料控除証明書",
+       "edsText": "令和6年分の生命保険料控除証明書",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 539,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 539,
+        "h": 58,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/600",
+        "eds": "14/18/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 503,
+       "y": 22,
+       "w": 15,
+       "h": 15,
+       "absY": 4462,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 720,
+       "y": 4440,
+       "w": 539,
+       "h": 58
+      },
+      "eds": {
+       "x": 720,
+       "y": 4440,
+       "w": 539,
+       "h": 58
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "div.CustomerInfo-styles__NoticeWrapper-sc-df45de50-6=.cinfo-notice-wrapper, .news-list-item",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.CustomerInfo-styles__ComponentWrapper-sc-df45de50-2.swoWN > div.CustomerInfo-styles__ContractorNoticesWrapper-sc-df45de50-5.jCMnRi > div.CustomerInfo-styles__NoticeWrapper-sc-df45de50-6.cthTqb"
+     },
+     "eds": {
+      "path": "div.news-list-body > div.news-list-items > div.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:​2026年10月30日",
+       "role": "text",
+       "text": "​2026年10月30日",
+       "edsText": "​2026年10月30日",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 15,
+        "w": 329,
+        "h": 20
+       },
+       "eds": {
+        "x": 0,
+        "y": 15,
+        "w": 329,
+        "h": 20,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:システムメンテナンスのお知らせ（2026年11月度）",
+       "role": "link",
+       "text": "システムメンテナンスのお知らせ（2026年11月度）",
+       "edsText": "システムメンテナンスのお知らせ（2026年11月度）",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 34,
+        "w": 329,
+        "h": 20
+       },
+       "eds": {
+        "x": 0,
+        "y": 34,
+        "w": 329,
+        "h": 20,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/600",
+        "eds": "14/20/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 1063,
+       "y": 27,
+       "w": 15,
+       "h": 15,
+       "absY": 3377,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 3350,
+       "w": 1078,
+       "h": 68
+      },
+      "eds": {
+       "x": 181,
+       "y": 3350,
+       "w": 1078,
+       "h": 68
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.CustomerInfo-styles__ComponentWrapper-sc-df45de50-2.swoWN > div.CustomerInfo-styles__ContractorNoticesWrapper-sc-df45de50-5.jCMnRi > div.CustomerInfo-styles__NoticeWrapper-sc-df45de50-6.cthTqb"
+     },
+     "eds": {
+      "path": "div.news-list-body > div.news-list-items > div.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:​2026年09月30日",
+       "role": "text",
+       "text": "​2026年09月30日",
+       "edsText": "​2026年09月30日",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 15,
+        "w": 329,
+        "h": 20
+       },
+       "eds": {
+        "x": 0,
+        "y": 15,
+        "w": 329,
+        "h": 20,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:システムメンテナンスのお知らせ（2026年10月度）",
+       "role": "link",
+       "text": "システムメンテナンスのお知らせ（2026年10月度）",
+       "edsText": "システムメンテナンスのお知らせ（2026年10月度）",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 34,
+        "w": 329,
+        "h": 20
+       },
+       "eds": {
+        "x": 0,
+        "y": 34,
+        "w": 329,
+        "h": 20,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/600",
+        "eds": "14/20/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 1063,
+       "y": 27,
+       "w": 15,
+       "h": 15,
+       "absY": 3446,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 3419,
+       "w": 1078,
+       "h": 68
+      },
+      "eds": {
+       "x": 181,
+       "y": 3419,
+       "w": 1078,
+       "h": 68
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.CustomerInfo-styles__ComponentWrapper-sc-df45de50-2.swoWN > div.CustomerInfo-styles__ContractorNoticesWrapper-sc-df45de50-5.jCMnRi > div.CustomerInfo-styles__NoticeWrapper-sc-df45de50-6.cthTqb"
+     },
+     "eds": {
+      "path": "div.news-list-body > div.news-list-items > div.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:​2026年07月31日",
+       "role": "text",
+       "text": "​2026年07月31日",
+       "edsText": "​2026年07月31日",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 15,
+        "w": 329,
+        "h": 20
+       },
+       "eds": {
+        "x": 0,
+        "y": 15,
+        "w": 329,
+        "h": 20,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:システムメンテナンスのお知らせ（2026年08月度）",
+       "role": "link",
+       "text": "システムメンテナンスのお知らせ（2026年08月度）",
+       "edsText": "システムメンテナンスのお知らせ（2026年08月度）",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 34,
+        "w": 329,
+        "h": 20
+       },
+       "eds": {
+        "x": 0,
+        "y": 34,
+        "w": 329,
+        "h": 20,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/600",
+        "eds": "14/20/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 1063,
+       "y": 27,
+       "w": 15,
+       "h": 15,
+       "absY": 3514,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 3487,
+       "w": 1078,
+       "h": 68
+      },
+      "eds": {
+       "x": 181,
+       "y": 3487,
+       "w": 1078,
+       "h": 68
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.CustomerInfo-styles__ComponentWrapper-sc-df45de50-2.swoWN > div.CustomerInfo-styles__ContractorNoticesWrapper-sc-df45de50-5.jCMnRi > div.CustomerInfo-styles__NoticeWrapper-sc-df45de50-6.cthTqb"
+     },
+     "eds": {
+      "path": "div.news-list-body > div.news-list-items > div.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:​2026年06月30日",
+       "role": "text",
+       "text": "​2026年06月30日",
+       "edsText": "​2026年06月30日",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 15,
+        "w": 329,
+        "h": 20
+       },
+       "eds": {
+        "x": 0,
+        "y": 15,
+        "w": 329,
+        "h": 20,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:システムメンテナンスのお知らせ（2026年07月度）",
+       "role": "link",
+       "text": "システムメンテナンスのお知らせ（2026年07月度）",
+       "edsText": "システムメンテナンスのお知らせ（2026年07月度）",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 34,
+        "w": 329,
+        "h": 20
+       },
+       "eds": {
+        "x": 0,
+        "y": 34,
+        "w": 329,
+        "h": 20,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/600",
+        "eds": "14/20/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 1063,
+       "y": 27,
+       "w": 15,
+       "h": 15,
+       "absY": 3582,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 3555,
+       "w": 1078,
+       "h": 68
+      },
+      "eds": {
+       "x": 181,
+       "y": 3555,
+       "w": 1078,
+       "h": 68
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "div.Ameasa__StyledService-sc-8eceaa13-6=.ameasa-styled-service, .feature-grid-item",
+   "family": null,
+   "required": true,
+   "originMatches": 7,
+   "edsMatches": 7,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.Ameasa__ComponentWrapper-sc-8eceaa13-0.bWKYrZ > div.Ameasa__ServicesWrapper-sc-8eceaa13-5.gyftto > div.Ameasa__StyledService-sc-8eceaa13-6.fbBFBv"
+     },
+     "eds": {
+      "path": "div.feature-grid-body > div.feature-grid-items > div.feature-grid-item"
+     },
+     "rows": [
+      {
+       "key": "box:div.Ameasa__IconWrapper-sc-8eceaa13-8.HClec#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 37,
+        "y": 0,
+        "w": 80,
+        "h": 80
+       },
+       "eds": {
+        "x": 37,
+        "y": 0,
+        "w": 80,
+        "h": 80,
+        "sel": "div.feature-grid-icon",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 48,
+        "y": 11,
+        "w": 58,
+        "h": 58
+       },
+       "eds": {
+        "x": 48,
+        "y": 11,
+        "w": 58,
+        "h": 58,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "text:オンライン 健康相談",
+       "role": "text",
+       "text": "オンライン 健康相談",
+       "edsText": "オンライン 健康相談",
+       "byPosition": false,
+       "origin": {
+        "x": 46,
+        "y": 94,
+        "w": 63,
+        "h": 40
+       },
+       "eds": {
+        "x": 46,
+        "y": 94,
+        "w": 63,
+        "h": 40,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/20/400",
+        "eds": "13/20/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 48,
+       "y": 11,
+       "w": 58,
+       "h": 58,
+       "absY": 2906,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(52, 60, 61)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 2895,
+       "w": 154,
+       "h": 134
+      },
+      "eds": {
+       "x": 181,
+       "y": 2895,
+       "w": 154,
+       "h": 134
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.Ameasa__ComponentWrapper-sc-8eceaa13-0.bWKYrZ > div.Ameasa__ServicesWrapper-sc-8eceaa13-5.gyftto > div.Ameasa__StyledService-sc-8eceaa13-6.fbBFBv"
+     },
+     "eds": {
+      "path": "div.feature-grid-body > div.feature-grid-items > div.feature-grid-item"
+     },
+     "rows": [
+      {
+       "key": "box:div.Ameasa__IconWrapper-sc-8eceaa13-8.HClec#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 37,
+        "y": 0,
+        "w": 80,
+        "h": 80
+       },
+       "eds": {
+        "x": 37,
+        "y": 0,
+        "w": 80,
+        "h": 80,
+        "sel": "div.feature-grid-icon",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 48,
+        "y": 11,
+        "w": 58,
+        "h": 58
+       },
+       "eds": {
+        "x": 48,
+        "y": 11,
+        "w": 58,
+        "h": 58,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "text:24時間 電話健康相談",
+       "role": "text",
+       "text": "24時間 電話健康相談",
+       "edsText": "24時間 電話健康相談",
+       "byPosition": false,
+       "origin": {
+        "x": 39,
+        "y": 94,
+        "w": 76,
+        "h": 40
+       },
+       "eds": {
+        "x": 39,
+        "y": 94,
+        "w": 76,
+        "h": 40,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/20/400",
+        "eds": "13/20/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 48,
+       "y": 11,
+       "w": 58,
+       "h": 58,
+       "absY": 2906,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(52, 60, 61)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 335,
+       "y": 2895,
+       "w": 154,
+       "h": 134
+      },
+      "eds": {
+       "x": 335,
+       "y": 2895,
+       "w": 154,
+       "h": 134
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.Ameasa__ComponentWrapper-sc-8eceaa13-0.bWKYrZ > div.Ameasa__ServicesWrapper-sc-8eceaa13-5.gyftto > div.Ameasa__StyledService-sc-8eceaa13-6.fbBFBv"
+     },
+     "eds": {
+      "path": "div.feature-grid-body > div.feature-grid-items > div.feature-grid-item"
+     },
+     "rows": [
+      {
+       "key": "box:div.Ameasa__IconWrapper-sc-8eceaa13-8.HClec#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 37,
+        "y": 0,
+        "w": 80,
+        "h": 80
+       },
+       "eds": {
+        "x": 37,
+        "y": 0,
+        "w": 80,
+        "h": 80,
+        "sel": "div.feature-grid-icon",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 48,
+        "y": 11,
+        "w": 58,
+        "h": 58
+       },
+       "eds": {
+        "x": 48,
+        "y": 11,
+        "w": 58,
+        "h": 58,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "text:セカンドオピニオン サービス",
+       "role": "text",
+       "text": "セカンドオピニオン サービス",
+       "edsText": "セカンドオピニオン サービス",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 94,
+        "w": 113,
+        "h": 40
+       },
+       "eds": {
+        "x": 20,
+        "y": 94,
+        "w": 113,
+        "h": 40,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/20/400",
+        "eds": "13/20/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 48,
+       "y": 11,
+       "w": 58,
+       "h": 58,
+       "absY": 2906,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(52, 60, 61)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 489,
+       "y": 2895,
+       "w": 154,
+       "h": 134
+      },
+      "eds": {
+       "x": 489,
+       "y": 2895,
+       "w": 154,
+       "h": 134
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.Ameasa__ComponentWrapper-sc-8eceaa13-0.bWKYrZ > div.Ameasa__ServicesWrapper-sc-8eceaa13-5.gyftto > div.Ameasa__StyledService-sc-8eceaa13-6.fbBFBv"
+     },
+     "eds": {
+      "path": "div.feature-grid-body > div.feature-grid-items > div.feature-grid-item"
+     },
+     "rows": [
+      {
+       "key": "box:div.Ameasa__IconWrapper-sc-8eceaa13-8.HClec#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 37,
+        "y": 0,
+        "w": 80,
+        "h": 80
+       },
+       "eds": {
+        "x": 37,
+        "y": 0,
+        "w": 80,
+        "h": 80,
+        "sel": "div.feature-grid-icon",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 48,
+        "y": 11,
+        "w": 58,
+        "h": 58
+       },
+       "eds": {
+        "x": 48,
+        "y": 11,
+        "w": 58,
+        "h": 58,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "text:介護・リハビリ サポートサービス",
+       "role": "text",
+       "text": "介護・リハビリ サポートサービス",
+       "edsText": "介護・リハビリ サポートサービス",
+       "byPosition": false,
+       "origin": {
+        "x": 27,
+        "y": 94,
+        "w": 101,
+        "h": 40
+       },
+       "eds": {
+        "x": 27,
+        "y": 94,
+        "w": 101,
+        "h": 40,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/20/400",
+        "eds": "13/20/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 48,
+       "y": 11,
+       "w": 58,
+       "h": 58,
+       "absY": 2906,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(52, 60, 61)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 643,
+       "y": 2895,
+       "w": 154,
+       "h": 134
+      },
+      "eds": {
+       "x": 643,
+       "y": 2895,
+       "w": 154,
+       "h": 134
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.Ameasa__ComponentWrapper-sc-8eceaa13-0.bWKYrZ > div.Ameasa__ServicesWrapper-sc-8eceaa13-5.gyftto > div.Ameasa__StyledService-sc-8eceaa13-6.fbBFBv"
+     },
+     "eds": {
+      "path": "div.feature-grid-body > div.feature-grid-items > div.feature-grid-item"
+     },
+     "rows": [
+      {
+       "key": "box:div.Ameasa__IconWrapper-sc-8eceaa13-8.HClec#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 37,
+        "y": 0,
+        "w": 80,
+        "h": 80
+       },
+       "eds": {
+        "x": 37,
+        "y": 0,
+        "w": 80,
+        "h": 80,
+        "sel": "div.feature-grid-icon",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 48,
+        "y": 11,
+        "w": 58,
+        "h": 58
+       },
+       "eds": {
+        "x": 48,
+        "y": 11,
+        "w": 58,
+        "h": 58,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "text:糖尿病 サポートサービス",
+       "role": "text",
+       "text": "糖尿病 サポートサービス",
+       "edsText": "糖尿病 サポートサービス",
+       "byPosition": false,
+       "origin": {
+        "x": 27,
+        "y": 94,
+        "w": 101,
+        "h": 40
+       },
+       "eds": {
+        "x": 27,
+        "y": 94,
+        "w": 101,
+        "h": 40,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/20/400",
+        "eds": "13/20/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 48,
+       "y": 11,
+       "w": 58,
+       "h": 58,
+       "absY": 2906,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(52, 60, 61)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 797,
+       "y": 2895,
+       "w": 154,
+       "h": 134
+      },
+      "eds": {
+       "x": 797,
+       "y": 2895,
+       "w": 154,
+       "h": 134
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.Ameasa__ComponentWrapper-sc-8eceaa13-0.bWKYrZ > div.Ameasa__ServicesWrapper-sc-8eceaa13-5.gyftto > div.Ameasa__StyledService-sc-8eceaa13-6.fbBFBv"
+     },
+     "eds": {
+      "path": "div.feature-grid-body > div.feature-grid-items > div.feature-grid-item"
+     },
+     "rows": [
+      {
+       "key": "box:div.Ameasa__IconWrapper-sc-8eceaa13-8.HClec#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 37,
+        "y": 0,
+        "w": 80,
+        "h": 80
+       },
+       "eds": {
+        "x": 37,
+        "y": 0,
+        "w": 80,
+        "h": 80,
+        "sel": "div.feature-grid-icon",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 48,
+        "y": 11,
+        "w": 58,
+        "h": 58
+       },
+       "eds": {
+        "x": 48,
+        "y": 11,
+        "w": 58,
+        "h": 58,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "text:郵送検査キットによる 血液検査サービス",
+       "role": "text",
+       "text": "郵送検査キットによる 血液検査サービス",
+       "edsText": "郵送検査キットによる 血液検査サービス",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 94,
+        "w": 126,
+        "h": 40
+       },
+       "eds": {
+        "x": 14,
+        "y": 94,
+        "w": 126,
+        "h": 40,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/20/400",
+        "eds": "13/20/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 48,
+       "y": 11,
+       "w": 58,
+       "h": 58,
+       "absY": 2906,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(52, 60, 61)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 951,
+       "y": 2895,
+       "w": 154,
+       "h": 134
+      },
+      "eds": {
+       "x": 951,
+       "y": 2895,
+       "w": 154,
+       "h": 134
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div.Ameasa__ComponentWrapper-sc-8eceaa13-0.bWKYrZ > div.Ameasa__ServicesWrapper-sc-8eceaa13-5.gyftto > div.Ameasa__StyledService-sc-8eceaa13-6.fbBFBv"
+     },
+     "eds": {
+      "path": "div.feature-grid-body > div.feature-grid-items > div.feature-grid-item"
+     },
+     "rows": [
+      {
+       "key": "box:div.Ameasa__IconWrapper-sc-8eceaa13-8.HClec#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 37,
+        "y": 0,
+        "w": 80,
+        "h": 80
+       },
+       "eds": {
+        "x": 37,
+        "y": 0,
+        "w": 80,
+        "h": 80,
+        "sel": "div.feature-grid-icon",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 48,
+        "y": 11,
+        "w": 58,
+        "h": 58
+       },
+       "eds": {
+        "x": 48,
+        "y": 11,
+        "w": 58,
+        "h": 58,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "text:ホスピタル サーチ",
+       "role": "text",
+       "text": "ホスピタル サーチ",
+       "edsText": "ホスピタル サーチ",
+       "byPosition": false,
+       "origin": {
+        "x": 46,
+        "y": 94,
+        "w": 63,
+        "h": 40
+       },
+       "eds": {
+        "x": 46,
+        "y": 94,
+        "w": 63,
+        "h": 40,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/20/400",
+        "eds": "13/20/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 48,
+       "y": 11,
+       "w": 58,
+       "h": 58,
+       "absY": 2906,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(52, 60, 61)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 1105,
+       "y": 2895,
+       "w": 154,
+       "h": 134
+      },
+      "eds": {
+       "x": 1105,
+       "y": 2895,
+       "w": 154,
+       "h": 134
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "a.LinkButtons__MsArrowBtn-sc-92871218-1=.lbtn-ms-arrow-btn, .link-buttons.white .link-buttons-btn a",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.LinkButtons__LinkButtonsLayout-sc-92871218-0.iUsQSc > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY > a.sc-dYjPD.sc-bjLslk"
+     },
+     "eds": {
+      "path": "div.link-buttons-btn > p > a"
+     },
+     "rows": [],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.sc-iqkkDd.sc-krVzYl",
+       "text": "ご契約者さまtop",
+       "boxed": false,
+       "x": 21,
+       "y": 8,
+       "w": 462,
+       "h": 42,
+       "absY": 4332,
+       "hidden": false,
+       "fs": 14,
+       "lh": 18,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "text:ご契約者さまtop"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 503,
+       "y": 22,
+       "w": 15,
+       "h": 15,
+       "absY": 4346,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 4324,
+       "w": 539,
+       "h": 58
+      },
+      "eds": {
+       "x": 181,
+       "y": 4324,
+       "w": 539,
+       "h": 58
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.LinkButtons__LinkButtonsLayout-sc-92871218-0.iUsQSc > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY > a.sc-dYjPD.sc-bjLslk"
+     },
+     "eds": {
+      "path": "div.link-buttons-btn > p > a"
+     },
+     "rows": [],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.sc-iqkkDd.sc-krVzYl",
+       "text": "保険金・給付金のご請求",
+       "boxed": false,
+       "x": 21,
+       "y": 8,
+       "w": 462,
+       "h": 42,
+       "absY": 4332,
+       "hidden": false,
+       "fs": 14,
+       "lh": 18,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "text:保険金・給付金のご請求"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 503,
+       "y": 22,
+       "w": 15,
+       "h": 15,
+       "absY": 4346,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 720,
+       "y": 4324,
+       "w": 539,
+       "h": 58
+      },
+      "eds": {
+       "x": 720,
+       "y": 4324,
+       "w": 539,
+       "h": 58
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.LinkButtons__LinkButtonsLayout-sc-92871218-0.iUsQSc > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY > a.sc-dYjPD.sc-bjLslk"
+     },
+     "eds": {
+      "path": "div.link-buttons-btn > p > a"
+     },
+     "rows": [],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.sc-iqkkDd.sc-krVzYl",
+       "text": "各種お手続き",
+       "boxed": false,
+       "x": 21,
+       "y": 8,
+       "w": 462,
+       "h": 42,
+       "absY": 4390,
+       "hidden": false,
+       "fs": 14,
+       "lh": 18,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "text:各種お手続き"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 503,
+       "y": 22,
+       "w": 15,
+       "h": 15,
+       "absY": 4404,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 4382,
+       "w": 539,
+       "h": 58
+      },
+      "eds": {
+       "x": 181,
+       "y": 4382,
+       "w": 539,
+       "h": 58
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.LinkButtons__LinkButtonsLayout-sc-92871218-0.iUsQSc > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY > a.sc-dYjPD.sc-bjLslk"
+     },
+     "eds": {
+      "path": "div.link-buttons-btn > p > a"
+     },
+     "rows": [],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.sc-iqkkDd.sc-krVzYl",
+       "text": "ご契約内容の確認方法",
+       "boxed": false,
+       "x": 21,
+       "y": 8,
+       "w": 462,
+       "h": 42,
+       "absY": 4390,
+       "hidden": false,
+       "fs": 14,
+       "lh": 18,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "text:ご契約内容の確認方法"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 503,
+       "y": 22,
+       "w": 15,
+       "h": 15,
+       "absY": 4404,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 720,
+       "y": 4382,
+       "w": 539,
+       "h": 58
+      },
+      "eds": {
+       "x": 720,
+       "y": 4382,
+       "w": 539,
+       "h": 58
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.LinkButtons__LinkButtonsLayout-sc-92871218-0.iUsQSc > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY > a.sc-dYjPD.sc-bjLslk"
+     },
+     "eds": {
+      "path": "div.link-buttons-btn > p > a"
+     },
+     "rows": [],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.sc-iqkkDd.sc-krVzYl",
+       "text": "デジタル約款",
+       "boxed": false,
+       "x": 21,
+       "y": 8,
+       "w": 462,
+       "h": 42,
+       "absY": 4448,
+       "hidden": false,
+       "fs": 14,
+       "lh": 18,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "text:デジタル約款"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 503,
+       "y": 22,
+       "w": 15,
+       "h": 15,
+       "absY": 4462,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 4440,
+       "w": 539,
+       "h": 58
+      },
+      "eds": {
+       "x": 181,
+       "y": 4440,
+       "w": 539,
+       "h": 58
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.LinkButtons__LinkButtonsLayout-sc-92871218-0.iUsQSc > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY > a.sc-dYjPD.sc-bjLslk"
+     },
+     "eds": {
+      "path": "div.link-buttons-btn > p > a"
+     },
+     "rows": [],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.sc-iqkkDd.sc-krVzYl",
+       "text": "令和6年分の生命保険料控除証明書",
+       "boxed": false,
+       "x": 21,
+       "y": 8,
+       "w": 462,
+       "h": 42,
+       "absY": 4448,
+       "hidden": false,
+       "fs": 14,
+       "lh": 18,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "text:令和6年分の生命保険料控除証明書"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 503,
+       "y": 22,
+       "w": 15,
+       "h": 15,
+       "absY": 4462,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 720,
+       "y": 4440,
+       "w": 539,
+       "h": 58
+      },
+      "eds": {
+       "x": 720,
+       "y": 4440,
+       "w": 539,
+       "h": 58
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "div.SectionWithIcon__ComponentWrapper-sc-cdfd88b5-0=.swi-component-wrapper, .link-buttons.grouped, .feature-grid.services, .news-list.dated",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.CustomerTop-styles__CustomerContentsWrapper-sc-a3278f34-5.iPoTzZ > div.Layout-sc-f22cece7-3.haZlyz > div#report"
+     },
+     "eds": {
+      "path": "div.section.link-buttons-container > div.link-buttons-wrapper > div.link-buttons.grouped"
+     },
+     "rows": [
+      {
+       "key": "image:img.SectionWithIcon__ContentIcon-sc-cdfd88b5-2.iEHmRd#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 348,
+        "y": 56,
+        "w": 110,
+        "h": 110
+       },
+       "eds": {
+        "x": 348,
+        "y": 56,
+        "w": 110,
+        "h": 110,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "heading:運用情報（変額保険）",
+       "role": "heading",
+       "text": "運用情報（変額保険）",
+       "edsText": "運用情報（変額保険）",
+       "byPosition": false,
+       "origin": {
+        "x": 479,
+        "y": 91,
+        "w": 252,
+        "h": 40
+       },
+       "eds": {
+        "x": 479,
+        "y": 91,
+        "w": 252,
+        "h": 40,
+        "sel": "h2#運用情報変額保険",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/40/700",
+        "eds": "25/40/700"
+       }
+      },
+      {
+       "key": "box:div.Report-styles__Block-sc-88a71347-2.bZDoUC#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 196,
+        "w": 525,
+        "h": 248
+       },
+       "eds": {
+        "x": 0,
+        "y": 196,
+        "w": 525,
+        "h": 248,
+        "sel": "div.link-buttons-group.link-buttons-group-first",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "box:div.Report-styles__Block-sc-88a71347-2.bZDoUC#2",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 553,
+        "y": 196,
+        "w": 525,
+        "h": 248
+       },
+       "eds": {
+        "x": 553,
+        "y": 196,
+        "w": 525,
+        "h": 248,
+        "sel": "div.link-buttons-group.link-buttons-group-last",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "heading:ご契約者(年金受取人)さま専用サービス/ ユニットプライスの現況",
+       "role": "heading",
+       "text": "ご契約者(年金受取人)さま専用サービス/ ユニットプライスの現況",
+       "edsText": "ご契約者(年金受取人)さま専用サービス/ ユニットプライスの現況",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 211,
+        "w": 495,
+        "h": 58
+       },
+       "eds": {
+        "x": 15,
+        "y": 211,
+        "w": 495,
+        "h": 58,
+        "sel": "h4#ご契約者年金受取人さま専用サービスユニットプライスの現況",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/29/700",
+        "eds": "18/29/700"
+       }
+      },
+      {
+       "key": "heading:運用レポート (特別勘定の現況)",
+       "role": "heading",
+       "text": "運用レポート (特別勘定の現況)",
+       "edsText": "運用レポート (特別勘定の現況)",
+       "byPosition": false,
+       "origin": {
+        "x": 568,
+        "y": 211,
+        "w": 495,
+        "h": 58
+       },
+       "eds": {
+        "x": 568,
+        "y": 211,
+        "w": 495,
+        "h": 58,
+        "sel": "h4#運用レポート特別勘定の現況",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/29/700",
+        "eds": "18/29/700"
+       }
+      },
+      {
+       "key": "box:div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 283,
+        "w": 495,
+        "h": 50
+       },
+       "eds": {
+        "x": 15,
+        "y": 283,
+        "w": 495,
+        "h": 50,
+        "sel": "div.link-buttons-btn",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "link:アクサ生命にてご加入のお客さま",
+       "role": "link",
+       "text": "アクサ生命にてご加入のお客さま",
+       "edsText": "アクサ生命にてご加入のお客さま",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 283,
+        "w": 495,
+        "h": 50
+       },
+       "eds": {
+        "x": 15,
+        "y": 283,
+        "w": 495,
+        "h": 50,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/18/600",
+        "eds": "16/20/600"
+       }
+      },
+      {
+       "key": "box:div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY#3",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 568,
+        "y": 283,
+        "w": 495,
+        "h": 50
+       },
+       "eds": {
+        "x": 568,
+        "y": 283,
+        "w": 495,
+        "h": 50,
+        "sel": "div.link-buttons-btn",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "link:アクサ生命にてご加入のお客さま #2",
+       "role": "link",
+       "text": "アクサ生命にてご加入のお客さま",
+       "edsText": "アクサ生命にてご加入のお客さま",
+       "byPosition": false,
+       "origin": {
+        "x": 568,
+        "y": 283,
+        "w": 495,
+        "h": 50
+       },
+       "eds": {
+        "x": 568,
+        "y": 283,
+        "w": 495,
+        "h": 50,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/18/600",
+        "eds": "16/20/600"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 442,
+        "y": 301,
+        "w": 18,
+        "h": 15
+       },
+       "eds": {
+        "x": 348,
+        "y": 56,
+        "w": 110,
+        "h": 110,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": -94,
+       "dy": -245,
+       "dw": 92,
+       "dh": 95,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/600",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "box:div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY#2",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 347,
+        "w": 495,
+        "h": 68
+       },
+       "eds": {
+        "x": 15,
+        "y": 347,
+        "w": 495,
+        "h": 68,
+        "sel": "div.link-buttons-btn",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "link:旧アクサフィナンシャル生命 にてご加入のお客さま",
+       "role": "link",
+       "text": "旧アクサフィナンシャル生命 にてご加入のお客さま",
+       "edsText": "旧アクサフィナンシャル生命 にてご加入のお客さま",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 347,
+        "w": 495,
+        "h": 68
+       },
+       "eds": {
+        "x": 15,
+        "y": 347,
+        "w": 495,
+        "h": 68,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/18/600",
+        "eds": "16/20/600"
+       }
+      },
+      {
+       "key": "box:div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY#4",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 568,
+        "y": 347,
+        "w": 495,
+        "h": 68
+       },
+       "eds": {
+        "x": 568,
+        "y": 347,
+        "w": 495,
+        "h": 68,
+        "sel": "div.link-buttons-btn",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "link:旧アクサフィナンシャル生命 にてご加入のお客さま #2",
+       "role": "link",
+       "text": "旧アクサフィナンシャル生命 にてご加入のお客さま",
+       "edsText": "旧アクサフィナンシャル生命 にてご加入のお客さま",
+       "byPosition": false,
+       "origin": {
+        "x": 568,
+        "y": 347,
+        "w": 495,
+        "h": 68
+       },
+       "eds": {
+        "x": 568,
+        "y": 347,
+        "w": 495,
+        "h": 68,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/18/600",
+        "eds": "16/20/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 442,
+       "y": 374,
+       "w": 18,
+       "h": 15,
+       "absY": 2133,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#2"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 995,
+       "y": 301,
+       "w": 18,
+       "h": 15,
+       "absY": 2060,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#3"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 995,
+       "y": 374,
+       "w": 18,
+       "h": 15,
+       "absY": 2133,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#4"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 1759,
+       "w": 1078,
+       "h": 501
+      },
+      "eds": {
+       "x": 181,
+       "y": 1759,
+       "w": 1078,
+       "h": 501
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 18,
+      "within": 14,
+      "off": 1,
+      "hidden": 0,
+      "missing": 3,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.CustomerTop-styles__CustomerContentsWrapper-sc-a3278f34-5.iPoTzZ > div.Layout-sc-f22cece7-3.haZlyz > div#service"
+     },
+     "eds": {
+      "path": "div.section.link-buttons-container > div.feature-grid-wrapper > div.feature-grid.services"
+     },
+     "rows": [
+      {
+       "key": "heading:付帯サービス（健康相談サービスなど）",
+       "role": "heading",
+       "text": "付帯サービス（健康相談サービスなど）",
+       "edsText": "付帯サービス（健康相談サービスなど）",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 56,
+        "w": 1078,
+        "h": 40
+       },
+       "eds": {
+        "x": 0,
+        "y": 56,
+        "w": 1078,
+        "h": 40,
+        "sel": "h2#付帯サービス健康相談サービスなど",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/40/700",
+        "eds": "25/40/700"
+       }
+      },
+      {
+       "key": "image:ameasa-top",
+       "role": "image",
+       "text": "ameasa-top",
+       "edsText": "ameasa-top",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 110,
+        "w": 1078,
+        "h": 326
+       },
+       "eds": {
+        "x": 0,
+        "y": 110,
+        "w": 1078,
+        "h": 326,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "text:24時間電話健康相談サービスやセカンドオピニオンサービス、ペットの健康相談、認知",
+       "role": "text",
+       "text": "24時間電話健康相談サービスやセカンドオピニオンサービス、ペットの健康相談、認知機能チェックなど、さまざまなサービスをご",
+       "edsText": "24時間電話健康相談サービスやセカンドオピニオンサービス、ペットの健康相談、認知機能チェックなど、さまざまなサービスをご",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 450,
+        "w": 1078,
+        "h": 77
+       },
+       "eds": {
+        "x": 0,
+        "y": 450,
+        "w": 1078,
+        "h": 77,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "text:経験豊富なスタッフがご相談をお受けします。",
+       "role": "text",
+       "text": "経験豊富なスタッフがご相談をお受けします。",
+       "edsText": "経験豊富なスタッフがご相談をお受けします。",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 541,
+        "w": 1078,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 541,
+        "w": 333,
+        "h": 24,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -745,
+       "dh": -2,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/700",
+        "eds": "16/26/700"
+       }
+      },
+      {
+       "key": "text:ご契約後に各サービスのお問い合わせ先をご案内いたします。",
+       "role": "text",
+       "text": "ご契約後に各サービスのお問い合わせ先をご案内いたします。",
+       "edsText": "ご契約後に各サービスのお問い合わせ先をご案内いたします。",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 580,
+        "w": 1078,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 580,
+        "w": 1078,
+        "h": 26,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "box:div.Ameasa__IconWrapper-sc-8eceaa13-8.HClec#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 37,
+        "y": 634,
+        "w": 80,
+        "h": 80
+       },
+       "eds": {
+        "x": 37,
+        "y": 634,
+        "w": 80,
+        "h": 80,
+        "sel": "div.feature-grid-icon",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "box:div.Ameasa__IconWrapper-sc-8eceaa13-8.HClec#2",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 191,
+        "y": 634,
+        "w": 80,
+        "h": 80
+       },
+       "eds": {
+        "x": 191,
+        "y": 634,
+        "w": 80,
+        "h": 80,
+        "sel": "div.feature-grid-icon",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "box:div.Ameasa__IconWrapper-sc-8eceaa13-8.HClec#3",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 345,
+        "y": 634,
+        "w": 80,
+        "h": 80
+       },
+       "eds": {
+        "x": 345,
+        "y": 634,
+        "w": 80,
+        "h": 80,
+        "sel": "div.feature-grid-icon",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "box:div.Ameasa__IconWrapper-sc-8eceaa13-8.HClec#4",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 499,
+        "y": 634,
+        "w": 80,
+        "h": 80
+       },
+       "eds": {
+        "x": 499,
+        "y": 634,
+        "w": 80,
+        "h": 80,
+        "sel": "div.feature-grid-icon",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "box:div.Ameasa__IconWrapper-sc-8eceaa13-8.HClec#5",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 653,
+        "y": 634,
+        "w": 80,
+        "h": 80
+       },
+       "eds": {
+        "x": 653,
+        "y": 634,
+        "w": 80,
+        "h": 80,
+        "sel": "div.feature-grid-icon",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "box:div.Ameasa__IconWrapper-sc-8eceaa13-8.HClec#6",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 807,
+        "y": 634,
+        "w": 80,
+        "h": 80
+       },
+       "eds": {
+        "x": 807,
+        "y": 634,
+        "w": 80,
+        "h": 80,
+        "sel": "div.feature-grid-icon",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "box:div.Ameasa__IconWrapper-sc-8eceaa13-8.HClec#7",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 961,
+        "y": 634,
+        "w": 80,
+        "h": 80
+       },
+       "eds": {
+        "x": 961,
+        "y": 634,
+        "w": 80,
+        "h": 80,
+        "sel": "div.feature-grid-icon",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 48,
+        "y": 645,
+        "w": 58,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 110,
+        "w": 1078,
+        "h": 326,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": -48,
+       "dy": -535,
+       "dw": 1020,
+       "dh": 268,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 202,
+        "y": 645,
+        "w": 58,
+        "h": 58
+       },
+       "eds": {
+        "x": 48,
+        "y": 645,
+        "w": 58,
+        "h": 58,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": -154,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "image:svg#3",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 356,
+        "y": 645,
+        "w": 58,
+        "h": 58
+       },
+       "eds": {
+        "x": 48,
+        "y": 645,
+        "w": 58,
+        "h": 58,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": -308,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "image:svg#4",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 510,
+        "y": 645,
+        "w": 58,
+        "h": 58
+       },
+       "eds": {
+        "x": 202,
+        "y": 645,
+        "w": 58,
+        "h": 58,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": -308,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "image:svg#5",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 664,
+        "y": 645,
+        "w": 58,
+        "h": 58
+       },
+       "eds": {
+        "x": 202,
+        "y": 645,
+        "w": 58,
+        "h": 58,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": -462,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "image:svg#6",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 818,
+        "y": 645,
+        "w": 58,
+        "h": 58
+       },
+       "eds": {
+        "x": 356,
+        "y": 645,
+        "w": 58,
+        "h": 58,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": -462,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "image:svg#7",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 972,
+        "y": 645,
+        "w": 58,
+        "h": 58
+       },
+       "eds": {
+        "x": 356,
+        "y": 645,
+        "w": 58,
+        "h": 58,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": -616,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "text:オンライン 健康相談",
+       "role": "text",
+       "text": "オンライン 健康相談",
+       "edsText": "オンライン 健康相談",
+       "byPosition": false,
+       "origin": {
+        "x": 46,
+        "y": 728,
+        "w": 63,
+        "h": 40
+       },
+       "eds": {
+        "x": 46,
+        "y": 728,
+        "w": 63,
+        "h": 40,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/20/400",
+        "eds": "13/20/400"
+       }
+      },
+      {
+       "key": "text:24時間 電話健康相談",
+       "role": "text",
+       "text": "24時間 電話健康相談",
+       "edsText": "24時間 電話健康相談",
+       "byPosition": false,
+       "origin": {
+        "x": 193,
+        "y": 728,
+        "w": 76,
+        "h": 40
+       },
+       "eds": {
+        "x": 193,
+        "y": 728,
+        "w": 76,
+        "h": 40,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/20/400",
+        "eds": "13/20/400"
+       }
+      },
+      {
+       "key": "text:セカンドオピニオン サービス",
+       "role": "text",
+       "text": "セカンドオピニオン サービス",
+       "edsText": "セカンドオピニオン サービス",
+       "byPosition": false,
+       "origin": {
+        "x": 328,
+        "y": 728,
+        "w": 113,
+        "h": 40
+       },
+       "eds": {
+        "x": 328,
+        "y": 728,
+        "w": 113,
+        "h": 40,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/20/400",
+        "eds": "13/20/400"
+       }
+      },
+      {
+       "key": "text:介護・リハビリ サポートサービス",
+       "role": "text",
+       "text": "介護・リハビリ サポートサービス",
+       "edsText": "介護・リハビリ サポートサービス",
+       "byPosition": false,
+       "origin": {
+        "x": 489,
+        "y": 728,
+        "w": 101,
+        "h": 40
+       },
+       "eds": {
+        "x": 489,
+        "y": 728,
+        "w": 101,
+        "h": 40,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/20/400",
+        "eds": "13/20/400"
+       }
+      },
+      {
+       "key": "text:糖尿病 サポートサービス",
+       "role": "text",
+       "text": "糖尿病 サポートサービス",
+       "edsText": "糖尿病 サポートサービス",
+       "byPosition": false,
+       "origin": {
+        "x": 643,
+        "y": 728,
+        "w": 101,
+        "h": 40
+       },
+       "eds": {
+        "x": 643,
+        "y": 728,
+        "w": 101,
+        "h": 40,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/20/400",
+        "eds": "13/20/400"
+       }
+      },
+      {
+       "key": "text:郵送検査キットによる 血液検査サービス",
+       "role": "text",
+       "text": "郵送検査キットによる 血液検査サービス",
+       "edsText": "郵送検査キットによる 血液検査サービス",
+       "byPosition": false,
+       "origin": {
+        "x": 784,
+        "y": 728,
+        "w": 126,
+        "h": 40
+       },
+       "eds": {
+        "x": 784,
+        "y": 728,
+        "w": 126,
+        "h": 40,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/20/400",
+        "eds": "13/20/400"
+       }
+      },
+      {
+       "key": "text:ホスピタル サーチ",
+       "role": "text",
+       "text": "ホスピタル サーチ",
+       "edsText": "ホスピタル サーチ",
+       "byPosition": false,
+       "origin": {
+        "x": 970,
+        "y": 728,
+        "w": 63,
+        "h": 40
+       },
+       "eds": {
+        "x": 970,
+        "y": 728,
+        "w": 63,
+        "h": 40,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/20/400",
+        "eds": "13/20/400"
+       }
+      },
+      {
+       "key": "box:div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 270,
+        "y": 796,
+        "w": 539,
+        "h": 50
+       },
+       "eds": {
+        "x": 270,
+        "y": 796,
+        "w": 539,
+        "h": 50,
+        "sel": "div.feature-grid-btn",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "link:詳しく見る",
+       "role": "link",
+       "text": "詳しく見る",
+       "edsText": "詳しく見る",
+       "byPosition": false,
+       "origin": {
+        "x": 270,
+        "y": 796,
+        "w": 539,
+        "h": 50
+       },
+       "eds": {
+        "x": 270,
+        "y": 796,
+        "w": 539,
+        "h": 50,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/18/600",
+        "eds": "16/20/600"
+       }
+      },
+      {
+       "key": "image:svg#8",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 741,
+        "y": 814,
+        "w": 18,
+        "h": 15
+       },
+       "eds": {
+        "x": 510,
+        "y": 645,
+        "w": 58,
+        "h": 58,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": -231,
+       "dy": -169,
+       "dw": 40,
+       "dh": 43,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/600",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "text:axa-a1-2009-1225/a6d",
+       "role": "text",
+       "text": "axa-a1-2009-1225/a6d",
+       "edsText": "axa-a1-2009-1225/a6d",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 846,
+        "w": 1078,
+        "h": 20
+       },
+       "eds": {
+        "x": 0,
+        "y": 846,
+        "w": 1078,
+        "h": 20,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/20/400",
+        "eds": "13/20/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 510,
+       "y": 645,
+       "w": 58,
+       "h": 58,
+       "absY": 2906,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(52, 60, 61)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#5"
+      },
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 664,
+       "y": 645,
+       "w": 58,
+       "h": 58,
+       "absY": 2906,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(52, 60, 61)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#6"
+      },
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 664,
+       "y": 645,
+       "w": 58,
+       "h": 58,
+       "absY": 2906,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(52, 60, 61)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#6"
+      },
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 818,
+       "y": 645,
+       "w": 58,
+       "h": 58,
+       "absY": 2906,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(52, 60, 61)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#7"
+      },
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 818,
+       "y": 645,
+       "w": 58,
+       "h": 58,
+       "absY": 2906,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(52, 60, 61)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#7"
+      },
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 972,
+       "y": 645,
+       "w": 58,
+       "h": 58,
+       "absY": 2906,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(52, 60, 61)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#8"
+      },
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 972,
+       "y": 645,
+       "w": 58,
+       "h": 58,
+       "absY": 2906,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(52, 60, 61)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#8"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 2261,
+       "w": 1078,
+       "h": 979
+      },
+      "eds": {
+       "x": 181,
+       "y": 2261,
+       "w": 1078,
+       "h": 979
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 30,
+      "within": 21,
+      "off": 9,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 7,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.CustomerTop-styles__CustomerContentsWrapper-sc-a3278f34-5.iPoTzZ > div.Layout-sc-f22cece7-3.haZlyz > div#customer-info"
+     },
+     "eds": {
+      "path": "div.section.link-buttons-container > div.news-list-wrapper > div.news-list.dated"
+     },
+     "rows": [
+      {
+       "key": "heading:ご契約者さまへのお知らせ",
+       "role": "heading",
+       "text": "ご契約者さまへのお知らせ",
+       "edsText": "ご契約者さまへのお知らせ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 56,
+        "w": 1078,
+        "h": 40
+       },
+       "eds": {
+        "x": 0,
+        "y": 56,
+        "w": 1078,
+        "h": 40,
+        "sel": "h2#ご契約者さまへのお知らせ",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/40/700",
+        "eds": "25/40/700"
+       }
+      },
+      {
+       "key": "box:div.CustomerInfo-styles__NoticeWrapper-sc-df45de50-6.cthTqb#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 110,
+        "w": 1078,
+        "h": 68
+       },
+       "eds": {
+        "x": 0,
+        "y": 110,
+        "w": 1078,
+        "h": 68,
+        "sel": "div.news-list-item",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "text:​2026年10月30日",
+       "role": "text",
+       "text": "​2026年10月30日",
+       "edsText": "​2026年10月30日",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 125,
+        "w": 329,
+        "h": 20
+       },
+       "eds": {
+        "x": 0,
+        "y": 125,
+        "w": 329,
+        "h": 20,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:システムメンテナンスのお知らせ（2026年11月度）",
+       "role": "link",
+       "text": "システムメンテナンスのお知らせ（2026年11月度）",
+       "edsText": "システムメンテナンスのお知らせ（2026年11月度）",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 144,
+        "w": 329,
+        "h": 20
+       },
+       "eds": {
+        "x": 0,
+        "y": 144,
+        "w": 329,
+        "h": 20,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/600",
+        "eds": "14/20/600"
+       }
+      },
+      {
+       "key": "box:div.CustomerInfo-styles__NoticeWrapper-sc-df45de50-6.cthTqb#2",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 179,
+        "w": 1078,
+        "h": 68
+       },
+       "eds": {
+        "x": 0,
+        "y": 179,
+        "w": 1078,
+        "h": 68,
+        "sel": "div.news-list-item",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "text:​2026年09月30日",
+       "role": "text",
+       "text": "​2026年09月30日",
+       "edsText": "​2026年09月30日",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 194,
+        "w": 329,
+        "h": 20
+       },
+       "eds": {
+        "x": 0,
+        "y": 194,
+        "w": 329,
+        "h": 20,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:システムメンテナンスのお知らせ（2026年10月度）",
+       "role": "link",
+       "text": "システムメンテナンスのお知らせ（2026年10月度）",
+       "edsText": "システムメンテナンスのお知らせ（2026年10月度）",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 212,
+        "w": 329,
+        "h": 20
+       },
+       "eds": {
+        "x": 0,
+        "y": 212,
+        "w": 329,
+        "h": 20,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/600",
+        "eds": "14/20/600"
+       }
+      },
+      {
+       "key": "box:div.CustomerInfo-styles__NoticeWrapper-sc-df45de50-6.cthTqb#3",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 247,
+        "w": 1078,
+        "h": 68
+       },
+       "eds": {
+        "x": 0,
+        "y": 247,
+        "w": 1078,
+        "h": 68,
+        "sel": "div.news-list-item",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "text:​2026年07月31日",
+       "role": "text",
+       "text": "​2026年07月31日",
+       "edsText": "​2026年07月31日",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 262,
+        "w": 329,
+        "h": 20
+       },
+       "eds": {
+        "x": 0,
+        "y": 262,
+        "w": 329,
+        "h": 20,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:システムメンテナンスのお知らせ（2026年08月度）",
+       "role": "link",
+       "text": "システムメンテナンスのお知らせ（2026年08月度）",
+       "edsText": "システムメンテナンスのお知らせ（2026年08月度）",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 280,
+        "w": 329,
+        "h": 20
+       },
+       "eds": {
+        "x": 0,
+        "y": 280,
+        "w": 329,
+        "h": 20,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/600",
+        "eds": "14/20/600"
+       }
+      },
+      {
+       "key": "box:div.CustomerInfo-styles__NoticeWrapper-sc-df45de50-6.cthTqb#4",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 315,
+        "w": 1078,
+        "h": 68
+       },
+       "eds": {
+        "x": 0,
+        "y": 315,
+        "w": 1078,
+        "h": 68,
+        "sel": "div.news-list-item",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "text:​2026年06月30日",
+       "role": "text",
+       "text": "​2026年06月30日",
+       "edsText": "​2026年06月30日",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 330,
+        "w": 329,
+        "h": 20
+       },
+       "eds": {
+        "x": 0,
+        "y": 330,
+        "w": 329,
+        "h": 20,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/400",
+        "eds": "14/20/400"
+       }
+      },
+      {
+       "key": "link:システムメンテナンスのお知らせ（2026年07月度）",
+       "role": "link",
+       "text": "システムメンテナンスのお知らせ（2026年07月度）",
+       "edsText": "システムメンテナンスのお知らせ（2026年07月度）",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 348,
+        "w": 329,
+        "h": 20
+       },
+       "eds": {
+        "x": 0,
+        "y": 348,
+        "w": 329,
+        "h": 20,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/20/600",
+        "eds": "14/20/600"
+       }
+      },
+      {
+       "key": "box:div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 412,
+        "w": 531,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 412,
+        "w": 531,
+        "h": 46,
+        "sel": "div.news-list-btn",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "link:保険金のお支払い状況",
+       "role": "link",
+       "text": "保険金のお支払い状況",
+       "edsText": "保険金のお支払い状況",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 412,
+        "w": 531,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 412,
+        "w": 531,
+        "h": 46,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/600",
+        "eds": "14/18/600"
+       }
+      },
+      {
+       "key": "box:div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY#2",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 547,
+        "y": 412,
+        "w": 531,
+        "h": 46
+       },
+       "eds": {
+        "x": 547,
+        "y": 412,
+        "w": 531,
+        "h": 46,
+        "sel": "div.news-list-btn",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "link:お客さまからの評価",
+       "role": "link",
+       "text": "お客さまからの評価",
+       "edsText": "お客さまからの評価",
+       "byPosition": false,
+       "origin": {
+        "x": 547,
+        "y": 412,
+        "w": 531,
+        "h": 46
+       },
+       "eds": {
+        "x": 547,
+        "y": 412,
+        "w": 531,
+        "h": 46,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/600",
+        "eds": "14/18/600"
+       }
+      },
+      {
+       "key": "box:div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY#3",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 474,
+        "w": 531,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 474,
+        "w": 531,
+        "h": 46,
+        "sel": "div.news-list-btn",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "link:業績のお知らせ",
+       "role": "link",
+       "text": "業績のお知らせ",
+       "edsText": "業績のお知らせ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 474,
+        "w": 531,
+        "h": 46
+       },
+       "eds": {
+        "x": 0,
+        "y": 474,
+        "w": 531,
+        "h": 46,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/600",
+        "eds": "14/18/600"
+       }
+      },
+      {
+       "key": "box:div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY#4",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 547,
+        "y": 474,
+        "w": 531,
+        "h": 46
+       },
+       "eds": {
+        "x": 547,
+        "y": 474,
+        "w": 531,
+        "h": 46,
+        "sel": "div.news-list-btn",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "link:cr経営",
+       "role": "link",
+       "text": "cr経営",
+       "edsText": "cr経営",
+       "byPosition": false,
+       "origin": {
+        "x": 547,
+        "y": 474,
+        "w": 531,
+        "h": 46
+       },
+       "eds": {
+        "x": 547,
+        "y": 474,
+        "w": 531,
+        "h": 46,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/600",
+        "eds": "14/18/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 1063,
+       "y": 137,
+       "w": 15,
+       "h": 15,
+       "absY": 3377,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 1063,
+       "y": 206,
+       "w": 15,
+       "h": 15,
+       "absY": 3446,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#2"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 1063,
+       "y": 274,
+       "w": 15,
+       "h": 15,
+       "absY": 3514,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#3"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 1063,
+       "y": 342,
+       "w": 15,
+       "h": 15,
+       "absY": 3582,
+       "hidden": false,
+       "fs": 16,
+       "lh": 26,
+       "fw": "400",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#4"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 466,
+       "y": 428,
+       "w": 15,
+       "h": 15,
+       "absY": 3668,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#5"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 1013,
+       "y": 428,
+       "w": 15,
+       "h": 15,
+       "absY": 3668,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#6"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 466,
+       "y": 490,
+       "w": 15,
+       "h": 15,
+       "absY": 3730,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#7"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 1013,
+       "y": 490,
+       "w": 15,
+       "h": 15,
+       "absY": 3730,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#8"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 181,
+       "y": 3240,
+       "w": 1078,
+       "h": 605
+      },
+      "eds": {
+       "x": 181,
+       "y": 3240,
+       "w": 1078,
+       "h": 605
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 29,
+      "within": 21,
+      "off": 0,
+      "hidden": 0,
+      "missing": 8,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 45,
+  "within": 110,
+  "off": 10,
+  "hidden": 0,
+  "missing": 52,
+  "errors": 0,
+  "requiredOff": 62
+ }
+}

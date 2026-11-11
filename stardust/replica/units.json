@@ -1,0 +1,430 @@
+{
+  "recruitment-recruit-card": {
+    "origin": "a.RecruitmentInfo-styles__RecruitItemLink-sc-ba195fbc-4",
+    "build": ".rc-recruit__link, .recruit-entry-item a",
+    "n": 5,
+    "required": true,
+    "pages": [
+      "recruitment"
+    ],
+    "templates": [
+      "recruitment"
+    ],
+    "originAttr": "a[class*='RecruitmentInfo-styles__RecruitItemLink']"
+  },
+  "recruitment-channel-card": {
+    "origin": "div.ServiceSection-styles__CardRow-sc-2340b3b1-12",
+    "build": ".rc-channel__row, .recruit-channel-row",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "recruitment"
+    ],
+    "templates": [
+      "recruitment"
+    ],
+    "originAttr": "div[class*='ServiceSection-styles__CardRow']"
+  },
+  "recruitment-overview-item": {
+    "origin": "div.AboutSection-styles__OverviewItem-sc-c346682-6",
+    "build": ".rc-about__overview-item, .recruit-about-overview-item",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "recruitment"
+    ],
+    "templates": [
+      "recruitment"
+    ],
+    "originAttr": "div[class*='AboutSection-styles__OverviewItem-']"
+  },
+  "recruitment-position-item": {
+    "origin": "div.AboutSection-styles__PositionItem-sc-c346682-16",
+    "build": ".rc-about__position-item, .recruit-about-position-item",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "recruitment"
+    ],
+    "templates": [
+      "recruitment"
+    ],
+    "originAttr": "div[class*='AboutSection-styles__PositionItem-']"
+  },
+  "recruitment-service-item": {
+    "origin": "div.ServiceSection-styles__ServiceItem-sc-2340b3b1-5",
+    "build": ".rc-service__item, .recruit-service-item",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "recruitment"
+    ],
+    "templates": [
+      "recruitment"
+    ],
+    "originAttr": "div[class*='ServiceSection-styles__ServiceItem-']"
+  },
+  "home-entry-link": {
+    "origin": "li.LinkSetTopPage-styles__Item-sc-b3348a61-1",
+    "build": ".entry-links__item, .entry-links-item",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "home"
+    ],
+    "originAttr": "li[class*='LinkSetTopPage-styles__Item-']"
+  },
+  "home-strength-frame": {
+    "origin": "div.StrengthsFrame-styles__Frame-sc-c353a12a-0",
+    "build": ".strength, .strengths-card",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "home"
+    ],
+    "originAttr": "div[class*='StrengthsFrame-styles__Frame']"
+  },
+  "home-consult-item": {
+    "origin": "div.ConsultationServices-styles__ItemWrap-sc-d21d6ca7-2",
+    "build": ".consult__item, .feature-grid.icons .feature-grid-item",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "home"
+    ],
+    "originAttr": "div[class*='ConsultationServices-styles__ItemWrap']"
+  },
+  "home-news-item": {
+    "origin": "div.ItemsList-styles__ListItem-sc-809b56aa-1",
+    "build": ".items-list__item, .news-list.home .news-list-item",
+    "n": 8,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "home"
+    ],
+    "originAttr": "div[class*='ItemsList-styles__ListItem']"
+  },
+  "home-recommended-card": {
+    "origin": "figure.ImageLink__Container-sc-2583b0ee-0",
+    "build": ".rec, .news-list.recommended .news-list-item",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "home"
+    ],
+    "originAttr": "figure[class*='ImageLink__Container']"
+  },
+  "content-anchor-button": {
+    "origin": "div.DirectButton__StyledDirectButton-sc-ee2905d0-0",
+    "build": ".anchor-btn, .anchor-links-item",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "company"
+    ],
+    "templates": [
+      "content"
+    ],
+    "originAttr": "div[class*='DirectButton__StyledDirectButton']"
+  },
+  "content-cta-button": {
+    "origin": "div.HpButton__ButtonWrapper-sc-feed1a3b-0 > a",
+    "build": ".hp-btn, .columns-cta a.button",
+    "n": 16,
+    "required": true,
+    "pages": [
+      "company"
+    ],
+    "templates": [
+      "content"
+    ],
+    "originAttr": "div[class*='HpButton__ButtonWrapper'] > a"
+  },
+  "content-custom-link": {
+    "origin": "div.CustomLink__CustomLinkWrapper-sc-df8d4c0f-0",
+    "build": ".custom-link, .columns-link",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "company"
+    ],
+    "templates": [
+      "content"
+    ],
+    "originAttr": "div[class*='CustomLink__CustomLinkWrapper']"
+  },
+  "prospect-product-tile": {
+    "origin": "a.ProductsSection-styles__Tile-sc-69c2c58b-1",
+    "build": ".tile, .product-cards-tile",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "prospect"
+    ],
+    "templates": [
+      "prospect"
+    ],
+    "originAttr": "a[class*='ProductsSection-styles__Tile']"
+  },
+  "prospect-jump-tab": {
+    "origin": "a.JumpSection-styles__Tab-sc-7bc8c8e7-2",
+    "build": ".jump__tab, .anchor-links.jump .anchor-links-item a",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "prospect"
+    ],
+    "templates": [
+      "prospect"
+    ],
+    "originAttr": "a[class*='JumpSection-styles__Tab']"
+  },
+  "prospect-jump-section": {
+    "origin": "section.JumpSection-styles__Section-sc-7bc8c8e7-3",
+    "build": ".p-sec, main > .section[data-anchor]",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "prospect"
+    ],
+    "templates": [
+      "prospect"
+    ],
+    "originAttr": "section[class*='JumpSection-styles__Section']"
+  },
+  "prospect-bullet": {
+    "origin": "div.Bullet-styles__Container-sc-8b020a4-0",
+    "build": ".bullet, .feature-grid-bullet",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "prospect"
+    ],
+    "templates": [
+      "prospect"
+    ],
+    "originAttr": "div[class*='Bullet-styles__Container']"
+  },
+  "prospect-stat": {
+    "origin": "div.StrengthsSection-styles__StatContainer-sc-e90f346a-2",
+    "build": ".stat, .strengths-stat",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "prospect"
+    ],
+    "templates": [
+      "prospect"
+    ],
+    "originAttr": "div[class*='StrengthsSection-styles__StatContainer']"
+  },
+  "prospect-pro-card": {
+    "origin": "div.StrengthsSection-styles__ProContainer-sc-e90f346a-7",
+    "build": ".pro, .strengths-pro",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "prospect"
+    ],
+    "templates": [
+      "prospect"
+    ],
+    "originAttr": "div[class*='StrengthsSection-styles__ProContainer']"
+  },
+  "prospect-linkset-item": {
+    "origin": "li.LinkSet__Item-sc-84af2405-1",
+    "build": ".linkset__item, .link-list-item",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "prospect"
+    ],
+    "templates": [
+      "prospect"
+    ],
+    "originAttr": "li[class*='LinkSet__Item']"
+  },
+  "product-card": {
+    "origin": "div.ProductCategoryGroup-styles__Product-sc-989e0571-1",
+    "build": ".pcg-product, .accordion-product",
+    "n": 29,
+    "required": true,
+    "pages": [
+      "product"
+    ],
+    "templates": [
+      "product"
+    ],
+    "originAttr": "div[class*='ProductCategoryGroup-styles__Product-']"
+  },
+  "product-anchor-button": {
+    "origin": "a.AnchorButtons-styles__AnchorButton-sc-9e22e284-1",
+    "build": ".anchor-button, a.anchor-links-button",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "product"
+    ],
+    "templates": [
+      "product"
+    ],
+    "originAttr": "a[class*='AnchorButtons-styles__AnchorButton']"
+  },
+  "product-category-accordion": {
+    "origin": "main div.border-b",
+    "build": ".acc, .accordion.products .accordion-item",
+    "n": 13,
+    "required": true,
+    "pages": [
+      "product"
+    ],
+    "templates": [
+      "product"
+    ]
+  },
+  "product-other-button": {
+    "origin": "div.Products-styles__OtherProductsWrapper-sc-da2d0038-15 > a",
+    "build": ".pl-other-products-wrapper > a, .link-buttons-run:first-child .link-buttons-outline-btn a",
+    "n": 10,
+    "required": true,
+    "pages": [
+      "product"
+    ],
+    "templates": [
+      "product"
+    ],
+    "originAttr": "div[class*='OtherProductsWrapper'] > a"
+  },
+  "aboutins-bubble": {
+    "origin": "div.Bubble-styles__BubbleWrapper-sc-2c03bfa6-0",
+    "build": ".ai-bubble, .bubble-guide-bubble",
+    "n": 7,
+    "required": true,
+    "pages": [
+      "about-insurance"
+    ],
+    "templates": [
+      "insurance-guide"
+    ],
+    "originAttr": "div[class*='Bubble-styles__BubbleWrapper']"
+  },
+  "aboutins-qa-item": {
+    "origin": "a.CollapsableContainer-styles__CollapsableItem-sc-ccf7ee8a-2",
+    "build": ".ai-coll__item, .accordion.sp-collapse a, .link-list.plain a",
+    "n": 13,
+    "required": true,
+    "pages": [
+      "about-insurance"
+    ],
+    "templates": [
+      "insurance-guide"
+    ],
+    "originAttr": "a[class*='CollapsableContainer-styles__CollapsableItem']"
+  },
+  "aboutins-testimonial-card": {
+    "origin": "a.Testimonial-styles__TestimonialWrapper-sc-380da92b-2",
+    "build": ".ai-tcard, a.testimonial-cards-card",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "about-insurance"
+    ],
+    "templates": [
+      "insurance-guide"
+    ],
+    "originAttr": "a[class*='Testimonial-styles__TestimonialWrapper']"
+  },
+  "aboutins-contact-cell": {
+    "origin": "div.ContactLinks-styles__ContactLinkWrap-sc-8cf9f314-3",
+    "build": ".ai-contact__cell, .contact-links-cell",
+    "n": 5,
+    "required": true,
+    "pages": [
+      "about-insurance"
+    ],
+    "templates": [
+      "insurance-guide"
+    ],
+    "originAttr": "div[class*='ContactLinks-styles__ContactLinkWrap']"
+  },
+  "customer-direct-button": {
+    "origin": "div.DirectButton__StyledDirectButton-sc-ee2905d0-0",
+    "build": ".db, .page-banner-cta, .link-panels-btn, .link-buttons.grouped .link-buttons-btn, .feature-grid-btn, .news-list-btn, .contact-links.card .contact-links-box, .link-buttons.white .link-buttons-btn",
+    "n": 25,
+    "required": true,
+    "pages": [
+      "customer"
+    ],
+    "templates": [
+      "customer-hub"
+    ],
+    "originAttr": "div[class*='DirectButton__StyledDirectButton']"
+  },
+  "customer-notice-item": {
+    "origin": "div.CustomerInfo-styles__NoticeWrapper-sc-df45de50-6",
+    "build": ".cinfo-notice-wrapper, .news-list-item",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "customer"
+    ],
+    "templates": [
+      "customer-hub"
+    ],
+    "originAttr": "div[class*='CustomerInfo-styles__NoticeWrapper']"
+  },
+  "customer-ameasa-service": {
+    "origin": "div.Ameasa__StyledService-sc-8eceaa13-6",
+    "build": ".ameasa-styled-service, .feature-grid-item",
+    "n": 7,
+    "required": true,
+    "pages": [
+      "customer"
+    ],
+    "templates": [
+      "customer-hub"
+    ],
+    "originAttr": "div[class*='Ameasa__StyledService']"
+  },
+  "customer-contractor-link": {
+    "origin": "a.LinkButtons__MsArrowBtn-sc-92871218-1",
+    "build": ".lbtn-ms-arrow-btn, .link-buttons.white .link-buttons-btn a",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "customer"
+    ],
+    "templates": [
+      "customer-hub"
+    ],
+    "originAttr": "a[class*='LinkButtons__MsArrowBtn']"
+  },
+  "customer-icon-section": {
+    "origin": "div.SectionWithIcon__ComponentWrapper-sc-cdfd88b5-0",
+    "build": ".swi-component-wrapper, .link-buttons.grouped, .feature-grid.services, .news-list.dated",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "customer"
+    ],
+    "templates": [
+      "customer-hub"
+    ],
+    "originAttr": "div[class*='SectionWithIcon__ComponentWrapper']"
+  }
+}

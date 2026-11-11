@@ -1,0 +1,32 @@
+{
+  "frozenAt": "2026-11-09T13:21:37.889Z",
+  "root": ".",
+  "paths": [
+    "styles/",
+    "fonts/",
+    "blocks/header/",
+    "blocks/footer/",
+    "head.html",
+    "scripts/"
+  ],
+  "files": {
+    "blocks/footer/footer.css": "97718f0364ad2a1ac6d1219da67173c4cad7bb4895042254d9cc40adbd1baf3f",
+    "blocks/footer/footer.js": "89ec6527da9fa519e66353853388012daa255ee8a2b7ae15e153aa9b4596e137",
+    "blocks/footer/recruitment.js": "8963005af26df3b98d0d797bcf0f3c7a079a86dba73f7c1323a36b4a47475a89",
+    "blocks/header/header.css": "bfd32cd63a8ce3445fc1c3740dac8948967f6c5a3711e50845f8e3402478d797",
+    "blocks/header/header.js": "cc488f8cdad2ba662880cf61d7c1c3a29909e47f6208e6bb67becca77839e512",
+    "blocks/header/recruitment.js": "78d5f8a0a0e7c072d12e97ad03b443dbd22a6bb75b503362e901d16372e44522",
+    "fonts/noto-sans-jp-700.woff2": "1b3900f09910d17ed40bba89b29810fc81c8e4e92acf94e5bc5bde8a55feab3d",
+    "fonts/noto-sans-jp-regular.woff2": "99070c07af50f6b173ae7e128b0255e135642f73f3ec73e8e144e266d009a145",
+    "head.html": "efed650af6b587410a66dc20a42179cbcb872a42e1541357bc4d3d65a2523c82",
+    "scripts/aem.js": "786e8019b14b4c0bee9df38a3162f129c04310d9d00e7a6dd326c7e5830c84ae",
+    "scripts/chrome.js": "7076fa0a478731324c46108b4965639d45d619407d44fcd4ac9ef4ca97068528",
+    "scripts/consent-check.js": "ac21f825288cfc82c52a6acd9c57bbb76a2017ee1b06319d493244f32751249a",
+    "scripts/consented.js": "8a0ec7239cfab36c9bbfd8e7cde178c6c9061f68da8539879411ee9fa09b18ab",
+    "scripts/martech.js": "f35a2a1a01792af8b77b47710545a5d77f65f9a649c6e9374e417d7b8db46d5a",
+    "scripts/scripts.js": "17ed4dc6b787a224049f3e9e8624517150e7d47f759dddf6f3fb414d16aea807",
+    "styles/fonts.css": "48d7d93cd6275161a608b4dba7d0014e5fe0f35e541de1c2247789998a6daf19",
+    "styles/lazy-styles.css": "391d6721991eb169fa04d7c71d9b597361d76c24ab8a3d5f1dcb47457d8ca2d6",
+    "styles/styles.css": "b074a462093af63f94149a00fffbd3e3ff20f7233219b7d0784d3324b67cce94"
+  }
+}

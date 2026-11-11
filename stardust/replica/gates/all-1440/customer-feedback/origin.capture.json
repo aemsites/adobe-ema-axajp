@@ -1,0 +1,16 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://www.axa.co.jp/customer-feedback/",
+  "width": 1440,
+  "vh": 900,
+  "height": 3739,
+  "chunks": 5,
+  "denialCheck": "ok",
+  "fontsFailed": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 9,
+    "late": 0
+  },
+  "at": "2026-11-09T11:28:39.932Z"
+}

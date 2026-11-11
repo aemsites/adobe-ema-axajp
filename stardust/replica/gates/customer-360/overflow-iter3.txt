@@ -1,0 +1,8 @@
+measure  http://localhost:8791/customer-proposed.html
+  widths 360 · 1 selector(s) · 1 props · first match
+
+@ 360px
+  root  scrollWidth   360  viewport 360  scrollHeight   7741
+  html
+       x     0  y      0  w   360  h  7741  vis  "ログイン サポート ご契約者さま 各種お手続きやご契約内容の確認・変更などにつ…"
+      display: block

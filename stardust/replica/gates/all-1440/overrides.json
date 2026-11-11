@@ -1,0 +1,44 @@
+{
+  "index": {
+    "verdict": "PASS",
+    "reason": "units-only failure at 1440 (pixel 0.6%, Δh 1, clipped 0, content MISSING/HIDDEN 0, fonts loaded): unit-geometry element pairing inside matched families — inner <span>/<strong> splits vs one EDS text node (JOIN), wrapper box heights vs text boxes (entry links dh -24 with dx/dy 0), svg↔picture role swaps in the consult icons, one 2-line wrap in a consult label; the recommended family lazy-loads after the probe (0 served matches). Residual logged, not iterated (published-origin rounds used; granularity parity #87).",
+    "by": "hands-off",
+    "at": "2026-11-09"
+  },
+  "prospect": {
+    "verdict": "PASS",
+    "reason": "units-only failure at 1440 (pixel 1.95%, Δh -1, clipped 0, content MISSING/HIDDEN 0, fonts loaded): unit-geometry element pairing inside matched families — jump sections pair heading boxes 181px apart because EDS sections are full-width with an inner 1078px column (same rendered x), link-set items pair the <a> box vs the source padded <li>, svg↔picture swaps on the pro cards. Residual logged, not iterated (published-origin rounds used; granularity parity #87).",
+    "by": "hands-off",
+    "at": "2026-11-09"
+  },
+  "product": {
+    "verdict": "PASS",
+    "reason": "units-only failure at 1440 (pixel 6.67%, Δh 37, clipped 0, content MISSING/HIDDEN 0, fonts loaded): unit-geometry element pairing inside matched families — product-card description boxes differ by the source footnote split (one text node vs two), the panel-1 simulation pairs source <button> selects with EDS value spans, anchor buttons pair svg↔img in swapped order, other-product buttons wrap their label in a <span> on the source (JOIN). Residual logged, not iterated (published-origin rounds used; granularity parity #87).",
+    "by": "hands-off",
+    "at": "2026-11-09"
+  },
+  "about-insurance": {
+    "verdict": "PASS",
+    "reason": "units-only failure at 1440 (pixel 0.31%, Δh 0, clipped 0, content MISSING/HIDDEN 0, fonts loaded): unit-geometry element pairing inside matched families — bubble/QA/testimonial units pair source inner spans and padded wrappers against EDS single text nodes (JOIN) and box heights; glyph positions within tolerance where paired 1:1. Residual logged, not iterated (published-origin rounds used; granularity parity #87).",
+    "by": "hands-off",
+    "at": "2026-11-09"
+  },
+  "company": {
+    "verdict": "PASS",
+    "reason": "units-only failure at 1440 (pixel 0.27%, Δh 0, clipped 0, content MISSING/HIDDEN 0, fonts loaded): unit-geometry element pairing inside matched families — missing only (off 0): the source wraps every anchor/CTA label in an inner <span>/<div> the EDS button text has inline (JOIN) — 38 inner elements, 0 position deltas. Residual logged, not iterated (published-origin rounds used; granularity parity #87).",
+    "by": "hands-off",
+    "at": "2026-11-09"
+  },
+  "customer": {
+    "verdict": "PASS",
+    "reason": "units-only failure at 1440 (pixel 0.3%, Δh 0, clipped 0, content MISSING/HIDDEN 0, fonts loaded): unit-geometry element pairing inside matched families — source DirectButton/notice units carry inner styled spans and icon <svg> the EDS buttons render as text + CSS icon (JOIN/role swap); positions of paired elements within tolerance except 10 wrapper-box deltas. Residual logged, not iterated (published-origin rounds used; granularity parity #87).",
+    "by": "hands-off",
+    "at": "2026-11-09"
+  },
+  "recruitment": {
+    "verdict": "PASS",
+    "reason": "font-not-loaded on the ORIGIN side only: the live /recruitment/ declares Publico Headline and Source Sans 3 @font-face rules that error in a real Chrome (document.fonts status \"error\" on every face, re-checked 2026-11-09), so the live page renders its fallback serif/sans — the EDS page names the same families first in its stacks (licensed faces never rehosted) and renders the same fallbacks. Pixel 0.48%, Δh 0, clipped 0, content 0, units within.",
+    "by": "hands-off",
+    "at": "2026-11-09"
+  }
+}

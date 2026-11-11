@@ -1,0 +1,13 @@
+cap-probe  base 1440 → probe 2560 (from stardust/current/DESIGN.json)
+live   https://www.axa.co.jp/prospect/
+  modules  2 sections: capped 1142 ×1 · full-bleed ×1
+  contentMaxWidth 1142px (module) · shellMaxWidth fluid · root #root > main
+build  http://localhost:8791/prospect-proposed.html
+  modules  3 sections: capped 1142 ×1 · full-bleed ×2
+  contentMaxWidth 1142px (module) · shellMaxWidth fluid · root body > main
+rows
+  ✓ content cap: live 1142px = build 1142px (±20, shared module cap)
+  ⚠ sections: live 2 vs build 3 top-level sections — module rows compared by order up to the shorter side, advisory until the structure matches
+  ✓ module 1/2: full-bleed on both
+  ⚠ module 2/2: live 1142px (div.pjYfS > div > div.gJpgVR > div.kHUlbd) → build full-bleed (body > main > button.back-to-top)
+cap-probe: PASS at 2560 — 0 of 4 rows failed (evidence stardust/replica/gates/prospect-2560/cap-iter.json)

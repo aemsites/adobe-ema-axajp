@@ -1,0 +1,31 @@
+{
+  "id": "v_a70ad3af770a",
+  "type": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-11T04:30:04.395Z",
+  "sourceContext": {
+    "originUrl": "https://www.axa.co.jp/",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "noimg",
+    "purpose": "Banner links",
+    "structure": "Banner links block"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.axa.co.jp/",
+        "instanceId": "b11-banner-links",
+        "instanceIds": [
+          "b11-banner-links"
+        ],
+        "screenshot": ".pages/www_axa_co_jp--bd91ef97/blocks/b11-banner-links.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

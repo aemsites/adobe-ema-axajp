@@ -1,0 +1,9 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.axa.co.jp/recruitment/career (live side from cache stardust/replica/gates/recruitment-1440/chrome-live.json, probed 2026-11-09T05:16:53.075Z — delete the file to re-probe)
+  build: http://localhost:8791/recruitment-proposed.html
+
+■ header: ✓ parity — 10 paired of 10/10 texts, 1/1 icons
+
+■ footer: ✓ parity — 19 paired of 19/19 texts, 3/3 icons
+
+✓ chrome parity within tolerance — run crop-compare (pass bar item 5) to confirm in pixels.

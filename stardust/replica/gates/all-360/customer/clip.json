@@ -1,0 +1,77 @@
+{
+ "url": "https://main--80b77690--aemcoder.aem.page/customer",
+ "at": "2026-11-09T13:17:15.885Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 5,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 4,
+  "offPage": 5,
+  "textNodes": 105,
+  "controls": 81,
+  "total": 5
+ },
+ "groups": [
+  {
+   "kind": "CONTROL HIDDEN",
+   "advisory": false,
+   "n": 5,
+   "clipper": "div.banner-slider.block",
+   "path": "div.banner-slider-slider > ul.banner-slider-dots > li.banner-slider-dot-active > button",
+   "text": "1",
+   "cutMin": 20,
+   "cutMax": 20
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.banner-slider.block",
+   "path": "div.banner-slider-track > div.banner-slider-slide.banner-slider-cloned > p > a",
+   "text": "",
+   "cutMin": 119,
+   "cutMax": 121
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.banner-slider.block",
+   "path": "div.banner-slider.block > div.banner-slider-inner > div.banner-slider-slider > button.banner-slider-arrow.banner-slider-prev",
+   "text": "前へ",
+   "cutMin": 19,
+   "cutMax": 19
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.banner-slider.block",
+   "path": "div.banner-slider.block > div.banner-slider-inner > div.banner-slider-slider > button.banner-slider-arrow.banner-slider-next",
+   "text": "次へ",
+   "cutMin": 19,
+   "cutMax": 19
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 5,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 5,
+   "textNodes": 106,
+   "controls": 80,
+   "total": 5
+  }
+ }
+}

@@ -1,0 +1,1320 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-09T04:42:34.055Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "customer-feedback",
+  "url": "https://www.axa.co.jp/customer-feedback/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-09T04:42:34.055Z",
+  "finalUrl": "https://www.axa.co.jp/customer-feedback/",
+  "title": "お客さまからの評価｜アクサ生命保険株式会社",
+  "description": "お客さまから頂いた声と評価、改善の取り組みを掲載しています。",
+  "og": {
+    "title": "お客さまからの評価｜アクサ生命保険株式会社",
+    "description": "お客さまから頂いた声と評価、改善の取り組みを掲載しています。",
+    "image": null,
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "お客さまからの評価"
+    },
+    {
+      "tag": "h2",
+      "text": "お客さまからの総合評価"
+    },
+    {
+      "tag": "h3",
+      "text": "ご契約時に関する声"
+    },
+    {
+      "tag": "h3",
+      "text": "保険金・給付金のご請求に関する声"
+    },
+    {
+      "tag": "h3",
+      "text": "各種お手続きに関する声"
+    },
+    {
+      "tag": "h3",
+      "text": "お客さま本位の業務運営を目指して"
+    }
+  ],
+  "body": [
+    "お客さまからの評価",
+    "アクサ生命にいただいたお客さまからの評判や評価を公開しています",
+    "アクサ生命では、お客さまとともに、新規契約、保険金給付金請求、その他各種お手続きのサービス向上を図るため、アンケートを実施しております。",
+    "最終更新日：2026年4月1日",
+    "お客さまからの総合評価",
+    "アンケート対象期間：2025年1月1日～2025年12月31日まで",
+    "ご契約時に関する声",
+    "ご検討～契約締結時までのお手続きに関するお客さまの声を掲載しております。",
+    "詳細および改善への取り組み →",
+    "保険金・給付金のご請求に関する声",
+    "保険金や給付金のご請求に関するお客さまの声を掲載しております。",
+    "詳細および改善への取り組み →",
+    "各種お手続きに関する声",
+    "各種お手続きに関するお客さまの声を掲載しております。",
+    "詳細および改善への取り組み →",
+    "アンケートの提供・回収は、新規契約、保険金/給付金請求、その他各種お手続きをされたお客さま向けに当社が実施しているものです。 評価の平均値、回答件数は、直近1年以内の回答分をもとに算出しております。",
+    "※各お手続きをされたお客さまからのコメントを一部抜粋して掲載しております。個人の情報を特定できる箇所のみマスキングをしております。「***様」等",
+    "その他、法令、公序良俗に反する場合、特定の個人を誹謗中傷する場合、内容が過激で公開がふさわしくないと判断した場合などは、あらかじめ掲載を控えさせていただいております。",
+    "掲載内容は、各お客さまの個別の評価であり、当社が内容についての正確性を保証するものではありません。また、補償内容や事故の内容、当社の対応はほかの方にそのまま当てはまるものではありません。あらかじめご理解、ご了承くださいますようお願いいたします。",
+    "お客さま本位の業務運営を目指して",
+    "お客さまの声を経営に活かす体制",
+    "お客さま本位の業務運営を実現するための基本方針",
+    "コーポレートガバナンスとコンプライアンス体制",
+    "国際規格等への準拠について",
+    "消費者志向自主宣言",
+    "お客さまの声の受付状況と反映事例",
+    "保険金等のお支払い状況",
+    "お客さまからの評価",
+    "ご相談窓口のご案内",
+    "消費者審議会",
+    "HOME>",
+    "お客さまからの評価"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "よくあるご質問",
+      "href": "https://help.axa.co.jp/s/"
+    },
+    {
+      "label": "お問い合わせ",
+      "href": "/request/"
+    },
+    {
+      "label": "ログイン",
+      "href": "https://myweb.axa.co.jp/"
+    },
+    {
+      "label": "保険をご検討のお客さま",
+      "href": null
+    },
+    {
+      "label": "ご契約者さま",
+      "href": null
+    },
+    {
+      "label": "法人のお客さま",
+      "href": null
+    },
+    {
+      "label": "パートナーさま",
+      "href": null
+    },
+    {
+      "label": "企業情報",
+      "href": null
+    },
+    {
+      "label": "採用情報",
+      "href": null
+    },
+    {
+      "label": "詳細および改善への取り組み →",
+      "href": "/customer/contract-feedback_nb"
+    },
+    {
+      "label": "詳細および改善への取り組み →",
+      "href": "/customer/contract-feedback-ic"
+    },
+    {
+      "label": "詳細および改善への取り組み →",
+      "href": "/customer/contract-feedback-gr"
+    },
+    {
+      "label": "お客さまの声を経営に活かす体制",
+      "href": "/about-axa/voc/organization"
+    },
+    {
+      "label": "お客さま本位の業務運営を実現するための基本方針",
+      "href": "/about-axa/voc/fd"
+    },
+    {
+      "label": "コーポレートガバナンスとコンプライアンス体制",
+      "href": "/cr/governance"
+    },
+    {
+      "label": "国際規格等への準拠について",
+      "href": "/about-axa/voc/iso"
+    },
+    {
+      "label": "消費者志向自主宣言",
+      "href": "/about-axa/voc/customer-oriented"
+    },
+    {
+      "label": "お客さまの声の受付状況と反映事例",
+      "href": "/about-axa/voc/case"
+    },
+    {
+      "label": "保険金等のお支払い状況",
+      "href": "/customer/claim-status"
+    },
+    {
+      "label": "お客さまからの評価",
+      "href": "/customer-feedback/"
+    },
+    {
+      "label": "ご相談窓口のご案内",
+      "href": "/request/"
+    },
+    {
+      "label": "消費者審議会",
+      "href": "/about-axa/voc/council"
+    },
+    {
+      "label": "HOME",
+      "href": "/"
+    },
+    {
+      "label": "Facebook アイコン",
+      "href": "https://www.facebook.com/axajapan/"
+    },
+    {
+      "label": "YouTube アイコン",
+      "href": "https://www.youtube.com/c/AXAJP/"
+    },
+    {
+      "label": "保険をご検討中のお客さま",
+      "href": "/prospect?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "商品一覧",
+      "href": "/product?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "保険シミュレーション",
+      "href": "/prospect/be-recommended/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "ご相談ガイド",
+      "href": "/prospect/consultation-flow?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "資料請求",
+      "href": "/form/brochure?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "保険選びに役立つ情報",
+      "href": "/about-insurance?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "​アクサ生命のライフマネジメント®",
+      "href": "/prospect/life-management?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "変額保険各種情報",
+      "href": "/customer/variable?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "デジタル約款",
+      "href": "/digitalprovision/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "アクサ生命が選ばれる理由",
+      "href": "/about-axa/why-axa/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "ご契約者さま",
+      "href": "/customer?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "保険金・給付金のご請求",
+      "href": "/customer/claim-top?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "各種お手続き",
+      "href": "/customer/guide/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "変額保険各種情報",
+      "href": "/customer/variable?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "デジタル約款",
+      "href": "/digitalprovision/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "ご契約内容の確認方法",
+      "href": "/customer/policy-reference?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "付帯サービス",
+      "href": "/customer/service?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "令和8年（2026年）分の生命保険料控除証明書について",
+      "href": "/customer/deduction-certificate?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "​お客さま専用マイページ MyAXA",
+      "href": "/customer/myaxa?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "LINEサービスについて",
+      "href": "/customer/line?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "アクサのネット完結保険（旧アクサダイレクト生命）",
+      "href": "https://www.axa-direct-life.co.jp/customer/index.html?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "法人のお客さま",
+      "href": "/company?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "健康経営とは",
+      "href": "/company/hpm/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "健康経営サポートパッケージ",
+      "href": "/customer/service/hpm/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "健康経営プラットフォーム",
+      "href": "/company/hpm/platform?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "経営者サポートサービス",
+      "href": "/customer/service/management?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "企業情報",
+      "href": "/about-axa/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "アクサ生命について",
+      "href": "/about-axa/axa-life?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "代表取締役社長からのメッセージ",
+      "href": "/about-axa/ceo-message?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "アクサ生命が選ばれる理由",
+      "href": "/about-axa/why-axa/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "お知らせ・ニュースリリース",
+      "href": "/about-axa/notice?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "IR情報",
+      "href": "/ir/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "サステナビリティの取り組み",
+      "href": "https://www.axa-holdings.co.jp/esg/"
+    },
+    {
+      "label": "セミナー情報",
+      "href": "/about-axa/seminar?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "​お客さまを金融犯罪からお守りするために",
+      "href": "/about-axa/warning-fc?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "アクサグループについて",
+      "href": "/about-axa/group-info?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "採用情報",
+      "href": "/recruitment/career?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "新卒採用",
+      "href": "/recruitment/career/students?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "中途採用：内勤正社員",
+      "href": "/recruitment/career/experienced?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "中途採用：商工会議所共済・福祉制度推進スタッフ（営業職）",
+      "href": "/recruitment/cci/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "中途採用：フィナンシャルプラン・アドバイザー（営業職）",
+      "href": "/recruitment/fa/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "障害者採用",
+      "href": "/recruitment/career/pwd?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "よくあるご質問",
+      "href": "https://help.axa.co.jp/s/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "お問い合わせ",
+      "href": "/request/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "勧誘方針",
+      "href": "/policy/invitation?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "取引時確認について",
+      "href": "/policy/identification?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "個人情報の取り扱い",
+      "href": "/other/personal/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "利益相反管理方針の概要",
+      "href": "/policy/conflicts-interest?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "反社会的勢力対応の基本方針",
+      "href": "/policy/antisocial?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "人権に関する基本方針",
+      "href": "/policy/human-rights?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "お客さま本位の業務運営を実現するための基本方針",
+      "href": "/about-axa/voc/fd?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "アセットオーナー・プリンシプルの受け入れ",
+      "href": "/policy/asset-owner-principle?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "日本版スチュワードシップ・コードの受け入れ",
+      "href": "/policy/stewardshipcode?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "アクサグループデータプライバシー宣言",
+      "href": "/dataprivacy/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "生命保険相談所(裁定審査会)について",
+      "href": "/request#04?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "生命保険契約者保護機構について",
+      "href": "/policy/info-protection?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "サイトポリシー",
+      "href": "/rule/using-website?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP"
+    },
+    {
+      "label": "Cookie設定",
+      "href": "/#"
+    },
+    {
+      "label": "アクサ・ホールディングス・ジャパン",
+      "href": "https://www.axa-holdings.co.jp"
+    },
+    {
+      "label": "アクサ損害保険株式会社",
+      "href": "https://www.axa-direct.co.jp/axa-life/"
+    },
+    {
+      "label": "AXA.com",
+      "href": "https://www.axa.com/"
+    }
+  ],
+  "links": [
+    "https://help.axa.co.jp/s/",
+    "https://www.axa.co.jp/request/",
+    "https://myweb.axa.co.jp/",
+    "https://www.axa.co.jp/",
+    "https://www.axa.co.jp/prospect",
+    "https://www.axa.co.jp/product/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/product/medical/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/product/cancer/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/product/life_insurance/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/product/chronic/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/product/disability/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/product/ladies/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/product/nursing_care?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/product/saving/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/product/corporate/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/product/financial-institutions/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/product/#nissay?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/prospect/be-recommended/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/prospect/consultation-flow?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/form/brochure?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-insurance?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-insurance/testimonials?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-insurance/column?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-insurance/glossary?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://axa-wealth-management.co.jp/",
+    "https://www.axa.co.jp/prospect/life-management?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/prospect/life-management#03?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/prospect/life-management#01?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/prospect/life-management#02?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/variable?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/report/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/unit/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/variable/guidebook?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/digitalprovision?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/digitalprovision/group?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/why-axa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/why-axa/axa-brand?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/why-axa/cx?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/why-axa/product?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/why-axa/consulting?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/why-axa/fa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/mdrt?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/claim-top?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/claim/life?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/claim/medical?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/claim/group?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/covid-19-claim?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/guide?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/family-registration?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/guide/change-address?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/guide/change-name?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/guide/policy-loan-individual?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/guide/policy-loan-company?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/report?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/unit?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/variable/special-account?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/digitalprovision/rider-renewal?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/policy-reference?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/service?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/service/#service1?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/service/#service5?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/service/#service3?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/service/#service6?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/deduction-certificate?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/myaxa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/line?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/phone-number/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa-direct-life.co.jp/customer/index.html?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/company?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/company/hpm?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/service/hpm?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/company/hpm/platform?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/service/management?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/branch#channel?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/channel/cci?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/channel/ag?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/recruitment/ag/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/axa-life?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/overview/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/branch?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/history?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/voc?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/cr/employee?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/ceo-message?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/notice?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/info?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/news?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.youtube.com/playlist?list=PLHJn49QUj7pjey9RYEbanomhL7FTUQXXy",
+    "https://www.axa.co.jp/ir/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/ir/public-notice/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/ir/performance-report?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa-holdings.co.jp/esg/",
+    "https://www.axa.co.jp/about-axa/seminar?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/warning-fc?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/group-info?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.com/",
+    "https://www.axa-holdings.co.jp/",
+    "https://www.axa-direct.co.jp/axa-life/",
+    "https://www.axa.co.jp/recruitment/career?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/recruitment/career/students?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/recruitment/career/experienced?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/recruitment/cci/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/recruitment/fa/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/recruitment/career/pwd?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://myweb.axa.co.jp/login",
+    "https://www.axa.co.jp/customer/claim/medical",
+    "https://www.axa.co.jp/sfdc-chatbot",
+    "tel:0120-977-990",
+    "https://www.axa.co.jp/request/callback",
+    "https://www.axa.co.jp/customer/contract-feedback_nb",
+    "https://www.axa.co.jp/customer/contract-feedback-ic",
+    "https://www.axa.co.jp/customer/contract-feedback-gr",
+    "https://www.axa.co.jp/about-axa/voc/organization",
+    "https://www.axa.co.jp/about-axa/voc/fd",
+    "https://www.axa.co.jp/cr/governance",
+    "https://www.axa.co.jp/about-axa/voc/iso",
+    "https://www.axa.co.jp/about-axa/voc/customer-oriented",
+    "https://www.axa.co.jp/about-axa/voc/case",
+    "https://www.axa.co.jp/customer/claim-status",
+    "https://www.axa.co.jp/customer-feedback/",
+    "https://www.axa.co.jp/about-axa/voc/council",
+    "https://www.facebook.com/axajapan/",
+    "https://www.linkedin.com/company/axa/",
+    "https://www.youtube.com/c/AXAJP/",
+    "https://www.axa.co.jp/prospect?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/product?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/prospect/be-recommended/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/prospect/consultation-flow?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/form/brochure?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-insurance?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/prospect/life-management?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/variable?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/digitalprovision/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/why-axa/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/claim-top?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/guide/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/policy-reference?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/service?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/deduction-certificate?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/myaxa?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/line?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa-direct-life.co.jp/customer/index.html?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/company?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/company/hpm/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/service/hpm/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/company/hpm/platform?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/customer/service/management?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/axa-life?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/ceo-message?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/notice?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/ir/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/seminar?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/warning-fc?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/group-info?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/recruitment/career?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/recruitment/career/students?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/recruitment/career/experienced?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/recruitment/cci/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/recruitment/fa/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/recruitment/career/pwd?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://help.axa.co.jp/s/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/request/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/policy/invitation?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/policy/identification?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/other/personal/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/policy/conflicts-interest?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/policy/antisocial?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/policy/human-rights?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/about-axa/voc/fd?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/policy/asset-owner-principle?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/policy/stewardshipcode?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/dataprivacy/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/request#04?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/policy/info-protection?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/rule/using-website?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+    "https://www.axa.co.jp/#"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://prod-japan.cdn.prismic.io/prod-japan/acyHT5GXnQHGZJrR_feedback_2025a.svg",
+        "alt": "お客さまからの総合評価",
+        "w": 340,
+        "h": 173
+      },
+      {
+        "src": "https://prod-japan.cdn.prismic.io/prod-japan/acyHT5GXnQHGZJrR_feedback_2025a.svg",
+        "alt": "お客さまからの総合評価",
+        "w": 340,
+        "h": 173
+      },
+      {
+        "src": "https://prod-japan.cdn.prismic.io/prod-japan/ac8c4ZGXnQHGZPHY_feedback_2025b.svg",
+        "alt": "お客さまからの総合評価",
+        "w": 347,
+        "h": 206
+      },
+      {
+        "src": "https://prod-japan.cdn.prismic.io/prod-japan/ac8c4ZGXnQHGZPHY_feedback_2025b.svg",
+        "alt": "お客さまからの総合評価",
+        "w": 347,
+        "h": 206
+      },
+      {
+        "src": "https://prod-japan.cdn.prismic.io/prod-japan/ac8fCpGXnQHGZPOp_contract_feedback.svg",
+        "alt": "ご契約に関するお客さまの評価",
+        "w": 435,
+        "h": 120
+      },
+      {
+        "src": "https://prod-japan.cdn.prismic.io/prod-japan/ac8fCpGXnQHGZPOp_contract_feedback.svg",
+        "alt": "ご契約に関するお客さまの評価",
+        "w": 435,
+        "h": 120
+      },
+      {
+        "src": "https://prod-japan.cdn.prismic.io/prod-japan/acyHTZGXnQHGZJrP_claim_feedback.svg",
+        "alt": "ご請求に関するお客さまの評価",
+        "w": 435,
+        "h": 120
+      },
+      {
+        "src": "https://prod-japan.cdn.prismic.io/prod-japan/acyHTZGXnQHGZJrP_claim_feedback.svg",
+        "alt": "ご請求に関するお客さまの評価",
+        "w": 435,
+        "h": 120
+      },
+      {
+        "src": "https://prod-japan.cdn.prismic.io/prod-japan/acyHUZGXnQHGZJrT_guide_feedback.svg",
+        "alt": "お手続きに関するお客さまの評価",
+        "w": 435,
+        "h": 120
+      },
+      {
+        "src": "https://prod-japan.cdn.prismic.io/prod-japan/acyHUZGXnQHGZJrT_guide_feedback.svg",
+        "alt": "お手続きに関するお客さまの評価",
+        "w": 435,
+        "h": 120
+      },
+      {
+        "src": "https://www.axa.co.jp/images/footer/ln_logo.png",
+        "alt": "Linkedin アイコン",
+        "w": 318,
+        "h": 270
+      }
+    ],
+    "allImgCount": 13,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--font-sans": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "--font-mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+    "--spacing": ".25rem",
+    "--font-weight-normal": "400",
+    "--font-weight-medium": "500",
+    "--font-weight-semibold": "600",
+    "--font-weight-bold": "700",
+    "--tracking-normal": "0em",
+    "--leading-tight": "1.25",
+    "--leading-snug": "1.375",
+    "--leading-normal": "1.5",
+    "--leading-relaxed": "1.625",
+    "--radius-xs": ".125rem",
+    "--radius-sm": ".25rem",
+    "--radius-md": ".375rem",
+    "--radius-lg": ".5rem",
+    "--shadow-md": "0 4px 6px -1px #0000001a, 0 2px 4px -2px #0000001a",
+    "--ease-out": "cubic-bezier(0, 0, .2, 1)",
+    "--ease-in-out": "cubic-bezier(.4, 0, .2, 1)",
+    "--animate-spin": "spin 1s linear infinite",
+    "--default-transition-duration": ".15s",
+    "--default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+    "--default-font-family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "--default-mono-font-family": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+    "--text-color-primary": "#00008f",
+    "--text-color-primary-hover-inverse": "#f7f7f7",
+    "--text-color-muted": "#999",
+    "--background-color-background": "#fff",
+    "--background-color-background-subtle": "#f7f7f7",
+    "--background-color-background-hover": "#f7f7f7",
+    "--background-color-background-inverse": "#343c3d",
+    "--background-color-information": "#3e66a3",
+    "--background-color-primary": "#00008f",
+    "--border-color-stroke-subtle": "#ccc",
+    "--border-color-primary": "#00008f",
+    "--border-color-muted": "#999",
+    "--stroke-primary": "#00008f",
+    "--fill-primary": "#00008f",
+    "--outline-color-primary": "#00008f",
+    "--white": "#fff",
+    "--grey-100": "#f7f7f7",
+    "--grey-200": "#f0f0f0",
+    "--grey-300": "#e5e5e5",
+    "--grey-400": "#ccc",
+    "--grey-500": "#999",
+    "--grey-600": "#757575",
+    "--grey-700": "#5f5f5f",
+    "--grey-800": "#343c3d",
+    "--grey-900": "#111b1d",
+    "--axa-blue-100": "#5c5cb7",
+    "--axa-blue-200": "#3d3daa",
+    "--axa-blue-300": "#1f1f9c",
+    "--axa-blue-400": "#00008f",
+    "--axa-blue-500": "#00006d",
+    "--axa-blue-600": "#010143",
+    "--red-50": "#fae7ea",
+    "--red-100": "#efb8c1",
+    "--red-200": "#dc667a",
+    "--red-300": "#c91432",
+    "--red-400": "#b10723",
+    "--red-500": "#8b0118",
+    "--green-50": "#e2f2ea",
+    "--green-100": "#99dfbe",
+    "--green-200": "#25b670",
+    "--green-300": "#008646",
+    "--green-400": "#006031",
+    "--green-500": "#004323",
+    "--yellow-50": "#fff2cf",
+    "--yellow-100": "#ffda7a",
+    "--yellow-200": "#ffbc11",
+    "--yellow-300": "#b28000",
+    "--yellow-400": "#996e00",
+    "--yellow-500": "#735300",
+    "--sienna-50": "#faede9",
+    "--sienna-100": "#e28972",
+    "--sienna-200": "#dd7358",
+    "--sienna-300": "#d75d3d",
+    "--sienna-400": "#d24723",
+    "--sienna-500": "#b03c1d",
+    "--sienna-600": "#8a290e",
+    "--ocean-50": "#e7effc",
+    "--ocean-100": "#7698cb",
+    "--ocean-200": "#4976ba",
+    "--ocean-300": "#3e66a3",
+    "--ocean-400": "#274168",
+    "--ocean-500": "#17273e",
+    "--color-primary": "#FFFFFF",
+    "--color-primary-hover": "#00006d",
+    "--color-primary-inverse": "#fff",
+    "--spacing-0": "0px",
+    "--spacing-px": "1px",
+    "--spacing-0-5": ".124rem",
+    "--spacing-1": ".25rem",
+    "--spacing-1-5": ".375rem",
+    "--spacing-2": "0.5rem",
+    "--spacing-3": "0.75rem",
+    "--spacing-3-5": "0.875rem",
+    "--spacing-4": "1rem",
+    "--spacing-5": "1.25rem",
+    "--spacing-6": "1.5rem",
+    "--spacing-7": "1.75rem",
+    "--spacing-8": "2rem",
+    "--spacing-9": "2.25rem",
+    "--spacing-10": "2.5rem",
+    "--spacing-11": "2.75rem",
+    "--spacing-12": "3rem",
+    "--spacing-14": "3.5rem",
+    "--spacing-16": "4rem",
+    "--spacing-20": "5rem",
+    "--spacing-24": "6rem",
+    "--spacing-2px": "2px",
+    "--spacing-4px": "4px",
+    "--spacing-6px": "6px",
+    "--spacing-8px": "8px",
+    "--spacing-16px": "16px",
+    "--spacing-32px": "32px",
+    "--spacing-64px": "64px",
+    "--font-size-14": "14px",
+    "--font-size-16": "16px",
+    "--font-size-20": "20px",
+    "--font-size-24": "24px",
+    "--font-size-28": "28px",
+    "--font-size-32": "32px",
+    "--font-weight-regular": "400",
+    "--line-height-115": "115%",
+    "--line-height-150": "150%",
+    "--line-height-160": "160%",
+    "--active-primary": "#00008F",
+    "--hover-primary": "#00006D",
+    "--active-secondary": "#FFFFFF",
+    "--hover-secondary": "rgba(0, 0, 143, 0.10)",
+    "--color-secondary": "#00008F",
+    "--active-disabled": "#F0F0F0",
+    "--hover-disabled": "#F0F0F0",
+    "--color-disabled": "#999999",
+    "--color-axa-blue-100": "#5C5CB7",
+    "--color-axa-blue-200": "#3D3DAA",
+    "--color-axa-blue-300": "#1F1F9C",
+    "--color-axa-blue-400": "#00008F",
+    "--color-axa-blue-500": "#0000CD",
+    "--color-axa-blue-600": "#010143",
+    "--color-black": "#000",
+    "--color-white": "#FFFFFF",
+    "--color-red": "#D24723",
+    "--color-gray-100": "#F7F7F7",
+    "--color-gray-200": "#F0F0F0",
+    "--color-gray-400": "#CCCCCC",
+    "--color-gray-500": "#999999",
+    "--color-gray-600": "#757575",
+    "--color-gray-700": "#5F5F5F",
+    "--color-gray-800": "#343C3D",
+    "--radius-0": "0px",
+    "--radius-0-5": "0.125rem",
+    "--radius-1": "0.25rem",
+    "--radius-1-5": "0.375rem",
+    "--radius-2": "0.5rem",
+    "--radius-4": "1rem",
+    "--radius-8": "2rem"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 6,
+    "mainTextLen": 880,
+    "realImageCount": 11,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 3,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn-au.onetrust.com",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn-au.onetrust.com/consent/81279554-1fe3-415e-bf51-66316df2e0bb/81279554-1fe3-415e-bf51-66316df2e0bb.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn-au.onetrust.com",
+        "path": "/consent/{uuid}/{uuid}/ja.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn-au.onetrust.com/consent/81279554-1fe3-415e-bf51-66316df2e0bb/0192ad5b-1ec1-7752-91ee-f3ac7e2d2638/ja.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn-au.onetrust.com",
+        "path": "/scripttemplates/202608.1.0/assets/otFlat.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 4023,
+        "hits": 1,
+        "example": "https://cdn-au.onetrust.com/scripttemplates/202608.1.0/assets/otFlat.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn-au.onetrust.com",
+        "path": "/scripttemplates/202608.1.0/assets/v2/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 14496,
+        "hits": 1,
+        "example": "https://cdn-au.onetrust.com/scripttemplates/202608.1.0/assets/v2/otPcCenter.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn-au.onetrust.com",
+        "path": "/scripttemplates/202608.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn-au.onetrust.com/scripttemplates/202608.1.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn-au.onetrust.com",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn-au.onetrust.com/logos/static/ot_guard_logo.svg",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "dma",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.google.com/rmkt/collect/466258847/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "w2-c9dea2a81a9e4d3c963d5887958afeb5.ecs.eu-west-1.on.aws",
+        "path": "/events",
+        "query": [
+          "cee"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://w2-c9dea2a81a9e4d3c963d5887958afeb5.ecs.eu-west-1.on.aws/events",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "k.clarity.ms",
+        "path": "/collect",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 3,
+        "example": "https://k.clarity.ms/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dp",
+          "dt",
+          "en",
+          "ep.check",
+          "ep.content_group",
+          "ep.insurance_category",
+          "ep.insurance_name",
+          "frm",
+          "gaf",
+          "gcd",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 3,
+        "example": "https://analytics.google.com/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bs.nakanohito.jp",
+        "path": "/b3/",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://bs.nakanohito.jp/b3/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.axa.co.jp",
+        "path": "/cookie/extend",
+        "query": [
+          "c1",
+          "c2"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 43,
+        "hits": 1,
+        "example": "https://www.axa.co.jp/cookie/extend",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "insight.adsrvr.org",
+        "path": "/track/realtimeconversion",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://insight.adsrvr.org/track/realtimeconversion",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google-analytics.com/g/collect",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "www.googletagmanager.com",
+        "count": 7
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 4
+      },
+      {
+        "host": "bat.bing.com",
+        "count": 3
+      },
+      {
+        "host": "js.adsrvr.org",
+        "count": 2
+      },
+      {
+        "host": "cdn-au.onetrust.com",
+        "count": 2
+      },
+      {
+        "host": "www.youtube.com",
+        "count": 2
+      },
+      {
+        "host": "s.yimg.jp",
+        "count": 2
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "count": 2
+      },
+      {
+        "host": "d.line-scdn.net",
+        "count": 1
+      },
+      {
+        "host": "tag.flvcdn.net",
+        "count": 1
+      },
+      {
+        "host": "cs.nakanohito.jp",
+        "count": 1
+      },
+      {
+        "host": "www.clarity.ms",
+        "count": 1
+      },
+      {
+        "host": "scripts.clarity.ms",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 1,
+    "triggers": [
+      {
+        "marker": "NewCustomerModal-styles__CallBackText-sc-94c556d6-3",
+        "href": "/request/callback"
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 1,
+      "thirdPartyEndpoints": 14,
+      "thirdPartyScriptHosts": 13,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/customer-feedback.png",
+  "renderedHtml": "pages/customer-feedback.html",
+  "slots": {
+    "pageType": "content",
+    "headline": "お客さまからの評価",
+    "sections": [
+      "お客さまからの総合評価"
+    ],
+    "ctas": [
+      {
+        "label": "よくあるご質問",
+        "href": "https://help.axa.co.jp/s/"
+      },
+      {
+        "label": "お問い合わせ",
+        "href": "/request/"
+      },
+      {
+        "label": "ログイン",
+        "href": "https://myweb.axa.co.jp/"
+      },
+      {
+        "label": "詳細および改善への取り組み →",
+        "href": "/customer/contract-feedback_nb"
+      },
+      {
+        "label": "詳細および改善への取り組み →",
+        "href": "/customer/contract-feedback-ic"
+      },
+      {
+        "label": "詳細および改善への取り組み →",
+        "href": "/customer/contract-feedback-gr"
+      },
+      {
+        "label": "お客さまの声を経営に活かす体制",
+        "href": "/about-axa/voc/organization"
+      },
+      {
+        "label": "お客さま本位の業務運営を実現するための基本方針",
+        "href": "/about-axa/voc/fd"
+      },
+      {
+        "label": "コーポレートガバナンスとコンプライアンス体制",
+        "href": "/cr/governance"
+      },
+      {
+        "label": "国際規格等への準拠について",
+        "href": "/about-axa/voc/iso"
+      },
+      {
+        "label": "消費者志向自主宣言",
+        "href": "/about-axa/voc/customer-oriented"
+      },
+      {
+        "label": "お客さまの声の受付状況と反映事例",
+        "href": "/about-axa/voc/case"
+      }
+    ]
+  }
+}

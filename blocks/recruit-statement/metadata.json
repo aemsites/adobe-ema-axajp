@@ -1,0 +1,20 @@
+{
+  "variantName": "recruit-statement",
+  "baseBlock": "custom",
+  "canonicalModel": "recruit-statement",
+  "visualCharacteristics": "A centred full-width band with a white serif statement heading and body text that reveals on scroll. The purpose variant uses a solid blue band, the message variant a translucent navy band over the fixed hero video.",
+  "contentPattern": "Row 1: an h2 heading (label text, optional em sub-label). Row 2: the statement body as an h3 and/or paragraphs.",
+  "options": [
+    {
+      "class": "purpose",
+      "label": "Purpose"
+    },
+    {
+      "class": "message",
+      "label": "Message"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use it to present a centred corporate purpose or message statement between recruitment page sections.",
+  "reuseGuidance": "Reuse it for short centred statement bands; use default content or a hero when the text needs no band styling."
+}

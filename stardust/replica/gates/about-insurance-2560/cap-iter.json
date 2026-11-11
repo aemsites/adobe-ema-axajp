@@ -1,0 +1,851 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-09T06:47:12.843Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.axa.co.jp/about-insurance/",
+      "http://localhost:8791/about-insurance-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from stardust/current/DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.axa.co.jp/about-insurance/",
+    "http://localhost:8791/about-insurance-proposed.html"
+  ],
+  "probeNote": "from stardust/current/DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#root > main",
+      "isBody": false,
+      "leaves": 69,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1024,
+        "via": "max-width",
+        "selector": "#root > main > div.sc-iNyHtD.evHgbV > div.sc-jePOid.elVrCI",
+        "tier": 2,
+        "share": 0.88,
+        "section": 1,
+        "w1": 1024,
+        "maxWidth": "1024px"
+      },
+      {
+        "kind": "module",
+        "px": 290,
+        "via": "fixed",
+        "selector": "div.sc-iNyHtD.evHgbV > div.sc-jePOid.elVrCI > p.sc-hhXYTC.kMKJTF > span.sc-hhXYTC.forhDd",
+        "tier": 4,
+        "share": 0.01,
+        "section": 1,
+        "w1": 290,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 800,
+        "via": "max-width",
+        "selector": "div.sc-iNyHtD.evHgbV > div.sc-jePOid.elVrCI > div.ednsBK > div.fIyOwM",
+        "tier": 4,
+        "share": 0.13,
+        "section": 1,
+        "w1": 800,
+        "maxWidth": "800px"
+      },
+      {
+        "kind": "module",
+        "px": 261,
+        "via": "fixed",
+        "selector": "div.ednsBK > div.fIyOwM > div.kNEYmL > div.gOBBcq",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 261,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 261,
+        "via": "fixed",
+        "selector": "div.ednsBK > div.fIyOwM > div.kNEYmL > div.iCDaLW",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 261,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 261,
+        "via": "fixed",
+        "selector": "div.ednsBK > div.fIyOwM > div.kNEYmL > div.ckfqxi",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 261,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 261,
+        "via": "fixed",
+        "selector": "div.ednsBK > div.fIyOwM > div.kNEYmL > div.geFzJR",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 261,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 261,
+        "via": "fixed",
+        "selector": "div.ednsBK > div.fIyOwM > div.kNEYmL > div.jXhafr",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 261,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 396,
+        "via": "fixed",
+        "selector": "div.ednsBK > div.fIyOwM > div.kNEYmL > div.bXQdfa",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 396,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 396,
+        "via": "fixed",
+        "selector": "div.ednsBK > div.fIyOwM > div.kNEYmL > div.jNDZva",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 396,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 374,
+        "via": "fixed",
+        "selector": "div.dKzPsA > div.dwvunn > a.igtOFd > span.sc-eVtUJu.gCudxX",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 374,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 323,
+        "via": "fixed",
+        "selector": "div.dKzPsA > div.dwvunn > a.igtOFd > span.sc-eVtUJu.gCudxX",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 323,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 306,
+        "via": "fixed",
+        "selector": "div.dKzPsA > div.dwvunn > a.igtOFd > span.sc-eVtUJu.gCudxX",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 306,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 291,
+        "via": "fixed",
+        "selector": "div.dKzPsA > div.dwvunn > a.igtOFd > span.sc-eVtUJu.gCudxX",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 291,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 306,
+        "via": "fixed",
+        "selector": "div.dKzPsA > div.dwvunn > a.igtOFd > span.sc-eVtUJu.gCudxX",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 306,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 307,
+        "via": "fixed",
+        "selector": "div.dKzPsA > div.dwvunn > a.igtOFd > span.sc-eVtUJu.gCudxX",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 307,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 258,
+        "via": "fixed",
+        "selector": "div.dKzPsA > div.dwvunn > a.igtOFd > span.sc-eVtUJu.gCudxX",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 258,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 388,
+        "via": "fixed",
+        "selector": "div.dKzPsA > div.dwvunn > a.igtOFd > span.sc-eVtUJu.gCudxX",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 388,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 337,
+        "via": "fixed",
+        "selector": "div.dKzPsA > div.dwvunn > a.igtOFd > span.sc-eVtUJu.gCudxX",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 337,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 331,
+        "via": "fixed",
+        "selector": "div.sc-iNyHtD.evHgbV > div.sc-jePOid.elVrCI > div.knXeDV > a.dypCPd",
+        "tier": 4,
+        "share": 0.01,
+        "section": 1,
+        "w1": 331,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 331,
+        "via": "fixed",
+        "selector": "div.sc-iNyHtD.evHgbV > div.sc-jePOid.elVrCI > div.knXeDV > a.dypCPd",
+        "tier": 4,
+        "share": 0.01,
+        "section": 1,
+        "w1": 331,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 331,
+        "via": "fixed",
+        "selector": "div.sc-iNyHtD.evHgbV > div.sc-jePOid.elVrCI > div.knXeDV > a.dypCPd",
+        "tier": 4,
+        "share": 0.01,
+        "section": 1,
+        "w1": 331,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 294,
+        "via": "fixed",
+        "selector": "div.hZwYIh > span > p > strong",
+        "tier": 8,
+        "share": 0.01,
+        "section": 1,
+        "w1": 294,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 331,
+        "via": "fixed",
+        "selector": "div.sc-iNyHtD.evHgbV > div.sc-jePOid.elVrCI > div.knXeDV > a.dypCPd",
+        "tier": 4,
+        "share": 0.01,
+        "section": 1,
+        "w1": 331,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 331,
+        "via": "fixed",
+        "selector": "div.sc-iNyHtD.evHgbV > div.sc-jePOid.elVrCI > div.knXeDV > a.dypCPd",
+        "tier": 4,
+        "share": 0.01,
+        "section": 1,
+        "w1": 331,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 331,
+        "via": "fixed",
+        "selector": "div.sc-iNyHtD.evHgbV > div.sc-jePOid.elVrCI > div.knXeDV > a.dypCPd",
+        "tier": 4,
+        "share": 0.01,
+        "section": 1,
+        "w1": 331,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 477,
+        "via": "fixed",
+        "selector": "div.sc-iNyHtD.evHgbV > div.sc-jePOid.elVrCI > div.dodKcH > div.cGMLLd",
+        "tier": 4,
+        "share": 0.03,
+        "section": 1,
+        "w1": 477,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 527,
+        "via": "fixed",
+        "selector": "div.sc-iNyHtD.evHgbV > div.sc-jePOid.elVrCI > div.dodKcH > div.cGMLLd",
+        "tier": 4,
+        "share": 0.03,
+        "section": 1,
+        "w1": 527,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 341,
+        "via": "fixed",
+        "selector": "div.sc-eibAPZ.kWgAvG > div.jKDmyo > a.sc-eCQgVK.sc-qdQOe > span.sc-dkXsAU.kjNuRv",
+        "tier": 8,
+        "share": 0.01,
+        "section": 1,
+        "w1": 341,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1024,
+        "via": "max-width",
+        "selector": "#root > main > div.jrTqPW > section.fyBfVn",
+        "tier": 2,
+        "share": 0.12,
+        "section": 2,
+        "w1": 1024,
+        "maxWidth": "1024px"
+      },
+      {
+        "kind": "module",
+        "px": 312,
+        "via": "fixed",
+        "selector": "main > div.jrTqPW > section.fyBfVn > div.iGjIxR",
+        "tier": 3,
+        "share": 0.06,
+        "section": 2,
+        "w1": 312,
+        "maxWidth": "30.5%"
+      },
+      {
+        "kind": "module",
+        "px": 312,
+        "via": "fixed",
+        "selector": "main > div.jrTqPW > section.fyBfVn > div.iGjIxR",
+        "tier": 3,
+        "share": 0.06,
+        "section": 2,
+        "w1": 312,
+        "maxWidth": "30.5%"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#root > main > div.foqcIw",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#root > main > div.sc-iNyHtD.evHgbV",
+        "px": 1024,
+        "capSelector": "#root > main > div.sc-iNyHtD.evHgbV > div.sc-jePOid.elVrCI"
+      },
+      {
+        "index": 2,
+        "selector": "#root > main > div.jrTqPW",
+        "px": 1024,
+        "capSelector": "#root > main > div.jrTqPW > section.fyBfVn"
+      },
+      {
+        "index": 3,
+        "selector": "#root > main > div.sc-kLEbxe.exsnPu",
+        "px": null,
+        "capSelector": null
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1024,
+    "contentFrom": "module",
+    "maxCap": 1024,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 168
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "body > main",
+      "isBody": false,
+      "leaves": 69,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1024,
+        "via": "max-width",
+        "selector": "body > main > div.ai-page > div.ai-wrap",
+        "tier": 2,
+        "share": 0.88,
+        "section": 1,
+        "w1": 1024,
+        "maxWidth": "1024px"
+      },
+      {
+        "kind": "module",
+        "px": 290,
+        "via": "fixed",
+        "selector": "div.ai-page > div.ai-wrap > p.ai-text > span.ai-em",
+        "tier": 4,
+        "share": 0.01,
+        "section": 1,
+        "w1": 290,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 800,
+        "via": "max-width",
+        "selector": "div.ai-page > div.ai-wrap > div.ai-bluebox > div.ai-bluebox__inner",
+        "tier": 4,
+        "share": 0.13,
+        "section": 1,
+        "w1": 800,
+        "maxWidth": "800px"
+      },
+      {
+        "kind": "module",
+        "px": 261,
+        "via": "fixed",
+        "selector": "div.ai-bluebox > div.ai-bluebox__inner > div.ai-bubbles > div.ai-bubble.ai-bubble--b1",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 261,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 261,
+        "via": "fixed",
+        "selector": "div.ai-bluebox > div.ai-bluebox__inner > div.ai-bubbles > div.ai-bubble.ai-bubble--b2",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 261,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 261,
+        "via": "fixed",
+        "selector": "div.ai-bluebox > div.ai-bluebox__inner > div.ai-bubbles > div.ai-bubble.ai-bubble--b3",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 261,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 261,
+        "via": "fixed",
+        "selector": "div.ai-bluebox > div.ai-bluebox__inner > div.ai-bubbles > div.ai-bubble.ai-bubble--b4",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 261,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 261,
+        "via": "fixed",
+        "selector": "div.ai-bluebox > div.ai-bluebox__inner > div.ai-bubbles > div.ai-bubble.ai-bubble--b5",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 261,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 396,
+        "via": "fixed",
+        "selector": "div.ai-bluebox > div.ai-bluebox__inner > div.ai-bubbles > div.ai-bubble.ai-bubble--b6",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 396,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 396,
+        "via": "fixed",
+        "selector": "div.ai-bluebox > div.ai-bluebox__inner > div.ai-bubbles > div.ai-bubble.ai-bubble--b7",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 396,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 374,
+        "via": "fixed",
+        "selector": "div.ai-coll > div.ai-coll__body > a.ai-coll__item.ai-coll__item--faq > span.ai-coll__label",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 374,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 323,
+        "via": "fixed",
+        "selector": "div.ai-coll > div.ai-coll__body > a.ai-coll__item.ai-coll__item--faq > span.ai-coll__label",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 323,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 306,
+        "via": "fixed",
+        "selector": "div.ai-coll > div.ai-coll__body > a.ai-coll__item.ai-coll__item--faq > span.ai-coll__label",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 306,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 291,
+        "via": "fixed",
+        "selector": "div.ai-coll > div.ai-coll__body > a.ai-coll__item.ai-coll__item--faq > span.ai-coll__label",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 291,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 306,
+        "via": "fixed",
+        "selector": "div.ai-coll > div.ai-coll__body > a.ai-coll__item.ai-coll__item--faq > span.ai-coll__label",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 306,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 307,
+        "via": "fixed",
+        "selector": "div.ai-coll > div.ai-coll__body > a.ai-coll__item.ai-coll__item--faq > span.ai-coll__label",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 307,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 258,
+        "via": "fixed",
+        "selector": "div.ai-coll > div.ai-coll__body > a.ai-coll__item.ai-coll__item--faq > span.ai-coll__label",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 258,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 388,
+        "via": "fixed",
+        "selector": "div.ai-coll > div.ai-coll__body > a.ai-coll__item.ai-coll__item--faq > span.ai-coll__label",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 388,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 337,
+        "via": "fixed",
+        "selector": "div.ai-coll > div.ai-coll__body > a.ai-coll__item.ai-coll__item--faq > span.ai-coll__label",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 337,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 331,
+        "via": "fixed",
+        "selector": "div.ai-page > div.ai-wrap > div.ai-testimonials > a.ai-tcard",
+        "tier": 4,
+        "share": 0.01,
+        "section": 1,
+        "w1": 331,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 331,
+        "via": "fixed",
+        "selector": "div.ai-page > div.ai-wrap > div.ai-testimonials > a.ai-tcard",
+        "tier": 4,
+        "share": 0.01,
+        "section": 1,
+        "w1": 331,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 331,
+        "via": "fixed",
+        "selector": "div.ai-page > div.ai-wrap > div.ai-testimonials > a.ai-tcard",
+        "tier": 4,
+        "share": 0.01,
+        "section": 1,
+        "w1": 331,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 294,
+        "via": "fixed",
+        "selector": "div.ai-tcard__text > span > p > strong",
+        "tier": 8,
+        "share": 0.01,
+        "section": 1,
+        "w1": 294,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 331,
+        "via": "fixed",
+        "selector": "div.ai-page > div.ai-wrap > div.ai-testimonials > a.ai-tcard",
+        "tier": 4,
+        "share": 0.01,
+        "section": 1,
+        "w1": 331,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 331,
+        "via": "fixed",
+        "selector": "div.ai-page > div.ai-wrap > div.ai-testimonials > a.ai-tcard",
+        "tier": 4,
+        "share": 0.01,
+        "section": 1,
+        "w1": 331,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 331,
+        "via": "fixed",
+        "selector": "div.ai-page > div.ai-wrap > div.ai-testimonials > a.ai-tcard",
+        "tier": 4,
+        "share": 0.01,
+        "section": 1,
+        "w1": 331,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 477,
+        "via": "fixed",
+        "selector": "div.ai-page > div.ai-wrap > div.ai-bottom > div.ai-bottom__item",
+        "tier": 4,
+        "share": 0.03,
+        "section": 1,
+        "w1": 477,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 527,
+        "via": "fixed",
+        "selector": "div.ai-page > div.ai-wrap > div.ai-bottom > div.ai-bottom__item",
+        "tier": 4,
+        "share": 0.03,
+        "section": 1,
+        "w1": 527,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 341,
+        "via": "fixed",
+        "selector": "div.ai-bottom__item > div.pc-only > a.ai-btn.ai-btn--coral > span",
+        "tier": 7,
+        "share": 0.01,
+        "section": 1,
+        "w1": 341,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1024,
+        "via": "max-width",
+        "selector": "body > main > div.pc-only > section.ai-contact",
+        "tier": 2,
+        "share": 0.12,
+        "section": 2,
+        "w1": 1024,
+        "maxWidth": "1024px"
+      },
+      {
+        "kind": "module",
+        "px": 312,
+        "via": "fixed",
+        "selector": "main > div.pc-only > section.ai-contact > div.ai-contact__cell.ai-contact__cell--wide",
+        "tier": 3,
+        "share": 0.06,
+        "section": 2,
+        "w1": 312,
+        "maxWidth": "30.5%"
+      },
+      {
+        "kind": "module",
+        "px": 312,
+        "via": "fixed",
+        "selector": "main > div.pc-only > section.ai-contact > div.ai-contact__cell.ai-contact__cell--wide",
+        "tier": 3,
+        "share": 0.06,
+        "section": 2,
+        "w1": 312,
+        "maxWidth": "30.5%"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "body > main > button.back-to-top",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "body > main > div.ai-page",
+        "px": 1024,
+        "capSelector": "body > main > div.ai-page > div.ai-wrap"
+      },
+      {
+        "index": 2,
+        "selector": "body > main > div.pc-only",
+        "px": 1024,
+        "capSelector": "body > main > div.pc-only > section.ai-contact"
+      },
+      {
+        "index": 3,
+        "selector": "body > main > div.ai-modal",
+        "px": null,
+        "capSelector": null
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1024,
+    "contentFrom": "module",
+    "maxCap": 1024,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 160
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 1024px = build 1024px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/4",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/4",
+        "detail": "1024px = 1024px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/4",
+        "detail": "1024px = 1024px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 4/4",
+        "detail": "full-bleed on both",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/about-insurance-2560/cap-iter.json"
+}

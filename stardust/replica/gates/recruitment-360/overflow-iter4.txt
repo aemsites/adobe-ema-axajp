@@ -1,0 +1,8 @@
+measure  http://localhost:8791/recruitment-proposed.html
+  widths 360 · 1 selector(s) · 1 props · first match
+
+@ 360px
+  root  scrollWidth   360  viewport 360  scrollHeight  12561
+  html
+       x     0  y      0  w   360  h   900  vis  "アクサ生命 採用サイト ENTRY 新卒採用 募集要項 中途採用 募集要項 障…"
+      display: block

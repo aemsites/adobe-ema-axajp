@@ -1,0 +1,11 @@
+{
+  "variantName": "testimonial-cards",
+  "baseBlock": "cards",
+  "canonicalModel": "cards",
+  "visualCharacteristics": "A row of image cards, each fully clickable, with a dark shade and the title overlaid on the photo.",
+  "contentPattern": "One row per card: a picture cell and a cell with a link paragraph whose text (in <strong>) is the card title.",
+  "options": [],
+  "usage": "Use to showcase customer testimonials or stories as linked image cards with overlaid titles.",
+  "reuseGuidance": "Reuse for linked photo cards with a short overlaid title; pick cards when the card needs body text below the image.",
+  "memberVariantIds": []
+}

@@ -1,0 +1,28 @@
+{
+  "variantName": "contact-links",
+  "baseBlock": "custom",
+  "canonicalModel": "contact-links",
+  "visualCharacteristics": "A row of contact boxes showing an eyebrow, a phone number, opening hours and a call-to-action, optionally followed by banner images or a list of links.",
+  "contentPattern": "Optional heading row (h2, no link); then one row per contact box with eyebrow, tel, hours and link paragraphs; trailing rows hold linked pictures (banners) or a list of links.",
+  "options": [
+    {
+      "class": "tel-boxes",
+      "label": "Tel Boxes"
+    },
+    {
+      "class": "pc-only",
+      "label": "PC Only"
+    },
+    {
+      "class": "card",
+      "label": "Card"
+    },
+    {
+      "class": "strip",
+      "label": "Strip"
+    }
+  ],
+  "usage": "Use to present phone contact points with hours and a contact CTA, plus related banners or links.",
+  "reuseGuidance": "Reuse wherever phone/contact information is shown in boxes; pick columns for generic multi-column content without phone details.",
+  "memberVariantIds": []
+}

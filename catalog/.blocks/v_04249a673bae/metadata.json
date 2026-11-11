@@ -1,0 +1,39 @@
+{
+  "id": "v_04249a673bae",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-11T04:30:04.395Z",
+  "sourceContext": {
+    "originUrl": "https://www.axa.co.jp/",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "noimg",
+    "purpose": "Cta consult",
+    "structure": "Cta consult block"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.axa.co.jp/",
+        "instanceId": "b07-cta-consult",
+        "instanceIds": [
+          "b07-cta-consult"
+        ],
+        "screenshot": ".pages/www_axa_co_jp--bd91ef97/blocks/b07-cta-consult.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/product",
+        "instanceId": "b08-cta-consult",
+        "instanceIds": [
+          "b08-cta-consult"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_product--dcee6c67/blocks/b08-cta-consult.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

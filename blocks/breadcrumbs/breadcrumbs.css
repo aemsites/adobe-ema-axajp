@@ -1,0 +1,391 @@
+/* breadcrumbs — content.css .breadcrumbs / .breadcrumbs__list */
+main > .section > .breadcrumbs-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.breadcrumbs {
+  width: 100%;
+  max-width: 1078px;
+  margin: 3.5rem auto 0;
+  padding: 0 0 0.875rem;
+}
+
+.breadcrumbs ul,
+.breadcrumbs ol {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 0.6563rem;
+  line-height: 1.5;
+}
+
+.breadcrumbs li {
+  display: inline-block;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.breadcrumbs li + li::before {
+  content: '>';
+  margin: 0 0.6563rem;
+}
+
+.breadcrumbs a:any-link {
+  color: var(--blue, #00008f);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+@media (width <= 767px) {
+  .breadcrumbs {
+    margin-top: 2.625rem;
+    padding: 0 0.875rem 0.875rem;
+  }
+}
+
+/* ---------- foundation override (stardust/rollout/foundation-requests.md, archetype-company):
+   content-template `band` sections — Prismic slice rhythm and text sizes for default content,
+   and the section styles wide / join / white-txt / notes / lead-txt / lead-l / spacer / empty /
+   rule-top* / rule-bottom*. Breadcrumbs is the one block every content-template page carries,
+   so the override rides it until the foundation has it. */
+body.content main > .section.band.wide {
+  max-width: none;
+}
+
+body.content main > .section.band.wide > div {
+  max-width: 1078px;
+  margin: 0 auto;
+}
+
+body.content main > .section.band .default-content-wrapper :is(h1, h2, h3, h4, p, ul, ol) {
+  margin: 1.0938rem 0;
+}
+
+body.content main > .section.band .default-content-wrapper p {
+  font-size: 0.9975rem;
+}
+
+body.content main > .section.band .default-content-wrapper em {
+  font-style: normal;
+  color: #00adc6;
+}
+
+body.content main > .section.band .default-content-wrapper :is(h1, h2, h3, h4) {
+  padding: 10px 10px 10px 0;
+  font-weight: 700;
+}
+
+body.content main > .section.band .default-content-wrapper :is(h1, h2) {
+  font-size: 1.75rem;
+}
+
+body.content main > .section.band.bordered-title .default-content-wrapper :is(h2, h3, h4) {
+  padding-left: 0.875rem;
+}
+
+/* white-txt: heading / intro bands on a band image; the heading keeps its blank first line */
+body.content main > .section.band.white-txt .default-content-wrapper {
+  color: #fff;
+}
+
+body.content main > .section.band.white-txt .default-content-wrapper p {
+  padding-left: 0.875rem;
+}
+
+body.content main > .section.band.white-txt .default-content-wrapper h2::before {
+  content: '';
+  display: block;
+  height: 1lh;
+}
+
+body.content main > .section.band.notes .default-content-wrapper p {
+  padding-left: 3.5rem;
+  font-size: 0.7rem;
+}
+
+body.content main > .section.band.lead-txt .default-content-wrapper p {
+  padding-left: 3.5rem;
+  font-size: 1.4875rem;
+}
+
+body.content main > .section.band.lead-l .default-content-wrapper p {
+  font-size: 1.4875rem;
+}
+
+/* join: continues the previous band (one Prismic band split where its text size changes) */
+body.content main > .section.band.join {
+  border-top-width: 0;
+  padding-top: 0;
+}
+
+body.content main > .section.band:has(+ .section.band.join) {
+  border-bottom-width: 0;
+  padding-bottom: 0;
+}
+
+body.content main > .section.band.join > div:first-child {
+  margin-top: -1.0938rem;
+}
+
+/* Prismic rules (transparent hr) at a band edge: 2 x hr margin + 1px instead of the slice gap */
+body.content main > .section.band.rule-top {
+  padding-top: calc(3.5rem + 1px - 1.0938rem);
+}
+
+body.content main > .section.band.rule-bottom {
+  padding-bottom: calc(3.5rem + 1px - 1.0938rem);
+}
+
+body.content main > .section.band.rule-bottom-l {
+  padding-bottom: calc(5.25rem + 1px - 1.0938rem);
+}
+
+body.content main > .section.band.spacer {
+  display: block;
+  height: calc(3.5rem + 5px);
+}
+
+body.content main > .section.band.empty {
+  display: block;
+  height: 4px;
+}
+
+@media (width <= 767px) {
+  body.content main > .section.band.white-txt .default-content-wrapper p {
+    padding-left: 1rem;
+  }
+
+  body.content main > .section.band.notes .default-content-wrapper p,
+  body.content main > .section.band.lead-txt .default-content-wrapper p {
+    padding-left: 4rem;
+  }
+}
+
+/* ---------- slash — prospect `.p-crumbs` (inline trail, orange `/`) ---------- */
+main > .section > .breadcrumbs-wrapper:has(> .breadcrumbs.slash) {
+  max-width: var(--container);
+  padding: 0 var(--gutter);
+}
+
+.breadcrumbs.slash {
+  max-width: none;
+  margin: 16px 0 48px;
+  padding: 0;
+}
+
+.breadcrumbs.slash :is(ul, ol) {
+  overflow: visible;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.breadcrumbs.slash li { display: inline; }
+.breadcrumbs.slash li + li::before { content: none; }
+
+.breadcrumbs.slash li::after {
+  content: '/';
+  margin: 0 8px;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.breadcrumbs.slash li:last-child::after { content: none; }
+
+.breadcrumbs.slash a:any-link {
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--blue);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.breadcrumbs.slash a:any-link:hover { color: var(--blue-hover); }
+
+@media (width <= 767px) {
+  .breadcrumbs.slash {
+    margin-top: 16px;
+    padding: 0;
+  }
+}
+
+/* prospect-hub template layer (foundation request): the page verification code above the trail
+   is right-aligned 14px (prospect.css `.p-verification`) */
+body.prospect-hub main > .section:has(.breadcrumbs.slash) .default-content-wrapper p {
+  display: flex;
+  justify-content: flex-end;
+  margin: 16px 0;
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+/* ---------- product-listing template layer (archetype-product; foundation request) ----------
+   product.css `.pl-content-layout--2`: one 1050px column (1078px / 14px gutters ≤767), every
+   block 1rem apart, 1rem below the header; breadcrumbs = the UI-kit `.bc` trail (orange `/`). */
+/* stylelint-disable no-descending-specificity -- template-scoped rules follow the base */
+body.product-listing main > .section:first-of-type { padding-top: 1rem; }
+
+body.product-listing main > .section > div {
+  max-width: 1050px;
+  margin: 0 auto 1rem;
+  padding: 0;
+}
+
+body.product-listing .breadcrumbs {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+body.product-listing .breadcrumbs :is(ul, ol) {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 8px;
+  overflow: visible;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+body.product-listing .breadcrumbs li {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+body.product-listing .breadcrumbs li + li::before { content: none; }
+
+body.product-listing .breadcrumbs li::after {
+  content: '/';
+  margin: 0 8px;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+body.product-listing .breadcrumbs li:last-child::after { content: none; }
+
+body.product-listing .breadcrumbs a:any-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--blue);
+  text-decoration: underline solid;
+  text-underline-offset: 4px;
+}
+
+body.product-listing .breadcrumbs a:any-link:hover { text-decoration: none; }
+
+@media (width <= 767px) {
+  body.product-listing main > .section > div {
+    max-width: 1078px;
+    padding: 0 0.875rem;
+  }
+
+  body.product-listing .breadcrumbs {
+    margin-top: 0;
+    padding: 0;
+  }
+}
+
+/* ---------- content-template sibling section styles (cluster-content; foundation request) ---
+   customer-feedback / about-axa / dataprivacy Prismic params the company page does not use:
+   fs-14 (Text slice 14px), ta-center / ta-right (slice alignment), h-ramp (headings without a
+   size param: the page-type ramp h2 1.4rem / h3 1.225rem), notes-list (※ List slice), gap-*
+   (a spacer rule opening a joined run), rule-top-s / rule-bottom-xl (0.875rem / 3.5rem edge
+   rules), outer-grey (OuterBackground #f2f5f8 behind a 1078px band), spacer-hero (about-axa key
+   visual: four 3.5rem rules = 312px over the band image). */
+body.content main > .section.band.fs-14 .default-content-wrapper :is(p, li) {
+  font-size: 14px;
+}
+
+/* paragraphs of one Text slice: 7px apart (live `p + p` margin-top 0.4375rem) */
+body.content main > .section.band.fs-14 .default-content-wrapper p:has(+ p) {
+  margin-bottom: 0;
+}
+
+body.content main > .section.band.fs-14 .default-content-wrapper p + p {
+  margin-top: 0.4375rem;
+}
+
+body.content main > .section.band.ta-center .default-content-wrapper {
+  text-align: center;
+}
+
+body.content main > .section.band.ta-right .default-content-wrapper {
+  text-align: right;
+}
+
+body.content main > .section.band.h-ramp .default-content-wrapper h2 {
+  font-size: 1.4rem;
+}
+
+body.content main > .section.band.h-ramp .default-content-wrapper h3 {
+  font-size: 1.225rem;
+}
+
+body.content main > .section.band.notes-list .default-content-wrapper ul {
+  padding-left: 0;
+  font-size: 0.7rem;
+  color: #000;
+}
+
+body.content main > .section.band.notes-list .default-content-wrapper li {
+  display: flex;
+  margin-top: 0.4375rem;
+  font-size: 0.7rem;
+  list-style: none;
+}
+
+body.content main > .section.band.notes-list .default-content-wrapper li:first-child {
+  margin-top: 0;
+}
+
+body.content main > .section.band.notes-list .default-content-wrapper li::before {
+  content: '※';
+  margin-right: 0.875rem;
+}
+
+body.content main > .section.band.join.gap-s {
+  padding-top: calc(1.0938rem + 1px);
+}
+
+body.content main > .section.band.join.gap-m {
+  padding-top: calc(3.5rem + 1px - 1.0938rem);
+}
+
+body.content main > .section.band.join.gap-l {
+  padding-top: calc(5.25rem + 1px - 1.0938rem);
+}
+
+body.content main > .section.band.rule-top-s {
+  padding-top: calc(1.0938rem + 1px);
+}
+
+body.content main > .section.band.rule-bottom-xl {
+  padding-bottom: calc(7rem + 1px - 1.0938rem);
+}
+
+body.content main > .section.band.outer-grey {
+  border-image: linear-gradient(rgb(242 245 248) 0 0) fill 0 / 0 / 0 100vmax;
+}
+
+body.content main > .section.band.spacer-hero {
+  display: block;
+  height: 312px;
+}
+
+/* sr-h1: a page whose live title is inside the key-visual image (about-axa) carries its page
+   name as a visually hidden h1 */
+body.content main > .section.band.sr-h1 h1 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}

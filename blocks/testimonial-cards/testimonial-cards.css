@@ -1,0 +1,71 @@
+/* testimonial-cards — about-insurance `.ai-testimonials` / `.ai-tcard` */
+.testimonial-cards {
+  display: inline-grid;
+  gap: 1rem;
+  min-width: 100%;
+  align-items: stretch;
+  grid-template-columns: auto auto auto;
+}
+
+@media (width <= 767px) {
+  .testimonial-cards { grid-template-columns: auto auto; }
+}
+
+.testimonial-cards .testimonial-cards-card {
+  position: relative;
+  display: block;
+  width: auto;
+  height: auto;
+  margin-bottom: 2rem;
+  border: solid #ccc;
+  border-width: 1px 1px 2px;
+  color: #000;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+@media (width <= 767px) {
+  .testimonial-cards .testimonial-cards-card { margin-bottom: 1rem; }
+}
+
+.testimonial-cards .testimonial-cards-card:hover { color: var(--blue); }
+
+.testimonial-cards .testimonial-cards-image img {
+  width: 100%;
+  height: auto;
+}
+
+.testimonial-cards .testimonial-cards-shade {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding-bottom: 77%;
+}
+
+.testimonial-cards .testimonial-cards-card:hover .testimonial-cards-shade {
+  background-color: rgb(0 129 255 / 30%);
+}
+
+.testimonial-cards .testimonial-cards-text {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  padding: 4% 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1;
+  font-weight: 700;
+  background-color: rgb(255 255 255 / 50%);
+}
+
+.testimonial-cards .testimonial-cards-text p {
+  margin: 0;
+}
+
+@media (width <= 800px) {
+  .testimonial-cards .testimonial-cards-text { font-size: 0.6125rem; }
+}
+
+.testimonial-cards .testimonial-cards-card:hover .testimonial-cards-text {
+  background: #fff url('https://www.axa.co.jp/images/about-insurance/triangle-dark.png') right bottom / 28px auto no-repeat;
+}

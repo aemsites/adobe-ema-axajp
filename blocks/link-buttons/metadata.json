@@ -1,0 +1,16 @@
+{
+  "variantName": "link-buttons",
+  "baseBlock": "custom",
+  "canonicalModel": "link-buttons",
+  "visualCharacteristics": "A list of full-width bordered link buttons with arrow icons, optionally under a heading with an icon. Variants show a grey band with a white two-column list, grouped buttons under sub-headings, chevron category boxes, or outline buttons in a two-column grid.",
+  "contentPattern": "Optional head row: [icon picture?] [h2/h3 heading]. One row per button: [link paragraph] [sub-text paragraph?]. For grouped layouts, one row per group: [h3/h4 group title] [link paragraphs]. In the outline variant, emphasised links become outline buttons and a plain link becomes a right-aligned text link; in the category variant each link becomes a chevron box.",
+  "options": [
+    { "class": "white", "label": "White" },
+    { "class": "grouped", "label": "Grouped" },
+    { "class": "category", "label": "Category" },
+    { "class": "outline", "label": "Outline" }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use it for a set of navigation links shown as arrow buttons, such as contractor procedures or product category links.",
+  "reuseGuidance": "Reuse it for any button-styled link list; pick cards or product-cards when each link needs an image and description."
+}

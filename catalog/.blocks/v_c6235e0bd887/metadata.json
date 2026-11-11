@@ -1,0 +1,31 @@
+{
+  "id": "v_c6235e0bd887",
+  "type": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-11T04:30:04.395Z",
+  "sourceContext": {
+    "originUrl": "https://www.axa.co.jp/",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "noimg",
+    "purpose": "Hero carousel",
+    "structure": "Hero carousel block"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.axa.co.jp/",
+        "instanceId": "b01-hero-carousel",
+        "instanceIds": [
+          "b01-hero-carousel"
+        ],
+        "screenshot": ".pages/www_axa_co_jp--bd91ef97/blocks/b01-hero-carousel.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

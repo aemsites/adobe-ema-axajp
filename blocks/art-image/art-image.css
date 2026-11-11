@@ -1,0 +1,96 @@
+/* art-image — content.css .slice-media (PC/SP image pair, optional link) */
+.art-image {
+  margin: 1.0938rem 0;
+}
+
+.art-image .art-image-frame,
+.art-image .art-image-link {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.art-image.center .art-image-frame,
+.art-image.center .art-image-link {
+  justify-content: center;
+}
+
+.art-image.right .art-image-frame,
+.art-image.right .art-image-link {
+  justify-content: flex-end;
+}
+
+.art-image picture,
+.art-image img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.art-image.indent .art-image-pc img {
+  width: auto;
+  padding-left: 3.5rem;
+}
+
+.art-image.indent-s .art-image-pc img {
+  width: auto;
+  padding-left: 1.75rem;
+}
+
+.art-image .art-image-sp {
+  display: none;
+}
+
+@media (width <= 767px) {
+  .art-image.sp-left .art-image-frame,
+  .art-image.sp-left .art-image-link {
+    justify-content: flex-start;
+  }
+
+  .art-image.sp-center .art-image-frame,
+  .art-image.sp-center .art-image-link {
+    justify-content: center;
+  }
+
+  .art-image.sp-right .art-image-frame,
+  .art-image.sp-right .art-image-link {
+    justify-content: flex-end;
+  }
+
+  .art-image .art-image-pc {
+    display: none;
+  }
+
+  .art-image .art-image-sp {
+    display: block;
+  }
+}
+
+/* banner — home `.home-banner` (full-width cover image, 280px at PC) */
+.art-image.banner { margin: 0 0 40px; }
+
+.art-image.banner :is(.art-image-pc, .art-image-sp, .art-image-one),
+.art-image.banner picture { width: 100%; }
+
+.art-image.banner :is(.art-image-pc, .art-image-sp, .art-image-one) img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+@media (width <= 767px) {
+  .art-image.banner :is(.art-image-pc, .art-image-sp, .art-image-one) img {
+    height: auto;
+    aspect-ratio: 564 / 312;
+  }
+}
+
+/* collapsed — live parity (about-axa CEO banner, cluster-content): the source SVG carries only a
+   viewBox, so in its flex row the image renders 0 x 0 at both widths; the link stays in place */
+.art-image.collapsed :is(.art-image-pc, .art-image-sp, .art-image-one) img {
+  width: 0;
+  height: 0;
+}
+
+.art-image.collapsed :is(.art-image-pc, .art-image-sp, .art-image-one) {
+  line-height: 0;
+}

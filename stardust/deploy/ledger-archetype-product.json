@@ -1,0 +1,11 @@
+{
+  "/product": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-09T10:29:05.816Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

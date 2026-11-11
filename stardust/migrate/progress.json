@@ -1,0 +1,55 @@
+{
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "home",
+        "prospect-hub",
+        "product-listing",
+        "insurance-guide",
+        "customer-hub",
+        "recruitment",
+        "content"
+      ],
+      "pages": 10,
+      "startedAt": "2026-11-09T07:25:09Z",
+      "endedAt": "2026-11-09T07:25:09Z",
+      "verdict": "archetypes rendered first (approved-page branch); content siblings render after the content archetype unit is done in C-deliver"
+    },
+    "render-archetypes": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "home",
+        "prospect-hub",
+        "product-listing",
+        "insurance-guide",
+        "customer-hub",
+        "recruitment",
+        "content"
+      ],
+      "pages": 7,
+      "startedAt": "2026-11-09T07:25:09Z",
+      "endedAt": "2026-11-09T07:25:23.164Z",
+      "verdict": "rendered 7, unchanged 0, refused 0, passthrough 0 (product re-run after renaming the live select-state attr data-placeholder → data-empty)"
+    },
+    "content": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "content"
+      ],
+      "pages": 3,
+      "startedAt": "2026-11-09T10:47:28Z",
+      "endedAt": "2026-11-09T11:35:57Z",
+      "verdict": "rendered 3, unchanged 0, refused 0 (sibling tier, company encoder; content-count 0 dropped)"
+    },
+    "report": {
+      "status": "pending",
+      "kind": "report",
+      "templates": [],
+      "pages": 10
+    }
+  }
+}

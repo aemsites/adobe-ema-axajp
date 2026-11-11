@@ -1,0 +1,407 @@
+{
+  "url": "https://www.axa.co.jp/prospect/",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3613,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2113,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": "[class*=\"JumpSection-styles__Tab\"]",
+      "frames": [
+        {
+          "t": 18281.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 18484.60000000056,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 18687.60000000056,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 18889.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": "[class*=\"ProductsSection-styles__Tile\"]",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 143)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(0, 0, 143)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 143)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(0, 0, 143)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": "[class*=\"LinkSet__GrowableLink\"]",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 143)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 143)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "[class*=\"JumpSection-styles__Tab\"]",
+      "changed": [
+        "self.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 143)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 109)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "opacity",
+        "el": "html > body > div > main > div.BackToTop-styles__BackToTopWrapper-sc-1f5495b9-0.jMiNFJ",
+        "y": 400,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > div > main > div.BackToTop-styles__BackToTopWrapper-sc-1f5495b9-0.foqcIw",
+        "y": 90,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > div > main > div.BackToTop-styles__BackToTopWrapper-sc-1f5495b9-0.jMiNFJ",
+        "y": 929,
+        "dur": "0.3s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "jMiNFJ"
+        ],
+        "el": "html > body > div > main > div.BackToTop-styles__BackToTopWrapper-sc-1f5495b9-0.jMiNFJ",
+        "y": 400
+      },
+      {
+        "added": [
+          "foqcIw"
+        ],
+        "el": "html > body > div > main > div.BackToTop-styles__BackToTopWrapper-sc-1f5495b9-0.foqcIw",
+        "y": 90
+      },
+      {
+        "added": [
+          "jMiNFJ"
+        ],
+        "el": "html > body > div > main > div.BackToTop-styles__BackToTopWrapper-sc-1f5495b9-0.jMiNFJ",
+        "y": 929
+      }
+    ]
+  }
+}

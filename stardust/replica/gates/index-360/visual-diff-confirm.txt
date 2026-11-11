@@ -1,0 +1,1037 @@
+[live-session] waiting to pace live navigations to www.axa.co.jp (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/index-360/vdiff-confirm/
+
+build red flags (advisory): 
+  • FONT MISMATCH: heading "さまざまな保険相談サービス" wants "Noto Sans JP" but it did NOT load in build (silent fallback). A named face loaded in the source but not the build — load the missing face.
+  • HEADING FACE: <h2> "アクサ生命の保険商品" is 24px Noto Sans JP in build vs 28px Noto Sans JP in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "保険シミュレーション" is 24px Noto Sans JP in build vs 28px Noto Sans JP in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "アクサ生命の強み" is 24px Noto Sans JP in build vs 28px Noto Sans JP in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "アクサ生命のパートナーのみなさま" is 24px Noto Sans JP in build vs 28px Noto Sans JP in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • IMAGE DID NOT LOAD: R2penVtt5SggQweX_Life_TOP_KV_Carousel2026_deduction-certificate_pc.png?auto=format,compress rendered 360x239 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 8053,
+  "textLen": 1959,
+  "images": [
+   {
+    "src": "PSv6pxoNkLUksYl7_Life_TOP_KV_Carousel2026_MyAXACampaign_sp.png?auto=format,compress",
+    "natural": "1504x1000",
+    "rendered": "360x239",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "uMtE_Oc_7Q5U2aKO_Life_TOP_KV_Carousel2026_MyAXACampaign_pc.png?auto=format,compress",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "xr6-J87aKBIeTETZ_Life_TOP_KV_Carousel_kumamoto_sp.jpg?auto=format,compress",
+    "natural": "1504x1000",
+    "rendered": "360x239",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ObXVh5DiYC8OIR1x_Life_TOP_KV_Carousel_kumamoto_pc.jpg?auto=format,compress",
+    "natural": "2156x840",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "NAmDBB2Xw6-M36VU_Life_TOP_KV_Carousel2026_deduction-certificate_sp.png?auto=format,compress",
+    "natural": "1504x1000",
+    "rendered": "360x239",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "R2penVtt5SggQweX_Life_TOP_KV_Carousel2026_deduction-certificate_pc.png?auto=format,compress",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "NPMuIM5pKgcg5ZOS_Life_TOP_KV_Carousel2026_WWA2026_sp.jpg?auto=format,compress",
+    "natural": "1504x1000",
+    "rendered": "360x239",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "q1IzGHyjmtI6r1Iy_Life_TOP_KV_Carousel2026_WWA2026_pc.jpg?auto=format,compress",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aW8V7wIvOtkhBuRR_Life_TOP_KV_Carousel2026_UL_sp.jpg?auto=format,compress",
+    "natural": "1504x1000",
+    "rendered": "360x239",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aW8V8AIvOtkhBuRS_Life_TOP_KV_Carousel2026_UL_pc.jpg?auto=format,compress",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "acHYxJGXnQHGY4Qt_Life_TOP_KV_Carousel2026_FA_sp.jpg?auto=format,compress",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "acHYxJGXnQHGY4Qs_Life_TOP_KV_Carousel2026_FA_pc.jpg?auto=format,compress",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "acn-IpGXnQHGZFIR_Life_TOP_KV_Carousel2026_hpm_sp.jpg?auto=format,compress",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "acn-IZGXnQHGZFIQ_Life_TOP_KV_Carousel2026_hpm_pc.jpg?auto=format,compress",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "PSv6pxoNkLUksYl7_Life_TOP_KV_Carousel2026_MyAXACampaign_sp.png?auto=format,compress",
+    "natural": "1504x1000",
+    "rendered": "360x239",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "uMtE_Oc_7Q5U2aKO_Life_TOP_KV_Carousel2026_MyAXACampaign_pc.png?auto=format,compress",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "xr6-J87aKBIeTETZ_Life_TOP_KV_Carousel_kumamoto_sp.jpg?auto=format,compress",
+    "natural": "1504x1000",
+    "rendered": "360x239",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ObXVh5DiYC8OIR1x_Life_TOP_KV_Carousel_kumamoto_pc.jpg?auto=format,compress",
+    "natural": "2156x840",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "StrengthsBannerSp.png",
+    "natural": "564x312",
+    "rendered": "360x199",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmS0rpReVYa3-4U_LP_bottom_1148x592-2.jpg?auto=format,compress",
+    "natural": "1148x592",
+    "rendered": "296x153",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmS07pReVYa3-4V_hpm_banner_574x296.png?auto=format,compress",
+    "natural": "574x296",
+    "rendered": "138x71",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmS1LpReVYa3-4W_f7f1a8ac58176b4fedca53a2b7cd805f443017b4_banner-ameasa.jpg?auto=format,compress",
+    "natural": "574x296",
+    "rendered": "138x71",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmS1rpReVYa3-4X_100-years-recomendation.png?auto=format,compress",
+    "natural": "346x179",
+    "rendered": "138x72",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmS17pReVYa3-4Y_ac1c2bfcbc5cb5e9f34c45fcac089dadc790a91b_13dc17538ab9dc84c662f6c9c3968fa2212548a5_partner_banners_tebiki.png?auto=format%2Ccompress&rect=0%2C0%2C197%2C61&w=197&h=61",
+    "natural": "197x61",
+    "rendered": "142x43",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmS2LpReVYa3-4Z_d570b5316a879890d91cf9497a1b7d59ddcb69b2_edadae708cfc6f96b2b7845f18aa00faff4b4ed7_partner_banners_seikyutebiki.png?auto=format,compress",
+    "natural": "198x61",
+    "rendered": "142x43",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmS2bpReVYa3-4a_5ea990fcb2ade362a967400e0f2f6af63ab8e823_d5c969de70d2384746d1e13d2854f1dcd299ed11_partner_banners_e-tax.png?auto=format,compress",
+    "natural": "198x61",
+    "rendered": "142x43",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmS2rpReVYa3-4b_0527banner_02.png?auto=format%2Ccompress&rect=0%2C0%2C197%2C61&w=197&h=61",
+    "natural": "197x61",
+    "rendered": "142x43",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ln_logo.png",
+    "natural": "318x270",
+    "rendered": "24x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=97045623&Ver=2&mid=af973fb0-4292-46fb-ad4f-720290f08bca&bo=1&sid=38980240dbfb11f1acc1311e4dda32ec&vid=38985140dbfb11f1adebe395bb3d1d69&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=360&sh=1000&sc=24&tl=%E3%82%A2%E3%82%AF%E3%82%B5%E7%94%9F%E5%91%BD%E4%BF%9D%E9%99%BA%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE&kw=%E7%94%9F%E5%91%BD%E4%BF%9D%E9%99%BA,%E5%8C%BB%E7%99%82%E4%BF%9D%E9%99%BA,%E3%81%8C%E3%82%93%E4%BF%9D%E9%99%BA,%E6%AD%BB%E4%BA%A1%E4%BF%9D%E9%99%BA,%E6%8C%81%E7%97%85,%E4%BF%9D%E9%99%BA,AXA,%E3%82%A2%E3%82%AF%E3%82%B5,%E3%81%82%E3%81%8F%E3%81%95&p=https%3A%2F%2Fwww.axa.co.jp%2F&r=&lt=973&evt=pageLoad&sv=2&cdb=AQAA&rn=730812",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "ot_company_logo.png",
+    "natural": "2042x280",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "アクサ生命の保険商品",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "28px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "アクサ生命の保険商品",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "変額保険",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "16px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "変額保険",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "16px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "死亡保険",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "16px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "医療保険",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "16px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "がん保険",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "16px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "女性向け",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "16px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "持病のある方",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "16px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "介護保険",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "16px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "保険シミュレーション",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "28px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "保険シミュレーション",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "オンライン/対面で相談したい方",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "18px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "パンフレットをお求めの方",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "15.008px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "気軽に質問をしたい方",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "15.008px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "アクサ生命の強み",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "28px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "アクサ生命の強み",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "欧州で200年、日本で90年の歴史と実績",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "20px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "世界基準の資産運用と多様な変額保険",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "20px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "専門家が寄り添うライフマネジメント®",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "20px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "さまざまな保険相談サービス",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "28px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "さまざまな保険相談サービス",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h1",
+    "text": "オンライン/対面で相談したい方",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "18px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "パンフレットをお求めの方",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "15.008px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "気軽に質問をしたい方",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "15.008px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "アクサ生命のパートナーのみなさま",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "28px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "アクサ生命のパートナーのみなさま",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "ニュースリリース",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "18px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "重要なお知らせ",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "18px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "おすすめコンテンツ",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "18px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Follow AXA",
+    "color": "rgb(52, 60, 61)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "ImportantNotice-styles__ListContent-sc-22f08b9c-2",
+    "width": 264,
+    "left": 48
+   },
+   {
+    "sel": "SectionTitle-styles__SpTitleHeading-sc-6dd2176b-3",
+    "width": 239,
+    "left": 61
+   },
+   {
+    "sel": "ImageFrame-styles__LinkWrapper-sc-739377ab-4",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "AxaProducts-styles__ProductsWrap-sc-720d20e1-0",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "ButtonUI2025-styles__LinkUI2025Base-sc-fc6e385e-1",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "SectionTitle-styles__SpTitleHeading-sc-6dd2176b-3",
+    "width": 239,
+    "left": 60
+   },
+   {
+    "sel": "grid",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "ButtonUI2025-styles__LinkUI2025Base-sc-fc6e385e-1",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "ButtonUI2025-styles__LinkUI2025Base-sc-fc6e385e-1",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "ButtonUI2025-styles__ButtonTextWrapper-sc-fc6e385e-2",
+    "width": 232,
+    "left": 64
+   },
+   {
+    "sel": "SectionTitle-styles__SectionTitleWrap-sc-6dd2176b-2",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "StrengthsFrame-styles__TitleWrap-sc-c353a12a-1",
+    "width": 296,
+    "left": 32
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 8054,
+  "textLen": 1919,
+  "images": [
+   {
+    "src": "xr6-J87aKBIeTETZ_Life_TOP_KV_Carousel_kumamoto_sp.jpg?auto=format,compress",
+    "natural": "1504x1000",
+    "rendered": "360x239",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "R2penVtt5SggQweX_Life_TOP_KV_Carousel2026_deduction-certificate_pc.png?auto=format,compress",
+    "natural": "0x0",
+    "rendered": "360x239",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "NPMuIM5pKgcg5ZOS_Life_TOP_KV_Carousel2026_WWA2026_sp.jpg?auto=format,compress",
+    "natural": "1504x1000",
+    "rendered": "360x239",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aW8V7wIvOtkhBuRR_Life_TOP_KV_Carousel2026_UL_sp.jpg?auto=format,compress",
+    "natural": "1504x1000",
+    "rendered": "360x239",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "acHYxJGXnQHGY4Qt_Life_TOP_KV_Carousel2026_FA_sp.jpg?auto=format,compress",
+    "natural": "1504x1000",
+    "rendered": "360x239",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "acn-IpGXnQHGZFIR_Life_TOP_KV_Carousel2026_hpm_sp.jpg?auto=format,compress",
+    "natural": "1504x1000",
+    "rendered": "360x239",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "PSv6pxoNkLUksYl7_Life_TOP_KV_Carousel2026_MyAXACampaign_sp.png?auto=format,compress",
+    "natural": "1504x1000",
+    "rendered": "360x239",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "StrengthsBannerSp.png",
+    "natural": "564x312",
+    "rendered": "360x199",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmS0rpReVYa3-4U_LP_bottom_1148x592-2.jpg?auto=format,compress",
+    "natural": "1148x592",
+    "rendered": "296x153",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmS07pReVYa3-4V_hpm_banner_574x296.png?auto=format,compress",
+    "natural": "574x296",
+    "rendered": "138x71",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmS1LpReVYa3-4W_f7f1a8ac58176b4fedca53a2b7cd805f443017b4_banner-ameasa.jpg?auto=format,compress",
+    "natural": "574x296",
+    "rendered": "138x71",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmS1rpReVYa3-4X_100-years-recomendation.png?auto=format,compress",
+    "natural": "346x179",
+    "rendered": "138x71",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmS17pReVYa3-4Y_ac1c2bfcbc5cb5e9f34c45fcac089dadc790a91b_13dc17538ab9dc84c662f6c9c3968fa2212548a5_partner_banners_tebiki.png?auto=format%2Ccompress&rect=0%2C0%2C197%2C61&w=197&h=61",
+    "natural": "197x61",
+    "rendered": "142x43",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmS2LpReVYa3-4Z_d570b5316a879890d91cf9497a1b7d59ddcb69b2_edadae708cfc6f96b2b7845f18aa00faff4b4ed7_partner_banners_seikyutebiki.png?auto=format,compress",
+    "natural": "198x61",
+    "rendered": "142x43",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmS2bpReVYa3-4a_5ea990fcb2ade362a967400e0f2f6af63ab8e823_d5c969de70d2384746d1e13d2854f1dcd299ed11_partner_banners_e-tax.png?auto=format,compress",
+    "natural": "198x61",
+    "rendered": "142x43",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmS2rpReVYa3-4b_0527banner_02.png?auto=format%2Ccompress&rect=0%2C0%2C197%2C61&w=197&h=61",
+    "natural": "197x61",
+    "rendered": "142x43",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ln_logo.png",
+    "natural": "318x270",
+    "rendered": "24x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "アクサ生命の保険商品",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "アクサ生命の保険商品",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "変額保険",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "16px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "変額保険",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "16px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "死亡保険",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "16px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "医療保険",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "16px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "がん保険",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "16px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "女性向け",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "16px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "持病のある方",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "16px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "介護保険",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "16px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "保険シミュレーション",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "保険シミュレーション",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "オンライン/対面で相談したい方",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "18px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "パンフレットをお求めの方",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "15px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "気軽に質問をしたい方",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "15px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "アクサ生命の強み",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "アクサ生命の強み",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "欧州で200年、日本で90年の歴史と実績",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "20px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "世界基準の資産運用と多様な変額保険",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "20px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "専門家が寄り添うライフマネジメント®",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "20px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "さまざまな保険相談サービス",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "さまざまな保険相談サービス",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "オンライン/対面で相談したい方",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "18px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "パンフレットをお求めの方",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "15px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "気軽に質問をしたい方",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "15px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "アクサ生命のパートナーのみなさま",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "アクサ生命のパートナーのみなさま",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "ニュースリリース",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "18px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "重要なお知らせ",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "18px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "おすすめコンテンツ",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "18px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Follow AXA",
+    "color": "rgb(52, 60, 61)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "notice__list",
+    "width": 264,
+    "left": 48
+   },
+   {
+    "sel": "product__head",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "products__grid",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "cta-consult__sub",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "cta-consult__sub",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "strength__tile",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "strength__body",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "strength__tile",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "strength__body",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "strength__tile",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "strength__body",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "consult",
+    "width": 296,
+    "left": 32
+   }
+  ]
+ }
+}

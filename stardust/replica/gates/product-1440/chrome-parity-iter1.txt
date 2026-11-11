@@ -1,0 +1,10 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.axa.co.jp/product/
+  build: http://localhost:8791/product-proposed.html
+
+■ header: ✓ parity — 9 paired of 9/9 texts, 3/3 icons
+
+■ footer: ✓ parity — 63 paired of 63/63 texts, 6/6 icons
+  OFFSET       the region and its 63 paired text(s) sit Δy -160px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+
+✓ chrome parity within tolerance — run crop-compare (pass bar item 5) to confirm in pixels.

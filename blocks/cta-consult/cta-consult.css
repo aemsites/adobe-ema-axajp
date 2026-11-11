@@ -1,0 +1,404 @@
+/* cta-consult — canon `.cta-consult` (consultation CTA panel) */
+.cta-consult {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 0;
+}
+
+.cta-consult .cta-consult-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 750px;
+  max-width: 100%;
+  color: var(--text-strong);
+}
+
+.cta-consult .cta-consult-title :is(h1, h2, h3) {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.cta-consult .cta-consult-main {
+  position: relative;
+  width: 100%;
+}
+
+.cta-consult .cta-consult-main::after {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 552px;
+  width: 66px;
+  height: 66px;
+  background: url('./woman.svg') left top / 100% auto no-repeat;
+  pointer-events: none;
+}
+
+.cta-consult .cta-consult-main a:any-link {
+  display: flex;
+  max-width: none;
+}
+
+.cta-consult .cta-consult-btn-text {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+}
+
+.cta-consult .cta-consult-main .cta-consult-btn-text {
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.cta-consult .cta-consult-main br { display: none; }
+
+.cta-consult a:any-link em {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 20px;
+}
+
+.cta-consult .cta-consult-subs {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+
+.cta-consult .cta-consult-sub {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.cta-consult .cta-consult-subtitle :is(h2, h3, h4) {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.cta-consult .cta-consult-cta { width: 100%; }
+.cta-consult .cta-consult-sub a:any-link { max-width: none; }
+
+/* phone (PC): number on its own line (canon .btn__sub) */
+.cta-consult .cta-consult-cta-pc .cta-consult-btn-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta-consult .cta-consult-cta-pc a:any-link em {
+  display: block;
+  font-size: 16px;
+  line-height: 20.8px;
+}
+
+.cta-consult .cta-consult-cta-sp { display: none; }
+
+/* sub-CTA icons: brochure document, phone (canon btn__icon) */
+.cta-consult .cta-consult-sub a:any-link::after {
+  mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8 18H16V16H8V18ZM8 14H16V12H8V14ZM6 22C5.45 22 4.97917 21.8042 4.5875 21.4125C4.19583 21.0208 4 20.55 4 20V4C4 3.45 4.19583 2.97917 4.5875 2.5875C4.97917 2.19583 5.45 2 6 2H14L20 8V20C20 20.55 19.8042 21.0208 19.4125 21.4125C19.0208 21.8042 18.55 22 18 22H6ZM13 9V4H6V20H18V9H13Z"/></svg>');
+}
+
+.cta-consult .cta-consult-tel a:any-link::after {
+  mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.01 15.381C18.78 15.381 17.59 15.181 16.48 14.821C16.13 14.701 15.74 14.791 15.47 15.061L13.9 17.031C11.07 15.681 8.42 13.131 7.01 10.201L8.96 8.54098C9.23 8.26098 9.31 7.87098 9.2 7.52098C8.83 6.41098 8.64 5.22098 8.64 3.99098C8.64 3.45098 8.19 3.00098 7.65 3.00098H4.19C3.65 3.00098 3 3.24098 3 3.99098C3 13.281 10.73 21.001 20.01 21.001C20.72 21.001 21 20.371 21 19.821V16.371C21 15.831 20.55 15.381 20.01 15.381Z"/></svg>');
+}
+
+.cta-consult .cta-consult-note p {
+  display: inline-block;
+  margin: 0 4px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: var(--grey-500);
+  text-align: center;
+}
+
+.cta-consult .cta-consult-note {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 8px;
+}
+
+.cta-consult .cta-consult-note p:first-child,
+.cta-consult .cta-consult-note p:last-child { margin: 0; }
+
+@media (width <= 767px) {
+  .cta-consult { margin: 48px 0; }
+  .cta-consult .cta-consult-inner { width: 100%; }
+
+  .cta-consult .cta-consult-title :is(h1, h2, h3) {
+    margin-bottom: -4px;
+    line-height: 23.4px;
+  }
+
+  .cta-consult .cta-consult-btn-text { font-size: 16px; }
+
+  .cta-consult .cta-consult-main a:any-link {
+    justify-content: flex-start;
+    height: 100px;
+    margin: 0;
+    padding: 24.96px 128px 24.96px 32px;
+  }
+
+  .cta-consult .cta-consult-main .cta-consult-btn-text {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+  }
+
+  .cta-consult .cta-consult-main a:any-link::after { display: none; }
+  .cta-consult .cta-consult-main br { display: inline; }
+
+  .cta-consult .cta-consult-main a:any-link em {
+    display: inline;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .cta-consult .cta-consult-main::after {
+    top: 12px;
+    left: auto;
+    right: 24px;
+    width: 88px;
+    height: 88px;
+  }
+
+  .cta-consult .cta-consult-subs {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .cta-consult .cta-consult-subtitle :is(h2, h3, h4) {
+    font-size: 15px;
+    line-height: 19.5px;
+  }
+
+  .cta-consult .cta-consult-sub a:any-link { margin: 0; }
+  .cta-consult .cta-consult-sub a:any-link em { font-size: 14px; }
+  .cta-consult .cta-consult-cta-pc { display: none; }
+  .cta-consult .cta-consult-cta-sp { display: block; }
+}
+
+/* two-up — product `.cons-wrap` (phone / face-to-face boxes in a 3px blue frame) */
+/* stylelint-disable no-descending-specificity -- variant rules follow the base rules */
+.cta-consult.two-up {
+  display: block;
+  margin: 0;
+}
+
+.cta-consult.two-up .cta-consult-blocks {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 6%;
+  border: 3px solid var(--blue);
+}
+
+.cta-consult.two-up .cta-consult-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding: 1rem 4%;
+}
+
+.cta-consult.two-up .cta-consult-block > div { margin-bottom: 1rem; }
+
+.cta-consult.two-up .cta-consult-block-title :is(h2, h3, h4) {
+  font-size: 1.75rem;
+  color: var(--blue);
+  text-align: center;
+}
+
+.cta-consult.two-up .cta-consult-block-img { width: 100%; }
+.cta-consult.two-up .cta-consult-block-img img { width: 100%; }
+
+.cta-consult.two-up .cta-consult-block-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text);
+  text-align: left;
+}
+
+.cta-consult.two-up .cta-consult-block-cta a:any-link {
+  display: inline-flex;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  overflow: hidden;
+  border: 2px solid var(--blue);
+  border-radius: 4px;
+  background-color: var(--blue);
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cta-consult.two-up .cta-consult-block-cta a:any-link:hover {
+  background-color: #00006d;
+  border-color: #00006d;
+}
+
+.cta-consult.two-up .cta-consult-phone-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.4rem;
+  width: 100%;
+}
+
+.cta-consult.two-up .cta-consult-phone {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.cta-consult.two-up .cta-consult-phone-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta-consult.two-up .cta-consult-phone-number a:any-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  color: var(--blue);
+  font-size: 1.75rem;
+  text-decoration: none;
+}
+
+.cta-consult.two-up .cta-consult-phone-number em {
+  font-size: 0.9975rem;
+  font-style: normal;
+}
+
+.cta-consult.two-up :is(.cta-consult-phone-pc-icon, .cta-consult-contract-number) svg {
+  width: 24px;
+  height: 24px;
+  fill: currentcolor;
+}
+
+.cta-consult.two-up .cta-consult-phone-hours p,
+.cta-consult.two-up .cta-consult-contract-hours p { font-size: 0.7875rem; }
+.cta-consult.two-up .cta-consult-phone-hours { text-align: center; }
+.cta-consult.two-up .cta-consult-phone-sp { display: none; }
+
+.cta-consult.two-up .cta-consult-contract {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.1rem;
+  width: 100%;
+}
+
+.cta-consult.two-up .cta-consult-contract-line {
+  display: flex;
+  gap: 1rem;
+}
+
+.cta-consult.two-up .cta-consult-contract-lead p { font-size: 0.9975rem; }
+
+.cta-consult.two-up .cta-consult-contract-number {
+  display: flex;
+  align-items: center;
+}
+
+.cta-consult.two-up .cta-consult-contract-number p {
+  font-size: 1.3125rem;
+  font-weight: 700;
+}
+
+.cta-consult.two-up .cta-consult-contract-hours { text-align: center; }
+
+@media (width <= 767px) {
+  .cta-consult.two-up .cta-consult-blocks {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.25rem 0;
+    border: 0;
+  }
+
+  .cta-consult.two-up .cta-consult-block {
+    width: 100%;
+    max-width: 26rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .cta-consult.two-up .cta-consult-block-title :is(h2, h3, h4) { font-size: 1.3125rem; }
+  .cta-consult.two-up .cta-consult-phone-info { gap: 0.1rem; }
+
+  .cta-consult.two-up .cta-consult-phone-pc { display: none; }
+
+  .cta-consult.two-up .cta-consult-phone-sp {
+    display: flex;
+    width: 100%;
+    gap: 0.3%;
+    margin-top: 1rem;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .cta-consult.two-up .cta-consult-phone-sp .cta-consult-phone-main {
+    width: 84%;
+    justify-content: center;
+    padding: 0.5rem;
+    background-color: var(--blue);
+  }
+
+  .cta-consult.two-up .cta-consult-phone-sp .cta-consult-phone-number p { font-size: 1.3125rem; }
+
+  .cta-consult.two-up .cta-consult-phone-sp em {
+    font-size: inherit;
+    font-style: normal;
+  }
+
+  .cta-consult.two-up .cta-consult-phone-sp .cta-consult-phone-hours p { font-size: 0.7rem; }
+
+  .cta-consult.two-up .cta-consult-phone-sp-icon {
+    display: flex;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue);
+  }
+
+  .cta-consult.two-up .cta-consult-phone-sp-icon svg {
+    width: 24px;
+    height: 24px;
+    fill: currentcolor;
+    transform: scaleX(-1);
+  }
+
+  .cta-consult.two-up .cta-consult-contract-line {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .cta-consult.two-up .cta-consult-contract-lead p {
+    display: block;
+    margin-top: 1rem;
+    font-weight: 700;
+  }
+
+  .cta-consult.two-up .cta-consult-contract-number svg {
+    width: 0.9975rem;
+    height: 0.9975rem;
+  }
+}

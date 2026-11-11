@@ -1,0 +1,71 @@
+{
+  "id": "v_78fe251f17d1",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-11T04:30:04.395Z",
+  "sourceContext": {
+    "originUrl": "https://www.axa.co.jp/about-axa",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "noimg",
+    "purpose": "Art image",
+    "structure": "Art image block"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.axa.co.jp/about-axa",
+        "instanceId": "b01-art-image",
+        "instanceIds": [
+          "b01-art-image"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_about-axa--05362c6c/blocks/b01-art-image.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/about-insurance",
+        "instanceId": "b05-art-image",
+        "instanceIds": [
+          "b05-art-image"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_about-insurance--36fa5423/blocks/b05-art-image.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/company",
+        "instanceId": "b01-art-image",
+        "instanceIds": [
+          "b01-art-image"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_company--63249741/blocks/b01-art-image.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/customer-feedback",
+        "instanceId": "b01-art-image",
+        "instanceIds": [
+          "b01-art-image"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_customer-feedback--3c90b7e2/blocks/b01-art-image.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/dataprivacy",
+        "instanceId": "b01-art-image",
+        "instanceIds": [
+          "b01-art-image"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_dataprivacy--ac691862/blocks/b01-art-image.jpg"
+      },
+      {
+        "url": "https://www.axa.co.jp/",
+        "instanceId": "b08-art-image",
+        "instanceIds": [
+          "b08-art-image"
+        ],
+        "screenshot": ".pages/www_axa_co_jp--bd91ef97/blocks/b08-art-image.jpg"
+      }
+    ],
+    "reuseCount": 6
+  }
+}

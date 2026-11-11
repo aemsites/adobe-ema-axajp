@@ -1,0 +1,66 @@
+{
+  "a": "stardust/replica/gates/all-360/about-axa/origin.png",
+  "b": "stardust/replica/gates/all-360/about-axa/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3750,
+    "mode": "overlap"
+  },
+  "heightDelta": -98,
+  "differingPixels": 115779,
+  "pct": 8.58,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/about-axa/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 22.52,
+  "textBoxes": 86,
+  "textPixels": 244994,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 4.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 7.9
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 18.9
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 19.8
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 3.4
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 6.4
+    },
+    {
+      "y0": 3500,
+      "y1": 3750,
+      "pct": 4.1
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--80b77690--aemcoder.aem.page/about-axa"
+  }
+}

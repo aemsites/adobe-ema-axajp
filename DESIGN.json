@@ -1,0 +1,1035 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-09T04:50:11Z",
+    "stardustVersion": "0.37.1",
+    "mode": "descriptive",
+    "readArtifacts": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/_brand-extraction.json"
+    ]
+  },
+  "name": "AXA Life Insurance Japan (axa.co.jp) — current state",
+  "description": "Institutional navy-on-white corporate insurance site set in Noto Sans JP",
+  "colors": {
+    "axa-navy": "#00008f",
+    "text": "#343c3d",
+    "white": "#ffffff",
+    "surface": "#f2f5f8",
+    "grey-disabled": "#999999",
+    "border-light": "#e5e5e5",
+    "border": "#cccccc",
+    "muted-text": "#757575",
+    "teal": "#00adc6",
+    "blue-bright": "#3a3fd8",
+    "coral": "#f07662",
+    "axa-red": "#ff1721",
+    "black": "#000000"
+  },
+  "typography": {
+    "h1": {
+      "fontFamily": "\"Noto Sans JP\", sans-serif",
+      "fontSize": "28px",
+      "fontWeight": 700,
+      "lineHeight": 1.4
+    },
+    "h2": {
+      "fontFamily": "\"Noto Sans JP\", sans-serif",
+      "fontSize": "24px",
+      "fontWeight": 700,
+      "lineHeight": 1.4
+    },
+    "h3": {
+      "fontFamily": "\"Noto Sans JP\", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": 700,
+      "lineHeight": 1.4
+    },
+    "body": {
+      "fontFamily": "\"Noto Sans JP\", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "lineHeight": 1.6
+    },
+    "body-sm": {
+      "fontFamily": "\"Noto Sans JP\", sans-serif",
+      "fontSize": "15px",
+      "fontWeight": 400,
+      "lineHeight": 1.5
+    },
+    "nav": {
+      "fontFamily": "\"Noto Sans JP\", sans-serif",
+      "fontSize": "14px",
+      "fontWeight": 700
+    },
+    "display": {
+      "fontFamily": "\"Publico Headline\", serif",
+      "fontSize": "28px",
+      "fontWeight": 400,
+      "note": "recruitment hero only; licensed, not rehosted"
+    }
+  },
+  "rounded": {
+    "none": "0px",
+    "sm": "4px",
+    "pill": "50%"
+  },
+  "spacing": {
+    "xs": "8px",
+    "sm": "16px",
+    "md": "24px",
+    "lg": "40px",
+    "xl": "64px"
+  },
+  "components": {
+    "button-primary": {
+      "backgroundColor": "{colors.axa-navy}",
+      "textColor": "{colors.white}",
+      "rounded": "{rounded.none}",
+      "padding": "12px 20px"
+    },
+    "button-outline": {
+      "backgroundColor": "{colors.white}",
+      "textColor": "{colors.text}",
+      "rounded": "{rounded.none}",
+      "padding": "0px 30px"
+    },
+    "button-disabled": {
+      "backgroundColor": "{colors.grey-disabled}",
+      "textColor": "{colors.white}",
+      "rounded": "{rounded.none}",
+      "padding": "12px 20px"
+    },
+    "header-login": {
+      "backgroundColor": "{colors.axa-navy}",
+      "textColor": "{colors.white}",
+      "padding": "8px"
+    }
+  },
+  "extensions": {
+    "componentStyle": {
+      "buttons": "square, navy fill or navy 1px outline, chevron icon right",
+      "cards": "white, thin #e5e5e5 border or none, image top"
+    },
+    "motifs": {
+      "radius": {
+        "mode": "4px",
+        "areaMode": "4px",
+        "pill": "50%",
+        "values": [
+          {
+            "value": "4px",
+            "count": 154,
+            "area": 1624322,
+            "sources": [
+              {
+                "url": "https://www.axa.co.jp/",
+                "selector": "nav > div > div:nth-of-type(3) > button > span"
+              },
+              {
+                "url": "https://www.axa.co.jp/",
+                "selector": "nav > ul > li:nth-of-type(8) > div > button > span"
+              },
+              {
+                "url": "https://www.axa.co.jp/about-axa/",
+                "selector": "nav > div > div:nth-of-type(3) > button > span"
+              },
+              {
+                "url": "https://www.axa.co.jp/about-axa/",
+                "selector": "nav > ul > li:nth-of-type(8) > div > button > span"
+              },
+              {
+                "url": "https://www.axa.co.jp/about-insurance/",
+                "selector": "nav > div > div:nth-of-type(3) > button > span"
+              }
+            ]
+          },
+          {
+            "value": "50%",
+            "count": 32,
+            "area": 384264,
+            "sources": [
+              {
+                "url": "https://www.axa.co.jp/",
+                "selector": "main > div:nth-of-type(3) > div:nth-of-type(1) > div > div > button:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.axa.co.jp/",
+                "selector": "main > div:nth-of-type(3) > div:nth-of-type(1) > div > div > button:nth-of-type(2)"
+              },
+              {
+                "url": "https://www.axa.co.jp/",
+                "selector": "main > div:nth-of-type(3) > div:nth-of-type(1) > div > button"
+              },
+              {
+                "url": "https://www.axa.co.jp/customer/",
+                "selector": "#service > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div"
+              },
+              {
+                "url": "https://www.axa.co.jp/customer/",
+                "selector": "#service > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div"
+              }
+            ]
+          },
+          {
+            "value": "8px",
+            "count": 18,
+            "area": 18432,
+            "sources": [
+              {
+                "url": "https://www.axa.co.jp/",
+                "selector": "nav > div > div:nth-of-type(3) > button"
+              },
+              {
+                "url": "https://www.axa.co.jp/",
+                "selector": "nav > ul > li:nth-of-type(8) > div > button"
+              },
+              {
+                "url": "https://www.axa.co.jp/about-axa/",
+                "selector": "nav > div > div:nth-of-type(3) > button"
+              },
+              {
+                "url": "https://www.axa.co.jp/about-axa/",
+                "selector": "nav > ul > li:nth-of-type(8) > div > button"
+              },
+              {
+                "url": "https://www.axa.co.jp/about-insurance/",
+                "selector": "nav > div > div:nth-of-type(3) > button"
+              }
+            ]
+          },
+          {
+            "value": "32px",
+            "count": 16,
+            "area": 15104,
+            "sources": [
+              {
+                "url": "https://www.axa.co.jp/prospect/",
+                "selector": "nav > a:nth-of-type(1) > span > span"
+              },
+              {
+                "url": "https://www.axa.co.jp/prospect/",
+                "selector": "nav > a:nth-of-type(2) > span > span"
+              },
+              {
+                "url": "https://www.axa.co.jp/prospect/",
+                "selector": "nav > a:nth-of-type(3) > span > span"
+              }
+            ]
+          },
+          {
+            "value": "15px",
+            "count": 14,
+            "area": 9982,
+            "sources": [
+              {
+                "url": "https://www.axa.co.jp/company/",
+                "selector": "div:nth-of-type(1) > div > div > div > div > a > span:nth-of-type(1) > span:nth-of-type(2)"
+              }
+            ]
+          },
+          {
+            "value": "10px",
+            "count": 7,
+            "area": 141315,
+            "sources": [
+              {
+                "url": "https://www.axa.co.jp/about-insurance/",
+                "selector": "div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div > div"
+              },
+              {
+                "url": "https://www.axa.co.jp/about-insurance/",
+                "selector": "div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > div"
+              },
+              {
+                "url": "https://www.axa.co.jp/about-insurance/",
+                "selector": "div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > div:nth-of-type(3) > div > div"
+              }
+            ]
+          },
+          {
+            "value": "5px",
+            "count": 7,
+            "area": 47087,
+            "sources": [
+              {
+                "url": "https://www.axa.co.jp/about-insurance/",
+                "selector": "div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div > div"
+              },
+              {
+                "url": "https://www.axa.co.jp/about-insurance/",
+                "selector": "div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > div"
+              },
+              {
+                "url": "https://www.axa.co.jp/about-insurance/",
+                "selector": "div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > div:nth-of-type(3) > div > div"
+              }
+            ]
+          },
+          {
+            "value": "13px",
+            "count": 4,
+            "area": 3192,
+            "sources": [
+              {
+                "url": "https://www.axa.co.jp/about-axa/",
+                "selector": "div:nth-of-type(8) > div > div:nth-of-type(1) > div:nth-of-type(2) > div > a > span:nth-of-type(1) > span"
+              },
+              {
+                "url": "https://www.axa.co.jp/about-axa/",
+                "selector": "div:nth-of-type(8) > div > div:nth-of-type(3) > div:nth-of-type(2) > div > a > span:nth-of-type(1) > span"
+              },
+              {
+                "url": "https://www.axa.co.jp/about-axa/",
+                "selector": "div > div > div:nth-of-type(8) > div > div:nth-of-type(1) > div:nth-of-type(1) > div > span:nth-of-type(2)"
+              },
+              {
+                "url": "https://www.axa.co.jp/about-axa/",
+                "selector": "div > div > div:nth-of-type(8) > div > div:nth-of-type(3) > div:nth-of-type(1) > div > span:nth-of-type(2)"
+              }
+            ]
+          },
+          {
+            "value": "56px",
+            "count": 4,
+            "area": 7744,
+            "sources": [
+              {
+                "url": "https://www.axa.co.jp/customer/",
+                "selector": "main > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.axa.co.jp/customer/",
+                "selector": "main > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(3)"
+              }
+            ]
+          }
+        ]
+      },
+      "shadows": [
+        {
+          "value": "rgb(240, 240, 240) 0px -1px 0px 0px",
+          "count": 108,
+          "sources": [
+            {
+              "url": "https://www.axa.co.jp/",
+              "selector": "footer > div > div:nth-of-type(1) > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.axa.co.jp/",
+              "selector": "footer > div > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.axa.co.jp/",
+              "selector": "footer > div > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.axa.co.jp/about-axa/",
+              "selector": "footer > div > div:nth-of-type(1) > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.axa.co.jp/about-axa/",
+              "selector": "footer > div > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(1)"
+            }
+          ]
+        },
+        {
+          "value": "rgb(204, 204, 204) 0px -1px 0px 0px",
+          "count": 18,
+          "sources": [
+            {
+              "url": "https://www.axa.co.jp/",
+              "selector": "footer > div"
+            },
+            {
+              "url": "https://www.axa.co.jp/",
+              "selector": "footer > div > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.axa.co.jp/about-axa/",
+              "selector": "footer > div"
+            },
+            {
+              "url": "https://www.axa.co.jp/about-axa/",
+              "selector": "footer > div > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.axa.co.jp/about-insurance/",
+              "selector": "footer > div"
+            }
+          ]
+        },
+        {
+          "value": "rgb(229, 229, 229) 0px 1px 3px 0px",
+          "count": 6,
+          "sources": [
+            {
+              "url": "https://www.axa.co.jp/company/",
+              "selector": "main > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div:nth-of-type(5) > div"
+            },
+            {
+              "url": "https://www.axa.co.jp/customer-feedback/",
+              "selector": "main > div:nth-of-type(2) > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div"
+            },
+            {
+              "url": "https://www.axa.co.jp/customer/",
+              "selector": "main > div:nth-of-type(2) > div:nth-of-type(7) > div > div"
+            }
+          ]
+        }
+      ],
+      "gradients": []
+    },
+    "voice": {
+      "heroHeadline": null,
+      "firstParagraph": "令和8年台風第18号に伴う災害により被災されたみなさまへ",
+      "ctaSamples": [
+        "保険の無料相談",
+        "資料請求",
+        "電話相談"
+      ],
+      "linkSamples": [
+        "よくあるご質問",
+        "お問い合わせ",
+        "ログイン",
+        "保険をご検討のお客さま",
+        "ご契約者さま"
+      ],
+      "heroImage": "https://images.prismic.io/prod-japan/uMtE_Oc_7Q5U2aKO_Life_TOP_KV_Carousel2026_MyAXACampaign_pc.png?auto=format,compress",
+      "heroMedium": {
+        "kind": "carousel",
+        "detail": "slick hero slider of campaign banners (HeroSlider) on home; static image hero bands on hub pages"
+      }
+    },
+    "systemComponents": [
+      {
+        "name": "site-header",
+        "pages": 9,
+        "detail": "white header: logo left, top utility links (よくあるご質問/お問い合わせ/ログイン), mega-menu nav (保険をご検討のお客さま/ご契約者さま/法人のお客さま/パートナーさま/企業情報)"
+      },
+      {
+        "name": "site-footer",
+        "pages": 9,
+        "detail": "SharedFooter — multi-column link footer"
+      },
+      {
+        "name": "floating-cta",
+        "pages": 2,
+        "detail": "FloatingButtonsCTA right-edge vertical rail: 保険の無料相談/資料請求/電話相談 (index, prospect)"
+      },
+      {
+        "name": "back-to-top",
+        "pages": 9
+      },
+      {
+        "name": "breadcrumbs",
+        "pages": 5,
+        "detail": "company, customer, customer-feedback, about-axa, dataprivacy"
+      },
+      {
+        "name": "recruitment-chrome",
+        "pages": 1,
+        "detail": "recruitment has its own header/footer"
+      }
+    ],
+    "modules": [
+      {
+        "name": "site-header",
+        "status": "candidate",
+        "instances": 9,
+        "pages": [
+          "index",
+          "prospect",
+          "product",
+          "about-insurance",
+          "company",
+          "customer",
+          "customer-feedback",
+          "about-axa",
+          "dataprivacy"
+        ]
+      },
+      {
+        "name": "site-footer",
+        "status": "candidate",
+        "instances": 9,
+        "pages": [
+          "index",
+          "prospect",
+          "product",
+          "about-insurance",
+          "company",
+          "customer",
+          "customer-feedback",
+          "about-axa",
+          "dataprivacy"
+        ]
+      },
+      {
+        "name": "floating-cta",
+        "status": "candidate",
+        "instances": 2,
+        "pages": [
+          "index",
+          "prospect"
+        ]
+      },
+      {
+        "name": "breadcrumbs",
+        "status": "candidate",
+        "instances": 5,
+        "pages": [
+          "company",
+          "customer",
+          "customer-feedback",
+          "about-axa",
+          "dataprivacy"
+        ]
+      },
+      {
+        "name": "slice-heading-band",
+        "status": "candidate",
+        "instances": 4,
+        "pages": [
+          "company",
+          "customer-feedback",
+          "about-axa",
+          "dataprivacy"
+        ],
+        "detail": "Prismic slice page title band (Heading__SliceHeading)"
+      },
+      {
+        "name": "slice-text",
+        "status": "candidate",
+        "instances": 4,
+        "pages": [
+          "company",
+          "customer-feedback",
+          "about-axa",
+          "dataprivacy"
+        ]
+      },
+      {
+        "name": "slice-grid-cards",
+        "status": "candidate",
+        "instances": 3,
+        "pages": [
+          "company",
+          "customer-feedback",
+          "about-axa"
+        ]
+      },
+      {
+        "name": "slice-media",
+        "status": "candidate",
+        "instances": 3,
+        "pages": [
+          "company",
+          "customer-feedback",
+          "about-axa"
+        ]
+      },
+      {
+        "name": "hero-banner",
+        "status": "candidate",
+        "instances": 2,
+        "pages": [
+          "prospect",
+          "customer"
+        ],
+        "detail": "image/colour title band with H1/H2"
+      },
+      {
+        "name": "product-category-icons",
+        "status": "candidate",
+        "instances": 3,
+        "pages": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "name": "contact-consultation",
+        "status": "candidate",
+        "instances": 4,
+        "pages": [
+          "index",
+          "product",
+          "about-insurance",
+          "company"
+        ]
+      }
+    ],
+    "breakpoints": {
+      "containerMaxWidth": "1142px",
+      "probeWidth": 2560,
+      "shellMaxWidth": "1050px",
+      "caps": [
+        {
+          "kind": "shell",
+          "px": 1050,
+          "via": "max-width",
+          "selector": "#root > main > div.Layout-sc-f22cece7-3.haZlyz",
+          "pages": [
+            "https://www.axa.co.jp/product/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1280,
+          "via": "max-width",
+          "selector": "div.flexbox > div.dpVyZk > section.graovq > div.ghnloi",
+          "pages": [
+            "https://www.axa.co.jp/recruitment/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1142,
+          "via": "max-width",
+          "selector": "#root > main > div.iJfCCH > div.kHUlbd.neJEQ",
+          "pages": [
+            "https://www.axa.co.jp/",
+            "https://www.axa.co.jp/prospect/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1078,
+          "via": "max-width",
+          "selector": "main > div.iJfCCH > div.lcwUKv > div.lgAecq",
+          "pages": [
+            "https://www.axa.co.jp/",
+            "https://www.axa.co.jp/company/",
+            "https://www.axa.co.jp/customer/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1050,
+          "via": "fixed",
+          "selector": "div.flex.flex-col > div.grid.ease-in-out > div.overflow-hidden.break-words > div.bg-background.px-4",
+          "pages": [
+            "https://www.axa.co.jp/product/",
+            "https://www.axa.co.jp/company/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1024,
+          "via": "max-width",
+          "selector": "#root > main > div.sc-iNyHtD.evHgbV > div.sc-jePOid.elVrCI",
+          "pages": [
+            "https://www.axa.co.jp/about-insurance/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 982,
+          "via": "fixed",
+          "selector": "div.jVGHVH > div.Layout-sc-f22cece7-3.haZlyz > div.row > div.jShUZK.col",
+          "pages": [
+            "https://www.axa.co.jp/company/",
+            "https://www.axa.co.jp/customer/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 960,
+          "via": "max-width",
+          "selector": "div.ghnloi > div.jXyBvm > div.dxxyHY > div.esnkop",
+          "pages": [
+            "https://www.axa.co.jp/recruitment/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 931,
+          "via": "fixed",
+          "selector": "div.cWMYlq > div.Layout-sc-f22cece7-3.haZlyz > div.row > div.jShUZK.col",
+          "pages": [
+            "https://www.axa.co.jp/company/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 904,
+          "via": "fixed",
+          "selector": "div.cpNHOz > div.Layout-sc-f22cece7-3.haZlyz > div.row > div.jShUZK.col",
+          "pages": [
+            "https://www.axa.co.jp/company/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 860,
+          "via": "fixed",
+          "selector": "div.dpVyZk > section.kRbYKd > div.fAeFsb > div.hDFCBK",
+          "pages": [
+            "https://www.axa.co.jp/recruitment/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 823,
+          "via": "fixed",
+          "selector": "div.after-anchor > span > p > strong",
+          "pages": [
+            "https://www.axa.co.jp/company/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 800,
+          "via": "max-width",
+          "selector": "div.sc-iNyHtD.evHgbV > div.sc-jePOid.elVrCI > div.ednsBK > div.fIyOwM",
+          "pages": [
+            "https://www.axa.co.jp/about-insurance/",
+            "https://www.axa.co.jp/company/",
+            "https://www.axa.co.jp/recruitment/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 750,
+          "via": "fixed",
+          "selector": "div.iJfCCH > div.kHUlbd.neJEQ > div.dhVeTD > div.duHOZz",
+          "pages": [
+            "https://www.axa.co.jp/",
+            "https://www.axa.co.jp/company/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 720,
+          "via": "max-width",
+          "selector": "section.caYvUJ > div.ghnloi > div.fZhiXz > div.gpBuCg",
+          "pages": [
+            "https://www.axa.co.jp/recruitment/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 687,
+          "via": "fixed",
+          "selector": "div.after-anchor > span > p > strong",
+          "pages": [
+            "https://www.axa.co.jp/company/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 657,
+          "via": "fixed",
+          "selector": "div.after-anchor > span > p > strong",
+          "pages": [
+            "https://www.axa.co.jp/company/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 610,
+          "via": "fixed",
+          "selector": "main > div.Layout-sc-f22cece7-3.haZlyz > div.cBrHaP > div.hAASAU",
+          "pages": [
+            "https://www.axa.co.jp/product/",
+            "https://www.axa.co.jp/company/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 585,
+          "via": "fixed",
+          "selector": "h3.hpqKAo > span.slice-heading-inner > span.icbJnS > span",
+          "pages": [
+            "https://www.axa.co.jp/company/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 560,
+          "via": "max-width",
+          "selector": "div.kHUlbd.neJEQ > div > div.kHFdJB > a.jbsJKx.jAXuew",
+          "pages": [
+            "https://www.axa.co.jp/",
+            "https://www.axa.co.jp/prospect/",
+            "https://www.axa.co.jp/company/",
+            "https://www.axa.co.jp/customer/",
+            "https://www.axa.co.jp/recruitment/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 531,
+          "via": "fixed",
+          "selector": "div.iJfCCH > div.kHUlbd.neJEQ > ul.kOrpyD > li.jWZOQm",
+          "pages": [
+            "https://www.axa.co.jp/",
+            "https://www.axa.co.jp/prospect/",
+            "https://www.axa.co.jp/product/",
+            "https://www.axa.co.jp/about-insurance/",
+            "https://www.axa.co.jp/company/",
+            "https://www.axa.co.jp/customer/",
+            "https://www.axa.co.jp/recruitment/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 510,
+          "via": "fixed",
+          "selector": "div.gIFJux > div.kHUlbd > div.chpRDD > div.sc-eibAPZ.kWgAvG",
+          "pages": [
+            "https://www.axa.co.jp/",
+            "https://www.axa.co.jp/product/",
+            "https://www.axa.co.jp/customer/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 485,
+          "via": "fixed",
+          "selector": "div.after-anchor > span > p > strong",
+          "pages": [
+            "https://www.axa.co.jp/company/",
+            "https://www.axa.co.jp/customer/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 459,
+          "via": "fixed",
+          "selector": "main > div.Layout-sc-f22cece7-3.haZlyz > div.diVIpD > div.fbPgRq",
+          "pages": [
+            "https://www.axa.co.jp/product/",
+            "https://www.axa.co.jp/about-insurance/",
+            "https://www.axa.co.jp/company/",
+            "https://www.axa.co.jp/customer/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 434,
+          "via": "fixed",
+          "selector": "div.cyxrzq > span > p > a",
+          "pages": [
+            "https://www.axa.co.jp/product/",
+            "https://www.axa.co.jp/company/",
+            "https://www.axa.co.jp/recruitment/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 401,
+          "via": "fixed",
+          "selector": "div.iJfCCH > div.kHUlbd.neJEQ > div.iqNJaA > div.jzgwxh",
+          "pages": [
+            "https://www.axa.co.jp/",
+            "https://www.axa.co.jp/about-insurance/",
+            "https://www.axa.co.jp/company/",
+            "https://www.axa.co.jp/customer/",
+            "https://www.axa.co.jp/recruitment/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 367,
+          "via": "fixed",
+          "selector": "div.dhVeTD > div.duHOZz > div.jEPYxX > div.kxeRGL",
+          "pages": [
+            "https://www.axa.co.jp/",
+            "https://www.axa.co.jp/prospect/",
+            "https://www.axa.co.jp/about-insurance/",
+            "https://www.axa.co.jp/company/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 346,
+          "via": "fixed",
+          "selector": "div.kHUlbd.neJEQ > div > div.gbrMCc > a",
+          "pages": [
+            "https://www.axa.co.jp/",
+            "https://www.axa.co.jp/prospect/",
+            "https://www.axa.co.jp/company/",
+            "https://www.axa.co.jp/customer/",
+            "https://www.axa.co.jp/recruitment/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 321,
+          "via": "fixed",
+          "selector": "ul.kOrpyD > li.jWZOQm > a.EqLaV > div.htiMqE",
+          "pages": [
+            "https://www.axa.co.jp/",
+            "https://www.axa.co.jp/prospect/",
+            "https://www.axa.co.jp/product/",
+            "https://www.axa.co.jp/about-insurance/",
+            "https://www.axa.co.jp/company/",
+            "https://www.axa.co.jp/customer/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 297,
+          "via": "fixed",
+          "selector": "div.kHUlbd > section.hYMtZm > div.bJLvRD > span.hcqbQD",
+          "pages": [
+            "https://www.axa.co.jp/prospect/",
+            "https://www.axa.co.jp/about-insurance/",
+            "https://www.axa.co.jp/company/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 272,
+          "via": "fixed",
+          "selector": "fieldset.mx-0.w-full > div.field-input-wrap.flex > div.grid.w-full > label.flex.min-h-21",
+          "pages": [
+            "https://www.axa.co.jp/",
+            "https://www.axa.co.jp/prospect/",
+            "https://www.axa.co.jp/product/",
+            "https://www.axa.co.jp/about-insurance/",
+            "https://www.axa.co.jp/company/",
+            "https://www.axa.co.jp/customer/",
+            "https://www.axa.co.jp/recruitment/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 240,
+          "via": "fixed",
+          "selector": "div.cIOJPe > div.ghRqHb > div.fOFMvG > h3.iLYcIj",
+          "pages": [
+            "https://www.axa.co.jp/",
+            "https://www.axa.co.jp/product/"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.axa.co.jp/",
+          "section": 0,
+          "selector": "#root > main > div.foqcIw",
+          "px": null
+        },
+        {
+          "url": "https://www.axa.co.jp/",
+          "section": 1,
+          "selector": "#root > main > div.esAZLt",
+          "px": null
+        },
+        {
+          "url": "https://www.axa.co.jp/",
+          "section": 2,
+          "selector": "#root > main > div.iJfCCH",
+          "px": 1142
+        },
+        {
+          "url": "https://www.axa.co.jp/prospect/",
+          "section": 0,
+          "selector": "#root > main > div.foqcIw",
+          "px": null
+        },
+        {
+          "url": "https://www.axa.co.jp/prospect/",
+          "section": 1,
+          "selector": "#root > main > div.pjYfS",
+          "px": 1142
+        },
+        {
+          "url": "https://www.axa.co.jp/product/",
+          "section": 0,
+          "selector": "#root > main > div.foqcIw",
+          "px": null
+        },
+        {
+          "url": "https://www.axa.co.jp/product/",
+          "section": 1,
+          "selector": "#root > main > div.Layout-sc-f22cece7-3.haZlyz",
+          "px": 1050
+        },
+        {
+          "url": "https://www.axa.co.jp/about-insurance/",
+          "section": 0,
+          "selector": "#root > main > div.foqcIw",
+          "px": null
+        },
+        {
+          "url": "https://www.axa.co.jp/about-insurance/",
+          "section": 1,
+          "selector": "#root > main > div.sc-iNyHtD.evHgbV",
+          "px": 1024
+        },
+        {
+          "url": "https://www.axa.co.jp/about-insurance/",
+          "section": 2,
+          "selector": "#root > main > div.jrTqPW",
+          "px": 1024
+        },
+        {
+          "url": "https://www.axa.co.jp/about-insurance/",
+          "section": 3,
+          "selector": "#root > main > div.sc-kLEbxe.exsnPu",
+          "px": null
+        },
+        {
+          "url": "https://www.axa.co.jp/company/",
+          "section": 0,
+          "selector": "#root > main > div.foqcIw",
+          "px": null
+        },
+        {
+          "url": "https://www.axa.co.jp/company/",
+          "section": 1,
+          "selector": "#root > main > div.flexbox",
+          "px": 1078
+        },
+        {
+          "url": "https://www.axa.co.jp/customer/",
+          "section": 0,
+          "selector": "#root > main > div.foqcIw",
+          "px": null
+        },
+        {
+          "url": "https://www.axa.co.jp/customer/",
+          "section": 1,
+          "selector": "#root > main > div.iPoTzZ",
+          "px": 1082
+        },
+        {
+          "url": "https://www.axa.co.jp/recruitment/",
+          "section": 0,
+          "selector": "#root > main > div.foqcIw",
+          "px": null
+        },
+        {
+          "url": "https://www.axa.co.jp/recruitment/",
+          "section": 1,
+          "selector": "#root > main > div.flexbox",
+          "px": 1280
+        }
+      ],
+      "capRegister": [
+        "contentMaxWidth differs between archetypes: 1142 (https://www.axa.co.jp/), 1142 (https://www.axa.co.jp/prospect/), 1050 (https://www.axa.co.jp/product/), 1024 (https://www.axa.co.jp/about-insurance/), 1078 (https://www.axa.co.jp/company/), 1082 (https://www.axa.co.jp/customer/), 1280 (https://www.axa.co.jp/recruitment/) — decide per template in the inconsistency register",
+        "shellMaxWidth differs between archetypes: fluid (https://www.axa.co.jp/), fluid (https://www.axa.co.jp/prospect/), 1050 (https://www.axa.co.jp/product/), fluid (https://www.axa.co.jp/about-insurance/), fluid (https://www.axa.co.jp/company/), fluid (https://www.axa.co.jp/customer/), fluid (https://www.axa.co.jp/recruitment/)",
+        "module cap 1280px on a single section (div.flexbox > div.dpVyZk > section.graovq > div.ghnloi, https://www.axa.co.jp/recruitment/) — intent or mistake? register it"
+      ],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-11-09T04:50:14.778Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.axa.co.jp/",
+          "https://www.axa.co.jp/prospect/",
+          "https://www.axa.co.jp/product/",
+          "https://www.axa.co.jp/about-insurance/",
+          "https://www.axa.co.jp/company/",
+          "https://www.axa.co.jp/customer/",
+          "https://www.axa.co.jp/recruitment/"
+        ]
+      }
+    }
+  }
+}

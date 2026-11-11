@@ -1,0 +1,8 @@
+measure  http://localhost:8791/recruitment-proposed.html
+  widths 1440 · 1 selector(s) · 1 props · first match
+
+@ 1440px
+  root  scrollWidth  1440  viewport 1440  scrollHeight   9714
+  html
+       x     0  y      0  w  1440  h   900  vis  "アクサ生命採用サイト 新卒採用 中途採用 障害者採用 アクサジャパン採用サイト…"
+      display: block

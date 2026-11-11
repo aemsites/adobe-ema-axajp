@@ -1,0 +1,4 @@
+clip-probe http://localhost:8791/company-proposed.html @ 360px — docH 16892, 181 text nodes, 59 controls (HTTP 200, chrome)
+  (none)
+Clipped: 0 (text clipped 0, text hidden 0, controls hidden 0, controls clipped 0; advisory: clamped 0, collapsed 0, scroll-hidden 0, horizontal 0)
+json → stardust/replica/gates/company-360/clip-iter1.json

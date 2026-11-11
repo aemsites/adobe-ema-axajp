@@ -1,0 +1,16 @@
+{
+  "variantName": "link-list",
+  "baseBlock": "custom",
+  "canonicalModel": "link-list",
+  "visualCharacteristics": "A vertical list of bordered link rows, each with a title, optional description and a right-hand arrow. The plain variant shows simple rows with a document icon and a blue rule.",
+  "contentPattern": "One row per item: a paragraph with the link (the description may be authored as <em> inside the link) and an optional second paragraph with a description.",
+  "options": [
+    {
+      "class": "plain",
+      "label": "Plain"
+    }
+  ],
+  "usage": "Use for a stacked list of related links or documents, optionally with a short description per link.",
+  "reuseGuidance": "Reuse for any vertical list of text links; pick entry-links for boxed entry points or cards when items carry images.",
+  "memberVariantIds": []
+}

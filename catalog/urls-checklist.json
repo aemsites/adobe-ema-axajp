@@ -1,0 +1,91 @@
+{
+  "analysis-urls-checklist": {
+    "captured": "2026-11-11T04:30:04.395Z",
+    "totalPages": 10,
+    "statusBreakdown": {
+      "analyzed": 10
+    },
+    "pages": {
+      "https://www.axa.co.jp/about-axa": {
+        "url": "https://www.axa.co.jp/about-axa",
+        "status": "analyzed",
+        "slug": "www_axa_co_jp_about-axa--05362c6c",
+        "title": "企業情報｜アクサ生命保険株式会社",
+        "blockCount": 4,
+        "analyzedAt": "2026-11-11T04:30:04.395Z"
+      },
+      "https://www.axa.co.jp/about-insurance": {
+        "url": "https://www.axa.co.jp/about-insurance",
+        "status": "analyzed",
+        "slug": "www_axa_co_jp_about-insurance--36fa5423",
+        "title": "保険の選び方｜アクサ生命保険株式会社",
+        "blockCount": 9,
+        "analyzedAt": "2026-11-11T04:30:04.395Z"
+      },
+      "https://www.axa.co.jp/company": {
+        "url": "https://www.axa.co.jp/company",
+        "status": "analyzed",
+        "slug": "www_axa_co_jp_company--63249741",
+        "title": "法人のお客さま｜アクサ生命株式会社",
+        "blockCount": 4,
+        "analyzedAt": "2026-11-11T04:30:04.395Z"
+      },
+      "https://www.axa.co.jp/customer": {
+        "url": "https://www.axa.co.jp/customer",
+        "status": "analyzed",
+        "slug": "www_axa_co_jp_customer--e91fded9",
+        "title": "ご契約者さま｜アクサ生命保険株式会社",
+        "blockCount": 8,
+        "analyzedAt": "2026-11-11T04:30:04.395Z"
+      },
+      "https://www.axa.co.jp/customer-feedback": {
+        "url": "https://www.axa.co.jp/customer-feedback",
+        "status": "analyzed",
+        "slug": "www_axa_co_jp_customer-feedback--3c90b7e2",
+        "title": "お客さまからの評価｜アクサ生命保険株式会社",
+        "blockCount": 4,
+        "analyzedAt": "2026-11-11T04:30:04.395Z"
+      },
+      "https://www.axa.co.jp/dataprivacy": {
+        "url": "https://www.axa.co.jp/dataprivacy",
+        "status": "analyzed",
+        "slug": "www_axa_co_jp_dataprivacy--ac691862",
+        "title": "アクサグループデータプライバシー宣言｜アクサ生命保険株式会社",
+        "blockCount": 4,
+        "analyzedAt": "2026-11-11T04:30:04.395Z"
+      },
+      "https://www.axa.co.jp/": {
+        "url": "https://www.axa.co.jp/",
+        "status": "analyzed",
+        "slug": "www_axa_co_jp--bd91ef97",
+        "title": "アクサ生命保険株式会社",
+        "blockCount": 11,
+        "analyzedAt": "2026-11-11T04:30:04.395Z"
+      },
+      "https://www.axa.co.jp/product": {
+        "url": "https://www.axa.co.jp/product",
+        "status": "analyzed",
+        "slug": "www_axa_co_jp_product--dcee6c67",
+        "title": "生命保険商品一覧｜アクサ生命保険株式会社",
+        "blockCount": 9,
+        "analyzedAt": "2026-11-11T04:30:04.395Z"
+      },
+      "https://www.axa.co.jp/prospect": {
+        "url": "https://www.axa.co.jp/prospect",
+        "status": "analyzed",
+        "slug": "www_axa_co_jp_prospect--c59f070b",
+        "title": "保険をご検討のお客さま｜アクサ生命保険",
+        "blockCount": 9,
+        "analyzedAt": "2026-11-11T04:30:04.395Z"
+      },
+      "https://www.axa.co.jp/recruitment": {
+        "url": "https://www.axa.co.jp/recruitment",
+        "status": "analyzed",
+        "slug": "www_axa_co_jp_recruitment--92227afd",
+        "title": "採用情報｜アクサ生命保険",
+        "blockCount": 5,
+        "analyzedAt": "2026-11-11T04:30:04.395Z"
+      }
+    }
+  }
+}

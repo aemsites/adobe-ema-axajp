@@ -1,0 +1,16 @@
+{
+  "variantName": "strengths",
+  "baseBlock": "cards",
+  "canonicalModel": "cards",
+  "visualCharacteristics": "A three-column grid of cards, each with a grey tile holding an image and a blue heading with a large highlighted figure, followed by text, arrow links and a row of buttons. The stats variant shows an intro, label/value statistic pairs with large figures, and image-plus-text promotional cards.",
+  "contentPattern": "One row per card: picture, heading (h3; strong = blue, strong > em = large figure), text paragraphs and link paragraphs. Rows without a heading are button rows (link paragraphs, em = white button). In the stats variant: a single-cell text row is the intro, a two-cell row without a heading is a stat [label][value runs, digits = large figure], and a row with a heading is a card [picture][h3][text][※ note][link].",
+  "options": [
+    {
+      "class": "stats",
+      "label": "Stats"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use it to present a company's key strengths or statistics as a grid of highlighted cards with links.",
+  "reuseGuidance": "Reuse it for strength or key-figure grids with large highlighted numbers; use plain cards for ordinary image-and-text teasers."
+}

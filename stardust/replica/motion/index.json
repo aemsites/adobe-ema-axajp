@@ -1,0 +1,1175 @@
+{
+  "url": "https://www.axa.co.jp/",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4800,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 6000,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 7200,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 6757,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 5257,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "Header-styles__HeaderContainer-sc-2631d3c6-0 fJIMen",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": "[aria-label=\"Next Slide\"]",
+      "frames": [
+        {
+          "t": 20512.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -29)",
+          "dots": []
+        },
+        {
+          "t": 20715.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -29)",
+          "dots": []
+        },
+        {
+          "t": 20918.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -29)",
+          "dots": []
+        },
+        {
+          "t": 21122.100000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -29)",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "[class*=\"HeroSlider-styles__PlayPause\"]",
+      "frames": [
+        {
+          "t": 22145.5,
+          "trackTransform": "matrix(1, 0, 0, 1, -3234, 0)",
+          "trackTransition": "all",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": [
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "slick-active",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            }
+          ]
+        },
+        {
+          "t": 22348.900000000373,
+          "trackTransform": "matrix(1, 0, 0, 1, -3234, 0)",
+          "trackTransition": "all",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": [
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "slick-active",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            }
+          ]
+        },
+        {
+          "t": 22553.200000000186,
+          "trackTransform": "matrix(1, 0, 0, 1, -3234, 0)",
+          "trackTransition": "all",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": [
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "slick-active",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            }
+          ]
+        },
+        {
+          "t": 22757.100000000093,
+          "trackTransform": "matrix(1, 0, 0, 1, -3234, 0)",
+          "trackTransition": "all",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": [
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "slick-active",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sel": "[class*=\"ProspectTabs__TabButton\"]:nth-child(2)",
+      "frames": [
+        {
+          "t": 23805.700000000186,
+          "trackTransform": "matrix(1, 0, 0, 1, -3234, 0)",
+          "trackTransition": "all",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": [
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "slick-active",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            }
+          ]
+        },
+        {
+          "t": 24014.900000000373,
+          "trackTransform": "matrix(1, 0, 0, 1, -3234, 0)",
+          "trackTransition": "all",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": [
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "slick-active",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            }
+          ]
+        },
+        {
+          "t": 24218.600000000093,
+          "trackTransform": "matrix(1, 0, 0, 1, -3234, 0)",
+          "trackTransition": "all",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": [
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "slick-active",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            }
+          ]
+        },
+        {
+          "t": 24422.200000000186,
+          "trackTransform": "matrix(1, 0, 0, 1, -3234, 0)",
+          "trackTransition": "all",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": [
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "slick-active",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            },
+            {
+              "cls": "",
+              "w": null,
+              "h": null,
+              "bg": null,
+              "transition": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": "[class*=\"LinkSetTopPage-styles__GrowableLink\"]",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(52, 60, 61)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(52, 60, 61)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "[class*=\"AxaProducts-styles__ProductsWrapper\"] > a",
+      "error": "not found"
+    },
+    {
+      "sel": "[class*=\"ButtonUI2025-styles__LinkUI2025Base\"]",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(52, 60, 61)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(52, 60, 61)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "[class*=\"ImageLink__MakeThisLookLikeALink\"]",
+      "changed": [
+        "self.color",
+        "img.ImageLink__Image-sc-2583b0ee-1.fCqWPB.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 143)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.ImageLink__Image-sc-2583b0ee-1.fCqWPB",
+            "transform": "none",
+            "color": "rgb(0, 0, 143)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 109)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.ImageLink__Image-sc-2583b0ee-1.fCqWPB",
+            "transform": "none",
+            "color": "rgb(0, 0, 109)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": "[class*=\"ItemsList-styles__ItemsLink\"]",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 143)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 143)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "[class*=\"StrengthsFrame__BoldLink\"] a",
+      "changed": [
+        "self.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 143)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 109)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "[class*=\"ButtonCTA-styles__ButtonWrapper\"]",
+      "changed": [
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 0, 143)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 0, 109)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "[class*=\"SliderArrow-styles__ArrowButton\"]",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "matrix(1, 0, 0, 1, 0, -29)",
+          "color": "rgb(52, 60, 61)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "rgba(0, 0, 0, 0.1) 0px 4px 6px 0px",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "matrix(1, 0, 0, 1, 0, -29)",
+          "color": "rgb(52, 60, 61)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "rgba(0, 0, 0, 0.1) 0px 4px 6px 0px",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "[class*=\"SharedFooter-styles__FooterLink\"]",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 143)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 143)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "kXFVgJ",
+        "el": "div.HeroSlider-styles__DotsWrapper-sc-e28c9c3-13.knLJPz.slick-dots > ul.HeroSlider-styles__DotsUl-sc-e28c9c3-12.idOmU > li.slick-active > div.HeroSlider-styles__Dot-sc-e28c9c3-11.efjmEX > div.HeroSlider-styles__DotActive-sc-e28c9c3-9.HeroSlider-styles__DotActiveAnimated-sc-e28c9c3-10.kRsJuO",
+        "txt": "",
+        "y": 3600
+      },
+      {
+        "name": "kXFVgJ",
+        "el": "div.HeroSlider-styles__DotsWrapper-sc-e28c9c3-13.knLJPz.slick-dots > ul.HeroSlider-styles__DotsUl-sc-e28c9c3-12.idOmU > li.slick-active > div.HeroSlider-styles__Dot-sc-e28c9c3-11.efjmEX > div.HeroSlider-styles__DotActive-sc-e28c9c3-9.HeroSlider-styles__DotActiveAnimated-sc-e28c9c3-10.kRsJuO",
+        "txt": "",
+        "y": 0
+      },
+      {
+        "name": "kXFVgJ",
+        "el": "div.HeroSlider-styles__DotsWrapper-sc-e28c9c3-13.knLJPz.slick-dots > ul.HeroSlider-styles__DotsUl-sc-e28c9c3-12.idOmU > li.slick-active > div.HeroSlider-styles__Dot-sc-e28c9c3-11.efjmEX > div.HeroSlider-styles__DotActive-sc-e28c9c3-9.HeroSlider-styles__DotActiveAnimated-sc-e28c9c3-10.kRsJuO",
+        "txt": "",
+        "y": 0
+      }
+    ],
+    "transitions": [
+      {
+        "prop": "opacity",
+        "el": "html > body > div > main > div.BackToTop-styles__BackToTopWrapper-sc-1f5495b9-0.jMiNFJ",
+        "y": 400,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.HeroSlider-styles__SliderLayout-sc-e28c9c3-0.lcwUKv > div.HeroSlider-styles__SliderWrap-sc-e28c9c3-1.lgAecq > div.slick-slider.slick-initialized > div.slick-list > div.slick-track",
+        "y": 2400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > div > main > div.BackToTop-styles__BackToTopWrapper-sc-1f5495b9-0.foqcIw",
+        "y": 90,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.HeroSlider-styles__SliderLayout-sc-e28c9c3-0.lcwUKv > div.HeroSlider-styles__SliderWrap-sc-e28c9c3-1.lgAecq > div.slick-slider.slick-initialized > div.slick-list > div.slick-track",
+        "y": 60,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.HeroSlider-styles__SliderLayout-sc-e28c9c3-0.lcwUKv > div.HeroSlider-styles__SliderWrap-sc-e28c9c3-1.lgAecq > div.slick-slider.slick-initialized > div.slick-list > div.slick-track",
+        "y": 0,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > div > main > div.BackToTop-styles__BackToTopWrapper-sc-1f5495b9-0.jMiNFJ",
+        "y": 1378,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > div > main > div.BackToTop-styles__BackToTopWrapper-sc-1f5495b9-0.foqcIw",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > div > main > div.BackToTop-styles__BackToTopWrapper-sc-1f5495b9-0.jMiNFJ",
+        "y": 6847,
+        "dur": "0.3s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "jMiNFJ"
+        ],
+        "el": "html > body > div > main > div.BackToTop-styles__BackToTopWrapper-sc-1f5495b9-0.jMiNFJ",
+        "y": 400
+      },
+      {
+        "added": [
+          "slick-active",
+          "slick-current"
+        ],
+        "el": "div.HeroSlider-styles__SliderWrap-sc-e28c9c3-1.lgAecq > div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide.slick-active.slick-current",
+        "y": 2400
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.HeroSlider-styles__SliderWrap-sc-e28c9c3-1.lgAecq > div.slick-slider.slick-initialized > div.HeroSlider-styles__DotsWrapper-sc-e28c9c3-13.knLJPz.slick-dots > ul.HeroSlider-styles__DotsUl-sc-e28c9c3-12.idOmU > li.slick-active",
+        "y": 2400
+      },
+      {
+        "added": [
+          "foqcIw"
+        ],
+        "el": "html > body > div > main > div.BackToTop-styles__BackToTopWrapper-sc-1f5495b9-0.foqcIw",
+        "y": 90
+      },
+      {
+        "added": [
+          "slick-active",
+          "slick-current"
+        ],
+        "el": "div.HeroSlider-styles__SliderWrap-sc-e28c9c3-1.lgAecq > div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide.slick-active.slick-current",
+        "y": 60
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.HeroSlider-styles__SliderWrap-sc-e28c9c3-1.lgAecq > div.slick-slider.slick-initialized > div.HeroSlider-styles__DotsWrapper-sc-e28c9c3-13.knLJPz.slick-dots > ul.HeroSlider-styles__DotsUl-sc-e28c9c3-12.idOmU > li.slick-active",
+        "y": 60
+      },
+      {
+        "added": [
+          "slick-active",
+          "slick-current"
+        ],
+        "el": "div.HeroSlider-styles__SliderWrap-sc-e28c9c3-1.lgAecq > div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide.slick-active.slick-current",
+        "y": 0
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.HeroSlider-styles__SliderWrap-sc-e28c9c3-1.lgAecq > div.slick-slider.slick-initialized > div.HeroSlider-styles__DotsWrapper-sc-e28c9c3-13.knLJPz.slick-dots > ul.HeroSlider-styles__DotsUl-sc-e28c9c3-12.idOmU > li.slick-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "jMiNFJ"
+        ],
+        "el": "html > body > div > main > div.BackToTop-styles__BackToTopWrapper-sc-1f5495b9-0.jMiNFJ",
+        "y": 1378
+      },
+      {
+        "added": [
+          "htgXFb"
+        ],
+        "el": "div.Home-styles__TopWrapper-sc-c7fa5876-1.iJfCCH > div.PageLayout-sc-7e908b62-0.Home-styles__MainLayout-sc-c7fa5876-8.Home-styles__FullLayoutInSp-sc-c7fa5876-12 > div.ProspectTabs__TabsContainer-sc-9dbbd33f-0 > div.ProspectTabs__TabList-sc-9dbbd33f-1.dorNDs > button.ProspectTabs__TabButton-sc-9dbbd33f-2.htgXFb",
+        "y": 1378
+      },
+      {
+        "added": [
+          "jqkzOh"
+        ],
+        "el": "div.Home-styles__TopWrapper-sc-c7fa5876-1.iJfCCH > div.PageLayout-sc-7e908b62-0.Home-styles__MainLayout-sc-c7fa5876-8.Home-styles__FullLayoutInSp-sc-c7fa5876-12 > div.ProspectTabs__TabsContainer-sc-9dbbd33f-0 > div.ProspectTabs__TabList-sc-9dbbd33f-1.dorNDs > button.ProspectTabs__TabButton-sc-9dbbd33f-2.jqkzOh",
+        "y": 1378
+      },
+      {
+        "added": [
+          "foqcIw"
+        ],
+        "el": "html > body > div > main > div.BackToTop-styles__BackToTopWrapper-sc-1f5495b9-0.foqcIw",
+        "y": 0
+      },
+      {
+        "added": [
+          "jMiNFJ"
+        ],
+        "el": "html > body > div > main > div.BackToTop-styles__BackToTopWrapper-sc-1f5495b9-0.jMiNFJ",
+        "y": 6847
+      }
+    ]
+  }
+}

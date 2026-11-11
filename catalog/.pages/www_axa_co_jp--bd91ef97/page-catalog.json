@@ -1,0 +1,269 @@
+{
+  "url": "https://www.axa.co.jp/",
+  "title": "アクサ生命保険株式会社",
+  "timestamp": "2026-11-11T04:30:04.395Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [
+    {
+      "id": "b01-hero-carousel",
+      "type": "carousel",
+      "name": "hero-carousel",
+      "variantId": "v_c6235e0bd887",
+      "selector": null,
+      "screenshot": "blocks/b01-hero-carousel.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 103,
+        "width": 1440,
+        "height": 460
+      },
+      "description": "Use it for the homepage hero with rotating promotional banners. Used on 1 page (homepage template).",
+      "visualChars": {
+        "purpose": "Hero carousel",
+        "structure": "Hero carousel block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b02-news-list",
+      "type": "custom",
+      "name": "news-list",
+      "variantId": "v_a1ba52551b99",
+      "selector": null,
+      "screenshot": "blocks/b02-news-list.jpg",
+      "bounds": {
+        "x": 181,
+        "y": 579,
+        "width": 1078,
+        "height": 85
+      },
+      "description": "Use it for dated news, announcements or important notices. Used on 2 pages (customer-hub and homepage templates).",
+      "visualChars": {
+        "purpose": "News list",
+        "structure": "News list block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b03-entry-links",
+      "type": "custom",
+      "name": "entry-links",
+      "variantId": "v_0a3b0a6bdefd",
+      "selector": null,
+      "screenshot": "blocks/b03-entry-links.jpg",
+      "bounds": {
+        "x": 181,
+        "y": 696,
+        "width": 1078,
+        "height": 89
+      },
+      "description": "Use for a small group of prominent entry points into key sections of the site. Used on 2 pages (insurance-guide and homepage templates).",
+      "visualChars": {
+        "purpose": "Entry links",
+        "structure": "Entry links block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b04-section-title",
+      "type": "custom",
+      "name": "section-title",
+      "variantId": "v_52ec292f4f10",
+      "selector": null,
+      "screenshot": "blocks/b04-section-title.jpg",
+      "bounds": {
+        "x": 181,
+        "y": 906,
+        "width": 1078,
+        "height": 58
+      },
+      "description": "Use it to introduce a page section with a styled heading. Used on 4 pages (insurance-guide, homepage, product-listing and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Section title",
+        "structure": "Section title block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b05-product-cards",
+      "type": "cards",
+      "name": "product-cards",
+      "variantId": "v_fcbdcd01eda7",
+      "selector": null,
+      "screenshot": "blocks/b05-product-cards.jpg",
+      "bounds": {
+        "x": 181,
+        "y": 996,
+        "width": 1078,
+        "height": 686
+      },
+      "description": "Use it to showcase insurance products as clickable tiles linking to their pages. Used on 2 pages (homepage and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Product cards",
+        "structure": "Product cards block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b06-simulation-quiz",
+      "type": "custom",
+      "name": "simulation-quiz",
+      "variantId": "v_f5daa9b672fd",
+      "selector": null,
+      "screenshot": "blocks/b06-simulation-quiz.jpg",
+      "bounds": {
+        "x": 181,
+        "y": 1853,
+        "width": 1078,
+        "height": 634
+      },
+      "description": "Use it to let visitors answer a few questions and get a recommended insurance product. Used on 3 pages (homepage, product-listing and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Simulation quiz",
+        "structure": "Simulation quiz block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b07-cta-consult",
+      "type": "custom",
+      "name": "cta-consult",
+      "variantId": "v_04249a673bae",
+      "selector": null,
+      "screenshot": "blocks/b07-cta-consult.jpg",
+      "bounds": {
+        "x": 181,
+        "y": 2566,
+        "width": 1078,
+        "height": 266
+      },
+      "description": "Use it at the end of a page to invite visitors to book a consultation, request a brochure or call. Used on 2 pages (homepage and product-listing templates).",
+      "visualChars": {
+        "purpose": "Cta consult",
+        "structure": "Cta consult block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b08-art-image",
+      "type": "custom",
+      "name": "art-image",
+      "variantId": "v_78fe251f17d1",
+      "selector": null,
+      "screenshot": "blocks/b08-art-image.jpg",
+      "bounds": {
+        "x": 181,
+        "y": 2912,
+        "width": 1078,
+        "height": 280
+      },
+      "description": "Use it to place one standalone image or illustration, with an optional mobile version, in a content page. Used on 6 pages (content, insurance-guide and homepage templates).",
+      "visualChars": {
+        "purpose": "Art image",
+        "structure": "Art image block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b09-strengths",
+      "type": "cards",
+      "name": "strengths",
+      "variantId": "v_3248d26a3579",
+      "selector": null,
+      "screenshot": "blocks/b09-strengths.jpg",
+      "bounds": {
+        "x": 181,
+        "y": 3323,
+        "width": 1078,
+        "height": 611
+      },
+      "description": "Use it to present a company's key strengths or statistics as a grid of highlighted cards with links. Used on 2 pages (homepage and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Strengths",
+        "structure": "Strengths block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b10-feature-grid",
+      "type": "cards",
+      "name": "feature-grid",
+      "variantId": "v_56f0f4136a9c",
+      "selector": null,
+      "screenshot": "blocks/b10-feature-grid.jpg",
+      "bounds": {
+        "x": 181,
+        "y": 4184,
+        "width": 1078,
+        "height": 426
+      },
+      "description": "Use it to present a set of services or features as icons with short labels. Used on 3 pages (customer-hub, homepage and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Feature grid",
+        "structure": "Feature grid block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b11-banner-links",
+      "type": "cards",
+      "name": "banner-links",
+      "variantId": "v_a70ad3af770a",
+      "selector": null,
+      "screenshot": null,
+      "bounds": {
+        "x": 181,
+        "y": 7262,
+        "width": 1078,
+        "height": 6
+      },
+      "description": "Use it to list partner or external site banners as a row of image links. Used on 1 page (homepage template).",
+      "visualChars": {
+        "purpose": "Banner links",
+        "structure": "Banner links block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    }
+  ],
+  "replicaAdapter": {
+    "stardustSlug": "index",
+    "path": "/",
+    "templateId": "index",
+    "liveUrl": "https://main--80b77690--aemcoder.aem.page/",
+    "fullPageScreenshot": "full-page.jpg",
+    "screenshotSource": "https://move-to-aemsites--adobe-ema-axajp--aemsites.aem.page/",
+    "screenshotCapturedAt": "2026-11-11T04:30:27.166Z"
+  }
+}

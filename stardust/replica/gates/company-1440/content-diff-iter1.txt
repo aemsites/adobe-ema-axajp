@@ -1,0 +1,108 @@
+[live-session] waiting to pace live navigations to www.axa.co.jp (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Content diff @ 1440px (profile "generic", roots: main, header, footer)
+root "main"
+  source: 112 text nodes — 0 headings, 0 eyebrows, 27 CTAs, 85 body; 64 img
+  build: 111 text nodes — 0 headings, 0 eyebrows, 27 CTAs, 84 body; 64 img
+  editable texts (outermost h*/p/ul/ol): source 94 / build 93
+  attributes (placeholder/aria-label/title): source 0 / build 2; icons: source 36 / build 36
+root "header"
+  source: 166 text nodes — 0 headings, 0 eyebrows, 123 CTAs, 43 body; 0 img
+  build: 191 text nodes — 0 headings, 0 eyebrows, 172 CTAs, 19 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 8
+  attributes (placeholder/aria-label/title): source 3 / build 8; icons: source 54 / build 54
+root "footer"
+  source: 75 text nodes — 0 headings, 1 eyebrows, 63 CTAs, 11 body; 1 img
+  build: 75 text nodes — 0 headings, 1 eyebrows, 63 CTAs, 11 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 5 / build 4
+  attributes (placeholder/aria-label/title): source 0 / build 2; icons: source 11 / build 11
+
+Findings: 87 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 87
+  🟠 EXTRA [header]: build cta "ライフマネジメント® コンサルティング体験者の声" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "世界で約9,500万人以上の お客さまをサポート" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "お客さまのニーズに応えた 保険商品・サービスを提供" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "フィナンシャルプラン アドバイザー（FA）紹介ページ" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "営業社員（都道府県別MDRT会員） 紹介ページ" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "令和8年(2026年)分の生命保険料 控除証明書について" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "アクサのネット完結保険 （旧アクサダイレクト生命）" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "世界で約9,500万人以上の お客さまをサポート" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "お客さまのニーズに応えた 保険商品・サービスを提供" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "専門スタッフによる 個人、法人のお客さまへの保険のご提案" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "フィナンシャルプラン アドバイザー（FA）紹介ページ" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "営業社員（都道府県別MDRT会員） 紹介ページ" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "ご契約者さまトップ" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "保険金・給付金のご請求" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "各種お手続き" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "変額保険各種情報" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "デジタル約款" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "ご契約内容の確認方法" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "付帯サービス" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "令和8年(2026年)分の生命保険料 控除証明書について" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "お客さま専用マイページ MyAXA" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "LINEサービスについて" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "当社からご連絡する際の電話番号等" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "アクサのネット完結保険 （旧アクサダイレクト生命）" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "法人のお客さまトップ" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "健康経営とは" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "健康経営サポートパッケージ" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "健康経営⁩プラットフォーム" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "経営者サポートサービス" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "アクサ生命のパートナーのみなさま" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "商工会議所会員のみなさま" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "募集代理店のみなさま" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "代理店制度のご案内 （新規代理店募集）" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "企業情報トップ" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "アクサ生命について" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "代表取締役社長からのメッセージ" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "アクサ生命が選ばれる理由" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "お知らせ・ニュースリリース" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "IR情報" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "サステナビリティの取り組み" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "セミナー情報" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "お客さまを金融犯罪からお守りするために" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "アクサグループについて" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "採用情報トップ" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "新卒採用" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "中途採用：内勤正社員" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "中途採用：商工会議所共済・福祉制度推進スタッフ（営業職）" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "中途採用：フィナンシャルプラン・アドバイザー（営業職）" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "障害者採用" has no source source — Unexpected node with no source.
+  🟡 MISSING BODY [main]: source body "「健康経営」は特定非営利活動法人 健康経営研究会の登録商標です"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EDITABLE COUNT [main]: build has 93 outermost editable element(s) vs 94 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="ページの先頭へ" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <nav> aria-label="パンくずリスト" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 ICON MOVED [main]: source inline svg 0 0 24 24 / 2 shape(s) (36×40) at "法人のお客さま 昭和42年8月に商工会議所共済制度が発足してから50年、中小企業" is at "ページの先頭へ" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 MISSING BODY [header]: source body "ライフマネジメント®"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "コンサルティング体験者の声"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "世界で約9,500万人以上の"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "お客さまをサポート"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "お客さまのニーズに応えた"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "保険商品・サービスを提供"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "フィナンシャルプラン"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "アドバイザー（FA）紹介ページ"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "営業社員（都道府県別MDRT会員）"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "紹介ページ"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "令和8年(2026年)分の生命保険料"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "控除証明書について"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "アクサのネット完結保険"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "（旧アクサダイレクト生命）"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "世界で約9,500万人以上の"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "お客さまをサポート"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "お客さまのニーズに応えた"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "保険商品・サービスを提供"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "専門スタッフによる"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "個人、法人のお客さまへの保険のご提案"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "フィナンシャルプラン"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "アドバイザー（FA）紹介ページ"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "営業社員（都道府県別MDRT会員）"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "紹介ページ"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA ARIA-LABEL [header]: build <nav> aria-label="ユーティリティ" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <nav> aria-label="グローバルナビゲーション" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <input> aria-label="検索" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <nav> aria-label="モバイルナビゲーション" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="アクサ生命保険株式会社 ホーム" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 ICON MOVED [header]: source inline svg 0 0 124 40 / 11 shape(s) (0×0) at "/" is at "アクサ生命保険株式会社 ホーム" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 EDITABLE COUNT [footer]: build has 4 outermost editable element(s) vs 5 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).
+  🟡 EXTRA ARIA-LABEL [footer]: build <svg> aria-label="Facebook アイコン" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [footer]: build <svg> aria-label="YouTube アイコン" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

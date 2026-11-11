@@ -1,0 +1,36 @@
+{
+ "url": "https://main--80b77690--aemcoder.aem.page/recruitment",
+ "at": "2026-11-09T13:19:23.296Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 0,
+  "offPage": 4,
+  "textNodes": 136,
+  "controls": 32,
+  "total": 0
+ },
+ "groups": [],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 0,
+   "offPage": 4,
+   "textNodes": 136,
+   "controls": 32,
+   "total": 0
+  }
+ }
+}

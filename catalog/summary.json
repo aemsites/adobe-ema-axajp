@@ -1,0 +1,29 @@
+{
+  "analysis-summary": {
+    "status": "complete",
+    "metadata": {
+      "siteUrl": "https://www.axa.co.jp",
+      "siteName": "www.axa.co.jp",
+      "analysisDate": "2026-11-11",
+      "rootPageTitle": "アクサ生命保険株式会社"
+    },
+    "metrics": {
+      "urlDiscoveryMethod": "user-provided-list",
+      "totalPages": 10,
+      "localeCount": 0,
+      "locales": [],
+      "totalTemplates": 7,
+      "totalBlockTypes": 28,
+      "unknownBlockVariants": 0,
+      "edsBlockVariants": 28,
+      "pagesAnalyzed": 10,
+      "percentAnalyzed": 100,
+      "pagesPending": 0,
+      "pagesFailed": 0,
+      "blockDetectionCrashes": 0
+    },
+    "errors": {
+      "totalCount": 0
+    }
+  }
+}

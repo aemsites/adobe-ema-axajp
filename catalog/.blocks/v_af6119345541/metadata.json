@@ -1,0 +1,31 @@
+{
+  "id": "v_af6119345541",
+  "type": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-11T04:30:04.395Z",
+  "sourceContext": {
+    "originUrl": "https://www.axa.co.jp/recruitment",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "noimg",
+    "purpose": "Recruit channels",
+    "structure": "Recruit channels block"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.axa.co.jp/recruitment",
+        "instanceId": "b04-recruit-channels",
+        "instanceIds": [
+          "b04-recruit-channels"
+        ],
+        "screenshot": ".pages/www_axa_co_jp_recruitment--92227afd/blocks/b04-recruit-channels.jpg"
+      }
+    ],
+    "reuseCount": 1
+  }
+}

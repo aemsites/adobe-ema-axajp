@@ -1,0 +1,542 @@
+{
+  "url": "http://localhost:8791/customer-proposed.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "site-header",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site-header",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site-header",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site-header",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "site-header",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4800,
+      "cls": "site-header",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3903,
+      "cls": "site-header",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2403,
+      "cls": "site-header",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site-header",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site-header",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "site-header",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "site-header",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "site-header",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "site-header",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "site-header",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "site-header",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "site-header",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "site-header",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "site-header",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site-header",
+      "position": "static",
+      "height": "103px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".slick-next",
+      "frames": [
+        {
+          "t": 10497,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -22)",
+          "dots": []
+        },
+        {
+          "t": 10702.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -22)",
+          "dots": []
+        },
+        {
+          "t": 10906.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -22)",
+          "dots": []
+        },
+        {
+          "t": 11110.099999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "matrix(1, 0, 0, 1, 0, -22)",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": "main a.ds-btn",
+      "changed": [
+        "span.ds-btn__icon.ds-btn__icon--sm.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(240, 118, 98)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.25s"
+        },
+        "subs": [
+          {
+            "el": "span.ds-btn__label.ds-btn__label--sm",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.25s"
+          },
+          {
+            "el": "span.ds-btn__icon.ds-btn__icon--sm",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.25s"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(240, 118, 98)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.25s"
+        },
+        "subs": [
+          {
+            "el": "span.ds-btn__label.ds-btn__label--sm",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.25s"
+          },
+          {
+            "el": "span.ds-btn__icon.ds-btn__icon--sm",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.25s"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [
+      {
+        "added": [
+          "slick-current"
+        ],
+        "el": "div.ct-slider-wrapper > div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide.slick-active.slick-current"
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.ct-slider-wrapper > div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide.slick-active"
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.ct-slider-section > div.ct-slider-wrapper > div.slick-slider.slick-initialized > ul.slick-dots > li.slick-active"
+      }
+    ],
+    "idleClassMutationCount": 3
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "opacity",
+        "el": "html > body > main > button.back-to-top.is-visible",
+        "y": 400,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > main > button.back-to-top",
+        "y": 300,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.ct-slider-section > div.ct-slider-wrapper > div.slick-slider.slick-initialized > div.slick-list > div.slick-track",
+        "y": 300,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.ct-slider-section > div.ct-slider-wrapper > div.slick-slider.slick-initialized > div.slick-list > div.slick-track",
+        "y": 233,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.banner-background > div.layout.banner-layout > div.mylogin-my-axa-login-wrapper > div.mylogin-my-axa-btn-wrapper > div.db.db--orange",
+        "y": 0,
+        "dur": "0s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.banner-background > div.layout.banner-layout > div.mylogin-my-axa-login-wrapper > div.mylogin-my-axa-btn-wrapper > div.db.db--orange",
+        "y": 0,
+        "dur": "0s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.layout.banner-layout > div.mylogin-my-axa-login-wrapper > div.mylogin-my-axa-btn-wrapper > div.db.db--orange > a.mylogin-styled-arrow-button.ds-btn.ds-btn--orange",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.layout.banner-layout > div.mylogin-my-axa-login-wrapper > div.mylogin-my-axa-btn-wrapper > div.db.db--orange > a.mylogin-styled-arrow-button.ds-btn.ds-btn--orange",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.layout.banner-layout > div.mylogin-my-axa-login-wrapper > div.mylogin-my-axa-btn-wrapper > div.db.db--orange > a.mylogin-styled-arrow-button.ds-btn.ds-btn--orange",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.layout.banner-layout > div.mylogin-my-axa-login-wrapper > div.mylogin-my-axa-btn-wrapper > div.db.db--orange > a.mylogin-styled-arrow-button.ds-btn.ds-btn--orange",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "color",
+        "el": "div.mylogin-my-axa-login-wrapper > div.mylogin-my-axa-btn-wrapper > div.db.db--orange > a.mylogin-styled-arrow-button.ds-btn.ds-btn--orange > span.ds-btn__icon.ds-btn__icon--sm",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "width",
+        "el": "div.banner-background > div.layout.banner-layout > div.mylogin-my-axa-login-wrapper > div.mylogin-my-axa-btn-wrapper > div.db.db--orange",
+        "y": 0,
+        "dur": "0s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.banner-background > div.layout.banner-layout > div.mylogin-my-axa-login-wrapper > div.mylogin-my-axa-btn-wrapper > div.db.db--orange",
+        "y": 0,
+        "dur": "0s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.layout.banner-layout > div.mylogin-my-axa-login-wrapper > div.mylogin-my-axa-btn-wrapper > div.db.db--orange > a.mylogin-styled-arrow-button.ds-btn.ds-btn--orange",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.layout.banner-layout > div.mylogin-my-axa-login-wrapper > div.mylogin-my-axa-btn-wrapper > div.db.db--orange > a.mylogin-styled-arrow-button.ds-btn.ds-btn--orange",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.layout.banner-layout > div.mylogin-my-axa-login-wrapper > div.mylogin-my-axa-btn-wrapper > div.db.db--orange > a.mylogin-styled-arrow-button.ds-btn.ds-btn--orange",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.layout.banner-layout > div.mylogin-my-axa-login-wrapper > div.mylogin-my-axa-btn-wrapper > div.db.db--orange > a.mylogin-styled-arrow-button.ds-btn.ds-btn--orange",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "color",
+        "el": "div.mylogin-my-axa-login-wrapper > div.mylogin-my-axa-btn-wrapper > div.db.db--orange > a.mylogin-styled-arrow-button.ds-btn.ds-btn--orange > span.ds-btn__icon.ds-btn__icon--sm",
+        "y": 0,
+        "dur": "0.25s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "slick-current"
+        ],
+        "el": "div.ct-slider-wrapper > div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide.slick-active.slick-current",
+        "y": 0
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.ct-slider-wrapper > div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide.slick-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.ct-slider-section > div.ct-slider-wrapper > div.slick-slider.slick-initialized > ul.slick-dots > li.slick-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "html > body > main > button.back-to-top.is-visible",
+        "y": 400
+      },
+      {
+        "added": [
+          "slick-current"
+        ],
+        "el": "div.ct-slider-wrapper > div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide.slick-active.slick-current",
+        "y": 300
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.ct-slider-wrapper > div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide.slick-active",
+        "y": 300
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.ct-slider-section > div.ct-slider-wrapper > div.slick-slider.slick-initialized > ul.slick-dots > li.slick-active",
+        "y": 300
+      },
+      {
+        "added": [
+          "slick-current"
+        ],
+        "el": "div.ct-slider-wrapper > div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide.slick-active.slick-current",
+        "y": 233
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.ct-slider-wrapper > div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide.slick-active",
+        "y": 233
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.ct-slider-section > div.ct-slider-wrapper > div.slick-slider.slick-initialized > ul.slick-dots > li.slick-active",
+        "y": 233
+      }
+    ]
+  }
+}

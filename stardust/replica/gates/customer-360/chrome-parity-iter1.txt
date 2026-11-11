@@ -1,0 +1,13 @@
+[live-session] waiting to pace live navigations to www.axa.co.jp (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.axa.co.jp/customer/
+  build: http://localhost:8791/customer-proposed.html
+
+■ header: ✓ parity — 3 paired of 3/3 texts, 4/4 icons
+
+■ footer: 2 delta(s) — 29 paired of 30/30 texts, 11/11 icons
+  OFFSET       the region and its 29 paired text(s) sit Δy +71px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+  MISSING      "設定の変更（拒否する）"  live <a> "設定の変更（拒否する）" has no build element with the same text
+  EXTRA        "Cookie設定"  build <a> "Cookie設定" has no live source
+
+✗ 2 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

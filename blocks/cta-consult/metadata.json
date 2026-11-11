@@ -1,0 +1,13 @@
+{
+  "variantName": "cta-consult",
+  "baseBlock": "custom",
+  "canonicalModel": "cta-consult",
+  "visualCharacteristics": "A consultation call-to-action panel with a title, a wide blue main button beside a consultant illustration, and two sub-CTAs for brochure requests and phone contact with notes. The two-up variant shows side-by-side consultation boxes with a phone line and buttons.",
+  "contentPattern": "Row 1: [title heading]. Row 2: [main CTA link paragraph]. One row per sub-CTA: [sub heading] [CTA paragraph, optional second CTA paragraph for mobile wording] [note paragraphs]. Two-up variant: one row per box: [heading, picture, text] [tel link and hours paragraphs or CTA paragraph] [contract lead, number and hours paragraphs].",
+  "options": [
+    { "class": "two-up", "label": "Two Up" }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use it at the end of a page to invite visitors to book a consultation, request a brochure or call.",
+  "reuseGuidance": "Reuse it for consultation and contact CTAs; pick a simple button or columns block for generic calls to action."
+}

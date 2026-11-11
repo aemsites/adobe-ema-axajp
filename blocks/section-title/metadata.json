@@ -1,0 +1,48 @@
+{
+  "variantName": "section-title",
+  "baseBlock": "custom",
+  "canonicalModel": "section-title",
+  "visualCharacteristics": "A section heading with a blue accent rule and optional intro text. Variants give a dotted guide title bar, centred or blue-block titles, numbered badges, smaller sizes, or a list link beside the heading.",
+  "contentPattern": "Row 1: one cell with a heading (h2) and optional text paragraphs. Optional row 2 (with-link): a link paragraph shown as a button beside the heading.",
+  "options": [
+    {
+      "class": "guide",
+      "label": "Guide"
+    },
+    {
+      "class": "with-link",
+      "label": "With link"
+    },
+    {
+      "class": "center",
+      "label": "Center"
+    },
+    {
+      "class": "small",
+      "label": "Small"
+    },
+    {
+      "class": "medium",
+      "label": "Medium"
+    },
+    {
+      "class": "blue-block",
+      "label": "Blue block"
+    },
+    {
+      "class": "sp-break",
+      "label": "Mobile-only line breaks"
+    },
+    {
+      "class": "no-rule",
+      "label": "No rule"
+    },
+    {
+      "class": "numbered",
+      "label": "Numbered"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use it to introduce a page section with a styled heading.",
+  "reuseGuidance": "Reuse it for styled section headings across templates; use a plain default-content heading when no decoration is needed."
+}

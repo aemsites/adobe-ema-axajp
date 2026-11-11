@@ -1,0 +1,893 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-09T06:33:58.221Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.axa.co.jp/prospect/",
+      "http://localhost:8791/prospect-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from stardust/current/DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.axa.co.jp/prospect/",
+    "http://localhost:8791/prospect-proposed.html"
+  ],
+  "probeNote": "from stardust/current/DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#root > main",
+      "isBody": false,
+      "leaves": 89,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1142,
+        "via": "max-width",
+        "selector": "div.pjYfS > div > div.gJpgVR > div.kHUlbd",
+        "tier": 4,
+        "share": 0.01,
+        "section": 1,
+        "w1": 1142,
+        "maxWidth": "1142px"
+      },
+      {
+        "kind": "module",
+        "px": 1142,
+        "via": "max-width",
+        "selector": "#root > main > div.pjYfS > div.kHUlbd",
+        "tier": 2,
+        "share": 0.03,
+        "section": 1,
+        "w1": 1142,
+        "maxWidth": "1142px"
+      },
+      {
+        "kind": "module",
+        "px": 573,
+        "via": "fixed",
+        "selector": "div.pjYfS > div.kHUlbd > div.gjCcSU > span",
+        "tier": 4,
+        "share": 0.02,
+        "section": 1,
+        "w1": 573,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1142,
+        "via": "max-width",
+        "selector": "#root > main > div.pjYfS > div.kHUlbd.kSTSDR",
+        "tier": 2,
+        "share": 0.19,
+        "section": 1,
+        "w1": 1142,
+        "maxWidth": "1142px"
+      },
+      {
+        "kind": "module",
+        "px": 539,
+        "via": "fixed",
+        "selector": "div.kHUlbd.kSTSDR > div > div.dorNDs > button.kywDcQ",
+        "tier": 5,
+        "share": 0.01,
+        "section": 1,
+        "w1": 539,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 539,
+        "via": "fixed",
+        "selector": "div.kHUlbd.kSTSDR > div > div.dorNDs > button.jCIoq",
+        "tier": 5,
+        "share": 0.01,
+        "section": 1,
+        "w1": 539,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 560,
+        "via": "max-width",
+        "selector": "div > div.kAXEnz > form.dEBjpE > div.hJTTcK",
+        "tier": 6,
+        "share": 0.17,
+        "section": 1,
+        "w1": 560,
+        "maxWidth": "560px"
+      },
+      {
+        "kind": "module",
+        "px": 272,
+        "via": "fixed",
+        "selector": "fieldset.mx-0.w-full > div.field-input-wrap.flex > div.grid.w-full > label.flex.min-h-21",
+        "tier": 10,
+        "share": 0.01,
+        "section": 1,
+        "w1": 272,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 272,
+        "via": "fixed",
+        "selector": "fieldset.mx-0.w-full > div.field-input-wrap.flex > div.grid.w-full > label.flex.min-h-21",
+        "tier": 10,
+        "share": 0.01,
+        "section": 1,
+        "w1": 272,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 272,
+        "via": "fixed",
+        "selector": "fieldset.mx-0.w-full > div.field-input-wrap.flex > div.grid.w-full > label.flex.min-h-21",
+        "tier": 11,
+        "share": 0.01,
+        "section": 1,
+        "w1": 272,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 272,
+        "via": "fixed",
+        "selector": "fieldset.mx-0.w-full > div.field-input-wrap.flex > div.grid.w-full > label.flex.min-h-21",
+        "tier": 11,
+        "share": 0.01,
+        "section": 1,
+        "w1": 272,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 272,
+        "via": "fixed",
+        "selector": "fieldset.mx-0.w-full > div.field-input-wrap.flex > div.grid.w-full > label.flex.min-h-21",
+        "tier": 11,
+        "share": 0.01,
+        "section": 1,
+        "w1": 272,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 272,
+        "via": "fixed",
+        "selector": "fieldset.mx-0.w-full > div.field-input-wrap.flex > div.grid.w-full > label.flex.min-h-21",
+        "tier": 11,
+        "share": 0.01,
+        "section": 1,
+        "w1": 272,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1142,
+        "via": "max-width",
+        "selector": "#root > main > div.pjYfS > div.kHUlbd",
+        "tier": 2,
+        "share": 0.73,
+        "section": 1,
+        "w1": 1142,
+        "maxWidth": "1142px"
+      },
+      {
+        "kind": "module",
+        "px": 359,
+        "via": "fixed",
+        "selector": "div.kHUlbd > section.hYMtZm > div.bJWxif > a.gtBdEw",
+        "tier": 5,
+        "share": 0.01,
+        "section": 1,
+        "w1": 359,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 359,
+        "via": "fixed",
+        "selector": "div.kHUlbd > section.hYMtZm > div.bJWxif > a.gtBdEw",
+        "tier": 5,
+        "share": 0.01,
+        "section": 1,
+        "w1": 359,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 359,
+        "via": "fixed",
+        "selector": "div.kHUlbd > section.hYMtZm > div.bJWxif > a.gtBdEw",
+        "tier": 5,
+        "share": 0.01,
+        "section": 1,
+        "w1": 359,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 359,
+        "via": "fixed",
+        "selector": "div.kHUlbd > section.hYMtZm > div.bJWxif > a.gtBdEw",
+        "tier": 5,
+        "share": 0.01,
+        "section": 1,
+        "w1": 359,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 359,
+        "via": "fixed",
+        "selector": "div.kHUlbd > section.hYMtZm > div.bJWxif > a.gtBdEw",
+        "tier": 5,
+        "share": 0.01,
+        "section": 1,
+        "w1": 359,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 359,
+        "via": "fixed",
+        "selector": "div.kHUlbd > section.hYMtZm > div.bJWxif > a.gtBdEw",
+        "tier": 5,
+        "share": 0.01,
+        "section": 1,
+        "w1": 359,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 560,
+        "via": "max-width",
+        "selector": "div.pjYfS > div.kHUlbd > section.hYMtZm > div.buneeF",
+        "tier": 4,
+        "share": 0.01,
+        "section": 1,
+        "w1": 560,
+        "maxWidth": "560px"
+      },
+      {
+        "kind": "module",
+        "px": 297,
+        "via": "fixed",
+        "selector": "div.kHUlbd > section.hYMtZm > div.bJLvRD > span.hcqbQD",
+        "tier": 5,
+        "share": 0.01,
+        "section": 1,
+        "w1": 297,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 539,
+        "via": "fixed",
+        "selector": "section.hYMtZm > div.bJLvRD > div.fILCGk > div.dhaSLe",
+        "tier": 6,
+        "share": 0.06,
+        "section": 1,
+        "w1": 539,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 319,
+        "via": "fixed",
+        "selector": "div.bJLvRD > div.fILCGk > div.dhaSLe > div.iCFkTW",
+        "tier": 7,
+        "share": 0.06,
+        "section": 1,
+        "w1": 319,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 287,
+        "via": "fixed",
+        "selector": "div.iCFkTW > div.bIsLCk > div.jSQbFG > div.kseHzC",
+        "tier": 10,
+        "share": 0.01,
+        "section": 1,
+        "w1": 287,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 539,
+        "via": "fixed",
+        "selector": "section.hYMtZm > div.bJLvRD > div.fILCGk > picture.bQYyKu",
+        "tier": 6,
+        "share": 0,
+        "section": 1,
+        "w1": 539,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 359,
+        "via": "fixed",
+        "selector": "section.hYMtZm > div.lifXxV > div.kVzzBg > div.dwrgRa",
+        "tier": 6,
+        "share": 0.03,
+        "section": 1,
+        "w1": 359,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 359,
+        "via": "fixed",
+        "selector": "section.hYMtZm > div.lifXxV > div.kVzzBg > div.dwrgRa",
+        "tier": 6,
+        "share": 0.04,
+        "section": 1,
+        "w1": 359,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 359,
+        "via": "fixed",
+        "selector": "section.hYMtZm > div.lifXxV > div.kVzzBg > div.dwrgRa",
+        "tier": 6,
+        "share": 0.07,
+        "section": 1,
+        "w1": 359,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 349,
+        "via": "fixed",
+        "selector": "section.hYMtZm > div.lifXxV > div.cvpDFL > div.gfSBFa",
+        "tier": 6,
+        "share": 0.04,
+        "section": 1,
+        "w1": 349,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 276,
+        "via": "fixed",
+        "selector": "div.cvpDFL > div.gfSBFa > div.hsciBn > span.gtyFXH",
+        "tier": 8,
+        "share": 0.01,
+        "section": 1,
+        "w1": 276,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 349,
+        "via": "fixed",
+        "selector": "section.hYMtZm > div.lifXxV > div.cvpDFL > div.gfSBFa",
+        "tier": 6,
+        "share": 0.02,
+        "section": 1,
+        "w1": 349,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 349,
+        "via": "fixed",
+        "selector": "section.hYMtZm > div.lifXxV > div.cvpDFL > div.gfSBFa",
+        "tier": 6,
+        "share": 0.03,
+        "section": 1,
+        "w1": 349,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 531,
+        "via": "fixed",
+        "selector": "section.hYMtZm > div.liMGqM > ul.eNAzJN > li.cstOrW",
+        "tier": 6,
+        "share": 0.02,
+        "section": 1,
+        "w1": 531,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 349,
+        "via": "fixed",
+        "selector": "ul.eNAzJN > li.cstOrW > a.doAmsz > div",
+        "tier": 8,
+        "share": 0.02,
+        "section": 1,
+        "w1": 349,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 531,
+        "via": "fixed",
+        "selector": "section.hYMtZm > div.liMGqM > ul.eNAzJN > li.cstOrW",
+        "tier": 6,
+        "share": 0.02,
+        "section": 1,
+        "w1": 531,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 531,
+        "via": "fixed",
+        "selector": "section.hYMtZm > div.liMGqM > ul.eNAzJN > li.cstOrW",
+        "tier": 6,
+        "share": 0.02,
+        "section": 1,
+        "w1": 531,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 375,
+        "via": "fixed",
+        "selector": "ul.eNAzJN > li.cstOrW > a.doAmsz > div",
+        "tier": 8,
+        "share": 0.02,
+        "section": 1,
+        "w1": 375,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 531,
+        "via": "fixed",
+        "selector": "section.hYMtZm > div.liMGqM > ul.eNAzJN > li.cstOrW",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 531,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#root > main > div.foqcIw",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#root > main > div.pjYfS",
+        "px": 1142,
+        "capSelector": "div.pjYfS > div > div.gJpgVR > div.kHUlbd"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1142,
+    "contentFrom": "module",
+    "maxCap": 1142,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 171
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "body > main",
+      "isBody": false,
+      "leaves": 89,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1142,
+        "via": "max-width",
+        "selector": "div.prospect > div.p-hero > div.p-hero__image > div.page-layout.p-hero__layout",
+        "tier": 4,
+        "share": 0.01,
+        "section": 2,
+        "w1": 1142,
+        "maxWidth": "1142px"
+      },
+      {
+        "kind": "module",
+        "px": 637,
+        "via": "fixed",
+        "selector": "body > main > div.prospect > div.page-layout",
+        "tier": 2,
+        "share": 0.03,
+        "section": 2,
+        "w1": 637,
+        "maxWidth": "1142px"
+      },
+      {
+        "kind": "module",
+        "px": 550,
+        "via": "fixed",
+        "selector": "body > main > div.prospect > div.page-layout.page-layout--full-sp",
+        "tier": 2,
+        "share": 0.19,
+        "section": 2,
+        "w1": 550,
+        "maxWidth": "1142px"
+      },
+      {
+        "kind": "module",
+        "px": 243,
+        "via": "fixed",
+        "selector": "#sim-tab-1",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 243,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 243,
+        "via": "fixed",
+        "selector": "#sim-tab-2",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 243,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1142,
+        "via": "max-width",
+        "selector": "body > main > div.prospect > div.page-layout",
+        "tier": 2,
+        "share": 0.73,
+        "section": 2,
+        "w1": 1142,
+        "maxWidth": "1142px"
+      },
+      {
+        "kind": "module",
+        "px": 359,
+        "via": "fixed",
+        "selector": "#p-sec-1 > div.tiles > a.tile",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 359,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 359,
+        "via": "fixed",
+        "selector": "#p-sec-1 > div.tiles > a.tile",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 359,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 359,
+        "via": "fixed",
+        "selector": "#p-sec-1 > div.tiles > a.tile",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 359,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 359,
+        "via": "fixed",
+        "selector": "#p-sec-1 > div.tiles > a.tile",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 359,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 359,
+        "via": "fixed",
+        "selector": "#p-sec-1 > div.tiles > a.tile",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 359,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 359,
+        "via": "fixed",
+        "selector": "#p-sec-1 > div.tiles > a.tile",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 359,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 560,
+        "via": "max-width",
+        "selector": "#p-sec-1 > div.p-btn-wrap",
+        "tier": 4,
+        "share": 0.01,
+        "section": 2,
+        "w1": 560,
+        "maxWidth": "560px"
+      },
+      {
+        "kind": "module",
+        "px": 297,
+        "via": "fixed",
+        "selector": "#p-sec-2 > div.consult > span.consult__link",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 297,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 539,
+        "via": "fixed",
+        "selector": "#p-sec-2 > div.consult > div.consult__main > div.consult__text",
+        "tier": 6,
+        "share": 0.06,
+        "section": 2,
+        "w1": 539,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 319,
+        "via": "fixed",
+        "selector": "div.consult > div.consult__main > div.consult__text > div.consult__inner",
+        "tier": 7,
+        "share": 0.06,
+        "section": 2,
+        "w1": 319,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 287,
+        "via": "fixed",
+        "selector": "div.consult__inner > div.consult__bullets > div.bullet > div.bullet__text",
+        "tier": 10,
+        "share": 0.01,
+        "section": 2,
+        "w1": 287,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 539,
+        "via": "fixed",
+        "selector": "#p-sec-2 > div.consult > div.consult__main > picture.consult__pic",
+        "tier": 6,
+        "share": 0,
+        "section": 2,
+        "w1": 539,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 359,
+        "via": "fixed",
+        "selector": "#p-sec-3 > div.strong > div.stats > div.stat",
+        "tier": 6,
+        "share": 0.03,
+        "section": 2,
+        "w1": 359,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 359,
+        "via": "fixed",
+        "selector": "#p-sec-3 > div.strong > div.stats > div.stat",
+        "tier": 6,
+        "share": 0.04,
+        "section": 2,
+        "w1": 359,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 359,
+        "via": "fixed",
+        "selector": "#p-sec-3 > div.strong > div.stats > div.stat",
+        "tier": 6,
+        "share": 0.07,
+        "section": 2,
+        "w1": 359,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 349,
+        "via": "fixed",
+        "selector": "#p-sec-3 > div.strong > div.pros > div.pro",
+        "tier": 6,
+        "share": 0.04,
+        "section": 2,
+        "w1": 349,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 276,
+        "via": "fixed",
+        "selector": "div.pros > div.pro > div.pro__body > span.pro__link",
+        "tier": 8,
+        "share": 0.01,
+        "section": 2,
+        "w1": 276,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 349,
+        "via": "fixed",
+        "selector": "#p-sec-3 > div.strong > div.pros > div.pro",
+        "tier": 6,
+        "share": 0.02,
+        "section": 2,
+        "w1": 349,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 349,
+        "via": "fixed",
+        "selector": "#p-sec-3 > div.strong > div.pros > div.pro",
+        "tier": 6,
+        "share": 0.03,
+        "section": 2,
+        "w1": 349,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 531,
+        "via": "fixed",
+        "selector": "#p-sec-4 > div.linkset > ul.linkset__list > li.linkset__item",
+        "tier": 6,
+        "share": 0.02,
+        "section": 2,
+        "w1": 531,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 349,
+        "via": "fixed",
+        "selector": "ul.linkset__list > li.linkset__item > a.linkset__link > div",
+        "tier": 8,
+        "share": 0.02,
+        "section": 2,
+        "w1": 349,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 531,
+        "via": "fixed",
+        "selector": "#p-sec-4 > div.linkset > ul.linkset__list > li.linkset__item",
+        "tier": 6,
+        "share": 0.02,
+        "section": 2,
+        "w1": 531,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 531,
+        "via": "fixed",
+        "selector": "#p-sec-4 > div.linkset > ul.linkset__list > li.linkset__item",
+        "tier": 6,
+        "share": 0.02,
+        "section": 2,
+        "w1": 531,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 375,
+        "via": "fixed",
+        "selector": "ul.linkset__list > li.linkset__item > a.linkset__link > div",
+        "tier": 8,
+        "share": 0.02,
+        "section": 2,
+        "w1": 375,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 531,
+        "via": "fixed",
+        "selector": "#p-sec-4 > div.linkset > ul.linkset__list > li.linkset__item",
+        "tier": 6,
+        "share": 0.01,
+        "section": 2,
+        "w1": 531,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "body > main > div.cta-rail",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "body > main > button.back-to-top",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 2,
+        "selector": "body > main > div.prospect",
+        "px": 1142,
+        "capSelector": "div.prospect > div.p-hero > div.p-hero__image > div.page-layout.p-hero__layout"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1142,
+    "contentFrom": "module",
+    "maxCap": 1142,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 160
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 1142px = build 1142px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "sections",
+        "detail": "live 2 vs build 3 top-level sections — module rows compared by order up to the shorter side, advisory until the structure matches",
+        "advisory": true
+      },
+      {
+        "ok": true,
+        "label": "module 1/2",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/2",
+        "detail": "live 1142px (div.pjYfS > div > div.gJpgVR > div.kHUlbd) → build full-bleed (body > main > button.back-to-top)",
+        "advisory": true
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/prospect-2560/cap-iter.json"
+}

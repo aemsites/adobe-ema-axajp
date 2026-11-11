@@ -1,0 +1,44 @@
+{
+  "index": {
+    "verdict": "PASS",
+    "reason": "(1) CTA rail now rendered inside <main> (content-presence 0 at both widths). (2) pixel = live capture-state artifact, same cause as the prototypes-360 override: the live stitch catches the hero list collapsed at 26px (origin docH 9243 vs a normal live load 9463; EDS 9464). Aligned at +220px every 600px band below the hero is 0–2.6% (crops in stardust/.work/rollout/archetype-index/crops/). Clipped 0. | Units (360): off 8 / missing 6 — same element-pairing granularity as at 1440: inner <span>/<strong> splits vs one EDS text node (JOIN), wrapper box heights vs text boxes (entry links dh -24 with dx/dy 0), svg↔picture role swaps in the consult icons, one 2-line wrap in a consult label; the recommended family lazy-loads after the probe (0 served matches). Residual logged, not iterated (published-origin rounds used; granularity parity #87).",
+    "by": "hands-off",
+    "at": "2026-11-09"
+  },
+  "prospect": {
+    "verdict": "PASS",
+    "reason": "content-presence MISSING 3 = the CTA rail links (保険の無料相談 /form/consultation, 資料請求 /form/brochure, 電話相談 /request/): live renders the rail inside <main>; the foundation renders the same 3 links (same text, href, visible, fixed) as the last /footer section on prospect-hub, which content-presence counts as chrome — same cause as the index override, queued as a foundation request (C-final). Final published run: pixel 0.90%, Δh 0, clipped 0; units criterion is element-pairing advisory (EDS block markup vs styled-components units), not in the delivery bar. | Units (360): off 89 / missing 23 — same element-pairing granularity as at 1440: jump sections pair heading boxes 181px apart because EDS sections are full-width with an inner 1078px column (same rendered x), link-set items pair the <a> box vs the source padded <li>, svg↔picture swaps on the pro cards. Residual logged, not iterated (published-origin rounds used; granularity parity #87).",
+    "by": "hands-off",
+    "at": "2026-11-09"
+  },
+  "product": {
+    "verdict": "PASS",
+    "reason": "clipped 39 = live parity, same override as prototypes-360 (progress.json types.product-listing 360 justified): the 2-line labels in the 48px overflow:hidden buttons (product cards 詳しく見る / パンフレットをもらう, banner 専門スタッフに 電話で相談(無料)) clip identically on live — origin clip-probe textClipped 39, EDS 39, same elements. Pixel 4.76%, Δh 0, content MISSING 0 / HIDDEN 0. Remaining row fails are the queued font-not-loaded:noto-sans-jp-fallback (foundation request, C-final) and the units element-pairing advisory (off 0 / hidden 0 / missing 0). | Units (360): off 37 / missing 15 — same element-pairing granularity as at 1440: product-card description boxes differ by the source footnote split (one text node vs two), the panel-1 simulation pairs source <button> selects with EDS value spans, anchor buttons pair svg↔img in swapped order, other-product buttons wrap their label in a <span> on the source (JOIN). Residual logged, not iterated (published-origin rounds used; granularity parity #87).",
+    "by": "hands-off",
+    "at": "2026-11-09"
+  },
+  "about-insurance": {
+    "verdict": "PASS",
+    "reason": "units-only failure at 360 (pixel 0.49%, clipped 0 or within allowance, content MISSING/HIDDEN 0, fonts loaded). Units (360): off 8 / missing 10 — same element-pairing granularity as at 1440: bubble/QA/testimonial units pair source inner spans and padded wrappers against EDS single text nodes (JOIN) and box heights; glyph positions within tolerance where paired 1:1. Residual logged, not iterated (published-origin rounds used; granularity parity #87).",
+    "by": "hands-off",
+    "at": "2026-11-09"
+  },
+  "company": {
+    "verdict": "PASS",
+    "reason": "units-only failure at 360 (pixel 2.27%, clipped 0 or within allowance, content MISSING/HIDDEN 0, fonts loaded). Units (360): off 6 / missing 38 — same element-pairing granularity as at 1440: the source wraps every anchor/CTA label in an inner <span>/<div> the EDS button text has inline (JOIN)",
+    "by": "hands-off",
+    "at": "2026-11-09"
+  },
+  "customer": {
+    "verdict": "PASS",
+    "reason": "units-only failure at 360 (pixel 8.13%, clipped 0 or within allowance, content MISSING/HIDDEN 0, fonts loaded). Units (360): off 10 / missing 52 — same element-pairing granularity as at 1440: source DirectButton/notice units carry inner styled spans and icon <svg> the EDS buttons render as text + CSS icon (JOIN/role swap); positions of paired elements within tolerance except 10 wrapper-box deltas. Residual logged, not iterated (published-origin rounds used; granularity parity #87).",
+    "by": "hands-off",
+    "at": "2026-11-09"
+  },
+  "recruitment": {
+    "verdict": "PASS",
+    "reason": "font-not-loaded on the ORIGIN side only: the live /recruitment/ declares Publico Headline and Source Sans 3 @font-face rules that error in a real Chrome (document.fonts status \"error\" on every face, re-checked 2026-11-09), so the live page renders its fallback serif/sans — the EDS page names the same families first in its stacks (licensed faces never rehosted) and renders the same fallbacks. Pixel 0.24% at 360, Δh 1, clipped 0, content 0, units within.",
+    "by": "hands-off",
+    "at": "2026-11-09"
+  }
+}

@@ -1,0 +1,639 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-09T07:29:19.191Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-09T13:35:00.809Z",
+  "blocks": [
+    {
+      "id": "accordion",
+      "label": "accordion",
+      "kind": "module",
+      "signature": "module:accordion",
+      "source": null,
+      "usedByTemplates": [
+        "about-insurance",
+        "product"
+      ],
+      "usedByPages": [
+        "about-insurance",
+        "product"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "accordion",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "anchor-links",
+      "label": "anchor-links",
+      "kind": "module",
+      "signature": "module:anchor-links",
+      "source": null,
+      "usedByTemplates": [
+        "company",
+        "product",
+        "prospect"
+      ],
+      "usedByPages": [
+        "about-axa",
+        "company",
+        "customer-feedback",
+        "dataprivacy",
+        "product",
+        "prospect"
+      ],
+      "instanceCount": 6,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "anchor-links",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "art-image",
+      "label": "art-image",
+      "kind": "module",
+      "signature": "module:art-image",
+      "source": null,
+      "usedByTemplates": [
+        "about-insurance",
+        "company",
+        "index"
+      ],
+      "usedByPages": [
+        "about-axa",
+        "about-insurance",
+        "company",
+        "customer-feedback",
+        "dataprivacy",
+        "index"
+      ],
+      "instanceCount": 6,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "art-image",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "banner-links",
+      "label": "banner-links",
+      "kind": "module",
+      "signature": "module:banner-links",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "banner-links",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "banner-slider",
+      "label": "banner-slider",
+      "kind": "module",
+      "signature": "module:banner-slider",
+      "source": null,
+      "usedByTemplates": [
+        "customer"
+      ],
+      "usedByPages": [
+        "customer"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "banner-slider",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "breadcrumbs",
+      "label": "breadcrumbs",
+      "kind": "module",
+      "signature": "module:breadcrumbs",
+      "source": null,
+      "usedByTemplates": [
+        "about-insurance",
+        "company",
+        "customer",
+        "product",
+        "prospect"
+      ],
+      "usedByPages": [
+        "about-axa",
+        "about-insurance",
+        "company",
+        "customer",
+        "customer-feedback",
+        "dataprivacy",
+        "product",
+        "prospect"
+      ],
+      "instanceCount": 8,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "breadcrumbs",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "bubble-guide",
+      "label": "bubble-guide",
+      "kind": "module",
+      "signature": "module:bubble-guide",
+      "source": null,
+      "usedByTemplates": [
+        "about-insurance"
+      ],
+      "usedByPages": [
+        "about-insurance"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "bubble-guide",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "columns",
+      "label": "columns",
+      "kind": "module",
+      "signature": "module:columns",
+      "source": null,
+      "usedByTemplates": [
+        "company"
+      ],
+      "usedByPages": [
+        "about-axa",
+        "company",
+        "customer-feedback",
+        "dataprivacy"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "columns",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "contact-links",
+      "label": "contact-links",
+      "kind": "module",
+      "signature": "module:contact-links",
+      "source": null,
+      "usedByTemplates": [
+        "about-insurance",
+        "customer",
+        "product"
+      ],
+      "usedByPages": [
+        "about-insurance",
+        "customer",
+        "product"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "contact-links",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "cta-consult",
+      "label": "cta-consult",
+      "kind": "module",
+      "signature": "module:cta-consult",
+      "source": null,
+      "usedByTemplates": [
+        "index",
+        "product"
+      ],
+      "usedByPages": [
+        "index",
+        "product"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "cta-consult",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "entry-links",
+      "label": "entry-links",
+      "kind": "module",
+      "signature": "module:entry-links",
+      "source": null,
+      "usedByTemplates": [
+        "about-insurance",
+        "index"
+      ],
+      "usedByPages": [
+        "about-insurance",
+        "index"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "entry-links",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "feature-grid",
+      "label": "feature-grid",
+      "kind": "module",
+      "signature": "module:feature-grid",
+      "source": null,
+      "usedByTemplates": [
+        "customer",
+        "index",
+        "prospect"
+      ],
+      "usedByPages": [
+        "customer",
+        "index",
+        "prospect"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "feature-grid",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero-carousel",
+      "label": "hero-carousel",
+      "kind": "module",
+      "signature": "module:hero-carousel",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "hero-carousel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "link-buttons",
+      "label": "link-buttons",
+      "kind": "module",
+      "signature": "module:link-buttons",
+      "source": null,
+      "usedByTemplates": [
+        "customer",
+        "product"
+      ],
+      "usedByPages": [
+        "customer",
+        "product"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "link-buttons",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "link-list",
+      "label": "link-list",
+      "kind": "module",
+      "signature": "module:link-list",
+      "source": null,
+      "usedByTemplates": [
+        "about-insurance",
+        "prospect"
+      ],
+      "usedByPages": [
+        "about-insurance",
+        "prospect"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "link-list",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "link-panels",
+      "label": "link-panels",
+      "kind": "module",
+      "signature": "module:link-panels",
+      "source": null,
+      "usedByTemplates": [
+        "customer"
+      ],
+      "usedByPages": [
+        "customer"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "link-panels",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "news-list",
+      "label": "news-list",
+      "kind": "module",
+      "signature": "module:news-list",
+      "source": null,
+      "usedByTemplates": [
+        "customer",
+        "index"
+      ],
+      "usedByPages": [
+        "customer",
+        "index"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "news-list",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "page-banner",
+      "label": "page-banner",
+      "kind": "module",
+      "signature": "module:page-banner",
+      "source": null,
+      "usedByTemplates": [
+        "customer",
+        "product",
+        "prospect"
+      ],
+      "usedByPages": [
+        "customer",
+        "product",
+        "prospect"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "page-banner",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "product-cards",
+      "label": "product-cards",
+      "kind": "module",
+      "signature": "module:product-cards",
+      "source": null,
+      "usedByTemplates": [
+        "index",
+        "prospect"
+      ],
+      "usedByPages": [
+        "index",
+        "prospect"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "product-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "recruit-about",
+      "label": "recruit-about",
+      "kind": "module",
+      "signature": "module:recruit-about",
+      "source": null,
+      "usedByTemplates": [
+        "recruitment"
+      ],
+      "usedByPages": [
+        "recruitment"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "recruit-about",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "recruit-channels",
+      "label": "recruit-channels",
+      "kind": "module",
+      "signature": "module:recruit-channels",
+      "source": null,
+      "usedByTemplates": [
+        "recruitment"
+      ],
+      "usedByPages": [
+        "recruitment"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "recruit-channels",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "recruit-entry",
+      "label": "recruit-entry",
+      "kind": "module",
+      "signature": "module:recruit-entry",
+      "source": null,
+      "usedByTemplates": [
+        "recruitment"
+      ],
+      "usedByPages": [
+        "recruitment"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "recruit-entry",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "recruit-hero",
+      "label": "recruit-hero",
+      "kind": "module",
+      "signature": "module:recruit-hero",
+      "source": null,
+      "usedByTemplates": [
+        "recruitment"
+      ],
+      "usedByPages": [
+        "recruitment"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "recruit-hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "recruit-statement",
+      "label": "recruit-statement",
+      "kind": "module",
+      "signature": "module:recruit-statement",
+      "source": null,
+      "usedByTemplates": [
+        "recruitment"
+      ],
+      "usedByPages": [
+        "recruitment"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "recruit-statement",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "section-title",
+      "label": "section-title",
+      "kind": "module",
+      "signature": "module:section-title",
+      "source": null,
+      "usedByTemplates": [
+        "about-insurance",
+        "index",
+        "product",
+        "prospect"
+      ],
+      "usedByPages": [
+        "about-insurance",
+        "index",
+        "product",
+        "prospect"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "section-title",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "simulation-quiz",
+      "label": "simulation-quiz",
+      "kind": "module",
+      "signature": "module:simulation-quiz",
+      "source": null,
+      "usedByTemplates": [
+        "index",
+        "product",
+        "prospect"
+      ],
+      "usedByPages": [
+        "index",
+        "product",
+        "prospect"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "simulation-quiz",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "strengths",
+      "label": "strengths",
+      "kind": "module",
+      "signature": "module:strengths",
+      "source": null,
+      "usedByTemplates": [
+        "index",
+        "prospect"
+      ],
+      "usedByPages": [
+        "index",
+        "prospect"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "strengths",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "testimonial-cards",
+      "label": "testimonial-cards",
+      "kind": "module",
+      "signature": "module:testimonial-cards",
+      "source": null,
+      "usedByTemplates": [
+        "about-insurance"
+      ],
+      "usedByPages": [
+        "about-insurance"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "testimonial-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

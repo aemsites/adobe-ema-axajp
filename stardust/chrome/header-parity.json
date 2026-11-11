@@ -1,0 +1,178 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-11-09T08:06:09.377Z",
+ "source": "https://www.axa.co.jp/",
+ "build": "https://main--80b77690--aemcoder.aem.page/stardust-shell",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  390,
+  1440
+ ],
+ "counts": {
+  "error": 1,
+  "warn": 17,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "link-missing@390 link",
+   "width": 390,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link / not in the build header"
+  },
+  {
+   "key": "control-missing@390 ;",
+   "width": 390,
+   "path": ";",
+   "id": "control-missing",
+   "severity": "error",
+   "detail": "the source menu control opens on click; the build has no control named \";\""
+  },
+  {
+   "key": "motion@1440 保険をご検討のお客さま [hover]",
+   "width": 1440,
+   "path": "保険をご検討のお客さま",
+   "action": "hover",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates uiAAL; the build does not"
+  },
+  {
+   "key": "state-extra@1440 保険をご検討のお客さま [key]",
+   "width": 1440,
+   "path": "保険をご検討のお客さま",
+   "action": "key",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on key on the build only"
+  },
+  {
+   "key": "motion@1440 ご契約者さま [hover]",
+   "width": 1440,
+   "path": "ご契約者さま",
+   "action": "hover",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates uiAAL; the build does not"
+  },
+  {
+   "key": "state-extra@1440 ご契約者さま [key]",
+   "width": 1440,
+   "path": "ご契約者さま",
+   "action": "key",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on key on the build only"
+  },
+  {
+   "key": "motion@1440 法人のお客さま [hover]",
+   "width": 1440,
+   "path": "法人のお客さま",
+   "action": "hover",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates kXFVgJ; the build does not"
+  },
+  {
+   "key": "motion@1440 法人のお客さま [hover]",
+   "width": 1440,
+   "path": "法人のお客さま",
+   "action": "hover",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates uiAAL; the build does not"
+  },
+  {
+   "key": "state-extra@1440 法人のお客さま [key]",
+   "width": 1440,
+   "path": "法人のお客さま",
+   "action": "key",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on key on the build only"
+  },
+  {
+   "key": "motion@1440 パートナーさま [hover]",
+   "width": 1440,
+   "path": "パートナーさま",
+   "action": "hover",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates uiAAL; the build does not"
+  },
+  {
+   "key": "state-extra@1440 パートナーさま [key]",
+   "width": 1440,
+   "path": "パートナーさま",
+   "action": "key",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on key on the build only"
+  },
+  {
+   "key": "motion@1440 企業情報 [hover]",
+   "width": 1440,
+   "path": "企業情報",
+   "action": "hover",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates uiAAL; the build does not"
+  },
+  {
+   "key": "state-extra@1440 企業情報 [key]",
+   "width": 1440,
+   "path": "企業情報",
+   "action": "key",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on key on the build only"
+  },
+  {
+   "key": "link-href@1440 採用情報 [hover]",
+   "width": 1440,
+   "path": "採用情報",
+   "action": "hover",
+   "id": "link-href",
+   "severity": "warn",
+   "detail": "1 link(s) point elsewhere: 採用情報トップ: /recruitment/career?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP → /recruitment?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+  },
+  {
+   "key": "motion@1440 採用情報 [hover]",
+   "width": 1440,
+   "path": "採用情報",
+   "action": "hover",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates uiAAL; the build does not"
+  },
+  {
+   "key": "state-extra@1440 採用情報 [key]",
+   "width": 1440,
+   "path": "採用情報",
+   "action": "key",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on key on the build only"
+  },
+  {
+   "key": "motion@1440 検索 [click]",
+   "width": 1440,
+   "path": "検索",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates hfiyCr; the build does not"
+  },
+  {
+   "key": "decision-invalid@0 (decisions)",
+   "width": 0,
+   "path": "(decisions)",
+   "id": "decision-invalid",
+   "severity": "warn",
+   "detail": "ignored: control-missing@390 ; — a decision needs the site owner's `by` and `at`"
+  }
+ ]
+}

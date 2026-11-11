@@ -1,0 +1,13 @@
+{
+  "variantName": "simulation-quiz",
+  "baseBlock": "custom",
+  "canonicalModel": "simulation-quiz",
+  "visualCharacteristics": "An interactive insurance simulation form with two tabs over radio-button option groups that enable step by step and a submit button. The compact variant shows a grey box of four dropdowns with a full-width submit button.",
+  "contentPattern": "Row 1: [tab 1 label] [tab 2 label]. One row per field, in order gender, marital status, children, age: [label paragraph, empty to join the previous group] [options list]. Last row: [submit label paragraph] [form action link paragraph].",
+  "options": [
+    { "class": "compact", "label": "Compact" }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use it to let visitors answer a few questions and get a recommended insurance product.",
+  "reuseGuidance": "Reuse it only for this recommendation form that submits to the results page; pick a form or embed block for other forms."
+}

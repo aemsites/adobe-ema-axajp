@@ -1,0 +1,12 @@
+cap-probe  base 1440 → probe 2560 (from stardust/current/DESIGN.json)
+live   https://www.axa.co.jp/company/
+  modules  2 sections: capped 1078 ×1 · full-bleed ×1
+  contentMaxWidth 1078px (module) · shellMaxWidth fluid · root #root > main
+build  http://localhost:8791/company-proposed.html
+  modules  2 sections: capped 1078 ×1 · full-bleed ×1
+  contentMaxWidth 1078px (module) · shellMaxWidth fluid · root body > main
+rows
+  ✓ content cap: live 1078px = build 1078px (±20, shared module cap)
+  ✓ module 1/2: full-bleed on both
+  ✓ module 2/2: 1078px = 1078px
+cap-probe: PASS at 2560 — 0 of 3 rows failed (evidence stardust/replica/gates/company-2560/cap-iter.json)

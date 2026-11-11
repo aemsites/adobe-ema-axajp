@@ -1,0 +1,514 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-09T07:29:19.155Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/.work/rollout/state-inventory.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-09T13:34:11.957Z",
+  "pages": [
+    {
+      "slug": "about-axa",
+      "path": "/about-axa",
+      "title": "企業情報｜アクサ生命保険株式会社",
+      "templateId": "company",
+      "representative": "company",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:599684ef5a55e061ecd760e16663fe81245cfff5b2bf0fa6a287a59cb0c3426c",
+        "currentStatePath": "stardust/current/pages/about-axa.json",
+        "sourceUrl": "https://www.axa.co.jp/about-axa"
+      },
+      "blocks": [
+        "art-image",
+        "anchor-links",
+        "columns",
+        "breadcrumbs"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--80b77690--aemcoder.aem.page/about-axa",
+        "deployedAt": "2026-11-09T11:35:00.515Z",
+        "verifiedAt": "2026-11-09T13:34:11.957Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.58,
+          "heightDelta": -98,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-09T13:31:16.011Z"
+        }
+      }
+    },
+    {
+      "slug": "about-insurance",
+      "path": "/about-insurance",
+      "title": "保険の選び方｜アクサ生命保険株式会社",
+      "templateId": "about-insurance",
+      "source": {
+        "migratedHtml": "stardust/migrated/about-insurance/index.html",
+        "metaJson": "stardust/migrated/about-insurance/_meta.json",
+        "sourceHash": "sha256:c9772c6f005f27e662412c3c4c222059ad0c54ac516575fc08f026cf34b76fbc",
+        "sourceUrl": "https://www.axa.co.jp/about-insurance"
+      },
+      "blocks": [
+        "breadcrumbs",
+        "section-title",
+        "bubble-guide",
+        "accordion",
+        "art-image",
+        "link-list",
+        "testimonial-cards",
+        "entry-links",
+        "contact-links"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--80b77690--aemcoder.aem.page/about-insurance",
+        "deployedAt": "2026-11-09T08:34:38.017Z",
+        "verifiedAt": "2026-11-09T13:34:11.957Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.49,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 12,
+            "variable": []
+          },
+          "reasons": [
+            "units off 8 hidden 0 missing 10"
+          ],
+          "override": "PASS",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-09T13:31:16.011Z"
+        }
+      }
+    },
+    {
+      "slug": "company",
+      "path": "/company",
+      "title": "法人のお客さま｜アクサ生命株式会社",
+      "templateId": "company",
+      "source": {
+        "migratedHtml": "stardust/migrated/company/index.html",
+        "metaJson": "stardust/migrated/company/_meta.json",
+        "sourceHash": "sha256:467957769c61dc18d7b68f1d1b03629946ffd01ef6928af85bbf7ed271dd75e6",
+        "sourceUrl": "https://www.axa.co.jp/company"
+      },
+      "blocks": [
+        "art-image",
+        "anchor-links",
+        "columns",
+        "breadcrumbs"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--80b77690--aemcoder.aem.page/company",
+        "deployedAt": "2026-11-09T09:07:44.487Z",
+        "verifiedAt": "2026-11-09T13:34:11.957Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.27,
+          "heightDelta": -20,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "units off 6 hidden 0 missing 38"
+          ],
+          "override": "PASS",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-09T13:31:16.011Z"
+        }
+      }
+    },
+    {
+      "slug": "customer",
+      "path": "/customer",
+      "title": "ご契約者さま｜アクサ生命保険株式会社",
+      "templateId": "customer",
+      "source": {
+        "migratedHtml": "stardust/migrated/customer/index.html",
+        "metaJson": "stardust/migrated/customer/_meta.json",
+        "sourceHash": "sha256:9b776147d44013993a55b7968c58d1aed714ba8182f3d813a42852ba7be5d057",
+        "sourceUrl": "https://www.axa.co.jp/customer"
+      },
+      "blocks": [
+        "page-banner",
+        "banner-slider",
+        "link-panels",
+        "link-buttons",
+        "feature-grid",
+        "news-list",
+        "contact-links",
+        "breadcrumbs"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--80b77690--aemcoder.aem.page/customer",
+        "deployedAt": "2026-11-09T09:13:05.973Z",
+        "verifiedAt": "2026-11-09T13:34:11.957Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.13,
+          "heightDelta": -95,
+          "clipped": 5,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [
+            "units off 10 hidden 0 missing 52"
+          ],
+          "override": "PASS",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-09T13:31:16.011Z"
+        }
+      }
+    },
+    {
+      "slug": "customer-feedback",
+      "path": "/customer-feedback",
+      "title": "お客さまからの評価｜アクサ生命保険株式会社",
+      "templateId": "company",
+      "representative": "company",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:cc416577e932fcd462e1b27e7f120f9349774d684455eb3200aadd9373ad56b2",
+        "currentStatePath": "stardust/current/pages/customer-feedback.json",
+        "sourceUrl": "https://www.axa.co.jp/customer-feedback"
+      },
+      "blocks": [
+        "art-image",
+        "anchor-links",
+        "columns",
+        "breadcrumbs"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--80b77690--aemcoder.aem.page/customer-feedback",
+        "deployedAt": "2026-11-09T11:35:00.472Z",
+        "verifiedAt": "2026-11-09T13:34:11.957Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.03,
+          "heightDelta": -34,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-09T13:31:16.011Z"
+        }
+      }
+    },
+    {
+      "slug": "dataprivacy",
+      "path": "/dataprivacy",
+      "title": "アクサグループデータプライバシー宣言｜アクサ生命保険株式会社",
+      "templateId": "company",
+      "representative": "company",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d94db66004ba8ed5860763c4f8e44cd5a58c4bc27ecfeae68418522857329b2e",
+        "currentStatePath": "stardust/current/pages/dataprivacy.json",
+        "sourceUrl": "https://www.axa.co.jp/dataprivacy"
+      },
+      "blocks": [
+        "art-image",
+        "anchor-links",
+        "columns",
+        "breadcrumbs"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--80b77690--aemcoder.aem.page/dataprivacy",
+        "deployedAt": "2026-11-09T11:35:00.556Z",
+        "verifiedAt": "2026-11-09T13:34:11.957Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.79,
+          "heightDelta": -23,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-09T13:31:16.011Z"
+        }
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "アクサ生命保険株式会社",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:91347ef58628ae5e55234994d9fe874ac6febc0cc9e6b50a13131f40a1f8570c",
+        "sourceUrl": "https://www.axa.co.jp/"
+      },
+      "blocks": [
+        "hero-carousel",
+        "news-list",
+        "entry-links",
+        "section-title",
+        "product-cards",
+        "simulation-quiz",
+        "cta-consult",
+        "art-image",
+        "strengths",
+        "feature-grid",
+        "banner-links"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--80b77690--aemcoder.aem.page/",
+        "deployedAt": "2026-11-09T10:07:49.920Z",
+        "verifiedAt": "2026-11-09T13:34:11.957Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 21.15,
+          "heightDelta": -221,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [
+            "pixel 21.15% > 10%",
+            "units off 8 hidden 0 missing 6"
+          ],
+          "override": "PASS",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-09T13:31:16.011Z"
+        }
+      }
+    },
+    {
+      "slug": "product",
+      "path": "/product",
+      "title": "生命保険商品一覧｜アクサ生命保険株式会社",
+      "templateId": "product",
+      "source": {
+        "migratedHtml": "stardust/migrated/product/index.html",
+        "metaJson": "stardust/migrated/product/_meta.json",
+        "sourceHash": "sha256:12e7e71c23fcaf77acfd1642b88a31e4fe2b9a561821abb5e9b40af7a81354ce",
+        "sourceUrl": "https://www.axa.co.jp/product"
+      },
+      "blocks": [
+        "breadcrumbs",
+        "page-banner",
+        "section-title",
+        "anchor-links",
+        "link-buttons",
+        "accordion",
+        "simulation-quiz",
+        "cta-consult",
+        "contact-links"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--80b77690--aemcoder.aem.page/product",
+        "deployedAt": "2026-11-09T11:02:24.220Z",
+        "verifiedAt": "2026-11-09T13:34:11.957Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.77,
+          "heightDelta": 0,
+          "clipped": 39,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 4,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [
+            "clipped 39 (text 39, controls 0)",
+            "units off 37 hidden 0 missing 15"
+          ],
+          "override": "PASS",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-09T13:31:16.011Z"
+        }
+      }
+    },
+    {
+      "slug": "prospect",
+      "path": "/prospect",
+      "title": "保険をご検討のお客さま｜アクサ生命保険",
+      "templateId": "prospect",
+      "source": {
+        "migratedHtml": "stardust/migrated/prospect/index.html",
+        "metaJson": "stardust/migrated/prospect/_meta.json",
+        "sourceHash": "sha256:b56134349e91f9110664616ddec6cdaebef404585de5ce980654714413e1fc24",
+        "sourceUrl": "https://www.axa.co.jp/prospect"
+      },
+      "blocks": [
+        "page-banner",
+        "section-title",
+        "simulation-quiz",
+        "anchor-links",
+        "product-cards",
+        "feature-grid",
+        "strengths",
+        "link-list",
+        "breadcrumbs"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--80b77690--aemcoder.aem.page/prospect",
+        "deployedAt": "2026-11-09T10:45:58.185Z",
+        "verifiedAt": "2026-11-09T13:34:11.957Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.9,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 7,
+            "variable": []
+          },
+          "reasons": [
+            "units off 89 hidden 0 missing 23"
+          ],
+          "override": "PASS",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-09T13:31:16.011Z"
+        }
+      }
+    },
+    {
+      "slug": "recruitment",
+      "path": "/recruitment",
+      "title": "採用情報｜アクサ生命保険",
+      "templateId": "recruitment",
+      "source": {
+        "migratedHtml": "stardust/migrated/recruitment/index.html",
+        "metaJson": "stardust/migrated/recruitment/_meta.json",
+        "sourceHash": "sha256:0528347a9b4f17d4b6a48f93ddc720bf092c750bbe12bd99b5038fd39ea303d4",
+        "sourceUrl": "https://www.axa.co.jp/recruitment"
+      },
+      "blocks": [
+        "recruit-hero",
+        "recruit-statement",
+        "recruit-about",
+        "recruit-channels",
+        "recruit-entry"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--80b77690--aemcoder.aem.page/recruitment",
+        "deployedAt": "2026-11-09T09:47:03.877Z",
+        "verifiedAt": "2026-11-09T13:34:11.957Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.24,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "font-not-loaded:Publico Headline",
+            "font-not-loaded:Source Sans 3"
+          ],
+          "override": "PASS",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-09T13:31:16.011Z"
+        }
+      }
+    }
+  ]
+}

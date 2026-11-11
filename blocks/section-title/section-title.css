@@ -1,0 +1,402 @@
+/* section-title — default = canon `.section-title` (home): centred blue h2 + accent rule */
+.section-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8.32px;
+  margin: 0 0 32px;
+}
+
+.section-title .section-title-head :is(h1, h2, h3, h4) {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  color: var(--blue);
+  text-align: center;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--accent);
+}
+
+@media (width <= 767px) {
+  .section-title {
+    gap: 16px;
+    min-height: 31px;
+    margin-bottom: 24px;
+  }
+
+  .section-title .section-title-head :is(h1, h2, h3, h4) {
+    font-size: 24px;
+    line-height: 31.2px;
+  }
+}
+
+/* product titles (product.css .pl-center-title / -small / -medium / .pl-blue-block-title) */
+.section-title.center::after,
+.section-title.small::after,
+.section-title.medium::after,
+.section-title.blue-block::after {
+  content: none;
+}
+
+.section-title.center .section-title-head :is(h1, h2, h3, h4) {
+  font-size: 1.3125rem;
+  line-height: 1.15;
+}
+
+.section-title.small .section-title-head :is(h1, h2, h3, h4) {
+  font-size: 1.1375rem;
+  line-height: 1.15;
+}
+
+.section-title.medium .section-title-head :is(h1, h2, h3, h4) {
+  font-size: 1.75rem;
+  line-height: 1.15;
+}
+
+.section-title.blue-block {
+  align-items: flex-start;
+}
+
+.section-title.blue-block .section-title-head :is(h1, h2, h3, h4) {
+  font-size: inherit;
+  line-height: inherit;
+  text-align: left;
+}
+
+@media (width <= 767px) {
+  .section-title.small .section-title-head :is(h1, h2, h3, h4) { font-size: 0.9975rem; }
+  .section-title.medium .section-title-head :is(h1, h2, h3, h4) { font-size: 1.1375rem; }
+}
+
+/* guide — about-insurance `.ai-h2`: left title with a dotted title bar */
+.section-title.guide {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 0;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 0;
+  margin: 5rem 0 1rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #333;
+  background: url('https://www.axa.co.jp/images/about-insurance/title-bar.png') center bottom / 3px auto repeat-x;
+}
+
+.section-title.guide::after {
+  content: none;
+}
+
+.section-title.guide .section-title-head :is(h1, h2, h3, h4) {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  text-align: left;
+}
+
+/* with-link — 記事一覧 button (about-insurance `.ai-list-btn`) */
+.section-title-link-sp a,
+.section-title .section-title-link a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 3rem;
+  border-radius: 4px;
+  line-height: 1.3;
+  text-align: center;
+  transition: 0.3s;
+  background: url('https://www.axa.co.jp/images/buttons/blue_button_background.gif') 0% 0% / contain;
+}
+
+@media (width >= 995px) {
+  .section-title .section-title-link a {
+    float: right;
+    font-size: 0.875rem;
+    font-weight: 400;
+  }
+}
+
+@media (width <= 994px) {
+  .section-title-link-sp a,
+  .section-title .section-title-link a {
+    margin: 0 0 2.5rem;
+  }
+}
+
+main > .section > div.section-title-link-sp p {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* ------------------------------------------------------------------------------------------
+   insurance-guide template layer (body.insurance-guide). Foundation styles/ is frozen, so the
+   page wrapper + default content of the about-insurance archetype ship here, scoped to the
+   template class (foundation-requests.md: move to styles.css). Source: about-insurance.css
+   `.ai-page`, `.ai-wrap`, `.ai-title`, `.ai-text`, `.ai-em`, `.ai-pagetop`.
+   ------------------------------------------------------------------------------------------ */
+body.insurance-guide main {
+  font-size: 16px;
+  line-height: 1.15;
+  color: #333;
+}
+
+body.insurance-guide main > .section > div {
+  max-width: 1024px;
+  padding: 0;
+}
+
+@media (width <= 994px) {
+  body.insurance-guide main > .section > div { padding: 0 40px; }
+}
+
+@media (width <= 767px) {
+  body.insurance-guide main > .section > div { padding: 0 14px; }
+}
+
+body.insurance-guide main > .section:first-of-type { padding-top: 24px; }
+
+body.insurance-guide main .default-content-wrapper h1 {
+  margin: 2rem 0 1rem;
+  border-bottom: 5px solid #ccc;
+  font-size: 2em;
+  font-weight: 700;
+  text-align: left;
+}
+
+body.insurance-guide main .default-content-wrapper p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  padding-bottom: 11px;
+}
+
+body.insurance-guide main .default-content-wrapper em {
+  font-style: normal;
+  color: var(--blue);
+}
+
+@media (width <= 767px) {
+  body.insurance-guide main .default-content-wrapper p {
+    font-size: 12px;
+    line-height: 18px;
+    padding-bottom: 10px;
+  }
+}
+
+/* reused blocks on the insurance-guide template (owned by archetype-company; scoped override):
+   breadcrumbs = `.ai-crumbs` (top, `/` orange separators), art-image = `.ai-figure` (full width) */
+body.insurance-guide main .breadcrumbs {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+body.insurance-guide main .breadcrumbs ul {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 8px;
+  overflow: visible;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+body.insurance-guide main .breadcrumbs li {
+  display: list-item;
+  color: var(--text);
+}
+
+body.insurance-guide main .breadcrumbs li + li::before {
+  content: '/';
+  margin: 0 8px;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+body.insurance-guide main .breadcrumbs a:any-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--blue);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+body.insurance-guide main .breadcrumbs a:any-link:hover { color: var(--blue-hover); }
+
+body.insurance-guide main .art-image {
+  margin: 2rem 0;
+}
+
+body.insurance-guide main .art-image :is(.art-image-pc, .art-image-sp, .art-image-one),
+body.insurance-guide main .art-image img {
+  width: 100%;
+}
+
+/* section style `pagetop` — ページの先頭に戻る text link (`.ai-pagetop`) */
+body.insurance-guide main > .section.pagetop { padding-bottom: 24px; }
+
+body.insurance-guide main .section.pagetop .default-content-wrapper p {
+  margin: 1.5rem 0.5rem;
+  padding: 0;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: normal;
+  color: var(--blue);
+  text-align: right;
+}
+
+body.insurance-guide main .section.pagetop .default-content-wrapper a {
+  font-weight: 700;
+}
+
+body.insurance-guide main .section.pagetop .default-content-wrapper a::before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  background: url('https://www.axa.co.jp/images/components/links/arrow_pagetop.png') no-repeat 0 0 / 100% auto;
+}
+
+/* sp-break — home: authored line breaks are SP-only (source br.sp-br) */
+@media (width >= 768px) {
+  .section-title.sp-break .section-title-head br { display: none; }
+}
+
+/* ---------- prospect-hub (prospect.css `.p-title`, `.p-sec__title`, `.p-sub`) ---------- */
+.section-title.no-rule {
+  gap: 0;
+  min-height: 0;
+  margin: 0;
+}
+
+.section-title.no-rule::after { content: none; }
+
+.section-title.no-rule .section-title-head :is(h1, h2, h3, h4) { line-height: 48px; }
+
+.section-title.numbered {
+  display: block;
+  margin: 80px 0 0;
+  padding: 0 0 32px;
+}
+
+.section-title.numbered::after { content: none; }
+
+.section-title.numbered .section-title-head :is(h1, h2, h3, h4) {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: inherit;
+  text-align: left;
+}
+
+.section-title.numbered .section-title-head em {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--white);
+  background: var(--blue);
+  border-radius: 32px;
+  user-select: none;
+}
+
+@media (width <= 767px) {
+  .section-title.no-rule .section-title-head :is(h1, h2, h3, h4) { line-height: 36px; }
+
+  .section-title.numbered {
+    margin-top: 48px;
+    padding-bottom: 24px;
+  }
+
+  .section-title.numbered .section-title-head :is(h1, h2, h3, h4) { font-size: 24px; }
+
+  .section-title.numbered .section-title-head em {
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+  }
+}
+
+/* prospect-hub template layer (foundation request): the `lead` section = `.p-sub` (two bold
+   h2 lines) + the simulation title; section rhythm of the `.prospect` column (32px gap) */
+body.prospect-hub main > .section.lead .default-content-wrapper {
+  margin-bottom: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+body.prospect-hub main > .section.lead .default-content-wrapper h2 {
+  font-size: 24px;
+  line-height: 1.8;
+}
+
+body.prospect-hub main > .section.lead .section-title.no-rule { margin-bottom: 16px; }
+
+body.prospect-hub main > .section > .section-title-wrapper:has(+ .anchor-links-wrapper)
+  .section-title { margin-bottom: 16px; }
+
+@media (width <= 767px) {
+  body.prospect-hub main > .section.lead .default-content-wrapper { text-align: left; }
+  body.prospect-hub main > .section.lead .default-content-wrapper h2 { font-size: 18px; }
+}
+
+/* product-listing (product.css .pl-center-title / .pl-block-title): 1.6 line height, no rule
+   rhythm — the template layer spaces blocks 1rem apart; block titles sit 6rem below */
+/* stylelint-disable no-descending-specificity -- template-scoped rules follow the base */
+body.product-listing .section-title.center,
+body.product-listing .section-title.blue-block {
+  display: block;
+  min-height: 0;
+  margin: 0;
+}
+
+body.product-listing .section-title.blue-block { margin-top: 6rem; }
+
+body.product-listing .section-title.center .section-title-head :is(h1, h2, h3, h4) {
+  font-size: 1.3125rem;
+  line-height: 1.6;
+}
+
+body.product-listing .section-title.blue-block .section-title-head :is(h1, h2, h3, h4) {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.6;
+  color: var(--blue);
+}
+
+@media (width <= 767px) {
+  body.product-listing .section-title.blue-block { margin-top: 1rem; }
+
+  body.product-listing .section-title.blue-block .section-title-head :is(h1, h2, h3, h4) {
+    font-size: 1.3125rem;
+    text-align: center;
+  }
+}

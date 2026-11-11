@@ -1,0 +1,67 @@
+{
+ "url": "https://main--80b77690--aemcoder.aem.page/",
+ "at": "2026-11-09T13:10:38.379Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 2,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 2,
+  "offPage": 6,
+  "textNodes": 165,
+  "controls": 98,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 2,
+   "clipper": "a",
+   "path": "div.news-list-text > div.news-list-title > p > a",
+   "text": "奈良教育大学esd・sdgsセンター、日本ユネスコ協会連盟、アクサ生命が協働し、 書籍『災害を乗り越えるための新たな減災",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.hero-carousel.block",
+   "path": "div.hero-carousel-wrapper > div.hero-carousel.block > div.hero-carousel-wrap > button.hero-carousel-arrow.hero-carousel-prev",
+   "text": "previous slide",
+   "cutMin": 10,
+   "cutMax": 10
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.hero-carousel.block",
+   "path": "div.hero-carousel-wrapper > div.hero-carousel.block > div.hero-carousel-wrap > button.hero-carousel-arrow.hero-carousel-next",
+   "text": "next slide",
+   "cutMin": 10,
+   "cutMax": 10
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 2,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 8,
+   "textNodes": 165,
+   "controls": 94,
+   "total": 0
+  }
+ }
+}

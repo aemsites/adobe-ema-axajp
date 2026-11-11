@@ -1,0 +1,178 @@
+{
+  "url": "https://www.axa.co.jp/prospect",
+  "title": "保険をご検討のお客さま｜アクサ生命保険",
+  "timestamp": "2026-11-11T04:30:04.395Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [
+    {
+      "id": "b01-page-banner",
+      "type": "hero",
+      "name": "page-banner",
+      "variantId": "v_249f06b7fbbd",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use at the top of a page to show the page title, optionally with a background image and a side login or CTA box. Used on 3 pages (customer-hub, product-listing and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Page banner",
+        "structure": "Page banner block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b02-section-title",
+      "type": "custom",
+      "name": "section-title",
+      "variantId": "v_52ec292f4f10",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it to introduce a page section with a styled heading. Used on 4 pages (insurance-guide, homepage, product-listing and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Section title",
+        "structure": "Section title block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b03-simulation-quiz",
+      "type": "custom",
+      "name": "simulation-quiz",
+      "variantId": "v_f5daa9b672fd",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it to let visitors answer a few questions and get a recommended insurance product. Used on 3 pages (homepage, product-listing and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Simulation quiz",
+        "structure": "Simulation quiz block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b04-anchor-links",
+      "type": "custom",
+      "name": "anchor-links",
+      "variantId": "v_063537b88519",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it for in-page navigation buttons that jump to sections further down the page. Used on 6 pages (content, product-listing and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Anchor links",
+        "structure": "Anchor links block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b05-product-cards",
+      "type": "cards",
+      "name": "product-cards",
+      "variantId": "v_fcbdcd01eda7",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it to showcase insurance products as clickable tiles linking to their pages. Used on 2 pages (homepage and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Product cards",
+        "structure": "Product cards block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b06-feature-grid",
+      "type": "cards",
+      "name": "feature-grid",
+      "variantId": "v_56f0f4136a9c",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it to present a set of services or features as icons with short labels. Used on 3 pages (customer-hub, homepage and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Feature grid",
+        "structure": "Feature grid block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b07-strengths",
+      "type": "cards",
+      "name": "strengths",
+      "variantId": "v_3248d26a3579",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it to present a company's key strengths or statistics as a grid of highlighted cards with links. Used on 2 pages (homepage and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Strengths",
+        "structure": "Strengths block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b08-link-list",
+      "type": "custom",
+      "name": "link-list",
+      "variantId": "v_41522ace0c3a",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use for a stacked list of related links or documents, optionally with a short description per link. Used on 2 pages (insurance-guide and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Link list",
+        "structure": "Link list block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b09-breadcrumbs",
+      "type": "breadcrumbs",
+      "name": "breadcrumbs",
+      "variantId": "v_6dc79497b530",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it to show the page location trail on content pages. Used on 8 pages (content, insurance-guide, customer-hub, product-listing and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Breadcrumbs",
+        "structure": "Breadcrumbs block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    }
+  ],
+  "replicaAdapter": {
+    "stardustSlug": "prospect",
+    "path": "/prospect",
+    "templateId": "prospect",
+    "liveUrl": "https://main--80b77690--aemcoder.aem.page/prospect",
+    "fullPageScreenshot": null
+  }
+}

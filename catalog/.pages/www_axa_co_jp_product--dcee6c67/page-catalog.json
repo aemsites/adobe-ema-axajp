@@ -1,0 +1,178 @@
+{
+  "url": "https://www.axa.co.jp/product",
+  "title": "生命保険商品一覧｜アクサ生命保険株式会社",
+  "timestamp": "2026-11-11T04:30:04.395Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [
+    {
+      "id": "b01-breadcrumbs",
+      "type": "breadcrumbs",
+      "name": "breadcrumbs",
+      "variantId": "v_6dc79497b530",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it to show the page location trail on content pages. Used on 8 pages (content, insurance-guide, customer-hub, product-listing and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Breadcrumbs",
+        "structure": "Breadcrumbs block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b02-page-banner",
+      "type": "hero",
+      "name": "page-banner",
+      "variantId": "v_249f06b7fbbd",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use at the top of a page to show the page title, optionally with a background image and a side login or CTA box. Used on 3 pages (customer-hub, product-listing and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Page banner",
+        "structure": "Page banner block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b03-section-title",
+      "type": "custom",
+      "name": "section-title",
+      "variantId": "v_52ec292f4f10",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it to introduce a page section with a styled heading. Used on 4 pages (insurance-guide, homepage, product-listing and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Section title",
+        "structure": "Section title block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b04-anchor-links",
+      "type": "custom",
+      "name": "anchor-links",
+      "variantId": "v_063537b88519",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it for in-page navigation buttons that jump to sections further down the page. Used on 6 pages (content, product-listing and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Anchor links",
+        "structure": "Anchor links block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b05-link-buttons",
+      "type": "custom",
+      "name": "link-buttons",
+      "variantId": "v_6471c57b1e08",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it for a set of navigation links shown as arrow buttons, such as contractor procedures or product category links. Used on 2 pages (customer-hub and product-listing templates).",
+      "visualChars": {
+        "purpose": "Link buttons",
+        "structure": "Link buttons block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b06-accordion",
+      "type": "accordion",
+      "name": "accordion",
+      "variantId": "v_83119b67b9f4",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it for FAQ-style or grouped content that readers expand panel by panel. Used on 2 pages (insurance-guide and product-listing templates).",
+      "visualChars": {
+        "purpose": "Accordion",
+        "structure": "Accordion block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b07-simulation-quiz",
+      "type": "custom",
+      "name": "simulation-quiz",
+      "variantId": "v_f5daa9b672fd",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it to let visitors answer a few questions and get a recommended insurance product. Used on 3 pages (homepage, product-listing and prospect-hub templates).",
+      "visualChars": {
+        "purpose": "Simulation quiz",
+        "structure": "Simulation quiz block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b08-cta-consult",
+      "type": "custom",
+      "name": "cta-consult",
+      "variantId": "v_04249a673bae",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use it at the end of a page to invite visitors to book a consultation, request a brochure or call. Used on 2 pages (homepage and product-listing templates).",
+      "visualChars": {
+        "purpose": "Cta consult",
+        "structure": "Cta consult block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b09-contact-links",
+      "type": "custom",
+      "name": "contact-links",
+      "variantId": "v_8bb4056f3448",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Use to present phone contact points with hours and a contact CTA, plus related banners or links. Used on 3 pages (insurance-guide, customer-hub and product-listing templates).",
+      "visualChars": {
+        "purpose": "Contact links",
+        "structure": "Contact links block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    }
+  ],
+  "replicaAdapter": {
+    "stardustSlug": "product",
+    "path": "/product",
+    "templateId": "product",
+    "liveUrl": "https://main--80b77690--aemcoder.aem.page/product",
+    "fullPageScreenshot": null
+  }
+}
