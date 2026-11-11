@@ -1,0 +1,54 @@
+/* banner-links — index.css `.partners` (partner banners) */
+.banner-links .banner-links-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8.8px;
+  max-width: 970px;
+  margin: 0 0 80px;
+}
+
+.banner-links .banner-links-item a:any-link {
+  display: block;
+  padding: 3.2px;
+  font-weight: 600;
+}
+
+/* as live at PC: the banner images collapse to 0 × 0 (only the link padding shows) */
+.banner-links .banner-links-item img {
+  width: 0;
+  height: 0;
+  object-fit: scale-down;
+}
+
+/* the page verification code that follows the banners (canon `.verification`) */
+main .section .banner-links-wrapper + .default-content-wrapper p {
+  display: flex;
+  justify-content: flex-end;
+  margin: 16px 0 80px;
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+@media (width <= 767px) {
+  .banner-links .banner-links-list {
+    display: grid;
+    grid-template-columns: 142px 142px;
+    gap: 12px;
+    margin-bottom: 48px;
+  }
+
+  .banner-links .banner-links-item a:any-link {
+    height: 48px;
+    padding: 0;
+  }
+
+  .banner-links .banner-links-item img {
+    width: 142px;
+    height: 43px;
+    object-fit: contain;
+  }
+
+  main .section .banner-links-wrapper + .default-content-wrapper p { margin: 16px 0 48px; }
+}

@@ -1,0 +1,165 @@
+/* content.css — Prismic slice modules for the `content` page type
+   (company, customer-feedback, about-axa, dataprivacy). Values lifted from the live styled-components
+   CSSOM (www.axa.co.jp/company/, 2026-11-09). Per-instance slice parameters (Prismic fields) are
+   CSS custom properties set inline by the renderer:
+     .band          --band-pad --band-bg --band-border --band-img --band-img-sp
+     .slice-heading --fs                        .slice-rule  --hr-m
+     .slice-text    --ta --pl --fs (+ -sp)      .slice-media --jc --jc-sp ; img --img-pl
+     .grid__col     --lg --md --sm (percent)    .cta-button  --ta --ta-sp --rot ; .hp-btn --fs
+     .custom-link   --jc --pl --fs                                                           */
+
+/* ---------- page-type base (live: html 16px, body 14px/1.4 #333; h ramp in rem) ----------
+   Differs from the home archetype (body 16px/1.6): the chrome inherits it too (footer FAQ/お問い合わせ
+   twins, SP menu button ";"), so this sits here, not in canon (back-port note in notes-company.md). */
+body { font-size: 14px; line-height: 1.4; color: #333; }
+main h1 { font-size: 1.75rem; }
+main h2 { font-size: 1.4rem; }
+main h3 { font-size: 1.225rem; }
+main h4 { font-size: 1.1375rem; }
+
+/* ---------- bands (Background slice wrappers) ---------- */
+.band-outer { background-color: #fff; }
+.band-outer__inner { width: 100%; max-width: 1078px; margin: 0 auto; }
+.band {
+  padding: var(--band-pad, 0);
+  border: var(--band-border, 2px solid transparent);
+  overflow: hidden;
+  background-color: var(--band-bg, transparent);
+  background-image: var(--band-img, none);
+  background-position: center top; background-size: cover; background-repeat: no-repeat;
+}
+@media (max-width: 767px) { .band { background-image: var(--band-img-sp, var(--band-img, none)); } }
+
+/* ---------- slice container ---------- */
+.slice { width: 100%; max-width: 1078px; margin: 1.0938rem auto; }
+
+/* ---------- heading ---------- */
+.slice-heading {
+  display: flex; margin: 0 0 15px; padding: 10px 10px 10px 0;
+  justify-content: flex-start; text-align: left; font-weight: bold;
+}
+.slice-heading .slice-anchor { position: relative; top: -0.875rem; }
+.slice-heading__inner { display: flex; align-items: center; font-size: var(--fs, inherit); }
+.slice-heading__text { display: block; }
+.slice-heading__text--bordered { border-left: 3px solid #e5e5e5; padding-left: 0.875rem; }
+
+/* ---------- rich text ---------- */
+.slice-text { text-align: var(--ta, left); padding-left: var(--pl, 0); font-size: var(--fs, 0.9975rem); }
+@media (max-width: 767px) {
+  .slice-text {
+    text-align: var(--ta-sp, var(--ta, left));
+    padding-left: var(--pl-sp, var(--pl, 0));
+    font-size: var(--fs-sp, var(--fs, 0.9975rem));
+  }
+}
+.slice-text ul { padding-left: 1rem; }
+.slice-text li { list-style: disc; }
+.white-txt, .txt-white { color: #fff; }
+.turquoise-txt { color: #00adc6; }
+
+/* ---------- media (PC/SP image pair, optional link) ---------- */
+.slice-media { display: flex; justify-content: var(--jc, flex-start); margin-top: 0 !important; }
+@media (max-width: 767px) { .slice-media { justify-content: var(--jc-sp, var(--jc, flex-start)); } }
+.slice-media__img { max-width: 100%; padding-left: var(--img-pl, 0); }
+@media (min-width: 768px) { .slice-media__img--sp { display: none; } }
+@media (max-width: 767px) { .slice-media__img--pc { display: none; } }
+
+/* ---------- horizontal rule (spacer: 1px transparent) ---------- */
+.slice-rule { box-sizing: content-box; width: 100%; height: 0; margin: var(--hr-m, 1.75rem) auto; border: 0; border-bottom: 1px solid var(--hr-color, transparent); }
+
+/* ---------- anchor link buttons (LinkButtons / DirectButton) ---------- */
+.anchor-buttons { display: flex; flex-wrap: wrap; background-color: #fff; box-shadow: #e5e5e5 0 1px 3px; }
+.anchor-buttons__empty { background-color: #fff; }
+.anchor-btn {
+  position: relative; overflow: hidden; display: flex; flex: 0 1 auto; width: 33.3333%;
+  align-items: center; justify-content: center; min-height: 40px; padding: 0.4375rem 0;
+  border: 1px solid #f5f5f5; background-color: #fff; color: var(--blue, #00008f);
+  font-size: 14px; font-weight: 600; letter-spacing: 1px; line-height: 1.15; text-align: center; transition: 0.25s;
+}
+@media (max-width: 767px) { .anchor-btn { width: 100%; } }
+.anchor-btn::before {
+  content: ""; display: block; width: 0; height: 120%; position: absolute; top: 50%; left: 50%;
+  transform: translate(-50%, -50%) skewX(-37.7deg); transition: 0.3s ease-in-out; z-index: 2;
+}
+.anchor-btn:hover::before { width: 120%; background-color: #000072; }
+.anchor-btn:hover { color: #fff; }
+.anchor-btn .anchor-btn__label {
+  position: relative; z-index: 3; width: 100%; margin: auto 0 auto 20px; padding: 12px 0;
+  line-height: 18px; text-align: left; transition: 0.25s;
+}
+.anchor-btn .anchor-btn__icon {
+  position: relative; z-index: 3; display: flex; flex-shrink: 0; align-items: center; justify-content: center;
+  margin: auto 20px; font-size: 16px; line-height: 1; color: #333;
+}
+.anchor-btn__icon svg { width: 15px; max-width: 15px; stroke: currentColor; color: var(--blue, #00008f); transform: rotate(90deg); transition: 0.25s; }
+.anchor-btn:hover .anchor-btn__icon svg { color: #fff; }
+
+/* ---------- CTA buttons (CustomButton > HpButton) ---------- */
+.cta-button { text-align: var(--ta, center); padding-left: 0; }
+@media (max-width: 767px) { .cta-button { text-align: var(--ta-sp, var(--ta, center)); } }
+.hp-btn {
+  position: relative; overflow: hidden; display: inline-flex; flex-direction: row; align-items: center; justify-content: center;
+  width: 100%; min-height: 40px; padding: 0 28px; border: 2px solid var(--blue, #00008f); border-radius: 0;
+  font-size: var(--fs, 0.9975rem); font-weight: 600; letter-spacing: 1px; line-height: 1.15; text-align: center;
+  text-decoration: none; transition: 0.25s;
+}
+@media (min-width: 768px) { .hp-btn { min-height: 49px; } }
+.hp-btn--primary { background-color: var(--blue, #00008f); color: #fff; }
+.hp-btn--secondary { background-color: #fff; color: var(--blue, #00008f); }
+@media (hover: hover) {
+  .hp-btn:hover, .hp-btn:focus { background-color: #000072; border-color: #000072; color: #fff; }
+}
+.hp-btn .hp-btn__label {
+  width: 100%; margin: auto 0 auto 20px; padding: 12px 0 12px 20px; line-height: 18px; text-align: center; transition: 0.25s;
+}
+.hp-btn__label p { display: inline; }
+.hp-btn__badge.hp-btn__badge {
+  display: inline-block; margin: 0 0 0 6px; padding: 2px 4px; border-radius: 15px;
+  font-size: 0.7rem; font-weight: 400; color: var(--blue, #00008f); background-color: #fff;
+}
+.hp-btn .hp-btn__icon {
+  display: flex; flex-shrink: 0; align-items: center; justify-content: center; margin: 0 20px 0 0;
+  font-size: 16px; line-height: 1; color: #333;
+}
+.hp-btn .hp-btn__icon svg {
+  width: 15px; max-width: 15px; margin: 15px 0 15px 20px; stroke: currentColor; transition: 0.25s;
+  transform: rotate(var(--rot, 0deg));
+}
+.hp-btn--primary .hp-btn__icon svg, .hp-btn:hover .hp-btn__icon svg { color: #fff; }
+.hp-btn--secondary .hp-btn__icon svg { color: var(--blue, #00008f); }
+
+/* ---------- custom text link ---------- */
+.custom-link { display: flex; justify-content: var(--jc, flex-start); padding-left: var(--pl, 0); font-size: var(--fs, 0.9975rem); }
+.custom-link__a { display: flex; flex: 0 1 auto; flex-direction: row; align-items: flex-start; text-decoration: none; color: var(--blue, #00008f); }
+.custom-link__a--plain { color: inherit; }
+.custom-link__a p { margin: 0 !important; }
+
+/* ---------- note list (※) ---------- */
+.note-list { font-size: 0.7rem; padding-left: 0; color: #000; }
+.note-list li { display: flex; position: relative; margin-top: 0.4375rem; list-style: none; color: #000; }
+.note-list li::before { content: "※"; }
+.note-list li:first-child { margin-top: 0; }
+.note-list li > p { display: inline-block; flex: 1 1 auto; margin: 0 0 0 0.875rem; }
+
+/* ---------- breadcrumbs ---------- */
+.breadcrumbs { width: 100%; max-width: 1078px; margin: 3.5rem auto 0; padding: 0 0 0.875rem; }
+@media (max-width: 767px) { .breadcrumbs { margin-top: 2.625rem; padding: 0 0.875rem 0.875rem; } }
+.breadcrumbs__list { margin: 0; padding: 0; font-size: 0.6563rem; line-height: 1.5; overflow: hidden; }
+.breadcrumbs__list li { display: inline-block; margin-bottom: 0; list-style: none; }
+.breadcrumbs__list a { color: var(--blue, #00008f); font-weight: 400; text-decoration: none; }
+.breadcrumbs__sep { margin: 0 0.6563rem; }
+
+/* ---------- grid (Prismic columns; widths in % per breakpoint) ---------- */
+.grid { display: flex; flex-flow: row wrap; flex: 0 1 auto; min-width: 100%; margin-left: -0.5469rem; margin-right: -0.5469rem; }
+.grid__col { flex: 0 0 auto; padding-left: 0.5469rem; padding-right: 0.5469rem; }
+@media (min-width: 995px) { .grid__col { flex: 0 0 var(--lg, 100%); min-width: var(--lg, 100%); max-width: var(--lg, 100%); } }
+@media (min-width: 768px) and (max-width: 994px) { .grid__col { flex: 0 0 var(--md, var(--lg, 100%)); min-width: var(--md, var(--lg, 100%)); max-width: var(--md, var(--lg, 100%)); } }
+@media (max-width: 767px) { .grid__col { flex: 0 0 var(--sm, 100%); min-width: var(--sm, 100%); max-width: var(--sm, 100%); } }
+.grid__col > .slice:first-child { margin-top: 0; }
+.grid__col > .slice:last-child { margin-bottom: 0; }
+/* live column flow rule (must stay last: it wins over equal-specificity module margins, as on live) */
+.grid__col * + * { margin-top: 0.875rem; }
+.grid__col li + li { margin-top: 0.4375rem; }
+/* live (measured, rule from a non-readable sheet): at SP a column following a full-width (sm 100%) column
+   gets the 0.875rem flow gap */
+@media (max-width: 767px) { .grid__col--sm-full + .grid__col { margin-top: 0.875rem; } }

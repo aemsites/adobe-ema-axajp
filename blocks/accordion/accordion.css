@@ -1,0 +1,387 @@
+/* accordion — default = product `.acc` (grid-rows 0fr → 1fr, 300ms) */
+.accordion .accordion-item {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #ccc;
+}
+
+.accordion .accordion-head {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 16px;
+  background: #fff;
+  color: var(--blue);
+  font-size: 1.25rem;
+  line-height: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.accordion .accordion-head:hover {
+  background-color: #343c3d0d;
+  color: #00006d;
+}
+
+.accordion .accordion-head:focus-visible {
+  outline: none;
+  box-shadow: inset 0 0 0 2px var(--blue);
+}
+
+.accordion .accordion-title {
+  width: 100%;
+  text-align: left;
+}
+
+.accordion .accordion-title :is(p, h2, h3, h4) {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.accordion .accordion-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 0 8px;
+  transform: rotate(90deg);
+  transition: transform 0.3s;
+}
+
+.accordion .accordion-icon svg {
+  width: 24px;
+  height: 24px;
+  fill: currentcolor;
+}
+
+.accordion .accordion-item.is-open .accordion-icon { transform: rotate(-90deg); }
+
+.accordion .accordion-panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease-in-out;
+}
+
+.accordion .accordion-item.is-open .accordion-panel { grid-template-rows: 1fr; }
+
+.accordion .accordion-clip {
+  overflow: hidden;
+  overflow-wrap: break-word;
+}
+
+.accordion .accordion-body {
+  background: #fff;
+  padding: 8px 16px 24px;
+}
+
+/* sp-collapse — about-insurance `.ai-coll` Q&A lists: open on PC, collapsible on SP */
+.accordion.sp-collapse .accordion-item {
+  display: block;
+  border-bottom: 0;
+}
+
+.accordion.sp-collapse .accordion-head {
+  display: block;
+  margin: 3rem 0 0;
+  padding: 0.8rem 0;
+  text-align: center;
+  cursor: default;
+  color: #fff;
+  background-color: #3a3fd8;
+  font-size: 1.3125rem;
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+.accordion.sp-collapse .accordion-title { text-align: center; }
+
+.accordion.sp-collapse .accordion-item .accordion-panel {
+  display: block;
+  transition: none;
+}
+
+.accordion.sp-collapse .accordion-clip { overflow: visible; }
+
+.accordion.sp-collapse .accordion-body {
+  padding: 0;
+  border-bottom: 2px solid #3a3fd8;
+}
+
+.accordion.sp-collapse .accordion-body ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.accordion.sp-collapse .accordion-body a {
+  position: relative;
+  display: block;
+  padding: 1.2rem 5rem 0.8rem;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: var(--blue);
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion.sp-collapse .accordion-body a::before,
+.accordion.sp-collapse .accordion-body a::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.accordion.sp-collapse .accordion-body a::before {
+  left: 1rem;
+  width: 25px;
+  background-image: url('https://www.axa.co.jp/images/about-insurance/qa-icon.png');
+}
+
+.accordion.sp-collapse .accordion-body a::after {
+  right: 1rem;
+  width: 10px;
+  background-image: url('https://www.axa.co.jp/images/about-insurance/right-arrow.png');
+}
+
+.accordion.sp-collapse .accordion-body a:hover::before {
+  background-image: url('https://www.axa.co.jp/images/about-insurance/qa-icon-hover.png');
+}
+
+.accordion.sp-collapse .accordion-body a:hover::after {
+  background-image: url('https://www.axa.co.jp/images/about-insurance/right-arrow-hover.png');
+}
+
+@media (width <= 767px) {
+  .accordion.sp-collapse .accordion-head { cursor: pointer; }
+
+  /* the source's 15.96px item strut around a 12px label adds ~2px per row */
+  .accordion.sp-collapse .accordion-body a {
+    padding-bottom: calc(0.8rem + 2px);
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .accordion.sp-collapse .accordion-item:not(.is-open) .accordion-body {
+    height: 0;
+    overflow: hidden;
+  }
+}
+
+/* products — product listing (product.css .acc + .pcg-* cards + .arch-links-wrap) */
+/* stylelint-disable no-descending-specificity -- variant rules follow the base rules */
+.accordion.products .accordion-item { margin-bottom: 1rem; }
+
+.accordion.products .accordion-icon {
+  transform: none;
+  transition: none;
+}
+
+.accordion.products .accordion-item.is-open .accordion-icon { transform: rotateX(180deg); }
+
+.accordion.products .accordion-icon svg {
+  width: 12px;
+  min-width: 12px;
+  height: 8px;
+  fill: currentcolor;
+}
+
+.accordion.products .accordion-body > :where(:first-child) { margin-top: 0; }
+
+.accordion.products .accordion-products {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  place-items: flex-start stretch;
+  gap: 1rem;
+  width: 100%;
+}
+
+.accordion.products .accordion-product {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  padding: 1rem 2rem 2rem;
+  background-color: #f7f7f7;
+}
+
+/* the source card ends in an empty `.pcg-content` box (0.5rem 1rem padding) */
+.accordion.products .accordion-product::after {
+  content: '';
+  flex: 0 1 auto;
+  padding: 0.5rem 1rem;
+}
+
+.accordion.products .accordion-product-images {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.accordion.products .accordion-product-logos {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+  width: 60%;
+  align-items: flex-start;
+  place-content: flex-start space-between;
+}
+
+.accordion.products .accordion-product-logos :is(p, picture),
+.accordion.products .accordion-product-badge :is(p, picture) { display: contents; }
+.accordion.products :is(.accordion-product-logos, .accordion-product-badge) source { display: none; }
+
+.accordion.products .accordion-product-logos img { width: 125px; }
+.accordion.products .accordion-product-logos picture + picture img { max-width: 50%; }
+.accordion.products .accordion-product-badge img { width: 90px; }
+
+.accordion.products .accordion-product-name {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+}
+
+.accordion.products .accordion-product-name a { font-weight: normal; }
+
+.accordion.products .accordion-product-buttons {
+  display: flex;
+  gap: 0.55rem;
+  width: 100%;
+  margin-top: auto;
+}
+
+.accordion.products .accordion-product-buttons p { width: 100%; }
+
+.accordion.products .accordion-product-buttons a:any-link {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  overflow: hidden;
+  border: 2px solid var(--blue);
+  border-radius: 4px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.accordion.products .accordion-btn-primary a:any-link {
+  background-color: var(--blue);
+  color: #fff;
+}
+
+.accordion.products .accordion-btn-primary a:any-link:hover {
+  background-color: #00006d;
+  border-color: #00006d;
+}
+
+.accordion.products .accordion-btn-outline a:any-link {
+  background-color: transparent;
+  color: var(--blue);
+}
+
+.accordion.products .accordion-btn-outline a:any-link:hover {
+  border-color: #00006d;
+  color: #00006d;
+}
+
+.accordion.products .accordion-product-links { width: 100%; }
+
+.accordion.products .accordion-product-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  width: 100%;
+  margin-top: 1.25rem;
+}
+
+.accordion.products .accordion-product-link p { font-size: 0.875rem; }
+
+.accordion.products .accordion-product-link a:any-link {
+  color: var(--blue);
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.accordion.products .accordion-product-link a:any-link:hover { color: #00006d; }
+
+.accordion.products .accordion-product-link svg {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  fill: currentcolor;
+}
+
+.accordion.products .accordion-links ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-content: stretch;
+  row-gap: 1.25rem;
+  margin: 1rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.accordion.products .accordion-links a:any-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  color: var(--blue);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.accordion.products .accordion-links a:any-link:hover { color: #00006d; }
+
+.accordion.products .accordion-links svg {
+  flex: none;
+  width: 15px;
+  height: 15px;
+}
+
+@media (width <= 767px) {
+  .accordion.products .accordion-products { grid-template-columns: minmax(0, 1fr); }
+  .accordion.products .accordion-product { padding: 1rem; }
+
+  .accordion.products .accordion-product-logos {
+    flex-flow: row wrap;
+    justify-content: flex-start;
+  }
+
+  .accordion.products .accordion-product-logos img { width: 80px; }
+  .accordion.products .accordion-product-logos picture + picture img { max-width: 30%; }
+  .accordion.products .accordion-product-badge img { width: 45px; }
+  .accordion.products .accordion-product-name { margin-top: 1rem; }
+
+  .accordion.products .accordion-product-buttons {
+    gap: 1rem;
+    margin-top: 0;
+    margin-left: auto;
+  }
+
+  .accordion.products .accordion-product-link { margin-top: 1rem; }
+
+  .accordion.products .accordion-links ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .accordion.products .accordion-links a:any-link { padding: 0 1rem; }
+}

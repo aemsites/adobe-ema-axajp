@@ -1,102 +1,98 @@
 /*
- * Copyright 2020 Adobe. All rights reserved.
- * This file is licensed to you under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License. You may obtain a copy
- * of the License at http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software distributed under
- * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
- * OF ANY KIND, either express or implied. See the License for the specific language
- * governing permissions and limitations under the License.
+ * AXA Life Japan (www.axa.co.jp) — EDS foundation, same-design replica.
+ * Tokens, base and shared section styles are lifted verbatim from the gated replica canon
+ * (stardust/prototypes/canon/canon.css): live computed styles at 1440 / 360.
+ * SP = width <= 767px; PC = width >= 768px.
+ * Page types (page metadata `template` -> body class): `content` = 14px/1.4 body base + chrome
+ * deltas; `recruitment` = microsite base (own header/footer variant).
  */
 
+/* metric-matched local fallback for Noto Sans JP (brand faces live in fonts.css) */
+@font-face {
+  font-family: noto-sans-jp-fallback;
+  src: local('Arial'), local('Helvetica'), local('Liberation Sans'), local('Arimo');
+  size-adjust: 104%;
+  ascent-override: 111.5%;
+  descent-override: 27.7%;
+  line-gap-override: 0%;
+}
+
 :root {
-  /* colors */
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
-
   /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  --font: 'Noto Sans JP', noto-sans-jp-fallback, 'Liberation Sans', arimo, sans-serif;
+  --body-font-family: var(--font);
+  --heading-font-family: var(--font);
 
-  /* body sizes */
-  --body-font-size-m: 22px;
-  --body-font-size-s: 19px;
-  --body-font-size-xs: 17px;
+  /* colors (canon) */
+  --blue: #00008f;
+  --blue-hover: #00006d;
+  --text: #343c3d;
+  --text-strong: #333;
+  --grey-500: #757575;
+  --grey-600: #696969;
+  --grey-650: #5f5f5f;
+  --grey-400: #999;
+  --line: #ccc;
+  --line-light: #f0f0f0;
+  --line-xlight: #f5f5f5;
+  --bg-subtle: #fafafa;
+  --bg-grey: #f7f7f7;
+  --bg-light-blue: #eef3fb;
+  --accent: #d24723;
+  --danger: #c91432;
+  --danger-bg: #f9ebeb;
+  --white: #fff;
 
-  /* heading sizes */
-  --heading-font-size-xxl: 55px;
-  --heading-font-size-xl: 44px;
-  --heading-font-size-l: 34px;
-  --heading-font-size-m: 27px;
-  --heading-font-size-s: 24px;
-  --heading-font-size-xs: 22px;
+  /* boilerplate aliases */
+  --background-color: var(--white);
+  --text-color: var(--text);
+  --link-color: var(--blue);
+  --link-hover-color: var(--blue-hover);
 
-  /* nav height */
-  --nav-height: 64px;
+  /* layout */
+  --container: 1142px;
+  --gutter: 32px;
+  --header-h-pc: 103px;
+  --header-h-sp: 72px;
+  --nav-height: var(--header-h-pc);
 }
 
-/* fallback fonts */
-@font-face {
-  font-family: roboto-condensed-fallback;
-  size-adjust: 88.82%;
-  src: local('Arial');
+@media (width <= 767px) {
+  :root { --nav-height: var(--header-h-sp); }
 }
 
-@font-face {
-  font-family: roboto-fallback;
-  size-adjust: 99.529%;
-  src: local('Arial');
+/* ---------- base (Tailwind preflight + site globals) ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  border: 0 solid;
+  margin: 0;
+  padding: 0;
 }
 
-@media (width >= 900px) {
-  :root {
-    /* body sizes */
-    --body-font-size-m: 18px;
-    --body-font-size-s: 16px;
-    --body-font-size-xs: 14px;
-
-    /* heading sizes */
-    --heading-font-size-xxl: 45px;
-    --heading-font-size-xl: 36px;
-    --heading-font-size-l: 28px;
-    --heading-font-size-m: 22px;
-    --heading-font-size-s: 20px;
-    --heading-font-size-xs: 18px;
-  }
+html {
+  font-size: 16px;
+  line-height: 1.6;
+  text-size-adjust: 100%;
+  tab-size: 4;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
   display: none;
   margin: 0;
-  background-color: var(--background-color);
-  color: var(--text-color);
-  font-family: var(--body-font-family);
-  font-size: var(--body-font-size-m);
+  font-family: var(--font);
+  font-size: 1rem;
+  font-weight: 400;
   line-height: 1.6;
+  color: var(--text);
+  background-color: var(--white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-body.appear {
-  display: block;
-}
-
-header {
-  height: var(--nav-height);
-}
-
-header .header,
-footer .footer {
-  visibility: hidden;
-}
-
-header .header[data-block-status="loaded"],
-footer .footer[data-block-status="loaded"] {
-  visibility: visible;
-}
+body.appear { display: block; }
 
 h1,
 h2,
@@ -104,184 +100,80 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
-  font-family: var(--heading-font-family);
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
   font-weight: 600;
-  line-height: 1.25;
-  scroll-margin: 40px;
 }
 
-h1 { font-size: var(--heading-font-size-xxl); }
-h2 { font-size: var(--heading-font-size-xl); }
-h3 { font-size: var(--heading-font-size-l); }
-h4 { font-size: var(--heading-font-size-m); }
-h5 { font-size: var(--heading-font-size-s); }
-h6 { font-size: var(--heading-font-size-xs); }
-
-p,
-dl,
-ol,
 ul,
-pre,
-blockquote {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
+ol { list-style: none; }
+
+img,
+svg,
+video {
+  display: block;
+  vertical-align: middle;
 }
 
-code,
-pre {
-  font-size: var(--body-font-size-s);
-}
-
-pre {
-  padding: 16px;
-  border-radius: 8px;
-  background-color: var(--light-color);
-  overflow-x: auto;
-  white-space: pre;
-}
-
-main > div {
-  margin: 40px 16px;
-}
-
-input,
-textarea,
-select,
-button {
-  font: inherit;
-}
-
-/* links */
-a:any-link {
-  color: var(--link-color);
-  text-decoration: none;
-  overflow-wrap: break-word;
-}
-
-a:hover {
-  color: var(--link-hover-color);
-  text-decoration: underline;
-}
-
-/* buttons */
-p.button-wrapper {
-  margin: 12px 0;
-}
-
-a.button:any-link,
-button.button {
-  box-sizing: border-box;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+img,
+video {
   max-width: 100%;
-  margin: 0;
-  border: 2px solid transparent;
-  border-radius: 2.4em;
-  padding: 0.5em 1.2em;
-  font: inherit;
-  font-weight: 500;
-  line-height: 1.25;
-  text-decoration: none;
-  cursor: pointer;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-a.button[aria-disabled="true"],
-button.button:disabled {
-  cursor: not-allowed;
-  pointer-events: none;
-}
-
-a.button.primary,
-button.button.primary {
-  border-color: var(--text-color);
-  background-color: var(--text-color);
-  color: var(--background-color);
-}
-
-a.button.primary:hover,
-a.button.primary:focus-visible,
-button.button.primary:hover,
-button.button.primary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--dark-color);
-  color: var(--light-color);
-}
-
-a.button.primary[aria-disabled="true"],
-a.button.primary[aria-disabled="true"]:hover,
-a.button.primary[aria-disabled="true"]:focus-visible,
-button.button.primary:disabled,
-button.button.primary:disabled:hover,
-button.button.primary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-a.button.secondary,
-button.button.secondary {
-  border-color: var(--text-color);
-  background-color: transparent;
-  color: var(--text-color);
-}
-
-a.button.secondary:hover,
-a.button.secondary:focus-visible,
-button.button.secondary:hover,
-button.button.secondary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-a.button.secondary[aria-disabled="true"],
-a.button.secondary[aria-disabled="true"]:hover,
-a.button.secondary[aria-disabled="true"]:focus-visible,
-button.button.secondary:disabled,
-button.button.secondary:disabled:hover,
-button.button.secondary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-/* high-impact call-to-action */
-a.button.accent,
-button.button.accent {
-  border-color: var(--link-color);
-  background-color: var(--link-color);
-  color: var(--background-color);
-}
-
-a.button.accent:hover,
-a.button.accent:focus-visible,
-button.button.accent:hover,
-button.button.accent:focus-visible {
-  border-color: var(--link-hover-color);
-  background-color: var(--link-hover-color);
-}
-
-a.button.accent[aria-disabled="true"],
-a.button.accent[aria-disabled="true"]:hover,
-a.button.accent[aria-disabled="true"]:focus-visible,
-button.button.accent:disabled,
-button.button.accent:disabled:hover,
-button.button.accent:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-main img {
-  max-width: 100%;
-  width: auto;
   height: auto;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+button {
+  cursor: pointer;
+  appearance: auto;
+}
+
+fieldset {
+  border: 0;
+  min-width: 0;
+}
+
+strong,
+b { font-weight: 900; }
+
+.icon16 {
+  width: 16px;
+  height: 16px;
+  fill: currentcolor;
+  flex: none;
+}
+
+.icon24 {
+  width: 24px;
+  height: 24px;
+  fill: currentcolor;
+  flex: none;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
 }
 
 .icon {
@@ -295,31 +187,269 @@ main img {
   width: 100%;
 }
 
-/* sections */
-main > .section {
-  margin: 40px 0;
+@media (width <= 767px) {
+  .pc-only { display: none !important; }
+  br.pc-br { display: none; }
 }
+
+@media (width >= 768px) {
+  .sp-only { display: none !important; }
+  br.sp-br { display: none; }
+}
+
+/* ---------- chrome reservation (boilerplate structural layer) ---------- */
+header {
+  height: var(--nav-height);
+  background: var(--white);
+}
+
+header .header,
+footer .footer {
+  visibility: hidden;
+}
+
+header .header[data-block-status="loaded"],
+footer .footer[data-block-status="loaded"] {
+  visibility: visible;
+}
+
+/* ---------- section scaffold: every section is the canon PageLayout (1142 cap, 0 32) ---------- */
+main > .section { margin: 0; }
 
 main > .section > div {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 24px;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
 }
 
-main > .section:first-of-type {
-  margin-top: 0;
+main .section:empty { display: none; }
+
+/* full-bleed escape (section style `full-bleed`); blocks may also escape with
+   `main > .section > .<block>-wrapper { max-width: none; padding: 0; }` */
+main > .section.full-bleed > div {
+  max-width: none;
+  padding: 0;
 }
 
-@media (width >= 900px) {
-  main > .section > div {
-    padding: 0 32px;
+/* `full-sp`: PageLayout--full-sp drops the side padding on SP */
+@media (width <= 767px) {
+  main > .section.full-sp > div { padding: 0; }
+}
+
+/* ---------- section styles (section-metadata `style`) ---------- */
+
+/* light-band (home): light-blue band */
+main .section.light-band {
+  margin: 0 0 80px;
+  padding: 80px 0;
+  background: var(--bg-light-blue);
+}
+
+@media (width <= 767px) {
+  main .section.light-band {
+    margin-bottom: 48px;
+    padding: 48px 0;
   }
 }
 
-/* section metadata */
-main .section.light,
-main .section.highlight {
-  background-color: var(--light-color);
-  margin: 0;
-  padding: 40px 0;
+/* band (content pages, Prismic Background slice): keys band-bg, band-img, band-img-sp,
+   band-pad, band-border become --band-* custom properties (scripts.js) */
+main > .section.band {
+  max-width: 1078px;
+  margin: 0 auto;
+  padding: var(--band-pad, 0);
+  border: var(--band-border, 2px solid transparent);
+  overflow: hidden;
+  background-color: var(--band-bg, transparent);
+  background-image: var(--band-img, none);
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main > .section.band > div {
+  max-width: none;
+  padding: 0;
+}
+
+@media (width <= 767px) {
+  main > .section.band { background-image: var(--band-img-sp, var(--band-img, none)); }
+}
+
+/* bordered-title (content BorderedTitleSlice / customer .bordered-title) */
+main .section.bordered-title .default-content-wrapper :is(h2, h3, h4) {
+  border-left: 3px solid #e5e5e5;
+  padding-left: 0.875rem;
+}
+
+/* kv (recruitment key visual): full-bleed cover image */
+main > .section.kv {
+  position: relative;
+  height: 24rem;
+}
+
+main > .section.kv > div {
+  max-width: none;
+  height: 100%;
+  padding: 0;
+}
+
+main .section.kv :is(p, picture) {
+  height: 100%;
+}
+
+main .section.kv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (width <= 767px) {
+  main > .section.kv { height: 16rem; }
+}
+
+/* btn-row: the section's default-content buttons sit in one centred row */
+main .section.btn-row .default-content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+@media (width <= 767px) {
+  main .section.btn-row .default-content-wrapper {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+/* ---------- buttons (canon ButtonUI2025 .btn / .btn--primary) ---------- */
+p.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+a.button:any-link,
+button.button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 560px;
+  height: 72px;
+  padding: 0 30.08px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22.08px;
+  text-align: center;
+  background: var(--white);
+  color: var(--blue);
+  border: 1px solid var(--blue);
+}
+
+a.button:any-link::after,
+button.button::after {
+  content: '';
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  margin-top: -12px;
+  width: 24px;
+  height: 24px;
+  background: currentcolor;
+  mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.7 18.6007L13.4175 17.3407L17.5575 13.2007H3V11.4007H17.5575L13.44 7.26073L14.7 6.00073L21 12.3007L14.7 18.6007Z"/></svg>') center / contain no-repeat;
+}
+
+a.button.primary,
+button.button.primary,
+a.button.accent,
+button.button.accent {
+  background: var(--blue);
+  color: var(--white);
+  border: 0;
+}
+
+a.button[aria-disabled="true"],
+button.button:disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+@media (width <= 767px) {
+  a.button:any-link,
+  button.button {
+    height: 48px;
+    margin: 0 32px;
+    font-size: 16px;
+  }
+
+  a.button:any-link::after,
+  button.button::after { right: 12.8px; }
+
+  main .section.btn-row a.button:any-link { margin: 0; }
+}
+
+/* ---------- page type: content (company, about-axa, customer-feedback, dataprivacy) ---------- */
+body.content {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #333;
+}
+
+body.content main h1 { font-size: 1.75rem; }
+body.content main h2 { font-size: 1.4rem; }
+body.content main h3 { font-size: 1.225rem; }
+body.content main h4 { font-size: 1.1375rem; }
+
+/* ---------- page type: recruitment (microsite base; chrome in the header/footer blocks) ---------- */
+body.recruitment {
+  --nav-height: 5.25rem;
+
+  font-size: 14px;
+  line-height: 1.4;
+  color: rgb(51 51 51);
+}
+
+body.recruitment main > .section > div {
+  max-width: none;
+  padding: 0;
+}
+
+@media (width <= 767px) {
+  body.recruitment { --nav-height: 6rem; }
+}
+
+/* stylelint-disable no-descending-specificity -- edit-mode repaint follows the CTA rules */
+
+/* ---------- Experience Workspace edit mode (scoped to the da.live inline editor) ---------- */
+.prosemirror-editor p > :is(strong, em) > a:any-link,
+.prosemirror-editor p > a:any-link:has(> :is(strong, em):only-child) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 560px;
+  height: 72px;
+  font-size: 20px;
+  font-weight: 700;
+  background: var(--white);
+  color: var(--blue);
+  border: 1px solid var(--blue);
+}
+
+.prosemirror-editor p > a:any-link > :is(strong, em) {
+  font-weight: inherit;
+  font-style: inherit;
+}
+
+.prosemirror-editor p > strong > a:any-link,
+.prosemirror-editor p > a:any-link:has(> strong:only-child) {
+  background: var(--blue);
+  color: var(--white);
+}
+
+a .prosemirror-editor a:any-link {
+  color: inherit;
+  text-decoration: none;
 }

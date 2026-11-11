@@ -1,0 +1,11 @@
+# source	destination
+# trailing-slash source URLs → extensionless EDS paths (D-site 2026-11-09)
+/prospect/	/prospect
+/product/	/product
+/about-insurance/	/about-insurance
+/company/	/company
+/customer/	/customer
+/customer-feedback/	/customer-feedback
+/recruitment/	/recruitment
+/about-axa/	/about-axa
+/dataprivacy/	/dataprivacy

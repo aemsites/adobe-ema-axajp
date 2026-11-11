@@ -1,0 +1,143 @@
+[live-session] waiting to pace live navigations to www.axa.co.jp (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+unit-geometry @ 360px, tol 4px — https://www.axa.co.jp/ vs http://localhost:8791/index-proposed.html
+unit 1 of home-entry-link (required) li[class*='LinkSetTopPage-styles__Item-']=.entry-links__item: origin 32,540 296×100 vs served 32,540 296×100 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "ご契約者さま 各種お手続き、死亡保険金・入院給付金等のご請求はこちらから" | 1,1 294×98 | 1,1 294×98 | 0 | 0 | 0 | 0 | ✓ |
+| text "ご契約者さま" | 15,16 238×68 | 15,16 238×68 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 265,42 16×16 | 265,42 16×16 | 0 | 0 | 0 | 0 | ✓ |
+| text "各種お手続き、死亡保険金・入院給付金等のご請求はこちらから" | 15,45 238×39 | 15,45 238×39 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of home-entry-link (required) li[class*='LinkSetTopPage-styles__Item-']=.entry-links__item: origin 32,648 296×100 vs served 32,648 296×100 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "保険をご検討のお客さま 保険シミュレーションなど役立つ情報はこちらから" | 1,1 294×98 | 1,1 294×98 | 0 | 0 | 0 | 0 | ✓ |
+| text "保険をご検討のお客さま" | 15,16 238×68 | 15,16 238×68 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 265,42 16×16 | 265,42 16×16 | 0 | 0 | 0 | 0 | ✓ |
+| text "保険シミュレーションなど役立つ情報はこちらから" | 15,45 238×39 | 15,45 238×39 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of home-strength-frame (required) div[class*='StrengthsFrame-styles__Frame']=.strength: origin 32,3348 296×206 vs served 32,3348 296×206 → Δx 0 Δy 0 Δw 0 Δh 0; 6 elements: 6 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.StrengthsFrame-styles__Title" | 0,0 296×100 | 0,0 296×100 | 0 | 0 | 0 | 0 | ✓ |
+| text "200" | 137,18 42×35 | 137,18 42×35 | 0 | 0 | 0 | 0 | ✓ |
+| text "年" | 179,23 20×29 | 179,23 20×29 | 0 | 0 | 0 | 0 | ✓ |
+| heading "欧州で 200 年 、 日本で 90 年 の歴史と実績" | 34,24 228×52 | 34,24 228×52 | 0 | 0 | 0 | 0 | ✓ |
+| text "90" | 94,44 28×35 | 94,44 28×35 | 0 | 0 | 0 | 0 | ✓ |
+| text "私たちは保険および資産運用分野の世界的なリーディングカンパニーです。 信" | 0,116 296×90 | 0,116 296×90 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of home-strength-frame (required) div[class*='StrengthsFrame-styles__Frame']=.strength: origin 32,3586 296×270 vs served 32,3586 296×270 → Δx 0 Δy 0 Δw 0 Δh 0; 6 elements: 6 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.StrengthsFrame-styles__Title" | 0,0 296×100 | 0,0 296×100 | 0 | 0 | 0 | 0 | ✓ |
+| heading "世界基準の資産運用と 多様な変額保険" | 48,26 200×48 | 48,26 200×48 | 0 | 0 | 0 | 0 | ✓ |
+| text "多様な変額保険" | 78,47 140×29 | 78,47 140×29 | 0 | 0 | 0 | 0 | ✓ |
+| text "お客さまのニーズにあわせたユニット・リンクシリーズの多様な保障で、さまざ" | 0,116 296×113 | 0,116 296×113 | 0 | 0 | 0 | 0 | ✓ |
+| link "アクサ生命の変額保険" | 127,247 169×23 | 127,247 169×23 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 280,250 16×16 | 280,250 16×16 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of home-strength-frame (required) div[class*='StrengthsFrame-styles__Frame']=.strength: origin 32,3888 296×289 vs served 32,3888 296×289 → Δx 0 Δy 0 Δw 0 Δh 0; 8 elements: 8 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.StrengthsFrame-styles__Title" | 0,0 296×100 | 0,0 296×100 | 0 | 0 | 0 | 0 | ✓ |
+| heading "専門家が寄り添う ライフマネジメント®" | 53,26 190×48 | 53,26 190×48 | 0 | 0 | 0 | 0 | ✓ |
+| text "ライフマネジメント®" | 53,47 190×29 | 53,47 190×29 | 0 | 0 | 0 | 0 | ✓ |
+| text "全国に在籍する経験豊富な営業社員やフィナンシャルプランアドバイザーが、お" | 0,116 296×90 | 0,116 296×90 | 0 | 0 | 0 | 0 | ✓ |
+| link "ライフマネジメント®とは？" | 88,224 208×23 | 88,224 208×23 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 280,227 16×16 | 280,227 16×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "営業社員（都道府県別mdrt会員）紹介" | 8,266 288×23 | 8,266 288×23 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#2" | 280,269 16×16 | 280,269 16×16 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of home-consult-item (required) div[class*='ConsultationServices-styles__ItemWrap']=.consult__item: origin 29,4664 144×172 vs served 29,4664 144×172 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.ConsultationServices-styles_" | 0,0 144×144 | 0,0 144×144 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 43,33 72×78 | 43,33 72×78 | 0 | 0 | 0 | 0 | ✓ |
+| text "相談は何度でも" | 19,152 105×20 | 19,152 105×20 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of home-consult-item (required) div[class*='ConsultationServices-styles__ItemWrap']=.consult__item: origin 187,4664 144×172 vs served 187,4664 144×172 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.ConsultationServices-styles_" | 0,0 144×144 | 0,0 144×144 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 36,36 72×72 | 36,36 72×72 | 0 | 0 | 0 | 0 | ✓ |
+| text "オンラインも可能" | 12,152 120×20 | 12,152 120×20 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of home-consult-item (required) div[class*='ConsultationServices-styles__ItemWrap']=.consult__item: origin 29,4856 144×191 vs served 29,4856 144×191 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.ConsultationServices-styles_" | 0,0 144×144 | 0,0 144×144 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 36,25 72×95 | 36,25 72×95 | 0 | 0 | 0 | 0 | ✓ |
+| text "お子様連れでも 安心" | 20,152 105×39 | 20,152 105×39 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of home-consult-item (required) div[class*='ConsultationServices-styles__ItemWrap']=.consult__item: origin 187,4856 144×191 vs served 187,4856 144×191 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.ConsultationServices-styles_" | 0,0 144×144 | 0,0 144×144 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 36,37 72×71 | 36,37 72×71 | 0 | 0 | 0 | 0 | ✓ |
+| text "経営者・個人事業主 のご相談も" | 4,152 135×39 | 4,152 135×39 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of home-consult-item (required) div[class*='ConsultationServices-styles__ItemWrap']=.consult__item: origin 29,5067 144×191 vs served 29,5067 144×191 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.ConsultationServices-styles_" | 0,0 144×144 | 0,0 144×144 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 36,33 72×79 | 36,33 72×79 | 0 | 0 | 0 | 0 | ✓ |
+| text "いつでも webで申込可能" | 18,152 108×39 | 18,152 108×39 | 0 | 0 | 0 | 0 | ✓ |
+unit 6 of home-consult-item (required) div[class*='ConsultationServices-styles__ItemWrap']=.consult__item: origin 187,5067 144×191 vs served 187,5067 144×191 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.ConsultationServices-styles_" | 0,0 144×144 | 0,0 144×144 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 38,38 68×68 | 38,38 68×68 | 0 | 0 | 0 | 0 | ✓ |
+| text "電話で 予約も質問も" | 27,152 90×39 | 27,152 90×39 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of home-news-item (required) div[class*='ItemsList-styles__ListItem']=.items-list__item: origin 32,6265 296×82 vs served 32,6265 296×82 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "2026/10/30" | 0,16 296×20 | 0,16 296×20 | 0 | 0 | 0 | 0 | ✓ |
+| link "アクサ生命の役員人事について" | 0,41 296×24 | 0,41 296×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of home-news-item (required) div[class*='ItemsList-styles__ListItem']=.items-list__item: origin 32,6347 296×82 vs served 32,6347 296×82 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "2026/09/30" | 0,16 296×20 | 0,16 296×20 | 0 | 0 | 0 | 0 | ✓ |
+| link "アクサ生命の部長人事について" | 0,41 296×24 | 0,41 296×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of home-news-item (required) div[class*='ItemsList-styles__ListItem']=.items-list__item: origin 32,6428 296×106 vs served 32,6428 296×106 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "2026/09/15" | 0,16 296×20 | 0,16 296×20 | 0 | 0 | 0 | 0 | ✓ |
+| link "奈良教育大学esd・sdgsセンター、日本ユネスコ協会連盟、アクサ生命が" | 0,41 296×48 | 0,41 296×48 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of home-news-item (required) div[class*='ItemsList-styles__ListItem']=.items-list__item: origin 32,6534 296×106 vs served 32,6534 296×106 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "2026/09/07" | 0,16 296×20 | 0,16 296×20 | 0 | 0 | 0 | 0 | ✓ |
+| link "アクサ生命、全国の中小企業経営者18,644人のリアルな声をまとめた「社" | 0,41 296×48 | 0,41 296×48 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of home-news-item (required) div[class*='ItemsList-styles__ListItem']=.items-list__item: origin 32,6802 296×106 vs served 32,6802 296×106 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "2026/10/30" | 0,16 296×20 | 0,16 296×20 | 0 | 0 | 0 | 0 | ✓ |
+| link "システムメンテナンスのお知らせ（2026年11月度）" | 0,41 296×48 | 0,41 296×48 | 0 | 0 | 0 | 0 | ✓ |
+unit 6 of home-news-item (required) div[class*='ItemsList-styles__ListItem']=.items-list__item: origin 32,6908 296×106 vs served 32,6908 296×106 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "2026/09/30" | 0,16 296×20 | 0,16 296×20 | 0 | 0 | 0 | 0 | ✓ |
+| link "令和8年台風第18号に伴う災害により被災されたみなさまへ" | 0,41 296×48 | 0,41 296×48 | 0 | 0 | 0 | 0 | ✓ |
+unit 7 of home-news-item (required) div[class*='ItemsList-styles__ListItem']=.items-list__item: origin 32,7014 296×106 vs served 32,7014 296×106 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "2026/09/30" | 0,16 296×20 | 0,16 296×20 | 0 | 0 | 0 | 0 | ✓ |
+| link "システムメンテナンスのお知らせ（2026年10月度）" | 0,41 296×48 | 0,41 296×48 | 0 | 0 | 0 | 0 | ✓ |
+unit 8 of home-news-item (required) div[class*='ItemsList-styles__ListItem']=.items-list__item: origin 32,7120 296×106 vs served 32,7120 296×106 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "2026/09/24" | 0,16 296×20 | 0,16 296×20 | 0 | 0 | 0 | 0 | ✓ |
+| link "令和8年台風第25号に伴う災害により被災されたみなさまへ" | 0,41 296×48 | 0,41 296×48 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of home-recommended-card (required) figure[class*='ImageLink__Container']=.rec: origin 32,7387 296×190 vs served 32,7387 296×190 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "アクサ生命のライフマネジメント®" | 0,0 296×190 | 0,0 296×190 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img.ImageLink__Image-sc-2583b0" | 0,0 296×153 | 0,0 296×153 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of home-recommended-card (required) figure[class*='ImageLink__Container']=.rec: origin 32,7597 138×160 vs served 32,7597 138×160 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "健康経営アクサ式" | 0,0 138×109 | 0,0 138×109 | 0 | 0 | 0 | 0 | ✓ |
+| image "会社と働く人の数だけ、健やかな未来がある。 アクサの健康経営" | 0,0 138×71 | 0,0 138×71 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of home-recommended-card (required) figure[class*='ImageLink__Container']=.rec: origin 190,7597 138×160 vs served 190,7597 138×160 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "アクサメディカルアシスタンスサービス" | 0,0 138×160 | 0,0 138×160 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img.ImageLink__Image-sc-2583b0" | 0,0 138×71 | 0,0 138×71 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of home-recommended-card (required) figure[class*='ImageLink__Container']=.rec: origin 32,7776 138×135 vs served 32,7776 138×135 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "人生100年の歩き方" | 0,0 138×135 | 0,0 138×135 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img.ImageLink__Image-sc-2583b0" | 0,0 138×72 | 0,0 138×71 | 0 | 0 | 0 | -1 | ✓ |
+Units: 23 compared; elements within 70, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/index-360/units-confirm.json

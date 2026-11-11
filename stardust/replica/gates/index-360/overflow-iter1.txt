@@ -1,0 +1,8 @@
+measure  http://localhost:8791/index-proposed.html
+  widths 360 · 1 selector(s) · 1 props · first match
+
+@ 360px
+  root  scrollWidth   360  viewport 360  scrollHeight   9314
+  html
+       x     0  y      0  w   360  h  9314  vis  "ログイン サポート 保険の無料相談 資料請求 電話質問 重要なお知らせ 令和8…"
+      display: block

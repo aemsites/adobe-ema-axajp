@@ -1,0 +1,1474 @@
+{
+  "slug": "product",
+  "type": "product-listing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "breadcrumbs",
+    "page-banner",
+    "section-title",
+    "anchor-links",
+    "link-buttons",
+    "accordion",
+    "simulation-quiz",
+    "cta-consult",
+    "contact-links"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "back-to-top",
+    "pl-content-layout"
+  ],
+  "canonShas": {
+    "header": "4e19d304f019",
+    "footer": "bb74a544d8b5",
+    "css": "378fa1894de3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "生命保険商品一覧｜アクサ生命保険株式会社",
+    "description": "アクサ生命保険株式会社の生命保険商品一覧です。医療保険、終身保険、がん保険、定期保険など、死亡・入院・手術・病気を保障する保険を幅広く取り揃えています。アクサ生命保険は世界最大級の金融・資産運用グループAXAのメンバーカンパニー です。お客さまの安心でよりよい人生の実現に貢献するための保険商品・サービスを提供します。",
+    "canonical": "https://www.axa.co.jp/product/",
+    "lang": "ja"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "生命保険商品一覧｜アクサ生命保険株式会社",
+    "description": "アクサ生命保険株式会社の生命保険商品一覧です。医療保険、終身保険、がん保険、定期保険など、死亡・入院・手術・病気を保障する保険を幅広く取り揃えています。アクサ生命保険は世界最大級の金融・資産運用グループAXAのメンバーカンパニー です。お客さまの安心でよりよい人生の実現に貢献するための保険商品・サービスを提供します。",
+    "url": "https://www.axa.co.jp/product/"
+  },
+  "migratedAt": "2026-11-09T07:25:15Z",
+  "designMdSha": "f01c5771aa7a",
+  "designJsonSha": "5024ca2feb1f",
+  "sourceCurrentSha": "471010bd40b7",
+  "sourceProposedSha": "603720acd77d",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 6,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.axa.co.jp/request/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/medical/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/cancer/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/life_insurance/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/chronic/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/disability/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/ladies/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/nursing_care?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/saving/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/corporate/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/financial-institutions/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/prospect/be-recommended/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/prospect/consultation-flow?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/form/brochure?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-insurance/testimonials?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-insurance/column?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-insurance/glossary?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/prospect/life-management?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/prospect/life-management#03?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/prospect/life-management#01?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/prospect/life-management#02?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/variable?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/report/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/unit/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/variable/guidebook?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/digitalprovision/group?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/why-axa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/why-axa/axa-brand?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/why-axa/cx?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/why-axa/product?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/why-axa/consulting?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/why-axa/fa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/mdrt?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/claim-top?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/claim/life?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/claim/medical?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/claim/group?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/covid-19-claim?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/guide?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/family-registration?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/guide/change-address?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/guide/change-name?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/guide/policy-loan-individual?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/guide/policy-loan-company?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/guide?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/variable?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/report?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/unit?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/unit?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/variable/guidebook?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/variable/special-account?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/digitalprovision/group?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/digitalprovision/rider-renewal?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/policy-reference?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/service?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/service/#service1?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/service/#service5?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/service/#service3?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/service/#service6?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/deduction-certificate?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/myaxa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/line?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/phone-number/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/company/hpm?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/service/hpm?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/company/hpm/platform?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/service/management?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/branch#channel?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/channel/cci?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/channel/ag?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/ag/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about-axa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/axa-life?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/overview/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/branch?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/history?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/voc?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/cr/employee?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/ceo-message?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/why-axa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/why-axa/axa-brand?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/why-axa/cx?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/why-axa/product?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/why-axa/consulting?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/why-axa/fa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/mdrt?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/notice?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/info?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/news?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/ir/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/ir/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/ir/public-notice/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/ir/performance-report?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/seminar?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/warning-fc?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/group-info?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/career?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/career/students?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/career/experienced?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/cci/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/fa/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/career/pwd?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/prospect/be-recommended/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/prospect/consultation-flow?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/form/brochure?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/prospect/life-management?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/variable?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/why-axa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/claim-top?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/guide?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/variable?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/policy-reference?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/service?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/deduction-certificate?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/myaxa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/line?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/phone-number/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/company/hpm?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/service/hpm?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/company/hpm/platform?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/service/management?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/branch#channel?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/channel/cci?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/channel/ag?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/ag/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about-axa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/axa-life?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/ceo-message?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/why-axa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/notice?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/ir/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/seminar?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/warning-fc?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/group-info?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/career?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/career/students?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/career/experienced?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/cci/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/fa/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/career/pwd?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/request/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/form/consultation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/form/consultation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/life_insurance/purelife",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_30",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=TF1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/life_insurance/wl_lcv",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_16",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=WL2b&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/life_insurance/lttp_fairwind",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_14",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=LT1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/life_insurance/term",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_10",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=TE1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/life_insurance/followup-life",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_36",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=TG1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/medical/smart-care",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_34",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=WX1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/ladies/smart-care-ladies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_35",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=WX1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/chronic/smart-care-with-you",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_37",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=WQ1b&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/nursing_care/smart-care-dementia",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=WX1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/medical/super-advanced",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=IC1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/saving/unit-link",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_15",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=UL1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/nursing_care/ltc-ul",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_40",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=UM1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/saving/ul-annuity",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_44",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=UA1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/saving/ul-term",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_42",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=UT1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/saving/ul-income",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=UI1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/life_insurance/life_produce",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_07",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=LS1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/saving/spw",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=SPW1&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/cancer/my-therapy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_39",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=CS1b&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/ladies/smart-care-ladies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_35",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=WX1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/chronic/smart-care-with-you",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_37",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=WQ1b&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/chronic/ok_life",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_29_a",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=LU1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/disability/disability_income",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_25",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=DI1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/nursing_care/ltc-ul",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/form/brochure/personalInfo/?check=art_40",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=UM1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/nursing_care/smart-care-dementia",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=WX1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/corporate/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/financial-institutions/unit-link",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=UL1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/financial-institutions/ltc-ul",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=UM1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/best_twins",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/ensuite-plus",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/new-life",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/golden-3",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/dream-3",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/minori-next",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/forever-2",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/ensuite-g-2",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/smiled-3_mb",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/smiled-3_mtb",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/lifedo-80",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/seed",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/golden-alpha",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/individual_annuity_sp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/power_accumulator",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/triplet_plus",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/golden-2",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/star_accumulator",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/global_win",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/axa_neo",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/smiled",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/avantage",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/upside10",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/golden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/axa_investiment_annuity_dollar",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/axa_lifelong",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/lifedo",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/golden-cb",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/power_direct",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/golden-new",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/halftime_plus",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/smiled-2_mt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/five_years",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/axa_cancer_income_support",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/upside",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/axa_love-2",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/dream-2",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/qs-pallet-alpha",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/ensuite-g",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/axa_investiment_annuity_yen-tr",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/halftime",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/suisse",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/minori",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/reasonable",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/forever_story",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/smiled-2",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/individual_annuity_rp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/chronograph",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/active-generation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/qs-pallet",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/ensuite",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/dream",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/axa_neo_plus",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/axa_gmab",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/axa_love",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/axa_investiment_annuity_yen-wl",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/e-va",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/zutto-medical",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/ok-medical",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/ok-medical_mb",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/daiwa-zutto-medical",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/daiwa-ok-medical",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/therapy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/archive/spw",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/financial-institutions/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/nissay/unit-link",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/product-results?salesCode=UL1a&userType=GENERAL&searchBy=PRODUCT_SALES_NAME&isCurrent=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/nissay/medi-an",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/form/consultation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/medical",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/life_insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/cancer",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/product/saving",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/product/ladies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/product/chronic",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/disability",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/corporate",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/product/nursing_care",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/product/financial-institutions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/request/callback",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/channel/ag",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/channel/cci",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/prospect/be-recommended/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/prospect/consultation-flow?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/form/brochure?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/prospect/life-management?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/variable?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/why-axa/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/claim-top?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/guide/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/variable?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/digitalprovision/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/policy-reference?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/service?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/deduction-certificate?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/myaxa?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/line?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/company/hpm/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/service/hpm/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/company/hpm/platform?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/customer/service/management?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about-axa/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/axa-life?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/ceo-message?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/why-axa/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/notice?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/ir/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/seminar?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/warning-fc?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/group-info?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/career?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/career/students?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/career/experienced?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/cci/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/fa/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/career/pwd?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/request/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/request/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/policy/invitation?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/policy/identification?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/other/personal/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/policy/conflicts-interest?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/policy/antisocial?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/policy/human-rights?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/voc/fd?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/policy/asset-owner-principle?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/policy/stewardshipcode?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/dataprivacy/?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.axa.co.jp/request#04?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/policy/info-protection?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/rule/using-website?utm_source=footer&utm_medium=referral&utm_campaign=in_LifeHP",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "product/index.html",
+  "outputPathDefault": null,
+  "sidecar": "product/_meta.json",
+  "driverVersion": "1"
+}

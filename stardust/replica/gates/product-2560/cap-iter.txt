@@ -1,0 +1,14 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.axa.co.jp/product/
+  shell     1050px  max-width #root > main > div.Layout-sc-f22cece7-3.haZlyz  (tier 1, holds 100% of the text)
+  modules  2 sections: capped 1050 ×1 · full-bleed ×1
+  contentMaxWidth 1050px (shell) · shellMaxWidth 1050px · root #root > main
+build  http://localhost:8791/product-proposed.html
+  shell     1050px  max-width body > main > div.pl-content-layout.pl-content-layout--2  (tier 1, holds 100% of the text)
+  modules  2 sections: capped 1050 ×1 · full-bleed ×1
+  contentMaxWidth 1050px (shell) · shellMaxWidth 1050px · root body > main
+rows
+  ✓ wrapper cap: live 1050px = build 1050px (±20)
+  ✓ module 1/2: full-bleed on both
+  ✓ module 2/2: 1050px = 1050px
+cap-probe: PASS at 2560 — 0 of 3 rows failed (evidence stardust/replica/gates/product-2560/cap-iter.json)

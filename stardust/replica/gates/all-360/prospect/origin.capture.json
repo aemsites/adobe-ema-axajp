@@ -1,0 +1,16 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://www.axa.co.jp/prospect/",
+  "width": 360,
+  "vh": 900,
+  "height": 6971,
+  "chunks": 8,
+  "denialCheck": "ok",
+  "fontsFailed": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 16,
+    "late": 0
+  },
+  "at": "2026-11-09T10:40:43.112Z"
+}

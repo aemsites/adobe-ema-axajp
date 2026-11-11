@@ -1,0 +1,1414 @@
+{
+ "source": "http://localhost:3101/stardust/prototypes/company-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "法人のお客さま"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "昭和42年8月に商工会議所共済制度が発足してから50年、中小企業のみなさまと共に歩んできました。 現在では、全国515商工会議所のうち99％（2021年4月現在）がアクサ生命の各種保険制度を採用しています。 私たちは豊富な知識と経験を駆使し、みなさまが「100年企業」を目指すためのパートナーとなります。"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slice",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "アクサ生命の専門スタッフが、"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "企業のライフステージに応じたさまざまな課題にお応えします。"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "経営者のみなさまが考える課題やアクサ生命のサポートなど、ぜひチェックしてみてください！"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "事業保障資金の確保",
+     "href": "#01"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "死亡退職金の準備",
+     "href": "#02"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "従業員の福利厚生",
+     "href": "#03"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "従業員の退職金準備",
+     "href": "#04"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "経営者の勇退準備",
+     "href": "#05"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "事業承継・相続",
+     "href": "#06"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 9,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slice",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "事業保障資金の確保"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "社長の生命保険加入目的が「万一に備えた運転資金の確保」 …"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "42.1%"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "社長の生命保険加入目的は、「万一に備えた運転資金の確保」が「社長の死亡退職金・弔慰金の準備」に次いで多くなっています。"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.grid__col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.slice",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "社長の生命保険加入目的（法人契約）"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.grid__col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "（注）①複数回答 ②「わからない」を除く ※出典：エフピー教育出版「平成28年 企業経営と生命保険に関する調査」"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slice",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "中小企業のみなさまと歩んできたアクサ生命だからこそ、お伝えできることがあります。 会社の将来について、一度ぜひお聞かせください。"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "経営者の万一の際、どのようなリスクがあるでしょうか？ また、どのような準備が必要でしょうか？"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "専門スタッフに相談 無料",
+     "href": "https://www.axa.co.jp/form/consultation/"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "支社・営業所一覧",
+     "href": "https://www.axa.co.jp/about-axa/branch/"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "お電話での受付はこちらから"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slice",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "死亡退職金の準備"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "社長の生命保険加入目的が「社長の死亡退職金・弔慰金の準備」…"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "79.0％"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "万一の場合に備えて生命保険に加入する理由は…社長の死亡退職金、弔慰金の準備がトップ"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.grid__col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.slice",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "社長の生命保険加入目的（法人契約）"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.grid__col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "（注）①複数回答 ②「わからない」を除く ※出典：エフピー教育出版「平成28年 企業経営と生命保険に関する調査」"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slice",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "中小企業のみなさまと歩んできたアクサ生命だからこそ、お伝えできることがあります。 一度ぜひお聞かせください。"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "経営者ご自身に万一のことがあった場合にご家族を守るための保障、検討されていますか？"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "専門スタッフに相談 無料",
+     "href": "https://www.axa.co.jp/form/consultation/"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "支社・営業所一覧",
+     "href": "https://www.axa.co.jp/about-axa/branch/"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "お電話での受付はこちらから"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slice",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "従業員の福利厚生"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "最も重要な経営資源は「ヒト」 …"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "80％"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "円滑な事業活動の推進と業績発展のためには優秀な従業員の獲得だけではなく、定着も重要な課題です。"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.grid__col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.slice",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "経営者のみなさまにうかがいました。"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "近年は、「ヒト」「モノ」「カネ」に「情報」を加えた４つが重要な経営資源と言われます。 もっとも重要だと思うものを１つあげてください。"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.grid__col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "８割の経営者が人材（ヒト）がもっとも重要と考えています。"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "※出典：アクサ生命保険株式会社「社長さん白書2018」 ※アンケートについて ・実施期間…平成30年4月～6月 ・対象者…全国47都道府県の中小企業経営者 ・回答者…6,685人（対面方式） ※アンケート結果は、端数処理などの関係で内訳の和と合計が一致しない場合があります。 ※出典：アクサ生命保険株式会社「社長さん白書2015」 ※アンケートについて ・実施期間…平成27年3月～5月 ・対象者…全国47都道府県の中小企業経営者 ・回答者…10,411人（対面方式） ※アンケート結果は、端数処理などの関係で内訳の和と合計が一致しない場合があります。"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slice",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "アクサ生命の健康経営アドバイザー →",
+     "href": "https://www.axa.co.jp/company/hpm"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "従業員の健康に配慮し、健康を維持、増進に取り組むことは、企業の生産性を向上させる、リクルート効果が高まるなど経営にとってプラスの効果が期待できます。健康経営の実践を、「アクサ生命の健康経営アドバイザー」がサポートします。"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.grid__col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.slice",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "中小企業のみなさまと歩んできたアクサ生命だからこそ、お伝えできることがあります。 会社の将来について、一度ぜひお聞かせください。"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "福利厚生制度や退職金制度の見直しなどに対応することも必要です。"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "専門スタッフに相談 無料",
+     "href": "https://www.axa.co.jp/form/consultation"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "支社・営業所一覧",
+     "href": "https://www.axa.co.jp/about-axa/branch/"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "お電話での受付はこちらから"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slice",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "従業員の退職金準備"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "退職一時金制度がある …"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "91.1％"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "いつかは必ず発生する従業員の退職金。 会社のためにがんばってくれた従業員とそのご家族のために、十分な準備をしてあげたいものです。"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.grid__col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.slice",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "退職一時金制度の有無は？"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.grid__col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "９割以上の企業が退職 一時金制度があると回答"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "※出典：厚生労働省「平成29年 賃金事情等総合調査（退職金、年金及び定年制事情調査）」"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slice",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "慶弔見舞金制度を導入している …"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "86.5%"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "従業員に万一のことがあったとき、死亡退職金・弔慰金の支給による財務面への影響が出ないように準備しておく必要があります。"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slice",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "導入されている施策は？"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.grid__col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "多くの企業が慶弔見舞金制度を導入しています。"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "※出典：独立行政法人労働政策研究・研修機構「企業における福利厚生施策の実態に関する調査」（平成30年7月24日）をもとに作成"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slice",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "中小企業のみなさまと歩んできたアクサ生命だからこそ、お伝えできることがあります。 会社の将来について、一度ぜひお聞かせください。"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "事業に支障をきたすことなく、従業員の退職金を準備するための方法を検討してみませんか？"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "専門スタッフに相談 無料",
+     "href": "https://www.axa.co.jp/form/consultation"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "支社・営業所一覧",
+     "href": "https://www.axa.co.jp/about-axa/branch"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "お電話での受付はこちらから"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slice",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "経営者の勇退準備"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "生活資金の準備不足が不安 …"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "25％"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "「趣味を楽しみたい」「のんびりした生活をしたい」経営者が考える老後の不安とは？"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.grid__col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.slice",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "経営者が考える「老後の生活」についてうかがいました。"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "老後の不安は何ですか？"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.grid__col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "「生活資金の準備不足」をあげる経営者が25％"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "※出典：アクサ生命保険株式会社「社長さん白書2017」 ※アンケートについて ・実施期間…平成29年5月～8月 ・対象者…全国47都道府県の中小企業経営者 ・回答者…8,822人（対面方式） ※アンケート結果は、端数処理などの関係で内訳の和と合計が一致しない場合があります。"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.grid__col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.slice",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "中小企業のみなさまと歩んできたアクサ生命だからこそ、お伝えできることがあります。 一度ぜひお聞かせください。"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "会社経営の将来と同じく、ご自身の将来を考えることも大切です。"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "専門スタッフに相談 無料",
+     "href": "https://www.axa.co.jp/form/consultation"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "支社・営業所一覧",
+     "href": "https://www.axa.co.jp/about-axa/branch/"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "お電話での受付はこちらから"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slice",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "事業承継・相続"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "事業承継方法は在任中に決めている！…"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "43%"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "このうち70％が親族へ事業承継を考えています。"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.grid__col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.slice",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "経営者のみなさまにうかがいました。"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "在任中に事業承継（事業清算等を含む）の方法を決めていますか？"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.grid__col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "※出典：アクサ生命保険株式会社「社長さん白書2017」 ※アンケートについて ・実施期間…平成29年5月～8月 ・対象者…全国47都道府県の中小企業経営者 ・回答者…8,822人（対面方式） ※アンケート結果は、端数処理などの関係で内訳の和と合計が一致しない場合があります。"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slice",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "中小企業のみなさまと歩んできたアクサ生命だからこそ、お伝えできることがあります。 会社の将来について、一度ぜひお聞かせください。"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "「事業承継を進めるうえで、重要と思われる課題」 「相続対策に関して気になること」 「自社株の移転や引き継ぎなどで問題になりがちなこと」など…"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "専門スタッフに相談 無料",
+     "href": "https://www.axa.co.jp/form/consultation"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "支社・営業所一覧",
+     "href": "https://www.axa.co.jp/about-axa/branch/"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "お電話での受付はこちらから"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slice",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "法人のお客さまを対象に、さまざまなサービスを提供しています。"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "商工会議所会員さま向けサービス →",
+     "href": "https://www.axa.co.jp/channel/cci"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "アクサ生命は全国の99%にあたる511ヵ所（2021年4月現在）の商工会議所と提携し、各種保険を通して商工会議所会員さまをサポートしています。"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "アクサ生命の健康経営アドバイザー →",
+     "href": "https://www.axa.co.jp/company/hpm"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "従業員の健康に配慮し、健康を維持、増進に取り組むことは、企業の生産性を向上させる、リクルート効果が高まるなど経営にとってプラスの効果が期待できます。健康経営の実践を、「アクサ生命の健康経営アドバイザー」がサポートします。"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "※「健康経営」は特定非営利活動法人 健康経営研究会の登録商標です"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "メンタルサポートサービス →",
+     "href": "https://www.axa.co.jp/customer/service/hpm/"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "経営者と従業員の心のケアに、日本最大級のカウンセラー・ネットワークが対応します。アクサ生命の対象保険商品をご契約されている企業さまの経営者・従業員のみなさまが無料でご利用になれます。"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "※対象保険商品の法人契約が有効に継続している期間のみ"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "関連リンク"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "中小企業庁サイト",
+     "href": "http://www.chusho.meti.go.jp/"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "ミラサポ",
+     "href": "https://www.mirasapo.jp/"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "※中小企業庁が運営している企業の未来をサポートするサイトです"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "アクサ生命へのご照会、ご相談は以下で受け付けております。"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "専門スタッフに相談 無料",
+     "href": "https://www.axa.co.jp/form/consultation"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "支社・営業所一覧",
+     "href": "https://www.axa.co.jp/about-axa/branch/"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "お電話での受付はこちらから"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 17,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slice",
+     "count": 13,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

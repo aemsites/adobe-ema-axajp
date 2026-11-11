@@ -1,0 +1,12 @@
+
+Content diff @ 360px (profile "generic", roots: main, header, footer)
+root "main"
+  source: 104 text nodes — 28 headings, 0 eyebrows, 35 CTAs, 41 body; 15 img
+  build: 104 text nodes — 28 headings, 0 eyebrows, 35 CTAs, 41 body; 15 img
+  editable texts (outermost h*/p/ul/ol): source 64 / build 64
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 5 / build 5
+root "header": absent on both sides (no <header> / [role="banner"] outside the main root(s)) — not compared
+root "footer": absent on both sides (no <footer> / [role="contentinfo"] outside the main root(s)) — not compared
+
+Findings: none — content + roles match
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 0

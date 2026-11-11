@@ -1,0 +1,128 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-09T10:57:04.527Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.axa.co.jp",
+    "eds": "https://main--80b77690--aemcoder.aem.page",
+    "edsHostOverride": "https://main--80b77690--aemcoder.aem.page",
+    "only": [
+      "product"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 1,
+    "overridePass": 0,
+    "fail": 1,
+    "error": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 1,
+    "failContent": 0,
+    "failUnits": 1,
+    "fontsNotLoaded": 1,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "product",
+      "path": "/product",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 4.76,
+      "textPct": 16.69,
+      "heightDelta": 0,
+      "originH": 12284,
+      "edsH": 12284,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 39,
+      "clipPass": false,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "passWithOverride": false,
+      "fontsNotLoaded": [
+        "noto-sans-jp-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "clipped 39 (text 39, controls 0)",
+        "units off 0 hidden 0 missing 0",
+        "font-not-loaded:noto-sans-jp-fallback"
+      ],
+      "clipGroups": [
+        {
+          "kind": "TEXT CLIPPED",
+          "advisory": false,
+          "n": 38,
+          "clipper": "a",
+          "path": "div.accordion-product > div.accordion-product-buttons > p.accordion-btn-primary > a",
+          "text": "詳しく見る",
+          "cutMin": 4,
+          "cutMax": 16
+        },
+        {
+          "kind": "TEXT CLIPPED",
+          "advisory": false,
+          "n": 1,
+          "clipper": "a.primary",
+          "path": "div.page-banner-ctas > div.page-banner-cta.page-banner-cta-orange > p > a.primary",
+          "text": "専門スタッフに 電話で相談(無料)",
+          "cutMin": 4,
+          "cutMax": 4
+        }
+      ],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 4,
+        "hiddenButtons": 0,
+        "findings": 6,
+        "variable": []
+      },
+      "units": {
+        "units": 0,
+        "within": 0,
+        "off": 0,
+        "hidden": 0,
+        "missing": 0,
+        "errors": 4,
+        "requiredOff": 0
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [],
+      "error": null
+    }
+  ]
+}

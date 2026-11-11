@@ -1,0 +1,184 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-09T07:29:19.155Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/.work/rollout/state-inventory.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-09T13:35:00.809Z",
+  "templates": [
+    {
+      "id": "about-insurance",
+      "representativeSlug": "about-insurance",
+      "pages": [
+        "about-insurance"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "accordion",
+        "art-image",
+        "breadcrumbs",
+        "bubble-guide",
+        "contact-links",
+        "entry-links",
+        "link-list",
+        "section-title",
+        "testimonial-cards"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "company",
+      "representativeSlug": "company",
+      "pages": [
+        "about-axa",
+        "company",
+        "customer-feedback",
+        "dataprivacy"
+      ],
+      "pageCount": 4,
+      "blocks": [
+        "anchor-links",
+        "art-image",
+        "breadcrumbs",
+        "columns"
+      ],
+      "delivery": {
+        "verified": 4,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "customer",
+      "representativeSlug": "customer",
+      "pages": [
+        "customer"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "banner-slider",
+        "breadcrumbs",
+        "contact-links",
+        "feature-grid",
+        "link-buttons",
+        "link-panels",
+        "news-list",
+        "page-banner"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "index",
+      "representativeSlug": "index",
+      "pages": [
+        "index"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "art-image",
+        "banner-links",
+        "cta-consult",
+        "entry-links",
+        "feature-grid",
+        "hero-carousel",
+        "news-list",
+        "product-cards",
+        "section-title",
+        "simulation-quiz",
+        "strengths"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "product",
+      "representativeSlug": "product",
+      "pages": [
+        "product"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "accordion",
+        "anchor-links",
+        "breadcrumbs",
+        "contact-links",
+        "cta-consult",
+        "link-buttons",
+        "page-banner",
+        "section-title",
+        "simulation-quiz"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "prospect",
+      "representativeSlug": "prospect",
+      "pages": [
+        "prospect"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "anchor-links",
+        "breadcrumbs",
+        "feature-grid",
+        "link-list",
+        "page-banner",
+        "product-cards",
+        "section-title",
+        "simulation-quiz",
+        "strengths"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "recruitment",
+      "representativeSlug": "recruitment",
+      "pages": [
+        "recruitment"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "recruit-about",
+        "recruit-channels",
+        "recruit-entry",
+        "recruit-hero",
+        "recruit-statement"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

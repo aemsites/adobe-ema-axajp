@@ -1,0 +1,598 @@
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/prospect-360/vdiff-iter1/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 5572,
+  "textLen": 1291,
+  "images": [
+   {
+    "src": "aQl-hLpReVYa3-vf_icons.png?auto=format,compress",
+    "natural": "110x110",
+    "rendered": "51x51",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQl-hbpReVYa3-vg_icons%2B-1-.png?auto=format,compress",
+    "natural": "111x110",
+    "rendered": "51x51",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQl-hrpReVYa3-vi_icons%2B-2-.png?auto=format,compress",
+    "natural": "111x110",
+    "rendered": "51x51",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQl-h7pReVYa3-vj_icons%2B-3-.png?auto=format,compress",
+    "natural": "110x110",
+    "rendered": "51x51",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQl-iLpReVYa3-vk_icons%2B-4-.png?auto=format,compress",
+    "natural": "111x110",
+    "rendered": "51x51",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQl-ibpReVYa3-vm_icons%2B-5-.png?auto=format,compress",
+    "natural": "111x110",
+    "rendered": "51x51",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQl-jLpReVYa3-vo_consultation-mobile.png?auto=format,compress",
+    "natural": "539x311",
+    "rendered": "296x171",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQl-jbpReVYa3-vp_why-axa_partner%402x.png?auto=format,compress",
+    "natural": "693x421",
+    "rendered": "296x180",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQl-jrpReVYa3-vq_why-axa_consultation%402x.png?auto=format,compress",
+    "natural": "693x421",
+    "rendered": "296x180",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQl-kLpReVYa3-vr_why-axa_value%402x.png?auto=format,compress",
+    "natural": "693x421",
+    "rendered": "296x180",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ln_logo.png",
+    "natural": "318x270",
+    "rendered": "24x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=27022501&tm=gtm002&Ver=2&mid=448e8327-c88c-443a-8200-fe040e2421e8&bo=1&sid=38980240dbfb11f1acc1311e4dda32ec&vid=38985140dbfb11f1adebe395bb3d1d69&vids=0&msclkid=N&gtm_tag_source=1&pi=918639831&lg=en-US&sw=360&sh=1000&sc=24&tl=%E3%82%A2%E3%82%AF%E3%82%B5%E7%94%9F%E5%91%BD%E4%BF%9D%E9%99%BA%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE&p=https%3A%2F%2Fwww.axa.co.jp%2Fprospect%2F&r=&evt=pageLoad&sv=2&cdb=AQAQ&rn=450196",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=97045623&Ver=2&mid=5ca24c8f-60d3-41df-a9ae-82d68593edc9&bo=1&sid=38980240dbfb11f1acc1311e4dda32ec&vid=38985140dbfb11f1adebe395bb3d1d69&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=360&sh=1000&sc=24&tl=%E3%82%A2%E3%82%AF%E3%82%B5%E7%94%9F%E5%91%BD%E4%BF%9D%E9%99%BA%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE&p=https%3A%2F%2Fwww.axa.co.jp%2Fprospect%2F&r=&evt=pageLoad&sv=2&cdb=AQAQ&rn=838933",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "ot_company_logo.png",
+    "natural": "2042x280",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "保険をご検討のお客さま",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "32px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "保険をご検討のお客さま",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "自分にぴったりな保険選びをしてみませんか？",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "18px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "保険選びに役立つさまざまな情報を掲載しています。",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "18px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "まずは簡単シミュレーション",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "アクサ生命で保険を探す・選ぶ・知る",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "1保険商品から探す",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "2ライフマネジメント®コンサルティングをもとに選ぶ",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "個人のお客さまの場合",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "20px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "3アクサ生命の強みを知る",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "健康なときも病気になったときも",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "20px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "ご契約後も充実したお客さまサポート",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "20px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "お客さまの声をサービス向上につなげる",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "20px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "4保険の基礎を知る",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Follow AXA",
+    "color": "rgb(52, 60, 61)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "PageLayout-sc-7e908b62-0",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "HeroBanner-styles__MobileHeroHeading-sc-45a798a6-2",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "ProspectTop-styles__SubHeadingContainer-sc-4abd1564-1",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "ProspectTop-styles__TabsHeading-sc-4abd1564-2",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "grid",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "ProspectTop-styles__StyledHeading-sc-4abd1564-3",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "ProductsSection-styles__Tile-sc-69c2c58b-1",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "ProductsSection-styles__Tile-sc-69c2c58b-1",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "ProductsSection-styles__Tile-sc-69c2c58b-1",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "ProductsSection-styles__Tile-sc-69c2c58b-1",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "ProductsSection-styles__Tile-sc-69c2c58b-1",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "ProductsSection-styles__Tile-sc-69c2c58b-1",
+    "width": 296,
+    "left": 32
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 5572,
+  "textLen": 1291,
+  "images": [
+   {
+    "src": "aQl-hLpReVYa3-vf_icons.png?auto=format,compress",
+    "natural": "110x110",
+    "rendered": "51x51",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQl-hbpReVYa3-vg_icons%2B-1-.png?auto=format,compress",
+    "natural": "111x110",
+    "rendered": "51x51",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQl-hrpReVYa3-vi_icons%2B-2-.png?auto=format,compress",
+    "natural": "111x110",
+    "rendered": "51x51",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQl-h7pReVYa3-vj_icons%2B-3-.png?auto=format,compress",
+    "natural": "110x110",
+    "rendered": "51x51",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQl-iLpReVYa3-vk_icons%2B-4-.png?auto=format,compress",
+    "natural": "111x110",
+    "rendered": "51x51",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQl-ibpReVYa3-vm_icons%2B-5-.png?auto=format,compress",
+    "natural": "111x110",
+    "rendered": "51x51",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQl-jLpReVYa3-vo_consultation-mobile.png?auto=format,compress",
+    "natural": "539x311",
+    "rendered": "296x171",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQl-jbpReVYa3-vp_why-axa_partner%402x.png?auto=format,compress",
+    "natural": "693x421",
+    "rendered": "296x180",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQl-jrpReVYa3-vq_why-axa_consultation%402x.png?auto=format,compress",
+    "natural": "693x421",
+    "rendered": "296x180",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQl-kLpReVYa3-vr_why-axa_value%402x.png?auto=format,compress",
+    "natural": "693x421",
+    "rendered": "296x180",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ln_logo.png",
+    "natural": "318x270",
+    "rendered": "24x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "保険をご検討のお客さま",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "32px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "保険をご検討のお客さま",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "自分にぴったりな保険選びをしてみませんか？",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "18px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "保険選びに役立つさまざまな情報を掲載しています。",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "18px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "まずは簡単シミュレーション",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "アクサ生命で保険を探す・選ぶ・知る",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "1保険商品から探す",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "2ライフマネジメント®コンサルティングをもとに選ぶ",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "個人のお客さまの場合",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "20px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "3アクサ生命の強みを知る",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "健康なときも病気になったときも",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "20px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "ご契約後も充実したお客さまサポート",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "20px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "お客さまの声をサービス向上につなげる",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "20px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "4保険の基礎を知る",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "24px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Follow AXA",
+    "color": "rgb(52, 60, 61)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "page-layout",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "p-hero__mobile",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "p-sub",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "p-title",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "sim__grid",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "p-title",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "tile",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "tile",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "tile",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "tile",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "tile",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "tile",
+    "width": 296,
+    "left": 32
+   }
+  ]
+ }
+}

@@ -1,33 +1,535 @@
-.columns > div {
+/* columns — content.css .grid / .grid__col (Prismic columns) and the slice modules
+   that live in its cells: .slice-media, .slice-text, .cta-button > .hp-btn, .custom-link */
+.columns {
+  margin: 1.0938rem 0;
+}
+
+.columns .columns-row {
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
+  margin: 0 -0.5469rem;
 }
 
-.columns img {
-  width: 100%;
+.columns .columns-cell {
+  flex: 1 1 0;
+  min-width: 0;
+  padding: 0 0.5469rem;
 }
 
-.columns > div > div {
-  order: 1;
+.columns[class*=' w-'] .columns-cell {
+  flex: 0 0 var(--lg, 100%);
+  min-width: var(--lg, 100%);
+  max-width: var(--lg, 100%);
 }
 
-.columns > div > .columns-img-col {
-  order: 0;
+.columns .columns-slice + .columns-slice {
+  margin-top: 1.0938rem;
 }
 
-.columns > div > .columns-img-col img {
+/* media: PC/SP picture pair */
+.columns .columns-media,
+.columns .columns-media-link {
+  display: flex;
+  justify-content: center;
+}
+
+.columns.img-left .columns-media,
+.columns.img-left .columns-media-link {
+  justify-content: flex-start;
+}
+
+.columns.img-right .columns-media,
+.columns.img-right .columns-media-link {
+  justify-content: flex-end;
+}
+
+.columns .columns-media picture,
+.columns .columns-media img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-@media (width >= 900px) {
-  .columns > div {
-    align-items: center;
-    flex-direction: unset;
-    gap: 24px;
+@media (width >= 768px) {
+  .columns.img-indent .columns-pc img,
+  .columns.img-indent .columns-one img {
+    width: auto;
+    padding-left: 3.5rem;
+  }
+}
+
+.columns .columns-sp {
+  display: none;
+}
+
+/* text */
+.columns .columns-text,
+.columns .columns-lead,
+.columns .columns-link {
+  font-size: 0.9975rem;
+}
+
+.columns.lead-l .columns-lead {
+  font-size: 1.4875rem;
+}
+
+.columns.lead-m .columns-lead {
+  font-size: 1.3125rem;
+}
+
+.columns.lead-s .columns-lead {
+  font-size: 1.1375rem;
+}
+
+.columns.text-s .columns-text {
+  font-size: 14px;
+}
+
+.columns .columns-note {
+  font-size: 0.7rem;
+}
+
+.columns .columns-caption {
+  font-size: 14px;
+  text-align: center;
+}
+
+.columns .columns-note.columns-caption {
+  font-size: 0.7rem;
+}
+
+.columns .columns-slice em {
+  font-style: normal;
+  color: #00adc6;
+}
+
+.columns .columns-slice ul {
+  padding-left: 1rem;
+  list-style: disc;
+}
+
+/* notes-list: a ※ list (Prismic note list) */
+.columns.notes-list .columns-slice ul {
+  padding-left: 0;
+  list-style: none;
+  font-size: 0.7rem;
+  color: #000;
+}
+
+.columns.notes-list .columns-slice li {
+  display: flex;
+}
+
+.columns.notes-list .columns-slice li + li {
+  margin-top: 0.4375rem;
+}
+
+.columns.notes-list .columns-slice li::before {
+  content: '※';
+  margin-right: 0.875rem;
+}
+
+.columns .columns-link a:any-link {
+  color: var(--blue, #00008f);
+}
+
+/* CTA buttons (.hp-btn) — scoped over the canon button of the foundation */
+.columns .columns-cta .button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.columns a.button:any-link {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  min-height: 49px;
+  margin: 0;
+  padding: 12px 55px 12px 40px;
+  border: 2px solid var(--blue, #00008f);
+  font-size: 0.9975rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 18px;
+  text-align: center;
+  transition: 0.25s;
+}
+
+.columns a.button:any-link::after {
+  right: 20px;
+  width: 15px;
+  height: 15px;
+  margin-top: -7.5px;
+  mask: url('arrow-thin.svg') center / contain no-repeat;
+}
+
+.columns a.button.primary:any-link {
+  background-color: var(--blue, #00008f);
+  color: #fff;
+}
+
+.columns a.button.secondary:any-link {
+  background-color: #fff;
+  color: var(--blue, #00008f);
+  font-size: 14px;
+}
+
+.columns a.button.secondary:any-link::after {
+  transform: rotate(-45deg);
+}
+
+.columns a.button em {
+  display: inline-block;
+  margin: 0 0 0 6px;
+  padding: 2px 4px;
+  border-radius: 15px;
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--blue, #00008f);
+  background-color: #fff;
+}
+
+@media (hover: hover) {
+  .columns a.button:any-link:hover {
+    border-color: #000072;
+    background-color: #000072;
+    color: #fff;
+  }
+}
+
+/* Prismic rule under the block: rule / rule-m (coloured line), space / space-m (transparent);
+   -m = 1.75rem hr margin, else the 1.0938rem slice gap */
+.columns:is(.rule, .rule-m, .space, .space-m) {
+  padding-bottom: 1.0938rem;
+  border-bottom: 1px solid rgb(170 189 208);
+}
+
+.columns:is(.space, .space-m) {
+  border-bottom-color: transparent;
+}
+
+.columns:is(.rule-m, .space-m) {
+  margin-bottom: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
+/* a rule inside a column before its ※ note */
+.columns.note-gap .columns-note {
+  margin-top: calc(3.5rem + 1px);
+}
+
+@media (width <= 767px) {
+  .columns[class*=' w-'] .columns-cell,
+  .columns.sm-stack .columns-cell {
+    flex: 0 0 var(--sm, 100%);
+    min-width: var(--sm, 100%);
+    max-width: var(--sm, 100%);
   }
 
-  .columns > div > div {
-    flex: 1;
-    order: unset;
+  .columns.sm-stack .columns-cell + .columns-cell {
+    margin-top: 0.875rem;
   }
+
+  .columns.sp-img-left .columns-media,
+  .columns.sp-img-left .columns-media-link {
+    justify-content: flex-start;
+  }
+
+  .columns.sp-img-center .columns-media,
+  .columns.sp-img-center .columns-media-link {
+    justify-content: center;
+  }
+
+  .columns.sp-img-right .columns-media,
+  .columns.sp-img-right .columns-media-link {
+    justify-content: flex-end;
+  }
+
+  .columns .columns-pc {
+    display: none;
+  }
+
+  .columns.sp-img-indent .columns-sp img,
+  .columns.sp-img-indent .columns-one img {
+    width: auto;
+    padding-left: 3.5rem;
+  }
+
+  .columns .columns-sp {
+    display: block;
+  }
+
+  /* live renders a hidden PC twin before every SP image: the column flow gap stays */
+  .columns .columns-cell .columns-media {
+    padding-top: 0.875rem;
+  }
+
+  .columns a.button:any-link {
+    min-height: 49px;
+    margin: 0;
+  }
+}
+
+/* ---------- sibling variants (cluster-content: customer-feedback, about-axa, dataprivacy) */
+/* stylelint-disable no-descending-specificity -- variant rules follow the base, scoped by class */
+
+/* img-inward: two media cells facing each other (PC right | left), customer-feedback ratings */
+.columns.img-inward .columns-cell:first-child .columns-media {
+  justify-content: flex-end;
+}
+
+.columns.img-inward .columns-cell:last-child .columns-media {
+  justify-content: flex-start;
+}
+
+/* link-s: 14px text links (CustomLink font-size 14px) */
+.columns.link-s .columns-link {
+  font-size: 14px;
+}
+
+/* cell-rule-2: the second column opens with a 0.875rem Prismic rule before its text */
+.columns.cell-rule-2 .columns-cell:nth-child(2) > .columns-slice:first-child {
+  margin-top: calc(1.75rem + 1px);
+}
+
+/* rule-grey: the rule under the block is the light grey (#e5e5e5) Prismic hr */
+.columns.rule-grey {
+  border-bottom-color: rgb(229 229 229);
+}
+
+/* rules-3: three 1.75rem rules under the block, the middle one a grey line */
+.columns.rules-3 {
+  margin-bottom: calc(3.5rem + 1px);
+  padding-bottom: calc(3.5rem + 1px);
+  border-bottom: 1px solid rgb(229 229 229);
+}
+
+/* boxed — about-axa link cards: a bordered box per cell, icon (15%) | link + text (85%);
+   the live card is a Background band with an inner 15/85 grid, then an empty band (4px) */
+.columns.boxed .columns-cell {
+  display: grid;
+  grid-template-columns: calc(15% - 0.9297rem) 1fr;
+  grid-auto-rows: min-content;
+  align-content: start;
+  gap: 0.875rem 1.0938rem;
+  margin: 0 0.5469rem 18px;
+  padding: 0.875rem;
+  border: 2px solid rgb(229 229 229);
+}
+
+.columns.boxed[class*=' w-'] .columns-cell {
+  flex: 0 0 calc(var(--lg, 100%) - 1.0938rem);
+  min-width: calc(var(--lg, 100%) - 1.0938rem);
+  max-width: calc(var(--lg, 100%) - 1.0938rem);
+}
+
+.columns.boxed .columns-slice + .columns-slice {
+  margin-top: 0;
+}
+
+.columns.boxed .columns-media {
+  grid-row: 1 / span 4;
+  grid-column: 1;
+  justify-content: center;
+}
+
+.columns.boxed .columns-slice:not(.columns-media) {
+  grid-column: 2;
+}
+
+.columns.boxed .columns-link {
+  font-size: 1.1375rem;
+}
+
+.columns.boxed .columns-text {
+  font-size: 14px;
+}
+
+/* contact — about-axa ContactSection: grey panel, two tel blocks with a rule between */
+.columns.contact {
+  padding: 1.75rem;
+  background: rgb(245 245 245);
+}
+
+.columns.contact .columns-row {
+  flex-wrap: nowrap;
+  margin: 0;
+}
+
+.columns.contact .columns-cell {
+  flex: 1 1 200px;
+  padding: 0;
+}
+
+.columns.contact .columns-cell + .columns-cell {
+  margin-left: 1.75rem;
+  padding-left: 1.75rem;
+  border-left: 1px solid rgb(229 229 229);
+}
+
+.columns.contact .columns-slice + .columns-slice {
+  margin-top: 0;
+}
+
+.columns.contact .columns-slice:first-child h2 {
+  margin: 0 0 0.875rem;
+  font-size: 1.4875rem;
+  font-weight: 700;
+}
+
+.columns.contact .columns-slice:nth-child(2) h2 {
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.columns.contact .columns-slice:nth-child(2) h2::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  background: currentcolor;
+  mask: url('phone.svg') center / contain no-repeat;
+}
+
+.columns.contact .columns-slice:nth-child(2) a:any-link {
+  color: inherit;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+.columns.contact .columns-slice:nth-child(2) em {
+  display: inline-block;
+  margin-left: 0.4375rem;
+  padding: 2px 4px;
+  border: 1px solid transparent;
+  border-radius: 13px;
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--blue, #00008f);
+  background-color: rgb(229 230 244);
+}
+
+.columns.contact .columns-text p,
+.columns.contact .columns-caption p {
+  margin: 0;
+}
+
+.columns.contact .columns-slice:nth-child(3) {
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.columns.contact .columns-link {
+  font-size: 0.9975rem;
+}
+
+.columns.contact .columns-link p {
+  margin: 0;
+}
+
+.columns.contact .columns-link a:any-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.875rem 0;
+  font-weight: 600;
+  line-height: 1.15;
+  text-decoration: none;
+}
+
+.columns.contact .columns-link a:any-link::after {
+  content: '';
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  background: currentcolor;
+  mask: url('arrow-thin.svg') center / contain no-repeat;
+}
+
+.columns.contact .columns-note {
+  padding-bottom: 0.875rem;
+  font-size: 0.7875rem;
+  text-indent: -12px;
+  margin-left: 12px;
+}
+
+.columns.contact .columns-note p {
+  margin: 0;
+}
+
+@media (width <= 767px) {
+  .columns.boxed .columns-cell {
+    grid-template-columns: calc(25% - 0.8203rem) 1fr;
+    margin-bottom: 18px;
+  }
+
+  .columns.boxed[class*=' w-'] .columns-cell {
+    flex: 0 0 calc(100% - 1.0938rem);
+    min-width: calc(100% - 1.0938rem);
+    max-width: calc(100% - 1.0938rem);
+  }
+
+  .columns.boxed .columns-cell + .columns-cell {
+    margin-top: 0.875rem;
+  }
+
+  .columns.boxed .columns-cell .columns-media {
+    padding-top: 0;
+  }
+
+  .columns.contact .columns-row {
+    flex-direction: column;
+  }
+
+  .columns.contact .columns-cell + .columns-cell {
+    margin: 0.875rem 0 0;
+    padding: 0.875rem 0 0;
+    border-top: 1px solid rgb(229 229 229);
+    border-left: 0;
+  }
+
+  .columns.contact .columns-slice:nth-child(2) h2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 0.875rem;
+    padding: 12px 28px;
+    border: 2px solid var(--blue, #00008f);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #fff;
+    background-color: var(--blue, #00008f);
+  }
+
+  .columns.contact .columns-slice:nth-child(2) h2::before {
+    content: none;
+  }
+
+  .columns.contact .columns-slice:nth-child(2) a:any-link {
+    pointer-events: auto;
+  }
+
+  .columns.contact .columns-slice:nth-child(2) em {
+    background-color: #fff;
+  }
+}
+
+/* boxed: the card title link and the inline links of the card text are bold (live <strong>) */
+.columns.boxed :is(.columns-link, .columns-text) a:any-link {
+  font-weight: 700;
+}
+
+/* rule-before-l: a 2.625rem Prismic rule above the block (2 x 42px + 1px) */
+.columns.rule-before-l {
+  margin-top: calc(5.25rem + 1px);
 }

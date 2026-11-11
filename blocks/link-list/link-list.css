@@ -1,0 +1,148 @@
+/* link-list — default = prospect `.linkset` (bordered rows, link + description, arrow) */
+.link-list {
+  margin: 0 0 32px;
+}
+
+.link-list .link-list-items {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+
+.link-list .link-list-item {
+  position: relative;
+  min-height: 72px;
+  height: 100px;
+  align-content: center;
+  padding: 8px 32px 8px 18px;
+  border: 1px solid #ccc;
+}
+
+.link-list .link-list-item::after {
+  content: '';
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  width: 16px;
+  height: 16px;
+  margin-top: -8px;
+  background: var(--blue);
+  mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.332 6.00073L9 7.41073L13.3266 12.0007L9 16.5907L10.332 18.0007L16 12.0007L10.332 6.00073Z"/></svg>') center / contain no-repeat;
+}
+
+.link-list .link-list-link a {
+  font-size: 18px;
+  line-height: 25.2px;
+  color: var(--blue);
+}
+
+.link-list .link-list-link a::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+
+.link-list .link-list-desc p {
+  margin-top: 4px;
+  font-size: 14px;
+  line-height: 19.6px;
+  color: var(--grey-650);
+}
+
+/* a description authored inside the link (<a>title<em>description</em></a>): the source's
+   whole row is one link (title + description) */
+.link-list .link-list-link a em {
+  display: block;
+  margin-top: 4px;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 19.6px;
+  color: var(--grey-650);
+}
+
+@media (width >= 768px) {
+  .link-list .link-list-items {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .link-list .link-list-item {
+    height: auto;
+    padding-left: 32px;
+  }
+}
+
+/* plain — about-insurance `.ai-coll--plain` (document icon rows, blue rule) */
+.link-list.plain {
+  margin: 0;
+}
+
+.link-list.plain .link-list-items {
+  display: block;
+  border-bottom: 2px solid #3a3fd8;
+}
+
+.link-list.plain .link-list-item {
+  height: auto;
+  min-height: 0;
+  padding: 0;
+  border: 0;
+}
+
+.link-list.plain .link-list-item::after {
+  content: none;
+}
+
+.link-list.plain .link-list-link a {
+  position: relative;
+  display: block;
+  padding: 1.2rem 5rem 0.8rem;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: var(--blue);
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.link-list.plain .link-list-link a::before,
+.link-list.plain .link-list-link a::after {
+  content: '';
+  position: absolute;
+  inset: 0 auto auto;
+  top: 0;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.link-list.plain .link-list-link a::before {
+  left: 1rem;
+  width: 25px;
+  background-image: url('https://www.axa.co.jp/images/about-insurance/doc-icon.png');
+}
+
+.link-list.plain .link-list-link a::after {
+  left: auto;
+  right: 1rem;
+  width: 10px;
+  background-image: url('https://www.axa.co.jp/images/about-insurance/right-arrow.png');
+}
+
+.link-list.plain .link-list-link a:hover::before {
+  background-image: url('https://www.axa.co.jp/images/about-insurance/doc-icon-hover.png');
+}
+
+.link-list.plain .link-list-link a:hover::after {
+  background-image: url('https://www.axa.co.jp/images/about-insurance/right-arrow-hover.png');
+}
+
+@media (width <= 767px) {
+  /* the source's 15.96px item strut around a 12px label adds ~2px per row */
+  .link-list.plain .link-list-link a {
+    padding-bottom: calc(0.8rem + 2px);
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

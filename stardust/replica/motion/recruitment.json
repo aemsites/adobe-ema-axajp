@@ -1,0 +1,638 @@
+{
+  "url": "https://www.axa.co.jp/recruitment/career",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "Header-styles__Header-sc-492e4bd0-0 eFoDbi",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "Header-styles__Header-sc-492e4bd0-0 eFoDbi",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "Header-styles__Header-sc-492e4bd0-0 eFoDbi",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "Header-styles__Header-sc-492e4bd0-0 eFoDbi",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "Header-styles__Header-sc-492e4bd0-0 eFoDbi",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4800,
+      "cls": "Header-styles__Header-sc-492e4bd0-0 eFoDbi",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 6000,
+      "cls": "Header-styles__Header-sc-492e4bd0-0 eFoDbi",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 7200,
+      "cls": "Header-styles__Header-sc-492e4bd0-0 eFoDbi",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 8400,
+      "cls": "Header-styles__Header-sc-492e4bd0-0 eFoDbi",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 7301,
+      "cls": "Header-styles__Header-sc-492e4bd0-0 eFoDbi",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 5801,
+      "cls": "Header-styles__Header-sc-492e4bd0-0 eFoDbi",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "Header-styles__Header-sc-492e4bd0-0 eFoDbi",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "Header-styles__Header-sc-492e4bd0-0 eFoDbi",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "Header-styles__Header-sc-492e4bd0-0 eFoDbi",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "Header-styles__Header-sc-492e4bd0-0 eFoDbi",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "Header-styles__Header-sc-492e4bd0-0 eFoDbi",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "Header-styles__Header-sc-492e4bd0-0 eFoDbi",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "Header-styles__Header-sc-492e4bd0-0 eFoDbi",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "Header-styles__Header-sc-492e4bd0-0 eFoDbi",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "Header-styles__Header-sc-492e4bd0-0 eFoDbi",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "Header-styles__Header-sc-492e4bd0-0 eFoDbi",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "Header-styles__Header-sc-492e4bd0-0 eFoDbi",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "Header-styles__Header-sc-492e4bd0-0 eFoDbi",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".Header-styles__HeaderEntryMenuToggle-sc-492e4bd0-10",
+      "frames": [
+        {
+          "t": 19670.399999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 19877,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 20079.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 20282.899999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": "a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 143)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.Header-styles__LogoImg-sc-492e4bd0-4.idyzuM",
+            "transform": "none",
+            "color": "rgb(0, 0, 143)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 143)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.Header-styles__LogoImg-sc-492e4bd0-4.idyzuM",
+            "transform": "none",
+            "color": "rgb(0, 0, 143)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [
+      {
+        "src": "https://www.axa.co.jp/images/recruitment/career/video/main-wide.mp4",
+        "autoplay": true,
+        "loop": true,
+        "muted": true,
+        "paused": false,
+        "currentTime": 6.3524,
+        "readyState": 4,
+        "inViewport": true,
+        "currentTimeAfter": 7.8569,
+        "playing": true
+      }
+    ],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "opacity",
+        "el": "html > body > div > main > div.BackToTop-styles__BackToTopWrapper-sc-1f5495b9-0.jMiNFJ",
+        "y": 400,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.flexbox > div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.Top-styles__OurPurpose-sc-a5169ea-10.graovq > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 800,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.flexbox > div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.Top-styles__OurPurpose-sc-a5169ea-10.graovq > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 800,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.flexbox > div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.Top-styles__HomeMessage-sc-a5169ea-17.jeleS > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 1600,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.flexbox > div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.Top-styles__HomeMessage-sc-a5169ea-17.jeleS > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 1600,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.flexbox > div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.AboutSection-styles__AboutSection-sc-c346682-0.caYvUJ > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 2800,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.flexbox > div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.AboutSection-styles__AboutSection-sc-c346682-0.caYvUJ > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 2800,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.AboutSection-styles__AboutSection-sc-c346682-0.caYvUJ > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.AboutSection-styles__AboutAXAGroupOverview-sc-c346682-3.iOaWwv > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 2800,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.AboutSection-styles__AboutSection-sc-c346682-0.caYvUJ > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.AboutSection-styles__AboutAXAGroupOverview-sc-c346682-3.iOaWwv > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 2800,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.AboutSection-styles__AboutSection-sc-c346682-0.caYvUJ > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.AboutSection-styles__AboutPosition-sc-c346682-12.jXyBvm > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 3600,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.AboutSection-styles__AboutSection-sc-c346682-0.caYvUJ > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.AboutSection-styles__AboutPosition-sc-c346682-12.jXyBvm > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 3600,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.AboutSection-styles__AboutSection-sc-c346682-0.caYvUJ > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.AboutSection-styles__AboutNote-sc-c346682-20.kGsZXu > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 4000,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.AboutSection-styles__AboutSection-sc-c346682-0.caYvUJ > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.AboutSection-styles__AboutNote-sc-c346682-20.kGsZXu > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 4000,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.flexbox > div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.ServiceSection-styles__ServiceSection-sc-2340b3b1-0.eeueke > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 5600,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.flexbox > div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.ServiceSection-styles__ServiceSection-sc-2340b3b1-0.eeueke > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 5600,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.flexbox > div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.ServiceSection-styles__ServiceSection-sc-2340b3b1-0.eeueke > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 6000,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.flexbox > div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.ServiceSection-styles__ServiceSection-sc-2340b3b1-0.eeueke > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 6000,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.ServiceSection-styles__ServiceSection-sc-2340b3b1-0.eeueke > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.ServiceSection-styles__ServiceGroup-sc-2340b3b1-4.ffSxHE > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 6800,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.ServiceSection-styles__ServiceSection-sc-2340b3b1-0.eeueke > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.ServiceSection-styles__ServiceGroup-sc-2340b3b1-4.ffSxHE > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 6800,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.ServiceSection-styles__ServiceSection-sc-2340b3b1-0.eeueke > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.ServiceSection-styles__ServiceGroup-sc-2340b3b1-4.ffSxHE > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 6800,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.ServiceSection-styles__ServiceSection-sc-2340b3b1-0.eeueke > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.ServiceSection-styles__ServiceGroup-sc-2340b3b1-4.ffSxHE > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 6800,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.flexbox > div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.RecruitmentInfo-styles__RecruitmentInfoSection-sc-ba195fbc-0.eMQiGR > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 7600,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.flexbox > div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.RecruitmentInfo-styles__RecruitmentInfoSection-sc-ba195fbc-0.eMQiGR > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 7600,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.RecruitmentInfo-styles__RecruitmentInfoSection-sc-ba195fbc-0.eMQiGR > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.RecruitmentInfo-styles__RecruitSite-sc-ba195fbc-12.eMVzGb > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 8400,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.RecruitmentInfo-styles__RecruitmentInfoSection-sc-ba195fbc-0.eMQiGR > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.RecruitmentInfo-styles__RecruitSite-sc-ba195fbc-12.eMVzGb > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 8400,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > div > main > div.BackToTop-styles__BackToTopWrapper-sc-1f5495b9-0.foqcIw",
+        "y": 90,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.flexbox > header.Header-styles__Header-sc-492e4bd0-0.eFoDbi > div.Header-styles__HeaderWrapper-sc-492e4bd0-1.cSaQOH > nav.Header-styles__HeaderNavWrapper-sc-492e4bd0-6.lmKCbr > button.Header-styles__HeaderEntryMenuToggle-sc-492e4bd0-10.ermIRs",
+        "y": 0,
+        "dur": "0s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "jMiNFJ"
+        ],
+        "el": "html > body > div > main > div.BackToTop-styles__BackToTopWrapper-sc-1f5495b9-0.jMiNFJ",
+        "y": 400
+      },
+      {
+        "added": [
+          "dxxyHY"
+        ],
+        "el": "div.flexbox > div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.Top-styles__OurPurpose-sc-a5169ea-10.graovq > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 400
+      },
+      {
+        "added": [
+          "dxxyHY"
+        ],
+        "el": "div.flexbox > div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.Top-styles__HomeMessage-sc-a5169ea-17.jeleS > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 1200
+      },
+      {
+        "added": [
+          "dxxyHY"
+        ],
+        "el": "div.flexbox > div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.AboutSection-styles__AboutSection-sc-c346682-0.caYvUJ > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 2400
+      },
+      {
+        "added": [
+          "dxxyHY"
+        ],
+        "el": "div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.AboutSection-styles__AboutSection-sc-c346682-0.caYvUJ > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.AboutSection-styles__AboutAXAGroupOverview-sc-c346682-3.iOaWwv > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 2400
+      },
+      {
+        "added": [
+          "dxxyHY"
+        ],
+        "el": "div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.AboutSection-styles__AboutSection-sc-c346682-0.caYvUJ > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.AboutSection-styles__AboutPosition-sc-c346682-12.jXyBvm > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 3200
+      },
+      {
+        "added": [
+          "dxxyHY"
+        ],
+        "el": "div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.AboutSection-styles__AboutSection-sc-c346682-0.caYvUJ > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.AboutSection-styles__AboutNote-sc-c346682-20.kGsZXu > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 3600
+      },
+      {
+        "added": [
+          "dxxyHY"
+        ],
+        "el": "div.flexbox > div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.ServiceSection-styles__ServiceSection-sc-2340b3b1-0.eeueke > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 5200
+      },
+      {
+        "added": [
+          "dxxyHY"
+        ],
+        "el": "div.flexbox > div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.ServiceSection-styles__ServiceSection-sc-2340b3b1-0.eeueke > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 5600
+      },
+      {
+        "added": [
+          "dxxyHY"
+        ],
+        "el": "div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.ServiceSection-styles__ServiceSection-sc-2340b3b1-0.eeueke > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.ServiceSection-styles__ServiceGroup-sc-2340b3b1-4.ffSxHE > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 6400
+      },
+      {
+        "added": [
+          "dxxyHY"
+        ],
+        "el": "div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.ServiceSection-styles__ServiceSection-sc-2340b3b1-0.eeueke > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.ServiceSection-styles__ServiceGroup-sc-2340b3b1-4.ffSxHE > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 6400
+      },
+      {
+        "added": [
+          "dxxyHY"
+        ],
+        "el": "div.flexbox > div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.RecruitmentInfo-styles__RecruitmentInfoSection-sc-ba195fbc-0.eMQiGR > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 7200
+      },
+      {
+        "added": [
+          "dxxyHY"
+        ],
+        "el": "div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > section.RecruitmentInfo-styles__RecruitmentInfoSection-sc-ba195fbc-0.eMQiGR > div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.RecruitmentInfo-styles__RecruitSite-sc-ba195fbc-12.eMVzGb > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+        "y": 8000
+      },
+      {
+        "added": [
+          "foqcIw"
+        ],
+        "el": "html > body > div > main > div.BackToTop-styles__BackToTopWrapper-sc-1f5495b9-0.foqcIw",
+        "y": 90
+      },
+      {
+        "added": [
+          "eWVpHJ"
+        ],
+        "el": "main > div.flexbox > header.Header-styles__Header-sc-492e4bd0-0.eFoDbi > div.Header-styles__HeaderWrapper-sc-492e4bd0-1.cSaQOH > div.EntryNav-styles__EntryMenuWrapper-sc-2282f1f9-0.eWVpHJ",
+        "y": 0
+      }
+    ]
+  }
+}

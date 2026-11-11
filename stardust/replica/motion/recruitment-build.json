@@ -1,0 +1,615 @@
+{
+  "url": "http://localhost:8791/recruitment-proposed.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "rc-header",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "rc-header",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "rc-header",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "rc-header",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "rc-header",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4800,
+      "cls": "rc-header",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 6000,
+      "cls": "rc-header",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 7200,
+      "cls": "rc-header",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 8400,
+      "cls": "rc-header",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 7714,
+      "cls": "rc-header",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 6214,
+      "cls": "rc-header",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "rc-header",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "rc-header",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "rc-header",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "rc-header",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "rc-header",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "rc-header",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "rc-header",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "rc-header",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "rc-header",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "rc-header",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "rc-header",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "rc-header",
+      "position": "fixed",
+      "height": "84px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".rc-header__entry",
+      "frames": [
+        {
+          "t": 12298,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 12501.100000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 12704.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 12907.30000000028,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": "a",
+      "changed": [
+        "self.color",
+        "img.rc-header__logo-img.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 143)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.rc-header__logo-img",
+            "transform": "none",
+            "color": "rgb(0, 0, 143)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 114)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.rc-header__logo-img",
+            "transform": "none",
+            "color": "rgb(0, 0, 114)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [
+      {
+        "src": "https://www.axa.co.jp/images/recruitment/career/video/main-wide.mp4",
+        "autoplay": true,
+        "loop": true,
+        "muted": true,
+        "paused": false,
+        "currentTime": 0.9607,
+        "readyState": 4,
+        "inViewport": true,
+        "currentTimeAfter": 2.465,
+        "playing": true
+      }
+    ],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "opacity",
+        "el": "html.rc-js.rc-ready > body > main.rc-page > div.rc-totop.is-visible",
+        "y": 400,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.rc-flexbox > div.rc-top > section.rc-message > div.rc-container > div.rc-inview.is-inview",
+        "y": 1200,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.rc-flexbox > div.rc-top > section.rc-message > div.rc-container > div.rc-inview.is-inview",
+        "y": 1200,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.rc-flexbox > div.rc-top > section.rc-about > div.rc-container > div.rc-inview.is-inview",
+        "y": 2400,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.rc-flexbox > div.rc-top > section.rc-about > div.rc-container > div.rc-inview.is-inview",
+        "y": 2400,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.rc-top > section.rc-about > div.rc-container > div.rc-about__overview > div.rc-inview.is-inview",
+        "y": 2800,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.rc-top > section.rc-about > div.rc-container > div.rc-about__overview > div.rc-inview.is-inview",
+        "y": 2800,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.rc-top > section.rc-about > div.rc-container > div.rc-about__position > div.rc-inview.is-inview",
+        "y": 3200,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.rc-top > section.rc-about > div.rc-container > div.rc-about__position > div.rc-inview.is-inview",
+        "y": 3200,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.rc-top > section.rc-about > div.rc-container > div.rc-about__note > div.rc-inview.is-inview",
+        "y": 4000,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.rc-top > section.rc-about > div.rc-container > div.rc-about__note > div.rc-inview.is-inview",
+        "y": 4000,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.rc-flexbox > div.rc-top > section.rc-service > div.rc-container > div.rc-inview.is-inview",
+        "y": 5600,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.rc-flexbox > div.rc-top > section.rc-service > div.rc-container > div.rc-inview.is-inview",
+        "y": 5600,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.rc-flexbox > div.rc-top > section.rc-service > div.rc-container > div.rc-inview.is-inview",
+        "y": 5600,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.rc-flexbox > div.rc-top > section.rc-service > div.rc-container > div.rc-inview.is-inview",
+        "y": 5600,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.rc-top > section.rc-service > div.rc-container > div.rc-service__group > div.rc-inview.is-inview",
+        "y": 6400,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.rc-top > section.rc-service > div.rc-container > div.rc-service__group > div.rc-inview.is-inview",
+        "y": 6400,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.rc-top > section.rc-service > div.rc-container > div.rc-service__group > div.rc-inview.is-inview",
+        "y": 6800,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.rc-top > section.rc-service > div.rc-container > div.rc-service__group > div.rc-inview.is-inview",
+        "y": 6800,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.rc-flexbox > div.rc-top > section.rc-recruit > div.rc-container > div.rc-inview.is-inview",
+        "y": 7200,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.rc-flexbox > div.rc-top > section.rc-recruit > div.rc-container > div.rc-inview.is-inview",
+        "y": 7200,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.rc-top > section.rc-recruit > div.rc-container > div.rc-recruit__site > div.rc-inview.is-inview",
+        "y": 8000,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.rc-top > section.rc-recruit > div.rc-container > div.rc-recruit__site > div.rc-inview.is-inview",
+        "y": 8000,
+        "dur": "0.8s, 0.6s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html.rc-js.rc-ready > body > main.rc-page > div.rc-totop",
+        "y": 90,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.rc-flexbox > header.rc-header > div.rc-header__bar > nav.rc-header__navwrap > button.rc-header__entry",
+        "y": 0,
+        "dur": "0s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "html.rc-js.rc-ready > body > main.rc-page > div.rc-totop.is-visible",
+        "y": 400
+      },
+      {
+        "added": [
+          "is-inview"
+        ],
+        "el": "div.rc-flexbox > div.rc-top > section.rc-message > div.rc-container > div.rc-inview.is-inview",
+        "y": 800
+      },
+      {
+        "added": [
+          "is-inview"
+        ],
+        "el": "div.rc-flexbox > div.rc-top > section.rc-about > div.rc-container > div.rc-inview.is-inview",
+        "y": 2000
+      },
+      {
+        "added": [
+          "is-inview"
+        ],
+        "el": "div.rc-top > section.rc-about > div.rc-container > div.rc-about__overview > div.rc-inview.is-inview",
+        "y": 2400
+      },
+      {
+        "added": [
+          "is-inview"
+        ],
+        "el": "div.rc-top > section.rc-about > div.rc-container > div.rc-about__position > div.rc-inview.is-inview",
+        "y": 2800
+      },
+      {
+        "added": [
+          "is-inview"
+        ],
+        "el": "div.rc-top > section.rc-about > div.rc-container > div.rc-about__note > div.rc-inview.is-inview",
+        "y": 3600
+      },
+      {
+        "added": [
+          "is-inview"
+        ],
+        "el": "div.rc-flexbox > div.rc-top > section.rc-service > div.rc-container > div.rc-inview.is-inview",
+        "y": 5200
+      },
+      {
+        "added": [
+          "is-inview"
+        ],
+        "el": "div.rc-flexbox > div.rc-top > section.rc-service > div.rc-container > div.rc-inview.is-inview",
+        "y": 5200
+      },
+      {
+        "added": [
+          "is-inview"
+        ],
+        "el": "div.rc-top > section.rc-service > div.rc-container > div.rc-service__group > div.rc-inview.is-inview",
+        "y": 6000
+      },
+      {
+        "added": [
+          "is-inview"
+        ],
+        "el": "div.rc-top > section.rc-service > div.rc-container > div.rc-service__group > div.rc-inview.is-inview",
+        "y": 6400
+      },
+      {
+        "added": [
+          "is-inview"
+        ],
+        "el": "div.rc-flexbox > div.rc-top > section.rc-recruit > div.rc-container > div.rc-inview.is-inview",
+        "y": 6800
+      },
+      {
+        "added": [
+          "is-inview"
+        ],
+        "el": "div.rc-top > section.rc-recruit > div.rc-container > div.rc-recruit__site > div.rc-inview.is-inview",
+        "y": 7600
+      },
+      {
+        "added": [
+          "is-open"
+        ],
+        "el": "main.rc-page > div.rc-flexbox > header.rc-header > div.rc-header__bar > div.rc-entrynav.is-open",
+        "y": 0
+      }
+    ]
+  }
+}

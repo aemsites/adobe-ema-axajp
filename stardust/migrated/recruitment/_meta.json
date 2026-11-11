@@ -1,0 +1,146 @@
+{
+  "slug": "recruitment",
+  "type": "recruitment",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "recruit-hero",
+    "recruit-statement",
+    "recruit-about",
+    "recruit-channels",
+    "recruit-entry"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "rc-totop",
+    "rc-flexbox"
+  ],
+  "canonShas": {
+    "header": "97dfe405bdbc",
+    "footer": "cf30e27ef19c",
+    "css": "378fa1894de3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "採用情報｜アクサ生命保険",
+    "description": "アクサ生命の新卒採用・中途採用の情報を掲載しているページです。",
+    "canonical": "https://www.axa.co.jp/recruitment/career",
+    "lang": "ja"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "採用情報｜アクサ生命保険",
+    "description": "アクサ生命の新卒採用・中途採用の情報を掲載しているページです。",
+    "url": "https://www.axa.co.jp/recruitment/career"
+  },
+  "migratedAt": "2026-11-09T07:25:10Z",
+  "designMdSha": "f01c5771aa7a",
+  "designJsonSha": "5024ca2feb1f",
+  "sourceCurrentSha": "dd91db9a59e4",
+  "sourceProposedSha": "f408f1a66ddf",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 15,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/recruitment/career",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/career/students",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/career/experienced",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/career/pwd",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/career/students",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/career/experienced",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/career/pwd",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/cci",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/fa",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/about-axa/group-info/global",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/career/students",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/career/experienced",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/career/pwd",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/cci/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/fa/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/career/students",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/career/experienced",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/career/pwd",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/career/policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/cci/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/recruitment/fa/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.axa.co.jp/other/personal/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "recruitment/index.html",
+  "outputPathDefault": null,
+  "sidecar": "recruitment/_meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,455 @@
+[live-session] waiting to pace live navigations to www.axa.co.jp (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/about-insurance-1440/vdiff-iter1/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 4389,
+  "textLen": 1551,
+  "images": [
+   {
+    "src": "insurance-system-pc.png",
+    "natural": "994x260",
+    "rendered": "1024x268",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "insurance-system-sp.png",
+    "natural": "750x260",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "kinds-of-insurance-pc.png",
+    "natural": "994x376",
+    "rendered": "1024x387",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "kinds-of-insurance-sp.png",
+    "natural": "750x920",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQm1SLpReVYa4Aej_persona1.png?auto=format,compress",
+    "natural": "337x260",
+    "rendered": "329x254",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmy6bpReVYa4AZB_persona2.png?auto=format,compress",
+    "natural": "337x260",
+    "rendered": "329x254",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQm2xrpReVYa4Ah9_persona3.png?auto=format,compress",
+    "natural": "336x260",
+    "rendered": "329x254",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmy4bpReVYa4AY8_persona4.png?auto=format,compress",
+    "natural": "337x260",
+    "rendered": "329x254",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmyx7pReVYa4AYx_persona5.png?auto=format,compress",
+    "natural": "337x260",
+    "rendered": "329x254",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmfd7pReVYa3_dJ_persona6.png?auto=format,compress",
+    "natural": "337x260",
+    "rendered": "329x254",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmyU7pReVYa4AYA_btn_tel03.gif?auto=format,compress",
+    "natural": "113x113",
+    "rendered": "113x113",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmyVLpReVYa4AYB_btn_tel04.gif?auto=format,compress",
+    "natural": "113x113",
+    "rendered": "113x113",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmyVbpReVYa4AYC_btn_tel05.gif?auto=format,compress",
+    "natural": "113x113",
+    "rendered": "113x113",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ln_logo.png",
+    "natural": "318x270",
+    "rendered": "24x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=27022501&tm=gtm002&Ver=2&mid=383a9a0c-5955-4bb3-a06e-dfaa70c271e0&bo=1&sid=38980240dbfb11f1acc1311e4dda32ec&vid=38985140dbfb11f1adebe395bb3d1d69&vids=0&msclkid=N&gtm_tag_source=1&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&tl=%E3%82%A2%E3%82%AF%E3%82%B5%E7%94%9F%E5%91%BD%E4%BF%9D%E9%99%BA%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE&p=https%3A%2F%2Fwww.axa.co.jp%2Fabout-insurance%2F&r=&lt=1164&evt=pageLoad&sv=2&cdb=AQAQ&rn=525936",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=97045623&Ver=2&mid=6efcac23-2135-4ad9-8109-700719cff521&bo=1&sid=38980240dbfb11f1acc1311e4dda32ec&vid=38985140dbfb11f1adebe395bb3d1d69&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&tl=%E3%82%A2%E3%82%AF%E3%82%B5%E7%94%9F%E5%91%BD%E4%BF%9D%E9%99%BA%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE&p=https%3A%2F%2Fwww.axa.co.jp%2Fabout-insurance%2F&r=&lt=1164&evt=pageLoad&sv=2&cdb=AQAQ&rn=317320",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "ot_company_logo.png",
+    "natural": "2042x280",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "保険の選び方",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "32px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "なぜ保険が必要？",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "保険を考えるタイミング",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "28px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "保険の仕組みはどうなっている？",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "保険の種類にはどんなものがある？",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "保険についてもっと知る",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "私が保険のことを考えはじめた理由記事一覧",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Follow AXA",
+    "color": "rgb(52, 60, 61)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "AboutInsuranceTopPage-styles__BlueBox-sc-acc4b772-5",
+    "width": 1024,
+    "left": 208
+   },
+   {
+    "sel": "AboutInsuranceTopPage-styles__TestimonialWrap-sc-acc4b772-13",
+    "width": 1024,
+    "left": 208
+   },
+   {
+    "sel": "BottomBox-styles__BottomBoxContainer-sc-8d11ce33-0",
+    "width": 1024,
+    "left": 208
+   },
+   {
+    "sel": "ContactLinks-styles__ContactLinksContainer-sc-8cf9f314-0",
+    "width": 1024,
+    "left": 208
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 4389,
+  "textLen": 1549,
+  "images": [
+   {
+    "src": "insurance-system-pc.png",
+    "natural": "994x260",
+    "rendered": "1024x268",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "insurance-system-sp.png",
+    "natural": "750x260",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "kinds-of-insurance-pc.png",
+    "natural": "994x376",
+    "rendered": "1024x387",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "kinds-of-insurance-sp.png",
+    "natural": "750x920",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQm1SLpReVYa4Aej_persona1.png?auto=format,compress",
+    "natural": "337x260",
+    "rendered": "329x254",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmy6bpReVYa4AZB_persona2.png?auto=format,compress",
+    "natural": "337x260",
+    "rendered": "329x254",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQm2xrpReVYa4Ah9_persona3.png?auto=format,compress",
+    "natural": "336x260",
+    "rendered": "329x254",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmy4bpReVYa4AY8_persona4.png?auto=format,compress",
+    "natural": "337x260",
+    "rendered": "329x254",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmyx7pReVYa4AYx_persona5.png?auto=format,compress",
+    "natural": "337x260",
+    "rendered": "329x254",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmfd7pReVYa3_dJ_persona6.png?auto=format,compress",
+    "natural": "337x260",
+    "rendered": "329x254",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmyU7pReVYa4AYA_btn_tel03.gif?auto=format,compress",
+    "natural": "113x113",
+    "rendered": "113x113",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmyVLpReVYa4AYB_btn_tel04.gif?auto=format,compress",
+    "natural": "113x113",
+    "rendered": "113x113",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmyVbpReVYa4AYC_btn_tel05.gif?auto=format,compress",
+    "natural": "113x113",
+    "rendered": "113x113",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ln_logo.png",
+    "natural": "318x270",
+    "rendered": "24x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "保険の選び方",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "32px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "なぜ保険が必要？",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "保険を考えるタイミング",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "28px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "保険の仕組みはどうなっている？",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "保険の種類にはどんなものがある？",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "保険についてもっと知る",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "私が保険のことを考えはじめた理由記事一覧",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Follow AXA",
+    "color": "rgb(52, 60, 61)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "ai-bluebox",
+    "width": 1024,
+    "left": 208
+   },
+   {
+    "sel": "ai-testimonials",
+    "width": 1024,
+    "left": 208
+   },
+   {
+    "sel": "ai-bottom",
+    "width": 1024,
+    "left": 208
+   },
+   {
+    "sel": "ai-contact",
+    "width": 1024,
+    "left": 208
+   }
+  ]
+ }
+}

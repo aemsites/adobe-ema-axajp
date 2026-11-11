@@ -1,0 +1,822 @@
+{
+  "discovery": {
+    "fetchTechnique": "chrome",
+    "count": 10,
+    "concurrency": 3
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.axa.co.jp/favicon/favicon-32x32.png",
+    "file": "assets/favicon.png"
+  },
+  "crawl": {
+    "failures": [],
+    "pageTimeoutMs": 60000
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 10,
+    "pagesWithSameSiteData": 10,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 0,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/ccm/collect",
+        "pages": 10,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn-au.onetrust.com",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://cdn-au.onetrust.com/consent/81279554-1fe3-415e-bf51-66316df2e0bb/81279554-1fe3-415e-bf51-66316df2e0bb.json",
+        "pages": 10,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dp",
+          "dt",
+          "en",
+          "ep.check",
+          "ep.content_group",
+          "ep.insurance_category",
+          "ep.insurance_name",
+          "frm",
+          "gaf",
+          "gcd",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://analytics.google.com/g/collect",
+        "pages": 10,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn-au.onetrust.com",
+        "path": "/consent/{uuid}/{uuid}/ja.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://cdn-au.onetrust.com/consent/81279554-1fe3-415e-bf51-66316df2e0bb/0192ad5b-1ec1-7752-91ee-f3ac7e2d2638/ja.json",
+        "pages": 10,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn-au.onetrust.com",
+        "path": "/scripttemplates/202608.1.0/assets/v2/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn-au.onetrust.com/scripttemplates/202608.1.0/assets/v2/otPcCenter.json",
+        "pages": 10,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn-au.onetrust.com",
+        "path": "/scripttemplates/202608.1.0/assets/otFlat.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn-au.onetrust.com/scripttemplates/202608.1.0/assets/otFlat.json",
+        "pages": 10,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn-au.onetrust.com",
+        "path": "/scripttemplates/202608.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": false,
+        "example": "https://cdn-au.onetrust.com/scripttemplates/202608.1.0/assets/otCommonStyles.css",
+        "pages": 10,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "dma",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/rmkt/collect/466258847/",
+        "pages": 10,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn-au.onetrust.com",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://cdn-au.onetrust.com/logos/static/ot_guard_logo.svg",
+        "pages": 10,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "w2-c9dea2a81a9e4d3c963d5887958afeb5.ecs.eu-west-1.on.aws",
+        "path": "/events",
+        "query": [
+          "cee"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://w2-c9dea2a81a9e4d3c963d5887958afeb5.ecs.eu-west-1.on.aws/events",
+        "pages": 10,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bs.nakanohito.jp",
+        "path": "/b3/",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://bs.nakanohito.jp/b3/",
+        "pages": 10,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.axa.co.jp",
+        "path": "/cookie/extend",
+        "query": [
+          "c1",
+          "c2"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.axa.co.jp/cookie/extend",
+        "pages": 10,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "insight.adsrvr.org",
+        "path": "/track/realtimeconversion",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://insight.adsrvr.org/track/realtimeconversion",
+        "pages": 10,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api-cdn.mypurecloud.jp",
+        "path": "/webdeployments/v1/deployments/{uuid}/domains.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api-cdn.mypurecloud.jp/webdeployments/v1/deployments/f00477eb-65d8-4e01-aa25-e60d9cb8fdc4/domains.json",
+        "pages": 5,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api-cdn.mypurecloud.jp",
+        "path": "/webdeployments/v1/deployments/{uuid}/config.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api-cdn.mypurecloud.jp/webdeployments/v1/deployments/f00477eb-65d8-4e01-aa25-e60d9cb8fdc4/config.json",
+        "pages": 5,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/{n}/NRJS-6e33eb5146818c42ffd",
+        "query": [
+          "a",
+          "af",
+          "be",
+          "ck",
+          "dc",
+          "fe",
+          "perf",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://bam.nr-data.net/1/NRJS-6e33eb5146818c42ffd",
+        "pages": 5,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/events/{n}/NRJS-6e33eb5146818c42ffd",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://bam.nr-data.net/events/1/NRJS-6e33eb5146818c42ffd",
+        "pages": 5,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/jserrors/{n}/NRJS-6e33eb5146818c42ffd",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://bam.nr-data.net/jserrors/1/NRJS-6e33eb5146818c42ffd",
+        "pages": 5,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "apps.mypurecloud.jp",
+        "path": "/messenger/i18n/ja.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://apps.mypurecloud.jp/messenger/i18n/ja.json",
+        "pages": 5,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api-cdn.mypurecloud.jp",
+        "path": "/webdeployments/v1/deployments/{uuid}/ja.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api-cdn.mypurecloud.jp/webdeployments/v1/deployments/f00477eb-65d8-4e01-aa25-e60d9cb8fdc4/ja.json",
+        "pages": 5,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "privacyportal-au.onetrust.com",
+        "path": "/request/v1/consentreceipts/anonymous",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://privacyportal-au.onetrust.com/request/v1/consentreceipts/anonymous",
+        "pages": 3,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://www.google-analytics.com/g/collect",
+        "pages": 3,
+        "examples": [
+          "about-insurance",
+          "customer-feedback",
+          "recruitment"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "k.clarity.ms",
+        "path": "/collect",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://k.clarity.ms/collect",
+        "pages": 2,
+        "examples": [
+          "index",
+          "customer-feedback"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "i.clarity.ms",
+        "path": "/collect",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://i.clarity.ms/collect",
+        "pages": 2,
+        "examples": [
+          "prospect",
+          "company"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "p.clarity.ms",
+        "path": "/collect",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://p.clarity.ms/collect",
+        "pages": 1,
+        "examples": [
+          "customer"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 10,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "host": "connect.facebook.net",
+        "pages": 10,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "host": "bat.bing.com",
+        "pages": 10,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "host": "js.adsrvr.org",
+        "pages": 10,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "host": "cdn-au.onetrust.com",
+        "pages": 10,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "host": "www.youtube.com",
+        "pages": 10,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "host": "s.yimg.jp",
+        "pages": 10,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "pages": 10,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "host": "d.line-scdn.net",
+        "pages": 10,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "host": "tag.flvcdn.net",
+        "pages": 10,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "host": "cs.nakanohito.jp",
+        "pages": 10,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "host": "apps.mypurecloud.jp",
+        "pages": 5,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      },
+      {
+        "host": "www.clarity.ms",
+        "pages": 5,
+        "examples": [
+          "index",
+          "prospect",
+          "company"
+        ]
+      },
+      {
+        "host": "scripts.clarity.ms",
+        "pages": 5,
+        "examples": [
+          "index",
+          "prospect",
+          "company"
+        ]
+      },
+      {
+        "host": "js-agent.newrelic.com",
+        "pages": 5,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      }
+    ],
+    "frameworkHints": [],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 10,
+        "examples": [
+          "index",
+          "prospect",
+          "product"
+        ]
+      }
+    ],
+    "formTargets": [
+      {
+        "action": "https://www.axa.co.jp/prospect/be-recommended/results",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "gender",
+          "maritalStatus",
+          "children",
+          "age"
+        ],
+        "pages": 2,
+        "examples": [
+          "index",
+          "prospect"
+        ]
+      },
+      {
+        "action": "https://www.axa.co.jp/product/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [],
+        "pages": 1,
+        "examples": [
+          "product"
+        ]
+      }
+    ]
+  },
+  "visionCheck": [
+    {
+      "slug": "index",
+      "verdict": "ok",
+      "notes": "thumbnail matches record; logo visible; no overlay"
+    },
+    {
+      "slug": "prospect",
+      "verdict": "ok",
+      "notes": "thumbnail matches record; logo visible; no overlay"
+    },
+    {
+      "slug": "product",
+      "verdict": "ok",
+      "notes": "thumbnail matches record; logo visible; no overlay"
+    },
+    {
+      "slug": "about-insurance",
+      "verdict": "ok",
+      "notes": "thumbnail matches record; logo visible; no overlay"
+    },
+    {
+      "slug": "company",
+      "verdict": "ok",
+      "notes": "thumbnail matches record; logo visible; no overlay"
+    },
+    {
+      "slug": "customer",
+      "verdict": "ok",
+      "notes": "thumbnail matches record; logo visible; no overlay"
+    },
+    {
+      "slug": "customer-feedback",
+      "verdict": "ok",
+      "notes": "thumbnail matches record; logo visible; no overlay"
+    },
+    {
+      "slug": "about-axa",
+      "verdict": "ok",
+      "notes": "thumbnail matches record; logo visible; no overlay"
+    },
+    {
+      "slug": "dataprivacy",
+      "verdict": "ok",
+      "notes": "thumbnail matches record; logo visible; no overlay"
+    },
+    {
+      "slug": "recruitment",
+      "verdict": "suspect",
+      "notes": "finalUrl /recruitment/career; scroll-reveal (InView) sections paint as empty blue/white blocks in the full-page screenshot even after a --wait slow recapture; DOM text captured (34 headings). Own header/footer distinct from the main site. Gate stitched captures scroll, so ground truth comes from the gate live.png."
+    }
+  ]
+}

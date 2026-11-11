@@ -1,0 +1,9 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.axa.co.jp/company/ (live side from cache stardust/replica/gates/company-1440/chrome-live.json, probed 2026-11-09T06:12:01.215Z — delete the file to re-probe)
+  build: http://localhost:8791/company-proposed.html
+
+■ header: ✓ parity — 9 paired of 9/9 texts, 3/3 icons
+
+■ footer: ✓ parity — 63 paired of 63/63 texts, 6/6 icons
+
+✓ chrome parity within tolerance — run crop-compare (pass bar item 5) to confirm in pixels.

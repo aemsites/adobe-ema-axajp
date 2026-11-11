@@ -1,0 +1,6 @@
+{
+ "recruitment": {
+  "main": "main .flexbox > div:nth-of-type(2)=main",
+  "reason": "recruitment microsite: live wraps its own header/footer chrome INSIDE <main> (main > .flexbox > header, TopPageContainer, footer); EDS chrome lives in the header/footer blocks outside <main>. Content root = live TopPageContainer vs EDS main; chrome links are gated by the chrome crop bands (foundation)."
+ }
+}

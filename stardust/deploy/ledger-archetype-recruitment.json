@@ -1,0 +1,11 @@
+{
+  "/recruitment": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-09T09:36:15.951Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

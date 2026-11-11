@@ -1,0 +1,202 @@
+{
+  "media/customer-feedback/acyHT5GXnQHGZJrR_feedback_2025a.svg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/cluster-content/media/customer-feedback/acyHT5GXnQHGZJrR_feedback_2025a.svg",
+    "size": 8093,
+    "sha256": "c3c676b58fd13036fc7f6362a35353a6ed78ddc19565684d378e9da5355a1039",
+    "contentType": "image/svg+xml",
+    "source": "https://prod-japan.cdn.prismic.io/prod-japan/acyHT5GXnQHGZJrR_feedback_2025a.svg",
+    "contentUrl": "https://content.da.live/aemcoder/80b77690/media/customer-feedback/acyHT5GXnQHGZJrR_feedback_2025a.svg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-09T11:07:45.670Z"
+  },
+  "media/customer-feedback/ac8fCpGXnQHGZPOp_contract_feedback.svg": {
+    "status": "failed",
+    "file": "stardust/.work/rollout/cluster-content/media/customer-feedback/ac8fCpGXnQHGZPOp_contract_feedback.svg",
+    "source": "https://prod-japan.cdn.prismic.io/prod-japan/ac8fCpGXnQHGZPOp_contract_feedback.svg",
+    "contentUrl": "https://content.da.live/aemcoder/80b77690/media/customer-feedback/ac8fCpGXnQHGZPOp_contract_feedback.svg",
+    "error": "svg-unsafe embeds raster data — extract it to a png and author that (every referencing page would fail preview with 409)",
+    "ts": "2026-11-09T11:07:45.685Z"
+  },
+  "media/customer-feedback/ac8c4ZGXnQHGZPHY_feedback_2025b.svg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/cluster-content/media/customer-feedback/ac8c4ZGXnQHGZPHY_feedback_2025b.svg",
+    "size": 12234,
+    "sha256": "88e358eb8c151fa0dd9682e7eb63bb2e3306540805fca7ac08f5003b2b64ced1",
+    "contentType": "image/svg+xml",
+    "source": "https://prod-japan.cdn.prismic.io/prod-japan/ac8c4ZGXnQHGZPHY_feedback_2025b.svg",
+    "contentUrl": "https://content.da.live/aemcoder/80b77690/media/customer-feedback/ac8c4ZGXnQHGZPHY_feedback_2025b.svg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-09T11:07:46.108Z"
+  },
+  "media/customer-feedback/acyHUZGXnQHGZJrT_guide_feedback.svg": {
+    "status": "failed",
+    "file": "stardust/.work/rollout/cluster-content/media/customer-feedback/acyHUZGXnQHGZJrT_guide_feedback.svg",
+    "source": "https://prod-japan.cdn.prismic.io/prod-japan/acyHUZGXnQHGZJrT_guide_feedback.svg",
+    "contentUrl": "https://content.da.live/aemcoder/80b77690/media/customer-feedback/acyHUZGXnQHGZJrT_guide_feedback.svg",
+    "error": "svg-unsafe embeds raster data — extract it to a png and author that (every referencing page would fail preview with 409)",
+    "ts": "2026-11-09T11:07:46.114Z"
+  },
+  "media/customer-feedback/acyHTZGXnQHGZJrP_claim_feedback.svg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/cluster-content/media/customer-feedback/acyHTZGXnQHGZJrP_claim_feedback.svg",
+    "size": 16047,
+    "sha256": "c491dd66b2ffee0d3a12f974281002aad9e105e5dff9181c01458ec0327c3577",
+    "contentType": "image/svg+xml",
+    "source": "https://prod-japan.cdn.prismic.io/prod-japan/acyHTZGXnQHGZJrP_claim_feedback.svg",
+    "contentUrl": "https://content.da.live/aemcoder/80b77690/media/customer-feedback/acyHTZGXnQHGZJrP_claim_feedback.svg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-09T11:07:46.142Z"
+  },
+  "media/about-axa/acDg-JGXnQHGY1rq_about-axa_fv_pc.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/cluster-content/media/about-axa/acDg-JGXnQHGY1rq_about-axa_fv_pc.jpg",
+    "size": 154833,
+    "sha256": "b73a6dbbfd5c4aaa040d1827142c6836f466dfbaa302b446c1b46c63ce244287",
+    "contentType": "image/jpeg",
+    "source": "https://images.prismic.io/prod-japan/acDg-JGXnQHGY1rq_about-axa_fv_pc.jpg",
+    "contentUrl": "https://content.da.live/aemcoder/80b77690/media/about-axa/acDg-JGXnQHGY1rq_about-axa_fv_pc.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-09T11:07:47.073Z"
+  },
+  "media/about-axa/aco5mJGXnQHGZFbH_ceo-top_pc.svg": {
+    "status": "failed",
+    "file": "stardust/.work/rollout/cluster-content/media/about-axa/aco5mJGXnQHGZFbH_ceo-top_pc.svg",
+    "source": "https://prod-japan.cdn.prismic.io/prod-japan/aco5mJGXnQHGZFbH_ceo-top_pc.svg",
+    "contentUrl": "https://content.da.live/aemcoder/80b77690/media/about-axa/aco5mJGXnQHGZFbH_ceo-top_pc.svg",
+    "error": "svg-unsafe embeds raster data — extract it to a png and author that (every referencing page would fail preview with 409)",
+    "ts": "2026-11-09T11:07:47.148Z"
+  },
+  "media/about-axa/aco555GXnQHGZFba_ceo-top_sp.svg": {
+    "status": "failed",
+    "file": "stardust/.work/rollout/cluster-content/media/about-axa/aco555GXnQHGZFba_ceo-top_sp.svg",
+    "source": "https://prod-japan.cdn.prismic.io/prod-japan/aco555GXnQHGZFba_ceo-top_sp.svg",
+    "contentUrl": "https://content.da.live/aemcoder/80b77690/media/about-axa/aco555GXnQHGZFba_ceo-top_sp.svg",
+    "error": "svg-unsafe embeds raster data — extract it to a png and author that (every referencing page would fail preview with 409)",
+    "ts": "2026-11-09T11:07:47.166Z"
+  },
+  "media/about-axa/acDg-ZGXnQHGY1rr_about-axa_fv_sp.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/cluster-content/media/about-axa/acDg-ZGXnQHGY1rr_about-axa_fv_sp.jpg",
+    "size": 233701,
+    "sha256": "f94417adcbe96715b0a70bfa7ae02e23b7a836c4d71bb667f875e1ac04ed090e",
+    "contentType": "image/jpeg",
+    "source": "https://images.prismic.io/prod-japan/acDg-ZGXnQHGY1rr_about-axa_fv_sp.jpg",
+    "contentUrl": "https://content.da.live/aemcoder/80b77690/media/about-axa/acDg-ZGXnQHGY1rr_about-axa_fv_sp.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-09T11:07:47.802Z"
+  },
+  "media/about-axa/aQmua7pReVYa4AOY_building.png": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/cluster-content/media/about-axa/aQmua7pReVYa4AOY_building.png",
+    "size": 1605,
+    "sha256": "4797a4a6dd574df9450a1981a3cb467925246cac574ff06ec547b6f96159c18b",
+    "contentType": "image/png",
+    "source": "https://images.prismic.io/prod-japan/aQmua7pReVYa4AOY_building.png",
+    "contentUrl": "https://content.da.live/aemcoder/80b77690/media/about-axa/aQmua7pReVYa4AOY_building.png",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-09T11:07:47.804Z"
+  },
+  "media/about-axa/aQmubbpReVYa4AOa_graph.png": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/cluster-content/media/about-axa/aQmubbpReVYa4AOa_graph.png",
+    "size": 1340,
+    "sha256": "5b2ddff16f486c33f26010b0b9fc17d9b37305b2f4a783ecdc2182de40d0d760",
+    "contentType": "image/png",
+    "source": "https://images.prismic.io/prod-japan/aQmubbpReVYa4AOa_graph.png",
+    "contentUrl": "https://content.da.live/aemcoder/80b77690/media/about-axa/aQmubbpReVYa4AOa_graph.png",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-09T11:07:48.457Z"
+  },
+  "media/about-axa/aQmubLpReVYa4AOZ_release.png": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/cluster-content/media/about-axa/aQmubLpReVYa4AOZ_release.png",
+    "size": 801,
+    "sha256": "08973b077c4e181885226d84b7b14781e1557e77a1b65c2d6d756c16e6d9223a",
+    "contentType": "image/png",
+    "source": "https://images.prismic.io/prod-japan/aQmubLpReVYa4AOZ_release.png",
+    "contentUrl": "https://content.da.live/aemcoder/80b77690/media/about-axa/aQmubLpReVYa4AOZ_release.png",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-09T11:07:48.485Z"
+  },
+  "media/about-axa/aQmubrpReVYa4AOb_medal.png": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/cluster-content/media/about-axa/aQmubrpReVYa4AOb_medal.png",
+    "size": 2553,
+    "sha256": "428e34e00673ef13d02496238354b9103df46f7593568882a2134b4bf5778ee8",
+    "contentType": "image/png",
+    "source": "https://images.prismic.io/prod-japan/aQmubrpReVYa4AOb_medal.png",
+    "contentUrl": "https://content.da.live/aemcoder/80b77690/media/about-axa/aQmubrpReVYa4AOb_medal.png",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-09T11:07:49.067Z"
+  },
+  "media/about-axa/aQmub7pReVYa4AOc_icon_town_hall_blue.png": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/cluster-content/media/about-axa/aQmub7pReVYa4AOc_icon_town_hall_blue.png",
+    "size": 2233,
+    "sha256": "2a64113bd1a7103a07f327452317c9851487387fb6ab94b00f4f92e64d578e44",
+    "contentType": "image/png",
+    "source": "https://images.prismic.io/prod-japan/aQmub7pReVYa4AOc_icon_town_hall_blue.png",
+    "contentUrl": "https://content.da.live/aemcoder/80b77690/media/about-axa/aQmub7pReVYa4AOc_icon_town_hall_blue.png",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-09T11:07:49.095Z"
+  },
+  "media/customer-feedback/ac8fCpGXnQHGZPOp_contract_feedback.png": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/cluster-content/media/png/ac8fCpGXnQHGZPOp_contract_feedback.png",
+    "size": 31281,
+    "sha256": "ab235ecf9539a88bce959761d18eba9d6f564953685b554908a93b1a10e908a1",
+    "contentType": "image/png",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/80b77690/media/customer-feedback/ac8fCpGXnQHGZPOp_contract_feedback.png",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-09T11:09:26.180Z"
+  },
+  "media/customer-feedback/acyHUZGXnQHGZJrT_guide_feedback.png": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/cluster-content/media/png/acyHUZGXnQHGZJrT_guide_feedback.png",
+    "size": 22386,
+    "sha256": "b53e60aa2e9b5aeae2e188d2954a668d4f6a78c88e26227bd9d72460494fb4e2",
+    "contentType": "image/png",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/80b77690/media/customer-feedback/acyHUZGXnQHGZJrT_guide_feedback.png",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-09T11:09:26.612Z"
+  },
+  "media/about-axa/aco5mJGXnQHGZFbH_ceo-top_pc.png": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/cluster-content/media/png/aco5mJGXnQHGZFbH_ceo-top_pc.png",
+    "size": 119075,
+    "sha256": "9a3fb7acea230fc2f8c95cf28bf5c749dda4472c03ffd3df8f8cb3e9eac25fa8",
+    "contentType": "image/png",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/80b77690/media/about-axa/aco5mJGXnQHGZFbH_ceo-top_pc.png",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-09T11:09:27.111Z"
+  },
+  "media/about-axa/aco555GXnQHGZFba_ceo-top_sp.png": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/cluster-content/media/png/aco555GXnQHGZFba_ceo-top_sp.png",
+    "size": 50950,
+    "sha256": "3b7ba2ff40a75533a2fe16ccd5854ccda391c174c6713693cd44ee95327213cb",
+    "contentType": "image/png",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/80b77690/media/about-axa/aco555GXnQHGZFba_ceo-top_sp.png",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-09T11:09:27.500Z"
+  }
+}

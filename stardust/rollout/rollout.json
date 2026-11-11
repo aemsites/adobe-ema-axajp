@@ -1,0 +1,41 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-09T07:29:19.155Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.axa.co.jp/",
+    "da": {
+      "org": "aemcoder",
+      "site": "80b77690",
+      "ref": "main"
+    },
+    "liveHost": "main--80b77690--aemcoder.aem.live"
+  },
+  "scope": {
+    "pages": 10,
+    "discovered": 10,
+    "capped": false,
+    "pageCap": null
+  },
+  "lastRun": {
+    "at": "2026-11-09T13:35:00.809Z",
+    "pages": {
+      "total": 10,
+      "verified": 10,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 28,
+      "converted": 28,
+      "pending": 0
+    },
+    "verifyFailures": 0
+  }
+}

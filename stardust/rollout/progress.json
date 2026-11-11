@@ -1,0 +1,307 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [],
+      "pages": 0,
+      "blocks": 2,
+      "startedAt": "2026-11-09T07:35:16.522Z",
+      "endedAt": "2026-11-09T08:10:04.468Z",
+      "gates": {
+        "360": {
+          "headerBand": "1.32%",
+          "footerBand": "0.78%",
+          "rcHeader": "0.00%",
+          "rcFooter": "0.00% after fix (3.62% pre-fix published)"
+        },
+        "1440": {
+          "headerBand": "0.00%",
+          "footerBand": "0.70%",
+          "rcHeader": "0.00%",
+          "rcFooter": "0.00% after fix (1.67% pre-fix published)"
+        },
+        "crop": "all bands ≤ 2% after fix",
+        "chrome": "chrome-compare 1440 0 errors; 390 1 error = live SP menu button accessible name \";\" (mirrored; exception recorded in stardust/chrome/header-decisions.json, needs owner countersign)"
+      },
+      "verdict": "foundation: files 36 (+1 changed), nav/footer live yes, lint ok, chrome-compare 1440 0 / 390 1 (owner-only exception, recorded)"
+    },
+    "archetype-index": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "home"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-09T09:14:23Z",
+      "blocks": 6,
+      "gates": {
+        "360": {
+          "archetype": "21.15%",
+          "dh": -221,
+          "clipped": 0,
+          "missing": 3
+        },
+        "1440": {
+          "archetype": "0.60%",
+          "dh": 1,
+          "clipped": 0,
+          "missing": 3
+        },
+        "note": "documented overrides both widths: MISSING 3 = CTA rail in footer chrome vs live <main> (foundation request); 360 pixel = live hero capture-state collapse (prototypes-360 cause); font-not-loaded queued (C-final)"
+      },
+      "endedAt": "2026-11-09T10:07:49Z",
+      "verdict": "archetype-index: pages 1/1 live, blocks 6, gate 1440 0.60% / 360 21.15% (override), requests 2"
+    },
+    "archetype-prospect": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "prospect-hub"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-09T10:08:33Z",
+      "endedAt": "2026-11-09T10:46:58Z",
+      "blocks": 9,
+      "gates": {
+        "360": {
+          "archetype": "0.90%",
+          "dh": 0,
+          "clipped": 0,
+          "missing": 3
+        },
+        "1440": {
+          "archetype": "1.95%",
+          "dh": -1,
+          "clipped": 0,
+          "missing": 3
+        },
+        "note": "documented override both widths: MISSING 3 = CTA rail in footer chrome (as index); font-not-loaded queued (C-final)"
+      },
+      "verdict": "archetype-prospect: pages 1/1 live, blocks 9, gate 1440 1.95% / 360 0.90%, requests 1"
+    },
+    "archetype-product": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "product-listing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-09T10:08:33Z",
+      "endedAt": "2026-11-09T11:03:11Z",
+      "blocks": 9,
+      "gates": {
+        "360": {
+          "archetype": "4.76%",
+          "dh": 0,
+          "clipped": 39,
+          "missing": 0
+        },
+        "1440": {
+          "archetype": "6.67%",
+          "dh": 37,
+          "clipped": 0,
+          "missing": 0
+        },
+        "note": "360 documented override: clipped 39 = live parity (same 39 elements); font-not-loaded queued (C-final)"
+      },
+      "verdict": "archetype-product: pages 1/1 live, blocks 9, gate 1440 6.67% / 360 4.76%, requests 1"
+    },
+    "archetype-about-insurance": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "insurance-guide"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-09T08:12:04Z",
+      "endedAt": "2026-11-09T08:35:09Z",
+      "blocks": 7,
+      "gates": {
+        "360": {
+          "archetype": "0.49%",
+          "dh": 0,
+          "clipped": 0,
+          "missing": 0,
+          "crop": "header 98.66% / footer 99.92% match"
+        },
+        "1440": {
+          "archetype": "0.31%",
+          "dh": 0,
+          "clipped": 0,
+          "missing": 0,
+          "crop": "header 100% / footer 99.93% match"
+        },
+        "note": "gate-all row FAIL only on font-not-loaded:noto-sans-jp-fallback (foundation local('Arial') fallback) — queued foundation request, applied at C-final"
+      },
+      "verdict": "archetype-about-insurance: pages 1/1 live, blocks 7, gate 1440 0.31% / 360 0.49%, requests 2"
+    },
+    "archetype-customer": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "customer-hub"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-09T08:35:26Z",
+      "endedAt": "2026-11-09T09:14:14Z",
+      "blocks": 6,
+      "gates": {
+        "360": {
+          "archetype": "8.13%",
+          "dh": "-95px (1.2%)",
+          "clipped": "5 (allowed, live parity)",
+          "missing": 0
+        },
+        "1440": {
+          "archetype": "0.39%",
+          "dh": 0,
+          "clipped": 0,
+          "missing": 0
+        },
+        "motion": "banner-slider autoplay 4s/500ms, pause on hover",
+        "note": "rows FAIL only on queued font fallback + units probe (CSS-drawn arrows)"
+      },
+      "verdict": "archetype-customer: pages 1/1 live, blocks 6, gate 1440 0.39% / 360 8.13%, requests 1"
+    },
+    "archetype-recruitment": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "recruitment"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-09T09:08:30Z",
+      "endedAt": "2026-11-09T09:47:43Z",
+      "blocks": 5,
+      "gates": {
+        "360": {
+          "archetype": "0.24%",
+          "dh": "+1px",
+          "clipped": 0,
+          "missing": 0
+        },
+        "1440": {
+          "archetype": "0.48%",
+          "dh": 0,
+          "clipped": 0,
+          "missing": 0
+        },
+        "note": "rows FAIL only on font flags (queued noto fallback; Publico/Source Sans 3 fail on live too, justified at prototype stage)"
+      },
+      "verdict": "archetype-recruitment: pages 1/1 live, blocks 5, gate 1440 0.48% / 360 0.24%, requests 0"
+    },
+    "archetype-company": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "content"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-09T08:12:04Z",
+      "endedAt": "2026-11-09T09:08:20Z",
+      "blocks": 4,
+      "gates": {
+        "360": {
+          "archetype": "2.27%",
+          "dh": -20,
+          "clipped": 0,
+          "missing": 0
+        },
+        "1440": {
+          "archetype": "0.27%",
+          "dh": 0,
+          "clipped": 0,
+          "missing": 0
+        },
+        "note": "gate-all row FAIL only on font-not-loaded:noto-sans-jp-fallback (queued foundation request, C-final)"
+      },
+      "verdict": "archetype-company: pages 1/1 live, blocks 4, gate 1440 0.27% / 360 2.27%, requests 1"
+    },
+    "cluster-content": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "content"
+      ],
+      "pages": 3,
+      "startedAt": "2026-11-09T10:47:28Z",
+      "endedAt": "2026-11-09T11:36:02Z",
+      "blocks": 4,
+      "gates": {
+        "360": {
+          "worst": "8.57%",
+          "pages": {
+            "customer-feedback": "6.03% Δh-34",
+            "about-axa": "8.57% Δh-98",
+            "dataprivacy": "6.79% Δh-23"
+          }
+        },
+        "1440": {
+          "worst": "3.41%",
+          "pages": {
+            "customer-feedback": "2.17% Δh+2",
+            "about-axa": "3.41% Δh-54",
+            "dataprivacy": "0.89% Δh0"
+          }
+        },
+        "note": "0 clipped, 0 MISSING/HIDDEN all pages both widths; no overrides; only font-not-loaded (queued C-final)"
+      },
+      "verdict": "cluster-content: pages 3/3 live, blocks 4, gate 1440 3.41% / 360 8.57%, requests 1"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "templates": [],
+      "pages": 10,
+      "startedAt": "2026-11-09T11:59:45Z",
+      "endedAt": "2026-11-09T12:25:00Z",
+      "gates": {
+        "360": {
+          "pixelOnlyPass": 9,
+          "pass": 0,
+          "overridePass": 3,
+          "failContent": 3,
+          "failUnits": 7,
+          "failClip": 1,
+          "fontsNotLoaded": 10
+        },
+        "1440": {
+          "pixelOnlyPass": 10,
+          "pass": 0,
+          "overridePass": 2,
+          "failContent": 4,
+          "failUnits": 6,
+          "fontsNotLoaded": 10
+        }
+      },
+      "verdict": "gate-all: roster 10 pages, pixel+height 10/10 @1440, 9/10 @360 (index override); full verdict 0 PASS — font-not-loaded:noto-sans-jp-fallback on all rows (queued foundation request), unit families on prototype selectors, content findings index/prospect (CTA rail, queued), product, customer → resolved in final"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [],
+      "pages": 10,
+      "startedAt": "2026-11-09T12:25:10Z",
+      "endedAt": "2026-11-09T13:21:52Z",
+      "gates": {
+        "360": {
+          "pass": 3,
+          "overridePass": 7,
+          "delivered": 10,
+          "pixelOnlyPass": 9,
+          "failContent": 0
+        },
+        "1440": {
+          "pass": 3,
+          "overridePass": 7,
+          "delivered": 10,
+          "pixelOnlyPass": 10,
+          "failContent": 0,
+          "fontsNotLoaded": "origin-only (recruitment)"
+        }
+      },
+      "verdict": "final: requests applied (fallback face, CTA rail in <main>), code bus resynced (13 block files were stale on the CDN), corporate product card + slider link names fixed; gate-all 10/10 delivered at 1440 and 360 (3 clean + 7 documented: units element-pairing, recruitment origin fonts, index 360 capture state, product 360 clip parity); foundation re-frozen"
+    }
+  }
+}

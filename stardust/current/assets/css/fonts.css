@@ -1,0 +1,28 @@
+/**
+ * Noto Sans JP
+ *
+ * https://fonts.google.com/specimen/Noto+Sans+JP
+ * https://gwfh.mranftl.com/fonts/noto-sans-jp?subsets=japanese,latin
+ *
+ * Japanese font family from Google Fonts, subset: Japanese, Latin
+ */
+
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/noto-sans-jp/noto-sans-jp-v55-japanese_latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/noto-sans-jp/noto-sans-jp-v55-japanese_latin-700.woff2') format('woff2');
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}

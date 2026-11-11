@@ -1,0 +1,12 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.axa.co.jp/recruitment/career
+  modules  2 sections: capped 1280 ×1 · full-bleed ×1
+  contentMaxWidth 1280px (module) · shellMaxWidth fluid · root #root > main
+build  http://localhost:8791/recruitment-proposed.html
+  modules  2 sections: capped 1280 ×1 · full-bleed ×1
+  contentMaxWidth 1280px (module) · shellMaxWidth fluid · root body > main.rc-page
+rows
+  ✓ content cap: live 1280px = build 1280px (±20, shared module cap)
+  ✓ module 1/2: full-bleed on both
+  ✓ module 2/2: 1280px = 1280px
+cap-probe: PASS at 2560 — 0 of 3 rows failed (evidence stardust/replica/gates/recruitment-2560/cap-iter.json)

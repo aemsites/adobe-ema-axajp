@@ -1,0 +1,161 @@
+/* entry-links — default = home `ul.entry-links` (bordered link boxes) */
+.entry-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 0 0 40px;
+}
+
+.entry-links .entry-links-item {
+  min-height: 72px;
+  border: 1px solid var(--blue);
+}
+
+.entry-links .entry-links-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 19px 17px 19px 31px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28.8px;
+}
+
+.entry-links .entry-links-title p {
+  line-height: 25.2px;
+  color: var(--blue);
+}
+
+.entry-links .entry-links-sub p {
+  margin-top: 4px;
+  font-size: 14px;
+  line-height: 19.6px;
+  font-weight: 400;
+  color: var(--grey-650);
+}
+
+.entry-links .entry-links-icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  fill: var(--blue);
+}
+
+@media (width <= 767px) {
+  .entry-links {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    margin-bottom: 11px;
+  }
+
+  .entry-links .entry-links-link { padding: 15px 14px; }
+
+  .entry-links .entry-links-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/* buttons — about-insurance `.ai-bottom` (caption + blue / coral `.ai-btn`) */
+.entry-links.buttons {
+  display: inline-grid;
+  gap: 0 2%;
+  min-width: 100%;
+  margin: 0;
+  align-items: stretch;
+  grid-template-columns: auto auto;
+}
+
+@media (width <= 767px) {
+  .entry-links.buttons {
+    grid-template-columns: auto;
+    row-gap: 1rem;
+  }
+}
+
+.entry-links.buttons .entry-links-item {
+  width: 100%;
+  min-height: 0;
+  padding: 0 0.5469rem;
+  border: 0;
+}
+
+.entry-links.buttons .entry-links-sub p {
+  margin: 0;
+  text-align: center;
+  color: #3032c1;
+  font-size: 0.9975rem;
+  line-height: 1.15;
+}
+
+.entry-links.buttons .entry-links-cta p {
+  display: flex;
+  justify-content: center;
+}
+
+.entry-links.buttons .entry-links-cta a {
+  --bg: #00008f;
+  --bg-h: #000072;
+
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  min-height: 40px;
+  margin: 0;
+  padding: 12px 28px;
+  overflow: hidden;
+  font-size: 1.3125rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 18px;
+  text-align: center;
+  color: #fff;
+  background-color: var(--bg);
+  border: 2px solid var(--bg);
+  transition: 0.25s;
+}
+
+.entry-links.buttons .entry-links-cta a::after {
+  content: none;
+}
+
+.entry-links.buttons .entry-links-cta a.secondary {
+  --bg: #f07662;
+  --bg-h: #c05e4e;
+}
+
+@media (width >= 768px) {
+  .entry-links.buttons .entry-links-cta a { min-height: 49px; }
+}
+
+.entry-links.buttons .entry-links-cta-small a { font-size: 0.9975rem; }
+
+@media (hover: hover) {
+  .entry-links.buttons .entry-links-cta a:hover,
+  .entry-links.buttons .entry-links-cta a:focus {
+    background-color: var(--bg-h);
+    border-color: var(--bg-h);
+    color: #fff;
+  }
+}
+
+/* arrow — home `ul.entry-links`: 16px text-colour arrow (canon icon16) instead of the chevron */
+.entry-links.arrow .entry-links-icon { display: none; }
+
+.entry-links.arrow .entry-links-link::after {
+  content: '';
+  flex: none;
+  width: 16px;
+  height: 16px;
+  background: var(--text);
+  mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.7 18.6007L13.4175 17.3407L17.5575 13.2007H3V11.4007H17.5575L13.44 7.26073L14.7 6.00073L21 12.3007L14.7 18.6007Z"/></svg>') center / contain no-repeat;
+}
+
+.entry-links.arrow .entry-links-sub p { font-weight: 600; }

@@ -1,0 +1,4 @@
+clip-probe http://localhost:8791/customer-proposed.html @ 360px — docH 7741, 106 text nodes, 77 controls (HTTP 200, chrome)
+  🔴 CONTROL HIDDEN         ×5     in div.ct-slider-section  div.slick-slider.slick-initialized > ul.slick-dots > li > button  "1"  cut 20px
+Clipped: 5 (text clipped 0, text hidden 0, controls hidden 5, controls clipped 0; advisory: clamped 0, collapsed 0, scroll-hidden 0, horizontal 3)
+json → stardust/replica/gates/customer-360/clip-iter3.json

@@ -1,0 +1,16 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "http://localhost:8791/product-proposed.html",
+  "width": 1440,
+  "vh": 900,
+  "height": 10343,
+  "chunks": 12,
+  "denialCheck": "ok",
+  "fontsFailed": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 3,
+    "late": 0
+  },
+  "at": "2026-11-09T06:38:06.959Z"
+}

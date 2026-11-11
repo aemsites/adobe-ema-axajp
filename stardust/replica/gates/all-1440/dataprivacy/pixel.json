@@ -1,0 +1,51 @@
+{
+  "a": "stardust/replica/gates/all-1440/dataprivacy/origin.png",
+  "b": "stardust/replica/gates/all-1440/dataprivacy/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 2466,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 31777,
+  "pct": 0.89,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/dataprivacy/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 5.8,
+  "textBoxes": 105,
+  "textPixels": 546610,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1.7
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 1.9
+    },
+    {
+      "y0": 2000,
+      "y1": 2466,
+      "pct": 0.9
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--80b77690--aemcoder.aem.page/dataprivacy"
+  }
+}

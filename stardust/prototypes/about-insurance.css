@@ -1,0 +1,186 @@
+/* about-insurance.css — /about-insurance/ (page type insurance-guide).
+   Bespoke AboutInsuranceTopPage components (not Prismic slices; content.css not used).
+   Body base 16px/1.6 (canon chrome unchanged); page wrapper resets to 16px/1.15 #333 like live.
+   Values from the live CSSOM + computed styles (stardust/.work/replica/aboutins/). */
+
+.ai-page { width: 100%; background-color: #fff; color: #333; font-size: 16px; line-height: 1.15; }
+.ai-wrap { max-width: 1024px; margin: 0 auto; padding: 24px 0; }
+@media (max-width: 994px) { .ai-wrap { padding: 24px 40px; } }
+@media (max-width: 767px) { .ai-wrap { padding: 24px 14px; } }
+
+/* breadcrumb (tailwind breadcrumb, same as prospect) */
+.ai-crumbs ul { display: flex; flex-wrap: wrap; row-gap: 8px; margin: 0; padding: 0; list-style: none; }
+.ai-crumbs li { font-size: 16px; line-height: 1.6; color: var(--text, #343c3d); }
+.ai-crumbs li::after { content: "/"; margin: 0 8px; font-weight: 800; color: var(--accent, #d24723); }
+.ai-crumbs li:last-child::after { content: none; }
+.ai-crumbs a { position: relative; display: inline-flex; align-items: center; justify-content: center; font-weight: 400; line-height: 24px; color: var(--blue, #00008f); text-decoration: underline; text-underline-offset: 4px; }
+.ai-crumbs a:hover { color: #00006d; }
+
+/* titles + text */
+.ai-title { margin: 2rem 0 1rem; text-align: left; border-bottom: 5px solid #ccc; font-size: 2em; font-weight: 700; }
+.ai-h2 {
+  display: inline-flex; width: 100%; justify-content: space-between;
+  margin: 5rem 0 1rem; padding-bottom: 0.5rem; font-size: 1.4rem; font-weight: 700;
+  background: url("https://www.axa.co.jp/images/about-insurance/title-bar.png") center bottom / 3px auto repeat-x;
+}
+.ai-text { margin: 0; align-items: center; color: inherit; font-size: 16px; line-height: 24px; letter-spacing: 0.01em; padding-bottom: 11px; }
+.ai-text--em, .ai-em { color: var(--blue, #00008f); }
+@media (max-width: 767px) { .ai-text { font-size: 12px; line-height: 18px; padding-bottom: 10px; } }
+
+/* timing box + bubbles */
+.ai-bluebox { width: 100%; margin-top: 1rem; border: 5px solid #b5d0ee; padding: 1rem 1rem 2.5rem; }
+@media (max-width: 767px) { .ai-bluebox { padding: 1rem 0.5rem; } }
+.ai-bluebox__inner { max-width: 50rem; margin: 0 auto; text-align: center; }
+.ai-bluebox__title { margin-bottom: 0.5rem; font-size: 1.75rem; font-weight: 700; color: var(--blue, #00008f); }
+@media (max-width: 767px) { .ai-bluebox__title { font-size: 1.3125rem; } }
+.ai-bubbles { display: grid; gap: 0.5rem; grid-template-columns: repeat(6, 1fr); }
+.ai-bubble--b1 { grid-area: 1 / 1 / 3 / 3; }
+.ai-bubble--b2 { grid-area: 1 / 3 / auto / 5; }
+.ai-bubble--b3 { grid-area: 1 / 5 / auto / 7; }
+.ai-bubble--b4 { grid-area: 2 / 3 / auto / 5; }
+.ai-bubble--b5 { grid-area: 2 / 5 / auto / 7; }
+.ai-bubble--b6 { grid-area: 3 / 1 / auto / 4; }
+.ai-bubble--b7 { grid-area: 3 / 4 / auto / 7; }
+@media (max-width: 994px) {
+  .ai-bubble--b1 { grid-area: 1 / 1 / auto / 3; }
+  .ai-bubble--b4 { grid-area: 2 / 1 / auto / 4; }
+  .ai-bubble--b5 { grid-area: 2 / 4 / auto / 7; }
+}
+.ai-bubble { height: 100%; padding-bottom: 1.4rem; }
+.ai-bubble__btn {
+  --c: #ff1721;
+  position: relative; display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+  width: 100%; height: 100%; padding: 0.7rem; font-size: 1.3125rem; line-height: 1.15; font-weight: 400;
+  color: var(--c); border: 5px solid var(--c); border-radius: 10px; text-decoration: none;
+}
+.ai-bubble__label { color: var(--c); }
+.ai-bubble__btn::after {
+  content: ""; position: absolute; right: 10%; bottom: -21px; width: 16px; height: 16px;
+  background: var(--arrow) center / contain no-repeat;
+}
+.ai-bubble__btn--red { --c: #ff1721; --arrow: url("https://www.axa.co.jp/images/about-insurance/arrow-red.png"); }
+.ai-bubble__btn--ltblue { --c: #00adc6; --arrow: url("https://www.axa.co.jp/images/about-insurance/arrow-ltblue.png"); }
+.ai-bubble__btn--dkblue { --c: #3a3fd8; --arrow: url("https://www.axa.co.jp/images/about-insurance/arrow-dkblue.png"); }
+.ai-bubble__btn:hover { background-color: var(--c); color: #fff; }
+.ai-bubble__btn:hover .ai-bubble__label { color: #fff; }
+@media (max-width: 767px) {
+  .ai-bubble { padding-bottom: 0.7rem; }
+  .ai-bubble__btn { font-size: 0.875rem; border-width: 2px; border-radius: 5px; }
+  .ai-bubble__btn::after { bottom: -10px; width: 8px; height: 8px; }
+}
+
+/* Q&A collapsable lists */
+.ai-coll__title {
+  display: block; width: 100%; margin: 3rem 0 0; padding: 0.8rem 0; text-align: center; cursor: default;
+  color: #fff; background-color: #3a3fd8; font-size: 1.3125rem; line-height: 1.15; font-weight: 700;
+}
+.ai-coll__body { border-bottom: 2px solid #3a3fd8; }
+.ai-coll__item {
+  position: relative; display: block; padding: 1.2rem 5rem 0.8rem; font-size: 0.9975rem; line-height: 1.15;
+  color: var(--blue, #00008f); border-bottom: 1px solid #e5e5e5; text-decoration: none;
+}
+.ai-coll__item::before, .ai-coll__item::after {
+  content: ""; position: absolute; top: 0; height: 100%; background-repeat: no-repeat; background-size: contain; background-position: center;
+}
+.ai-coll__item::before { left: 1rem; width: 25px; }
+.ai-coll__item::after { right: 1rem; width: 10px; background-image: url("https://www.axa.co.jp/images/about-insurance/right-arrow.png"); }
+.ai-coll__item:hover::after { background-image: url("https://www.axa.co.jp/images/about-insurance/right-arrow-hover.png"); }
+.ai-coll__item--faq::before { background-image: url("https://www.axa.co.jp/images/about-insurance/qa-icon.png"); }
+.ai-coll__item--faq:hover::before { background-image: url("https://www.axa.co.jp/images/about-insurance/qa-icon-hover.png"); }
+.ai-coll__item--doc::before { background-image: url("https://www.axa.co.jp/images/about-insurance/doc-icon.png"); }
+.ai-coll__item--doc:hover::before { background-image: url("https://www.axa.co.jp/images/about-insurance/doc-icon-hover.png"); }
+.ai-coll__label { font-size: 16px; line-height: 24px; font-weight: 400; letter-spacing: 0.01em; }
+@media (max-width: 767px) {
+  .ai-coll__title { cursor: pointer; }
+  .ai-coll__label { font-size: 12px; line-height: 18px; }
+  .ai-coll:not(.ai-coll--plain):not(.is-open) .ai-coll__body { height: 0; overflow: hidden; }
+  .ai-coll.is-open .ai-coll__body { height: 100%; overflow: hidden; }
+}
+
+.ai-figure { display: block; width: 100%; margin: 2rem auto; }
+
+/* testimonials */
+.ai-list-btn {
+  display: flex; align-items: center; justify-content: center; padding: 0.5rem 3rem; border-radius: 4px;
+  line-height: 1.3; text-align: center; transition: 0.3s;
+  background: url("https://www.axa.co.jp/images/buttons/blue_button_background.gif") 0% 0% / contain;
+}
+@media (min-width: 995px) { .ai-list-btn { float: right; font-size: 0.875rem; font-weight: 400; } }
+@media (max-width: 994px) { .ai-list-btn { margin: 0 0 2.5rem; } }
+.ai-list-btn-sp { width: 100%; display: flex; justify-content: center; }
+.ai-testimonials { display: inline-grid; gap: 1rem; min-width: 100%; align-items: stretch; grid-template-columns: auto auto auto; }
+@media (max-width: 767px) { .ai-testimonials { grid-template-columns: auto auto; } }
+.ai-tcard { position: relative; display: block; margin-bottom: 2rem; border: solid #ccc; border-width: 1px 1px 2px; color: #000; line-height: 1.15; }
+@media (max-width: 767px) { .ai-tcard { margin-bottom: 1rem; } }
+.ai-tcard:hover { color: var(--blue, #00008f); }
+.ai-tcard__img { width: 100%; }
+.ai-tcard__shade { position: absolute; top: 0; width: 100%; padding-bottom: 77%; }
+.ai-tcard:hover .ai-tcard__shade { background-color: rgba(0, 129, 255, 0.3); }
+.ai-tcard__text { position: absolute; bottom: -1px; left: 0; width: 100%; padding: 4% 0.5rem; font-size: 0.875rem; line-height: 1; font-weight: 700; background-color: rgba(255, 255, 255, 0.5); }
+@media (max-width: 800px) { .ai-tcard__text { font-size: 0.6125rem; } }
+.ai-tcard:hover .ai-tcard__text { background: #fff url("https://www.axa.co.jp/images/about-insurance/triangle-dark.png") right bottom / 28px auto no-repeat; }
+
+/* bottom CTA boxes */
+.ai-bottom { display: inline-grid; column-gap: 2%; min-width: 100%; align-items: stretch; grid-template-columns: auto auto; }
+@media (max-width: 767px) { .ai-bottom { grid-template-columns: auto; row-gap: 1rem; } }
+.ai-bottom__item { width: 100%; padding: 0 0.5469rem; }
+.ai-bottom__text { margin: 0; text-align: center; color: #3032c1; font-size: 0.9975rem; }
+.ai-btn {
+  position: relative; display: inline-flex; align-items: center; justify-content: center; width: 100%; min-height: 40px;
+  padding: 0 28px; overflow: hidden; font-size: 1.3125rem; font-weight: 600; letter-spacing: 1px; line-height: 1.15; text-align: center;
+  color: #fff; background-color: var(--bg); border: 2px solid var(--bg); transition: 0.25s;
+}
+@media (min-width: 768px) { .ai-btn { min-height: 49px; } }
+.ai-btn span { padding: 12px 0; line-height: 18px; }
+.ai-btn--blue { --bg: #00008f; --bg-h: #000072; }
+.ai-btn--coral { --bg: #f07662; --bg-h: #c05e4e; }
+.ai-btn--small { font-size: 0.9975rem; }
+@media (hover: hover) { .ai-btn:hover, .ai-btn:focus { background-color: var(--bg-h); border-color: var(--bg-h); color: #fff; } }
+
+.ai-pagetop { margin: 1.5rem 0.5rem; font-size: 0.875rem; font-weight: 700; color: var(--blue, #00008f); text-align: right; cursor: pointer; }
+.ai-pagetop::before {
+  content: ""; display: inline-block; vertical-align: middle; width: 18px; height: 18px; margin-right: 5px;
+  background: url("https://www.axa.co.jp/images/components/links/arrow_pagetop.png") no-repeat 0 0 / 100% auto;
+}
+
+/* contact links strip (PC only, hidden ≤994) */
+.ai-contact { display: block; max-width: 1024px; margin: 0.875rem auto 0; overflow: hidden; }
+@media (max-width: 994px) { .ai-contact { display: none; } }
+.ai-contact__cell { float: left; display: block; padding-left: 0.875rem; min-width: 13%; max-width: 13%; }
+.ai-contact__cell--wide { min-width: 30.5%; max-width: 30.5%; }
+.ai-contact__cell:first-child { padding-left: 0; }
+.ai-contact__cell:last-child { float: right; }
+.ai-contact__cell:hover { opacity: 0.8; }
+.ai-contact__box { width: 100%; height: 115px; padding: 0.6375rem 1.75rem; border-radius: 4px; }
+.ai-contact__box--green { background-color: #1cc54e; }
+.ai-contact__box--orange { background-color: #f90; }
+.ai-contact__link { display: inline; }
+.ai-contact__head { font-size: 1.3125rem; line-height: 1.4; color: #fff; }
+.ai-contact__tel { font-size: 1.05rem; line-height: 1.4; font-weight: lighter; color: #fff; }
+.ai-contact__icon { background: url("https://www.axa.co.jp/images/icons/icon_phone_white_md.png") 0 0 no-repeat; width: 25px; height: 25px; }
+.ai-contact__time { font-size: 0.7rem; line-height: 1.4; color: #fff; }
+.ai-contact__more { font-size: 0.7875rem; line-height: 1.4; color: var(--blue, #00008f); }
+.ai-contact__more::before {
+  content: ""; display: inline-block; vertical-align: middle; width: 14px; height: 14px; margin-right: 5px;
+  background: url("https://www.axa.co.jp/images/components/links/ico_arrow_blue01.png") no-repeat 0 0 / 100% auto;
+}
+
+/* bubble modal (live: overlay #333 → .5, panel slides from top:100vh to 50%, .5s) */
+.ai-overlay { position: fixed; inset: 0; z-index: 100; background-color: #333; opacity: 0; transition: opacity 0.5s ease-in-out; }
+.ai-overlay.is-open { opacity: 0.5; }
+.ai-modal {
+  position: fixed; left: 50%; top: 100vh; z-index: 1000; width: 845px; max-height: 100vh; overflow-y: auto;
+  padding: 18px; color: #333; font-size: 16px; line-height: 1.15;
+  background-color: #f5f5f5; border: 2px solid #ccc; border-radius: 4px; box-shadow: rgba(0, 0, 0, 0.15) 0 1px 10px 0;
+  transform: translate(-50%, -50%); opacity: 0; visibility: hidden; transition: 0.5s;
+}
+.ai-modal.is-open { top: 50%; opacity: 1; visibility: visible; }
+@media (max-width: 994px) { .ai-modal { width: 85%; } }
+@media (max-width: 767px) { .ai-modal { width: 100%; padding: 18px 8px; } }
+.ai-modal__box { display: flex; flex-direction: column; padding: 14px; background: #fff; border: 1px dotted #ccc; border-radius: 4px; }
+.ai-modal__close { align-self: flex-end; width: 24px; height: 24px; padding: 0; line-height: 1; border: none; }
+.ai-modal__close svg { color: var(--blue, #00008f); pointer-events: none; }
+.ai-modal__title { margin: 0 0 21px; padding-bottom: 7px; font-size: 28px; line-height: 1.15; font-weight: 400; text-align: center; }
+.ai-modal__text { font-size: 16px; line-height: 24px; letter-spacing: 0.01em; padding-bottom: 11px; }
+@media (max-width: 767px) { .ai-modal__text { font-size: 12px; line-height: 18px; padding-bottom: 10px; } }
+body.ai-modal-open { overflow: hidden; }

@@ -1,0 +1,20 @@
+
+Content diff @ 1440px (profile "generic", roots: main, header, footer)
+root "main"
+  source: 104 text nodes — 28 headings, 0 eyebrows, 35 CTAs, 41 body; 15 img
+  build: 104 text nodes — 28 headings, 0 eyebrows, 35 CTAs, 41 body; 15 img
+  editable texts (outermost h*/p/ul/ol): source 64 / build 64
+  attributes (placeholder/aria-label/title): source 0 / build 8; icons: source 5 / build 5
+root "header": absent on both sides (no <header> / [role="banner"] outside the main root(s)) — not compared
+root "footer": absent on both sides (no <footer> / [role="contentinfo"] outside the main root(s)) — not compared
+
+Findings: 8 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 8
+  🟡 EXTRA ARIA-LABEL [main]: build <nav> aria-label="採用サイト" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="メニュー" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <nav> aria-label="募集要項" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <nav> aria-label="営業職採用" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <nav> aria-label="募集要項" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <nav> aria-label="営業職採用" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <nav> aria-label="アクサグループ採用" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <nav> aria-label="企業情報" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

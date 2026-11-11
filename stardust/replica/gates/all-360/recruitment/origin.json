@@ -1,0 +1,12 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://www.axa.co.jp/recruitment/",
+  "log": [
+    "stitched stardust/replica/gates/all-360/recruitment/origin.png: 360x12561 from 14 chunks"
+  ],
+  "fontsFailed": [
+    "Publico Headline",
+    "Source Sans 3"
+  ],
+  "at": "2026-11-09T09:32:59.985Z"
+}

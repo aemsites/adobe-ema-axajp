@@ -1,0 +1,1353 @@
+[live-session] waiting to pace live navigations to www.axa.co.jp (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/product-360/vdiff-iter1/
+
+build red flags (advisory): 
+  • IMAGE DID NOT LOAD: img1_2019.png rendered 300x51 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: img2_2019.png rendered 300x77 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 10869,
+  "textLen": 4618,
+  "images": [
+   {
+    "src": "aQlo3LpReVYa3-f__bv5k33d8kd.png?auto=format,compress",
+    "natural": "156x107",
+    "rendered": "80x55",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo3bpReVYa3-gA_axa_taisetu_2l_cmyk.png?auto=format,compress",
+    "natural": "323x204",
+    "rendered": "48x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo37pReVYa3-gB_6suxt18g9i.png?auto=format,compress",
+    "natural": "156x96",
+    "rendered": "80x49",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo4LpReVYa3-gC_axa_taisetu_2l_cmyk.png?auto=format,compress",
+    "natural": "323x204",
+    "rendered": "48x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo4bpReVYa3-gD_lttp_fin_0722_ol-color.png?auto=format,compress",
+    "natural": "252x159",
+    "rendered": "80x50",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo4rpReVYa3-gE_axa_taisetu_2l_cmyk.png?auto=format,compress",
+    "natural": "323x204",
+    "rendered": "48x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo47pReVYa3-gF_tset.png?auto=format,compress",
+    "natural": "156x90",
+    "rendered": "80x46",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo5LpReVYa3-gG_axa_ful_logo_4c_t.png?auto=format,compress",
+    "natural": "909x426",
+    "rendered": "80x37",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo57pReVYa3-gI_smartcare.png?auto=format,compress",
+    "natural": "260x130",
+    "rendered": "80x40",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo6LpReVYa3-gJ_ameasa_blue_2.png?auto=format,compress",
+    "natural": "705x177",
+    "rendered": "48x12",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "special-icon.png",
+    "natural": "218x218",
+    "rendered": "45x45",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo6rpReVYa3-gK_smartcare_forladies.png?auto=format,compress",
+    "natural": "260x174",
+    "rendered": "80x54",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo67pReVYa3-gL_ameasa_blue_2.png?auto=format,compress",
+    "natural": "705x177",
+    "rendered": "48x12",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "special-icon.png",
+    "natural": "218x218",
+    "rendered": "45x45",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo7LpReVYa3-gM_axa_sc_logo_4c_t_0626.png?auto=format,compress",
+    "natural": "235x160",
+    "rendered": "80x54",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo67pReVYa3-gL_ameasa_blue_2.png?auto=format,compress",
+    "natural": "705x177",
+    "rendered": "48x12",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo7bpReVYa3-gN_temp_dementia.jpg?auto=format,compress",
+    "natural": "212x171",
+    "rendered": "80x65",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo67pReVYa3-gL_ameasa_blue_2.png?auto=format,compress",
+    "natural": "705x177",
+    "rendered": "48x12",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo7rpReVYa3-gO_soiecifyjo.png?auto=format,compress",
+    "natural": "156x100",
+    "rendered": "80x51",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo6LpReVYa3-gJ_ameasa_blue_2.png?auto=format,compress",
+    "natural": "705x177",
+    "rendered": "48x12",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlovbpReVYa3-fr_logo_ul_widecara.png?auto=format,compress",
+    "natural": "264x220",
+    "rendered": "80x67",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlovrpReVYa3-fs_logo_ltcul_widecara.png?auto=format%2Ccompress&rect=0%2C0%2C573%2C478&w=573&h=478",
+    "natural": "573x478",
+    "rendered": "80x67",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo8bpReVYa3-gQ_ul_nenkin_widcear_logp.png?auto=format,compress",
+    "natural": "504x287",
+    "rendered": "80x46",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo8rpReVYa3-gR_axa_logo_png_0426_ui_teiki_4c_t_fuchi.png?auto=format,compress",
+    "natural": "730x313",
+    "rendered": "80x34",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo87pReVYa3-gS_axa_ul_ichijikin_logo_4c_t_0328.png?auto=format,compress",
+    "natural": "264x133",
+    "rendered": "80x40",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo9LpReVYa3-gT_logo.png?auto=format,compress",
+    "natural": "156x100",
+    "rendered": "80x51",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo9rpReVYa3-gU_6cbaz1h4m8.png?auto=format,compress",
+    "natural": "156x100",
+    "rendered": "80x51",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo-LpReVYa3-gW_ct_logo.png?auto=format,compress",
+    "natural": "667x347",
+    "rendered": "80x42",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo6LpReVYa3-gJ_ameasa_blue_2.png?auto=format,compress",
+    "natural": "705x177",
+    "rendered": "48x12",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "special-icon.png",
+    "natural": "218x218",
+    "rendered": "45x45",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo6rpReVYa3-gK_smartcare_forladies.png?auto=format,compress",
+    "natural": "260x174",
+    "rendered": "80x54",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo6LpReVYa3-gJ_ameasa_blue_2.png?auto=format,compress",
+    "natural": "705x177",
+    "rendered": "48x12",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "special-icon.png",
+    "natural": "218x218",
+    "rendered": "45x45",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo7LpReVYa3-gM_axa_sc_logo_4c_t_0626.png?auto=format,compress",
+    "natural": "235x160",
+    "rendered": "80x54",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo6LpReVYa3-gJ_ameasa_blue_2.png?auto=format,compress",
+    "natural": "705x177",
+    "rendered": "48x12",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "special-icon.png",
+    "natural": "218x218",
+    "rendered": "45x45",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo-7pReVYa3-gY_oklife_fin_0130_ol-color.png?auto=format,compress",
+    "natural": "263x181",
+    "rendered": "80x55",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo_bpReVYa3-ga_s1i150f44d.png?auto=format,compress",
+    "natural": "156x62",
+    "rendered": "80x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo6LpReVYa3-gJ_ameasa_blue_2.png?auto=format,compress",
+    "natural": "705x177",
+    "rendered": "48x12",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlovrpReVYa3-fs_logo_ltcul_widecara.png?auto=format%2Ccompress&rect=0%2C0%2C573%2C478&w=573&h=478",
+    "natural": "573x478",
+    "rendered": "80x67",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo_7pReVYa3-gc_temp_dementia.jpg?auto=format,compress",
+    "natural": "212x171",
+    "rendered": "80x65",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo67pReVYa3-gL_ameasa_blue_2.png?auto=format,compress",
+    "natural": "705x177",
+    "rendered": "48x12",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "80x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlovbpReVYa3-fr_logo_ul_widecara.png?auto=format,compress",
+    "natural": "264x220",
+    "rendered": "80x67",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlovrpReVYa3-fs_logo_ltcul_widecara.png?auto=format%2Ccompress&rect=0%2C0%2C573%2C478&w=573&h=478",
+    "natural": "573x478",
+    "rendered": "80x67",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlovbpReVYa3-fr_logo_ul_widecara.png?auto=format,compress",
+    "natural": "264x220",
+    "rendered": "80x67",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlpA7pReVYa3-gf_AXA_Medi-A%C3%97N_logo_nouhin_0403_test.png?auto=format,compress",
+    "natural": "540x432",
+    "rendered": "80x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "img1_2019.png",
+    "natural": "654x436",
+    "rendered": "300x200",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "img2_2019.png",
+    "natural": "654x436",
+    "rendered": "300x200",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ln_logo.png",
+    "natural": "318x270",
+    "rendered": "24x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=27022501&tm=gtm002&Ver=2&mid=4084803b-1402-439c-a916-306c77106570&bo=1&sid=38980240dbfb11f1acc1311e4dda32ec&vid=38985140dbfb11f1adebe395bb3d1d69&vids=0&msclkid=N&gtm_tag_source=1&pi=918639831&lg=en-US&sw=360&sh=1000&sc=24&tl=%E3%82%A2%E3%82%AF%E3%82%B5%E7%94%9F%E5%91%BD%E4%BF%9D%E9%99%BA%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE&p=https%3A%2F%2Fwww.axa.co.jp%2Fproduct%2F&r=&lt=2188&evt=pageLoad&sv=2&cdb=AQAQ&rn=912007",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=97045623&Ver=2&mid=227f04c0-144d-4b3c-b5d5-ff1c437ff630&bo=1&sid=38980240dbfb11f1acc1311e4dda32ec&vid=38985140dbfb11f1adebe395bb3d1d69&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=360&sh=1000&sc=24&tl=%E3%82%A2%E3%82%AF%E3%82%B5%E7%94%9F%E5%91%BD%E4%BF%9D%E9%99%BA%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE&p=https%3A%2F%2Fwww.axa.co.jp%2Fproduct%2F&r=&lt=2188&evt=pageLoad&sv=2&cdb=AQAQ&rn=684713",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "ot_company_logo.png",
+    "natural": "2042x280",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "生命保険商品一覧",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "23.8px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "保険の種類から選ぶ",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "21px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "簡単な質問に答えるだけで、",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "15.96px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "あなたにぴったりな保険がわかります。",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "18.2px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "保険に関するご相談",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "21px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "その他の保険商品",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "21px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Follow AXA",
+    "color": "rgb(52, 60, 61)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "Products-styles__BannerInner-sc-da2d0038-1",
+    "width": 332,
+    "left": 14
+   },
+   {
+    "sel": "ChooseYourOwnInsurance-styles__TextContainer-sc-5aa4d4f6-1",
+    "width": 300,
+    "left": 30
+   },
+   {
+    "sel": "ProductCategoryGroup-styles__ProductName-sc-989e0571-9",
+    "width": 268,
+    "left": 46
+   },
+   {
+    "sel": "ProductCategoryGroup-styles__ProductName-sc-989e0571-9",
+    "width": 268,
+    "left": 46
+   },
+   {
+    "sel": "ProductCategoryGroup-styles__ProductName-sc-989e0571-9",
+    "width": 268,
+    "left": 46
+   },
+   {
+    "sel": "ProductCategoryGroup-styles__ProductName-sc-989e0571-9",
+    "width": 268,
+    "left": 46
+   },
+   {
+    "sel": "ProductCategoryGroup-styles__ProductName-sc-989e0571-9",
+    "width": 268,
+    "left": 46
+   },
+   {
+    "sel": "ProductCategoryGroup-styles__ProductName-sc-989e0571-9",
+    "width": 268,
+    "left": 46
+   },
+   {
+    "sel": "ProductCategoryGroup-styles__ProductName-sc-989e0571-9",
+    "width": 268,
+    "left": 46
+   },
+   {
+    "sel": "ProductCategoryGroup-styles__ProductName-sc-989e0571-9",
+    "width": 268,
+    "left": 46
+   },
+   {
+    "sel": "ProductCategoryGroup-styles__ProductName-sc-989e0571-9",
+    "width": 268,
+    "left": 46
+   },
+   {
+    "sel": "ProductCategoryGroup-styles__ProductName-sc-989e0571-9",
+    "width": 268,
+    "left": 46
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 10492,
+  "textLen": 4551,
+  "images": [
+   {
+    "src": "aQlo3LpReVYa3-f__bv5k33d8kd.png?auto=format,compress",
+    "natural": "156x107",
+    "rendered": "80x55",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo3bpReVYa3-gA_axa_taisetu_2l_cmyk.png?auto=format,compress",
+    "natural": "323x204",
+    "rendered": "48x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo37pReVYa3-gB_6suxt18g9i.png?auto=format,compress",
+    "natural": "156x96",
+    "rendered": "80x49",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo4LpReVYa3-gC_axa_taisetu_2l_cmyk.png?auto=format,compress",
+    "natural": "323x204",
+    "rendered": "48x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo4bpReVYa3-gD_lttp_fin_0722_ol-color.png?auto=format,compress",
+    "natural": "252x159",
+    "rendered": "80x50",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo4rpReVYa3-gE_axa_taisetu_2l_cmyk.png?auto=format,compress",
+    "natural": "323x204",
+    "rendered": "48x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo47pReVYa3-gF_tset.png?auto=format,compress",
+    "natural": "156x90",
+    "rendered": "80x46",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo5LpReVYa3-gG_axa_ful_logo_4c_t.png?auto=format,compress",
+    "natural": "909x426",
+    "rendered": "80x37",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo57pReVYa3-gI_smartcare.png?auto=format,compress",
+    "natural": "260x130",
+    "rendered": "80x40",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo6LpReVYa3-gJ_ameasa_blue_2.png?auto=format,compress",
+    "natural": "705x177",
+    "rendered": "48x12",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "special-icon.png",
+    "natural": "0x0",
+    "rendered": "45x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo6rpReVYa3-gK_smartcare_forladies.png?auto=format,compress",
+    "natural": "260x174",
+    "rendered": "80x54",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo67pReVYa3-gL_ameasa_blue_2.png?auto=format,compress",
+    "natural": "705x177",
+    "rendered": "48x12",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "special-icon.png",
+    "natural": "0x0",
+    "rendered": "45x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo7LpReVYa3-gM_axa_sc_logo_4c_t_0626.png?auto=format,compress",
+    "natural": "235x160",
+    "rendered": "80x54",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo67pReVYa3-gL_ameasa_blue_2.png?auto=format,compress",
+    "natural": "705x177",
+    "rendered": "48x12",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo7bpReVYa3-gN_temp_dementia.jpg?auto=format,compress",
+    "natural": "212x171",
+    "rendered": "80x65",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo67pReVYa3-gL_ameasa_blue_2.png?auto=format,compress",
+    "natural": "705x177",
+    "rendered": "48x12",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo7rpReVYa3-gO_soiecifyjo.png?auto=format,compress",
+    "natural": "156x100",
+    "rendered": "80x51",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo6LpReVYa3-gJ_ameasa_blue_2.png?auto=format,compress",
+    "natural": "705x177",
+    "rendered": "48x12",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlovbpReVYa3-fr_logo_ul_widecara.png?auto=format,compress",
+    "natural": "264x220",
+    "rendered": "80x67",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlovrpReVYa3-fs_logo_ltcul_widecara.png?auto=format%2Ccompress&rect=0%2C0%2C573%2C478&w=573&h=478",
+    "natural": "573x478",
+    "rendered": "80x67",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo8bpReVYa3-gQ_ul_nenkin_widcear_logp.png?auto=format,compress",
+    "natural": "504x287",
+    "rendered": "80x46",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo8rpReVYa3-gR_axa_logo_png_0426_ui_teiki_4c_t_fuchi.png?auto=format,compress",
+    "natural": "730x313",
+    "rendered": "80x34",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo87pReVYa3-gS_axa_ul_ichijikin_logo_4c_t_0328.png?auto=format,compress",
+    "natural": "264x133",
+    "rendered": "80x40",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo9LpReVYa3-gT_logo.png?auto=format,compress",
+    "natural": "156x100",
+    "rendered": "80x51",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo9rpReVYa3-gU_6cbaz1h4m8.png?auto=format,compress",
+    "natural": "156x100",
+    "rendered": "80x51",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo-LpReVYa3-gW_ct_logo.png?auto=format,compress",
+    "natural": "667x347",
+    "rendered": "80x42",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo6LpReVYa3-gJ_ameasa_blue_2.png?auto=format,compress",
+    "natural": "705x177",
+    "rendered": "48x12",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "special-icon.png",
+    "natural": "0x0",
+    "rendered": "45x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo6rpReVYa3-gK_smartcare_forladies.png?auto=format,compress",
+    "natural": "260x174",
+    "rendered": "80x54",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo6LpReVYa3-gJ_ameasa_blue_2.png?auto=format,compress",
+    "natural": "705x177",
+    "rendered": "48x12",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "special-icon.png",
+    "natural": "0x0",
+    "rendered": "45x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo7LpReVYa3-gM_axa_sc_logo_4c_t_0626.png?auto=format,compress",
+    "natural": "235x160",
+    "rendered": "80x54",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo6LpReVYa3-gJ_ameasa_blue_2.png?auto=format,compress",
+    "natural": "705x177",
+    "rendered": "48x12",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "special-icon.png",
+    "natural": "0x0",
+    "rendered": "45x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo-7pReVYa3-gY_oklife_fin_0130_ol-color.png?auto=format,compress",
+    "natural": "263x181",
+    "rendered": "80x55",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo_bpReVYa3-ga_s1i150f44d.png?auto=format,compress",
+    "natural": "156x62",
+    "rendered": "80x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo6LpReVYa3-gJ_ameasa_blue_2.png?auto=format,compress",
+    "natural": "705x177",
+    "rendered": "48x12",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlovrpReVYa3-fs_logo_ltcul_widecara.png?auto=format%2Ccompress&rect=0%2C0%2C573%2C478&w=573&h=478",
+    "natural": "573x478",
+    "rendered": "80x67",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo_7pReVYa3-gc_temp_dementia.jpg?auto=format,compress",
+    "natural": "212x171",
+    "rendered": "80x65",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlo67pReVYa3-gL_ameasa_blue_2.png?auto=format,compress",
+    "natural": "705x177",
+    "rendered": "48x12",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "80x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlovbpReVYa3-fr_logo_ul_widecara.png?auto=format,compress",
+    "natural": "264x220",
+    "rendered": "80x67",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlovrpReVYa3-fs_logo_ltcul_widecara.png?auto=format%2Ccompress&rect=0%2C0%2C573%2C478&w=573&h=478",
+    "natural": "573x478",
+    "rendered": "80x67",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlovbpReVYa3-fr_logo_ul_widecara.png?auto=format,compress",
+    "natural": "264x220",
+    "rendered": "80x67",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQlpA7pReVYa3-gf_AXA_Medi-A%C3%97N_logo_nouhin_0403_test.png?auto=format,compress",
+    "natural": "540x432",
+    "rendered": "80x64",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "48x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "img1_2019.png",
+    "natural": "0x0",
+    "rendered": "300x51",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "img2_2019.png",
+    "natural": "0x0",
+    "rendered": "300x77",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "ln_logo.png",
+    "natural": "318x270",
+    "rendered": "24x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "生命保険商品一覧",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "23.8px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "保険の種類から選ぶ",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "21px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "簡単な質問に答えるだけで、",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "15.96px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "あなたにぴったりな保険がわかります。",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "18.2px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "保険に関するご相談",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "21px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "その他の保険商品",
+    "color": "rgb(0, 0, 143)",
+    "fontSize": "21px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Follow AXA",
+    "color": "rgb(52, 60, 61)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "pl-banner-inner",
+    "width": 332,
+    "left": 14
+   },
+   {
+    "sel": "cyo-text-container",
+    "width": 300,
+    "left": 30
+   },
+   {
+    "sel": "pcg-name",
+    "width": 268,
+    "left": 46
+   },
+   {
+    "sel": "pcg-name",
+    "width": 268,
+    "left": 46
+   },
+   {
+    "sel": "pcg-name",
+    "width": 268,
+    "left": 46
+   },
+   {
+    "sel": "pcg-name",
+    "width": 268,
+    "left": 46
+   },
+   {
+    "sel": "pcg-name",
+    "width": 268,
+    "left": 46
+   },
+   {
+    "sel": "pcg-name",
+    "width": 268,
+    "left": 46
+   },
+   {
+    "sel": "pcg-name",
+    "width": 268,
+    "left": 46
+   },
+   {
+    "sel": "pcg-name",
+    "width": 268,
+    "left": 46
+   },
+   {
+    "sel": "pcg-name",
+    "width": 268,
+    "left": 46
+   },
+   {
+    "sel": "pcg-name",
+    "width": 268,
+    "left": 46
+   }
+  ]
+ }
+}

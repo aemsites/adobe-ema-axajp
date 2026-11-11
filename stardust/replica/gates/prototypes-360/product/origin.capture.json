@@ -1,0 +1,16 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://www.axa.co.jp/product/",
+  "width": 360,
+  "vh": 900,
+  "height": 12284,
+  "chunks": 14,
+  "denialCheck": "ok",
+  "fontsFailed": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 15,
+    "late": 0
+  },
+  "at": "2026-11-09T06:32:13.078Z"
+}

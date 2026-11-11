@@ -143,6 +143,24 @@ function decorateButtons(main) {
 }
 
 /**
+ * Turns `band-*` section-metadata keys (data-band-* on the section) into the --band-*
+ * custom properties the `band` section style paints with.
+ * @param {Element} main The main element
+ */
+function decorateBandSections(main) {
+  const keys = ['bandBg', 'bandImg', 'bandImgSp', 'bandPad', 'bandBorder'];
+  main.querySelectorAll('.section.band').forEach((section) => {
+    keys.forEach((key) => {
+      const value = section.dataset[key];
+      if (!value || /[;{}<>]/.test(value)) return;
+      const prop = `--${key.replace(/[A-Z]/g, (c) => `-${c.toLowerCase()}`)}`;
+      const css = key.startsWith('bandImg') ? `url("${encodeURI(value)}")` : value;
+      section.style.setProperty(prop, css);
+    });
+  });
+}
+
+/**
  * Decorates the main element.
  * @param {Element} main The main element
  */
@@ -151,6 +169,7 @@ export function decorateMain(main) {
   decorateIcons(main);
   buildAutoBlocks(main);
   decorateSections(main);
+  decorateBandSections(main);
   decorateBlocks(main);
   decorateButtons(main);
 }
@@ -160,7 +179,8 @@ export function decorateMain(main) {
  * @param {Element} doc The container element
  */
 async function loadEager(doc) {
-  document.documentElement.lang = 'en';
+  import('./martech.js').then((m) => m.loadConsent());
+  document.documentElement.lang = 'ja';
   decorateTemplateAndTheme();
   const main = doc.querySelector('main');
   if (main) {
@@ -204,6 +224,7 @@ async function loadLazy(doc) {
  * without impacting the user experience.
  */
 function loadDelayed() {
+  import('./martech.js').then((m) => m.loadTags());
   import('./consent-check.js');
   // load anything that can be postponed to the latest here
 }

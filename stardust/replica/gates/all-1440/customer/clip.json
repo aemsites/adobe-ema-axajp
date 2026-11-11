@@ -1,0 +1,47 @@
+{
+ "url": "https://main--80b77690--aemcoder.aem.page/customer",
+ "at": "2026-11-09T12:50:23.940Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 2,
+  "offPage": 5,
+  "textNodes": 150,
+  "controls": 125,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.banner-slider-list",
+   "path": "div.banner-slider-track > div.banner-slider-slide > p > a",
+   "text": "",
+   "cutMin": null,
+   "cutMax": null
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 5,
+   "textNodes": 151,
+   "controls": 124,
+   "total": 0
+  }
+ }
+}

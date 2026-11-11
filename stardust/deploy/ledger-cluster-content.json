@@ -1,0 +1,29 @@
+{
+  "/about-axa": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-09T11:22:19.211Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/customer-feedback": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-09T11:12:17.331Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/dataprivacy": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-09T11:12:21.573Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

@@ -1,0 +1,9 @@
+/* company.css — page-level overrides for /company/ (content page type).
+   Chrome deltas vs canon measured by chrome-parity @360 (live body base is 14px/1.4 here, canon was
+   authored on the 16px/1.6 home page). Back-port candidates: listed in stardust/replica/notes-company.md. */
+@media (max-width: 767px) {
+  .sp-header__menu { font-size: 14px; line-height: 1.15; }
+  .fnav__strong { font-size: 14px; line-height: 19.6px; }
+  .fnav__sp-statics .fnav__statics li { height: 19.6px; }
+  .fnav__list--policy .fnav__static:not(.fnav__static--ext) .fnav__statics li { height: 19.6px; }
+}

@@ -1,0 +1,3190 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-09T07:22:47.691Z",
+  "tol": 4,
+  "n": 13,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.axa.co.jp/about-insurance/",
+  "at": "2026-11-09T07:01:50.754Z",
+  "docH": 5769
+ },
+ "eds": {
+  "url": "http://localhost:8791/about-insurance-proposed.html",
+  "at": "2026-11-09T07:22:47.585Z",
+  "docH": 5769
+ },
+ "results": [
+  {
+   "sel": "div.Bubble-styles__BubbleWrapper-sc-2c03bfa6-0=.ai-bubble",
+   "family": null,
+   "required": true,
+   "originMatches": 7,
+   "edsMatches": 7,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.AboutInsuranceTopPage-styles__BubbleGrid-sc-acc4b772-8.kNEYmL > div.AboutInsuranceTopPage-styles__BubbleContainer-sc-acc4b772-9.gOBBcq > div.Bubble-styles__BubbleWrapper-sc-2c03bfa6-0.cztkOA"
+     },
+     "eds": {
+      "path": "div.ai-bluebox__inner > div.ai-bubbles > div.ai-bubble.ai-bubble--b1"
+     },
+     "rows": [
+      {
+       "key": "text:結婚した",
+       "role": "text",
+       "text": "結婚した",
+       "edsText": "結婚した",
+       "byPosition": false,
+       "origin": {
+        "x": 89,
+        "y": 60,
+        "w": 84,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 261,
+        "h": 143,
+        "sel": "button.ai-bubble__btn.ai-bubble__btn--red",
+        "role": "button"
+       },
+       "dx": -89,
+       "dy": -60,
+       "dw": 177,
+       "dh": 119,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "21/24/400",
+        "eds": "21/24/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.Bubble-styles__BubbleContent-sc-2c03bfa6-1.cNJgsx",
+       "text": "",
+       "boxed": true,
+       "x": 0,
+       "y": 0,
+       "w": 261,
+       "h": 143,
+       "absY": 777,
+       "hidden": false,
+       "fs": 21,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(255, 23, 33)",
+       "bg": null,
+       "position": "relative",
+       "key": "box:div.Bubble-styles__BubbleContent-sc-2c03bfa6-1.cNJgsx#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 320,
+       "y": 777,
+       "w": 261,
+       "h": 166
+      },
+      "eds": {
+       "x": 320,
+       "y": 777,
+       "w": 261,
+       "h": 166
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.AboutInsuranceTopPage-styles__BubbleGrid-sc-acc4b772-8.kNEYmL > div.AboutInsuranceTopPage-styles__BubbleContainer-sc-acc4b772-9.iCDaLW > div.Bubble-styles__BubbleWrapper-sc-2c03bfa6-0.cztkOA"
+     },
+     "eds": {
+      "path": "div.ai-bluebox__inner > div.ai-bubbles > div.ai-bubble.ai-bubble--b2"
+     },
+     "rows": [
+      {
+       "key": "text:子供が生まれた",
+       "role": "text",
+       "text": "子供が生まれた",
+       "edsText": "子供が生まれた",
+       "byPosition": false,
+       "origin": {
+        "x": 57,
+        "y": 16,
+        "w": 147,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 261,
+        "h": 57,
+        "sel": "button.ai-bubble__btn.ai-bubble__btn--ltblue",
+        "role": "button"
+       },
+       "dx": -57,
+       "dy": -16,
+       "dw": 114,
+       "dh": 33,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "21/24/400",
+        "eds": "21/24/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.Bubble-styles__BubbleContent-sc-2c03bfa6-1.fQqmJU",
+       "text": "",
+       "boxed": true,
+       "x": 0,
+       "y": 0,
+       "w": 261,
+       "h": 57,
+       "absY": 777,
+       "hidden": false,
+       "fs": 21,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 173, 198)",
+       "bg": null,
+       "position": "relative",
+       "key": "box:div.Bubble-styles__BubbleContent-sc-2c03bfa6-1.fQqmJU#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 589,
+       "y": 777,
+       "w": 261,
+       "h": 79
+      },
+      "eds": {
+       "x": 589,
+       "y": 777,
+       "w": 261,
+       "h": 79
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.AboutInsuranceTopPage-styles__BubbleGrid-sc-acc4b772-8.kNEYmL > div.AboutInsuranceTopPage-styles__BubbleContainer-sc-acc4b772-9.ckfqxi > div.Bubble-styles__BubbleWrapper-sc-2c03bfa6-0.cztkOA"
+     },
+     "eds": {
+      "path": "div.ai-bluebox__inner > div.ai-bubbles > div.ai-bubble.ai-bubble--b3"
+     },
+     "rows": [
+      {
+       "key": "text:離婚した",
+       "role": "text",
+       "text": "離婚した",
+       "edsText": "離婚した",
+       "byPosition": false,
+       "origin": {
+        "x": 89,
+        "y": 16,
+        "w": 84,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 261,
+        "h": 57,
+        "sel": "button.ai-bubble__btn.ai-bubble__btn--dkblue",
+        "role": "button"
+       },
+       "dx": -89,
+       "dy": -16,
+       "dw": 177,
+       "dh": 33,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "21/24/400",
+        "eds": "21/24/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.Bubble-styles__BubbleContent-sc-2c03bfa6-1.ixgpov",
+       "text": "",
+       "boxed": true,
+       "x": 0,
+       "y": 0,
+       "w": 261,
+       "h": 57,
+       "absY": 777,
+       "hidden": false,
+       "fs": 21,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(58, 63, 216)",
+       "bg": null,
+       "position": "relative",
+       "key": "box:div.Bubble-styles__BubbleContent-sc-2c03bfa6-1.ixgpov#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 859,
+       "y": 777,
+       "w": 261,
+       "h": 79
+      },
+      "eds": {
+       "x": 859,
+       "y": 777,
+       "w": 261,
+       "h": 79
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.AboutInsuranceTopPage-styles__BubbleGrid-sc-acc4b772-8.kNEYmL > div.AboutInsuranceTopPage-styles__BubbleContainer-sc-acc4b772-9.geFzJR > div.Bubble-styles__BubbleWrapper-sc-2c03bfa6-0.cztkOA"
+     },
+     "eds": {
+      "path": "div.ai-bluebox__inner > div.ai-bubbles > div.ai-bubble.ai-bubble--b4"
+     },
+     "rows": [
+      {
+       "key": "text:就職した",
+       "role": "text",
+       "text": "就職した",
+       "edsText": "就職した",
+       "byPosition": false,
+       "origin": {
+        "x": 89,
+        "y": 16,
+        "w": 84,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 261,
+        "h": 57,
+        "sel": "button.ai-bubble__btn.ai-bubble__btn--dkblue",
+        "role": "button"
+       },
+       "dx": -89,
+       "dy": -16,
+       "dw": 177,
+       "dh": 33,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "21/24/400",
+        "eds": "21/24/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.Bubble-styles__BubbleContent-sc-2c03bfa6-1.ixgpov",
+       "text": "",
+       "boxed": true,
+       "x": 0,
+       "y": 0,
+       "w": 261,
+       "h": 57,
+       "absY": 864,
+       "hidden": false,
+       "fs": 21,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(58, 63, 216)",
+       "bg": null,
+       "position": "relative",
+       "key": "box:div.Bubble-styles__BubbleContent-sc-2c03bfa6-1.ixgpov#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 589,
+       "y": 864,
+       "w": 261,
+       "h": 79
+      },
+      "eds": {
+       "x": 589,
+       "y": 864,
+       "w": 261,
+       "h": 79
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.AboutInsuranceTopPage-styles__BubbleGrid-sc-acc4b772-8.kNEYmL > div.AboutInsuranceTopPage-styles__BubbleContainer-sc-acc4b772-9.jXhafr > div.Bubble-styles__BubbleWrapper-sc-2c03bfa6-0.cztkOA"
+     },
+     "eds": {
+      "path": "div.ai-bluebox__inner > div.ai-bubbles > div.ai-bubble.ai-bubble--b5"
+     },
+     "rows": [
+      {
+       "key": "text:家を建てた",
+       "role": "text",
+       "text": "家を建てた",
+       "edsText": "家を建てた",
+       "byPosition": false,
+       "origin": {
+        "x": 78,
+        "y": 16,
+        "w": 105,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 261,
+        "h": 57,
+        "sel": "button.ai-bubble__btn.ai-bubble__btn--ltblue",
+        "role": "button"
+       },
+       "dx": -78,
+       "dy": -16,
+       "dw": 156,
+       "dh": 33,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "21/24/400",
+        "eds": "21/24/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.Bubble-styles__BubbleContent-sc-2c03bfa6-1.fQqmJU",
+       "text": "",
+       "boxed": true,
+       "x": 0,
+       "y": 0,
+       "w": 261,
+       "h": 57,
+       "absY": 864,
+       "hidden": false,
+       "fs": 21,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 173, 198)",
+       "bg": null,
+       "position": "relative",
+       "key": "box:div.Bubble-styles__BubbleContent-sc-2c03bfa6-1.fQqmJU#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 859,
+       "y": 864,
+       "w": 261,
+       "h": 79
+      },
+      "eds": {
+       "x": 859,
+       "y": 864,
+       "w": 261,
+       "h": 79
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.AboutInsuranceTopPage-styles__BubbleGrid-sc-acc4b772-8.kNEYmL > div.AboutInsuranceTopPage-styles__BubbleContainer-sc-acc4b772-9.bXQdfa > div.Bubble-styles__BubbleWrapper-sc-2c03bfa6-0.cztkOA"
+     },
+     "eds": {
+      "path": "div.ai-bluebox__inner > div.ai-bubbles > div.ai-bubble.ai-bubble--b6"
+     },
+     "rows": [
+      {
+       "key": "text:老後への不安",
+       "role": "text",
+       "text": "老後への不安",
+       "edsText": "老後への不安",
+       "byPosition": false,
+       "origin": {
+        "x": 135,
+        "y": 16,
+        "w": 126,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 396,
+        "h": 57,
+        "sel": "button.ai-bubble__btn.ai-bubble__btn--ltblue",
+        "role": "button"
+       },
+       "dx": -135,
+       "dy": -16,
+       "dw": 270,
+       "dh": 33,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "21/24/400",
+        "eds": "21/24/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.Bubble-styles__BubbleContent-sc-2c03bfa6-1.fQqmJU",
+       "text": "",
+       "boxed": true,
+       "x": 0,
+       "y": 0,
+       "w": 396,
+       "h": 57,
+       "absY": 951,
+       "hidden": false,
+       "fs": 21,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 173, 198)",
+       "bg": null,
+       "position": "relative",
+       "key": "box:div.Bubble-styles__BubbleContent-sc-2c03bfa6-1.fQqmJU#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 320,
+       "y": 951,
+       "w": 396,
+       "h": 79
+      },
+      "eds": {
+       "x": 320,
+       "y": 951,
+       "w": 396,
+       "h": 79
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div.AboutInsuranceTopPage-styles__BubbleGrid-sc-acc4b772-8.kNEYmL > div.AboutInsuranceTopPage-styles__BubbleContainer-sc-acc4b772-9.jNDZva > div.Bubble-styles__BubbleWrapper-sc-2c03bfa6-0.cztkOA"
+     },
+     "eds": {
+      "path": "div.ai-bluebox__inner > div.ai-bubbles > div.ai-bubble.ai-bubble--b7"
+     },
+     "rows": [
+      {
+       "key": "text:一人で生きていくかも？",
+       "role": "text",
+       "text": "一人で生きていくかも？",
+       "edsText": "一人で生きていくかも？",
+       "byPosition": false,
+       "origin": {
+        "x": 83,
+        "y": 16,
+        "w": 231,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 396,
+        "h": 57,
+        "sel": "button.ai-bubble__btn.ai-bubble__btn--red",
+        "role": "button"
+       },
+       "dx": -83,
+       "dy": -16,
+       "dw": 165,
+       "dh": 33,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "21/24/400",
+        "eds": "21/24/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.Bubble-styles__BubbleContent-sc-2c03bfa6-1.cNJgsx",
+       "text": "",
+       "boxed": true,
+       "x": 0,
+       "y": 0,
+       "w": 396,
+       "h": 57,
+       "absY": 951,
+       "hidden": false,
+       "fs": 21,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(255, 23, 33)",
+       "bg": null,
+       "position": "relative",
+       "key": "box:div.Bubble-styles__BubbleContent-sc-2c03bfa6-1.cNJgsx#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 724,
+       "y": 951,
+       "w": 396,
+       "h": 79
+      },
+      "eds": {
+       "x": 724,
+       "y": 951,
+       "w": 396,
+       "h": 79
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "a.CollapsableContainer-styles__CollapsableItem-sc-ccf7ee8a-2=.ai-coll__item",
+   "family": null,
+   "required": true,
+   "originMatches": 13,
+   "edsMatches": 13,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.CollapsableContainer-styles__CollapsableContainerWrapper-sc-ccf7ee8a-3.dKzPsA > div.CollapsableContainer-styles__CollapsableContainerBody-sc-ccf7ee8a-1.dwvunn > a.CollapsableContainer-styles__CollapsableItem-sc-ccf7ee8a-2.igtOFd"
+     },
+     "eds": {
+      "path": "div.ai-coll > div.ai-coll__body > a.ai-coll__item.ai-coll__item--faq"
+     },
+     "rows": [
+      {
+       "key": "text:保険はいつ加入すべき？ 早く入るとお得って本当？",
+       "role": "text",
+       "text": "保険はいつ加入すべき？ 早く入るとお得って本当？",
+       "edsText": "保険はいつ加入すべき？ 早く入るとお得って本当？",
+       "byPosition": false,
+       "origin": {
+        "x": 80,
+        "y": 19,
+        "w": 374,
+        "h": 24
+       },
+       "eds": {
+        "x": 80,
+        "y": 19,
+        "w": 374,
+        "h": 24,
+        "sel": "span.ai-coll__label",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 208,
+       "y": 1173,
+       "w": 1024,
+       "h": 57
+      },
+      "eds": {
+       "x": 208,
+       "y": 1173,
+       "w": 1024,
+       "h": 57
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.CollapsableContainer-styles__CollapsableContainerWrapper-sc-ccf7ee8a-3.dKzPsA > div.CollapsableContainer-styles__CollapsableContainerBody-sc-ccf7ee8a-1.dwvunn > a.CollapsableContainer-styles__CollapsableItem-sc-ccf7ee8a-2.igtOFd"
+     },
+     "eds": {
+      "path": "div.ai-coll > div.ai-coll__body > a.ai-coll__item.ai-coll__item--faq"
+     },
+     "rows": [
+      {
+       "key": "text:もしも入院したらどれくらい費用がかかる？",
+       "role": "text",
+       "text": "もしも入院したらどれくらい費用がかかる？",
+       "edsText": "もしも入院したらどれくらい費用がかかる？",
+       "byPosition": false,
+       "origin": {
+        "x": 80,
+        "y": 19,
+        "w": 323,
+        "h": 24
+       },
+       "eds": {
+        "x": 80,
+        "y": 19,
+        "w": 323,
+        "h": 24,
+        "sel": "span.ai-coll__label",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 208,
+       "y": 1230,
+       "w": 1024,
+       "h": 57
+      },
+      "eds": {
+       "x": 208,
+       "y": 1230,
+       "w": 1024,
+       "h": 57
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.CollapsableContainer-styles__CollapsableContainerWrapper-sc-ccf7ee8a-3.dKzPsA > div.CollapsableContainer-styles__CollapsableContainerBody-sc-ccf7ee8a-1.dwvunn > a.CollapsableContainer-styles__CollapsableItem-sc-ccf7ee8a-2.igtOFd"
+     },
+     "eds": {
+      "path": "div.ai-coll > div.ai-coll__body > a.ai-coll__item.ai-coll__item--faq"
+     },
+     "rows": [
+      {
+       "key": "text:知っておきたい保険の役割と仕組みとは？",
+       "role": "text",
+       "text": "知っておきたい保険の役割と仕組みとは？",
+       "edsText": "知っておきたい保険の役割と仕組みとは？",
+       "byPosition": false,
+       "origin": {
+        "x": 80,
+        "y": 19,
+        "w": 306,
+        "h": 24
+       },
+       "eds": {
+        "x": 80,
+        "y": 19,
+        "w": 306,
+        "h": 24,
+        "sel": "span.ai-coll__label",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 208,
+       "y": 1910,
+       "w": 1024,
+       "h": 57
+      },
+      "eds": {
+       "x": 208,
+       "y": 1910,
+       "w": 1024,
+       "h": 57
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.CollapsableContainer-styles__CollapsableContainerWrapper-sc-ccf7ee8a-3.dKzPsA > div.CollapsableContainer-styles__CollapsableContainerBody-sc-ccf7ee8a-1.dwvunn > a.CollapsableContainer-styles__CollapsableItem-sc-ccf7ee8a-2.igtOFd"
+     },
+     "eds": {
+      "path": "div.ai-coll > div.ai-coll__body > a.ai-coll__item.ai-coll__item--faq"
+     },
+     "rows": [
+      {
+       "key": "text:貯蓄と保険はどう違うの？",
+       "role": "text",
+       "text": "貯蓄と保険はどう違うの？",
+       "edsText": "貯蓄と保険はどう違うの？",
+       "byPosition": false,
+       "origin": {
+        "x": 80,
+        "y": 19,
+        "w": 194,
+        "h": 24
+       },
+       "eds": {
+        "x": 80,
+        "y": 19,
+        "w": 194,
+        "h": 24,
+        "sel": "span.ai-coll__label",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 208,
+       "y": 1967,
+       "w": 1024,
+       "h": 57
+      },
+      "eds": {
+       "x": 208,
+       "y": 1967,
+       "w": 1024,
+       "h": 57
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.CollapsableContainer-styles__CollapsableContainerWrapper-sc-ccf7ee8a-3.dKzPsA > div.CollapsableContainer-styles__CollapsableContainerBody-sc-ccf7ee8a-1.dwvunn > a.CollapsableContainer-styles__CollapsableItem-sc-ccf7ee8a-2.igtOFd"
+     },
+     "eds": {
+      "path": "div.ai-coll > div.ai-coll__body > a.ai-coll__item.ai-coll__item--faq"
+     },
+     "rows": [
+      {
+       "key": "text:保険の見直しはどのように行えばよい？",
+       "role": "text",
+       "text": "保険の見直しはどのように行えばよい？",
+       "edsText": "保険の見直しはどのように行えばよい？",
+       "byPosition": false,
+       "origin": {
+        "x": 80,
+        "y": 19,
+        "w": 291,
+        "h": 24
+       },
+       "eds": {
+        "x": 80,
+        "y": 19,
+        "w": 291,
+        "h": 24,
+        "sel": "span.ai-coll__label",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 208,
+       "y": 2826,
+       "w": 1024,
+       "h": 57
+      },
+      "eds": {
+       "x": 208,
+       "y": 2826,
+       "w": 1024,
+       "h": 57
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.CollapsableContainer-styles__CollapsableContainerWrapper-sc-ccf7ee8a-3.dKzPsA > div.CollapsableContainer-styles__CollapsableContainerBody-sc-ccf7ee8a-1.dwvunn > a.CollapsableContainer-styles__CollapsableItem-sc-ccf7ee8a-2.igtOFd"
+     },
+     "eds": {
+      "path": "div.ai-coll > div.ai-coll__body > a.ai-coll__item.ai-coll__item--faq"
+     },
+     "rows": [
+      {
+       "key": "text:保険の種類についてもっと詳しく知りたい",
+       "role": "text",
+       "text": "保険の種類についてもっと詳しく知りたい",
+       "edsText": "保険の種類についてもっと詳しく知りたい",
+       "byPosition": false,
+       "origin": {
+        "x": 80,
+        "y": 19,
+        "w": 306,
+        "h": 24
+       },
+       "eds": {
+        "x": 80,
+        "y": 19,
+        "w": 306,
+        "h": 24,
+        "sel": "span.ai-coll__label",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 208,
+       "y": 2883,
+       "w": 1024,
+       "h": 57
+      },
+      "eds": {
+       "x": 208,
+       "y": 2883,
+       "w": 1024,
+       "h": 57
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div.CollapsableContainer-styles__CollapsableContainerWrapper-sc-ccf7ee8a-3.dKzPsA > div.CollapsableContainer-styles__CollapsableContainerBody-sc-ccf7ee8a-1.dwvunn > a.CollapsableContainer-styles__CollapsableItem-sc-ccf7ee8a-2.igtOFd"
+     },
+     "eds": {
+      "path": "div.ai-coll > div.ai-coll__body > a.ai-coll__item.ai-coll__item--faq"
+     },
+     "rows": [
+      {
+       "key": "text:女性のための保険にはどんなものがある？",
+       "role": "text",
+       "text": "女性のための保険にはどんなものがある？",
+       "edsText": "女性のための保険にはどんなものがある？",
+       "byPosition": false,
+       "origin": {
+        "x": 80,
+        "y": 19,
+        "w": 307,
+        "h": 24
+       },
+       "eds": {
+        "x": 80,
+        "y": 19,
+        "w": 307,
+        "h": 24,
+        "sel": "span.ai-coll__label",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 208,
+       "y": 2940,
+       "w": 1024,
+       "h": 57
+      },
+      "eds": {
+       "x": 208,
+       "y": 2940,
+       "w": 1024,
+       "h": 57
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "div.CollapsableContainer-styles__CollapsableContainerWrapper-sc-ccf7ee8a-3.dKzPsA > div.CollapsableContainer-styles__CollapsableContainerBody-sc-ccf7ee8a-1.dwvunn > a.CollapsableContainer-styles__CollapsableItem-sc-ccf7ee8a-2.igtOFd"
+     },
+     "eds": {
+      "path": "div.ai-coll > div.ai-coll__body > a.ai-coll__item.ai-coll__item--faq"
+     },
+     "rows": [
+      {
+       "key": "text:昔入った保険は見直した方がよい？",
+       "role": "text",
+       "text": "昔入った保険は見直した方がよい？",
+       "edsText": "昔入った保険は見直した方がよい？",
+       "byPosition": false,
+       "origin": {
+        "x": 80,
+        "y": 19,
+        "w": 258,
+        "h": 24
+       },
+       "eds": {
+        "x": 80,
+        "y": 19,
+        "w": 258,
+        "h": 24,
+        "sel": "span.ai-coll__label",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 208,
+       "y": 2997,
+       "w": 1024,
+       "h": 57
+      },
+      "eds": {
+       "x": 208,
+       "y": 2997,
+       "w": 1024,
+       "h": 57
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 8,
+     "origin": {
+      "path": "div.CollapsableContainer-styles__CollapsableContainerWrapper-sc-ccf7ee8a-3.dKzPsA > div.CollapsableContainer-styles__CollapsableContainerBody-sc-ccf7ee8a-1.dwvunn > a.CollapsableContainer-styles__CollapsableItem-sc-ccf7ee8a-2.igtOFd"
+     },
+     "eds": {
+      "path": "div.ai-coll > div.ai-coll__body > a.ai-coll__item.ai-coll__item--faq"
+     },
+     "rows": [
+      {
+       "key": "text:死亡保険（生命保険）にはどのようなものがあるの？",
+       "role": "text",
+       "text": "死亡保険（生命保険）にはどのようなものがあるの？",
+       "edsText": "死亡保険（生命保険）にはどのようなものがあるの？",
+       "byPosition": false,
+       "origin": {
+        "x": 80,
+        "y": 19,
+        "w": 388,
+        "h": 24
+       },
+       "eds": {
+        "x": 80,
+        "y": 19,
+        "w": 388,
+        "h": 24,
+        "sel": "span.ai-coll__label",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 208,
+       "y": 3054,
+       "w": 1024,
+       "h": 57
+      },
+      "eds": {
+       "x": 208,
+       "y": 3054,
+       "w": 1024,
+       "h": 57
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 9,
+     "origin": {
+      "path": "div.CollapsableContainer-styles__CollapsableContainerWrapper-sc-ccf7ee8a-3.dKzPsA > div.CollapsableContainer-styles__CollapsableContainerBody-sc-ccf7ee8a-1.dwvunn > a.CollapsableContainer-styles__CollapsableItem-sc-ccf7ee8a-2.igtOFd"
+     },
+     "eds": {
+      "path": "div.ai-coll > div.ai-coll__body > a.ai-coll__item.ai-coll__item--faq"
+     },
+     "rows": [
+      {
+       "key": "text:公的年金に加えて、保険で老後に備えるには？",
+       "role": "text",
+       "text": "公的年金に加えて、保険で老後に備えるには？",
+       "edsText": "公的年金に加えて、保険で老後に備えるには？",
+       "byPosition": false,
+       "origin": {
+        "x": 80,
+        "y": 19,
+        "w": 337,
+        "h": 24
+       },
+       "eds": {
+        "x": 80,
+        "y": 19,
+        "w": 337,
+        "h": 24,
+        "sel": "span.ai-coll__label",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 208,
+       "y": 3111,
+       "w": 1024,
+       "h": 57
+      },
+      "eds": {
+       "x": 208,
+       "y": 3111,
+       "w": 1024,
+       "h": 57
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 10,
+     "origin": {
+      "path": "div.CollapsableContainer-styles__CollapsableContainerWrapper-sc-ccf7ee8a-3.izsAaw > div.CollapsableContainer-styles__CollapsableContainerBody-sc-ccf7ee8a-1.dwvunn > a.CollapsableContainer-styles__CollapsableItem-sc-ccf7ee8a-2.gozgjB"
+     },
+     "eds": {
+      "path": "div.ai-coll.ai-coll--plain > div.ai-coll__body > a.ai-coll__item.ai-coll__item--doc"
+     },
+     "rows": [
+      {
+       "key": "text:乳がんについて",
+       "role": "text",
+       "text": "乳がんについて",
+       "edsText": "乳がんについて",
+       "byPosition": false,
+       "origin": {
+        "x": 80,
+        "y": 19,
+        "w": 113,
+        "h": 24
+       },
+       "eds": {
+        "x": 80,
+        "y": 19,
+        "w": 113,
+        "h": 24,
+        "sel": "span.ai-coll__label",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 208,
+       "y": 3300,
+       "w": 1024,
+       "h": 57
+      },
+      "eds": {
+       "x": 208,
+       "y": 3300,
+       "w": 1024,
+       "h": 57
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 11,
+     "origin": {
+      "path": "div.CollapsableContainer-styles__CollapsableContainerWrapper-sc-ccf7ee8a-3.izsAaw > div.CollapsableContainer-styles__CollapsableContainerBody-sc-ccf7ee8a-1.dwvunn > a.CollapsableContainer-styles__CollapsableItem-sc-ccf7ee8a-2.gozgjB"
+     },
+     "eds": {
+      "path": "div.ai-coll.ai-coll--plain > div.ai-coll__body > a.ai-coll__item.ai-coll__item--doc"
+     },
+     "rows": [
+      {
+       "key": "text:先進医療と患者申出療養の違い",
+       "role": "text",
+       "text": "先進医療と患者申出療養の違い",
+       "edsText": "先進医療と患者申出療養の違い",
+       "byPosition": false,
+       "origin": {
+        "x": 80,
+        "y": 19,
+        "w": 226,
+        "h": 24
+       },
+       "eds": {
+        "x": 80,
+        "y": 19,
+        "w": 226,
+        "h": 24,
+        "sel": "span.ai-coll__label",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 208,
+       "y": 3357,
+       "w": 1024,
+       "h": 57
+      },
+      "eds": {
+       "x": 208,
+       "y": 3357,
+       "w": 1024,
+       "h": 57
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 12,
+     "origin": {
+      "path": "div.CollapsableContainer-styles__CollapsableContainerWrapper-sc-ccf7ee8a-3.izsAaw > div.CollapsableContainer-styles__CollapsableContainerBody-sc-ccf7ee8a-1.dwvunn > a.CollapsableContainer-styles__CollapsableItem-sc-ccf7ee8a-2.gozgjB"
+     },
+     "eds": {
+      "path": "div.ai-coll.ai-coll--plain > div.ai-coll__body > a.ai-coll__item.ai-coll__item--doc"
+     },
+     "rows": [
+      {
+       "key": "text:患者申出療養とは？",
+       "role": "text",
+       "text": "患者申出療養とは？",
+       "edsText": "患者申出療養とは？",
+       "byPosition": false,
+       "origin": {
+        "x": 80,
+        "y": 19,
+        "w": 145,
+        "h": 24
+       },
+       "eds": {
+        "x": 80,
+        "y": 19,
+        "w": 145,
+        "h": 24,
+        "sel": "span.ai-coll__label",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 208,
+       "y": 3414,
+       "w": 1024,
+       "h": 57
+      },
+      "eds": {
+       "x": 208,
+       "y": 3414,
+       "w": 1024,
+       "h": 57
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "a.Testimonial-styles__TestimonialWrapper-sc-380da92b-2=.ai-tcard",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.sc-jePOid.elVrCI > div.AboutInsuranceTopPage-styles__TestimonialWrap-sc-acc4b772-13.knXeDV > a.Testimonial-styles__TestimonialWrapper-sc-380da92b-2.dypCPd"
+     },
+     "eds": {
+      "path": "div.ai-wrap > div.ai-testimonials > a.ai-tcard"
+     },
+     "rows": [
+      {
+       "key": "image:img.Testimonial-styles__TestimonialImage-sc-6f1d34dc-2.gzkoFw#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 329,
+        "h": 254
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 329,
+        "h": 254,
+        "sel": "img.ai-tcard__img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/18/600",
+        "eds": "16/18/600"
+       }
+      },
+      {
+       "key": "box:div.Testimonial-styles__TestimonialOverlayText-sc-380da92b-1.hZwYIh#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 216,
+        "w": 329,
+        "h": 40
+       },
+       "eds": {
+        "x": 1,
+        "y": 216,
+        "w": 329,
+        "h": 40,
+        "sel": "div.ai-tcard__text",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/14/700",
+        "eds": "14/14/700"
+       }
+      },
+      {
+       "key": "text:同級生が乳がんになって、はじめて保険を考えた",
+       "role": "text",
+       "text": "同級生が乳がんになって、はじめて保険を考えた",
+       "edsText": "同級生が乳がんになって、はじめて保険を考えた",
+       "byPosition": false,
+       "origin": {
+        "x": 9,
+        "y": 226,
+        "w": 307,
+        "h": 20
+       },
+       "eds": {
+        "x": 9,
+        "y": 226,
+        "w": 307,
+        "h": 20,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/14/900",
+        "eds": "14/14/900"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 208,
+       "y": 3611,
+       "w": 331,
+       "h": 257
+      },
+      "eds": {
+       "x": 208,
+       "y": 3611,
+       "w": 331,
+       "h": 257
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.sc-jePOid.elVrCI > div.AboutInsuranceTopPage-styles__TestimonialWrap-sc-acc4b772-13.knXeDV > a.Testimonial-styles__TestimonialWrapper-sc-380da92b-2.dypCPd"
+     },
+     "eds": {
+      "path": "div.ai-wrap > div.ai-testimonials > a.ai-tcard"
+     },
+     "rows": [
+      {
+       "key": "image:img.Testimonial-styles__TestimonialImage-sc-6f1d34dc-2.gzkoFw#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 329,
+        "h": 254
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 329,
+        "h": 254,
+        "sel": "img.ai-tcard__img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/18/600",
+        "eds": "16/18/600"
+       }
+      },
+      {
+       "key": "box:div.Testimonial-styles__TestimonialOverlayText-sc-380da92b-1.hZwYIh#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 216,
+        "w": 329,
+        "h": 40
+       },
+       "eds": {
+        "x": 1,
+        "y": 216,
+        "w": 329,
+        "h": 40,
+        "sel": "div.ai-tcard__text",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/14/700",
+        "eds": "14/14/700"
+       }
+      },
+      {
+       "key": "text:子育てママは考えた。保険に入るのは誰のため？",
+       "role": "text",
+       "text": "子育てママは考えた。保険に入るのは誰のため？",
+       "edsText": "子育てママは考えた。保険に入るのは誰のため？",
+       "byPosition": false,
+       "origin": {
+        "x": 9,
+        "y": 226,
+        "w": 308,
+        "h": 20
+       },
+       "eds": {
+        "x": 9,
+        "y": 226,
+        "w": 308,
+        "h": 20,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/14/900",
+        "eds": "14/14/900"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 555,
+       "y": 3611,
+       "w": 331,
+       "h": 257
+      },
+      "eds": {
+       "x": 555,
+       "y": 3611,
+       "w": 331,
+       "h": 257
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.sc-jePOid.elVrCI > div.AboutInsuranceTopPage-styles__TestimonialWrap-sc-acc4b772-13.knXeDV > a.Testimonial-styles__TestimonialWrapper-sc-380da92b-2.dypCPd"
+     },
+     "eds": {
+      "path": "div.ai-wrap > div.ai-testimonials > a.ai-tcard"
+     },
+     "rows": [
+      {
+       "key": "image:img.Testimonial-styles__TestimonialImage-sc-6f1d34dc-2.gzkoFw#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 329,
+        "h": 254
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 329,
+        "h": 254,
+        "sel": "img.ai-tcard__img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/18/600",
+        "eds": "16/18/600"
+       }
+      },
+      {
+       "key": "box:div.Testimonial-styles__TestimonialOverlayText-sc-380da92b-1.hZwYIh#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 202,
+        "w": 329,
+        "h": 54
+       },
+       "eds": {
+        "x": 1,
+        "y": 202,
+        "w": 329,
+        "h": 54,
+        "sel": "div.ai-tcard__text",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/14/700",
+        "eds": "14/14/700"
+       }
+      },
+      {
+       "key": "text:もしも自分が働けなくなったら、そのとき家族は…？",
+       "role": "text",
+       "text": "もしも自分が働けなくなったら、そのとき家族は…？",
+       "edsText": "もしも自分が働けなくなったら、そのとき家族は…？",
+       "byPosition": false,
+       "origin": {
+        "x": 9,
+        "y": 212,
+        "w": 294,
+        "h": 34
+       },
+       "eds": {
+        "x": 9,
+        "y": 212,
+        "w": 294,
+        "h": 34,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/14/900",
+        "eds": "14/14/900"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 901,
+       "y": 3611,
+       "w": 331,
+       "h": 257
+      },
+      "eds": {
+       "x": 901,
+       "y": 3611,
+       "w": 331,
+       "h": 257
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.sc-jePOid.elVrCI > div.AboutInsuranceTopPage-styles__TestimonialWrap-sc-acc4b772-13.knXeDV > a.Testimonial-styles__TestimonialWrapper-sc-380da92b-2.dypCPd"
+     },
+     "eds": {
+      "path": "div.ai-wrap > div.ai-testimonials > a.ai-tcard"
+     },
+     "rows": [
+      {
+       "key": "image:img.Testimonial-styles__TestimonialImage-sc-6f1d34dc-2.gzkoFw#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 329,
+        "h": 254
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 329,
+        "h": 254,
+        "sel": "img.ai-tcard__img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/18/600",
+        "eds": "16/18/600"
+       }
+      },
+      {
+       "key": "box:div.Testimonial-styles__TestimonialOverlayText-sc-380da92b-1.hZwYIh#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 215,
+        "w": 329,
+        "h": 40
+       },
+       "eds": {
+        "x": 1,
+        "y": 215,
+        "w": 329,
+        "h": 40,
+        "sel": "div.ai-tcard__text",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/14/700",
+        "eds": "14/14/700"
+       }
+      },
+      {
+       "key": "text:彼女と結婚！一生守りたい人ができたから",
+       "role": "text",
+       "text": "彼女と結婚！一生守りたい人ができたから",
+       "edsText": "彼女と結婚！一生守りたい人ができたから",
+       "byPosition": false,
+       "origin": {
+        "x": 9,
+        "y": 225,
+        "w": 266,
+        "h": 20
+       },
+       "eds": {
+        "x": 9,
+        "y": 225,
+        "w": 266,
+        "h": 20,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/14/900",
+        "eds": "14/14/900"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 208,
+       "y": 3916,
+       "w": 331,
+       "h": 257
+      },
+      "eds": {
+       "x": 208,
+       "y": 3916,
+       "w": 331,
+       "h": 257
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.sc-jePOid.elVrCI > div.AboutInsuranceTopPage-styles__TestimonialWrap-sc-acc4b772-13.knXeDV > a.Testimonial-styles__TestimonialWrapper-sc-380da92b-2.dypCPd"
+     },
+     "eds": {
+      "path": "div.ai-wrap > div.ai-testimonials > a.ai-tcard"
+     },
+     "rows": [
+      {
+       "key": "image:img.Testimonial-styles__TestimonialImage-sc-6f1d34dc-2.gzkoFw#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 329,
+        "h": 254
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 329,
+        "h": 254,
+        "sel": "img.ai-tcard__img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/18/600",
+        "eds": "16/18/600"
+       }
+      },
+      {
+       "key": "box:div.Testimonial-styles__TestimonialOverlayText-sc-380da92b-1.hZwYIh#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 215,
+        "w": 329,
+        "h": 40
+       },
+       "eds": {
+        "x": 1,
+        "y": 215,
+        "w": 329,
+        "h": 40,
+        "sel": "div.ai-tcard__text",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/14/700",
+        "eds": "14/14/700"
+       }
+      },
+      {
+       "key": "text:新卒の私が同期と話した「将来のお金」のこと",
+       "role": "text",
+       "text": "新卒の私が同期と話した「将来のお金」のこと",
+       "edsText": "新卒の私が同期と話した「将来のお金」のこと",
+       "byPosition": false,
+       "origin": {
+        "x": 9,
+        "y": 225,
+        "w": 294,
+        "h": 20
+       },
+       "eds": {
+        "x": 9,
+        "y": 225,
+        "w": 294,
+        "h": 20,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/14/900",
+        "eds": "14/14/900"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 555,
+       "y": 3916,
+       "w": 331,
+       "h": 257
+      },
+      "eds": {
+       "x": 555,
+       "y": 3916,
+       "w": 331,
+       "h": 257
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.sc-jePOid.elVrCI > div.AboutInsuranceTopPage-styles__TestimonialWrap-sc-acc4b772-13.knXeDV > a.Testimonial-styles__TestimonialWrapper-sc-380da92b-2.dypCPd"
+     },
+     "eds": {
+      "path": "div.ai-wrap > div.ai-testimonials > a.ai-tcard"
+     },
+     "rows": [
+      {
+       "key": "image:img.Testimonial-styles__TestimonialImage-sc-6f1d34dc-2.gzkoFw#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 329,
+        "h": 254
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 329,
+        "h": 254,
+        "sel": "img.ai-tcard__img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/18/600",
+        "eds": "16/18/600"
+       }
+      },
+      {
+       "key": "box:div.Testimonial-styles__TestimonialOverlayText-sc-380da92b-1.hZwYIh#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 215,
+        "w": 329,
+        "h": 40
+       },
+       "eds": {
+        "x": 1,
+        "y": 215,
+        "w": 329,
+        "h": 40,
+        "sel": "div.ai-tcard__text",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/14/700",
+        "eds": "14/14/700"
+       }
+      },
+      {
+       "key": "text:事業保障資金が出る「経営者向け保険」を検討中",
+       "role": "text",
+       "text": "事業保障資金が出る「経営者向け保険」を検討中",
+       "edsText": "事業保障資金が出る「経営者向け保険」を検討中",
+       "byPosition": false,
+       "origin": {
+        "x": 9,
+        "y": 225,
+        "w": 308,
+        "h": 20
+       },
+       "eds": {
+        "x": 9,
+        "y": 225,
+        "w": 308,
+        "h": 20,
+        "sel": "strong",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/14/900",
+        "eds": "14/14/900"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 901,
+       "y": 3916,
+       "w": 331,
+       "h": 257
+      },
+      "eds": {
+       "x": 901,
+       "y": 3916,
+       "w": 331,
+       "h": 257
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "div.ContactLinks-styles__ContactLinkWrap-sc-8cf9f314-3=.ai-contact__cell",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.breakpoints__SpHide-sc-1c000647-1.jrTqPW > section.ContactLinks-styles__ContactLinksContainer-sc-8cf9f314-0.fyBfVn > div.ContactLinks-styles__ContactLinkWrap-sc-8cf9f314-3.iGjIxR"
+     },
+     "eds": {
+      "path": "div.pc-only > section.ai-contact > div.ai-contact__cell.ai-contact__cell--wide"
+     },
+     "rows": [
+      {
+       "key": "box:div.ContactLinks-styles__ColorLinkWrap-sc-8cf9f314-1.cdeknA#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 115
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 115,
+        "sel": "div.ai-contact__box.ai-contact__box--green",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "link:保険をご検討中の方は 0120-97-7990 平日9:00～18:00 土9:",
+       "role": "link",
+       "text": "保険をご検討中の方は 0120-97-7990 平日9:00～18:00 土9:00～17:00 コールバックを予約する",
+       "edsText": "保険をご検討中の方は 0120-97-7990 平日9:00～18:00 土9:00～17:00 コールバックを予約する",
+       "byPosition": false,
+       "origin": {
+        "x": 28,
+        "y": 10,
+        "w": 256,
+        "h": 86
+       },
+       "eds": {
+        "x": 28,
+        "y": 10,
+        "w": 256,
+        "h": 86,
+        "sel": "a.ai-contact__link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/600",
+        "eds": "16/26/600"
+       }
+      },
+      {
+       "key": "text:保険をご検討中の方は",
+       "role": "text",
+       "text": "保険をご検討中の方は",
+       "edsText": "保険をご検討中の方は",
+       "byPosition": false,
+       "origin": {
+        "x": 28,
+        "y": 10,
+        "w": 256,
+        "h": 29
+       },
+       "eds": {
+        "x": 28,
+        "y": 10,
+        "w": 256,
+        "h": 29,
+        "sel": "p.ai-contact__head",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "21/29/600",
+        "eds": "21/29/600"
+       }
+      },
+      {
+       "key": "text:0120-97-7990",
+       "role": "text",
+       "text": "0120-97-7990",
+       "edsText": "0120-97-7990",
+       "byPosition": false,
+       "origin": {
+        "x": 28,
+        "y": 40,
+        "w": 256,
+        "h": 24
+       },
+       "eds": {
+        "x": 28,
+        "y": 40,
+        "w": 256,
+        "h": 24,
+        "sel": "p.ai-contact__tel",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "17/24/400",
+        "eds": "17/24/400"
+       }
+      },
+      {
+       "key": "text:平日9:00～18:00 土9:00～17:00",
+       "role": "text",
+       "text": "平日9:00～18:00 土9:00～17:00",
+       "edsText": "平日9:00～18:00 土9:00～17:00",
+       "byPosition": false,
+       "origin": {
+        "x": 28,
+        "y": 63,
+        "w": 256,
+        "h": 16
+       },
+       "eds": {
+        "x": 28,
+        "y": 63,
+        "w": 256,
+        "h": 16,
+        "sel": "p.ai-contact__time",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/16/600",
+        "eds": "11/16/600"
+       }
+      },
+      {
+       "key": "text:コールバックを予約する",
+       "role": "text",
+       "text": "コールバックを予約する",
+       "edsText": "コールバックを予約する",
+       "byPosition": false,
+       "origin": {
+        "x": 28,
+        "y": 79,
+        "w": 256,
+        "h": 18
+       },
+       "eds": {
+        "x": 28,
+        "y": 79,
+        "w": 256,
+        "h": 18,
+        "sel": "div.ai-contact__more",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/18/600",
+        "eds": "13/18/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 208,
+       "y": 4377,
+       "w": 312,
+       "h": 115
+      },
+      "eds": {
+       "x": 208,
+       "y": 4377,
+       "w": 312,
+       "h": 115
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.breakpoints__SpHide-sc-1c000647-1.jrTqPW > section.ContactLinks-styles__ContactLinksContainer-sc-8cf9f314-0.fyBfVn > div.ContactLinks-styles__ContactLinkWrap-sc-8cf9f314-3.iGjIxR"
+     },
+     "eds": {
+      "path": "div.pc-only > section.ai-contact > div.ai-contact__cell.ai-contact__cell--wide"
+     },
+     "rows": [
+      {
+       "key": "box:div.ContactLinks-styles__ColorLinkWrap-sc-8cf9f314-1.cdeknA#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 0,
+        "w": 298,
+        "h": 115
+       },
+       "eds": {
+        "x": 14,
+        "y": 0,
+        "w": 298,
+        "h": 115,
+        "sel": "div.ai-contact__box.ai-contact__box--orange",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/400",
+        "eds": "16/26/400"
+       }
+      },
+      {
+       "key": "link:ご契約者さまは 0120-568-093 平日9:00～18:00 土9:00～",
+       "role": "link",
+       "text": "ご契約者さまは 0120-568-093 平日9:00～18:00 土9:00～17:00 詳しくはこちら",
+       "edsText": "ご契約者さまは 0120-568-093 平日9:00～18:00 土9:00～17:00 詳しくはこちら",
+       "byPosition": false,
+       "origin": {
+        "x": 42,
+        "y": 10,
+        "w": 242,
+        "h": 86
+       },
+       "eds": {
+        "x": 42,
+        "y": 10,
+        "w": 242,
+        "h": 86,
+        "sel": "a.ai-contact__link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/600",
+        "eds": "16/26/600"
+       }
+      },
+      {
+       "key": "text:ご契約者さまは",
+       "role": "text",
+       "text": "ご契約者さまは",
+       "edsText": "ご契約者さまは",
+       "byPosition": false,
+       "origin": {
+        "x": 42,
+        "y": 10,
+        "w": 242,
+        "h": 29
+       },
+       "eds": {
+        "x": 42,
+        "y": 10,
+        "w": 242,
+        "h": 29,
+        "sel": "p.ai-contact__head",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "21/29/600",
+        "eds": "21/29/600"
+       }
+      },
+      {
+       "key": "text:0120-568-093",
+       "role": "text",
+       "text": "0120-568-093",
+       "edsText": "0120-568-093",
+       "byPosition": false,
+       "origin": {
+        "x": 42,
+        "y": 40,
+        "w": 242,
+        "h": 24
+       },
+       "eds": {
+        "x": 42,
+        "y": 40,
+        "w": 242,
+        "h": 24,
+        "sel": "p.ai-contact__tel",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "17/24/400",
+        "eds": "17/24/400"
+       }
+      },
+      {
+       "key": "text:平日9:00～18:00 土9:00～17:00",
+       "role": "text",
+       "text": "平日9:00～18:00 土9:00～17:00",
+       "edsText": "平日9:00～18:00 土9:00～17:00",
+       "byPosition": false,
+       "origin": {
+        "x": 42,
+        "y": 63,
+        "w": 242,
+        "h": 16
+       },
+       "eds": {
+        "x": 42,
+        "y": 63,
+        "w": 242,
+        "h": 16,
+        "sel": "p.ai-contact__time",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/16/600",
+        "eds": "11/16/600"
+       }
+      },
+      {
+       "key": "text:詳しくはこちら",
+       "role": "text",
+       "text": "詳しくはこちら",
+       "edsText": "詳しくはこちら",
+       "byPosition": false,
+       "origin": {
+        "x": 42,
+        "y": 79,
+        "w": 242,
+        "h": 18
+       },
+       "eds": {
+        "x": 42,
+        "y": 79,
+        "w": 242,
+        "h": 18,
+        "sel": "div.ai-contact__more",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "13/18/600",
+        "eds": "13/18/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 520,
+       "y": 4377,
+       "w": 312,
+       "h": 115
+      },
+      "eds": {
+       "x": 520,
+       "y": 4377,
+       "w": 312,
+       "h": 115
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.breakpoints__SpHide-sc-1c000647-1.jrTqPW > section.ContactLinks-styles__ContactLinksContainer-sc-8cf9f314-0.fyBfVn > div.ContactLinks-styles__ContactLinkWrap-sc-8cf9f314-3.iGjIxR"
+     },
+     "eds": {
+      "path": "div.pc-only > section.ai-contact > div.ai-contact__cell"
+     },
+     "rows": [
+      {
+       "key": "link:a#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 0,
+        "w": 119,
+        "h": 113
+       },
+       "eds": {
+        "x": 14,
+        "y": 0,
+        "w": 119,
+        "h": 113,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/600",
+        "eds": "16/26/600"
+       }
+      },
+      {
+       "key": "image:img#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 0,
+        "w": 113,
+        "h": 113
+       },
+       "eds": {
+        "x": 14,
+        "y": 0,
+        "w": 113,
+        "h": 113,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/600",
+        "eds": "16/26/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 833,
+       "y": 4377,
+       "w": 133,
+       "h": 113
+      },
+      "eds": {
+       "x": 833,
+       "y": 4377,
+       "w": 133,
+       "h": 113
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.breakpoints__SpHide-sc-1c000647-1.jrTqPW > section.ContactLinks-styles__ContactLinksContainer-sc-8cf9f314-0.fyBfVn > div.ContactLinks-styles__ContactLinkWrap-sc-8cf9f314-3.iGjIxR"
+     },
+     "eds": {
+      "path": "div.pc-only > section.ai-contact > div.ai-contact__cell"
+     },
+     "rows": [
+      {
+       "key": "link:a#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 0,
+        "w": 119,
+        "h": 113
+       },
+       "eds": {
+        "x": 14,
+        "y": 0,
+        "w": 119,
+        "h": 113,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/600",
+        "eds": "16/26/600"
+       }
+      },
+      {
+       "key": "image:img#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 0,
+        "w": 113,
+        "h": 113
+       },
+       "eds": {
+        "x": 14,
+        "y": 0,
+        "w": 113,
+        "h": 113,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/600",
+        "eds": "16/26/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 966,
+       "y": 4377,
+       "w": 133,
+       "h": 113
+      },
+      "eds": {
+       "x": 966,
+       "y": 4377,
+       "w": 133,
+       "h": 113
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.breakpoints__SpHide-sc-1c000647-1.jrTqPW > section.ContactLinks-styles__ContactLinksContainer-sc-8cf9f314-0.fyBfVn > div.ContactLinks-styles__ContactLinkWrap-sc-8cf9f314-3.iGjIxR"
+     },
+     "eds": {
+      "path": "div.pc-only > section.ai-contact > div.ai-contact__cell"
+     },
+     "rows": [
+      {
+       "key": "link:a#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 0,
+        "w": 119,
+        "h": 113
+       },
+       "eds": {
+        "x": 14,
+        "y": 0,
+        "w": 119,
+        "h": 113,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/600",
+        "eds": "16/26/600"
+       }
+      },
+      {
+       "key": "image:img#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 14,
+        "y": 0,
+        "w": 113,
+        "h": 113
+       },
+       "eds": {
+        "x": 14,
+        "y": 0,
+        "w": 113,
+        "h": 113,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/26/600",
+        "eds": "16/26/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1099,
+       "y": 4377,
+       "w": 133,
+       "h": 113
+      },
+      "eds": {
+       "x": 1099,
+       "y": 4377,
+       "w": 133,
+       "h": 113
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 31,
+  "within": 49,
+  "off": 7,
+  "hidden": 0,
+  "missing": 7,
+  "errors": 0,
+  "requiredOff": 14
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-11-09T13:32:12.574Z",
+  "origin": "https://main--80b77690--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json",
+  "contract": "stardust/martech-contract.json"
+ },
+ "results": [
+  {
+   "feature": "header mega-menus + mobile drawer",
+   "id": "chrome-menu",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "174 × header nav a (min 20)",
+   "thirdParty": "",
+   "ms": 2216,
+   "environmentLimit": null
+  },
+  {
+   "feature": "hero carousel (autoplay)",
+   "id": "home-hero-carousel",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "7 × .hero-carousel-slide (min 7)",
+   "thirdParty": "",
+   "ms": 2028,
+   "environmentLimit": null
+  },
+  {
+   "feature": "find-your-insurance quiz",
+   "id": "f-form-prospectform",
+   "class": "F",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "4 × .simulation-quiz fieldset (min 3)",
+   "thirdParty": "",
+   "ms": 2028,
+   "environmentLimit": null
+  },
+  {
+   "feature": "find-your-insurance quiz",
+   "id": "f-form-prospectform",
+   "class": "F",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "4 × .simulation-quiz fieldset (min 3)",
+   "thirdParty": "",
+   "ms": 1982,
+   "environmentLimit": null
+  },
+  {
+   "feature": "product quiz (4 selects)",
+   "id": "f-form-select-js-wired",
+   "class": "F",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .simulation-quiz (min 1)",
+   "thirdParty": "",
+   "ms": 2018,
+   "environmentLimit": null
+  },
+  {
+   "feature": "site search",
+   "id": "s-site-search-form",
+   "class": "S",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × header .gnav-search form (min 1)",
+   "thirdParty": "",
+   "ms": 2010,
+   "environmentLimit": null
+  },
+  {
+   "feature": "bubble pop-ups",
+   "id": "about-insurance-bubble-popups",
+   "class": "M",
+   "status": "done",
+   "type": "click-dialog",
+   "pass": false,
+   "detail": "dialog 845px · heading \"結婚した\" · 0 fields · Escape closes: false",
+   "thirdParty": "www.axa.co.jp:200×10",
+   "ms": 4801,
+   "environmentLimit": null
+  },
+  {
+   "feature": "customer banner slider (autoplay)",
+   "id": "customer-slider",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "9 × .banner-slider-slide (min 3)",
+   "thirdParty": "",
+   "ms": 2012,
+   "environmentLimit": null
+  },
+  {
+   "feature": "no uncaught errors on every delivered page",
+   "id": "no-errors",
+   "class": "X",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 10 page(s)",
+   "thirdParty": "",
+   "ms": 26173,
+   "environmentLimit": null
+  },
+  {
+   "feature": "martech: consent + tag routing",
+   "id": "martech",
+   "class": "T",
+   "status": "scaffolded-off",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (2 gated · 0 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6157,
+   "environmentLimit": null
+  }
+ ]
+}

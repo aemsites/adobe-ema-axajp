@@ -1,0 +1,16 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "http://localhost:8791/prospect-proposed.html",
+  "width": 1440,
+  "vh": 900,
+  "height": 5616,
+  "chunks": 7,
+  "denialCheck": "ok",
+  "fontsFailed": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 4,
+    "late": 0
+  },
+  "at": "2026-11-09T06:31:59.104Z"
+}

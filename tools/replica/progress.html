@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Migration result</title>
+<link rel="stylesheet" href="spectrum.css">
+<style>
+  body { background-color: var(--spectrum-bg-app); }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 24px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .meta { color: var(--spectrum-text-subdued); margin: 0 0 24px; }
+  .spectrum-panel { margin-bottom: 16px; }
+  .spectrum-panel-header { margin: 0; padding: 0 16px; }
+  details.spectrum-panel > summary { cursor: pointer; list-style: none; }
+  details.spectrum-panel > summary::-webkit-details-marker { display: none; }
+  details.spectrum-panel > summary > h2 { margin: 0; font: inherit; }
+  details.spectrum-panel > summary > h2::before { content: "\25B8"; display: inline-block; width: 1em; margin-right: 6px; color: var(--spectrum-text-subdued); }
+  details.spectrum-panel[open] > summary > h2::before { content: "\25BE"; }
+  .panel-body { padding: 16px; }
+  .panel-body > :last-child { margin-bottom: 0; }
+  .bar { height: 8px; border-radius: 9999px; background-color: var(--spectrum-gray-200); overflow: hidden; }
+  .bar span { display: block; height: 100%; background-color: var(--spectrum-accent-bg); }
+  ol.steps { list-style: none; padding: 0; margin: 0; }
+  ol.steps li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; }
+  ol.steps li + li { border-top: 1px solid var(--spectrum-gray-200); }
+  details summary { cursor: pointer; }
+  table.pages { margin-top: 8px; }
+  table.pages td { word-break: break-all; }
+  table.pages td .spectrum-badge { word-break: normal; }
+  @media (max-width: 400px) { table.pages th, table.pages td { padding: 8px 4px; } }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 8px; text-align: left; border-bottom: 1px solid var(--spectrum-gray-200); }
+  th { color: var(--spectrum-text-subdued); font-weight: 700; }
+  .panel-body h3 { margin: 16px 0 4px; }
+  ol.todo { padding-left: 20px; margin: 0 0 16px; }
+  ol.todo li { margin: 6px 0; }
+  ul.all { columns: 2; margin: 4px 0; padding-left: 18px; }
+  .spectrum-panel-header .spectrum-badge { margin-left: 8px; vertical-align: middle; }
+  #blocks-used table.blocks { table-layout: fixed; }
+  #blocks-used table.blocks th:nth-child(1) { width: 26%; }
+  #blocks-used table.blocks th:nth-child(2) { width: 32%; }
+  #blocks-used td { overflow-wrap: break-word; vertical-align: top; }
+  #blocks-used td:last-child { overflow-wrap: anywhere; }
+  #blocks-used tr.group td { border-top: 1px solid var(--spectrum-gray-300); }
+  #blocks-used td.block { font-weight: 700; }
+  #blocks-used .block-pages { display: block; font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .variant { display: inline-block; padding: 0 6px; margin: 0 4px 2px 0; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-sm); font-family: var(--spectrum-font-code); }
+  #blocks-used .variant-inline { font-family: var(--spectrum-font-code); font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .default, #blocks-used .blocks-count { color: var(--spectrum-text-subdued); }
+  #blocks-used .default { font-style: italic; }
+  #blocks-used .blocks-count { margin: 0; }
+  #blocks-used button.more { padding: 0; border: 0; background: none; color: var(--spectrum-text-accent); font: inherit; cursor: pointer; text-decoration: underline; }
+  #blocks-used .blocks-popover { width: min(520px, 90vw); max-height: 80vh; overflow: auto; overflow-wrap: anywhere; padding: 16px 20px; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-lg); background-color: var(--spectrum-bg-layer-1); box-shadow: var(--spectrum-shadow-elevated); }
+  #blocks-used .blocks-popover::backdrop { background-color: color-mix(in srgb, var(--spectrum-gray-900) 35%, transparent); }
+  #blocks-used .popover-head { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
+  #blocks-used .popover-head h3 { margin: 0; }
+  #blocks-used ul.popover-pages { columns: 2; padding-left: 20px; margin: 12px 0 0; }
+  #blocks-used ul.popover-pages li { padding: 4px 0; break-inside: avoid; }
+  /* A browser without the popover API would show every page list inline; ':popover-open' is invalid there. */
+  @supports not selector(:popover-open) {
+    #blocks-used .blocks-popover, #blocks-used .more { display: none; }
+  }
+  #blocks-used .bp-radio { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  #blocks-used .bp-page, #blocks-used .bp-range { display: none; }
+  #blocks-used .pager { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; flex-wrap: wrap; }
+  #blocks-used .labels { display: flex; flex-wrap: wrap; gap: 4px; }
+  #blocks-used .bp-radio:focus-visible ~ .pager label { outline: 2px solid var(--spectrum-focus-ring); }
+  #bp-1:checked ~ table .bp-page-1 { display: table-row-group; }
+  #bp-1:checked ~ .pager .bp-range-1 { display: inline; }
+  #bp-1:checked ~ .pager label[for="bp-1"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-2:checked ~ table .bp-page-2 { display: table-row-group; }
+  #bp-2:checked ~ .pager .bp-range-2 { display: inline; }
+  #bp-2:checked ~ .pager label[for="bp-2"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-3:checked ~ table .bp-page-3 { display: table-row-group; }
+  #bp-3:checked ~ .pager .bp-range-3 { display: inline; }
+  #bp-3:checked ~ .pager label[for="bp-3"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-4:checked ~ table .bp-page-4 { display: table-row-group; }
+  #bp-4:checked ~ .pager .bp-range-4 { display: inline; }
+  #bp-4:checked ~ .pager label[for="bp-4"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-5:checked ~ table .bp-page-5 { display: table-row-group; }
+  #bp-5:checked ~ .pager .bp-range-5 { display: inline; }
+  #bp-5:checked ~ .pager label[for="bp-5"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-6:checked ~ table .bp-page-6 { display: table-row-group; }
+  #bp-6:checked ~ .pager .bp-range-6 { display: inline; }
+  #bp-6:checked ~ .pager label[for="bp-6"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Migration result</h1>
+    <span class="spectrum-badge spectrum-badge--positive">Ready</span>
+  </header>
+  <p class="meta">Source site: <a href="https://www.axa.co.jp/" target="_blank" rel="noopener">https://www.axa.co.jp/</a><br>Preview site: <a href="https://main--80b77690--aemcoder.aem.page/" target="_blank" rel="noopener">https://main--80b77690--aemcoder.aem.page/</a><br>Finished: 2026-11-09 13:36 UTC</p>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>What's done</h2></summary>
+    <div class="panel-body">
+      <p>All ten of your pages are live on the new platform, look and behave like your current site at desktop and mobile widths, and your existing addresses forward to them. Every link between the new pages works, and the page speed, accessibility and search checks found nothing to fix.</p>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Next steps</h2></summary>
+    <div class="panel-body">
+      <p>The migration is ready for your review; your analytics and consent setup has been carried over switched off, ready for you to turn on when you choose.</p>
+      <ol class="todo">
+        <li><strong>Make it yours.</strong> Move this result into your own site and GitHub repository: use <strong>Make it yours</strong> on this migration in AEM Coder.</li>
+        <li><strong>Review the pages</strong> on the <a href="https://main--80b77690--aemcoder.aem.page/" target="_blank" rel="noopener">preview site</a>.</li>
+        <li><strong>Switch on analytics and tags</strong> when you are ready: see <em>Before you switch them on</em> under Analytics and tags.</li>
+      </ol>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Pages</h2></summary>
+    <div class="panel-body">
+      <p>This migration covers 10 pages. 10 of 10 are published on the preview site; 10 have passed the side-by-side check against the original.</p>
+      <details open>
+        <summary>10 pages in this migration</summary>
+        <table class="pages">
+          <thead><tr><th>Source page</th><th>On the preview site</th><th>Status</th></tr></thead>
+          <tbody>
+          <tr><td><a href="https://www.axa.co.jp/" target="_blank" rel="noopener">https://www.axa.co.jp/</a></td><td><a href="https://main--80b77690--aemcoder.aem.page/" target="_blank" rel="noopener">アクサ生命保険株式会社</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.axa.co.jp/prospect/" target="_blank" rel="noopener">https://www.axa.co.jp/prospect/</a></td><td><a href="https://main--80b77690--aemcoder.aem.page/prospect" target="_blank" rel="noopener">保険をご検討のお客さま｜アクサ生命保険</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.axa.co.jp/product/" target="_blank" rel="noopener">https://www.axa.co.jp/product/</a></td><td><a href="https://main--80b77690--aemcoder.aem.page/product" target="_blank" rel="noopener">生命保険商品一覧｜アクサ生命保険株式会社</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.axa.co.jp/about-insurance/" target="_blank" rel="noopener">https://www.axa.co.jp/about-insurance/</a></td><td><a href="https://main--80b77690--aemcoder.aem.page/about-insurance" target="_blank" rel="noopener">保険の選び方｜アクサ生命保険株式会社</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.axa.co.jp/company/" target="_blank" rel="noopener">https://www.axa.co.jp/company/</a></td><td><a href="https://main--80b77690--aemcoder.aem.page/company" target="_blank" rel="noopener">法人のお客さま｜アクサ生命株式会社</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.axa.co.jp/customer/" target="_blank" rel="noopener">https://www.axa.co.jp/customer/</a></td><td><a href="https://main--80b77690--aemcoder.aem.page/customer" target="_blank" rel="noopener">ご契約者さま｜アクサ生命保険株式会社</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.axa.co.jp/customer-feedback/" target="_blank" rel="noopener">https://www.axa.co.jp/customer-feedback/</a></td><td><a href="https://main--80b77690--aemcoder.aem.page/customer-feedback" target="_blank" rel="noopener">お客さまからの評価｜アクサ生命保険株式会社</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.axa.co.jp/recruitment/" target="_blank" rel="noopener">https://www.axa.co.jp/recruitment/</a></td><td><a href="https://main--80b77690--aemcoder.aem.page/recruitment" target="_blank" rel="noopener">採用情報｜アクサ生命保険</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.axa.co.jp/about-axa/" target="_blank" rel="noopener">https://www.axa.co.jp/about-axa/</a></td><td><a href="https://main--80b77690--aemcoder.aem.page/about-axa" target="_blank" rel="noopener">企業情報｜アクサ生命保険株式会社</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.axa.co.jp/dataprivacy/" target="_blank" rel="noopener">https://www.axa.co.jp/dataprivacy/</a></td><td><a href="https://main--80b77690--aemcoder.aem.page/dataprivacy" target="_blank" rel="noopener">アクサグループデータプライバシー宣言｜アクサ生命保険株式会社</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          </tbody>
+        </table>
+      </details>
+    </div>
+  </details>
+
+  <details class="spectrum-panel">
+    <summary class="spectrum-panel-header"><h2>Page templates</h2></summary>
+    <div class="panel-body">
+      <table>
+        <thead><tr><th>Template</th><th>Pages</th><th>Desktop</th><th>Mobile</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>Home page</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Corporate and information pages</td><td>4</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Policyholders hub</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Insurance guide</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Product list</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Prospective customers hub</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Careers page</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" id="blocks-used">
+    <summary class="spectrum-panel-header"><h2>Blocks used</h2></summary>
+    <div class="panel-body">
+      <p>28 blocks in 91 variants across 10 pages. These are the building blocks your authors will work with.</p>
+      <input type="radio" name="blocks-page" id="bp-1" class="bp-radio" checked>
+      <input type="radio" name="blocks-page" id="bp-2" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-3" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-4" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-5" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-6" class="bp-radio">
+      <table class="blocks">
+        <thead><tr><th>Block</th><th>Variant</th><th>Pages</th></tr></thead>
+        <tbody class="bp-page bp-page-1">
+          <tr class="group"><td class="block" rowspan="2">breadcrumbs<span class="block-pages">8 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-0-0">View 7 pages</button></td></tr>
+          <tr><td><span class="variant">slash</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/prospect" target="_blank" rel="noopener">保険をご検討のお客さま｜アクサ生命保険</a></td></tr>
+          <tr class="group"><td class="block" rowspan="4">anchor-links<span class="block-pages">4 pages</span></td><td><span class="variant">two-up</span><span class="variant">arrow-right</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/customer-feedback" target="_blank" rel="noopener">お客さまからの評価｜アクサ生命保険株式会社</a></td></tr>
+          <tr><td><span class="variant">icons</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/product" target="_blank" rel="noopener">生命保険商品一覧｜アクサ生命保険株式会社</a></td></tr>
+          <tr><td><span class="variant">jump</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/prospect" target="_blank" rel="noopener">保険をご検討のお客さま｜アクサ生命保険</a></td></tr>
+          <tr><td><span class="variant">rule-before</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/company" target="_blank" rel="noopener">法人のお客さま｜アクサ生命株式会社</a></td></tr>
+          <tr class="group"><td class="block" rowspan="7">art-image<span class="block-pages">4 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/about-insurance" target="_blank" rel="noopener">保険の選び方｜アクサ生命保険株式会社</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">banner</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/" target="_blank" rel="noopener">アクサ生命保険株式会社</a></td></tr>
+          <tr><td><span class="variant">center</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/company" target="_blank" rel="noopener">法人のお客さま｜アクサ生命株式会社</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">center</span><span class="variant">collapsed</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/about-axa" target="_blank" rel="noopener">企業情報｜アクサ生命保険株式会社</a></td></tr>
+          <tr><td><span class="variant">center</span><span class="variant">indent-s</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/company" target="_blank" rel="noopener">法人のお客さま｜アクサ生命株式会社</a></td></tr>
+          <tr><td><span class="variant">left</span><span class="variant">indent</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/company" target="_blank" rel="noopener">法人のお客さま｜アクサ生命株式会社</a></td></tr>
+          <tr><td><span class="variant">left</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/company" target="_blank" rel="noopener">法人のお客さま｜アクサ生命株式会社</a></td></tr>
+          <tr class="group"><td class="block" rowspan="9">section-title<span class="block-pages">4 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/" target="_blank" rel="noopener">アクサ生命保険株式会社</a> <span class="blocks-count">×3</span></td></tr>
+          <tr><td><span class="variant">blue-block</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/product" target="_blank" rel="noopener">生命保険商品一覧｜アクサ生命保険株式会社</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">center</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/product" target="_blank" rel="noopener">生命保険商品一覧｜アクサ生命保険株式会社</a></td></tr>
+          <tr><td><span class="variant">guide</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/about-insurance" target="_blank" rel="noopener">保険の選び方｜アクサ生命保険株式会社</a> <span class="blocks-count">×4</span></td></tr>
+          <tr><td><span class="variant">guide</span><span class="variant">with-link</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/about-insurance" target="_blank" rel="noopener">保険の選び方｜アクサ生命保険株式会社</a></td></tr>
+          <tr><td><span class="variant">no-rule</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/prospect" target="_blank" rel="noopener">保険をご検討のお客さま｜アクサ生命保険</a></td></tr>
+          <tr><td><span class="variant">no-rule</span><span class="variant">sp-break</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/prospect" target="_blank" rel="noopener">保険をご検討のお客さま｜アクサ生命保険</a></td></tr>
+          <tr><td><span class="variant">numbered</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/prospect" target="_blank" rel="noopener">保険をご検討のお客さま｜アクサ生命保険</a> <span class="blocks-count">×4</span></td></tr>
+          <tr><td><span class="variant">sp-break</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/" target="_blank" rel="noopener">アクサ生命保険株式会社</a> <span class="blocks-count">×2</span></td></tr>
+          <tr class="group"><td class="block" rowspan="25">columns<span class="block-pages">3 pages</span></td><td><span class="variant">w-50-50</span><span class="variant">sm-stack</span><span class="variant">boxed</span><span class="variant">rule-before-l</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/about-axa" target="_blank" rel="noopener">企業情報｜アクサ生命保険株式会社</a></td></tr>
+          <tr><td><span class="variant">w-50-50</span><span class="variant">sm-stack</span><span class="variant">boxed</span><span class="variant">space</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/about-axa" target="_blank" rel="noopener">企業情報｜アクサ生命保険株式会社</a></td></tr>
+          <tr><td><span class="variant">w-50-50</span><span class="variant">sm-stack</span><span class="variant">boxed</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/about-axa" target="_blank" rel="noopener">企業情報｜アクサ生命保険株式会社</a></td></tr>
+          <tr><td><span class="variant">w-50-50</span><span class="variant">sm-stack</span><span class="variant">img-right</span><span class="variant">sp-img-center</span><span class="variant">text-s</span><span class="variant">link-s</span><span class="variant">cell-rule-2</span><span class="variant">rule-m</span><span class="variant">rule-grey</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/customer-feedback" target="_blank" rel="noopener">お客さまからの評価｜アクサ生命保険株式会社</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">w-50-50</span><span class="variant">sm-stack</span><span class="variant">img-right</span><span class="variant">sp-img-center</span><span class="variant">text-s</span><span class="variant">link-s</span><span class="variant">cell-rule-2</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/customer-feedback" target="_blank" rel="noopener">お客さまからの評価｜アクサ生命保険株式会社</a></td></tr>
+          <tr><td><span class="variant">contact</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/about-axa" target="_blank" rel="noopener">企業情報｜アクサ生命保険株式会社</a></td></tr>
+          <tr><td><span class="variant">w-50-50</span><span class="variant">sm-stack</span><span class="variant">img-right</span><span class="variant">sp-img-center</span><span class="variant">img-indent</span><span class="variant">sp-img-indent</span><span class="variant">lead-m</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/company" target="_blank" rel="noopener">法人のお客さま｜アクサ生命株式会社</a></td></tr>
+          <tr><td><span class="variant">w-60-40</span><span class="variant">sm-stack</span><span class="variant">img-indent</span><span class="variant">lead-m</span><span class="variant">note-gap</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/company" target="_blank" rel="noopener">法人のお客さま｜アクサ生命株式会社</a></td></tr>
+          <tr><td><span class="variant">w-50-50</span><span class="variant">sm-stack</span><span class="variant">img-inward</span><span class="variant">sp-img-center</span><span class="variant">rules-3</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/customer-feedback" target="_blank" rel="noopener">お客さまからの評価｜アクサ生命保険株式会社</a></td></tr>
+          <tr><td><span class="variant">w-15-85</span><span class="variant">sm-25-75</span><span class="variant">img-left</span><span class="variant">lead-l</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/company" target="_blank" rel="noopener">法人のお客さま｜アクサ生命株式会社</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">w-15-85</span><span class="variant">sm-25-75</span><span class="variant">img-left</span><span class="variant">lead-m</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/company" target="_blank" rel="noopener">法人のお客さま｜アクサ生命株式会社</a></td></tr>
+          <tr><td><span class="variant">w-15-85</span><span class="variant">sm-25-75</span><span class="variant">img-left</span><span class="variant">lead-s</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/company" target="_blank" rel="noopener">法人のお客さま｜アクサ生命株式会社</a></td></tr>
+          <tr><td><span class="variant">w-40-60</span><span class="variant">sm-stack</span><span class="variant">img-left</span><span class="variant">text-s</span><span class="variant">rule</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/company" target="_blank" rel="noopener">法人のお客さま｜アクサ生命株式会社</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">w-40-60</span><span class="variant">sm-stack</span><span class="variant">img-left</span><span class="variant">text-s</span><span class="variant">rule-m</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/company" target="_blank" rel="noopener">法人のお客さま｜アクサ生命株式会社</a></td></tr>
+          <tr><td><span class="variant">w-15-85</span><span class="variant">sm-25-75</span><span class="variant">img-left</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/company" target="_blank" rel="noopener">法人のお客さま｜アクサ生命株式会社</a></td></tr>
+          <tr><td><span class="variant">w-10-90</span><span class="variant">sm-15-85</span><span class="variant">img-right</span><span class="variant">lead-m</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/company" target="_blank" rel="noopener">法人のお客さま｜アクサ生命株式会社</a> <span class="blocks-count">×3</span></td></tr>
+          <tr><td><span class="variant">w-10-90</span><span class="variant">sm-25-75</span><span class="variant">img-right</span><span class="variant">lead-m</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/company" target="_blank" rel="noopener">法人のお客さま｜アクサ生命株式会社</a></td></tr>
+          <tr><td><span class="variant">w-70-30</span><span class="variant">sm-stack</span><span class="variant">img-right</span><span class="variant">sp-img-center</span><span class="variant">lead-m</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/company" target="_blank" rel="noopener">法人のお客さま｜アクサ生命株式会社</a></td></tr>
+          <tr><td><span class="variant">w-15-85</span><span class="variant">sm-25-75</span><span class="variant">lead-l</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/company" target="_blank" rel="noopener">法人のお客さま｜アクサ生命株式会社</a> <span class="blocks-count">×3</span></td></tr>
+          <tr><td><span class="variant">w-15-85</span><span class="variant">sm-25-75</span><span class="variant">lead-m</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/company" target="_blank" rel="noopener">法人のお客さま｜アクサ生命株式会社</a></td></tr>
+          <tr><td><span class="variant">w-10-90</span><span class="variant">sm-15-85</span><span class="variant">lead-s</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/company" target="_blank" rel="noopener">法人のお客さま｜アクサ生命株式会社</a> <span class="blocks-count">×3</span></td></tr>
+          <tr><td><span class="variant">w-15-85</span><span class="variant">sm-25-75</span><span class="variant">lead-s</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/company" target="_blank" rel="noopener">法人のお客さま｜アクサ生命株式会社</a> <span class="blocks-count">×4</span></td></tr>
+          <tr><td><span class="variant">w-40-60</span><span class="variant">sm-stack</span><span class="variant">text-s</span><span class="variant">notes-list</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/company" target="_blank" rel="noopener">法人のお客さま｜アクサ生命株式会社</a></td></tr>
+          <tr><td><span class="variant">w-50-50</span><span class="variant">sm-stack</span><span class="variant">space-m</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/company" target="_blank" rel="noopener">法人のお客さま｜アクサ生命株式会社</a></td></tr>
+          <tr><td><span class="variant">w-50-50</span><span class="variant">sm-stack</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/company" target="_blank" rel="noopener">法人のお客さま｜アクサ生命株式会社</a> <span class="blocks-count">×7</span></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-2">
+          <tr class="group"><td class="block" rowspan="3">contact-links<span class="block-pages">3 pages</span></td><td><span class="variant">card</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/customer" target="_blank" rel="noopener">ご契約者さま｜アクサ生命保険株式会社</a></td></tr>
+          <tr><td><span class="variant">tel-boxes</span><span class="variant">pc-only</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/about-insurance" target="_blank" rel="noopener">保険の選び方｜アクサ生命保険株式会社</a></td></tr>
+          <tr><td><span class="variant">strip</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/product" target="_blank" rel="noopener">生命保険商品一覧｜アクサ生命保険株式会社</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">feature-grid<span class="block-pages">3 pages</span></td><td><span class="variant">bullets</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/prospect" target="_blank" rel="noopener">保険をご検討のお客さま｜アクサ生命保険</a></td></tr>
+          <tr><td><span class="variant">icons</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/" target="_blank" rel="noopener">アクサ生命保険株式会社</a></td></tr>
+          <tr><td><span class="variant">services</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/customer" target="_blank" rel="noopener">ご契約者さま｜アクサ生命保険株式会社</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">page-banner<span class="block-pages">3 pages</span></td><td><span class="variant">consult</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/product" target="_blank" rel="noopener">生命保険商品一覧｜アクサ生命保険株式会社</a></td></tr>
+          <tr><td><span class="variant">image</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/prospect" target="_blank" rel="noopener">保険をご検討のお客さま｜アクサ生命保険</a></td></tr>
+          <tr><td><span class="variant">login</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/customer" target="_blank" rel="noopener">ご契約者さま｜アクサ生命保険株式会社</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">simulation-quiz<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/" target="_blank" rel="noopener">アクサ生命保険株式会社</a>, <a href="https://main--80b77690--aemcoder.aem.page/prospect" target="_blank" rel="noopener">保険をご検討のお客さま｜アクサ生命保険</a></td></tr>
+          <tr><td><span class="variant">compact</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/product" target="_blank" rel="noopener">生命保険商品一覧｜アクサ生命保険株式会社</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">accordion<span class="block-pages">2 pages</span></td><td><span class="variant">products</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/product" target="_blank" rel="noopener">生命保険商品一覧｜アクサ生命保険株式会社</a></td></tr>
+          <tr><td><span class="variant">sp-collapse</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/about-insurance" target="_blank" rel="noopener">保険の選び方｜アクサ生命保険株式会社</a> <span class="blocks-count">×3</span></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-3">
+          <tr class="group"><td class="block" rowspan="2">cta-consult<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/" target="_blank" rel="noopener">アクサ生命保険株式会社</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">two-up</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/product" target="_blank" rel="noopener">生命保険商品一覧｜アクサ生命保険株式会社</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">entry-links<span class="block-pages">2 pages</span></td><td><span class="variant">arrow</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/" target="_blank" rel="noopener">アクサ生命保険株式会社</a></td></tr>
+          <tr><td><span class="variant">buttons</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/about-insurance" target="_blank" rel="noopener">保険の選び方｜アクサ生命保険株式会社</a></td></tr>
+          <tr class="group"><td class="block" rowspan="5">link-buttons<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/customer" target="_blank" rel="noopener">ご契約者さま｜アクサ生命保険株式会社</a></td></tr>
+          <tr><td><span class="variant">category</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/product" target="_blank" rel="noopener">生命保険商品一覧｜アクサ生命保険株式会社</a></td></tr>
+          <tr><td><span class="variant">grouped</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/customer" target="_blank" rel="noopener">ご契約者さま｜アクサ生命保険株式会社</a></td></tr>
+          <tr><td><span class="variant">outline</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/product" target="_blank" rel="noopener">生命保険商品一覧｜アクサ生命保険株式会社</a></td></tr>
+          <tr><td><span class="variant">white</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/customer" target="_blank" rel="noopener">ご契約者さま｜アクサ生命保険株式会社</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">link-list<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/prospect" target="_blank" rel="noopener">保険をご検討のお客さま｜アクサ生命保険</a></td></tr>
+          <tr><td><span class="variant">plain</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/about-insurance" target="_blank" rel="noopener">保険の選び方｜アクサ生命保険株式会社</a></td></tr>
+          <tr class="group"><td class="block" rowspan="4">news-list<span class="block-pages">2 pages</span></td><td><span class="variant">dated</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/customer" target="_blank" rel="noopener">ご契約者さま｜アクサ生命保険株式会社</a></td></tr>
+          <tr><td><span class="variant">home</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/" target="_blank" rel="noopener">アクサ生命保険株式会社</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">notice</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/" target="_blank" rel="noopener">アクサ生命保険株式会社</a></td></tr>
+          <tr><td><span class="variant">recommended</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/" target="_blank" rel="noopener">アクサ生命保険株式会社</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-4">
+          <tr class="group"><td class="block" rowspan="2">product-cards<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/" target="_blank" rel="noopener">アクサ生命保険株式会社</a></td></tr>
+          <tr><td><span class="variant">icons</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/prospect" target="_blank" rel="noopener">保険をご検討のお客さま｜アクサ生命保険</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">strengths<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/" target="_blank" rel="noopener">アクサ生命保険株式会社</a></td></tr>
+          <tr><td><span class="variant">stats</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/prospect" target="_blank" rel="noopener">保険をご検討のお客さま｜アクサ生命保険</a></td></tr>
+          <tr class="group"><td class="block">banner-links<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/" target="_blank" rel="noopener">アクサ生命保険株式会社</a></td></tr>
+          <tr class="group"><td class="block">banner-slider<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/customer" target="_blank" rel="noopener">ご契約者さま｜アクサ生命保険株式会社</a></td></tr>
+          <tr class="group"><td class="block">bubble-guide<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/about-insurance" target="_blank" rel="noopener">保険の選び方｜アクサ生命保険株式会社</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-5">
+          <tr class="group"><td class="block">hero-carousel<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/" target="_blank" rel="noopener">アクサ生命保険株式会社</a></td></tr>
+          <tr class="group"><td class="block">link-panels<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/customer" target="_blank" rel="noopener">ご契約者さま｜アクサ生命保険株式会社</a></td></tr>
+          <tr class="group"><td class="block">recruit-about<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/recruitment" target="_blank" rel="noopener">採用情報｜アクサ生命保険</a></td></tr>
+          <tr class="group"><td class="block">recruit-channels<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/recruitment" target="_blank" rel="noopener">採用情報｜アクサ生命保険</a></td></tr>
+          <tr class="group"><td class="block">recruit-entry<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/recruitment" target="_blank" rel="noopener">採用情報｜アクサ生命保険</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-6">
+          <tr class="group"><td class="block">recruit-hero<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/recruitment" target="_blank" rel="noopener">採用情報｜アクサ生命保険</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">recruit-statement<span class="block-pages">1 page</span></td><td><span class="variant">message</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/recruitment" target="_blank" rel="noopener">採用情報｜アクサ生命保険</a></td></tr>
+          <tr><td><span class="variant">purpose</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/recruitment" target="_blank" rel="noopener">採用情報｜アクサ生命保険</a></td></tr>
+          <tr class="group"><td class="block">testimonial-cards<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--80b77690--aemcoder.aem.page/about-insurance" target="_blank" rel="noopener">保険の選び方｜アクサ生命保険株式会社</a></td></tr>
+        </tbody>
+      </table>
+      <nav class="pager" aria-label="Pages of blocks"><span class="bp-range bp-range-1">Blocks 1–5 of 28</span><span class="bp-range bp-range-2">Blocks 6–10 of 28</span><span class="bp-range bp-range-3">Blocks 11–15 of 28</span><span class="bp-range bp-range-4">Blocks 16–20 of 28</span><span class="bp-range bp-range-5">Blocks 21–25 of 28</span><span class="bp-range bp-range-6">Blocks 26–28 of 28</span><div class="labels"><label for="bp-1" class="spectrum-button spectrum-button--quiet">1</label><label for="bp-2" class="spectrum-button spectrum-button--quiet">2</label><label for="bp-3" class="spectrum-button spectrum-button--quiet">3</label><label for="bp-4" class="spectrum-button spectrum-button--quiet">4</label><label for="bp-5" class="spectrum-button spectrum-button--quiet">5</label><label for="bp-6" class="spectrum-button spectrum-button--quiet">6</label></div></nav>
+      <div popover id="blocks-pages-0-0" class="blocks-popover" aria-labelledby="blocks-pages-0-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-0-0-title">breadcrumbs <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 7 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-0-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--80b77690--aemcoder.aem.page/product" target="_blank" rel="noopener">生命保険商品一覧｜アクサ生命保険株式会社</a></li>
+          <li><a href="https://main--80b77690--aemcoder.aem.page/about-insurance" target="_blank" rel="noopener">保険の選び方｜アクサ生命保険株式会社</a></li>
+          <li><a href="https://main--80b77690--aemcoder.aem.page/company" target="_blank" rel="noopener">法人のお客さま｜アクサ生命株式会社</a></li>
+          <li><a href="https://main--80b77690--aemcoder.aem.page/customer" target="_blank" rel="noopener">ご契約者さま｜アクサ生命保険株式会社</a></li>
+          <li><a href="https://main--80b77690--aemcoder.aem.page/customer-feedback" target="_blank" rel="noopener">お客さまからの評価｜アクサ生命保険株式会社</a></li>
+          <li><a href="https://main--80b77690--aemcoder.aem.page/about-axa" target="_blank" rel="noopener">企業情報｜アクサ生命保険株式会社</a></li>
+          <li><a href="https://main--80b77690--aemcoder.aem.page/dataprivacy" target="_blank" rel="noopener">アクサグループデータプライバシー宣言｜アクサ生命保険株式会社</a></li>
+        </ul>
+      </div>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Analytics and tags</h2><span class="spectrum-badge">Switched off</span></summary>
+    <div class="panel-body">
+      <p>We carried over 1 tag and OneTrust, <strong>switched off</strong>: nothing loads on the new site until you turn it on.</p>
+      <table>
+        <thead><tr><th>Found on www.axa.co.jp</th><th></th></tr></thead>
+        <tbody>
+          <tr><td>Google Tag Manager</td><td><code>GTM-T87MNJG</code></td></tr>
+          <tr><td>Consent manager</td><td>OneTrust, 0 cookie categories</td></tr>
+          <tr><td>Data layers</td><td><code>dataLayer</code></td></tr>
+          <tr><td>Loaded by your tags</td><td>Google Analytics / Ads, session replay, New Relic, ad / retargeting pixel, live chat widget</td></tr>
+        </tbody>
+      </table>
+      <h3>Before you switch them on</h3>
+      <ol class="todo">
+        <li><strong>Switch on OneTrust together with the tags.</strong></li>
+        <li><strong>Share the setup of Google Tag Manager.</strong> We could not read its rules.</li>
+      </ol>
+      <p class="meta">Full details for your developers: <code>stardust/martech-handoff.md</code> in the repository.</p>
+    </div>
+  </details>
+
+  <details class="spectrum-panel">
+    <summary class="spectrum-panel-header"><h2>Journey</h2></summary>
+    <div class="panel-body">
+      <ol class="steps">
+        <li>Analyzing your site<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Capturing brand and design<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Rebuilding page templates<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Publishing your pages<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Checking every page against the original<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Final checks<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+      </ol>
+    </div>
+  </details>
+</main>
+</body>
+</html>

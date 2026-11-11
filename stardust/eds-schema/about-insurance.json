@@ -1,0 +1,67 @@
+{
+ "source": "file:///workspace/80b77690/stardust/prototypes/about-insurance-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "ai-contact",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "保険をご検討中の方は"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "0120-97-7990"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "平日9:00～18:00 土9:00～17:00"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "コールバックを予約する"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "ご契約者さまは"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "0120-568-093"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "平日9:00～18:00 土9:00～17:00"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "詳しくはこちら"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.ai-contact__cell",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 4
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

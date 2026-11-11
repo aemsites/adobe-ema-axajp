@@ -1,0 +1,1391 @@
+[live-session] waiting to pace live navigations to www.axa.co.jp (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/company-1440/vdiff-iter4/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 10422,
+  "textLen": 3649,
+  "images": [
+   {
+    "src": "aQmgKbpReVYa3_e8_02_pc.jpg?auto=format,compress",
+    "natural": "1050x107",
+    "rendered": "1050x107",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgK7pReVYa3_e9_02_sp.jpg?auto=format,compress",
+    "natural": "663x300",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "42x40",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMbpReVYa3_fC_q_sp.png?auto=format,compress",
+    "natural": "69x67",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgM7pReVYa3_fD_company_01_pc.png?auto=format,compress",
+    "natural": "946x306",
+    "rendered": "946x306",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNLpReVYa3_fF_company_01_sp.png?auto=format,compress",
+    "natural": "574x637",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNbpReVYa3_fG_05_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNrpReVYa3_fH_05_sp.png?auto=format,compress",
+    "natural": "151x151",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "42x40",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgPLpReVYa3_fM_company_02_pc.png?auto=format,compress",
+    "natural": "946x305",
+    "rendered": "946x305",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgPrpReVYa3_fN_company_02_sp.png?auto=format,compress",
+    "natural": "574x647",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNbpReVYa3_fG_05_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNrpReVYa3_fH_05_sp.png?auto=format,compress",
+    "natural": "151x151",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "42x40",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgQrpReVYa3_fQ_company_03_3_pc.png?auto=format,compress",
+    "natural": "603x274",
+    "rendered": "603x274",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgQ7pReVYa3_fR_company_03_sp.png?auto=format,compress",
+    "natural": "574x462",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgRLpReVYa3_fS_ph-02.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "408x122",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgRLpReVYa3_fS_ph-02.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNbpReVYa3_fG_05_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNrpReVYa3_fH_05_sp.png?auto=format,compress",
+    "natural": "151x151",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "42x40",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgR7pReVYa3_fV_company_04_2_temp.jpg?auto=format,compress",
+    "natural": "439x410",
+    "rendered": "495x410",
+    "fit": "fill",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgR7pReVYa3_fV_company_04_2_temp.jpg?auto=format,compress",
+    "natural": "439x410",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "42x40",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgSLpReVYa3_fW_company_09_pc.png?auto=format,compress",
+    "natural": "946x210",
+    "rendered": "1002x210",
+    "fit": "fill",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgSbpReVYa3_fX_company_09_sp.png?auto=format,compress",
+    "natural": "574x627",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNbpReVYa3_fG_05_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNrpReVYa3_fH_05_sp.png?auto=format,compress",
+    "natural": "151x151",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "42x40",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgS7pReVYa3_fZ_company_06.png?auto=format,compress",
+    "natural": "574x581",
+    "rendered": "630x581",
+    "fit": "fill",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgS7pReVYa3_fZ_company_06.png?auto=format,compress",
+    "natural": "574x581",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNbpReVYa3_fG_05_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNrpReVYa3_fH_05_sp.png?auto=format,compress",
+    "natural": "151x151",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "42x40",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgTrpReVYa3_fb_company_07_pc.png?auto=format,compress",
+    "natural": "945x279",
+    "rendered": "973x279",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgULpReVYa3_fc_company_07_sp.png?auto=format,compress",
+    "natural": "574x1464",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNbpReVYa3_fG_05_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNrpReVYa3_fH_05_sp.png?auto=format,compress",
+    "natural": "151x151",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgUbpReVYa3_fd_ph-01.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "408x122",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgUbpReVYa3_fd_ph-01.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgRLpReVYa3_fS_ph-02.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "408x122",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgRLpReVYa3_fS_ph-02.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgUrpReVYa3_fe_ph-03.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "408x122",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgUrpReVYa3_fe_ph-03.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "ln_logo.png",
+    "natural": "318x270",
+    "rendered": "24x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=97045623&Ver=2&mid=2b5d70c5-c89e-4baf-8e30-46501932e1e8&bo=1&sid=38980240dbfb11f1acc1311e4dda32ec&vid=38985140dbfb11f1adebe395bb3d1d69&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&tl=%E3%82%A2%E3%82%AF%E3%82%B5%E7%94%9F%E5%91%BD%E4%BF%9D%E9%99%BA%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE&p=https%3A%2F%2Fwww.axa.co.jp%2Fcompany%2F&r=&lt=705&evt=pageLoad&sv=2&cdb=AQAQ&rn=676342",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "ot_company_logo.png",
+    "natural": "2042x280",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "法人のお客さま",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "28px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "事業保障資金の確保",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "死亡退職金の準備",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "従業員の福利厚生",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "従業員の退職金準備",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "経営者の勇退準備",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "事業承継・相続",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "法人のお客さまを対象に、さまざまなサービスを提供しています。",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "19.6px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "関連リンク",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "19.6px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "アクサ生命へのご照会、ご相談は以下で受け付けております。",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "19.6px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Follow AXA",
+    "color": "rgb(52, 60, 61)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "Heading__SliceHeading-sc-fc73c69e-0",
+    "width": 1078,
+    "left": 181
+   },
+   {
+    "sel": "after-anchor",
+    "width": 1064,
+    "left": 195
+   },
+   {
+    "sel": "after-anchor",
+    "width": 1046,
+    "left": 197
+   },
+   {
+    "sel": "after-anchor",
+    "width": 1046,
+    "left": 197
+   },
+   {
+    "sel": "after-anchor",
+    "width": 1046,
+    "left": 197
+   },
+   {
+    "sel": "LinkButtons__LinkButtonsLayout-sc-92871218-0",
+    "width": 1046,
+    "left": 197
+   },
+   {
+    "sel": "Heading__SliceHeading-sc-fc73c69e-0",
+    "width": 1078,
+    "left": 181
+   },
+   {
+    "sel": "after-anchor",
+    "width": 914,
+    "left": 345
+   },
+   {
+    "sel": "after-anchor",
+    "width": 914,
+    "left": 345
+   },
+   {
+    "sel": "after-anchor",
+    "width": 965,
+    "left": 292
+   },
+   {
+    "sel": "after-anchor",
+    "width": 1018,
+    "left": 239
+   },
+   {
+    "sel": "after-anchor",
+    "width": 910,
+    "left": 347
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 10422,
+  "textLen": 3616,
+  "images": [
+   {
+    "src": "aQmgKbpReVYa3_e8_02_pc.jpg?auto=format,compress",
+    "natural": "1050x107",
+    "rendered": "1050x107",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgK7pReVYa3_e9_02_sp.jpg?auto=format,compress",
+    "natural": "663x300",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "42x40",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMbpReVYa3_fC_q_sp.png?auto=format,compress",
+    "natural": "69x67",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgM7pReVYa3_fD_company_01_pc.png?auto=format,compress",
+    "natural": "946x306",
+    "rendered": "946x306",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNLpReVYa3_fF_company_01_sp.png?auto=format,compress",
+    "natural": "574x637",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNbpReVYa3_fG_05_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNrpReVYa3_fH_05_sp.png?auto=format,compress",
+    "natural": "151x151",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "42x40",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgPLpReVYa3_fM_company_02_pc.png?auto=format,compress",
+    "natural": "946x305",
+    "rendered": "946x305",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgPrpReVYa3_fN_company_02_sp.png?auto=format,compress",
+    "natural": "574x647",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNbpReVYa3_fG_05_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNrpReVYa3_fH_05_sp.png?auto=format,compress",
+    "natural": "151x151",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "42x40",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgQrpReVYa3_fQ_company_03_3_pc.png?auto=format,compress",
+    "natural": "603x274",
+    "rendered": "603x274",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgQ7pReVYa3_fR_company_03_sp.png?auto=format,compress",
+    "natural": "574x462",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgRLpReVYa3_fS_ph-02.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "408x122",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgRLpReVYa3_fS_ph-02.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNbpReVYa3_fG_05_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNrpReVYa3_fH_05_sp.png?auto=format,compress",
+    "natural": "151x151",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "42x40",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgR7pReVYa3_fV_company_04_2_temp.jpg?auto=format,compress",
+    "natural": "439x410",
+    "rendered": "495x410",
+    "fit": "fill",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgR7pReVYa3_fV_company_04_2_temp.jpg?auto=format,compress",
+    "natural": "439x410",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "42x40",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgSLpReVYa3_fW_company_09_pc.png?auto=format,compress",
+    "natural": "946x210",
+    "rendered": "1002x210",
+    "fit": "fill",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgSbpReVYa3_fX_company_09_sp.png?auto=format,compress",
+    "natural": "574x627",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNbpReVYa3_fG_05_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNrpReVYa3_fH_05_sp.png?auto=format,compress",
+    "natural": "151x151",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "42x40",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgS7pReVYa3_fZ_company_06.png?auto=format,compress",
+    "natural": "574x581",
+    "rendered": "630x581",
+    "fit": "fill",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgS7pReVYa3_fZ_company_06.png?auto=format,compress",
+    "natural": "574x581",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNbpReVYa3_fG_05_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNrpReVYa3_fH_05_sp.png?auto=format,compress",
+    "natural": "151x151",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "42x40",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgTrpReVYa3_fb_company_07_pc.png?auto=format,compress",
+    "natural": "945x279",
+    "rendered": "973x279",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgULpReVYa3_fc_company_07_sp.png?auto=format,compress",
+    "natural": "574x1464",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNbpReVYa3_fG_05_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "100x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNrpReVYa3_fH_05_sp.png?auto=format,compress",
+    "natural": "151x151",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgUbpReVYa3_fd_ph-01.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "408x122",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgUbpReVYa3_fd_ph-01.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgRLpReVYa3_fS_ph-02.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "408x122",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgRLpReVYa3_fS_ph-02.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgUrpReVYa3_fe_ph-03.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "408x122",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgUrpReVYa3_fe_ph-03.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "ln_logo.png",
+    "natural": "318x270",
+    "rendered": "24x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "法人のお客さま",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "28px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "事業保障資金の確保",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "死亡退職金の準備",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "従業員の福利厚生",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "従業員の退職金準備",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "経営者の勇退準備",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "事業承継・相続",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "法人のお客さまを対象に、さまざまなサービスを提供しています。",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "19.6px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "関連リンク",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "19.6px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "アクサ生命へのご照会、ご相談は以下で受け付けております。",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "19.6px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Follow AXA",
+    "color": "rgb(52, 60, 61)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "slice",
+    "width": 1078,
+    "left": 181
+   },
+   {
+    "sel": "slice-text",
+    "width": 1078,
+    "left": 181
+   },
+   {
+    "sel": "slice-text",
+    "width": 1046,
+    "left": 197
+   },
+   {
+    "sel": "slice-text",
+    "width": 1046,
+    "left": 197
+   },
+   {
+    "sel": "slice-text",
+    "width": 1046,
+    "left": 197
+   },
+   {
+    "sel": "anchor-buttons",
+    "width": 1046,
+    "left": 197
+   },
+   {
+    "sel": "slice",
+    "width": 1078,
+    "left": 181
+   },
+   {
+    "sel": "slice-text",
+    "width": 914,
+    "left": 345
+   },
+   {
+    "sel": "slice-text",
+    "width": 914,
+    "left": 345
+   },
+   {
+    "sel": "slice-text",
+    "width": 965,
+    "left": 292
+   },
+   {
+    "sel": "slice-text",
+    "width": 1074,
+    "left": 183
+   },
+   {
+    "sel": "slice-text",
+    "width": 910,
+    "left": 347
+   }
+  ]
+ }
+}

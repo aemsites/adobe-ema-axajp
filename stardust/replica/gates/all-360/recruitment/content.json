@@ -1,0 +1,6235 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-09T13:19:23.296Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.axa.co.jp/recruitment/",
+  "at": "2026-11-09T13:18:51.184Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 12561,
+  "root": "div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "header.Header-styles__Header-sc-492e4bd0-0.eFoDbi > div.Header-styles__HeaderWrapper-sc-492e4bd0-1.cSaQOH > a.Header-styles__HeaderLogo-sc-492e4bd0-3.gTmMHV",
+    "x": 20,
+    "y": 24,
+    "w": 116,
+    "h": 48,
+    "text": "アクサ生命 採用サイト",
+    "href": "/recruitment/career"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Header-styles__HeaderWrapper-sc-492e4bd0-1.cSaQOH > a.Header-styles__HeaderLogo-sc-492e4bd0-3.gTmMHV > img.Header-styles__LogoImg-sc-492e4bd0-4.idyzuM",
+    "x": 20,
+    "y": 24,
+    "w": 48,
+    "h": 48,
+    "text": "アクサ",
+    "file": "axa_logo_no_text"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Header-styles__HeaderWrapper-sc-492e4bd0-1.cSaQOH > nav.Header-styles__HeaderNavWrapper-sc-492e4bd0-6.lmKCbr > button.Header-styles__HeaderEntryMenuToggle-sc-492e4bd0-10.ermIRs",
+    "x": 210,
+    "y": 24,
+    "w": 96,
+    "h": 48,
+    "text": "entry"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Header-styles__HeaderWrapper-sc-492e4bd0-1.cSaQOH > nav.Header-styles__HeaderNavWrapper-sc-492e4bd0-6.lmKCbr > button.Header-styles__HeaderEntryMenuToggle-sc-492e4bd0-10.ermIRs",
+    "x": 210,
+    "y": 24,
+    "w": 96,
+    "h": 48,
+    "label": "trigger",
+    "value": "entry",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Header-styles__HeaderWrapper-sc-492e4bd0-1.cSaQOH > nav.Header-styles__HeaderNavWrapper-sc-492e4bd0-6.lmKCbr > button.Header-styles__HeaderMainMenuToggle-sc-492e4bd0-11.bFBlRm",
+    "x": 306,
+    "y": 24,
+    "w": 48,
+    "h": 48,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Header-styles__HeaderWrapper-sc-492e4bd0-1.cSaQOH > nav.Header-styles__HeaderNavWrapper-sc-492e4bd0-6.lmKCbr > button.Header-styles__HeaderMainMenuToggle-sc-492e4bd0-11.bFBlRm",
+    "x": 306,
+    "y": 24,
+    "w": 48,
+    "h": 48,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Top-styles__MainContainer-sc-a5169ea-5.fAeFsb > div.Top-styles__MainContent-sc-a5169ea-6.hDFCBK > h1.Top-styles__MainHeadingGroup-sc-a5169ea-7.TEBiD",
+    "x": 20,
+    "y": 683,
+    "w": 340,
+    "h": 146,
+    "level": 1,
+    "text": "axa life insurance recruiting information"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Top-styles__MainContent-sc-a5169ea-6.hDFCBK > h1.Top-styles__MainHeadingGroup-sc-a5169ea-7.TEBiD > em.Top-styles__MainHeadingText-sc-a5169ea-8.dSiItv",
+    "x": 20,
+    "y": 683,
+    "w": 340,
+    "h": 106,
+    "text": "AXA LIFE INSURANCE"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Top-styles__MainContent-sc-a5169ea-6.hDFCBK > h1.Top-styles__MainHeadingGroup-sc-a5169ea-7.TEBiD > span.Top-styles__MainHeadingSubText-sc-a5169ea-9.jXwgVq",
+    "x": 20,
+    "y": 801,
+    "w": 340,
+    "h": 28,
+    "text": "Recruiting Information"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > h2.Top-styles__OurPurposePrimaryGroup-sc-a5169ea-11",
+    "x": 20,
+    "y": 1052,
+    "w": 320,
+    "h": 54,
+    "level": 2,
+    "text": "our purpose 私たちのパーパス -存在意義-"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > h2.Top-styles__OurPurposePrimaryGroup-sc-a5169ea-11 > span.Top-styles__OurPurposePrimaryTitle-sc-a5169ea-12.iSawOS",
+    "x": 20,
+    "y": 1052,
+    "w": 320,
+    "h": 20,
+    "text": "Our Purpose"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > h2.Top-styles__OurPurposePrimaryGroup-sc-a5169ea-11 > em.Top-styles__OurPurposePrimaryDesc-sc-a5169ea-13.iLaFRp",
+    "x": 20,
+    "y": 1084,
+    "w": 320,
+    "h": 22,
+    "text": "私たちのパーパス -存在意義-"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > h3.Top-styles__OurPurposeSecondaryText-sc-a5169ea-14.cWMgzc",
+    "x": 20,
+    "y": 1130,
+    "w": 320,
+    "h": 169,
+    "level": 3,
+    "text": "act for human progress by protecting what matters."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > p.Top-styles__OurPurposeDescription-sc-a5169ea-15.cwBIfW",
+    "x": 20,
+    "y": 1327,
+    "w": 320,
+    "h": 56,
+    "text": "すべての人々のより良い未来のために。 私たちはみなさんの大切なものを守ります。"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Top-styles__TopPageContainer-sc-a5169ea-1.dpVyZk > div.Top-styles__HomeKV-sc-a5169ea-16.kIWwIC > img.Shared-styles__ImageCover-sc-19439a5-4.NwBYQ",
+    "x": 0,
+    "y": 1439,
+    "w": 360,
+    "h": 256,
+    "text": "",
+    "file": "home-kv"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > h2.Top-styles__HomeMessageTitle-sc-a5169ea-18.dlYKDS",
+    "x": 20,
+    "y": 1751,
+    "w": 320,
+    "h": 62,
+    "level": 2,
+    "text": "もし「未来」がリスクでは ないと考えられたら。"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > div.Top-styles__HomeMessageRead-sc-a5169ea-19.hDseTE > p.Top-styles__Message-sc-a5169ea-20.CMAGC",
+    "x": 20,
+    "y": 1853,
+    "w": 320,
+    "h": 24,
+    "text": "人生には、リスクがつきものです。"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > div.Top-styles__HomeMessageRead-sc-a5169ea-19.hDseTE > p.Top-styles__Message-sc-a5169ea-20.CMAGC",
+    "x": 20,
+    "y": 1901,
+    "w": 320,
+    "h": 71,
+    "text": "しかし私は、「未来」がリスクであってはならないと固く信じています。 誰もが「未来」に希望を抱く権利を持っています。"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > div.Top-styles__HomeMessageRead-sc-a5169ea-19.hDseTE > p.Top-styles__Message-sc-a5169ea-20.CMAGC",
+    "x": 20,
+    "y": 1996,
+    "w": 320,
+    "h": 143,
+    "text": "世界は常に変化し、新たなリスクが出現します。 個人・経済・社会の一員である私たちは、より多くのことを行う責任があります。 私たちは、もっと積極的にならなければな"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > div.Top-styles__HomeMessageRead-sc-a5169ea-19.hDseTE > p.Top-styles__Message-sc-a5169ea-20.CMAGC",
+    "x": 20,
+    "y": 2163,
+    "w": 320,
+    "h": 95,
+    "text": "いち早くリスクを特定し、予測すること。 それにより、より多くの人々が社会から排除されず、安全で平等に生きられるよう、 新たな解決策を見出し続けています。"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > div.Top-styles__HomeMessageRead-sc-a5169ea-19.hDseTE > p.Top-styles__Message-sc-a5169ea-20.CMAGC",
+    "x": 20,
+    "y": 2282,
+    "w": 320,
+    "h": 95,
+    "text": "気候面では、パラメトリック保険を通じて必要に応じてカスタマイズされた解決策を開発し、 透明性の高い迅速な保険金給付によって、予期せぬ気象現象による経済的・人的影"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > div.Top-styles__HomeMessageRead-sc-a5169ea-19.hDseTE > p.Top-styles__Message-sc-a5169ea-20.CMAGC",
+    "x": 20,
+    "y": 2402,
+    "w": 320,
+    "h": 95,
+    "text": "健康面では、タバコ産業からの投資撤退や、 心身の健康に役立つユーザーフレンドリーなテクノロジーへの投資などを通じて、 リスクを未然に防ぐ取組みを拡大しています。"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > div.Top-styles__HomeMessageRead-sc-a5169ea-19.hDseTE > p.Top-styles__Message-sc-a5169ea-20.CMAGC",
+    "x": 20,
+    "y": 2521,
+    "w": 320,
+    "h": 95,
+    "text": "世界50カ国15万4千人の従業員、代理店・パートナーの力を結集したグローバル企業として、 私たちは個人・経済・社会を進歩させる役割を担うための手段と強い意志を持"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > div.Top-styles__HomeMessageRead-sc-a5169ea-19.hDseTE > p.Top-styles__Message-sc-a5169ea-20.CMAGC",
+    "x": 20,
+    "y": 2640,
+    "w": 320,
+    "h": 90,
+    "text": "そう、あなたなら、できる。"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > div.Top-styles__HeadingWrapper-sc-a5169ea-22.iZGRYe > h2.Top-styles__HeadingTitle-sc-a5169ea-23.cRjoob",
+    "x": 20,
+    "y": 2842,
+    "w": 320,
+    "h": 36,
+    "level": 2,
+    "text": "アクサグループについて"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > div.AboutSection-styles__AboutAXAGroupLeadWrapper-sc-c346682-1.iSxWmv > p.AboutSection-styles__AboutAXAGroupLead-sc-c346682-2.iuiWBV",
+    "x": 20,
+    "y": 2950,
+    "w": 320,
+    "h": 90,
+    "text": "アクサは1817年にフランスで生まれ、世界52の国と地域、約9,200万人のお客さまにサービスを提供する保険および資産運用分野の世界的なリーディングカンパニーで"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.AboutSection-styles__AboutAXAGroupOverview-sc-c346682-3.iOaWwv > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > h3.AboutSection-styles__OverviewTitle-sc-c346682-4.iiKnSe",
+    "x": 36,
+    "y": 3103,
+    "w": 288,
+    "h": 30,
+    "level": 3,
+    "text": "アクサグループの概要"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.AboutSection-styles__OverviewGroup-sc-c346682-5.kqYmxi > div.AboutSection-styles__OverviewItem-sc-c346682-6.fUnUNe > h4.AboutSection-styles__OverviewItemHeading-sc-c346682-7.cVnIUI",
+    "x": 36,
+    "y": 3165,
+    "w": 288,
+    "h": 52,
+    "level": 4,
+    "text": "顧客"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.AboutSection-styles__OverviewItem-sc-c346682-6.fUnUNe > div.AboutSection-styles__OverviewItemDetail-sc-c346682-8.JCSVJ > img.Shared-styles__ImageContain-sc-19439a5-5.AboutSection-styles__OverviewItemImage-sc-c346682-9",
+    "x": 84,
+    "y": 3233,
+    "w": 192,
+    "h": 144,
+    "text": "",
+    "file": "aR-xP2GnmrmGqGRI_home-about-overview-img"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.AboutSection-styles__OverviewItem-sc-c346682-6.fUnUNe > div.AboutSection-styles__OverviewItemDetail-sc-c346682-8.JCSVJ > h5.AboutSection-styles__OverviewItemCount-sc-c346682-10.jsNXgE",
+    "x": 60,
+    "y": 3389,
+    "w": 240,
+    "h": 24,
+    "level": 5,
+    "text": "約9千200万人のお客さま"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.AboutSection-styles__OverviewItem-sc-c346682-6.fUnUNe > div.AboutSection-styles__OverviewItemDetail-sc-c346682-8.JCSVJ > p.AboutSection-styles__OverviewItemDescription-sc-c346682-11",
+    "x": 60,
+    "y": 3425,
+    "w": 240,
+    "h": 34,
+    "text": "法人、個人のお客さまにご利用いただいています。"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.AboutSection-styles__OverviewGroup-sc-c346682-5.kqYmxi > div.AboutSection-styles__OverviewItem-sc-c346682-6.fUnUNe > h4.AboutSection-styles__OverviewItemHeading-sc-c346682-7.cVnIUI",
+    "x": 36,
+    "y": 3503,
+    "w": 288,
+    "h": 52,
+    "level": 4,
+    "text": "従業員"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.AboutSection-styles__OverviewItem-sc-c346682-6.fUnUNe > div.AboutSection-styles__OverviewItemDetail-sc-c346682-8.JCSVJ > img.Shared-styles__ImageContain-sc-19439a5-5.AboutSection-styles__OverviewItemImage-sc-c346682-9",
+    "x": 84,
+    "y": 3571,
+    "w": 192,
+    "h": 144,
+    "text": "",
+    "file": "aR-xQGGnmrmGqGRJ_home-about-overview-img"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.AboutSection-styles__OverviewItem-sc-c346682-6.fUnUNe > div.AboutSection-styles__OverviewItemDetail-sc-c346682-8.JCSVJ > h5.AboutSection-styles__OverviewItemCount-sc-c346682-10.jsNXgE",
+    "x": 60,
+    "y": 3727,
+    "w": 240,
+    "h": 24,
+    "level": 5,
+    "text": "約15万6千人の従業員"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.AboutSection-styles__OverviewItem-sc-c346682-6.fUnUNe > div.AboutSection-styles__OverviewItemDetail-sc-c346682-8.JCSVJ > p.AboutSection-styles__OverviewItemDescription-sc-c346682-11",
+    "x": 60,
+    "y": 3763,
+    "w": 240,
+    "h": 84,
+    "text": "アクサの従業員は、多様な経歴と職種を有しているため、効果的かつ革新的なサービスを提供することができます。また、代理店、ブローカー、銀行などの販売代理店とも密接に"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.AboutSection-styles__AboutPosition-sc-c346682-12.jXyBvm > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > h3.AboutSection-styles__PositionHeading-sc-c346682-13.dAWmuh",
+    "x": 36,
+    "y": 3963,
+    "w": 288,
+    "h": 30,
+    "level": 3,
+    "text": "バランスの取れたポジション"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.AboutSection-styles__PositionFigure-sc-c346682-14.esnkop > div.sc-lbpDNm.KwTTv > img.Shared-styles__ImageContain-sc-19439a5-5.jRZBkR",
+    "x": 36,
+    "y": 4005,
+    "w": 288,
+    "h": 570,
+    "text": "",
+    "file": "home-about-position-sp"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.AboutSection-styles__PositionGroup-sc-c346682-15.mMYth > div.AboutSection-styles__PositionItem-sc-c346682-16.qnDvh > h4.AboutSection-styles__PositionItemHeading-sc-c346682-17.dRUCLT",
+    "x": 36,
+    "y": 4595,
+    "w": 288,
+    "h": 52,
+    "level": 4,
+    "text": "生命保険・医療保険"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.AboutSection-styles__PositionItem-sc-c346682-16.qnDvh > div.AboutSection-styles__PositionItemDetail-sc-c346682-18 > h5.AboutSection-styles__PositionItemTitle-sc-c346682-19.iJSuAI",
+    "x": 36,
+    "y": 4647,
+    "w": 288,
+    "h": 99,
+    "level": 5,
+    "text": "お客さまの健康・医療を守り、 プロジェクトに 資金を提供します"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.AboutSection-styles__PositionGroup-sc-c346682-15.mMYth > div.AboutSection-styles__PositionItem-sc-c346682-16.qnDvh > h4.AboutSection-styles__PositionItemHeading-sc-c346682-17.dRUCLT",
+    "x": 36,
+    "y": 4762,
+    "w": 288,
+    "h": 52,
+    "level": 4,
+    "text": "損害保険"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.AboutSection-styles__PositionItem-sc-c346682-16.qnDvh > div.AboutSection-styles__PositionItemDetail-sc-c346682-18 > h5.AboutSection-styles__PositionItemTitle-sc-c346682-19.iJSuAI",
+    "x": 36,
+    "y": 4814,
+    "w": 288,
+    "h": 99,
+    "level": 5,
+    "text": "個人・企業の有形・無形資産 を守ります"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.AboutSection-styles__PositionGroup-sc-c346682-15.mMYth > div.AboutSection-styles__PositionItem-sc-c346682-16.qnDvh > h4.AboutSection-styles__PositionItemHeading-sc-c346682-17.dRUCLT",
+    "x": 36,
+    "y": 4930,
+    "w": 288,
+    "h": 52,
+    "level": 4,
+    "text": "資産運用"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.AboutSection-styles__PositionItem-sc-c346682-16.qnDvh > div.AboutSection-styles__PositionItemDetail-sc-c346682-18 > h5.AboutSection-styles__PositionItemTitle-sc-c346682-19.iJSuAI",
+    "x": 36,
+    "y": 4982,
+    "w": 288,
+    "h": 99,
+    "level": 5,
+    "text": "実体経済と大きな変革のための 資金調達を行います"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.AboutSection-styles__AboutNote-sc-c346682-20.kGsZXu > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY",
+    "x": 32,
+    "y": 5133,
+    "w": 308,
+    "h": 34,
+    "text": "※上記情報は2025年6月確認時点のものになります。最新の情報は をご参照ください。"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.AboutSection-styles__AboutNote-sc-c346682-20.kGsZXu > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > a.Shared-styles__LinkStyled-sc-19439a5-6.gzBkW",
+    "x": 80,
+    "y": 5149,
+    "w": 36,
+    "h": 17,
+    "text": "こちら",
+    "href": "/about-axa/group-info/global"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Top-styles__Container-sc-a5169ea-0.ghnloi > div.AboutSection-styles__AboutBusiness-sc-c346682-21.fZhiXz > h3.AboutSection-styles__BusinessHeading-sc-c346682-22.cnLgjV",
+    "x": 36,
+    "y": 5238,
+    "w": 288,
+    "h": 60,
+    "level": 3,
+    "text": "アクサグループの 日本における事業展開"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.AboutSection-styles__AboutBusiness-sc-c346682-21.fZhiXz > div.AboutSection-styles__BusinessLeadWrapper-sc-c346682-23.iVlqLM > p.AboutSection-styles__BusinessLead-sc-c346682-24",
+    "x": 36,
+    "y": 5322,
+    "w": 288,
+    "h": 216,
+    "text": "日本においては、保険事業を中心にビジネスを展開しています。 保険事業では2019年4月に持株会社であるアクサ・ホールディングス・ジャパン株式会社を設立し、 アク"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.AboutSection-styles__BusinessFigure-sc-c346682-25.gpBuCg > div.sc-lbpDNm.KwTTv > img.Shared-styles__ImageContain-sc-19439a5-5.jRZBkR",
+    "x": 36,
+    "y": 5570,
+    "w": 288,
+    "h": 312,
+    "text": "",
+    "file": "home-about-business-sp"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.AboutSection-styles__AboutBusiness-sc-c346682-21.fZhiXz > div.AboutSection-styles__BusinessNoteWrapper-sc-c346682-26.jhJVzF > p.AboutSection-styles__BusinessNote-sc-c346682-27",
+    "x": 36,
+    "y": 5902,
+    "w": 288,
+    "h": 34,
+    "text": "＊アクサ・ホールディングス・ジャパン株式会社が所有する議決権の割合（2025年3月31日時点）"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.ServiceSection-styles__ServiceSection-sc-2340b3b1-0.eeueke > div.ServiceSection-styles__ServiceImageKv-sc-2340b3b1-1.bWLPhX > img.Shared-styles__ImageCover-sc-19439a5-4.NwBYQ",
+    "x": 0,
+    "y": 6031,
+    "w": 360,
+    "h": 256,
+    "text": "",
+    "file": "home-service-kv"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > div.Top-styles__HeadingWrapper-sc-a5169ea-22.iZGRYe > h2.Top-styles__HeadingTitle-sc-a5169ea-23.ServiceSection-styles__ServiceHeading-sc-2340b3b1-2",
+    "x": 20,
+    "y": 6343,
+    "w": 320,
+    "h": 36,
+    "level": 2,
+    "text": "アクサ生命保険について"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > div.ServiceSection-styles__ServiceLead-sc-2340b3b1-3.biVHfy > p",
+    "x": 20,
+    "y": 6443,
+    "w": 320,
+    "h": 255,
+    "text": "アクサ生命はアクサのメンバーカンパニーとして 1994 年に設立されました。アクサが世界で培ってきた知識と経験を活かし、315 万人のお客さまから 571 万件"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ServiceSection-styles__SalesChannelWrapper-sc-2340b3b1-9.dyJZns > div.ServiceSection-styles__SalesChannelCard-sc-2340b3b1-10.dIsjuT > h2.Top-styles__HeadingTitle-sc-a5169ea-23.ServiceSection-styles__ServiceHeading-sc-2340b3b1-2",
+    "x": 20,
+    "y": 6730,
+    "w": 320,
+    "h": 56,
+    "level": 2,
+    "text": "専属営業社員による営業チャネル"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ServiceSection-styles__SalesChannelCard-sc-2340b3b1-10.dIsjuT > div.ServiceSection-styles__CardRow-sc-2340b3b1-12.hZEGNj > img.ServiceSection-styles__CardImage-sc-2340b3b1-13.jUEafU",
+    "x": 132,
+    "y": 6816,
+    "w": 96,
+    "h": 96,
+    "text": "",
+    "file": "axa-cci-channel"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ServiceSection-styles__CardRow-sc-2340b3b1-12.hZEGNj > div.ServiceSection-styles__CardText-sc-2340b3b1-14.feQLUs > h6.ServiceSection-styles__CardHeading-sc-2340b3b1-15.jkpfnH",
+    "x": 36,
+    "y": 6924,
+    "w": 288,
+    "h": 22,
+    "level": 6,
+    "text": "アクサ cciチャネル"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ServiceSection-styles__CardRow-sc-2340b3b1-12.hZEGNj > div.ServiceSection-styles__CardText-sc-2340b3b1-14.feQLUs > p.ServiceSection-styles__CardContent-sc-2340b3b1-16.georGS",
+    "x": 36,
+    "y": 6962,
+    "w": 288,
+    "h": 98,
+    "text": "全国各地の商工会議所や商工会の共済制度や福祉制度の引受保険会社として、専任営業社員が経営者のリスク対策、事業承継、従業員福利厚生の提案、健康経営の実践支援などを"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ServiceSection-styles__SalesChannelCard-sc-2340b3b1-10.dIsjuT > div.ServiceSection-styles__CardRow-sc-2340b3b1-12.hZEGNj > img.ServiceSection-styles__CardImage-sc-2340b3b1-13.jUEafU",
+    "x": 132,
+    "y": 7116,
+    "w": 96,
+    "h": 96,
+    "text": "",
+    "file": "axa-fa-channel"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ServiceSection-styles__CardRow-sc-2340b3b1-12.hZEGNj > div.ServiceSection-styles__CardText-sc-2340b3b1-14.feQLUs > h6.ServiceSection-styles__CardHeading-sc-2340b3b1-15.jkpfnH",
+    "x": 36,
+    "y": 7224,
+    "w": 288,
+    "h": 22,
+    "level": 6,
+    "text": "アクサ faチャネル"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ServiceSection-styles__CardRow-sc-2340b3b1-12.hZEGNj > div.ServiceSection-styles__CardText-sc-2340b3b1-14.feQLUs > p.ServiceSection-styles__CardContent-sc-2340b3b1-16.georGS",
+    "x": 36,
+    "y": 7263,
+    "w": 288,
+    "h": 98,
+    "text": "ファイナンシャル・プランニングの知識を持つ専門担当者が、ライフマネジメント（人生を経営する）をテーマに、お客さまのニーズに合わせた高付加価値のコンサルティングサ"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ServiceSection-styles__SalesChannelWrapper-sc-2340b3b1-9.dyJZns > div.ServiceSection-styles__SalesChannelCard-sc-2340b3b1-10.dIsjuT > h2.Top-styles__HeadingTitle-sc-a5169ea-23.ServiceSection-styles__ServiceHeading-sc-2340b3b1-2",
+    "x": 20,
+    "y": 7401,
+    "w": 320,
+    "h": 60,
+    "level": 2,
+    "text": "保険代理店・金融機関代理店を通じた 営業チャネル"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ServiceSection-styles__SalesChannelCard-sc-2340b3b1-10.dIsjuT > div.ServiceSection-styles__CardRow-sc-2340b3b1-12.hZEGNj > img.ServiceSection-styles__CardImage-sc-2340b3b1-13.jUEafU",
+    "x": 132,
+    "y": 7491,
+    "w": 96,
+    "h": 96,
+    "text": "",
+    "file": "axa-business-partner-channel"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ServiceSection-styles__CardRow-sc-2340b3b1-12.hZEGNj > div.ServiceSection-styles__CardText-sc-2340b3b1-14.feQLUs > h6.ServiceSection-styles__CardHeading-sc-2340b3b1-15.jkpfnH",
+    "x": 36,
+    "y": 7599,
+    "w": 288,
+    "h": 22,
+    "level": 6,
+    "text": "アクサ パートナービジネスチャネル"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ServiceSection-styles__CardRow-sc-2340b3b1-12.hZEGNj > div.ServiceSection-styles__CardText-sc-2340b3b1-14.feQLUs > p.ServiceSection-styles__CardContent-sc-2340b3b1-16.georGS",
+    "x": 36,
+    "y": 7637,
+    "w": 288,
+    "h": 98,
+    "text": "全国約3,000の代理店、銀行・信用金庫・信用組合などの金融機関を通じて、個人・法人の多様なニーズに対応したリスクマネジメントとコンサルティングサービスを提供し"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ServiceSection-styles__SalesChannelWrapper-sc-2340b3b1-9.dyJZns > div.ServiceSection-styles__SalesChannelCard-sc-2340b3b1-10.dIsjuT > h2.Top-styles__HeadingTitle-sc-a5169ea-23.ServiceSection-styles__ServiceHeading-sc-2340b3b1-2",
+    "x": 20,
+    "y": 7775,
+    "w": 320,
+    "h": 60,
+    "level": 2,
+    "text": "既存チャネルの枠を超えた 新たな価値を創造する営業チャネル"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ServiceSection-styles__SalesChannelCard-sc-2340b3b1-10.dIsjuT > div.ServiceSection-styles__CardRow-sc-2340b3b1-12.hZEGNj > img.ServiceSection-styles__CardImage-sc-2340b3b1-13.jUEafU",
+    "x": 132,
+    "y": 7865,
+    "w": 96,
+    "h": 96,
+    "text": "",
+    "file": "axa-mcvp-channel"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ServiceSection-styles__CardRow-sc-2340b3b1-12.hZEGNj > div.ServiceSection-styles__CardText-sc-2340b3b1-14.feQLUs > h6.ServiceSection-styles__CardHeading-sc-2340b3b1-15.jkpfnH",
+    "x": 36,
+    "y": 7973,
+    "w": 288,
+    "h": 22,
+    "level": 6,
+    "text": "アクサ mcvpチャネル"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ServiceSection-styles__CardRow-sc-2340b3b1-12.hZEGNj > div.ServiceSection-styles__CardText-sc-2340b3b1-14.feQLUs > p.ServiceSection-styles__CardContent-sc-2340b3b1-16.georGS",
+    "x": 36,
+    "y": 8011,
+    "w": 288,
+    "h": 137,
+    "text": "MCVP（Multi Channel Value-up Program）ビジネスモデル、 健康経営ビジネスモデル、事業継承、ライフマネジメントの推進により、企業"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ServiceSection-styles__ServiceItem-sc-2340b3b1-5.hPRkcP > div.ServiceSection-styles__ServiceImageWrapper-sc-2340b3b1-6.ftfLcN > img.Shared-styles__ImageCover-sc-19439a5-4.NwBYQ",
+    "x": 20,
+    "y": 8201,
+    "w": 320,
+    "h": 192,
+    "text": "",
+    "file": "home-service-img01"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ServiceSection-styles__ServiceItem-sc-2340b3b1-5.hPRkcP > div.ServiceSection-styles__ServiceDetail-sc-2340b3b1-7.fguvVn > h3.ServiceSection-styles__ServiceDetailHeading-sc-2340b3b1-8.jemUlu",
+    "x": 36,
+    "y": 8413,
+    "w": 288,
+    "h": 90,
+    "level": 3,
+    "text": "人生100年時代を歩むお客さま企業とその従業員をサポートする 「健康経営アクサ式」"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ServiceSection-styles__ServiceItem-sc-2340b3b1-5.hPRkcP > div.ServiceSection-styles__ServiceDetail-sc-2340b3b1-7.fguvVn > p",
+    "x": 36,
+    "y": 8519,
+    "w": 288,
+    "h": 319,
+    "text": "「健康経営アクサ式」は、従来の健康管理・健康増進に加えて、夢や生きがい、ライフプランなどの「社会的な健康」まで含めた「トータルな健康」を実現する企業経営者向けサ"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ServiceSection-styles__ServiceItem-sc-2340b3b1-5.hPRkcP > div.ServiceSection-styles__ServiceImageWrapper-sc-2340b3b1-6.ftfLcN > img.Shared-styles__ImageCover-sc-19439a5-4.NwBYQ",
+    "x": 20,
+    "y": 8881,
+    "w": 320,
+    "h": 192,
+    "text": "",
+    "file": "home-service-img02"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ServiceSection-styles__ServiceItem-sc-2340b3b1-5.hPRkcP > div.ServiceSection-styles__ServiceDetail-sc-2340b3b1-7.fguvVn > h3.ServiceSection-styles__ServiceDetailHeading-sc-2340b3b1-8.jemUlu",
+    "x": 36,
+    "y": 9093,
+    "w": 288,
+    "h": 90,
+    "level": 3,
+    "text": "幅広い世代への「ライフマネジメント®」浸透を目指した取組み"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ServiceSection-styles__ServiceItem-sc-2340b3b1-5.hPRkcP > div.ServiceSection-styles__ServiceDetail-sc-2340b3b1-7.fguvVn > p",
+    "x": 36,
+    "y": 9199,
+    "w": 288,
+    "h": 319,
+    "text": "アクサ生命では、学生から教職員、企業・団体の従業員、子育て世代まで幅広い世代を対象に、人生の夢や目的実現に向けた「ライフマネジメント®コンサルティング」を提供し"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > div.Top-styles__HeadingWrapper-sc-a5169ea-22.iZGRYe > h2.Top-styles__HeadingTitle-sc-a5169ea-23.cRjoob",
+    "x": 20,
+    "y": 9654,
+    "w": 320,
+    "h": 36,
+    "level": 2,
+    "text": "採用情報"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.RecruitmentInfo-styles__RecruitList-sc-ba195fbc-2.kvegAr > li.RecruitmentInfo-styles__RecruitListItem-sc-ba195fbc-3.kdKrgu > a.RecruitmentInfo-styles__RecruitItemLink-sc-ba195fbc-4.hafzdq",
+    "x": 34,
+    "y": 9762,
+    "w": 306,
+    "h": 192,
+    "text": "students and graduates 新卒採用 募集要項 read more",
+    "href": "/recruitment/career/students"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.RecruitmentInfo-styles__RecruitListItem-sc-ba195fbc-3.kdKrgu > a.RecruitmentInfo-styles__RecruitItemLink-sc-ba195fbc-4.hafzdq > h3.RecruitmentInfo-styles__RecruitItemTextWrapper-sc-ba195fbc-5",
+    "x": 105,
+    "y": 9835,
+    "w": 164,
+    "h": 45,
+    "level": 3,
+    "text": "students and graduates 新卒採用 募集要項"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.RecruitmentInfo-styles__RecruitList-sc-ba195fbc-2.kvegAr > li.RecruitmentInfo-styles__RecruitListItem-sc-ba195fbc-3.kdKrgu > a.RecruitmentInfo-styles__RecruitItemLink-sc-ba195fbc-4.hafzdq",
+    "x": 34,
+    "y": 9974,
+    "w": 306,
+    "h": 192,
+    "text": "experienced professionals 中途採用 募集要項 read more",
+    "href": "/recruitment/career/experienced"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.RecruitmentInfo-styles__RecruitListItem-sc-ba195fbc-3.kdKrgu > a.RecruitmentInfo-styles__RecruitItemLink-sc-ba195fbc-4.hafzdq > h3.RecruitmentInfo-styles__RecruitItemTextWrapper-sc-ba195fbc-5",
+    "x": 105,
+    "y": 10047,
+    "w": 164,
+    "h": 45,
+    "level": 3,
+    "text": "experienced professionals 中途採用 募集要項"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.RecruitmentInfo-styles__RecruitList-sc-ba195fbc-2.kvegAr > li.RecruitmentInfo-styles__RecruitListItem-sc-ba195fbc-3.kdKrgu > a.RecruitmentInfo-styles__RecruitItemLink-sc-ba195fbc-4.hafzdq",
+    "x": 34,
+    "y": 10186,
+    "w": 306,
+    "h": 192,
+    "text": "persons with disabilities 障害者採用 募集要項 read more",
+    "href": "/recruitment/career/pwd"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.RecruitmentInfo-styles__RecruitListItem-sc-ba195fbc-3.kdKrgu > a.RecruitmentInfo-styles__RecruitItemLink-sc-ba195fbc-4.hafzdq > h3.RecruitmentInfo-styles__RecruitItemTextWrapper-sc-ba195fbc-5",
+    "x": 95,
+    "y": 10259,
+    "w": 184,
+    "h": 45,
+    "level": 3,
+    "text": "persons with disabilities 障害者採用 募集要項"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.RecruitmentInfo-styles__RecruitList-sc-ba195fbc-2.kvegAr > li.RecruitmentInfo-styles__RecruitListItem-sc-ba195fbc-3.RecruitmentInfo-styles__RecruitSecondListItem-sc-ba195fbc-9 > a.RecruitmentInfo-styles__RecruitItemLink-sc-ba195fbc-4.RecruitmentInfo-styles__RecruitSecondListItemLink-sc-ba195fbc-10",
+    "x": 34,
+    "y": 10394,
+    "w": 306,
+    "h": 176,
+    "text": "商工会議所 / 商工会 共済・福祉制度推進スタッフ read more",
+    "href": "/recruitment/cci/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.RecruitmentInfo-styles__RecruitList-sc-ba195fbc-2.kvegAr > li.RecruitmentInfo-styles__RecruitListItem-sc-ba195fbc-3.RecruitmentInfo-styles__RecruitSecondListItem-sc-ba195fbc-9 > a.RecruitmentInfo-styles__RecruitItemLink-sc-ba195fbc-4.RecruitmentInfo-styles__RecruitSecondListItemLink-sc-ba195fbc-10",
+    "x": 34,
+    "y": 10590,
+    "w": 306,
+    "h": 176,
+    "text": "フィナンシャルプラン アドバイザー（fa）採用 read more",
+    "href": "/recruitment/fa/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RecruitmentInfo-styles__RecruitSite-sc-ba195fbc-12.eMVzGb > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > p.RecruitmentInfo-styles__RecruitSiteDescription-sc-ba195fbc-13.zKJN",
+    "x": 20,
+    "y": 10814,
+    "w": 320,
+    "h": 98,
+    "text": "グループの概要や主な仕事内容、インタビュー、福利厚生などの主要な情報は、アクサ採用サイトに掲載されています。 アクサに興味をお持ちの方は、まずアクサ採用サイトを"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RecruitmentInfo-styles__RecruitSite-sc-ba195fbc-12.eMVzGb > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > h3.RecruitmentInfo-styles__RecruitmentPolicyHeading-sc-ba195fbc-14.cxzrdi",
+    "x": 20,
+    "y": 10952,
+    "w": 320,
+    "h": 60,
+    "level": 3,
+    "text": "当社の就職活動におけるハラスメント防止の取り組みについて"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RecruitmentInfo-styles__RecruitSite-sc-ba195fbc-12.eMVzGb > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > p",
+    "x": 20,
+    "y": 11028,
+    "w": 320,
+    "h": 137,
+    "text": "アクサ生命保険株式会社は、すべての応募者の皆さまがご自身らしさを大切にし、安心して就職活動に臨める環境の整備に努めております。 当社では、選考や面談に関わる社員"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RecruitmentInfo-styles__RecruitSite-sc-ba195fbc-12.eMVzGb > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > a.RecruitmentInfo-styles__RecruitmentPolicyLink-sc-ba195fbc-15.fWIitU",
+    "x": 20,
+    "y": 11181,
+    "w": 227,
+    "h": 20,
+    "text": "就活ハラスメント防止対応 (pdf)",
+    "href": "/recruitment/career/pdf/harassment-policy_alj.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RecruitmentInfo-styles__RecruitSite-sc-ba195fbc-12.eMVzGb > div.InView-styles__InViewWrapper-sc-731cdce1-0.dxxyHY > a.RecruitmentSiteBanner-styles__RecruitSiteBanner-sc-995f781b-0.gXmgXt",
+    "x": 20,
+    "y": 11248,
+    "w": 320,
+    "h": 384,
+    "text": "realize your potential to drive progress より良い未来のために、 あなたの可能性をアクサで形に。 axa holding",
+    "href": "/recruitment/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.RecruitmentSiteBanner-styles__RecruitSiteBanner-sc-995f781b-0.gXmgXt > div.RecruitmentSiteBanner-styles__RecruitSiteContent-sc-995f781b-1.bDRIMT > h2.RecruitmentSiteBanner-styles__RecruitSiteTextWrapper-sc-995f781b-2.bLxYNS",
+    "x": 40,
+    "y": 11383,
+    "w": 231,
+    "h": 181,
+    "level": 2,
+    "text": "realize your potential to drive progress より良い未来のために、 あなたの可能性をアクサで形に。"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.Footer-styles__FollowList-sc-3917e496-5.gWEvsD > li.Footer-styles__FollowListItem-sc-3917e496-6.gouccc > a.Footer-styles__FollowListItemText-sc-3917e496-7.groKLc",
+    "x": 90,
+    "y": 11736,
+    "w": 32,
+    "h": 32,
+    "text": "facebook",
+    "href": "/axajapan/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.Footer-styles__FollowList-sc-3917e496-5.gWEvsD > li.Footer-styles__FollowListItem-sc-3917e496-6.gouccc > a.Footer-styles__FollowListItemText-sc-3917e496-7.groKLc",
+    "x": 142,
+    "y": 11736,
+    "w": 32,
+    "h": 32,
+    "text": "linkedin",
+    "href": "/company/axa/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.Footer-styles__FollowList-sc-3917e496-5.gWEvsD > li.Footer-styles__FollowListItem-sc-3917e496-6.gouccc > a.Footer-styles__FollowListItemText-sc-3917e496-7.groKLc",
+    "x": 194,
+    "y": 11736,
+    "w": 32,
+    "h": 32,
+    "text": "youtube",
+    "href": "/c/AXAJP"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.Footer-styles__FollowList-sc-3917e496-5.gWEvsD > li.Footer-styles__FollowListItem-sc-3917e496-6.gouccc > a.Footer-styles__FollowListItemText-sc-3917e496-7.Footer-styles__FollowIconNote-sc-3917e496-8",
+    "x": 246,
+    "y": 11736,
+    "w": 24,
+    "h": 24,
+    "text": "note",
+    "href": "/axajapan"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.Footer-styles__NavRecruitList-sc-3917e496-11.dNncMg > li.Footer-styles__NavRecruitListItem-sc-3917e496-12.jfLJWq > a.Footer-styles__NavRecruitListItemText-sc-3917e496-13.hKPTzC",
+    "x": 14,
+    "y": 11793,
+    "w": 346,
+    "h": 61,
+    "text": "新卒採用 募集要項",
+    "href": "/recruitment/career/students"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.Footer-styles__NavRecruitList-sc-3917e496-11.dNncMg > li.Footer-styles__NavRecruitListItem-sc-3917e496-12.jfLJWq > a.Footer-styles__NavRecruitListItemText-sc-3917e496-13.hKPTzC",
+    "x": 14,
+    "y": 11855,
+    "w": 346,
+    "h": 61,
+    "text": "中途採用 募集要項",
+    "href": "/recruitment/career/experienced"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.Footer-styles__NavRecruitList-sc-3917e496-11.dNncMg > li.Footer-styles__NavRecruitListItem-sc-3917e496-12.jfLJWq > a.Footer-styles__NavRecruitListItemText-sc-3917e496-13.hKPTzC",
+    "x": 14,
+    "y": 11917,
+    "w": 346,
+    "h": 61,
+    "text": "障害者採用 募集要項",
+    "href": "/recruitment/career/pwd"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.Footer-styles__NavRecruitList-sc-3917e496-11.dNncMg > li.Footer-styles__NavRecruitListItem-sc-3917e496-12.jfLJWq > a.Footer-styles__NavRecruitListItemText-sc-3917e496-13.hKPTzC",
+    "x": 14,
+    "y": 11979,
+    "w": 346,
+    "h": 61,
+    "text": "採用ポリシー",
+    "href": "/recruitment/career/policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.Footer-styles__NavContentList-sc-3917e496-15.deZZEX > li.Footer-styles__NavContentListItem-sc-3917e496-16.esrRtZ > a.Footer-styles__NavContentListItemText-sc-3917e496-17.kCqbNF",
+    "x": 34,
+    "y": 12069,
+    "w": 306,
+    "h": 21,
+    "text": "商工会議所共済・福祉制度推進スタッフ採用",
+    "href": "/recruitment/cci/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.Footer-styles__NavContentList-sc-3917e496-15.deZZEX > li.Footer-styles__NavContentListItem-sc-3917e496-16.esrRtZ > a.Footer-styles__NavContentListItemText-sc-3917e496-17.kCqbNF",
+    "x": 34,
+    "y": 12106,
+    "w": 306,
+    "h": 42,
+    "text": "フィナンシャルプランアドバイザー（fa）採用",
+    "href": "/recruitment/fa/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.Footer-styles__NavAxaList-sc-3917e496-19.iuHkS > li.Footer-styles__NavAxaListItem-sc-3917e496-20.dtfyRp > a.Footer-styles__NavAxaListItemText-sc-3917e496-21.dvpuip",
+    "x": 34,
+    "y": 12184,
+    "w": 193,
+    "h": 21,
+    "text": "アクサジャパン採用サイト",
+    "href": "/recruitment/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.Footer-styles__NavAxaList-sc-3917e496-19.iuHkS > li.Footer-styles__NavAxaListItem-sc-3917e496-20.dtfyRp > a.Footer-styles__NavAxaListItemText-sc-3917e496-21.dvpuip",
+    "x": 34,
+    "y": 12221,
+    "w": 235,
+    "h": 21,
+    "text": "アクサグローバルキャリアサイト",
+    "href": "/careers-home"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.Footer-styles__NavCorporateList-sc-3917e496-23.joLPqM > li.Footer-styles__NavCorporateListItem-sc-3917e496-24.gyPRfa > a.Footer-styles__NavCorporateListItemText-sc-3917e496-25.disyHC",
+    "x": 34,
+    "y": 12299,
+    "w": 96,
+    "h": 21,
+    "text": "企業サイト",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.Footer-styles__NavCorporateList-sc-3917e496-23.joLPqM > li.Footer-styles__NavCorporateListItem-sc-3917e496-24.gyPRfa > a.Footer-styles__NavCorporateListItemText-sc-3917e496-25.disyHC",
+    "x": 34,
+    "y": 12336,
+    "w": 166,
+    "h": 21,
+    "text": "プライバシーポリシー",
+    "href": "/other/personal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.Footer-styles__NavCorporateList-sc-3917e496-23.joLPqM > li.Footer-styles__NavCorporateListItem-sc-3917e496-24.gyPRfa > a.Footer-styles__NavCorporateListItemText-sc-3917e496-25.disyHC",
+    "x": 34,
+    "y": 12373,
+    "w": 306,
+    "h": 42,
+    "text": "労働施策総合推進法に基づく中途採用比率の公表（pdf）",
+    "href": "/recruitment/career/pdf/mid-career_recruitment_ratio_alj.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.Footer-styles__NavCorporateList-sc-3917e496-23.joLPqM > li.Footer-styles__NavCorporateListItem-sc-3917e496-24.gyPRfa > a.Footer-styles__NavCorporateListItemText-sc-3917e496-25.disyHC",
+    "x": 34,
+    "y": 12431,
+    "w": 208,
+    "h": 21,
+    "text": "男女賃金格差の公表（pdf）",
+    "href": "/recruitment/career/pdf/gender_pay_gap_2026_alj.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.Footer-styles__NavCorporateList-sc-3917e496-23.joLPqM > li.Footer-styles__NavCorporateListItem-sc-3917e496-24.gyPRfa > a.Footer-styles__NavCorporateListItemText-sc-3917e496-25.disyHC",
+    "x": 34,
+    "y": 12468,
+    "w": 249,
+    "h": 21,
+    "text": "就活ハラスメント防止対応（pdf）",
+    "href": "/recruitment/career/pdf/harassment-policy_alj.pdf"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer-styles__CopyrightSection-sc-3917e496-26.bBfaXJ > div.Footer-styles__FooterContainer-sc-3917e496-1.gmzTgC > div.Footer-styles__CopyrightText-sc-3917e496-27.haTuth",
+    "x": 20,
+    "y": 12533,
+    "w": 320,
+    "h": 11,
+    "text": "Copyright © AXA Life Insurance Co.,Ltd. All Rights Reserved."
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 4,
+    "textNodes": 136,
+    "controls": 32,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--80b77690--aemcoder.aem.page/recruitment",
+  "at": "2026-11-09T13:19:23.171Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 12560,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.rc-header > div.rc-header-bar > a.rc-header-logo",
+    "x": 20,
+    "y": 24,
+    "w": 116,
+    "h": 48,
+    "text": "アクサ生命 採用サイト",
+    "href": "/recruitment"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.rc-header-bar > a.rc-header-logo > img.rc-header-logo-img",
+    "x": 20,
+    "y": 24,
+    "w": 48,
+    "h": 48,
+    "text": "アクサ",
+    "file": "rc-logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.rc-header-bar > nav.rc-header-navwrap > button.rc-header-entry",
+    "x": 210,
+    "y": 24,
+    "w": 96,
+    "h": 48,
+    "text": "entry"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.rc-header-bar > nav.rc-header-navwrap > button.rc-header-entry",
+    "x": 210,
+    "y": 24,
+    "w": 96,
+    "h": 48,
+    "label": "trigger",
+    "value": "entry",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.rc-header-bar > nav.rc-header-navwrap > button.rc-header-toggle",
+    "x": 306,
+    "y": 24,
+    "w": 48,
+    "h": 48,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.rc-header-bar > nav.rc-header-navwrap > button.rc-header-toggle",
+    "x": 306,
+    "y": 24,
+    "w": 48,
+    "h": 48,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-hero-container > div.recruit-hero-content > h1#axa-life-insurancerecruiting-information",
+    "x": 20,
+    "y": 683,
+    "w": 340,
+    "h": 146,
+    "level": 1,
+    "text": "axa life insurance recruiting information"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-hero-content > h1#axa-life-insurancerecruiting-information > em",
+    "x": 20,
+    "y": 683,
+    "w": 340,
+    "h": 106,
+    "text": "AXA LIFE INSURANCE"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-hero-content > h1#axa-life-insurancerecruiting-information > span.recruit-hero-sub",
+    "x": 20,
+    "y": 801,
+    "w": 340,
+    "h": 28,
+    "text": "Recruiting Information"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-inview.is-inview > div.recruit-statement-head > h2#our-purpose私たちのパーパス--存在意義-",
+    "x": 20,
+    "y": 1052,
+    "w": 320,
+    "h": 54,
+    "level": 2,
+    "text": "our purpose 私たちのパーパス -存在意義-"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-statement-head > h2#our-purpose私たちのパーパス--存在意義- > em",
+    "x": 20,
+    "y": 1084,
+    "w": 320,
+    "h": 22,
+    "text": "私たちのパーパス -存在意義-"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-inview.is-inview > div.recruit-statement-body > h3#act-forhuman-progressby-protectingwhat-matters",
+    "x": 20,
+    "y": 1130,
+    "w": 320,
+    "h": 169,
+    "level": 3,
+    "text": "act for human progress by protecting what matters."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-inview.is-inview > div.recruit-statement-body > p",
+    "x": 20,
+    "y": 1327,
+    "w": 320,
+    "h": 56,
+    "text": "すべての人々のより良い未来のために。 私たちはみなさんの大切なものを守ります。"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 0,
+    "y": 1439,
+    "w": 360,
+    "h": 256,
+    "text": "",
+    "file": "media_1c816b147e17c96b9de3ebeb9a4088eaf6"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-inview.is-inview > div.recruit-statement-head > h2#もし未来がリスクではないと考えられたら",
+    "x": 20,
+    "y": 1751,
+    "w": 320,
+    "h": 62,
+    "level": 2,
+    "text": "もし「未来」がリスクでは ないと考えられたら。"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-inview.is-inview > div.recruit-statement-body > p",
+    "x": 20,
+    "y": 1853,
+    "w": 320,
+    "h": 24,
+    "text": "人生には、リスクがつきものです。"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-inview.is-inview > div.recruit-statement-body > p",
+    "x": 20,
+    "y": 1901,
+    "w": 320,
+    "h": 71,
+    "text": "しかし私は、「未来」がリスクであってはならないと固く信じています。 誰もが「未来」に希望を抱く権利を持っています。"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-inview.is-inview > div.recruit-statement-body > p",
+    "x": 20,
+    "y": 1996,
+    "w": 320,
+    "h": 143,
+    "text": "世界は常に変化し、新たなリスクが出現します。 個人・経済・社会の一員である私たちは、より多くのことを行う責任があります。 私たちは、もっと積極的にならなければな"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-inview.is-inview > div.recruit-statement-body > p",
+    "x": 20,
+    "y": 2163,
+    "w": 320,
+    "h": 95,
+    "text": "いち早くリスクを特定し、予測すること。 それにより、より多くの人々が社会から排除されず、安全で平等に生きられるよう、 新たな解決策を見出し続けています。"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-inview.is-inview > div.recruit-statement-body > p",
+    "x": 20,
+    "y": 2282,
+    "w": 320,
+    "h": 95,
+    "text": "気候面では、パラメトリック保険を通じて必要に応じてカスタマイズされた解決策を開発し、 透明性の高い迅速な保険金給付によって、予期せぬ気象現象による経済的・人的影"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-inview.is-inview > div.recruit-statement-body > p",
+    "x": 20,
+    "y": 2402,
+    "w": 320,
+    "h": 95,
+    "text": "健康面では、タバコ産業からの投資撤退や、 心身の健康に役立つユーザーフレンドリーなテクノロジーへの投資などを通じて、 リスクを未然に防ぐ取組みを拡大しています。"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-inview.is-inview > div.recruit-statement-body > p",
+    "x": 20,
+    "y": 2521,
+    "w": 320,
+    "h": 95,
+    "text": "世界50カ国15万4千人の従業員、代理店・パートナーの力を結集したグローバル企業として、 私たちは個人・経済・社会を進歩させる役割を担うための手段と強い意志を持"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-inview.is-inview > div.recruit-statement-body > p",
+    "x": 20,
+    "y": 2640,
+    "w": 320,
+    "h": 90,
+    "text": "そう、あなたなら、できる。"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-inview.is-inview > div.recruit-heading > h2#アクサグループについて",
+    "x": 20,
+    "y": 2842,
+    "w": 320,
+    "h": 36,
+    "level": 2,
+    "text": "アクサグループについて"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-inview.is-inview > div.recruit-about-lead > p",
+    "x": 20,
+    "y": 2950,
+    "w": 320,
+    "h": 90,
+    "text": "アクサは1817年にフランスで生まれ、世界52の国と地域、約9,200万人のお客さまにサービスを提供する保険および資産運用分野の世界的なリーディングカンパニーで"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-inview.is-inview > div.recruit-about-box-title > h3#アクサグループの概要",
+    "x": 36,
+    "y": 3103,
+    "w": 288,
+    "h": 30,
+    "level": 3,
+    "text": "アクサグループの概要"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-about-overview-item > div.recruit-about-item-heading > h4#顧客",
+    "x": 36,
+    "y": 3165,
+    "w": 288,
+    "h": 52,
+    "level": 4,
+    "text": "顧客"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 84,
+    "y": 3233,
+    "w": 192,
+    "h": 144,
+    "text": "",
+    "file": "media_17a0c9bff0526d34cec453a25eb7972dea"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-about-overview-item > div.recruit-about-overview-detail > h5#約9千200万人のお客さま",
+    "x": 60,
+    "y": 3389,
+    "w": 240,
+    "h": 24,
+    "level": 5,
+    "text": "約9千200万人のお客さま"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-about-overview-item > div.recruit-about-overview-detail > p",
+    "x": 60,
+    "y": 3425,
+    "w": 240,
+    "h": 34,
+    "text": "法人、個人のお客さまにご利用いただいています。"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-about-overview-item > div.recruit-about-item-heading > h4#従業員",
+    "x": 36,
+    "y": 3503,
+    "w": 288,
+    "h": 52,
+    "level": 4,
+    "text": "従業員"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 84,
+    "y": 3571,
+    "w": 192,
+    "h": 144,
+    "text": "",
+    "file": "media_1b183f4dc9daa3d50560108e34f284d48b"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-about-overview-item > div.recruit-about-overview-detail > h5#約15万6千人の従業員",
+    "x": 60,
+    "y": 3727,
+    "w": 240,
+    "h": 24,
+    "level": 5,
+    "text": "約15万6千人の従業員"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-about-overview-item > div.recruit-about-overview-detail > p",
+    "x": 60,
+    "y": 3763,
+    "w": 240,
+    "h": 84,
+    "text": "アクサの従業員は、多様な経歴と職種を有しているため、効果的かつ革新的なサービスを提供することができます。また、代理店、ブローカー、銀行などの販売代理店とも密接に"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-inview.is-inview > div.recruit-about-box-title.recruit-about-position-heading > h3#バランスの取れたポジション",
+    "x": 36,
+    "y": 3963,
+    "w": 288,
+    "h": 30,
+    "level": 3,
+    "text": "バランスの取れたポジション"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 36,
+    "y": 4005,
+    "w": 288,
+    "h": 570,
+    "text": "",
+    "file": "media_197d5ce62716e133bb88d33858e5521079"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-about-position-item > div.recruit-about-item-heading > h4#生命保険医療保険",
+    "x": 36,
+    "y": 4595,
+    "w": 288,
+    "h": 52,
+    "level": 4,
+    "text": "生命保険・医療保険"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-about-position-item > div.recruit-about-position-title > h5#お客さまの健康医療を守りプロジェクトに資金を提供します",
+    "x": 36,
+    "y": 4647,
+    "w": 288,
+    "h": 99,
+    "level": 5,
+    "text": "お客さまの健康・医療を守り、 プロジェクトに 資金を提供します"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-about-position-item > div.recruit-about-item-heading > h4#損害保険",
+    "x": 36,
+    "y": 4762,
+    "w": 288,
+    "h": 52,
+    "level": 4,
+    "text": "損害保険"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-about-position-item > div.recruit-about-position-title > h5#個人企業の有形無形資産を守ります",
+    "x": 36,
+    "y": 4814,
+    "w": 288,
+    "h": 99,
+    "level": 5,
+    "text": "個人・企業の有形・無形資産 を守ります"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-about-position-item > div.recruit-about-item-heading > h4#資産運用",
+    "x": 36,
+    "y": 4930,
+    "w": 288,
+    "h": 52,
+    "level": 4,
+    "text": "資産運用"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-about-position-item > div.recruit-about-position-title > h5#実体経済と大きな変革のための資金調達を行います",
+    "x": 36,
+    "y": 4982,
+    "w": 288,
+    "h": 99,
+    "level": 5,
+    "text": "実体経済と大きな変革のための 資金調達を行います"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-about-note > div.recruit-inview.is-inview > p",
+    "x": 32,
+    "y": 5133,
+    "w": 308,
+    "h": 34,
+    "text": "※上記情報は2025年6月確認時点のものになります。最新の情報は をご参照ください。"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-inview.is-inview > p > a.recruit-textlink",
+    "x": 80,
+    "y": 5149,
+    "w": 36,
+    "h": 17,
+    "text": "こちら",
+    "href": "/about-axa/group-info/global"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-about-business > div.recruit-about-business-heading > h3#アクサグループの日本における事業展開",
+    "x": 36,
+    "y": 5238,
+    "w": 288,
+    "h": 60,
+    "level": 3,
+    "text": "アクサグループの 日本における事業展開"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-about-business > div.recruit-about-business-lead > p",
+    "x": 36,
+    "y": 5322,
+    "w": 288,
+    "h": 216,
+    "text": "日本においては、保険事業を中心にビジネスを展開しています。 保険事業では2019年4月に持株会社であるアクサ・ホールディングス・ジャパン株式会社を設立し、 アク"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 36,
+    "y": 5570,
+    "w": 288,
+    "h": 312,
+    "text": "",
+    "file": "media_1028349aa799628bdbe2b0cbf5a9e46d71"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-about-business > div.recruit-about-business-note > p",
+    "x": 36,
+    "y": 5902,
+    "w": 288,
+    "h": 34,
+    "text": "＊アクサ・ホールディングス・ジャパン株式会社が所有する議決権の割合（2025年3月31日時点）"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-channels-kv > picture > img",
+    "x": 0,
+    "y": 6031,
+    "w": 360,
+    "h": 256,
+    "text": "",
+    "file": "media_11878eb27cd79c40bd63428837dd2cc35e"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-inview.is-inview > div.recruit-heading > h2#アクサ生命保険について",
+    "x": 20,
+    "y": 6343,
+    "w": 320,
+    "h": 36,
+    "level": 2,
+    "text": "アクサ生命保険について"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-inview.is-inview > div.recruit-channels-lead > p",
+    "x": 20,
+    "y": 6443,
+    "w": 320,
+    "h": 255,
+    "text": "アクサ生命はアクサのメンバーカンパニーとして 1994 年に設立されました。アクサが世界で培ってきた知識と経験を活かし、315 万人のお客さまから 571 万件"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-channel > div.recruit-channel-title > h2#専属営業社員による営業チャネル",
+    "x": 20,
+    "y": 6730,
+    "w": 320,
+    "h": 30,
+    "level": 2,
+    "text": "専属営業社員による営業チャネル"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-channel-img > picture > img",
+    "x": 132,
+    "y": 6816,
+    "w": 96,
+    "h": 96,
+    "text": "",
+    "file": "media_1095e8b3676263f8aab6d334b2d6f9bcae"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-channel-row > div.recruit-channel-text > h6#アクサ-cciチャネル",
+    "x": 36,
+    "y": 6924,
+    "w": 288,
+    "h": 22,
+    "level": 6,
+    "text": "アクサ cciチャネル"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-channel-row > div.recruit-channel-text > p",
+    "x": 36,
+    "y": 6962,
+    "w": 288,
+    "h": 98,
+    "text": "全国各地の商工会議所や商工会の共済制度や福祉制度の引受保険会社として、専任営業社員が経営者のリスク対策、事業承継、従業員福利厚生の提案、健康経営の実践支援などを"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-channel-img > picture > img",
+    "x": 132,
+    "y": 7116,
+    "w": 96,
+    "h": 96,
+    "text": "",
+    "file": "media_1fee23383f679f81c80ec999429c33856f"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-channel-row > div.recruit-channel-text > h6#アクサ-faチャネル",
+    "x": 36,
+    "y": 7224,
+    "w": 288,
+    "h": 22,
+    "level": 6,
+    "text": "アクサ faチャネル"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-channel-row > div.recruit-channel-text > p",
+    "x": 36,
+    "y": 7263,
+    "w": 288,
+    "h": 98,
+    "text": "ファイナンシャル・プランニングの知識を持つ専門担当者が、ライフマネジメント（人生を経営する）をテーマに、お客さまのニーズに合わせた高付加価値のコンサルティングサ"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-channel > div.recruit-channel-title > h2#保険代理店金融機関代理店を通じた営業チャネル",
+    "x": 20,
+    "y": 7401,
+    "w": 320,
+    "h": 60,
+    "level": 2,
+    "text": "保険代理店・金融機関代理店を通じた 営業チャネル"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-channel-img > picture > img",
+    "x": 132,
+    "y": 7491,
+    "w": 96,
+    "h": 96,
+    "text": "",
+    "file": "media_19f3664c80820ecedb00ffe6fc122a883e"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-channel-row > div.recruit-channel-text > h6#アクサ-パートナービジネスチャネル",
+    "x": 36,
+    "y": 7599,
+    "w": 288,
+    "h": 22,
+    "level": 6,
+    "text": "アクサ パートナービジネスチャネル"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-channel-row > div.recruit-channel-text > p",
+    "x": 36,
+    "y": 7637,
+    "w": 288,
+    "h": 98,
+    "text": "全国約3,000の代理店、銀行・信用金庫・信用組合などの金融機関を通じて、個人・法人の多様なニーズに対応したリスクマネジメントとコンサルティングサービスを提供し"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-channel > div.recruit-channel-title > h2#既存チャネルの枠を超えた新たな価値を創造する営業チャネル",
+    "x": 20,
+    "y": 7775,
+    "w": 320,
+    "h": 60,
+    "level": 2,
+    "text": "既存チャネルの枠を超えた 新たな価値を創造する営業チャネル"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-channel-img > picture > img",
+    "x": 132,
+    "y": 7865,
+    "w": 96,
+    "h": 96,
+    "text": "",
+    "file": "media_1fd0aa68083104d3c799500fc8f302affd"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-channel-row > div.recruit-channel-text > h6#アクサ-mcvpチャネル",
+    "x": 36,
+    "y": 7973,
+    "w": 288,
+    "h": 22,
+    "level": 6,
+    "text": "アクサ mcvpチャネル"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-channel-row > div.recruit-channel-text > p",
+    "x": 36,
+    "y": 8011,
+    "w": 288,
+    "h": 137,
+    "text": "MCVP（Multi Channel Value-up Program）ビジネスモデル、 健康経営ビジネスモデル、事業継承、ライフマネジメントの推進により、企業"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-service-img > picture > img",
+    "x": 20,
+    "y": 8201,
+    "w": 320,
+    "h": 192,
+    "text": "",
+    "file": "media_1632cb593b0444e47efb3d27f404208894"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-service-item > div.recruit-service-detail > h3#人生100年時代を歩むお客さま企業とその従業員をサポートする-健康経営アクサ式",
+    "x": 36,
+    "y": 8413,
+    "w": 288,
+    "h": 90,
+    "level": 3,
+    "text": "人生100年時代を歩むお客さま企業とその従業員をサポートする 「健康経営アクサ式」"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-service-item > div.recruit-service-detail > p",
+    "x": 36,
+    "y": 8519,
+    "w": 288,
+    "h": 319,
+    "text": "「健康経営アクサ式」は、従来の健康管理・健康増進に加えて、夢や生きがい、ライフプランなどの「社会的な健康」まで含めた「トータルな健康」を実現する企業経営者向けサ"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-service-img > picture > img",
+    "x": 20,
+    "y": 8881,
+    "w": 320,
+    "h": 192,
+    "text": "",
+    "file": "media_1962b998758488d82615ca9009399cb9be"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-service-item > div.recruit-service-detail > h3#幅広い世代へのライフマネジメント浸透を目指した取組み",
+    "x": 36,
+    "y": 9093,
+    "w": 288,
+    "h": 90,
+    "level": 3,
+    "text": "幅広い世代への「ライフマネジメント®」浸透を目指した取組み"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-service-item > div.recruit-service-detail > p",
+    "x": 36,
+    "y": 9199,
+    "w": 288,
+    "h": 319,
+    "text": "アクサ生命では、学生から教職員、企業・団体の従業員、子育て世代まで幅広い世代を対象に、人生の夢や目的実現に向けた「ライフマネジメント®コンサルティング」を提供し"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-inview.is-inview > div.recruit-heading > h2#採用情報",
+    "x": 20,
+    "y": 9654,
+    "w": 320,
+    "h": 36,
+    "level": 2,
+    "text": "採用情報"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.recruit-entry-item > p > a",
+    "x": 34,
+    "y": 9762,
+    "w": 306,
+    "h": 192,
+    "text": "students and graduates 新卒採用 募集要項 read more",
+    "href": "/recruitment/career/students"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > a > h3#students-and-graduates新卒採用-募集要項",
+    "x": 105,
+    "y": 9835,
+    "w": 164,
+    "h": 45,
+    "level": 3,
+    "text": "students and graduates 新卒採用 募集要項"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.recruit-entry-item > p > a",
+    "x": 34,
+    "y": 9974,
+    "w": 306,
+    "h": 192,
+    "text": "experienced professionals 中途採用 募集要項 read more",
+    "href": "/recruitment/career/experienced"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > a > h3#experienced-professionals中途採用-募集要項",
+    "x": 105,
+    "y": 10047,
+    "w": 164,
+    "h": 45,
+    "level": 3,
+    "text": "experienced professionals 中途採用 募集要項"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.recruit-entry-item > p > a",
+    "x": 34,
+    "y": 10186,
+    "w": 306,
+    "h": 192,
+    "text": "persons with disabilities 障害者採用 募集要項 read more",
+    "href": "/recruitment/career/pwd"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > a > h3#persons-with-disabilities障害者採用-募集要項",
+    "x": 95,
+    "y": 10259,
+    "w": 184,
+    "h": 45,
+    "level": 3,
+    "text": "persons with disabilities 障害者採用 募集要項"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.recruit-entry-item > p > a",
+    "x": 34,
+    "y": 10394,
+    "w": 306,
+    "h": 176,
+    "text": "商工会議所 / 商工会 共済・福祉制度推進スタッフ read more",
+    "href": "/recruitment/cci/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.recruit-entry-item > p > a",
+    "x": 34,
+    "y": 10590,
+    "w": 306,
+    "h": 176,
+    "text": "フィナンシャルプラン アドバイザー（fa）採用 read more",
+    "href": "/recruitment/fa/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-inview.is-inview > div.recruit-entry-site-desc > p",
+    "x": 20,
+    "y": 10814,
+    "w": 320,
+    "h": 98,
+    "text": "グループの概要や主な仕事内容、インタビュー、福利厚生などの主要な情報は、アクサ採用サイトに掲載されています。 アクサに興味をお持ちの方は、まずアクサ採用サイトを"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-entry-site > div.recruit-inview.is-inview > h3#当社の就職活動におけるハラスメント防止の取り組みについて",
+    "x": 20,
+    "y": 10952,
+    "w": 320,
+    "h": 60,
+    "level": 3,
+    "text": "当社の就職活動におけるハラスメント防止の取り組みについて"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-entry-site > div.recruit-inview.is-inview > p",
+    "x": 20,
+    "y": 11028,
+    "w": 320,
+    "h": 137,
+    "text": "アクサ生命保険株式会社は、すべての応募者の皆さまがご自身らしさを大切にし、安心して就職活動に臨める環境の整備に努めております。 当社では、選考や面談に関わる社員"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-entry-policy > p > a",
+    "x": 20,
+    "y": 11181,
+    "w": 227,
+    "h": 20,
+    "text": "就活ハラスメント防止対応 (pdf)",
+    "href": "/recruitment/career/pdf/harassment-policy_alj.pdf"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 20,
+    "y": 11248,
+    "w": 320,
+    "h": 384,
+    "text": "",
+    "file": "media_104fa5354df58ab0f0edca85660341d3ef"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recruit-entry-banner > p > a",
+    "x": 20,
+    "y": 11248,
+    "w": 320,
+    "h": 384,
+    "text": "realize your potential to drive progress より良い未来のために、 あなたの可能性をアクサで形に。 axa holding",
+    "href": "/recruitment/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > div.recruit-entry-banner-content > h2#realizeyour-potentialto-drive-progressより良い未来のためにあなたの可能性をアクサで形に",
+    "x": 40,
+    "y": 11383,
+    "w": 231,
+    "h": 181,
+    "level": 2,
+    "text": "realize your potential to drive progress より良い未来のために、 あなたの可能性をアクサで形に。"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.rc-follow-list > li.rc-follow-item > a.rc-follow-link",
+    "x": 90,
+    "y": 11736,
+    "w": 32,
+    "h": 32,
+    "text": "facebook",
+    "href": "/axajapan/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.rc-follow-list > li.rc-follow-item > a.rc-follow-link",
+    "x": 142,
+    "y": 11736,
+    "w": 32,
+    "h": 32,
+    "text": "linkedin",
+    "href": "/company/axa/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.rc-follow-list > li.rc-follow-item > a.rc-follow-link",
+    "x": 194,
+    "y": 11736,
+    "w": 32,
+    "h": 32,
+    "text": "youtube",
+    "href": "/c/AXAJP"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.rc-follow-list > li.rc-follow-item > a.rc-follow-link.rc-follow-link-note",
+    "x": 246,
+    "y": 11736,
+    "w": 24,
+    "h": 24,
+    "text": "note",
+    "href": "/axajapan"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.rc-footer-recruit-list > li.rc-footer-recruit-item > a.rc-footer-recruit-link",
+    "x": 14,
+    "y": 11793,
+    "w": 346,
+    "h": 61,
+    "text": "新卒採用 募集要項",
+    "href": "/recruitment/career/students"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.rc-footer-recruit-list > li.rc-footer-recruit-item > a.rc-footer-recruit-link",
+    "x": 14,
+    "y": 11855,
+    "w": 346,
+    "h": 61,
+    "text": "中途採用 募集要項",
+    "href": "/recruitment/career/experienced"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.rc-footer-recruit-list > li.rc-footer-recruit-item > a.rc-footer-recruit-link",
+    "x": 14,
+    "y": 11917,
+    "w": 346,
+    "h": 61,
+    "text": "障害者採用 募集要項",
+    "href": "/recruitment/career/pwd"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.rc-footer-recruit-list > li.rc-footer-recruit-item > a.rc-footer-recruit-link",
+    "x": 14,
+    "y": 11979,
+    "w": 346,
+    "h": 61,
+    "text": "採用ポリシー",
+    "href": "/recruitment/career/policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.rc-footer-list > li.rc-footer-item > a.rc-footer-link",
+    "x": 34,
+    "y": 12069,
+    "w": 306,
+    "h": 21,
+    "text": "商工会議所共済・福祉制度推進スタッフ採用",
+    "href": "/recruitment/cci/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.rc-footer-list > li.rc-footer-item > a.rc-footer-link",
+    "x": 34,
+    "y": 12106,
+    "w": 306,
+    "h": 42,
+    "text": "フィナンシャルプランアドバイザー（fa）採用",
+    "href": "/recruitment/fa/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.rc-footer-list > li.rc-footer-item > a.rc-footer-link",
+    "x": 34,
+    "y": 12184,
+    "w": 193,
+    "h": 21,
+    "text": "アクサジャパン採用サイト",
+    "href": "/recruitment/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.rc-footer-list > li.rc-footer-item > a.rc-footer-link",
+    "x": 34,
+    "y": 12221,
+    "w": 235,
+    "h": 21,
+    "text": "アクサグローバルキャリアサイト",
+    "href": "/careers-home"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.rc-footer-list > li.rc-footer-item > a.rc-footer-link",
+    "x": 34,
+    "y": 12299,
+    "w": 96,
+    "h": 21,
+    "text": "企業サイト",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.rc-footer-list > li.rc-footer-item > a.rc-footer-link",
+    "x": 34,
+    "y": 12336,
+    "w": 166,
+    "h": 21,
+    "text": "プライバシーポリシー",
+    "href": "/other/personal/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.rc-footer-list > li.rc-footer-item > a.rc-footer-link",
+    "x": 34,
+    "y": 12373,
+    "w": 306,
+    "h": 42,
+    "text": "労働施策総合推進法に基づく中途採用比率の公表（pdf）",
+    "href": "/recruitment/career/pdf/mid-career_recruitment_ratio_alj.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.rc-footer-list > li.rc-footer-item > a.rc-footer-link",
+    "x": 34,
+    "y": 12431,
+    "w": 208,
+    "h": 21,
+    "text": "男女賃金格差の公表（pdf）",
+    "href": "/recruitment/career/pdf/gender_pay_gap_2026_alj.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.rc-footer-list > li.rc-footer-item > a.rc-footer-link",
+    "x": 34,
+    "y": 12468,
+    "w": 249,
+    "h": 21,
+    "text": "就活ハラスメント防止対応（pdf）",
+    "href": "/recruitment/career/pdf/harassment-policy_alj.pdf"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.rc-footer-container > div.rc-footer-copytext > p",
+    "x": 20,
+    "y": 12533,
+    "w": 320,
+    "h": 11,
+    "text": "Copyright © AXA Life Insurance Co.,Ltd. All Rights Reserved."
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 4,
+    "textNodes": 136,
+    "controls": 32,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "axa life insurance recruiting information",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "our purpose 私たちのパーパス -存在意義-",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "act for human progress by protecting what matters.",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "もし「未来」がリスクでは ないと考えられたら。",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 8,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 8,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "アクサグループについて",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "アクサグループの概要",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 2
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "バランスの取れたポジション",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "アクサグループの 日本における事業展開",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 2
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "アクサ生命保険について",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "専属営業社員による営業チャネル",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 2
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "保険代理店・金融機関代理店を通じた 営業チャネル",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "既存チャネルの枠を超えた 新たな価値を創造する営業チャネル",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 2
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 13,
+   "heading": "人生100年時代を歩むお客さま企業とその従業員をサポートする 「健康経営アクサ式」",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 14,
+   "heading": "幅広い世代への「ライフマネジメント®」浸透を目指した取組み",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 15,
+   "heading": "採用情報",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 16,
+   "heading": "students and graduates 新卒採用 募集要項",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 17,
+   "heading": "experienced professionals 中途採用 募集要項",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 18,
+   "heading": "persons with disabilities 障害者採用 募集要項",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 19,
+   "heading": "当社の就職活動におけるハラスメント防止の取り組みについて",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 20,
+   "heading": "realize your potential to drive progress より良い未来のために、 あなたの可能性をアクサで形に。",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 76,
+    "y": 30,
+    "w": 59,
+    "h": 17
+   },
+   {
+    "x": 76,
+    "y": 49,
+    "w": 60,
+    "h": 17
+   },
+   {
+    "x": 232,
+    "y": 40,
+    "w": 47,
+    "h": 16
+   },
+   {
+    "x": 20,
+    "y": 686,
+    "w": 179,
+    "h": 45
+   },
+   {
+    "x": 20,
+    "y": 739,
+    "w": 229,
+    "h": 45
+   },
+   {
+    "x": 20,
+    "y": 804,
+    "w": 185,
+    "h": 22
+   },
+   {
+    "x": 140,
+    "y": 1053,
+    "w": 79,
+    "h": 16
+   },
+   {
+    "x": 77,
+    "y": 1083,
+    "w": 207,
+    "h": 24
+   },
+   {
+    "x": 134,
+    "y": 1133,
+    "w": 92,
+    "h": 36
+   },
+   {
+    "x": 78,
+    "y": 1175,
+    "w": 204,
+    "h": 36
+   },
+   {
+    "x": 95,
+    "y": 1217,
+    "w": 170,
+    "h": 36
+   },
+   {
+    "x": 94,
+    "y": 1260,
+    "w": 172,
+    "h": 36
+   },
+   {
+    "x": 55,
+    "y": 1331,
+    "w": 250,
+    "h": 20
+   },
+   {
+    "x": 41,
+    "y": 1359,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 1749,
+    "w": 288,
+    "h": 35
+   },
+   {
+    "x": 60,
+    "y": 1780,
+    "w": 240,
+    "h": 35
+   },
+   {
+    "x": 20,
+    "y": 1854,
+    "w": 223,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 1902,
+    "w": 314,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 1926,
+    "w": 139,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 1950,
+    "w": 320,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 1997,
+    "w": 307,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2021,
+    "w": 308,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2045,
+    "w": 209,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2069,
+    "w": 308,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2093,
+    "w": 28,
+    "h": 20
+   },
+   {
+    "x": 48,
+    "y": 2093,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2116,
+    "w": 209,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2164,
+    "w": 266,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2188,
+    "w": 307,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2212,
+    "w": 223,
+    "h": 20
+   },
+   {
+    "x": 243,
+    "y": 2212,
+    "w": 84,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2236,
+    "w": 153,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2283,
+    "w": 308,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2307,
+    "w": 283,
+    "h": 20
+   },
+   {
+    "x": 303,
+    "y": 2307,
+    "w": 28,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2331,
+    "w": 306,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2355,
+    "w": 320,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2403,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 300,
+    "y": 2403,
+    "w": 28,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2426,
+    "w": 306,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2450,
+    "w": 181,
+    "h": 20
+   },
+   {
+    "x": 201,
+    "y": 2450,
+    "w": 126,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2474,
+    "w": 166,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2522,
+    "w": 319,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2546,
+    "w": 265,
+    "h": 20
+   },
+   {
+    "x": 285,
+    "y": 2546,
+    "w": 42,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2569,
+    "w": 308,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2593,
+    "w": 222,
+    "h": 20
+   },
+   {
+    "x": 65,
+    "y": 2659,
+    "w": 230,
+    "h": 40
+   },
+   {
+    "x": 89,
+    "y": 2707,
+    "w": 182,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2842,
+    "w": 261,
+    "h": 35
+   },
+   {
+    "x": 20,
+    "y": 2951,
+    "w": 312,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2973,
+    "w": 315,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2996,
+    "w": 307,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 3018,
+    "w": 138,
+    "h": 20
+   },
+   {
+    "x": 81,
+    "y": 3103,
+    "w": 198,
+    "h": 29
+   },
+   {
+    "x": 164,
+    "y": 3177,
+    "w": 32,
+    "h": 24
+   },
+   {
+    "x": 89,
+    "y": 3389,
+    "w": 182,
+    "h": 24
+   },
+   {
+    "x": 60,
+    "y": 3424,
+    "w": 239,
+    "h": 17
+   },
+   {
+    "x": 163,
+    "y": 3441,
+    "w": 35,
+    "h": 17
+   },
+   {
+    "x": 156,
+    "y": 3515,
+    "w": 48,
+    "h": 24
+   },
+   {
+    "x": 102,
+    "y": 3727,
+    "w": 156,
+    "h": 24
+   },
+   {
+    "x": 60,
+    "y": 3762,
+    "w": 239,
+    "h": 17
+   },
+   {
+    "x": 60,
+    "y": 3779,
+    "w": 240,
+    "h": 17
+   },
+   {
+    "x": 61,
+    "y": 3796,
+    "w": 239,
+    "h": 17
+   },
+   {
+    "x": 60,
+    "y": 3812,
+    "w": 240,
+    "h": 17
+   },
+   {
+    "x": 133,
+    "y": 3829,
+    "w": 94,
+    "h": 17
+   },
+   {
+    "x": 50,
+    "y": 3963,
+    "w": 260,
+    "h": 29
+   },
+   {
+    "x": 108,
+    "y": 4607,
+    "w": 144,
+    "h": 24
+   },
+   {
+    "x": 36,
+    "y": 4671,
+    "w": 223,
+    "h": 24
+   },
+   {
+    "x": 260,
+    "y": 4671,
+    "w": 64,
+    "h": 24
+   },
+   {
+    "x": 92,
+    "y": 4697,
+    "w": 48,
+    "h": 24
+   },
+   {
+    "x": 140,
+    "y": 4697,
+    "w": 128,
+    "h": 24
+   },
+   {
+    "x": 148,
+    "y": 4774,
+    "w": 64,
+    "h": 24
+   },
+   {
+    "x": 44,
+    "y": 4838,
+    "w": 208,
+    "h": 24
+   },
+   {
+    "x": 252,
+    "y": 4838,
+    "w": 64,
+    "h": 24
+   },
+   {
+    "x": 172,
+    "y": 4864,
+    "w": 16,
+    "h": 24
+   },
+   {
+    "x": 148,
+    "y": 4942,
+    "w": 64,
+    "h": 24
+   },
+   {
+    "x": 44,
+    "y": 5006,
+    "w": 224,
+    "h": 24
+   },
+   {
+    "x": 268,
+    "y": 5006,
+    "w": 48,
+    "h": 24
+   },
+   {
+    "x": 132,
+    "y": 5031,
+    "w": 96,
+    "h": 24
+   },
+   {
+    "x": 20,
+    "y": 5132,
+    "w": 308,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 5149,
+    "w": 48,
+    "h": 17
+   },
+   {
+    "x": 80,
+    "y": 5149,
+    "w": 36,
+    "h": 17
+   },
+   {
+    "x": 116,
+    "y": 5149,
+    "w": 108,
+    "h": 17
+   },
+   {
+    "x": 101,
+    "y": 5238,
+    "w": 158,
+    "h": 29
+   },
+   {
+    "x": 80,
+    "y": 5268,
+    "w": 200,
+    "h": 29
+   },
+   {
+    "x": 36,
+    "y": 5321,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 5341,
+    "w": 124,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 5361,
+    "w": 277,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 5380,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 5400,
+    "w": 70,
+    "h": 20
+   },
+   {
+    "x": 106,
+    "y": 5400,
+    "w": 209,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 5419,
+    "w": 152,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 5439,
+    "w": 287,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 5459,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 5478,
+    "w": 227,
+    "h": 20
+   },
+   {
+    "x": 263,
+    "y": 5478,
+    "w": 56,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 5498,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 5517,
+    "w": 152,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 5901,
+    "w": 287,
+    "h": 17
+   },
+   {
+    "x": 36,
+    "y": 5917,
+    "w": 239,
+    "h": 17
+   },
+   {
+    "x": 20,
+    "y": 6343,
+    "w": 262,
+    "h": 35
+   },
+   {
+    "x": 20,
+    "y": 6442,
+    "w": 306,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 6462,
+    "w": 313,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 6481,
+    "w": 306,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 6501,
+    "w": 294,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 6521,
+    "w": 296,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 6540,
+    "w": 306,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 6560,
+    "w": 293,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 6579,
+    "w": 308,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 6599,
+    "w": 315,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 6619,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 6658,
+    "w": 314,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 6677,
+    "w": 111,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 6730,
+    "w": 299,
+    "h": 29
+   },
+   {
+    "x": 110,
+    "y": 6923,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 36,
+    "y": 6961,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 6981,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 7001,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 7020,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 7040,
+    "w": 96,
+    "h": 20
+   },
+   {
+    "x": 114,
+    "y": 7223,
+    "w": 132,
+    "h": 24
+   },
+   {
+    "x": 36,
+    "y": 7262,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 7281,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 7301,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 7321,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 7340,
+    "w": 166,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 7401,
+    "w": 320,
+    "h": 29
+   },
+   {
+    "x": 20,
+    "y": 7431,
+    "w": 20,
+    "h": 29
+   },
+   {
+    "x": 40,
+    "y": 7431,
+    "w": 120,
+    "h": 29
+   },
+   {
+    "x": 51,
+    "y": 7598,
+    "w": 259,
+    "h": 24
+   },
+   {
+    "x": 36,
+    "y": 7636,
+    "w": 287,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 7656,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 7675,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 7695,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 7714,
+    "w": 27,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 7775,
+    "w": 240,
+    "h": 29
+   },
+   {
+    "x": 260,
+    "y": 7775,
+    "w": 80,
+    "h": 29
+   },
+   {
+    "x": 20,
+    "y": 7805,
+    "w": 240,
+    "h": 29
+   },
+   {
+    "x": 101,
+    "y": 7972,
+    "w": 157,
+    "h": 24
+   },
+   {
+    "x": 36,
+    "y": 8010,
+    "w": 276,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8030,
+    "w": 283,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8050,
+    "w": 266,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8069,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8089,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8108,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8128,
+    "w": 138,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8413,
+    "w": 275,
+    "h": 29
+   },
+   {
+    "x": 36,
+    "y": 8443,
+    "w": 279,
+    "h": 29
+   },
+   {
+    "x": 36,
+    "y": 8473,
+    "w": 224,
+    "h": 29
+   },
+   {
+    "x": 36,
+    "y": 8521,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8545,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8570,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8594,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8619,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8643,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8668,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8692,
+    "w": 215,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8741,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8766,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8790,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8815,
+    "w": 96,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 9093,
+    "w": 280,
+    "h": 29
+   },
+   {
+    "x": 36,
+    "y": 9123,
+    "w": 270,
+    "h": 29
+   },
+   {
+    "x": 36,
+    "y": 9153,
+    "w": 20,
+    "h": 29
+   },
+   {
+    "x": 36,
+    "y": 9201,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 9226,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 9250,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 9275,
+    "w": 285,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 9299,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 9324,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 9348,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 9373,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 9397,
+    "w": 285,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 9422,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 9446,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 9471,
+    "w": 277,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 9495,
+    "w": 27,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 9654,
+    "w": 96,
+    "h": 35
+   },
+   {
+    "x": 125,
+    "y": 9836,
+    "w": 124,
+    "h": 14
+   },
+   {
+    "x": 105,
+    "y": 9851,
+    "w": 164,
+    "h": 29
+   },
+   {
+    "x": 189,
+    "y": 9908,
+    "w": 98,
+    "h": 17
+   },
+   {
+    "x": 120,
+    "y": 10048,
+    "w": 133,
+    "h": 14
+   },
+   {
+    "x": 105,
+    "y": 10063,
+    "w": 164,
+    "h": 29
+   },
+   {
+    "x": 189,
+    "y": 10120,
+    "w": 98,
+    "h": 17
+   },
+   {
+    "x": 124,
+    "y": 10260,
+    "w": 125,
+    "h": 14
+   },
+   {
+    "x": 95,
+    "y": 10275,
+    "w": 184,
+    "h": 29
+   },
+   {
+    "x": 189,
+    "y": 10332,
+    "w": 98,
+    "h": 17
+   },
+   {
+    "x": 99,
+    "y": 10453,
+    "w": 177,
+    "h": 29
+   },
+   {
+    "x": 57,
+    "y": 10481,
+    "w": 260,
+    "h": 29
+   },
+   {
+    "x": 189,
+    "y": 10524,
+    "w": 98,
+    "h": 17
+   },
+   {
+    "x": 87,
+    "y": 10649,
+    "w": 200,
+    "h": 29
+   },
+   {
+    "x": 76,
+    "y": 10677,
+    "w": 222,
+    "h": 29
+   },
+   {
+    "x": 189,
+    "y": 10720,
+    "w": 98,
+    "h": 17
+   },
+   {
+    "x": 20,
+    "y": 10813,
+    "w": 307,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 10832,
+    "w": 307,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 10852,
+    "w": 138,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 10871,
+    "w": 307,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 10891,
+    "w": 140,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 10952,
+    "w": 320,
+    "h": 29
+   },
+   {
+    "x": 20,
+    "y": 10982,
+    "w": 239,
+    "h": 29
+   },
+   {
+    "x": 20,
+    "y": 11027,
+    "w": 320,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 11046,
+    "w": 308,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 11066,
+    "w": 250,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 11085,
+    "w": 308,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 11105,
+    "w": 307,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 11125,
+    "w": 308,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 11144,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 11180,
+    "w": 207,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 11385,
+    "w": 100,
+    "h": 36
+   },
+   {
+    "x": 40,
+    "y": 11426,
+    "w": 192,
+    "h": 36
+   },
+   {
+    "x": 40,
+    "y": 11468,
+    "w": 230,
+    "h": 36
+   },
+   {
+    "x": 40,
+    "y": 11528,
+    "w": 131,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 11546,
+    "w": 179,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 11597,
+    "w": 221,
+    "h": 14
+   },
+   {
+    "x": 34,
+    "y": 11813,
+    "w": 115,
+    "h": 20
+   },
+   {
+    "x": 34,
+    "y": 11875,
+    "w": 115,
+    "h": 20
+   },
+   {
+    "x": 34,
+    "y": 11937,
+    "w": 129,
+    "h": 20
+   },
+   {
+    "x": 34,
+    "y": 11999,
+    "w": 84,
+    "h": 20
+   },
+   {
+    "x": 34,
+    "y": 12069,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 34,
+    "y": 12106,
+    "w": 296,
+    "h": 20
+   },
+   {
+    "x": 34,
+    "y": 12184,
+    "w": 167,
+    "h": 20
+   },
+   {
+    "x": 34,
+    "y": 12221,
+    "w": 209,
+    "h": 20
+   },
+   {
+    "x": 34,
+    "y": 12299,
+    "w": 70,
+    "h": 20
+   },
+   {
+    "x": 34,
+    "y": 12336,
+    "w": 140,
+    "h": 20
+   },
+   {
+    "x": 34,
+    "y": 12373,
+    "w": 294,
+    "h": 20
+   },
+   {
+    "x": 34,
+    "y": 12394,
+    "w": 70,
+    "h": 20
+   },
+   {
+    "x": 34,
+    "y": 12431,
+    "w": 182,
+    "h": 20
+   },
+   {
+    "x": 34,
+    "y": 12468,
+    "w": 223,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 12534,
+    "w": 233,
+    "h": 9
+   }
+  ],
+  "eds": [
+   {
+    "x": 76,
+    "y": 30,
+    "w": 59,
+    "h": 17
+   },
+   {
+    "x": 76,
+    "y": 49,
+    "w": 60,
+    "h": 17
+   },
+   {
+    "x": 232,
+    "y": 40,
+    "w": 47,
+    "h": 16
+   },
+   {
+    "x": 20,
+    "y": 686,
+    "w": 179,
+    "h": 45
+   },
+   {
+    "x": 20,
+    "y": 739,
+    "w": 229,
+    "h": 45
+   },
+   {
+    "x": 20,
+    "y": 804,
+    "w": 185,
+    "h": 22
+   },
+   {
+    "x": 140,
+    "y": 1053,
+    "w": 79,
+    "h": 16
+   },
+   {
+    "x": 77,
+    "y": 1083,
+    "w": 207,
+    "h": 24
+   },
+   {
+    "x": 134,
+    "y": 1133,
+    "w": 92,
+    "h": 36
+   },
+   {
+    "x": 78,
+    "y": 1175,
+    "w": 204,
+    "h": 36
+   },
+   {
+    "x": 95,
+    "y": 1217,
+    "w": 170,
+    "h": 36
+   },
+   {
+    "x": 94,
+    "y": 1260,
+    "w": 172,
+    "h": 36
+   },
+   {
+    "x": 55,
+    "y": 1331,
+    "w": 250,
+    "h": 20
+   },
+   {
+    "x": 41,
+    "y": 1359,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 1749,
+    "w": 288,
+    "h": 35
+   },
+   {
+    "x": 60,
+    "y": 1780,
+    "w": 240,
+    "h": 35
+   },
+   {
+    "x": 20,
+    "y": 1854,
+    "w": 223,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 1902,
+    "w": 314,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 1926,
+    "w": 139,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 1950,
+    "w": 320,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 1997,
+    "w": 307,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2021,
+    "w": 308,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2045,
+    "w": 209,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2069,
+    "w": 308,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2093,
+    "w": 28,
+    "h": 20
+   },
+   {
+    "x": 48,
+    "y": 2093,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2116,
+    "w": 209,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2164,
+    "w": 266,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2188,
+    "w": 307,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2212,
+    "w": 223,
+    "h": 20
+   },
+   {
+    "x": 243,
+    "y": 2212,
+    "w": 84,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2236,
+    "w": 153,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2283,
+    "w": 308,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2307,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 300,
+    "y": 2307,
+    "w": 28,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2331,
+    "w": 306,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2355,
+    "w": 320,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2403,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 300,
+    "y": 2403,
+    "w": 28,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2426,
+    "w": 306,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2450,
+    "w": 181,
+    "h": 20
+   },
+   {
+    "x": 201,
+    "y": 2450,
+    "w": 126,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2474,
+    "w": 166,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2522,
+    "w": 319,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2546,
+    "w": 265,
+    "h": 20
+   },
+   {
+    "x": 285,
+    "y": 2546,
+    "w": 42,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2569,
+    "w": 308,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2593,
+    "w": 222,
+    "h": 20
+   },
+   {
+    "x": 65,
+    "y": 2659,
+    "w": 230,
+    "h": 40
+   },
+   {
+    "x": 89,
+    "y": 2707,
+    "w": 182,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2842,
+    "w": 261,
+    "h": 35
+   },
+   {
+    "x": 20,
+    "y": 2951,
+    "w": 312,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2973,
+    "w": 315,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 2996,
+    "w": 307,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 3018,
+    "w": 138,
+    "h": 20
+   },
+   {
+    "x": 81,
+    "y": 3103,
+    "w": 198,
+    "h": 29
+   },
+   {
+    "x": 164,
+    "y": 3177,
+    "w": 32,
+    "h": 24
+   },
+   {
+    "x": 89,
+    "y": 3389,
+    "w": 182,
+    "h": 24
+   },
+   {
+    "x": 60,
+    "y": 3424,
+    "w": 239,
+    "h": 17
+   },
+   {
+    "x": 163,
+    "y": 3441,
+    "w": 35,
+    "h": 17
+   },
+   {
+    "x": 156,
+    "y": 3515,
+    "w": 48,
+    "h": 24
+   },
+   {
+    "x": 102,
+    "y": 3727,
+    "w": 156,
+    "h": 24
+   },
+   {
+    "x": 60,
+    "y": 3762,
+    "w": 239,
+    "h": 17
+   },
+   {
+    "x": 60,
+    "y": 3779,
+    "w": 240,
+    "h": 17
+   },
+   {
+    "x": 61,
+    "y": 3796,
+    "w": 239,
+    "h": 17
+   },
+   {
+    "x": 60,
+    "y": 3812,
+    "w": 240,
+    "h": 17
+   },
+   {
+    "x": 133,
+    "y": 3829,
+    "w": 94,
+    "h": 17
+   },
+   {
+    "x": 50,
+    "y": 3963,
+    "w": 260,
+    "h": 29
+   },
+   {
+    "x": 108,
+    "y": 4607,
+    "w": 144,
+    "h": 24
+   },
+   {
+    "x": 36,
+    "y": 4671,
+    "w": 223,
+    "h": 24
+   },
+   {
+    "x": 260,
+    "y": 4671,
+    "w": 64,
+    "h": 24
+   },
+   {
+    "x": 92,
+    "y": 4697,
+    "w": 48,
+    "h": 24
+   },
+   {
+    "x": 140,
+    "y": 4697,
+    "w": 128,
+    "h": 24
+   },
+   {
+    "x": 148,
+    "y": 4774,
+    "w": 64,
+    "h": 24
+   },
+   {
+    "x": 44,
+    "y": 4838,
+    "w": 208,
+    "h": 24
+   },
+   {
+    "x": 252,
+    "y": 4838,
+    "w": 64,
+    "h": 24
+   },
+   {
+    "x": 172,
+    "y": 4864,
+    "w": 16,
+    "h": 24
+   },
+   {
+    "x": 148,
+    "y": 4942,
+    "w": 64,
+    "h": 24
+   },
+   {
+    "x": 44,
+    "y": 5006,
+    "w": 224,
+    "h": 24
+   },
+   {
+    "x": 268,
+    "y": 5006,
+    "w": 48,
+    "h": 24
+   },
+   {
+    "x": 132,
+    "y": 5031,
+    "w": 96,
+    "h": 24
+   },
+   {
+    "x": 20,
+    "y": 5132,
+    "w": 308,
+    "h": 17
+   },
+   {
+    "x": 32,
+    "y": 5149,
+    "w": 48,
+    "h": 17
+   },
+   {
+    "x": 80,
+    "y": 5149,
+    "w": 36,
+    "h": 17
+   },
+   {
+    "x": 116,
+    "y": 5149,
+    "w": 108,
+    "h": 17
+   },
+   {
+    "x": 101,
+    "y": 5238,
+    "w": 158,
+    "h": 29
+   },
+   {
+    "x": 80,
+    "y": 5268,
+    "w": 200,
+    "h": 29
+   },
+   {
+    "x": 36,
+    "y": 5321,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 5341,
+    "w": 124,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 5361,
+    "w": 277,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 5380,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 5400,
+    "w": 70,
+    "h": 20
+   },
+   {
+    "x": 106,
+    "y": 5400,
+    "w": 209,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 5419,
+    "w": 152,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 5439,
+    "w": 287,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 5459,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 5478,
+    "w": 224,
+    "h": 20
+   },
+   {
+    "x": 260,
+    "y": 5478,
+    "w": 56,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 5498,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 5517,
+    "w": 152,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 5901,
+    "w": 287,
+    "h": 17
+   },
+   {
+    "x": 36,
+    "y": 5917,
+    "w": 239,
+    "h": 17
+   },
+   {
+    "x": 20,
+    "y": 6343,
+    "w": 262,
+    "h": 35
+   },
+   {
+    "x": 20,
+    "y": 6442,
+    "w": 306,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 6462,
+    "w": 313,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 6481,
+    "w": 306,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 6501,
+    "w": 294,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 6521,
+    "w": 296,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 6540,
+    "w": 306,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 6560,
+    "w": 293,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 6579,
+    "w": 308,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 6599,
+    "w": 315,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 6619,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 6658,
+    "w": 314,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 6677,
+    "w": 111,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 6730,
+    "w": 299,
+    "h": 29
+   },
+   {
+    "x": 110,
+    "y": 6923,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 36,
+    "y": 6961,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 6981,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 7001,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 7020,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 7040,
+    "w": 96,
+    "h": 20
+   },
+   {
+    "x": 114,
+    "y": 7223,
+    "w": 132,
+    "h": 24
+   },
+   {
+    "x": 36,
+    "y": 7262,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 7281,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 7301,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 7320,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 7340,
+    "w": 166,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 7401,
+    "w": 320,
+    "h": 29
+   },
+   {
+    "x": 20,
+    "y": 7431,
+    "w": 20,
+    "h": 29
+   },
+   {
+    "x": 40,
+    "y": 7431,
+    "w": 120,
+    "h": 29
+   },
+   {
+    "x": 51,
+    "y": 7598,
+    "w": 259,
+    "h": 24
+   },
+   {
+    "x": 36,
+    "y": 7636,
+    "w": 287,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 7656,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 7675,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 7695,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 7714,
+    "w": 27,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 7775,
+    "w": 240,
+    "h": 29
+   },
+   {
+    "x": 260,
+    "y": 7775,
+    "w": 80,
+    "h": 29
+   },
+   {
+    "x": 20,
+    "y": 7805,
+    "w": 240,
+    "h": 29
+   },
+   {
+    "x": 101,
+    "y": 7972,
+    "w": 157,
+    "h": 24
+   },
+   {
+    "x": 36,
+    "y": 8010,
+    "w": 276,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8030,
+    "w": 283,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8050,
+    "w": 266,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8069,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8089,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8108,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8128,
+    "w": 138,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8413,
+    "w": 275,
+    "h": 29
+   },
+   {
+    "x": 36,
+    "y": 8443,
+    "w": 279,
+    "h": 29
+   },
+   {
+    "x": 36,
+    "y": 8473,
+    "w": 224,
+    "h": 29
+   },
+   {
+    "x": 36,
+    "y": 8521,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8545,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8570,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8594,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8619,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8643,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8668,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8692,
+    "w": 215,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8741,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8766,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8790,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 8815,
+    "w": 96,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 9093,
+    "w": 280,
+    "h": 29
+   },
+   {
+    "x": 36,
+    "y": 9123,
+    "w": 270,
+    "h": 29
+   },
+   {
+    "x": 36,
+    "y": 9153,
+    "w": 20,
+    "h": 29
+   },
+   {
+    "x": 36,
+    "y": 9201,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 9226,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 9250,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 9275,
+    "w": 285,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 9299,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 9324,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 9348,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 9373,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 9397,
+    "w": 285,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 9422,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 9446,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 9471,
+    "w": 277,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 9495,
+    "w": 27,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 9654,
+    "w": 96,
+    "h": 35
+   },
+   {
+    "x": 125,
+    "y": 9836,
+    "w": 124,
+    "h": 14
+   },
+   {
+    "x": 105,
+    "y": 9851,
+    "w": 164,
+    "h": 29
+   },
+   {
+    "x": 189,
+    "y": 9908,
+    "w": 98,
+    "h": 17
+   },
+   {
+    "x": 120,
+    "y": 10048,
+    "w": 133,
+    "h": 14
+   },
+   {
+    "x": 105,
+    "y": 10063,
+    "w": 164,
+    "h": 29
+   },
+   {
+    "x": 189,
+    "y": 10120,
+    "w": 98,
+    "h": 17
+   },
+   {
+    "x": 124,
+    "y": 10260,
+    "w": 125,
+    "h": 14
+   },
+   {
+    "x": 95,
+    "y": 10275,
+    "w": 184,
+    "h": 29
+   },
+   {
+    "x": 189,
+    "y": 10332,
+    "w": 98,
+    "h": 17
+   },
+   {
+    "x": 99,
+    "y": 10453,
+    "w": 177,
+    "h": 29
+   },
+   {
+    "x": 57,
+    "y": 10481,
+    "w": 260,
+    "h": 29
+   },
+   {
+    "x": 189,
+    "y": 10524,
+    "w": 98,
+    "h": 17
+   },
+   {
+    "x": 87,
+    "y": 10649,
+    "w": 200,
+    "h": 29
+   },
+   {
+    "x": 76,
+    "y": 10677,
+    "w": 222,
+    "h": 29
+   },
+   {
+    "x": 189,
+    "y": 10720,
+    "w": 98,
+    "h": 17
+   },
+   {
+    "x": 20,
+    "y": 10813,
+    "w": 307,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 10832,
+    "w": 307,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 10852,
+    "w": 138,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 10871,
+    "w": 307,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 10891,
+    "w": 140,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 10952,
+    "w": 320,
+    "h": 29
+   },
+   {
+    "x": 20,
+    "y": 10982,
+    "w": 239,
+    "h": 29
+   },
+   {
+    "x": 20,
+    "y": 11027,
+    "w": 320,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 11046,
+    "w": 308,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 11066,
+    "w": 250,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 11085,
+    "w": 308,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 11105,
+    "w": 307,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 11125,
+    "w": 308,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 11144,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 11180,
+    "w": 207,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 11385,
+    "w": 100,
+    "h": 36
+   },
+   {
+    "x": 40,
+    "y": 11426,
+    "w": 192,
+    "h": 36
+   },
+   {
+    "x": 40,
+    "y": 11468,
+    "w": 230,
+    "h": 36
+   },
+   {
+    "x": 40,
+    "y": 11527,
+    "w": 131,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 11545,
+    "w": 179,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 11596,
+    "w": 221,
+    "h": 14
+   },
+   {
+    "x": 34,
+    "y": 11813,
+    "w": 115,
+    "h": 20
+   },
+   {
+    "x": 34,
+    "y": 11875,
+    "w": 115,
+    "h": 20
+   },
+   {
+    "x": 34,
+    "y": 11937,
+    "w": 129,
+    "h": 20
+   },
+   {
+    "x": 34,
+    "y": 11999,
+    "w": 84,
+    "h": 20
+   },
+   {
+    "x": 34,
+    "y": 12069,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 34,
+    "y": 12106,
+    "w": 296,
+    "h": 20
+   },
+   {
+    "x": 34,
+    "y": 12184,
+    "w": 167,
+    "h": 20
+   },
+   {
+    "x": 34,
+    "y": 12221,
+    "w": 209,
+    "h": 20
+   },
+   {
+    "x": 34,
+    "y": 12299,
+    "w": 70,
+    "h": 20
+   },
+   {
+    "x": 34,
+    "y": 12336,
+    "w": 140,
+    "h": 20
+   },
+   {
+    "x": 34,
+    "y": 12373,
+    "w": 294,
+    "h": 20
+   },
+   {
+    "x": 34,
+    "y": 12394,
+    "w": 70,
+    "h": 20
+   },
+   {
+    "x": 34,
+    "y": 12431,
+    "w": 182,
+    "h": 20
+   },
+   {
+    "x": 34,
+    "y": 12468,
+    "w": 223,
+    "h": 20
+   },
+   {
+    "x": 20,
+    "y": 12534,
+    "w": 233,
+    "h": 9
+   }
+  ]
+ }
+}

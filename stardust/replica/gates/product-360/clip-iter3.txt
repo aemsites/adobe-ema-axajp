@@ -1,0 +1,5 @@
+clip-probe http://localhost:8791/product-proposed.html @ 360px — docH 12284, 360 text nodes, 297 controls (HTTP 200, chrome)
+  🔴 TEXT CLIPPED           ×21    in a.btn2.btn2--outline  div.pcg-product > div.pcg-buttons-wrapper > a.btn2.btn2--outline > span.btn2__label  "パンフレットをもらう"  cut 4–16px
+  🔴 TEXT CLIPPED           ×18    in a.btn2.btn2--primary  div.sp-only > div.pl-button-content > a.btn2.btn2--primary > span.btn2__label  "専門スタッフに 電話で相談(無料)"  cut 4px
+Clipped: 39 (text clipped 39, text hidden 0, controls hidden 0, controls clipped 0; advisory: clamped 0, collapsed 0, scroll-hidden 0, horizontal 0)
+json → stardust/replica/gates/product-360/clip-iter3.json

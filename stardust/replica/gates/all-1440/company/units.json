@@ -1,0 +1,2398 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-09T12:51:01.686Z",
+  "tol": 4,
+  "n": 16,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.axa.co.jp/company/",
+  "at": "2026-11-09T07:03:01.529Z",
+  "docH": 11802
+ },
+ "eds": {
+  "url": "https://main--80b77690--aemcoder.aem.page/company",
+  "at": "2026-11-09T12:51:01.592Z",
+  "docH": 11802
+ },
+ "results": [
+  {
+   "sel": "div.DirectButton__StyledDirectButton-sc-ee2905d0-0=.anchor-btn, .anchor-links-item",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.Layout-sc-f22cece7-3.SliceContainer__SliceLayout-sc-c4778fe-0 > div.LinkButtons__LinkButtonsLayout-sc-92871218-0.dhaQfR > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.anchor-links-wrapper > div.anchor-links.rule-before > div.anchor-links-item"
+     },
+     "rows": [
+      {
+       "key": "link:事業保障資金の確保",
+       "role": "link",
+       "text": "事業保障資金の確保",
+       "edsText": "事業保障資金の確保",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 349,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 349,
+        "h": 58,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/600",
+        "eds": "14/18/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 313,
+       "y": 22,
+       "w": 15,
+       "h": 15,
+       "absY": 749,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 197,
+       "y": 727,
+       "w": 349,
+       "h": 58
+      },
+      "eds": {
+       "x": 197,
+       "y": 727,
+       "w": 349,
+       "h": 58
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.Layout-sc-f22cece7-3.SliceContainer__SliceLayout-sc-c4778fe-0 > div.LinkButtons__LinkButtonsLayout-sc-92871218-0.dhaQfR > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.anchor-links-wrapper > div.anchor-links.rule-before > div.anchor-links-item"
+     },
+     "rows": [
+      {
+       "key": "link:死亡退職金の準備",
+       "role": "link",
+       "text": "死亡退職金の準備",
+       "edsText": "死亡退職金の準備",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 349,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 349,
+        "h": 58,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/600",
+        "eds": "14/18/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 313,
+       "y": 22,
+       "w": 15,
+       "h": 15,
+       "absY": 749,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 546,
+       "y": 727,
+       "w": 349,
+       "h": 58
+      },
+      "eds": {
+       "x": 546,
+       "y": 727,
+       "w": 349,
+       "h": 58
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.Layout-sc-f22cece7-3.SliceContainer__SliceLayout-sc-c4778fe-0 > div.LinkButtons__LinkButtonsLayout-sc-92871218-0.dhaQfR > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.anchor-links-wrapper > div.anchor-links.rule-before > div.anchor-links-item"
+     },
+     "rows": [
+      {
+       "key": "link:従業員の福利厚生",
+       "role": "link",
+       "text": "従業員の福利厚生",
+       "edsText": "従業員の福利厚生",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 349,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 349,
+        "h": 58,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/600",
+        "eds": "14/18/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 313,
+       "y": 22,
+       "w": 15,
+       "h": 15,
+       "absY": 749,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 894,
+       "y": 727,
+       "w": 349,
+       "h": 58
+      },
+      "eds": {
+       "x": 894,
+       "y": 727,
+       "w": 349,
+       "h": 58
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.Layout-sc-f22cece7-3.SliceContainer__SliceLayout-sc-c4778fe-0 > div.LinkButtons__LinkButtonsLayout-sc-92871218-0.dhaQfR > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.anchor-links-wrapper > div.anchor-links.rule-before > div.anchor-links-item"
+     },
+     "rows": [
+      {
+       "key": "link:従業員の退職金準備",
+       "role": "link",
+       "text": "従業員の退職金準備",
+       "edsText": "従業員の退職金準備",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 349,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 349,
+        "h": 58,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/600",
+        "eds": "14/18/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 313,
+       "y": 22,
+       "w": 15,
+       "h": 15,
+       "absY": 807,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 197,
+       "y": 785,
+       "w": 349,
+       "h": 58
+      },
+      "eds": {
+       "x": 197,
+       "y": 785,
+       "w": 349,
+       "h": 58
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.Layout-sc-f22cece7-3.SliceContainer__SliceLayout-sc-c4778fe-0 > div.LinkButtons__LinkButtonsLayout-sc-92871218-0.dhaQfR > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.anchor-links-wrapper > div.anchor-links.rule-before > div.anchor-links-item"
+     },
+     "rows": [
+      {
+       "key": "link:経営者の勇退準備",
+       "role": "link",
+       "text": "経営者の勇退準備",
+       "edsText": "経営者の勇退準備",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 349,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 349,
+        "h": 58,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/600",
+        "eds": "14/18/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 313,
+       "y": 22,
+       "w": 15,
+       "h": 15,
+       "absY": 807,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 546,
+       "y": 785,
+       "w": 349,
+       "h": 58
+      },
+      "eds": {
+       "x": 546,
+       "y": 785,
+       "w": 349,
+       "h": 58
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.Layout-sc-f22cece7-3.SliceContainer__SliceLayout-sc-c4778fe-0 > div.LinkButtons__LinkButtonsLayout-sc-92871218-0.dhaQfR > div.DirectButton__StyledDirectButton-sc-ee2905d0-0.eCxSkY"
+     },
+     "eds": {
+      "path": "div.anchor-links-wrapper > div.anchor-links.rule-before > div.anchor-links-item"
+     },
+     "rows": [
+      {
+       "key": "link:事業承継・相続",
+       "role": "link",
+       "text": "事業承継・相続",
+       "edsText": "事業承継・相続",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 349,
+        "h": 58
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 349,
+        "h": 58,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/16/600",
+        "eds": "14/18/600"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 313,
+       "y": 22,
+       "w": 15,
+       "h": 15,
+       "absY": 807,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 894,
+       "y": 785,
+       "w": 349,
+       "h": 58
+      },
+      "eds": {
+       "x": 894,
+       "y": 785,
+       "w": 349,
+       "h": 58
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "div.HpButton__ButtonWrapper-sc-feed1a3b-0 > a=.hp-btn, .columns-cta a.button",
+   "family": null,
+   "required": true,
+   "originMatches": 16,
+   "edsMatches": 16,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.breakpoints__All-sc-1c000647-0.kaStQe > div.HpButton__ButtonWrapper-sc-feed1a3b-0.jTlnsW > a.sc-dYjPD.sc-bjLslk"
+     },
+     "eds": {
+      "path": "div.columns-slice.columns-cta > p.button-wrapper > a.button.primary"
+     },
+     "rows": [
+      {
+       "key": "text:無料",
+       "role": "text",
+       "text": "無料",
+       "edsText": "無料",
+       "byPosition": false,
+       "origin": {
+        "x": 320,
+        "y": 14,
+        "w": 32,
+        "h": 22
+       },
+       "eds": {
+        "x": 320,
+        "y": 14,
+        "w": 32,
+        "h": 22,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/18/400",
+        "eds": "11/18/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "専門スタッフに相談",
+       "boxed": false,
+       "x": 161,
+       "y": 11,
+       "w": 153,
+       "h": 24,
+       "absY": 1962,
+       "hidden": false,
+       "fs": 16,
+       "lh": 18,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:専門スタッフに相談"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 463,
+       "y": 18,
+       "w": 15,
+       "h": 15,
+       "absY": 1969,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 183,
+       "y": 1951,
+       "w": 528,
+       "h": 50
+      },
+      "eds": {
+       "x": 183,
+       "y": 1951,
+       "w": 528,
+       "h": 50
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.breakpoints__All-sc-1c000647-0.kaStQe > div.HpButton__ButtonWrapper-sc-feed1a3b-0.jTlnsW > a.sc-dYjPD.sc-bjLslk"
+     },
+     "eds": {
+      "path": "div.columns-slice.columns-cta > p.button-wrapper > a.button.primary"
+     },
+     "rows": [],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "支社・営業所一覧",
+       "boxed": false,
+       "x": 189,
+       "y": 13,
+       "w": 136,
+       "h": 24,
+       "absY": 1964,
+       "hidden": false,
+       "fs": 16,
+       "lh": 18,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:支社・営業所一覧"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 463,
+       "y": 17,
+       "w": 15,
+       "h": 15,
+       "absY": 1968,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 729,
+       "y": 1951,
+       "w": 528,
+       "h": 49
+      },
+      "eds": {
+       "x": 729,
+       "y": 1951,
+       "w": 528,
+       "h": 49
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.breakpoints__All-sc-1c000647-0.kaStQe > div.HpButton__ButtonWrapper-sc-feed1a3b-0.jTlnsW > a.sc-dYjPD.sc-bjLslk"
+     },
+     "eds": {
+      "path": "div.columns-slice.columns-cta > p.button-wrapper > a.button.primary"
+     },
+     "rows": [
+      {
+       "key": "text:無料",
+       "role": "text",
+       "text": "無料",
+       "edsText": "無料",
+       "byPosition": false,
+       "origin": {
+        "x": 313,
+        "y": 14,
+        "w": 32,
+        "h": 22
+       },
+       "eds": {
+        "x": 313,
+        "y": 14,
+        "w": 32,
+        "h": 22,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/18/400",
+        "eds": "11/18/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "専門スタッフに相談",
+       "boxed": false,
+       "x": 154,
+       "y": 11,
+       "w": 153,
+       "h": 24,
+       "absY": 3159,
+       "hidden": false,
+       "fs": 16,
+       "lh": 18,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:専門スタッフに相談"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 449,
+       "y": 18,
+       "w": 15,
+       "h": 15,
+       "absY": 3166,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 197,
+       "y": 3148,
+       "w": 514,
+       "h": 50
+      },
+      "eds": {
+       "x": 197,
+       "y": 3148,
+       "w": 514,
+       "h": 50
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.breakpoints__All-sc-1c000647-0.kaStQe > div.HpButton__ButtonWrapper-sc-feed1a3b-0.jTlnsW > a.sc-dYjPD.sc-bjLslk"
+     },
+     "eds": {
+      "path": "div.columns-slice.columns-cta > p.button-wrapper > a.button.primary"
+     },
+     "rows": [],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "支社・営業所一覧",
+       "boxed": false,
+       "x": 182,
+       "y": 13,
+       "w": 136,
+       "h": 24,
+       "absY": 3161,
+       "hidden": false,
+       "fs": 16,
+       "lh": 18,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:支社・営業所一覧"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 449,
+       "y": 17,
+       "w": 15,
+       "h": 15,
+       "absY": 3165,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 729,
+       "y": 3148,
+       "w": 514,
+       "h": 49
+      },
+      "eds": {
+       "x": 729,
+       "y": 3148,
+       "w": 514,
+       "h": 49
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.breakpoints__All-sc-1c000647-0.kaStQe > div.HpButton__ButtonWrapper-sc-feed1a3b-0.jTlnsW > a.sc-dYjPD.sc-bjLslk"
+     },
+     "eds": {
+      "path": "div.columns-slice.columns-cta > p.button-wrapper > a.button.primary"
+     },
+     "rows": [
+      {
+       "key": "text:無料",
+       "role": "text",
+       "text": "無料",
+       "edsText": "無料",
+       "byPosition": false,
+       "origin": {
+        "x": 313,
+        "y": 14,
+        "w": 32,
+        "h": 22
+       },
+       "eds": {
+        "x": 313,
+        "y": 14,
+        "w": 32,
+        "h": 22,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/18/400",
+        "eds": "11/18/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "専門スタッフに相談",
+       "boxed": false,
+       "x": 154,
+       "y": 11,
+       "w": 153,
+       "h": 24,
+       "absY": 4672,
+       "hidden": false,
+       "fs": 16,
+       "lh": 18,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:専門スタッフに相談"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 449,
+       "y": 18,
+       "w": 15,
+       "h": 15,
+       "absY": 4678,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 197,
+       "y": 4661,
+       "w": 514,
+       "h": 50
+      },
+      "eds": {
+       "x": 197,
+       "y": 4661,
+       "w": 514,
+       "h": 50
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.breakpoints__All-sc-1c000647-0.kaStQe > div.HpButton__ButtonWrapper-sc-feed1a3b-0.jTlnsW > a.sc-dYjPD.sc-bjLslk"
+     },
+     "eds": {
+      "path": "div.columns-slice.columns-cta > p.button-wrapper > a.button.primary"
+     },
+     "rows": [],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "支社・営業所一覧",
+       "boxed": false,
+       "x": 182,
+       "y": 13,
+       "w": 136,
+       "h": 24,
+       "absY": 4673,
+       "hidden": false,
+       "fs": 16,
+       "lh": 18,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:支社・営業所一覧"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 449,
+       "y": 17,
+       "w": 15,
+       "h": 15,
+       "absY": 4678,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 729,
+       "y": 4661,
+       "w": 514,
+       "h": 49
+      },
+      "eds": {
+       "x": 729,
+       "y": 4661,
+       "w": 514,
+       "h": 49
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div.breakpoints__All-sc-1c000647-0.kaStQe > div.HpButton__ButtonWrapper-sc-feed1a3b-0.jTlnsW > a.sc-dYjPD.sc-bjLslk"
+     },
+     "eds": {
+      "path": "div.columns-slice.columns-cta > p.button-wrapper > a.button.primary"
+     },
+     "rows": [
+      {
+       "key": "text:無料",
+       "role": "text",
+       "text": "無料",
+       "edsText": "無料",
+       "byPosition": false,
+       "origin": {
+        "x": 313,
+        "y": 14,
+        "w": 32,
+        "h": 22
+       },
+       "eds": {
+        "x": 313,
+        "y": 14,
+        "w": 32,
+        "h": 22,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/18/400",
+        "eds": "11/18/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "専門スタッフに相談",
+       "boxed": false,
+       "x": 154,
+       "y": 11,
+       "w": 153,
+       "h": 24,
+       "absY": 6576,
+       "hidden": false,
+       "fs": 16,
+       "lh": 18,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:専門スタッフに相談"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 449,
+       "y": 18,
+       "w": 15,
+       "h": 15,
+       "absY": 6583,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 197,
+       "y": 6565,
+       "w": 514,
+       "h": 50
+      },
+      "eds": {
+       "x": 197,
+       "y": 6565,
+       "w": 514,
+       "h": 50
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "div.breakpoints__All-sc-1c000647-0.kaStQe > div.HpButton__ButtonWrapper-sc-feed1a3b-0.jTlnsW > a.sc-dYjPD.sc-bjLslk"
+     },
+     "eds": {
+      "path": "div.columns-slice.columns-cta > p.button-wrapper > a.button.primary"
+     },
+     "rows": [],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "strong",
+       "sel": "strong",
+       "text": "支社・営業所一覧",
+       "boxed": false,
+       "x": 182,
+       "y": 13,
+       "w": 136,
+       "h": 24,
+       "absY": 6578,
+       "hidden": false,
+       "fs": 16,
+       "lh": 18,
+       "fw": "900",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:支社・営業所一覧"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 449,
+       "y": 17,
+       "w": 15,
+       "h": 15,
+       "absY": 6582,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 729,
+       "y": 6565,
+       "w": 514,
+       "h": 49
+      },
+      "eds": {
+       "x": 729,
+       "y": 6565,
+       "w": 514,
+       "h": 49
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 8,
+     "origin": {
+      "path": "div.breakpoints__All-sc-1c000647-0.kaStQe > div.HpButton__ButtonWrapper-sc-feed1a3b-0.jTlnsW > a.sc-dYjPD.sc-bjLslk"
+     },
+     "eds": {
+      "path": "div.columns-slice.columns-cta > p.button-wrapper > a.button.primary"
+     },
+     "rows": [
+      {
+       "key": "text:無料",
+       "role": "text",
+       "text": "無料",
+       "edsText": "無料",
+       "byPosition": false,
+       "origin": {
+        "x": 313,
+        "y": 14,
+        "w": 32,
+        "h": 22
+       },
+       "eds": {
+        "x": 313,
+        "y": 14,
+        "w": 32,
+        "h": 22,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/18/400",
+        "eds": "11/18/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "専門スタッフに相談",
+       "boxed": false,
+       "x": 154,
+       "y": 11,
+       "w": 153,
+       "h": 24,
+       "absY": 8039,
+       "hidden": false,
+       "fs": 16,
+       "lh": 18,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:専門スタッフに相談"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 449,
+       "y": 18,
+       "w": 15,
+       "h": 15,
+       "absY": 8046,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 197,
+       "y": 8028,
+       "w": 514,
+       "h": 50
+      },
+      "eds": {
+       "x": 197,
+       "y": 8028,
+       "w": 514,
+       "h": 50
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 9,
+     "origin": {
+      "path": "div.breakpoints__All-sc-1c000647-0.kaStQe > div.HpButton__ButtonWrapper-sc-feed1a3b-0.jTlnsW > a.sc-dYjPD.sc-bjLslk"
+     },
+     "eds": {
+      "path": "div.columns-slice.columns-cta > p.button-wrapper > a.button.primary"
+     },
+     "rows": [],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "支社・営業所一覧",
+       "boxed": false,
+       "x": 182,
+       "y": 13,
+       "w": 136,
+       "h": 24,
+       "absY": 8041,
+       "hidden": false,
+       "fs": 16,
+       "lh": 18,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:支社・営業所一覧"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 449,
+       "y": 17,
+       "w": 15,
+       "h": 15,
+       "absY": 8045,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 729,
+       "y": 8028,
+       "w": 514,
+       "h": 49
+      },
+      "eds": {
+       "x": 729,
+       "y": 8028,
+       "w": 514,
+       "h": 49
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 10,
+     "origin": {
+      "path": "div.breakpoints__All-sc-1c000647-0.kaStQe > div.HpButton__ButtonWrapper-sc-feed1a3b-0.jTlnsW > a.sc-dYjPD.sc-bjLslk"
+     },
+     "eds": {
+      "path": "div.columns-slice.columns-cta > p.button-wrapper > a.button.primary"
+     },
+     "rows": [
+      {
+       "key": "text:無料",
+       "role": "text",
+       "text": "無料",
+       "edsText": "無料",
+       "byPosition": false,
+       "origin": {
+        "x": 313,
+        "y": 14,
+        "w": 32,
+        "h": 22
+       },
+       "eds": {
+        "x": 313,
+        "y": 14,
+        "w": 32,
+        "h": 22,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/18/400",
+        "eds": "11/18/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "専門スタッフに相談",
+       "boxed": false,
+       "x": 154,
+       "y": 11,
+       "w": 153,
+       "h": 24,
+       "absY": 9331,
+       "hidden": false,
+       "fs": 16,
+       "lh": 18,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:専門スタッフに相談"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 449,
+       "y": 18,
+       "w": 15,
+       "h": 15,
+       "absY": 9338,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 197,
+       "y": 9320,
+       "w": 514,
+       "h": 50
+      },
+      "eds": {
+       "x": 197,
+       "y": 9320,
+       "w": 514,
+       "h": 50
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 11,
+     "origin": {
+      "path": "div.breakpoints__All-sc-1c000647-0.kaStQe > div.HpButton__ButtonWrapper-sc-feed1a3b-0.jTlnsW > a.sc-dYjPD.sc-bjLslk"
+     },
+     "eds": {
+      "path": "div.columns-slice.columns-cta > p.button-wrapper > a.button.primary"
+     },
+     "rows": [],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "支社・営業所一覧",
+       "boxed": false,
+       "x": 182,
+       "y": 13,
+       "w": 136,
+       "h": 24,
+       "absY": 9333,
+       "hidden": false,
+       "fs": 16,
+       "lh": 18,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:支社・営業所一覧"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 449,
+       "y": 17,
+       "w": 15,
+       "h": 15,
+       "absY": 9337,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 729,
+       "y": 9320,
+       "w": 514,
+       "h": 49
+      },
+      "eds": {
+       "x": 729,
+       "y": 9320,
+       "w": 514,
+       "h": 49
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 12,
+     "origin": {
+      "path": "div.breakpoints__All-sc-1c000647-0.kaStQe > div.HpButton__ButtonWrapper-sc-feed1a3b-0.cVLVVh > a.sc-dYjPD.sc-bjLslk"
+     },
+     "eds": {
+      "path": "div.columns-slice.columns-cta > p.button-wrapper > a.button.secondary"
+     },
+     "rows": [],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "中小企業庁サイト",
+       "boxed": false,
+       "x": 190,
+       "y": 15,
+       "w": 120,
+       "h": 20,
+       "absY": 10144,
+       "hidden": false,
+       "fs": 14,
+       "lh": 18,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "text:中小企業庁サイト"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 446,
+       "y": 14,
+       "w": 21,
+       "h": 21,
+       "absY": 10143,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 197,
+       "y": 10129,
+       "w": 514,
+       "h": 49
+      },
+      "eds": {
+       "x": 197,
+       "y": 10129,
+       "w": 514,
+       "h": 49
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 13,
+     "origin": {
+      "path": "div.breakpoints__All-sc-1c000647-0.kaStQe > div.HpButton__ButtonWrapper-sc-feed1a3b-0.cVLVVh > a.sc-dYjPD.sc-bjLslk"
+     },
+     "eds": {
+      "path": "div.columns-slice.columns-cta > p.button-wrapper > a.button.secondary"
+     },
+     "rows": [],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "ミラサポ",
+       "boxed": false,
+       "x": 220,
+       "y": 15,
+       "w": 60,
+       "h": 20,
+       "absY": 10144,
+       "hidden": false,
+       "fs": 14,
+       "lh": 18,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "text:ミラサポ"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 446,
+       "y": 14,
+       "w": 21,
+       "h": 21,
+       "absY": 10143,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(0, 0, 143)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 729,
+       "y": 10129,
+       "w": 514,
+       "h": 49
+      },
+      "eds": {
+       "x": 729,
+       "y": 10129,
+       "w": 514,
+       "h": 49
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 14,
+     "origin": {
+      "path": "div.breakpoints__All-sc-1c000647-0.kaStQe > div.HpButton__ButtonWrapper-sc-feed1a3b-0.jTlnsW > a.sc-dYjPD.sc-bjLslk"
+     },
+     "eds": {
+      "path": "div.columns-slice.columns-cta > p.button-wrapper > a.button.primary"
+     },
+     "rows": [
+      {
+       "key": "text:無料",
+       "role": "text",
+       "text": "無料",
+       "edsText": "無料",
+       "byPosition": false,
+       "origin": {
+        "x": 313,
+        "y": 14,
+        "w": 32,
+        "h": 22
+       },
+       "eds": {
+        "x": 313,
+        "y": 14,
+        "w": 32,
+        "h": 22,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/18/400",
+        "eds": "11/18/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "専門スタッフに相談",
+       "boxed": false,
+       "x": 154,
+       "y": 11,
+       "w": 153,
+       "h": 24,
+       "absY": 10345,
+       "hidden": false,
+       "fs": 16,
+       "lh": 18,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:専門スタッフに相談"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 449,
+       "y": 18,
+       "w": 15,
+       "h": 15,
+       "absY": 10351,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 197,
+       "y": 10334,
+       "w": 514,
+       "h": 50
+      },
+      "eds": {
+       "x": 197,
+       "y": 10333,
+       "w": 514,
+       "h": 50
+      },
+      "dx": 0,
+      "dy": -1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 15,
+     "origin": {
+      "path": "div.breakpoints__All-sc-1c000647-0.kaStQe > div.HpButton__ButtonWrapper-sc-feed1a3b-0.jTlnsW > a.sc-dYjPD.sc-bjLslk"
+     },
+     "eds": {
+      "path": "div.columns-slice.columns-cta > p.button-wrapper > a.button.primary"
+     },
+     "rows": [],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "支社・営業所一覧",
+       "boxed": false,
+       "x": 182,
+       "y": 13,
+       "w": 136,
+       "h": 24,
+       "absY": 10346,
+       "hidden": false,
+       "fs": 16,
+       "lh": 18,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "text:支社・営業所一覧"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 449,
+       "y": 17,
+       "w": 15,
+       "h": 15,
+       "absY": 10351,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "600",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 729,
+       "y": 10334,
+       "w": 514,
+       "h": 49
+      },
+      "eds": {
+       "x": 729,
+       "y": 10333,
+       "w": 514,
+       "h": 49
+      },
+      "dx": 0,
+      "dy": -1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "div.CustomLink__CustomLinkWrapper-sc-df8d4c0f-0=.custom-link, .columns-link",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.Grid__StyledCol-sc-26a5c499-0.jShUZK > div.Layout-sc-f22cece7-3.SliceContainer__SliceLayout-sc-c4778fe-0 > div.CustomLink__CustomLinkWrapper-sc-df8d4c0f-0.dpQPzF"
+     },
+     "eds": {
+      "path": "div.columns-row > div.columns-cell > div.columns-slice.columns-link"
+     },
+     "rows": [
+      {
+       "key": "link:アクサ生命の健康経営アドバイザー →",
+       "role": "link",
+       "text": "アクサ生命の健康経営アドバイザー →",
+       "edsText": "アクサ生命の健康経営アドバイザー →",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 274,
+        "h": 22
+       },
+       "eds": {
+        "x": 0,
+        "y": -1,
+        "w": 275,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 1,
+       "dh": 2,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/600",
+        "eds": "16/22/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 622,
+       "y": 4372,
+       "w": 621,
+       "h": 22
+      },
+      "eds": {
+       "x": 622,
+       "y": 4372,
+       "w": 621,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.Grid__StyledCol-sc-26a5c499-0.jShUZK > div.Layout-sc-f22cece7-3.SliceContainer__SliceLayout-sc-c4778fe-0 > div.CustomLink__CustomLinkWrapper-sc-df8d4c0f-0.dpQPzF"
+     },
+     "eds": {
+      "path": "div.columns-row > div.columns-cell > div.columns-slice.columns-link"
+     },
+     "rows": [
+      {
+       "key": "link:商工会議所会員さま向けサービス →",
+       "role": "link",
+       "text": "商工会議所会員さま向けサービス →",
+       "edsText": "商工会議所会員さま向けサービス →",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 22
+       },
+       "eds": {
+        "x": 0,
+        "y": -1,
+        "w": 272,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 1,
+       "dh": 2,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/600",
+        "eds": "16/22/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 622,
+       "y": 9550,
+       "w": 621,
+       "h": 22
+      },
+      "eds": {
+       "x": 622,
+       "y": 9550,
+       "w": 621,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.Grid__StyledCol-sc-26a5c499-0.jShUZK > div.Layout-sc-f22cece7-3.SliceContainer__SliceLayout-sc-c4778fe-0 > div.CustomLink__CustomLinkWrapper-sc-df8d4c0f-0.dpQPzF"
+     },
+     "eds": {
+      "path": "div.columns-row > div.columns-cell > div.columns-slice.columns-link"
+     },
+     "rows": [
+      {
+       "key": "link:アクサ生命の健康経営アドバイザー →",
+       "role": "link",
+       "text": "アクサ生命の健康経営アドバイザー →",
+       "edsText": "アクサ生命の健康経営アドバイザー →",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 274,
+        "h": 22
+       },
+       "eds": {
+        "x": 0,
+        "y": -1,
+        "w": 275,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 1,
+       "dh": 2,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/600",
+        "eds": "16/22/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 622,
+       "y": 9708,
+       "w": 621,
+       "h": 22
+      },
+      "eds": {
+       "x": 622,
+       "y": 9708,
+       "w": 621,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.Grid__StyledCol-sc-26a5c499-0.jShUZK > div.Layout-sc-f22cece7-3.SliceContainer__SliceLayout-sc-c4778fe-0 > div.CustomLink__CustomLinkWrapper-sc-df8d4c0f-0.dpQPzF"
+     },
+     "eds": {
+      "path": "div.columns-row > div.columns-cell > div.columns-slice.columns-link"
+     },
+     "rows": [
+      {
+       "key": "link:メンタルサポートサービス →",
+       "role": "link",
+       "text": "メンタルサポートサービス →",
+       "edsText": "メンタルサポートサービス →",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 211,
+        "h": 22
+       },
+       "eds": {
+        "x": 0,
+        "y": -1,
+        "w": 212,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 1,
+       "dh": 2,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/600",
+        "eds": "16/22/600"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 622,
+       "y": 9876,
+       "w": 621,
+       "h": 22
+      },
+      "eds": {
+       "x": 622,
+       "y": 9876,
+       "w": 621,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 26,
+  "within": 17,
+  "off": 0,
+  "hidden": 0,
+  "missing": 38,
+  "errors": 0,
+  "requiredOff": 38
+ }
+}

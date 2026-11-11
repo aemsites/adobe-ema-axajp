@@ -1,0 +1,14 @@
+[live-session] waiting to pace live navigations to www.axa.co.jp (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 871 ms
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.axa.co.jp/recruitment/career
+  build: http://localhost:8791/recruitment-proposed.html
+
+■ header: 4 delta(s) — 10 paired of 10/10 texts, 1/1 icons
+  PAIR         "新卒採用"  Δx -14px (34→20); Δw +14px (1366→1380); <a> box 1426×48 → 1440×48
+  PAIR         "中途採用"  Δx -14px (34→20); Δw +14px (1366→1380); <a> box 1426×48 → 1440×48
+  PAIR         "障害者採用"  Δx -14px (34→20); Δw +14px (1366→1380); <a> box 1426×48 → 1440×48
+  PAIR         "アクサジャパン採用サイト"  Δx -14px (34→20); Δw +14px (1366→1380); <a> box 1426×48 → 1440×48
+
+■ footer: ✓ parity — 19 paired of 19/19 texts, 3/3 icons
+
+✗ 4 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

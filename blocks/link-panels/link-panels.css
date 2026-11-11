@@ -1,0 +1,199 @@
+/* link-panels — customer.css .ct-section-with-background / .claim-block / .inquiry-block /
+   .guide-block + DirectButton (.db--white .ds-btn--white) */
+main > .section > .link-panels-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.link-panels {
+  padding: 3.5rem 0 0.875rem;
+  background-color: #f5f5f5;
+}
+
+.link-panels .link-panels-layout {
+  width: 100%;
+  max-width: 1078px;
+  margin: 0 auto;
+}
+
+.link-panels .link-panels-grid { margin-bottom: 50px; }
+
+.link-panels .link-panels-panel {
+  width: 100%;
+  background-color: var(--white);
+  border: 1px solid #e5e5e5;
+}
+
+.link-panels .link-panels-wide { margin-bottom: 30px; }
+
+.link-panels .link-panels-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+/* the source img is the flex item (width 100%, max 110): the wrapper takes its sizing */
+.link-panels .link-panels-head .link-panels-icon {
+  width: 100%;
+  max-width: 110px;
+}
+
+.link-panels .link-panels-icon img {
+  display: block;
+  width: 100%;
+  max-width: 110px;
+}
+
+.link-panels .link-panels-head :is(h2, h3, h4) {
+  margin-top: 0;
+  margin-left: 1.3125rem;
+  font-size: 1.575rem;
+  font-weight: 700;
+}
+
+.link-panels .link-panels-buttons { margin-top: 0.875rem; }
+
+.link-panels .link-panels-cols {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.875rem;
+}
+
+.link-panels .link-panels-col {
+  display: flex;
+  flex: 1 1 calc(50% - 0.5rem);
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+.link-panels .link-panels-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.link-panels .link-panels-cell {
+  display: flex;
+  flex: 1 1 calc(50% - 0.5rem);
+}
+
+.link-panels .link-panels-card {
+  min-height: 390px;
+  text-align: center;
+}
+
+.link-panels .link-panels-card .link-panels-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.link-panels .link-panels-title :is(h2, h3, h4) {
+  padding-top: 0.875rem;
+  font-size: 1.575rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.link-panels .link-panels-btn-wrap { margin: 0.875rem 0; }
+
+.link-panels .link-panels-note { text-align: left; }
+
+/* DirectButton white (lg) — hover sweep 300 ms, colour 250 ms */
+.link-panels .link-panels-btn {
+  position: relative;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  background-color: var(--white);
+}
+
+.link-panels .link-panels-btn::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  display: block;
+  width: 0;
+  height: 120%;
+  transform: translate(-50%, -50%) skewX(-37.7deg);
+  transition: 0.3s ease-in-out;
+}
+
+.link-panels .link-panels-btn:hover::before {
+  width: 120%;
+  background-color: #000072;
+}
+
+.link-panels .link-panels-btn p {
+  display: flex;
+  flex: 1 0 100%;
+}
+
+.link-panels .link-panels-btn a:any-link {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex: 1 0 100%;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  padding: 12px 86px 12px 68px;
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: var(--blue);
+  border: 2px solid var(--blue);
+  transition: 0.25s;
+}
+
+.link-panels .link-panels-btn:hover a:any-link {
+  color: var(--white);
+  border-color: #000072;
+}
+
+.link-panels .link-panels-btn a:any-link::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  width: 18px;
+  height: 15px;
+  margin-top: -7.5px;
+  background-color: currentcolor;
+  mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 0 14 7"><g fill="none" stroke="black" stroke-linecap="round" stroke-width="2"><path d="M.5 3.5H11M9 7l2.798-3.5L9 0"/></g></svg>') center / contain no-repeat;
+}
+
+@media (width >= 768px) {
+  .link-panels .link-panels-panel { padding: 1.75rem; }
+}
+
+@media (width <= 994px) {
+  .link-panels .link-panels-head {
+    display: block;
+    text-align: center;
+  }
+
+  .link-panels .link-panels-head :is(h2, h3, h4) {
+    margin-top: 1.3125rem;
+    margin-left: 0;
+  }
+
+  .link-panels .link-panels-cell {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (width <= 767px) {
+  .link-panels .link-panels-layout { padding: 0 0.875rem; }
+  .link-panels .link-panels-panel { padding: 0.875rem; }
+  .link-panels .link-panels-cols { flex-direction: column; }
+  .link-panels .link-panels-col { flex: 1 1 100%; }
+  .link-panels .link-panels-row { flex-direction: column; }
+  .link-panels .link-panels-cell { flex: 1 1 100%; }
+}

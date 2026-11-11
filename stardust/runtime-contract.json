@@ -1,0 +1,16 @@
+{
+  "runtime": "vanilla-eds",
+  "probedFrom": ["scripts/scripts.js", "scripts/aem.js"],
+  "probedAt": "2026-11-09",
+  "blockWrapperClass": "block",
+  "blockDom": "div.<name>-wrapper > div.<name>.block[data-block-name]; section gains .<name>-container",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "sectionMetadata": "style -> classes on .section; other keys -> data-* (camelCased dataset)",
+  "templateClass": "page metadata `template` -> body class (decorateTemplateAndTheme)",
+  "chrome": "header/footer blocks load /nav and /footer (overridable with nav/footer metadata) via blocks/fragment",
+  "lang": "ja",
+  "breakpoint": "SP <= 767px, PC >= 768px (canon); no DESIGN.json breakpoints.target set"
+}

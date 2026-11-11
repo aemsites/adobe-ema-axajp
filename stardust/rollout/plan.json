@@ -1,0 +1,436 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-11-09T07:29:23.657Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-09T07:29:23.657Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "company",
+    "about-axa",
+    "customer-feedback",
+    "dataprivacy",
+    "about-insurance",
+    "customer",
+    "index",
+    "product",
+    "prospect",
+    "recruitment"
+  ],
+  "steps": [
+    {
+      "slug": "company",
+      "path": "/company",
+      "templateId": "company",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "art-image",
+          "edsBlockName": "art-image"
+        },
+        {
+          "id": "anchor-links",
+          "edsBlockName": "anchor-links"
+        },
+        {
+          "id": "columns",
+          "edsBlockName": "columns"
+        },
+        {
+          "id": "breadcrumbs",
+          "edsBlockName": "breadcrumbs"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "about-axa",
+      "path": "/about-axa",
+      "templateId": "company",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "art-image",
+          "edsBlockName": "art-image",
+          "convertedBy": "company"
+        },
+        {
+          "id": "anchor-links",
+          "edsBlockName": "anchor-links",
+          "convertedBy": "company"
+        },
+        {
+          "id": "columns",
+          "edsBlockName": "columns",
+          "convertedBy": "company"
+        },
+        {
+          "id": "breadcrumbs",
+          "edsBlockName": "breadcrumbs",
+          "convertedBy": "company"
+        }
+      ]
+    },
+    {
+      "slug": "customer-feedback",
+      "path": "/customer-feedback",
+      "templateId": "company",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "art-image",
+          "edsBlockName": "art-image",
+          "convertedBy": "company"
+        },
+        {
+          "id": "anchor-links",
+          "edsBlockName": "anchor-links",
+          "convertedBy": "company"
+        },
+        {
+          "id": "columns",
+          "edsBlockName": "columns",
+          "convertedBy": "company"
+        },
+        {
+          "id": "breadcrumbs",
+          "edsBlockName": "breadcrumbs",
+          "convertedBy": "company"
+        }
+      ]
+    },
+    {
+      "slug": "dataprivacy",
+      "path": "/dataprivacy",
+      "templateId": "company",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "art-image",
+          "edsBlockName": "art-image",
+          "convertedBy": "company"
+        },
+        {
+          "id": "anchor-links",
+          "edsBlockName": "anchor-links",
+          "convertedBy": "company"
+        },
+        {
+          "id": "columns",
+          "edsBlockName": "columns",
+          "convertedBy": "company"
+        },
+        {
+          "id": "breadcrumbs",
+          "edsBlockName": "breadcrumbs",
+          "convertedBy": "company"
+        }
+      ]
+    },
+    {
+      "slug": "about-insurance",
+      "path": "/about-insurance",
+      "templateId": "about-insurance",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "section-title",
+          "edsBlockName": "section-title"
+        },
+        {
+          "id": "bubble-guide",
+          "edsBlockName": "bubble-guide"
+        },
+        {
+          "id": "accordion",
+          "edsBlockName": "accordion"
+        },
+        {
+          "id": "link-list",
+          "edsBlockName": "link-list"
+        },
+        {
+          "id": "testimonial-cards",
+          "edsBlockName": "testimonial-cards"
+        },
+        {
+          "id": "entry-links",
+          "edsBlockName": "entry-links"
+        },
+        {
+          "id": "contact-links",
+          "edsBlockName": "contact-links"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "breadcrumbs",
+          "edsBlockName": "breadcrumbs",
+          "convertedBy": "company"
+        },
+        {
+          "id": "art-image",
+          "edsBlockName": "art-image",
+          "convertedBy": "company"
+        }
+      ]
+    },
+    {
+      "slug": "customer",
+      "path": "/customer",
+      "templateId": "customer",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "page-banner",
+          "edsBlockName": "page-banner"
+        },
+        {
+          "id": "banner-slider",
+          "edsBlockName": "banner-slider"
+        },
+        {
+          "id": "link-panels",
+          "edsBlockName": "link-panels"
+        },
+        {
+          "id": "link-buttons",
+          "edsBlockName": "link-buttons"
+        },
+        {
+          "id": "feature-grid",
+          "edsBlockName": "feature-grid"
+        },
+        {
+          "id": "news-list",
+          "edsBlockName": "news-list"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "contact-links",
+          "edsBlockName": "contact-links",
+          "convertedBy": "about-insurance"
+        },
+        {
+          "id": "breadcrumbs",
+          "edsBlockName": "breadcrumbs",
+          "convertedBy": "company"
+        }
+      ]
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "hero-carousel",
+          "edsBlockName": "hero-carousel"
+        },
+        {
+          "id": "product-cards",
+          "edsBlockName": "product-cards"
+        },
+        {
+          "id": "simulation-quiz",
+          "edsBlockName": "simulation-quiz"
+        },
+        {
+          "id": "cta-consult",
+          "edsBlockName": "cta-consult"
+        },
+        {
+          "id": "strengths",
+          "edsBlockName": "strengths"
+        },
+        {
+          "id": "banner-links",
+          "edsBlockName": "banner-links"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "news-list",
+          "edsBlockName": "news-list",
+          "convertedBy": "customer"
+        },
+        {
+          "id": "entry-links",
+          "edsBlockName": "entry-links",
+          "convertedBy": "about-insurance"
+        },
+        {
+          "id": "section-title",
+          "edsBlockName": "section-title",
+          "convertedBy": "about-insurance"
+        },
+        {
+          "id": "art-image",
+          "edsBlockName": "art-image",
+          "convertedBy": "company"
+        },
+        {
+          "id": "feature-grid",
+          "edsBlockName": "feature-grid",
+          "convertedBy": "customer"
+        }
+      ]
+    },
+    {
+      "slug": "product",
+      "path": "/product",
+      "templateId": "product",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "breadcrumbs",
+          "edsBlockName": "breadcrumbs",
+          "convertedBy": "company"
+        },
+        {
+          "id": "page-banner",
+          "edsBlockName": "page-banner",
+          "convertedBy": "customer"
+        },
+        {
+          "id": "section-title",
+          "edsBlockName": "section-title",
+          "convertedBy": "about-insurance"
+        },
+        {
+          "id": "anchor-links",
+          "edsBlockName": "anchor-links",
+          "convertedBy": "company"
+        },
+        {
+          "id": "link-buttons",
+          "edsBlockName": "link-buttons",
+          "convertedBy": "customer"
+        },
+        {
+          "id": "accordion",
+          "edsBlockName": "accordion",
+          "convertedBy": "about-insurance"
+        },
+        {
+          "id": "simulation-quiz",
+          "edsBlockName": "simulation-quiz",
+          "convertedBy": "index"
+        },
+        {
+          "id": "cta-consult",
+          "edsBlockName": "cta-consult",
+          "convertedBy": "index"
+        },
+        {
+          "id": "contact-links",
+          "edsBlockName": "contact-links",
+          "convertedBy": "about-insurance"
+        }
+      ]
+    },
+    {
+      "slug": "prospect",
+      "path": "/prospect",
+      "templateId": "prospect",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "page-banner",
+          "edsBlockName": "page-banner",
+          "convertedBy": "customer"
+        },
+        {
+          "id": "section-title",
+          "edsBlockName": "section-title",
+          "convertedBy": "about-insurance"
+        },
+        {
+          "id": "simulation-quiz",
+          "edsBlockName": "simulation-quiz",
+          "convertedBy": "index"
+        },
+        {
+          "id": "anchor-links",
+          "edsBlockName": "anchor-links",
+          "convertedBy": "company"
+        },
+        {
+          "id": "product-cards",
+          "edsBlockName": "product-cards",
+          "convertedBy": "index"
+        },
+        {
+          "id": "feature-grid",
+          "edsBlockName": "feature-grid",
+          "convertedBy": "customer"
+        },
+        {
+          "id": "strengths",
+          "edsBlockName": "strengths",
+          "convertedBy": "index"
+        },
+        {
+          "id": "link-list",
+          "edsBlockName": "link-list",
+          "convertedBy": "about-insurance"
+        },
+        {
+          "id": "breadcrumbs",
+          "edsBlockName": "breadcrumbs",
+          "convertedBy": "company"
+        }
+      ]
+    },
+    {
+      "slug": "recruitment",
+      "path": "/recruitment",
+      "templateId": "recruitment",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "recruit-hero",
+          "edsBlockName": "recruit-hero"
+        },
+        {
+          "id": "recruit-statement",
+          "edsBlockName": "recruit-statement"
+        },
+        {
+          "id": "recruit-about",
+          "edsBlockName": "recruit-about"
+        },
+        {
+          "id": "recruit-channels",
+          "edsBlockName": "recruit-channels"
+        },
+        {
+          "id": "recruit-entry",
+          "edsBlockName": "recruit-entry"
+        }
+      ],
+      "reuse": []
+    }
+  ]
+}

@@ -1,0 +1,3869 @@
+{
+ "tool": "chrome-explore",
+ "url": "http://localhost:8791/index-proposed.html",
+ "at": "2026-11-09T05:50:12.623Z",
+ "shots": "stardust/.work/chrome/header-build-index",
+ "widths": {
+  "390": {
+   "root": "#site-header",
+   "controls": [
+    {
+     "name": "アクサ生命保険株式会社 ホーム",
+     "key": "アクサ生命保険株式会社 ホーム",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>nav:nth-of-type(2)>a",
+     "href": "http://localhost:8791/",
+     "expanded": null,
+     "rect": [
+      20,
+      15,
+      134,
+      42
+     ],
+     "actions": {}
+    },
+    {
+     "name": "ログイン",
+     "key": "ログイン",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>nav:nth-of-type(2)>div:nth-of-type(1)>a:nth-of-type(1)",
+     "href": "https://myweb.axa.co.jp/login",
+     "expanded": null,
+     "rect": [
+      212,
+      14,
+      40,
+      45
+     ],
+     "actions": {}
+    },
+    {
+     "name": "サポート",
+     "key": "サポート",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>nav:nth-of-type(2)>div:nth-of-type(1)>a:nth-of-type(2)",
+     "href": "https://help.axa.co.jp/s/",
+     "expanded": null,
+     "rect": [
+      275,
+      14,
+      40,
+      45
+     ],
+     "actions": {}
+    },
+    {
+     "name": ";",
+     "key": "",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-header>nav:nth-of-type(2)>div:nth-of-type(1)>button",
+     "expanded": "false",
+     "rect": [
+      338,
+      20,
+      32,
+      32
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "保険をご検討のお客さまトップ",
+          "href": "http://localhost:8791/prospect"
+         },
+         {
+          "text": "商品一覧",
+          "href": "http://localhost:8791/product/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "保険シミュレーション",
+          "href": "https://www.axa.co.jp/prospect/be-recommended/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "ご相談ガイド",
+          "href": "https://www.axa.co.jp/prospect/consultation-flow?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "資料請求",
+          "href": "https://www.axa.co.jp/form/brochure?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "保険選びに役立つ情報",
+          "href": "http://localhost:8791/about-insurance?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサ生命のライフマネジメント®",
+          "href": "https://www.axa.co.jp/prospect/life-management?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "変額保険各種情報",
+          "href": "https://www.axa.co.jp/customer/variable?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "デジタル約款",
+          "href": "https://www.axa.co.jp/digitalprovision?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサ生命が選ばれる理由",
+          "href": "https://www.axa.co.jp/about-axa/why-axa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "よくあるご質問",
+          "href": "https://help.axa.co.jp/s/"
+         },
+         {
+          "text": "お問い合わせ",
+          "href": "https://www.axa.co.jp/request/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "保険をご検討のお客さま",
+         "ご契約者さま",
+         "法人のお客さま",
+         "パートナーさま",
+         "企業情報",
+         "採用情報"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         73,
+         390,
+         771
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 300,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.drawer"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.hero__track"
+        },
+        {
+         "kind": "animation",
+         "prop": "hero-progress",
+         "ms": 5000,
+         "delay": 0,
+         "easing": "linear",
+         "target": "span.hero__dot-bar"
+        }
+       ],
+       "shot": "390-001---click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "保険をご検討のお客さまトップ",
+          "href": "http://localhost:8791/prospect"
+         },
+         {
+          "text": "商品一覧",
+          "href": "http://localhost:8791/product/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "保険シミュレーション",
+          "href": "https://www.axa.co.jp/prospect/be-recommended/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "ご相談ガイド",
+          "href": "https://www.axa.co.jp/prospect/consultation-flow?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "資料請求",
+          "href": "https://www.axa.co.jp/form/brochure?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "保険選びに役立つ情報",
+          "href": "http://localhost:8791/about-insurance?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサ生命のライフマネジメント®",
+          "href": "https://www.axa.co.jp/prospect/life-management?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "変額保険各種情報",
+          "href": "https://www.axa.co.jp/customer/variable?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "デジタル約款",
+          "href": "https://www.axa.co.jp/digitalprovision?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサ生命が選ばれる理由",
+          "href": "https://www.axa.co.jp/about-axa/why-axa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "よくあるご質問",
+          "href": "https://help.axa.co.jp/s/"
+         },
+         {
+          "text": "お問い合わせ",
+          "href": "https://www.axa.co.jp/request/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "保険をご検討のお客さま",
+         "ご契約者さま",
+         "法人のお客さま",
+         "パートナーさま",
+         "企業情報",
+         "採用情報"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         73,
+         390,
+         771
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 300,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.drawer"
+        }
+       ],
+       "shot": "390-002---key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "保険をご検討のお客さま",
+       "key": "保険をご検討のお客さま",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#drawer>div:nth-of-type(1)>button",
+       "expanded": "true",
+       "rect": [
+        0,
+        73,
+        390,
+        72
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "hides": 10
+        },
+        "key": {
+         "opened": false,
+         "hides": 10
+        }
+       }
+      },
+      {
+       "name": "ご契約者さま",
+       "key": "ご契約者さま",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#drawer>div:nth-of-type(2)>button",
+       "expanded": "false",
+       "rect": [
+        0,
+        634,
+        390,
+        72
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "ご契約者さまトップ",
+            "href": "http://localhost:8791/customer?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "保険金・給付金のご請求",
+            "href": "https://www.axa.co.jp/customer/claim-top?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "各種お手続き",
+            "href": "https://www.axa.co.jp/customer/guide?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "変額保険各種情報",
+            "href": "https://www.axa.co.jp/customer/variable?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "デジタル約款",
+            "href": "https://www.axa.co.jp/digitalprovision?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "ご契約内容の確認方法",
+            "href": "https://www.axa.co.jp/customer/policy-reference?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "付帯サービス",
+            "href": "https://www.axa.co.jp/customer/service?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "令和8年(2026年)分の生命保険料 控除証明書について",
+            "href": "https://www.axa.co.jp/customer/deduction-certificate?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "お客さま専用マイページ MyAXA",
+            "href": "https://www.axa.co.jp/customer/myaxa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "LINEサービスについて",
+            "href": "https://www.axa.co.jp/customer/line?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "当社からご連絡する際の電話番号等",
+            "href": "https://www.axa.co.jp/customer/phone-number/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "アクサのネット完結保険 （旧アクサダイレクト生命）",
+            "href": "https://www.axa-direct-life.co.jp/customer/index.html?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           706,
+           390,
+           138
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "svg"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 500,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.hero__track"
+          },
+          {
+           "kind": "animation",
+           "prop": "hero-progress",
+           "ms": 5000,
+           "delay": 0,
+           "easing": "linear",
+           "target": "span.hero__dot-bar"
+          }
+         ],
+         "shot": "390-003---click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "ご契約者さまトップ",
+            "href": "http://localhost:8791/customer?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "保険金・給付金のご請求",
+            "href": "https://www.axa.co.jp/customer/claim-top?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "各種お手続き",
+            "href": "https://www.axa.co.jp/customer/guide?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "変額保険各種情報",
+            "href": "https://www.axa.co.jp/customer/variable?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "デジタル約款",
+            "href": "https://www.axa.co.jp/digitalprovision?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "ご契約内容の確認方法",
+            "href": "https://www.axa.co.jp/customer/policy-reference?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "付帯サービス",
+            "href": "https://www.axa.co.jp/customer/service?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "令和8年(2026年)分の生命保険料 控除証明書について",
+            "href": "https://www.axa.co.jp/customer/deduction-certificate?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "お客さま専用マイページ MyAXA",
+            "href": "https://www.axa.co.jp/customer/myaxa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "LINEサービスについて",
+            "href": "https://www.axa.co.jp/customer/line?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "当社からご連絡する際の電話番号等",
+            "href": "https://www.axa.co.jp/customer/phone-number/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "アクサのネット完結保険 （旧アクサダイレクト生命）",
+            "href": "https://www.axa-direct-life.co.jp/customer/index.html?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           706,
+           390,
+           138
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "svg"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 500,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.hero__track"
+          },
+          {
+           "kind": "animation",
+           "prop": "hero-progress",
+           "ms": 5000,
+           "delay": 0,
+           "easing": "linear",
+           "target": "span.hero__dot-bar"
+          }
+         ],
+         "shot": "390-004---key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "法人のお客さま",
+       "key": "法人のお客さま",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#drawer>div:nth-of-type(3)>button",
+       "expanded": "false",
+       "rect": [
+        0,
+        707,
+        390,
+        72
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "法人のお客さまトップ",
+            "href": "http://localhost:8791/company?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "健康経営とは",
+            "href": "https://www.axa.co.jp/company/hpm?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "健康経営サポートパッケージ",
+            "href": "https://www.axa.co.jp/customer/service/hpm?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "健康経営⁩プラットフォーム",
+            "href": "https://www.axa.co.jp/company/hpm/platform?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "経営者サポートサービス",
+            "href": "https://www.axa.co.jp/customer/service/management?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           779,
+           390,
+           65
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "svg"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 500,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.hero__track"
+          },
+          {
+           "kind": "animation",
+           "prop": "hero-progress",
+           "ms": 5000,
+           "delay": 0,
+           "easing": "linear",
+           "target": "span.hero__dot-bar"
+          }
+         ],
+         "shot": "390-005---click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "法人のお客さまトップ",
+            "href": "http://localhost:8791/company?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "健康経営とは",
+            "href": "https://www.axa.co.jp/company/hpm?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "健康経営サポートパッケージ",
+            "href": "https://www.axa.co.jp/customer/service/hpm?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "健康経営⁩プラットフォーム",
+            "href": "https://www.axa.co.jp/company/hpm/platform?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "経営者サポートサービス",
+            "href": "https://www.axa.co.jp/customer/service/management?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           779,
+           390,
+           65
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "svg"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 500,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.hero__track"
+          },
+          {
+           "kind": "animation",
+           "prop": "hero-progress",
+           "ms": 5000,
+           "delay": 0,
+           "easing": "linear",
+           "target": "span.hero__dot-bar"
+          }
+         ],
+         "shot": "390-006---key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "パートナーさま",
+       "key": "パートナーさま",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#drawer>div:nth-of-type(4)>button",
+       "expanded": "false",
+       "rect": [
+        0,
+        780,
+        390,
+        72
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "アクサ生命のパートナーのみなさま",
+            "href": "https://www.axa.co.jp/about-axa/branch#channel?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "商工会議所会員のみなさま",
+            "href": "https://www.axa.co.jp/channel/cci?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "募集代理店のみなさま",
+            "href": "https://www.axa.co.jp/channel/ag?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "代理店制度のご案内 （新規代理店募集）",
+            "href": "https://www.axa.co.jp/recruitment/ag/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           844,
+           390,
+           0
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "svg"
+          }
+         ],
+         "shot": null
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "アクサ生命のパートナーのみなさま",
+            "href": "https://www.axa.co.jp/about-axa/branch#channel?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "商工会議所会員のみなさま",
+            "href": "https://www.axa.co.jp/channel/cci?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "募集代理店のみなさま",
+            "href": "https://www.axa.co.jp/channel/ag?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "代理店制度のご案内 （新規代理店募集）",
+            "href": "https://www.axa.co.jp/recruitment/ag/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           844,
+           390,
+           0
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "svg"
+          }
+         ],
+         "shot": null,
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "企業情報",
+       "key": "企業情報",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#drawer>div:nth-of-type(5)>button",
+       "expanded": "false",
+       "rect": [
+        0,
+        853,
+        390,
+        72
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "企業情報トップ",
+            "href": "http://localhost:8791/about-axa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "アクサ生命について",
+            "href": "https://www.axa.co.jp/about-axa/axa-life?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "代表取締役社長からのメッセージ",
+            "href": "https://www.axa.co.jp/about-axa/ceo-message?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "アクサ生命が選ばれる理由",
+            "href": "https://www.axa.co.jp/about-axa/why-axa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "お知らせ・ニュースリリース",
+            "href": "https://www.axa.co.jp/about-axa/notice?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "IR情報",
+            "href": "https://www.axa.co.jp/ir/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "サステナビリティの取り組み",
+            "href": "https://www.axa-holdings.co.jp/esg/"
+           },
+           {
+            "text": "セミナー情報",
+            "href": "https://www.axa.co.jp/about-axa/seminar?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "お客さまを金融犯罪からお守りするために",
+            "href": "https://www.axa.co.jp/about-axa/warning-fc?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "アクサグループについて",
+            "href": "https://www.axa.co.jp/about-axa/group-info?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           660,
+           390,
+           184
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "svg"
+          }
+         ],
+         "shot": "390-007---click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "企業情報トップ",
+            "href": "http://localhost:8791/about-axa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "アクサ生命について",
+            "href": "https://www.axa.co.jp/about-axa/axa-life?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "代表取締役社長からのメッセージ",
+            "href": "https://www.axa.co.jp/about-axa/ceo-message?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "アクサ生命が選ばれる理由",
+            "href": "https://www.axa.co.jp/about-axa/why-axa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "お知らせ・ニュースリリース",
+            "href": "https://www.axa.co.jp/about-axa/notice?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "IR情報",
+            "href": "https://www.axa.co.jp/ir/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "サステナビリティの取り組み",
+            "href": "https://www.axa-holdings.co.jp/esg/"
+           },
+           {
+            "text": "セミナー情報",
+            "href": "https://www.axa.co.jp/about-axa/seminar?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "お客さまを金融犯罪からお守りするために",
+            "href": "https://www.axa.co.jp/about-axa/warning-fc?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "アクサグループについて",
+            "href": "https://www.axa.co.jp/about-axa/group-info?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           660,
+           390,
+           184
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "svg"
+          }
+         ],
+         "shot": "390-008---key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "採用情報",
+       "key": "採用情報",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#drawer>div:nth-of-type(6)>button",
+       "expanded": "false",
+       "rect": [
+        0,
+        926,
+        390,
+        72
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "採用情報トップ",
+            "href": "https://www.axa.co.jp/recruitment/career?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "新卒採用",
+            "href": "https://www.axa.co.jp/recruitment/career/students?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "中途採用：内勤正社員",
+            "href": "https://www.axa.co.jp/recruitment/career/experienced?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "中途採用：商工会議所共済・福祉制度推進スタッフ（営業職）",
+            "href": "https://www.axa.co.jp/recruitment/cci/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "中途採用：フィナンシャルプラン・アドバイザー（営業職）",
+            "href": "https://www.axa.co.jp/recruitment/fa/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "障害者採用",
+            "href": "https://www.axa.co.jp/recruitment/career/pwd?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           733,
+           390,
+           111
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "svg"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 500,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.hero__track"
+          },
+          {
+           "kind": "animation",
+           "prop": "hero-progress",
+           "ms": 5000,
+           "delay": 0,
+           "easing": "linear",
+           "target": "span.hero__dot-bar"
+          }
+         ],
+         "shot": "390-009---click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "採用情報トップ",
+            "href": "https://www.axa.co.jp/recruitment/career?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "新卒採用",
+            "href": "https://www.axa.co.jp/recruitment/career/students?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "中途採用：内勤正社員",
+            "href": "https://www.axa.co.jp/recruitment/career/experienced?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "中途採用：商工会議所共済・福祉制度推進スタッフ（営業職）",
+            "href": "https://www.axa.co.jp/recruitment/cci/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "中途採用：フィナンシャルプラン・アドバイザー（営業職）",
+            "href": "https://www.axa.co.jp/recruitment/fa/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           },
+           {
+            "text": "障害者採用",
+            "href": "https://www.axa.co.jp/recruitment/career/pwd?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           733,
+           390,
+           111
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "svg"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 500,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.hero__track"
+          },
+          {
+           "kind": "animation",
+           "prop": "hero-progress",
+           "ms": 5000,
+           "delay": 0,
+           "easing": "linear",
+           "target": "span.hero__dot-bar"
+          }
+         ],
+         "shot": "390-010---key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 72,
+     "position": "static",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1000,
+     "height": 72,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 72,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 72,
+     "position": "static",
+     "inView": true
+    }
+   ],
+   "states": 12,
+   "truncated": null,
+   "loads": 3,
+   "requests": 21,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  },
+  "1440": {
+   "root": "#site-header",
+   "controls": [
+    {
+     "name": "よくあるご質問",
+     "key": "よくあるご質問",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>nav:nth-of-type(1)>ul>li:nth-of-type(1)>a",
+     "href": "https://help.axa.co.jp/s/",
+     "expanded": null,
+     "rect": [
+      1016,
+      7,
+      84,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "お問い合わせ",
+     "key": "お問い合わせ",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>nav:nth-of-type(1)>ul>li:nth-of-type(3)>a",
+     "href": "https://www.axa.co.jp/request/",
+     "expanded": null,
+     "rect": [
+      1133,
+      7,
+      72,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "ログイン",
+     "key": "ログイン",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>nav:nth-of-type(1)>ul>li:nth-of-type(4)>a",
+     "href": "https://myweb.axa.co.jp/",
+     "expanded": null,
+     "rect": [
+      1221,
+      0,
+      88,
+      32
+     ],
+     "actions": {}
+    },
+    {
+     "name": "アクサ生命保険株式会社 ホーム",
+     "key": "アクサ生命保険株式会社 ホーム",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>div>nav>a",
+     "href": "http://localhost:8791/",
+     "expanded": null,
+     "rect": [
+      131,
+      44,
+      124,
+      48
+     ],
+     "actions": {}
+    },
+    {
+     "name": "保険をご検討のお客さま",
+     "key": "保険をご検討のお客さま",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-header>div>nav>ul>li:nth-of-type(1)>button",
+     "expanded": "false",
+     "rect": [
+      506,
+      33,
+      186,
+      70
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "保険をご検討のお客さまトップ",
+          "href": "http://localhost:8791/prospect"
+         },
+         {
+          "text": "商品一覧",
+          "href": "http://localhost:8791/product/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "医療保険",
+          "href": "https://www.axa.co.jp/product/medical/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "がん保険",
+          "href": "https://www.axa.co.jp/product/cancer/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "死亡保険",
+          "href": "https://www.axa.co.jp/product/life_insurance/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "持病がある方",
+          "href": "https://www.axa.co.jp/product/chronic/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "就業不能に備える",
+          "href": "https://www.axa.co.jp/product/disability/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "女性向け",
+          "href": "https://www.axa.co.jp/product/ladies/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "介護に備える",
+          "href": "https://www.axa.co.jp/product/nursing_care?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "変額保険",
+          "href": "https://www.axa.co.jp/product/saving/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "企業経営者さま",
+          "href": "https://www.axa.co.jp/product/corporate/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "金融機関",
+          "href": "https://www.axa.co.jp/product/financial-institutions/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "その他",
+          "href": "http://localhost:8791/product/#nissay?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "保険シミュレーション",
+          "href": "https://www.axa.co.jp/prospect/be-recommended/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "ご相談ガイド",
+          "href": "https://www.axa.co.jp/prospect/consultation-flow?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "資料請求",
+          "href": "https://www.axa.co.jp/form/brochure?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "保険選びに役立つ情報",
+          "href": "http://localhost:8791/about-insurance?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "保険を考えるきっかけ",
+          "href": "https://www.axa.co.jp/about-insurance/testimonials?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "【FP監修】保険選びのお役立ちコラム",
+          "href": "https://www.axa.co.jp/about-insurance/column?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "保険の用語集",
+          "href": "https://www.axa.co.jp/about-insurance/glossary?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "積立投資シミュレーション",
+          "href": "https://axa-wealth-management.co.jp/"
+         },
+         {
+          "text": "アクサ生命のライフマネジメント®",
+          "href": "https://www.axa.co.jp/prospect/life-management?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサ生命のライフマネジメント®とは？",
+          "href": "https://www.axa.co.jp/prospect/life-management#03?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "ライフマネジメント® コンサルティング体験者の声",
+          "href": "https://www.axa.co.jp/prospect/life-management#01?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサ生命担当者の想い（動画）",
+          "href": "https://www.axa.co.jp/prospect/life-management#02?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "変額保険各種情報",
+          "href": "https://www.axa.co.jp/customer/variable?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "運用レポート",
+          "href": "https://www.axa.co.jp/customer/report/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "ユニットプライスの現況",
+          "href": "https://www.axa.co.jp/customer/unit/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "特別勘定のしおり",
+          "href": "https://www.axa.co.jp/customer/variable/guidebook?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "デジタル約款",
+          "href": "https://www.axa.co.jp/digitalprovision?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "デジタル約款",
+          "href": "https://www.axa.co.jp/digitalprovision?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "​団体保険・団体年金約款",
+          "href": "https://www.axa.co.jp/customer/digitalprovision/group?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサ生命が選ばれる理由",
+          "href": "https://www.axa.co.jp/about-axa/why-axa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "世界で約9,500万人以上の お客さまをサポート",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/axa-brand?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "お客さまに卓越した体験価値を提供",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/cx?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "お客さまのニーズに応えた 保険商品・サービスを提供",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/product?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "専門スタッフによる 個人、法人のお客さまへの保険のご提案",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/consulting?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "フィナンシャルプラン アドバイザー（FA）紹介ページ",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/fa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "営業社員（都道府県別MDRT会員） 紹介ページ",
+          "href": "https://www.axa.co.jp/about-axa/mdrt?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         103,
+         1440,
+         638
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button.gnav__btn"
+        },
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 200,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.mega"
+        }
+       ],
+       "shot": "1440-001---hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "保険をご検討のお客さまトップ",
+          "href": "http://localhost:8791/prospect"
+         },
+         {
+          "text": "商品一覧",
+          "href": "http://localhost:8791/product/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "医療保険",
+          "href": "https://www.axa.co.jp/product/medical/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "がん保険",
+          "href": "https://www.axa.co.jp/product/cancer/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "死亡保険",
+          "href": "https://www.axa.co.jp/product/life_insurance/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "持病がある方",
+          "href": "https://www.axa.co.jp/product/chronic/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "就業不能に備える",
+          "href": "https://www.axa.co.jp/product/disability/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "女性向け",
+          "href": "https://www.axa.co.jp/product/ladies/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "介護に備える",
+          "href": "https://www.axa.co.jp/product/nursing_care?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "変額保険",
+          "href": "https://www.axa.co.jp/product/saving/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "企業経営者さま",
+          "href": "https://www.axa.co.jp/product/corporate/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "金融機関",
+          "href": "https://www.axa.co.jp/product/financial-institutions/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "その他",
+          "href": "http://localhost:8791/product/#nissay?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "保険シミュレーション",
+          "href": "https://www.axa.co.jp/prospect/be-recommended/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "ご相談ガイド",
+          "href": "https://www.axa.co.jp/prospect/consultation-flow?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "資料請求",
+          "href": "https://www.axa.co.jp/form/brochure?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "保険選びに役立つ情報",
+          "href": "http://localhost:8791/about-insurance?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "保険を考えるきっかけ",
+          "href": "https://www.axa.co.jp/about-insurance/testimonials?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "【FP監修】保険選びのお役立ちコラム",
+          "href": "https://www.axa.co.jp/about-insurance/column?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "保険の用語集",
+          "href": "https://www.axa.co.jp/about-insurance/glossary?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "積立投資シミュレーション",
+          "href": "https://axa-wealth-management.co.jp/"
+         },
+         {
+          "text": "アクサ生命のライフマネジメント®",
+          "href": "https://www.axa.co.jp/prospect/life-management?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサ生命のライフマネジメント®とは？",
+          "href": "https://www.axa.co.jp/prospect/life-management#03?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "ライフマネジメント® コンサルティング体験者の声",
+          "href": "https://www.axa.co.jp/prospect/life-management#01?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサ生命担当者の想い（動画）",
+          "href": "https://www.axa.co.jp/prospect/life-management#02?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "変額保険各種情報",
+          "href": "https://www.axa.co.jp/customer/variable?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "運用レポート",
+          "href": "https://www.axa.co.jp/customer/report/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "ユニットプライスの現況",
+          "href": "https://www.axa.co.jp/customer/unit/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "特別勘定のしおり",
+          "href": "https://www.axa.co.jp/customer/variable/guidebook?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "デジタル約款",
+          "href": "https://www.axa.co.jp/digitalprovision?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "デジタル約款",
+          "href": "https://www.axa.co.jp/digitalprovision?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "​団体保険・団体年金約款",
+          "href": "https://www.axa.co.jp/customer/digitalprovision/group?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサ生命が選ばれる理由",
+          "href": "https://www.axa.co.jp/about-axa/why-axa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "世界で約9,500万人以上の お客さまをサポート",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/axa-brand?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "お客さまに卓越した体験価値を提供",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/cx?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "お客さまのニーズに応えた 保険商品・サービスを提供",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/product?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "専門スタッフによる 個人、法人のお客さまへの保険のご提案",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/consulting?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "フィナンシャルプラン アドバイザー（FA）紹介ページ",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/fa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "営業社員（都道府県別MDRT会員） 紹介ページ",
+          "href": "https://www.axa.co.jp/about-axa/mdrt?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         103,
+         1440,
+         638
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button.gnav__btn"
+        },
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 200,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.mega"
+        }
+       ],
+       "shot": "1440-002---click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "保険をご検討のお客さまトップ",
+          "href": "http://localhost:8791/prospect"
+         },
+         {
+          "text": "商品一覧",
+          "href": "http://localhost:8791/product/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "医療保険",
+          "href": "https://www.axa.co.jp/product/medical/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "がん保険",
+          "href": "https://www.axa.co.jp/product/cancer/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "死亡保険",
+          "href": "https://www.axa.co.jp/product/life_insurance/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "持病がある方",
+          "href": "https://www.axa.co.jp/product/chronic/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "就業不能に備える",
+          "href": "https://www.axa.co.jp/product/disability/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "女性向け",
+          "href": "https://www.axa.co.jp/product/ladies/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "介護に備える",
+          "href": "https://www.axa.co.jp/product/nursing_care?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "変額保険",
+          "href": "https://www.axa.co.jp/product/saving/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "企業経営者さま",
+          "href": "https://www.axa.co.jp/product/corporate/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "金融機関",
+          "href": "https://www.axa.co.jp/product/financial-institutions/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "その他",
+          "href": "http://localhost:8791/product/#nissay?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "保険シミュレーション",
+          "href": "https://www.axa.co.jp/prospect/be-recommended/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "ご相談ガイド",
+          "href": "https://www.axa.co.jp/prospect/consultation-flow?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "資料請求",
+          "href": "https://www.axa.co.jp/form/brochure?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "保険選びに役立つ情報",
+          "href": "http://localhost:8791/about-insurance?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "保険を考えるきっかけ",
+          "href": "https://www.axa.co.jp/about-insurance/testimonials?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "【FP監修】保険選びのお役立ちコラム",
+          "href": "https://www.axa.co.jp/about-insurance/column?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "保険の用語集",
+          "href": "https://www.axa.co.jp/about-insurance/glossary?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "積立投資シミュレーション",
+          "href": "https://axa-wealth-management.co.jp/"
+         },
+         {
+          "text": "アクサ生命のライフマネジメント®",
+          "href": "https://www.axa.co.jp/prospect/life-management?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサ生命のライフマネジメント®とは？",
+          "href": "https://www.axa.co.jp/prospect/life-management#03?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "ライフマネジメント® コンサルティング体験者の声",
+          "href": "https://www.axa.co.jp/prospect/life-management#01?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサ生命担当者の想い（動画）",
+          "href": "https://www.axa.co.jp/prospect/life-management#02?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "変額保険各種情報",
+          "href": "https://www.axa.co.jp/customer/variable?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "運用レポート",
+          "href": "https://www.axa.co.jp/customer/report/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "ユニットプライスの現況",
+          "href": "https://www.axa.co.jp/customer/unit/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "特別勘定のしおり",
+          "href": "https://www.axa.co.jp/customer/variable/guidebook?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "デジタル約款",
+          "href": "https://www.axa.co.jp/digitalprovision?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "デジタル約款",
+          "href": "https://www.axa.co.jp/digitalprovision?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "​団体保険・団体年金約款",
+          "href": "https://www.axa.co.jp/customer/digitalprovision/group?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサ生命が選ばれる理由",
+          "href": "https://www.axa.co.jp/about-axa/why-axa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "世界で約9,500万人以上の お客さまをサポート",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/axa-brand?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "お客さまに卓越した体験価値を提供",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/cx?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "お客さまのニーズに応えた 保険商品・サービスを提供",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/product?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "専門スタッフによる 個人、法人のお客さまへの保険のご提案",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/consulting?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "フィナンシャルプラン アドバイザー（FA）紹介ページ",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/fa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "営業社員（都道府県別MDRT会員） 紹介ページ",
+          "href": "https://www.axa.co.jp/about-axa/mdrt?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         103,
+         1440,
+         638
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button.gnav__btn"
+        },
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 200,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.mega"
+        }
+       ],
+       "shot": "1440-003---key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "ご契約者さま",
+     "key": "ご契約者さま",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-header>div>nav>ul>li:nth-of-type(2)>button",
+     "expanded": "false",
+     "rect": [
+      692,
+      33,
+      116,
+      70
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "ご契約者さまトップ",
+          "href": "http://localhost:8791/customer?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "保険金・給付金のご請求",
+          "href": "https://www.axa.co.jp/customer/claim-top?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "死亡保険金等のご請求",
+          "href": "https://www.axa.co.jp/customer/claim/life?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "入院・手術等のご請求",
+          "href": "https://www.axa.co.jp/customer/claim/medical?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "団体保険のご請求",
+          "href": "https://www.axa.co.jp/customer/claim/group?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "新型コロナウィルス感染症のご請求",
+          "href": "https://www.axa.co.jp/customer/covid-19-claim?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "各種お手続き",
+          "href": "https://www.axa.co.jp/customer/guide?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "家族情報登録",
+          "href": "https://www.axa.co.jp/customer/family-registration?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "住所・電話番号変更",
+          "href": "https://www.axa.co.jp/customer/guide/change-address?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "氏名の変更（改姓・改名）",
+          "href": "https://www.axa.co.jp/customer/guide/change-name?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "契約者貸付（個人のご契約者さま）",
+          "href": "https://www.axa.co.jp/customer/guide/policy-loan-individual?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "契約者貸付（法人のご契約者さま）",
+          "href": "https://www.axa.co.jp/customer/guide/policy-loan-company?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "その他お手続き一覧",
+          "href": "https://www.axa.co.jp/customer/guide?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "変額保険各種情報",
+          "href": "https://www.axa.co.jp/customer/variable?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "運用レポート",
+          "href": "https://www.axa.co.jp/customer/report?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "ユニットプライスの現況",
+          "href": "https://www.axa.co.jp/customer/unit?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "ご契約者(年金受取人)さま専用サービス",
+          "href": "https://www.axa.co.jp/customer/unit?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "特別勘定のしおり",
+          "href": "https://www.axa.co.jp/customer/variable/guidebook?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "特別勘定の変更について",
+          "href": "https://www.axa.co.jp/customer/variable/special-account?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "デジタル約款",
+          "href": "https://www.axa.co.jp/digitalprovision?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "デジタル約款",
+          "href": "https://www.axa.co.jp/digitalprovision?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "団体保険・団体年金約款",
+          "href": "https://www.axa.co.jp/customer/digitalprovision/group?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "特約更新用約款",
+          "href": "https://www.axa.co.jp/customer/digitalprovision/rider-renewal?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "ご契約内容の確認方法",
+          "href": "https://www.axa.co.jp/customer/policy-reference?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "付帯サービス",
+          "href": "https://www.axa.co.jp/customer/service?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "医療・がん保険にご加入のお客さまへのサービス",
+          "href": "https://www.axa.co.jp/customer/service/#service1?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "介護に関するサービス",
+          "href": "https://www.axa.co.jp/customer/service/#service5?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "すべてのお客さまへのサービス",
+          "href": "https://www.axa.co.jp/customer/service/#service3?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "法人のお客さまへのサービス",
+          "href": "https://www.axa.co.jp/customer/service/#service6?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "令和8年(2026年)分の生命保険料 控除証明書について",
+          "href": "https://www.axa.co.jp/customer/deduction-certificate?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "お客さま専用マイページ MyAXA",
+          "href": "https://www.axa.co.jp/customer/myaxa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "LINEサービスについて",
+          "href": "https://www.axa.co.jp/customer/line?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "当社からご連絡する際の電話番号等",
+          "href": "https://www.axa.co.jp/customer/phone-number/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサのネット完結保険 （旧アクサダイレクト生命）",
+          "href": "https://www.axa-direct-life.co.jp/customer/index.html?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         103,
+         1440,
+         595
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button.gnav__btn"
+        },
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 200,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.mega"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.hero__track"
+        },
+        {
+         "kind": "animation",
+         "prop": "hero-progress",
+         "ms": 5000,
+         "delay": 0,
+         "easing": "linear",
+         "target": "span.hero__dot-bar"
+        }
+       ],
+       "shot": "1440-004---hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "ご契約者さまトップ",
+          "href": "http://localhost:8791/customer?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "保険金・給付金のご請求",
+          "href": "https://www.axa.co.jp/customer/claim-top?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "死亡保険金等のご請求",
+          "href": "https://www.axa.co.jp/customer/claim/life?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "入院・手術等のご請求",
+          "href": "https://www.axa.co.jp/customer/claim/medical?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "団体保険のご請求",
+          "href": "https://www.axa.co.jp/customer/claim/group?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "新型コロナウィルス感染症のご請求",
+          "href": "https://www.axa.co.jp/customer/covid-19-claim?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "各種お手続き",
+          "href": "https://www.axa.co.jp/customer/guide?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "家族情報登録",
+          "href": "https://www.axa.co.jp/customer/family-registration?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "住所・電話番号変更",
+          "href": "https://www.axa.co.jp/customer/guide/change-address?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "氏名の変更（改姓・改名）",
+          "href": "https://www.axa.co.jp/customer/guide/change-name?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "契約者貸付（個人のご契約者さま）",
+          "href": "https://www.axa.co.jp/customer/guide/policy-loan-individual?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "契約者貸付（法人のご契約者さま）",
+          "href": "https://www.axa.co.jp/customer/guide/policy-loan-company?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "その他お手続き一覧",
+          "href": "https://www.axa.co.jp/customer/guide?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "変額保険各種情報",
+          "href": "https://www.axa.co.jp/customer/variable?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "運用レポート",
+          "href": "https://www.axa.co.jp/customer/report?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "ユニットプライスの現況",
+          "href": "https://www.axa.co.jp/customer/unit?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "ご契約者(年金受取人)さま専用サービス",
+          "href": "https://www.axa.co.jp/customer/unit?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "特別勘定のしおり",
+          "href": "https://www.axa.co.jp/customer/variable/guidebook?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "特別勘定の変更について",
+          "href": "https://www.axa.co.jp/customer/variable/special-account?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "デジタル約款",
+          "href": "https://www.axa.co.jp/digitalprovision?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "デジタル約款",
+          "href": "https://www.axa.co.jp/digitalprovision?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "団体保険・団体年金約款",
+          "href": "https://www.axa.co.jp/customer/digitalprovision/group?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "特約更新用約款",
+          "href": "https://www.axa.co.jp/customer/digitalprovision/rider-renewal?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "ご契約内容の確認方法",
+          "href": "https://www.axa.co.jp/customer/policy-reference?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "付帯サービス",
+          "href": "https://www.axa.co.jp/customer/service?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "医療・がん保険にご加入のお客さまへのサービス",
+          "href": "https://www.axa.co.jp/customer/service/#service1?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "介護に関するサービス",
+          "href": "https://www.axa.co.jp/customer/service/#service5?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "すべてのお客さまへのサービス",
+          "href": "https://www.axa.co.jp/customer/service/#service3?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "法人のお客さまへのサービス",
+          "href": "https://www.axa.co.jp/customer/service/#service6?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "令和8年(2026年)分の生命保険料 控除証明書について",
+          "href": "https://www.axa.co.jp/customer/deduction-certificate?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "お客さま専用マイページ MyAXA",
+          "href": "https://www.axa.co.jp/customer/myaxa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "LINEサービスについて",
+          "href": "https://www.axa.co.jp/customer/line?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "当社からご連絡する際の電話番号等",
+          "href": "https://www.axa.co.jp/customer/phone-number/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサのネット完結保険 （旧アクサダイレクト生命）",
+          "href": "https://www.axa-direct-life.co.jp/customer/index.html?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         103,
+         1440,
+         595
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button.gnav__btn"
+        },
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 200,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.mega"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.hero__track"
+        },
+        {
+         "kind": "animation",
+         "prop": "hero-progress",
+         "ms": 5000,
+         "delay": 0,
+         "easing": "linear",
+         "target": "span.hero__dot-bar"
+        }
+       ],
+       "shot": "1440-005---click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "ご契約者さまトップ",
+          "href": "http://localhost:8791/customer?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "保険金・給付金のご請求",
+          "href": "https://www.axa.co.jp/customer/claim-top?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "死亡保険金等のご請求",
+          "href": "https://www.axa.co.jp/customer/claim/life?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "入院・手術等のご請求",
+          "href": "https://www.axa.co.jp/customer/claim/medical?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "団体保険のご請求",
+          "href": "https://www.axa.co.jp/customer/claim/group?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "新型コロナウィルス感染症のご請求",
+          "href": "https://www.axa.co.jp/customer/covid-19-claim?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "各種お手続き",
+          "href": "https://www.axa.co.jp/customer/guide?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "家族情報登録",
+          "href": "https://www.axa.co.jp/customer/family-registration?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "住所・電話番号変更",
+          "href": "https://www.axa.co.jp/customer/guide/change-address?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "氏名の変更（改姓・改名）",
+          "href": "https://www.axa.co.jp/customer/guide/change-name?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "契約者貸付（個人のご契約者さま）",
+          "href": "https://www.axa.co.jp/customer/guide/policy-loan-individual?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "契約者貸付（法人のご契約者さま）",
+          "href": "https://www.axa.co.jp/customer/guide/policy-loan-company?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "その他お手続き一覧",
+          "href": "https://www.axa.co.jp/customer/guide?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "変額保険各種情報",
+          "href": "https://www.axa.co.jp/customer/variable?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "運用レポート",
+          "href": "https://www.axa.co.jp/customer/report?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "ユニットプライスの現況",
+          "href": "https://www.axa.co.jp/customer/unit?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "ご契約者(年金受取人)さま専用サービス",
+          "href": "https://www.axa.co.jp/customer/unit?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "特別勘定のしおり",
+          "href": "https://www.axa.co.jp/customer/variable/guidebook?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "特別勘定の変更について",
+          "href": "https://www.axa.co.jp/customer/variable/special-account?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "デジタル約款",
+          "href": "https://www.axa.co.jp/digitalprovision?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "デジタル約款",
+          "href": "https://www.axa.co.jp/digitalprovision?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "団体保険・団体年金約款",
+          "href": "https://www.axa.co.jp/customer/digitalprovision/group?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "特約更新用約款",
+          "href": "https://www.axa.co.jp/customer/digitalprovision/rider-renewal?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "ご契約内容の確認方法",
+          "href": "https://www.axa.co.jp/customer/policy-reference?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "付帯サービス",
+          "href": "https://www.axa.co.jp/customer/service?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "医療・がん保険にご加入のお客さまへのサービス",
+          "href": "https://www.axa.co.jp/customer/service/#service1?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "介護に関するサービス",
+          "href": "https://www.axa.co.jp/customer/service/#service5?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "すべてのお客さまへのサービス",
+          "href": "https://www.axa.co.jp/customer/service/#service3?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "法人のお客さまへのサービス",
+          "href": "https://www.axa.co.jp/customer/service/#service6?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "令和8年(2026年)分の生命保険料 控除証明書について",
+          "href": "https://www.axa.co.jp/customer/deduction-certificate?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "お客さま専用マイページ MyAXA",
+          "href": "https://www.axa.co.jp/customer/myaxa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "LINEサービスについて",
+          "href": "https://www.axa.co.jp/customer/line?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "当社からご連絡する際の電話番号等",
+          "href": "https://www.axa.co.jp/customer/phone-number/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサのネット完結保険 （旧アクサダイレクト生命）",
+          "href": "https://www.axa-direct-life.co.jp/customer/index.html?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         103,
+         1440,
+         595
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button.gnav__btn"
+        },
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 200,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.mega"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.hero__track"
+        },
+        {
+         "kind": "animation",
+         "prop": "hero-progress",
+         "ms": 5000,
+         "delay": 0,
+         "easing": "linear",
+         "target": "span.hero__dot-bar"
+        }
+       ],
+       "shot": "1440-006---key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "法人のお客さま",
+     "key": "法人のお客さま",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-header>div>nav>ul>li:nth-of-type(3)>button",
+     "expanded": "false",
+     "rect": [
+      808,
+      33,
+      130,
+      70
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "法人のお客さまトップ",
+          "href": "http://localhost:8791/company?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "健康経営とは",
+          "href": "https://www.axa.co.jp/company/hpm?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "健康経営サポートパッケージ",
+          "href": "https://www.axa.co.jp/customer/service/hpm?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "健康経営⁩プラットフォーム",
+          "href": "https://www.axa.co.jp/company/hpm/platform?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "経営者サポートサービス",
+          "href": "https://www.axa.co.jp/customer/service/management?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         103,
+         1440,
+         380
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button.gnav__btn"
+        },
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 200,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.mega"
+        }
+       ],
+       "shot": "1440-007---hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "法人のお客さまトップ",
+          "href": "http://localhost:8791/company?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "健康経営とは",
+          "href": "https://www.axa.co.jp/company/hpm?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "健康経営サポートパッケージ",
+          "href": "https://www.axa.co.jp/customer/service/hpm?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "健康経営⁩プラットフォーム",
+          "href": "https://www.axa.co.jp/company/hpm/platform?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "経営者サポートサービス",
+          "href": "https://www.axa.co.jp/customer/service/management?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         103,
+         1440,
+         380
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button.gnav__btn"
+        },
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 200,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.mega"
+        }
+       ],
+       "shot": "1440-008---click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "法人のお客さまトップ",
+          "href": "http://localhost:8791/company?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "健康経営とは",
+          "href": "https://www.axa.co.jp/company/hpm?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "健康経営サポートパッケージ",
+          "href": "https://www.axa.co.jp/customer/service/hpm?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "健康経営⁩プラットフォーム",
+          "href": "https://www.axa.co.jp/company/hpm/platform?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "経営者サポートサービス",
+          "href": "https://www.axa.co.jp/customer/service/management?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         103,
+         1440,
+         380
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button.gnav__btn"
+        },
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 200,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.mega"
+        }
+       ],
+       "shot": "1440-009---key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "パートナーさま",
+     "key": "パートナーさま",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-header>div>nav>ul>li:nth-of-type(4)>button",
+     "expanded": "false",
+     "rect": [
+      938,
+      33,
+      130,
+      70
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "アクサ生命のパートナーのみなさま",
+          "href": "https://www.axa.co.jp/about-axa/branch#channel?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "商工会議所会員のみなさま",
+          "href": "https://www.axa.co.jp/channel/cci?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "募集代理店のみなさま",
+          "href": "https://www.axa.co.jp/channel/ag?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "代理店制度のご案内 （新規代理店募集）",
+          "href": "https://www.axa.co.jp/recruitment/ag/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         103,
+         1440,
+         402
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button.gnav__btn"
+        },
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 200,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.mega"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.hero__track"
+        },
+        {
+         "kind": "animation",
+         "prop": "hero-progress",
+         "ms": 5000,
+         "delay": 0,
+         "easing": "linear",
+         "target": "span.hero__dot-bar"
+        }
+       ],
+       "shot": "1440-010---hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "アクサ生命のパートナーのみなさま",
+          "href": "https://www.axa.co.jp/about-axa/branch#channel?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "商工会議所会員のみなさま",
+          "href": "https://www.axa.co.jp/channel/cci?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "募集代理店のみなさま",
+          "href": "https://www.axa.co.jp/channel/ag?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "代理店制度のご案内 （新規代理店募集）",
+          "href": "https://www.axa.co.jp/recruitment/ag/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         103,
+         1440,
+         402
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button.gnav__btn"
+        },
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 200,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.mega"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.hero__track"
+        },
+        {
+         "kind": "animation",
+         "prop": "hero-progress",
+         "ms": 5000,
+         "delay": 0,
+         "easing": "linear",
+         "target": "span.hero__dot-bar"
+        }
+       ],
+       "shot": "1440-011---click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "アクサ生命のパートナーのみなさま",
+          "href": "https://www.axa.co.jp/about-axa/branch#channel?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "商工会議所会員のみなさま",
+          "href": "https://www.axa.co.jp/channel/cci?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "募集代理店のみなさま",
+          "href": "https://www.axa.co.jp/channel/ag?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "代理店制度のご案内 （新規代理店募集）",
+          "href": "https://www.axa.co.jp/recruitment/ag/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         103,
+         1440,
+         402
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button.gnav__btn"
+        },
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 200,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.mega"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.hero__track"
+        },
+        {
+         "kind": "animation",
+         "prop": "hero-progress",
+         "ms": 5000,
+         "delay": 0,
+         "easing": "linear",
+         "target": "span.hero__dot-bar"
+        }
+       ],
+       "shot": "1440-012---key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "企業情報",
+     "key": "企業情報",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-header>div>nav>ul>li:nth-of-type(5)>button",
+     "expanded": "false",
+     "rect": [
+      1068,
+      33,
+      88,
+      70
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "企業情報トップ",
+          "href": "http://localhost:8791/about-axa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサ生命について",
+          "href": "https://www.axa.co.jp/about-axa/axa-life?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "会社概要",
+          "href": "https://www.axa.co.jp/about-axa/overview/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "営業所・支店一覧",
+          "href": "https://www.axa.co.jp/about-axa/branch?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサ生命の沿革",
+          "href": "https://www.axa.co.jp/about-axa/history?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "​お客さま本位の業務運営を目指して",
+          "href": "https://www.axa.co.jp/about-axa/voc?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "人材に関する取り組み",
+          "href": "https://www.axa.co.jp/cr/employee?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "代表取締役社長からのメッセージ",
+          "href": "https://www.axa.co.jp/about-axa/ceo-message?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサ生命が選ばれる理由",
+          "href": "https://www.axa.co.jp/about-axa/why-axa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "世界で約9,500万人以上の お客さまをサポート",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/axa-brand?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "お客さまに卓越した体験価値を提供",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/cx?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "お客さまのニーズに応えた 保険商品・サービスを提供",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/product?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "専門スタッフによる 個人、法人のお客さまへの保険のご提案",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/consulting?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "フィナンシャルプラン アドバイザー（FA）紹介ページ",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/fa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "営業社員（都道府県別MDRT会員） 紹介ページ",
+          "href": "https://www.axa.co.jp/about-axa/mdrt?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "お知らせ・ニュースリリース",
+          "href": "https://www.axa.co.jp/about-axa/notice?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "重要なお知らせ",
+          "href": "https://www.axa.co.jp/info?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "ニュースリリース",
+          "href": "https://www.axa.co.jp/news?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "CMライブラリ",
+          "href": "https://www.youtube.com/playlist?list=PLHJn49QUj7pjey9RYEbanomhL7FTUQXXy"
+         },
+         {
+          "text": "IR情報",
+          "href": "https://www.axa.co.jp/ir/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "株式事務のご案内",
+          "href": "https://www.axa.co.jp/ir/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "電子告示",
+          "href": "https://www.axa.co.jp/ir/public-notice/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサ生命の業績について",
+          "href": "https://www.axa.co.jp/ir/performance-report?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "サステナビリティの取り組み",
+          "href": "https://www.axa-holdings.co.jp/esg/"
+         },
+         {
+          "text": "セミナー情報",
+          "href": "https://www.axa.co.jp/about-axa/seminar?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "お客さまを金融犯罪からお守りするために",
+          "href": "https://www.axa.co.jp/about-axa/warning-fc?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサグループについて",
+          "href": "https://www.axa.co.jp/about-axa/group-info?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサグループ",
+          "href": "https://www.axa.com/"
+         },
+         {
+          "text": "アクサ・ホールディングス・ジャパン",
+          "href": "https://www.axa-holdings.co.jp/"
+         },
+         {
+          "text": "アクサ損害保険株式会社",
+          "href": "https://www.axa-direct.co.jp/axa-life/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         103,
+         1440,
+         560
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button.gnav__btn"
+        },
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 200,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.mega"
+        }
+       ],
+       "shot": "1440-013---hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "企業情報トップ",
+          "href": "http://localhost:8791/about-axa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサ生命について",
+          "href": "https://www.axa.co.jp/about-axa/axa-life?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "会社概要",
+          "href": "https://www.axa.co.jp/about-axa/overview/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "営業所・支店一覧",
+          "href": "https://www.axa.co.jp/about-axa/branch?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサ生命の沿革",
+          "href": "https://www.axa.co.jp/about-axa/history?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "​お客さま本位の業務運営を目指して",
+          "href": "https://www.axa.co.jp/about-axa/voc?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "人材に関する取り組み",
+          "href": "https://www.axa.co.jp/cr/employee?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "代表取締役社長からのメッセージ",
+          "href": "https://www.axa.co.jp/about-axa/ceo-message?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサ生命が選ばれる理由",
+          "href": "https://www.axa.co.jp/about-axa/why-axa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "世界で約9,500万人以上の お客さまをサポート",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/axa-brand?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "お客さまに卓越した体験価値を提供",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/cx?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "お客さまのニーズに応えた 保険商品・サービスを提供",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/product?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "専門スタッフによる 個人、法人のお客さまへの保険のご提案",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/consulting?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "フィナンシャルプラン アドバイザー（FA）紹介ページ",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/fa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "営業社員（都道府県別MDRT会員） 紹介ページ",
+          "href": "https://www.axa.co.jp/about-axa/mdrt?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "お知らせ・ニュースリリース",
+          "href": "https://www.axa.co.jp/about-axa/notice?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "重要なお知らせ",
+          "href": "https://www.axa.co.jp/info?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "ニュースリリース",
+          "href": "https://www.axa.co.jp/news?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "CMライブラリ",
+          "href": "https://www.youtube.com/playlist?list=PLHJn49QUj7pjey9RYEbanomhL7FTUQXXy"
+         },
+         {
+          "text": "IR情報",
+          "href": "https://www.axa.co.jp/ir/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "株式事務のご案内",
+          "href": "https://www.axa.co.jp/ir/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "電子告示",
+          "href": "https://www.axa.co.jp/ir/public-notice/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサ生命の業績について",
+          "href": "https://www.axa.co.jp/ir/performance-report?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "サステナビリティの取り組み",
+          "href": "https://www.axa-holdings.co.jp/esg/"
+         },
+         {
+          "text": "セミナー情報",
+          "href": "https://www.axa.co.jp/about-axa/seminar?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "お客さまを金融犯罪からお守りするために",
+          "href": "https://www.axa.co.jp/about-axa/warning-fc?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサグループについて",
+          "href": "https://www.axa.co.jp/about-axa/group-info?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサグループ",
+          "href": "https://www.axa.com/"
+         },
+         {
+          "text": "アクサ・ホールディングス・ジャパン",
+          "href": "https://www.axa-holdings.co.jp/"
+         },
+         {
+          "text": "アクサ損害保険株式会社",
+          "href": "https://www.axa-direct.co.jp/axa-life/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         103,
+         1440,
+         560
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button.gnav__btn"
+        },
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 200,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.mega"
+        }
+       ],
+       "shot": "1440-014---click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "企業情報トップ",
+          "href": "http://localhost:8791/about-axa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサ生命について",
+          "href": "https://www.axa.co.jp/about-axa/axa-life?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "会社概要",
+          "href": "https://www.axa.co.jp/about-axa/overview/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "営業所・支店一覧",
+          "href": "https://www.axa.co.jp/about-axa/branch?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサ生命の沿革",
+          "href": "https://www.axa.co.jp/about-axa/history?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "​お客さま本位の業務運営を目指して",
+          "href": "https://www.axa.co.jp/about-axa/voc?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "人材に関する取り組み",
+          "href": "https://www.axa.co.jp/cr/employee?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "代表取締役社長からのメッセージ",
+          "href": "https://www.axa.co.jp/about-axa/ceo-message?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサ生命が選ばれる理由",
+          "href": "https://www.axa.co.jp/about-axa/why-axa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "世界で約9,500万人以上の お客さまをサポート",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/axa-brand?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "お客さまに卓越した体験価値を提供",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/cx?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "お客さまのニーズに応えた 保険商品・サービスを提供",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/product?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "専門スタッフによる 個人、法人のお客さまへの保険のご提案",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/consulting?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "フィナンシャルプラン アドバイザー（FA）紹介ページ",
+          "href": "https://www.axa.co.jp/about-axa/why-axa/fa?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "営業社員（都道府県別MDRT会員） 紹介ページ",
+          "href": "https://www.axa.co.jp/about-axa/mdrt?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "お知らせ・ニュースリリース",
+          "href": "https://www.axa.co.jp/about-axa/notice?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "重要なお知らせ",
+          "href": "https://www.axa.co.jp/info?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "ニュースリリース",
+          "href": "https://www.axa.co.jp/news?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "CMライブラリ",
+          "href": "https://www.youtube.com/playlist?list=PLHJn49QUj7pjey9RYEbanomhL7FTUQXXy"
+         },
+         {
+          "text": "IR情報",
+          "href": "https://www.axa.co.jp/ir/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "株式事務のご案内",
+          "href": "https://www.axa.co.jp/ir/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "電子告示",
+          "href": "https://www.axa.co.jp/ir/public-notice/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサ生命の業績について",
+          "href": "https://www.axa.co.jp/ir/performance-report?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "サステナビリティの取り組み",
+          "href": "https://www.axa-holdings.co.jp/esg/"
+         },
+         {
+          "text": "セミナー情報",
+          "href": "https://www.axa.co.jp/about-axa/seminar?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "お客さまを金融犯罪からお守りするために",
+          "href": "https://www.axa.co.jp/about-axa/warning-fc?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサグループについて",
+          "href": "https://www.axa.co.jp/about-axa/group-info?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "アクサグループ",
+          "href": "https://www.axa.com/"
+         },
+         {
+          "text": "アクサ・ホールディングス・ジャパン",
+          "href": "https://www.axa-holdings.co.jp/"
+         },
+         {
+          "text": "アクサ損害保険株式会社",
+          "href": "https://www.axa-direct.co.jp/axa-life/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         103,
+         1440,
+         560
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button.gnav__btn"
+        },
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 200,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.mega"
+        }
+       ],
+       "shot": "1440-015---key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "採用情報",
+     "key": "採用情報",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-header>div>nav>ul>li:nth-of-type(6)>button",
+     "expanded": "false",
+     "rect": [
+      1156,
+      33,
+      88,
+      70
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "採用情報トップ",
+          "href": "https://www.axa.co.jp/recruitment/career?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "新卒採用",
+          "href": "https://www.axa.co.jp/recruitment/career/students?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "中途採用：内勤正社員",
+          "href": "https://www.axa.co.jp/recruitment/career/experienced?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "中途採用：商工会議所共済・福祉制度推進スタッフ（営業職）",
+          "href": "https://www.axa.co.jp/recruitment/cci/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "中途採用：フィナンシャルプラン・アドバイザー（営業職）",
+          "href": "https://www.axa.co.jp/recruitment/fa/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "障害者採用",
+          "href": "https://www.axa.co.jp/recruitment/career/pwd?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         103,
+         1440,
+         424
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button.gnav__btn"
+        },
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 200,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.mega"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.hero__track"
+        },
+        {
+         "kind": "animation",
+         "prop": "hero-progress",
+         "ms": 5000,
+         "delay": 0,
+         "easing": "linear",
+         "target": "span.hero__dot-bar"
+        }
+       ],
+       "shot": "1440-016---hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "採用情報トップ",
+          "href": "https://www.axa.co.jp/recruitment/career?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "新卒採用",
+          "href": "https://www.axa.co.jp/recruitment/career/students?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "中途採用：内勤正社員",
+          "href": "https://www.axa.co.jp/recruitment/career/experienced?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "中途採用：商工会議所共済・福祉制度推進スタッフ（営業職）",
+          "href": "https://www.axa.co.jp/recruitment/cci/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "中途採用：フィナンシャルプラン・アドバイザー（営業職）",
+          "href": "https://www.axa.co.jp/recruitment/fa/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "障害者採用",
+          "href": "https://www.axa.co.jp/recruitment/career/pwd?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         103,
+         1440,
+         424
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button.gnav__btn"
+        },
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 200,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.mega"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.hero__track"
+        },
+        {
+         "kind": "animation",
+         "prop": "hero-progress",
+         "ms": 5000,
+         "delay": 0,
+         "easing": "linear",
+         "target": "span.hero__dot-bar"
+        }
+       ],
+       "shot": "1440-017---click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "採用情報トップ",
+          "href": "https://www.axa.co.jp/recruitment/career?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "新卒採用",
+          "href": "https://www.axa.co.jp/recruitment/career/students?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "中途採用：内勤正社員",
+          "href": "https://www.axa.co.jp/recruitment/career/experienced?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "中途採用：商工会議所共済・福祉制度推進スタッフ（営業職）",
+          "href": "https://www.axa.co.jp/recruitment/cci/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "中途採用：フィナンシャルプラン・アドバイザー（営業職）",
+          "href": "https://www.axa.co.jp/recruitment/fa/?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         },
+         {
+          "text": "障害者採用",
+          "href": "https://www.axa.co.jp/recruitment/career/pwd?utm_source=global-navigation&utm_medium=referral&utm_campaign=in_LifeHP"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         103,
+         1440,
+         424
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button.gnav__btn"
+        },
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 200,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.mega"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.hero__track"
+        },
+        {
+         "kind": "animation",
+         "prop": "hero-progress",
+         "ms": 5000,
+         "delay": 0,
+         "easing": "linear",
+         "target": "span.hero__dot-bar"
+        }
+       ],
+       "shot": "1440-018---key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "検索",
+     "key": "検索",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#site-header>div>nav>ul>li:nth-of-type(8)>button",
+     "expanded": "false",
+     "rect": [
+      1277,
+      52,
+      32,
+      32
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1109,
+         84,
+         200,
+         50
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 300,
+         "delay": 0,
+         "easing": "linear",
+         "target": "form.search-form"
+        }
+       ],
+       "shot": "1440-019---click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1109,
+         84,
+         200,
+         50
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "animation",
+         "prop": "fade-in",
+         "ms": 300,
+         "delay": 0,
+         "easing": "linear",
+         "target": "form.search-form"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.hero__track"
+        },
+        {
+         "kind": "animation",
+         "prop": "hero-progress",
+         "ms": 5000,
+         "delay": 0,
+         "easing": "linear",
+         "target": "span.hero__dot-bar"
+        }
+       ],
+       "shot": "1440-020---key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "検索",
+       "key": "検索",
+       "role": "input",
+       "kind": "search",
+       "sel": "#q",
+       "expanded": null,
+       "rect": [
+        1109,
+        84,
+        200,
+        50
+       ],
+       "actions": {},
+       "search": {
+        "probe": "よくあるご質問",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": "https://www.axa.co.jp/search-result/?q={q}"
+       }
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 103,
+     "position": "static",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1000,
+     "height": 103,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 103,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 103,
+     "position": "static",
+     "inView": true
+    }
+   ],
+   "states": 20,
+   "truncated": null,
+   "loads": 1,
+   "requests": 7,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  }
+ },
+ "probe": "よくあるご質問"
+}

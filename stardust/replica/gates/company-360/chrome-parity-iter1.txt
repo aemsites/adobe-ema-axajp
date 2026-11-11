@@ -1,0 +1,41 @@
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.axa.co.jp/company/
+  build: http://localhost:8791/company-proposed.html
+
+■ header: 1 delta(s) — 3 paired of 3/3 texts, 4/4 icons
+  PAIR         ";"  fontSize 14px → 16px; lineHeight 16.1px → 25.6px
+
+■ footer: 31 delta(s) — 30 paired of 30/30 texts, 11/11 icons
+  REGION BOX   Δy +550px (15063→15613), Δh +26px (1253→1279)
+  PAIR         "保険をご検討中のお客さま"  Δy +550px (15144→15694)
+  PAIR         ";"  Δy +550px (15168→15718)
+  PAIR         "ご契約者さま"  Δy +550px (15217→15767)
+  PAIR         ";"  Δy +550px (15241→15791)
+  PAIR         "法人のお客さま"  Δy +550px (15290→15840)
+  PAIR         ";"  Δy +550px (15314→15864)
+  PAIR         "企業情報"  Δy +550px (15363→15913)
+  PAIR         ";"  Δy +550px (15387→15937)
+  PAIR         "採用情報"  Δy +550px (15436→15986)
+  PAIR         ";"  Δy +550px (15460→16010)
+  PAIR         "よくあるご質問"  fontSize 14px → 16px; lineHeight 19.6px → 25.6px; Δy +551px (15523→16074); Δw +14px (162→176); Δh +4px (20→24)
+  PAIR         "お問い合わせ"  fontSize 14px → 16px; lineHeight 19.6px → 25.6px; Δy +557px (15575→16132); Δw +12px (148→160); Δh +4px (20→24)
+  PAIR         "勧誘方針"  Δy +563px (15628→16191)
+  PAIR         "取引時確認について"  Δy +564px (15656→16220)
+  PAIR         "個人情報の取り扱い"  Δy +565px (15683→16248)
+  PAIR         "利益相反管理方針の概要"  Δy +566px (15711→16277)
+  PAIR         "反社会的勢力対応の基本方針"  Δy +567px (15739→16306)
+  PAIR         "人権に関する基本方針"  Δy +568px (15766→16334)
+  PAIR         "お客さま本位の業務運営を実現するための基本方針"  Δy +569px (15818→16387)
+  PAIR         "アセットオーナー・プリンシプルの受け入れ"  Δy +570px (15845→16415)
+  PAIR         "日本版スチュワードシップ・コードの受け入れ"  Δy +571px (15873→16444)
+  PAIR         "アクサグループデータプライバシー宣言"  Δy +571px (15901→16472)
+  PAIR         "生命保険相談所(裁定審査会)について"  Δy +573px (15928→16501)
+  PAIR         "生命保険契約者保護機構について"  Δy +574px (15956→16530)
+  PAIR         "サイトポリシー"  Δy +575px (15983→16558)
+  PAIR         "Cookie設定"  Δy +576px (16011→16587)
+  PAIR         "アクサ・ホールディングス・ジャパン"  Δy +575px (16062→16637)
+  PAIR         "アクサ損害保険株式会社"  Δy +576px (16112→16688)
+  PAIR         "AXA.com"  Δy +576px (16162→16738)
+  PAIR         "Policy Privacy © 2024 AXA All Rights Res"  Δy +576px (16212→16788)
+
+✗ 32 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

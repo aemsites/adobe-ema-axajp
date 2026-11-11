@@ -1,0 +1,3 @@
+{
+  "customer": { "max": 5, "reason": "live parity (carried over from the prototype stage, prototypes-360/clip-allow.json): the five slider dots are hidden on live at 360 too (clip-probe on https://www.axa.co.jp/customer/)" }
+}

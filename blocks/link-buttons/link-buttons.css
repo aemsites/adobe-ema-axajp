@@ -1,0 +1,358 @@
+/* stylelint-disable no-descending-specificity -- variant rules follow the base rules */
+
+/* link-buttons — customer.css .before-* (default), .swi-* / .report-* (grouped),
+   .ct-contractor-section / .lbtn-* (white) + DirectButton (.db--white .ds-btn--white[-sm]) */
+main > .section > .link-buttons-wrapper {
+  max-width: 1078px;
+  padding: 0;
+}
+
+main > .section > .link-buttons-wrapper:has(> .link-buttons.white) {
+  max-width: none;
+}
+
+.link-buttons { margin: 1.75rem 0; }
+
+/* heading (.bordered-title) */
+.link-buttons .link-buttons-title :is(h2, h3) {
+  font-weight: 700;
+  border-left: 4px solid #e5e5e5;
+}
+
+.link-buttons .link-buttons-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.75rem 0;
+}
+
+.link-buttons .link-buttons-item { flex: 1 1 calc(50% - 0.5rem); }
+
+/* DirectButton — hover sweep 300 ms, colour 250 ms */
+.link-buttons .link-buttons-btn {
+  position: relative;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  background-color: var(--white);
+}
+
+.link-buttons .link-buttons-btn::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  display: block;
+  width: 0;
+  height: 120%;
+  transform: translate(-50%, -50%) skewX(-37.7deg);
+  transition: 0.3s ease-in-out;
+}
+
+.link-buttons .link-buttons-btn:hover::before {
+  width: 120%;
+  background-color: #000072;
+}
+
+.link-buttons .link-buttons-btn p {
+  display: flex;
+  flex: 1 0 100%;
+}
+
+.link-buttons .link-buttons-btn a:any-link {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex: 1 0 100%;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 12px 63px 12px 68px;
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: var(--blue);
+  border: 2px solid var(--blue);
+  transition: 0.25s;
+}
+
+.link-buttons .link-buttons-btn:hover a:any-link {
+  color: var(--white);
+  border-color: #000072;
+}
+
+.link-buttons .link-buttons-btn a:any-link::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  width: 15px;
+  height: 15px;
+  margin-top: -7.5px;
+  background-color: currentcolor;
+  mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 0 14 7"><g fill="none" stroke="black" stroke-linecap="round" stroke-width="2"><path d="M.5 3.5H11M9 7l2.798-3.5L9 0"/></g></svg>') center / contain no-repeat;
+}
+
+/* grouped (.swi-component-wrapper + .report-*): white lg buttons */
+.link-buttons.grouped {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 3.5rem 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.link-buttons.grouped .link-buttons-inner { width: 100%; }
+
+.link-buttons.grouped .link-buttons-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+/* the source img is the flex item (width 100%, max 110): the wrapper takes its sizing */
+.link-buttons.grouped .link-buttons-icon {
+  width: 100%;
+  max-width: 110px;
+}
+
+.link-buttons.grouped .link-buttons-icon img { width: 100%; }
+
+.link-buttons.grouped .link-buttons-title :is(h2, h3) {
+  margin: 0 0 0 1.3125rem;
+  padding: 0;
+  font-size: 1.575rem;
+  font-weight: 700;
+  border: 0;
+}
+
+.link-buttons.grouped .link-buttons-groups {
+  display: flex;
+  width: 100%;
+}
+
+.link-buttons.grouped .link-buttons-group {
+  width: 100%;
+  padding: 0.875rem;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+}
+
+.link-buttons.grouped .link-buttons-group-title :is(h3, h4) {
+  font-size: 1.1375rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.link-buttons.grouped .link-buttons-group-list .link-buttons-item { margin: 0.875rem 0; }
+
+.link-buttons.grouped .link-buttons-btn a:any-link {
+  min-height: 50px;
+  padding-right: 86px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.link-buttons.grouped .link-buttons-btn a:any-link::after { width: 18px; }
+
+@media (width >= 995px) {
+  .link-buttons.grouped .link-buttons-group-first { margin-right: 0.875rem; }
+  .link-buttons.grouped .link-buttons-group-last { margin-left: 0.875rem; }
+}
+
+@media (width <= 994px) {
+  .link-buttons.grouped .link-buttons-head {
+    display: block;
+    text-align: center;
+  }
+
+  .link-buttons.grouped .link-buttons-title :is(h2, h3) {
+    margin-top: 1.3125rem;
+    margin-left: 0;
+  }
+
+  .link-buttons.grouped .link-buttons-groups {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .link-buttons.grouped .link-buttons-group-first { margin-bottom: 0.875rem; }
+
+  .link-buttons.grouped .link-buttons-group-list {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* white (.ct-contractor-section + .lbtn-layout): grey band, white 2-column list */
+.link-buttons.white {
+  margin: 0;
+  padding: 2.625rem 0;
+  background-color: #f5f5f5;
+}
+
+.link-buttons.white .link-buttons-inner {
+  width: 100%;
+  max-width: 1078px;
+  margin: 0 auto;
+}
+
+.link-buttons.white .link-buttons-list {
+  gap: 0;
+  margin: 0;
+  background-color: var(--white);
+  box-shadow: #e5e5e5 0 1px 3px;
+}
+
+.link-buttons.white .link-buttons-item { flex: 0 1 auto; }
+
+.link-buttons.white .link-buttons-btn a:any-link {
+  justify-content: flex-start;
+  padding: 19px 55px 19px 20px;
+  text-align: left;
+  border: 1px solid #f5f5f5;
+}
+
+.link-buttons.white .link-buttons-btn:hover a:any-link { border-color: #f5f5f5; }
+.link-buttons.white .link-buttons-btn a:any-link::after { right: 20px; }
+
+@media (width >= 768px) {
+  .link-buttons .link-buttons-title :is(h2, h3) {
+    margin-bottom: 1.3125rem;
+    padding-left: 1.3125rem;
+    font-size: 1.4875rem;
+  }
+
+  .link-buttons .link-buttons-btn a:any-link { min-height: 49px; }
+  .link-buttons.white .link-buttons-item { width: 50%; }
+}
+
+@media (width <= 767px) {
+  main > .section > .link-buttons-wrapper { padding: 0 0.875rem; }
+  main > .section > .link-buttons-wrapper:has(> .link-buttons.white) { padding: 0; }
+
+  .link-buttons .link-buttons-title :is(h2, h3) {
+    margin-bottom: 0.875rem;
+    padding-left: 0.875rem;
+    font-size: 1.3125rem;
+  }
+
+  .link-buttons .link-buttons-list { flex-direction: column; }
+  .link-buttons .link-buttons-item { flex: 1 1 100%; }
+  .link-buttons.grouped { flex-direction: column; }
+  .link-buttons.white .link-buttons-inner { padding: 0 0.875rem; }
+  .link-buttons.white .link-buttons-item { width: 100%; }
+}
+
+/* category — product `.cat-category-links-row` (4-up / 2-up arrow links) */
+.link-buttons.category {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.25rem 0.5rem;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 0;
+}
+
+.link-buttons.category .link-buttons-cat {
+  display: flex;
+  gap: 0.5rem;
+  color: var(--blue);
+  font-size: 0.9975rem;
+  text-decoration: none;
+}
+
+.link-buttons.category .link-buttons-cat > svg {
+  flex: none;
+  width: 1rem;
+  height: 1rem;
+  fill: var(--blue);
+}
+
+.link-buttons.category .link-buttons-cat-label {
+  display: flex;
+  width: 100%;
+  font-size: 0.9975rem;
+  color: var(--blue);
+}
+
+.link-buttons.category .link-buttons-cat-label p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+/* outline — product other-products grid, 商品一覧 → link, full-width contract button */
+.link-buttons.outline { margin: 0; }
+.link-buttons.outline .link-buttons-run { margin-bottom: 1rem; }
+
+.link-buttons.outline .link-buttons-run:not(.link-buttons-run-single) {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-content: stretch;
+  gap: 1.25rem;
+}
+
+.link-buttons.outline .link-buttons-outline-btn a:any-link {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  overflow: hidden;
+  border: 2px solid var(--blue);
+  border-radius: 4px;
+  color: var(--blue);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.link-buttons.outline .link-buttons-outline-btn a:any-link:hover {
+  border-color: #00006d;
+  color: #00006d;
+}
+
+.link-buttons.outline .link-buttons-outline-btn svg {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  margin-left: 4px;
+  fill: currentcolor;
+}
+
+.link-buttons.outline .link-buttons-more {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.link-buttons.outline .link-buttons-more a:any-link {
+  color: var(--blue);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+@media (width >= 768px) {
+  .link-buttons.category .link-buttons-cat-wide { grid-column: span 2 / span 2; }
+  .link-buttons.category .link-buttons-cat-label br { display: none; }
+}
+
+@media (width <= 767px) {
+  .link-buttons.category {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.1rem 0.5rem;
+    align-items: start;
+  }
+
+  .link-buttons.category .link-buttons-cat-label { font-size: 14px; }
+  .link-buttons.category .link-buttons-cat-label p { flex-direction: column; }
+  .link-buttons.outline .link-buttons-run:not(.link-buttons-run-single) { gap: 1rem 0.5rem; }
+}

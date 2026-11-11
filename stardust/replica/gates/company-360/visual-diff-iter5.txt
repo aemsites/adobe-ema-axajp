@@ -1,0 +1,1436 @@
+[live-session] waiting to pace live navigations to www.axa.co.jp (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 957 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/company-360/vdiff-iter5/
+
+build red flags (advisory): 
+  • FONT MISMATCH: heading "関連リンク" wants "Noto Sans JP" but it did NOT load in build (silent fallback). A named face loaded in the source but not the build — load the missing face.
+  • HEADING FACE: <h2> "事業保障資金の確保" is 22.4px Noto Sans JP in build vs 19.6px Noto Sans JP in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "死亡退職金の準備" is 22.4px Noto Sans JP in build vs 19.6px Noto Sans JP in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "従業員の福利厚生" is 22.4px Noto Sans JP in build vs 19.6px Noto Sans JP in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "従業員の退職金準備" is 22.4px Noto Sans JP in build vs 19.6px Noto Sans JP in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "経営者の勇退準備" is 22.4px Noto Sans JP in build vs 19.6px Noto Sans JP in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "事業承継・相続" is 22.4px Noto Sans JP in build vs 19.6px Noto Sans JP in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "法人のお客さまを対象に、さまざまなサービスを提供しています。" is 19.6px Noto Sans JP in build vs 16.8px Noto Sans JP in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "アクサ生命へのご照会、ご相談は以下で受け付けております。" is 19.6px Noto Sans JP in build vs 16.8px Noto Sans JP in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 14991,
+  "textLen": 3649,
+  "images": [
+   {
+    "src": "aQmgKbpReVYa3_e8_02_pc.jpg?auto=format,compress",
+    "natural": "1050x107",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgK7pReVYa3_e9_02_sp.jpg?auto=format,compress",
+    "natural": "663x300",
+    "rendered": "360x163",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "76x76",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMbpReVYa3_fC_q_sp.png?auto=format,compress",
+    "natural": "69x67",
+    "rendered": "69x67",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgM7pReVYa3_fD_company_01_pc.png?auto=format,compress",
+    "natural": "946x306",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNLpReVYa3_fF_company_01_sp.png?auto=format,compress",
+    "natural": "574x637",
+    "rendered": "356x395",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNbpReVYa3_fG_05_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNrpReVYa3_fH_05_sp.png?auto=format,compress",
+    "natural": "151x151",
+    "rendered": "76x76",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "76x76",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "39x37",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgPLpReVYa3_fM_company_02_pc.png?auto=format,compress",
+    "natural": "946x305",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgPrpReVYa3_fN_company_02_sp.png?auto=format,compress",
+    "natural": "574x647",
+    "rendered": "356x401",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNbpReVYa3_fG_05_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNrpReVYa3_fH_05_sp.png?auto=format,compress",
+    "natural": "151x151",
+    "rendered": "69x69",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "76x76",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "39x37",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgQrpReVYa3_fQ_company_03_3_pc.png?auto=format,compress",
+    "natural": "603x274",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgQ7pReVYa3_fR_company_03_sp.png?auto=format,compress",
+    "natural": "574x462",
+    "rendered": "328x264",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgRLpReVYa3_fS_ph-02.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgRLpReVYa3_fS_ph-02.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "328x98",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNbpReVYa3_fG_05_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNrpReVYa3_fH_05_sp.png?auto=format,compress",
+    "natural": "151x151",
+    "rendered": "69x69",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "76x76",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "39x37",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgR7pReVYa3_fV_company_04_2_temp.jpg?auto=format,compress",
+    "natural": "439x410",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgR7pReVYa3_fV_company_04_2_temp.jpg?auto=format,compress",
+    "natural": "439x410",
+    "rendered": "328x254",
+    "fit": "fill",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "69x69",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "39x37",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgSLpReVYa3_fW_company_09_pc.png?auto=format,compress",
+    "natural": "946x210",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgSbpReVYa3_fX_company_09_sp.png?auto=format,compress",
+    "natural": "574x627",
+    "rendered": "356x389",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNbpReVYa3_fG_05_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNrpReVYa3_fH_05_sp.png?auto=format,compress",
+    "natural": "151x151",
+    "rendered": "69x69",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "76x76",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "39x37",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgS7pReVYa3_fZ_company_06.png?auto=format,compress",
+    "natural": "574x581",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgS7pReVYa3_fZ_company_06.png?auto=format,compress",
+    "natural": "574x581",
+    "rendered": "356x360",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNbpReVYa3_fG_05_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNrpReVYa3_fH_05_sp.png?auto=format,compress",
+    "natural": "151x151",
+    "rendered": "69x69",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "76x76",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "39x37",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgTrpReVYa3_fb_company_07_pc.png?auto=format,compress",
+    "natural": "945x279",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgULpReVYa3_fc_company_07_sp.png?auto=format,compress",
+    "natural": "574x1464",
+    "rendered": "356x908",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNbpReVYa3_fG_05_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNrpReVYa3_fH_05_sp.png?auto=format,compress",
+    "natural": "151x151",
+    "rendered": "69x69",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgUbpReVYa3_fd_ph-01.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgUbpReVYa3_fd_ph-01.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "328x98",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgRLpReVYa3_fS_ph-02.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgRLpReVYa3_fS_ph-02.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "328x98",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgUrpReVYa3_fe_ph-03.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgUrpReVYa3_fe_ph-03.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "328x98",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ln_logo.png",
+    "natural": "318x270",
+    "rendered": "24x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=97045623&Ver=2&mid=0ae14312-8d83-4359-a2ff-2a15f5cc4623&bo=1&sid=38980240dbfb11f1acc1311e4dda32ec&vid=38985140dbfb11f1adebe395bb3d1d69&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=360&sh=1000&sc=24&tl=%E3%82%A2%E3%82%AF%E3%82%B5%E7%94%9F%E5%91%BD%E4%BF%9D%E9%99%BA%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE&p=https%3A%2F%2Fwww.axa.co.jp%2Fcompany%2F&r=&lt=1512&evt=pageLoad&sv=2&cdb=AQAQ&rn=722925",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "ot_company_logo.png",
+    "natural": "2042x280",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "法人のお客さま",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "28px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "事業保障資金の確保",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "19.6px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "死亡退職金の準備",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "19.6px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "従業員の福利厚生",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "19.6px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "従業員の退職金準備",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "19.6px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "経営者の勇退準備",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "19.6px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "事業承継・相続",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "19.6px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "法人のお客さまを対象に、さまざまなサービスを提供しています。",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "16.8px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "関連リンク",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "16.8px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "アクサ生命へのご照会、ご相談は以下で受け付けております。",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "16.8px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Follow AXA",
+    "color": "rgb(52, 60, 61)"
+   }
+  ],
+  "flushText": [
+   {
+    "tag": "p",
+    "text": "法人のお客さま",
+    "left": 0
+   },
+   {
+    "tag": "p",
+    "text": "事業保障資金の確保",
+    "left": 2
+   },
+   {
+    "tag": "p",
+    "text": "死亡退職金の準備",
+    "left": 2
+   },
+   {
+    "tag": "p",
+    "text": "従業員の福利厚生",
+    "left": 2
+   },
+   {
+    "tag": "p",
+    "text": "従業員の退職金準備",
+    "left": 2
+   },
+   {
+    "tag": "p",
+    "text": "経営者の勇退準備",
+    "left": 2
+   },
+   {
+    "tag": "p",
+    "text": "事業承継・相続",
+    "left": 2
+   }
+  ],
+  "contentBoxes": [
+   {
+    "sel": "Heading__SliceHeading-sc-fc73c69e-0",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "after-anchor",
+    "width": 344,
+    "left": 16
+   },
+   {
+    "sel": "after-anchor",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "after-anchor",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "after-anchor",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "sc-iqkkDd",
+    "width": 251,
+    "left": 37
+   },
+   {
+    "sel": "sc-iqkkDd",
+    "width": 251,
+    "left": 37
+   },
+   {
+    "sel": "sc-iqkkDd",
+    "width": 251,
+    "left": 37
+   },
+   {
+    "sel": "sc-iqkkDd",
+    "width": 251,
+    "left": 37
+   },
+   {
+    "sel": "sc-iqkkDd",
+    "width": 251,
+    "left": 37
+   },
+   {
+    "sel": "sc-iqkkDd",
+    "width": 251,
+    "left": 37
+   },
+   {
+    "sel": "slice-heading-inner",
+    "width": 252,
+    "left": 2
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 14995,
+  "textLen": 3616,
+  "images": [
+   {
+    "src": "aQmgKbpReVYa3_e8_02_pc.jpg?auto=format,compress",
+    "natural": "1050x107",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgK7pReVYa3_e9_02_sp.jpg?auto=format,compress",
+    "natural": "663x300",
+    "rendered": "360x163",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "76x76",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMbpReVYa3_fC_q_sp.png?auto=format,compress",
+    "natural": "69x67",
+    "rendered": "69x67",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgM7pReVYa3_fD_company_01_pc.png?auto=format,compress",
+    "natural": "946x306",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNLpReVYa3_fF_company_01_sp.png?auto=format,compress",
+    "natural": "574x637",
+    "rendered": "356x395",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNbpReVYa3_fG_05_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNrpReVYa3_fH_05_sp.png?auto=format,compress",
+    "natural": "151x151",
+    "rendered": "76x76",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "76x76",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "39x37",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgPLpReVYa3_fM_company_02_pc.png?auto=format,compress",
+    "natural": "946x305",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgPrpReVYa3_fN_company_02_sp.png?auto=format,compress",
+    "natural": "574x647",
+    "rendered": "356x401",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNbpReVYa3_fG_05_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNrpReVYa3_fH_05_sp.png?auto=format,compress",
+    "natural": "151x151",
+    "rendered": "69x69",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "76x76",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "39x37",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgQrpReVYa3_fQ_company_03_3_pc.png?auto=format,compress",
+    "natural": "603x274",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgQ7pReVYa3_fR_company_03_sp.png?auto=format,compress",
+    "natural": "574x462",
+    "rendered": "328x264",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgRLpReVYa3_fS_ph-02.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgRLpReVYa3_fS_ph-02.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "328x98",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNbpReVYa3_fG_05_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNrpReVYa3_fH_05_sp.png?auto=format,compress",
+    "natural": "151x151",
+    "rendered": "69x69",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "76x76",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "39x37",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgR7pReVYa3_fV_company_04_2_temp.jpg?auto=format,compress",
+    "natural": "439x410",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgR7pReVYa3_fV_company_04_2_temp.jpg?auto=format,compress",
+    "natural": "439x410",
+    "rendered": "328x254",
+    "fit": "fill",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "69x69",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "39x37",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgSLpReVYa3_fW_company_09_pc.png?auto=format,compress",
+    "natural": "946x210",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgSbpReVYa3_fX_company_09_sp.png?auto=format,compress",
+    "natural": "574x627",
+    "rendered": "356x389",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNbpReVYa3_fG_05_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNrpReVYa3_fH_05_sp.png?auto=format,compress",
+    "natural": "151x151",
+    "rendered": "69x69",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "76x76",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "39x37",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgS7pReVYa3_fZ_company_06.png?auto=format,compress",
+    "natural": "574x581",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgS7pReVYa3_fZ_company_06.png?auto=format,compress",
+    "natural": "574x581",
+    "rendered": "356x360",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNbpReVYa3_fG_05_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNrpReVYa3_fH_05_sp.png?auto=format,compress",
+    "natural": "151x151",
+    "rendered": "69x69",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgL7pReVYa3_fA_23_factory-president_p_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "76x76",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgMLpReVYa3_fB_q.png?auto=format,compress",
+    "natural": "42x40",
+    "rendered": "39x37",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgTrpReVYa3_fb_company_07_pc.png?auto=format,compress",
+    "natural": "945x279",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgULpReVYa3_fc_company_07_sp.png?auto=format,compress",
+    "natural": "574x1464",
+    "rendered": "356x908",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNbpReVYa3_fG_05_pc.png?auto=format,compress",
+    "natural": "100x100",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgNrpReVYa3_fH_05_sp.png?auto=format,compress",
+    "natural": "151x151",
+    "rendered": "69x69",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgUbpReVYa3_fd_ph-01.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgUbpReVYa3_fd_ph-01.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "328x98",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgRLpReVYa3_fS_ph-02.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgRLpReVYa3_fS_ph-02.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "328x98",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgUrpReVYa3_fe_ph-03.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "aQmgUrpReVYa3_fe_ph-03.png?auto=format,compress",
+    "natural": "500x150",
+    "rendered": "328x98",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ln_logo.png",
+    "natural": "318x270",
+    "rendered": "24x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "法人のお客さま",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "28px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "事業保障資金の確保",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "死亡退職金の準備",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "従業員の福利厚生",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "従業員の退職金準備",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "経営者の勇退準備",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "事業承継・相続",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "22.4px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "法人のお客さまを対象に、さまざまなサービスを提供しています。",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "19.6px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "関連リンク",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "19.6px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "アクサ生命へのご照会、ご相談は以下で受け付けております。",
+    "color": "rgb(51, 51, 51)",
+    "fontSize": "19.6px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Follow AXA",
+    "color": "rgb(52, 60, 61)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "slice",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "slice-text",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "slice-text",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "slice-text",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "slice-text",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "anchor-btn__label",
+    "width": 251,
+    "left": 37
+   },
+   {
+    "sel": "anchor-btn__label",
+    "width": 251,
+    "left": 37
+   },
+   {
+    "sel": "anchor-btn__label",
+    "width": 251,
+    "left": 37
+   },
+   {
+    "sel": "anchor-btn__label",
+    "width": 251,
+    "left": 37
+   },
+   {
+    "sel": "anchor-btn__label",
+    "width": 251,
+    "left": 37
+   },
+   {
+    "sel": "anchor-btn__label",
+    "width": 251,
+    "left": 37
+   },
+   {
+    "sel": "slice",
+    "width": 356,
+    "left": 2
+   }
+  ]
+ }
+}

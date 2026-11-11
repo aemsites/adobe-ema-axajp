@@ -1,0 +1,68 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-11-09T07:33:49.416Z",
+  "input": "stardust/current/_dynamics.json",
+  "martech": "stardust/martech"
+ },
+ "productionHosts": [
+  "www.axa.co.jp"
+ ],
+ "consent": {
+  "cmp": {
+   "vendor": "OneTrust",
+   "src": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+   "attrs": {
+    "data-domain-script": null
+   },
+   "groups": "OnetrustActiveGroups",
+   "event": "OneTrustGroupsUpdated",
+   "viaTagManager": false,
+   "enabled": false
+  },
+  "model": "owner-decision",
+  "categories": [],
+  "ruleSets": 0,
+  "consentMode": {
+   "pages": 0,
+   "of": 7,
+   "libraries": [
+    "tags/www.googletagmanager.com-gtm-GTM-T87MNJG.js"
+   ]
+  }
+ },
+ "routes": [
+  {
+   "id": "google-tag-manager",
+   "vendor": "Google Tag Manager",
+   "src": "https://www.googletagmanager.com/gtm.js?id=GTM-T87MNJG",
+   "boot": "gtm",
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  }
+ ],
+ "otherTags": [
+  "analytics: Google Analytics / Ads",
+  "analytics: session replay",
+  "RUM: New Relic",
+  "marketing: ad / retargeting pixel",
+  "chat: live chat widget"
+ ],
+ "tagManagers": [
+  "Google Tag Manager"
+ ],
+ "dataLayers": [
+  "dataLayer"
+ ],
+ "tagNotes": {},
+ "rewrite": {
+  "library": null,
+  "rules": [],
+  "dataElements": [],
+  "dataLayer": [],
+  "dataLayerPaths": []
+ },
+ "aemMartech": null,
+ "target": null
+}

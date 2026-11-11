@@ -1,0 +1,9 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://www.axa.co.jp/customer/",
+  "log": [
+    "stitched stardust/replica/gates/all-1440/customer/origin.png: 1440x5903 from 7 chunks"
+  ],
+  "fontsFailed": [],
+  "at": "2026-11-09T09:09:15.768Z"
+}

@@ -1,0 +1,534 @@
+[live-session] waiting to pace live navigations to www.axa.co.jp (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 581 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/customer-360/vdiff-iter3/
+
+build red flags (advisory): 
+  • SURFACE/GROUND MISMATCH: heading "ご契約者さま" is rgb(255, 255, 255) in build vs rgb(52, 60, 61) in source (luminance 255 vs 58). A matched heading renders on a different ground (dark vs light) — check the section background.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 6390,
+  "textLen": 1149,
+  "images": [
+   {
+    "src": "aWBQzgIvOtkhBIqS_customer_banner_family.png?auto=format,compress",
+    "natural": "574x274",
+    "rendered": "136x65",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "XlkfxEsaRJpR6n9O_%E3%80%90ice%E3%80%91Customer-top_MyAXACampaign_pcsp-1-.jpg?auto=format,compress",
+    "natural": "1148x548",
+    "rendered": "136x65",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aWBQzgIvOtkhBIqT_customer_banner_claim.png?auto=format,compress",
+    "natural": "574x274",
+    "rendered": "136x65",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aWBQzQIvOtkhBIqR_customer_banner_LINE.png?auto=format,compress",
+    "natural": "574x274",
+    "rendered": "136x65",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aWBQzwIvOtkhBIqU_customer_banner_address.png?auto=format,compress",
+    "natural": "574x274",
+    "rendered": "136x65",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aWBQzgIvOtkhBIqS_customer_banner_family.png?auto=format,compress",
+    "natural": "574x274",
+    "rendered": "136x65",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "XlkfxEsaRJpR6n9O_%E3%80%90ice%E3%80%91Customer-top_MyAXACampaign_pcsp-1-.jpg?auto=format,compress",
+    "natural": "1148x548",
+    "rendered": "136x65",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aWBQzgIvOtkhBIqT_customer_banner_claim.png?auto=format,compress",
+    "natural": "574x274",
+    "rendered": "136x65",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aWBQzQIvOtkhBIqR_customer_banner_LINE.png?auto=format,compress",
+    "natural": "574x274",
+    "rendered": "136x65",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon1.png",
+    "natural": "110x110",
+    "rendered": "110x110",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon2.png",
+    "natural": "110x110",
+    "rendered": "110x110",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon3.png",
+    "natural": "110x110",
+    "rendered": "110x110",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon4.png",
+    "natural": "110x110",
+    "rendered": "110x110",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ameasa-lady.png",
+    "natural": "900x272",
+    "rendered": "332x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ln_logo.png",
+    "natural": "318x270",
+    "rendered": "24x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=97045623&Ver=2&mid=9a63af55-409d-43a2-b6a0-bb4589738bb9&bo=1&sid=38980240dbfb11f1acc1311e4dda32ec&vid=38985140dbfb11f1adebe395bb3d1d69&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=360&sh=1000&sc=24&tl=%E3%82%A2%E3%82%AF%E3%82%B5%E7%94%9F%E5%91%BD%E4%BF%9D%E9%99%BA%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE&p=https%3A%2F%2Fwww.axa.co.jp%2Fcustomer%2F&r=&lt=1918&evt=pageLoad&sv=2&cdb=AQAQ&rn=942964",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "ot_company_logo.png",
+    "natural": "2042x280",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "ご契約者さま",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "33.6px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "運用情報（変額保険）",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "25.2px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "付帯サービス（健康相談サービスなど）",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "25.2px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "ご契約者さまへのお知らせ",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "25.2px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "お問い合わせ前のご確認",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "21px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "電話からのお問い合わせ",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "21px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "ご契約者さま",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "21px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Follow AXA",
+    "color": "rgb(52, 60, 61)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "Banner__TitleContainer-sc-cab1403d-2",
+    "width": 332,
+    "left": 14
+   },
+   {
+    "sel": "BannerRight__MyAxaLoginWrapper-sc-83b4d0a-0",
+    "width": 331,
+    "left": 14
+   },
+   {
+    "sel": "CustomerTop-styles__Card-sc-a3278f34-0",
+    "width": 302,
+    "left": 29
+   },
+   {
+    "sel": "SectionWithIcon__ContentHeader-sc-cdfd88b5-7",
+    "width": 332,
+    "left": 14
+   },
+   {
+    "sel": "Ameasa__ServicesWrapper-sc-8eceaa13-5",
+    "width": 332,
+    "left": 14
+   },
+   {
+    "sel": "CustomerInfo-styles__NoticeDescription-sc-df45de50-8",
+    "width": 317,
+    "left": 14
+   },
+   {
+    "sel": "CustomerInfo-styles__NoticeDescription-sc-df45de50-8",
+    "width": 317,
+    "left": 14
+   },
+   {
+    "sel": "CustomerInfo-styles__NoticeDescription-sc-df45de50-8",
+    "width": 317,
+    "left": 14
+   },
+   {
+    "sel": "CustomerInfo-styles__NoticeDescription-sc-df45de50-8",
+    "width": 317,
+    "left": 14
+   },
+   {
+    "sel": "BeforeContact__ComponentWrapper-sc-6a9224d8-0",
+    "width": 332,
+    "left": 14
+   },
+   {
+    "sel": "CustomerContact-styles__ComponentWrapper-sc-891b735b-2",
+    "width": 332,
+    "left": 14
+   },
+   {
+    "sel": "Layout-sc-f22cece7-3",
+    "width": 360,
+    "left": 0
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 6390,
+  "textLen": 1149,
+  "images": [
+   {
+    "src": "aWBQzgIvOtkhBIqS_customer_banner_family.png?auto=format,compress",
+    "natural": "574x274",
+    "rendered": "136x65",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "XlkfxEsaRJpR6n9O_%E3%80%90ice%E3%80%91Customer-top_MyAXACampaign_pcsp-1-.jpg?auto=format,compress",
+    "natural": "1148x548",
+    "rendered": "136x65",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aWBQzgIvOtkhBIqT_customer_banner_claim.png?auto=format,compress",
+    "natural": "574x274",
+    "rendered": "136x65",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aWBQzQIvOtkhBIqR_customer_banner_LINE.png?auto=format,compress",
+    "natural": "574x274",
+    "rendered": "136x65",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aWBQzwIvOtkhBIqU_customer_banner_address.png?auto=format,compress",
+    "natural": "574x274",
+    "rendered": "136x65",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aWBQzgIvOtkhBIqS_customer_banner_family.png?auto=format,compress",
+    "natural": "574x274",
+    "rendered": "136x65",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "XlkfxEsaRJpR6n9O_%E3%80%90ice%E3%80%91Customer-top_MyAXACampaign_pcsp-1-.jpg?auto=format,compress",
+    "natural": "1148x548",
+    "rendered": "136x65",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aWBQzgIvOtkhBIqT_customer_banner_claim.png?auto=format,compress",
+    "natural": "574x274",
+    "rendered": "136x65",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aWBQzQIvOtkhBIqR_customer_banner_LINE.png?auto=format,compress",
+    "natural": "574x274",
+    "rendered": "136x65",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon1.png",
+    "natural": "110x110",
+    "rendered": "110x110",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon2.png",
+    "natural": "110x110",
+    "rendered": "110x110",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon3.png",
+    "natural": "110x110",
+    "rendered": "110x110",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon4.png",
+    "natural": "110x110",
+    "rendered": "110x110",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ameasa-lady.png",
+    "natural": "900x272",
+    "rendered": "332x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ln_logo.png",
+    "natural": "318x270",
+    "rendered": "24x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "ご契約者さま",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "33.6px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "運用情報（変額保険）",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "25.2px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "付帯サービス（健康相談サービスなど）",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "25.2px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "ご契約者さまへのお知らせ",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "25.2px",
+    "family": "Noto Sans JP",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "お問い合わせ前のご確認",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "21px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "電話からのお問い合わせ",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "21px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "ご契約者さま",
+    "color": "rgb(52, 60, 61)",
+    "fontSize": "21px",
+    "family": "Noto Sans JP",
+    "fontLoaded": false
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Follow AXA",
+    "color": "rgb(52, 60, 61)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "banner-title-container",
+    "width": 332,
+    "left": 14
+   },
+   {
+    "sel": "ct-card",
+    "width": 302,
+    "left": 29
+   },
+   {
+    "sel": "swi-content-header",
+    "width": 332,
+    "left": 14
+   },
+   {
+    "sel": "swi-right-side",
+    "width": 332,
+    "left": 14
+   },
+   {
+    "sel": "cinfo-notice-description",
+    "width": 317,
+    "left": 14
+   },
+   {
+    "sel": "cinfo-notice-description",
+    "width": 317,
+    "left": 14
+   },
+   {
+    "sel": "cinfo-notice-description",
+    "width": 317,
+    "left": 14
+   },
+   {
+    "sel": "cinfo-notice-description",
+    "width": 317,
+    "left": 14
+   },
+   {
+    "sel": "layout",
+    "width": 332,
+    "left": 14
+   },
+   {
+    "sel": "layout",
+    "width": 360,
+    "left": 0
+   }
+  ]
+ }
+}

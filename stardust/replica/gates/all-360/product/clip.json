@@ -1,0 +1,57 @@
+{
+ "url": "https://main--80b77690--aemcoder.aem.page/product",
+ "at": "2026-11-09T13:13:12.629Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 39,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 0,
+  "offPage": 0,
+  "textNodes": 361,
+  "controls": 293,
+  "total": 39
+ },
+ "groups": [
+  {
+   "kind": "TEXT CLIPPED",
+   "advisory": false,
+   "n": 38,
+   "clipper": "a",
+   "path": "div.accordion-product > div.accordion-product-buttons > p.accordion-btn-primary > a",
+   "text": "詳しく見る",
+   "cutMin": 4,
+   "cutMax": 16
+  },
+  {
+   "kind": "TEXT CLIPPED",
+   "advisory": false,
+   "n": 1,
+   "clipper": "a.primary",
+   "path": "div.page-banner-ctas > div.page-banner-cta.page-banner-cta-orange > p > a.primary",
+   "text": "専門スタッフに 電話で相談(無料)",
+   "cutMin": 4,
+   "cutMax": 4
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 39,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 0,
+   "offPage": 0,
+   "textNodes": 361,
+   "controls": 298,
+   "total": 39
+  }
+ }
+}
